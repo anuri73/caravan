@@ -7,5 +7,10 @@
 .scala/
 .vscode/
 *.worksheet.sc
+boot/
+logs/
+lib_managed/
 metals.sbt
+project/plugins/project/
+src_managed/
 target/

@@ -1,12 +1,18 @@
 import sbt._
 
 object Dependencies {
-  val ZioVersion   = "1.0.13"
-  val ZHTTPVersion = "1.0.0.0-RC24"
+  lazy val `zio-http`          = zio("http", Version.ZioHTTP)
+  lazy val `zio-slick-interop` = "io.scalac"     %% "zio-slick-interop" % Version.ZioSlickInterop
+  lazy val `postgresql`        = "org.postgresql" % "postgresql"        % Version.Postgresql
+  lazy val `logback-classic`   = "ch.qos.logback" % "logback-classic"   % Version.LogbackClassic
+  lazy val `testcontainers`    = "com.dimafeng" %% "testcontainers-scala-postgresql" % Version.TestContainers
 
-  val `zio-http`      = "io.d11" %% "zhttp" % ZHTTPVersion
-  val `zio-http-test` = "io.d11" %% "zhttp" % ZHTTPVersion % Test
+  def flyway(project: String = "", version: String = Version.Flyway): ModuleID =
+    "org.flywaydb" % Seq("flyway", project).filter(_.nonEmpty).mkString("-") % version
 
-  val `zio-test`     = "dev.zio" %% "zio-test"     % ZioVersion % Test
-  val `zio-test-sbt` = "dev.zio" %% "zio-test-sbt" % ZioVersion % Test
+  def slick(project: String = "", version: String = Version.Slick): ModuleID =
+    "com.typesafe.slick" %% Seq("slick", project).filter(_.nonEmpty).mkString("-") % version
+
+  def zio(project: String = "", version: String = Version.Zio): ModuleID =
+    "dev.zio" %% Seq("zio", project).filter(_.nonEmpty).mkString("-") % version
 }
