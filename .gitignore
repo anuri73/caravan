@@ -4,3 +4,5 @@
 .idea
 # Local docker compose
 docker-compose.yml
+# Nginx logs
+/services/nginx/logs/*
