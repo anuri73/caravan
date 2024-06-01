@@ -1,0 +1,6 @@
+# Local nvironments
+.env
+# Idea settings
+.idea
+# Local docker compose
+docker-compose.yml
