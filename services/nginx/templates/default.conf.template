@@ -1,6 +1,6 @@
 server {
     listen      80;
-    server_name caravan.localhost;
+    server_name ${ENV_DOMAIN};
     root        /var/www/src/public;
 
     location / {
@@ -9,7 +9,7 @@ server {
     }
 
     location ~^/index\.php(/|$) {
-        fastcgi_pass php-fpm:9000;
+        fastcgi_pass ${ENV_CONTAINER_PHP_FPM}:9000;
         fastcgi_split_path_info ^(.+\.php)(/.*)$;
         include fastcgi_params;
         # optionally set the value of the environment variables used in the application

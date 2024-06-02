@@ -1,8 +1,9 @@
 # Local nvironments
-.env
+/.env
 # Idea settings
 .idea
 # Local docker compose
 docker-compose.yml
-# Nginx logs
+# Nginx
+/services/nginx/conf.d/*
 /services/nginx/logs/*

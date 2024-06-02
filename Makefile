@@ -1,4 +1,10 @@
+include .env.dist
+
+CONTAINER_NGINX=${ENV_CONTAINER_NGINX}
+CONTAINER_PHP=${ENV_CONTAINER_PHP_FPM}
 DC=docker-compose
+DC_PHP=@$(DC) exec $(CONTAINER_PHP)
+DC_PHP_COMPOSER_INSTALL=$(DC_PHP) composer
 UP=@$(DC) -f docker-compose.yml up -d
 
 export
@@ -29,6 +35,22 @@ install:
 	make copy-docker-compose
 	make create-web-network
 	make build-and-up
+	make php-composer-install
+
+nginx-ssh:
+	@$(DC) exec $(CONTAINER_NGINX) bash
+
+php-composer-install:
+	@$(DC_PHP_COMPOSER_INSTALL) install --no-scripts --no-suggest -o
+
+php-composer-clear-var:
+	@$(DC_PHP) rm -rf var
+
+php-composer-clear-vendor:
+	@$(DC_PHP) rm -rf vendor
+
+php-ssh:
+	@$(DC) exec $(CONTAINER_PHP) bash
 
 # Show container statuses
 ps:
@@ -40,6 +62,8 @@ pull:
 
 # Reset project settings and data
 remove:
+	make php-composer-clear-var
+	make php-composer-clear-vendor
 	make down
 	make remove-web-network
 	make remove-docker-compose
