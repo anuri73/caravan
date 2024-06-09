@@ -1,5 +1,4 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+category:
+  resource: 'routes/api.xml'
+  type: xml
+  prefix: api
