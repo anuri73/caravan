@@ -2,32 +2,44 @@
 
 namespace App\dataprovider;
 
-use App\model\Category;
+use App\Entity\Category;
+use App\Repository\CategoryRepository;
+use Doctrine\Common\Collections\Collection;
 
 class CategoryDataProvider implements DataProviderInterface
 {
-    public function find(string $id)
+    private CategoryRepository $categoryRepository;
+
+    public function __construct(CategoryRepository $categoryRepository)
     {
-        return new Category(1, "Test category");
+        $this->categoryRepository = $categoryRepository;
     }
 
-    public function next(int $offset, int $limit)
+    public function find(string $id): ?Category
     {
-        return [new Category(1, "Test category")];
+        return $this->categoryRepository->find($id);
     }
 
-    public function add($entity)
+    public function next(int $offset, int $limit): Collection
     {
-        return new Category(1, "Test category");
+        return $this->categoryRepository->next($offset, $limit);
+    }
+
+    public function add($entity): Category
+    {
+        $this->categoryRepository->saveEntity($entity);
+        return $entity;
     }
 
     public function update($entity)
     {
-        return new Category(1, "Test category");
+        $this->categoryRepository->saveEntity($entity);
+        return $entity;
     }
 
     public function delete($entity)
     {
+        $this->categoryRepository->removeEntity($entity);
         return null;
     }
 }
