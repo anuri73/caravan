@@ -7,6 +7,7 @@ use DateTimeImmutable;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Attribute as Serializer;
 
 #[ORM\Entity(repositoryClass: CategoryRepository::class)]
 #[ORM\Table(name: 'category')]
@@ -22,24 +23,32 @@ class Category
     #[ORM\Column(nullable: true)]
     private ?int $priority = null;
 
-    #[ORM\ManyToOne(targetEntity: self::class, inversedBy: 'children')]
-    #[ORM\JoinColumn(name: 'parent_category', referencedColumnName: 'name')]
-    private ?self $parentCategory = null;
-
-    /**
-     * @var Collection<int, self>
-     */
-    #[ORM\OneToMany(targetEntity: self::class, mappedBy: 'parentCategory')]
-    private Collection $children;
-
     #[ORM\Column]
     private ?DateTimeImmutable $createdAt = null;
 
     #[ORM\Column]
     private ?DateTimeImmutable $updatedAt = null;
 
+    /**
+     * @var Collection<int, self>
+     */
+    #[ORM\ManyToMany(targetEntity: self::class, inversedBy: 'children')]
+    #[ORM\JoinTable(name: 'category_parent')]
+    #[ORM\JoinColumn(name: 'category_name', referencedColumnName: 'name')]
+    #[ORM\InverseJoinColumn(name: 'parent_name', referencedColumnName: 'name')]
+    #[Serializer\MaxDepth(1)]
+    private Collection $parents;
+
+    /**
+     * @var Collection<int, self>
+     */
+    #[ORM\ManyToMany(targetEntity: self::class, mappedBy: 'parents')]
+    #[Serializer\MaxDepth(1)]
+    private Collection $children;
+
     public function __construct()
     {
+        $this->parents = new ArrayCollection();
         $this->children = new ArrayCollection();
     }
 
@@ -63,48 +72,6 @@ class Category
     public function setPriority(?int $priority): static
     {
         $this->priority = $priority;
-
-        return $this;
-    }
-
-    public function getParentCategory(): ?self
-    {
-        return $this->parentCategory;
-    }
-
-    public function setParentCategory(?self $parentCategory): static
-    {
-        $this->parentCategory = $parentCategory;
-
-        return $this;
-    }
-
-    /**
-     * @return Collection<int, self>
-     */
-    public function getChildren(): Collection
-    {
-        return $this->children;
-    }
-
-    public function addChild(self $child): static
-    {
-        if (!$this->children->contains($child)) {
-            $this->children->add($child);
-            $child->setParentCategory($this);
-        }
-
-        return $this;
-    }
-
-    public function removeChild(self $child): static
-    {
-        if ($this->children->removeElement($child)) {
-            // set the owning side to null (unless already changed)
-            if ($child->getParentCategory() === $this) {
-                $child->setParentCategory(null);
-            }
-        }
 
         return $this;
     }
@@ -135,6 +102,57 @@ class Category
         if ($this->updatedAt === null) {
             $this->updatedAt = new DateTimeImmutable();
         }
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, self>
+     */
+    public function getParents(): Collection
+    {
+        return $this->parents;
+    }
+
+    public function addParent(self $parent): static
+    {
+        if (!$this->parents->contains($parent)) {
+            $this->parents->add($parent);
+        }
+
+        return $this;
+    }
+
+    public function removeParent(self $parent): static
+    {
+        $this->parents->removeElement($parent);
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, self>
+     */
+    public function getChildren(): Collection
+    {
+        return $this->children;
+    }
+
+    public function addChild(self $child): static
+    {
+        if (!$this->children->contains($child)) {
+            $this->children->add($child);
+            $child->addParent($this);
+        }
+
+        return $this;
+    }
+
+    public function removeChild(self $child): static
+    {
+        if ($this->children->removeElement($child)) {
+            $child->removeParent($this);
+        }
+
         return $this;
     }
 }

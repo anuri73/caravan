@@ -4,8 +4,8 @@ namespace App\Controller;
 
 use App\dataprovider\CategoryDataProvider;
 use App\dataprovider\DataProviderInterface;
-use App\Entity\Category;
-use http\Exception\InvalidArgumentException;
+use App\Form\CategoryFormType;
+use Symfony\Component\Form\FormInterface;
 use Symfony\Component\HttpFoundation\Request;
 
 class CategoryController extends CrudController
@@ -22,25 +22,12 @@ class CategoryController extends CrudController
         return $this->categoryDataProvider;
     }
 
-    protected function createEntity(Request $request)
+    protected function createFormType(Request $request, mixed $data = null, array $options = []): FormInterface
     {
-        $data = json_decode($request->getContent(), true);
+        $form = $this->createForm(CategoryFormType::class, $data);
 
-        return (new Category())
-            ->setName($data['name'] ?? null)
-            ->setPriority($data['priority'] ?? null);
-    }
+        $form->handleRequest($request);
 
-    protected function updateEntity($entity, Request $request)
-    {
-        if (!($entity instanceof Category)) {
-            throw new InvalidArgumentException('Wrong entity provided');
-        }
-
-        $data = json_decode($request->getContent(), true);
-
-        return $entity
-            ->setName($data['name'] ?? null)
-            ->setPriority($data['priority'] ?? null);
+        return $form;
     }
 }

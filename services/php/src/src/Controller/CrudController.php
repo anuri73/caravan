@@ -3,30 +3,29 @@
 namespace App\Controller;
 
 use App\dataprovider\DataProviderInterface;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use App\Entity\Category;
+use FOS\RestBundle\Controller\AbstractFOSRestController;
+use Symfony\Component\Form\FormInterface;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
 
-abstract class CrudController extends AbstractController
+abstract class CrudController extends AbstractFOSRestController
 {
     abstract protected function getDataProvider(): DataProviderInterface;
 
-    abstract protected function createEntity(Request $request);
+    abstract protected function createFormType(Request $request): FormInterface;
 
-    abstract protected function updateEntity($entity, Request $request);
-
-    /**
-     * @return Response
-     */
-    public function index(): Response
+    public function index(Request $request): Response
     {
-        $offset = 0;
-        $limit = 10;
-        return $this->json($this->getDataProvider()->next($offset, $limit));
+        $offset = $request->get('offset', 0);
+        $limit = $request->get('limit', 10);
+        return $this->jsonCategory($this->getDataProvider()->next($offset, $limit), Response::HTTP_OK);
     }
 
-    public function show(string $id): Response
+    public function show(string $id): JsonResponse
     {
         $entity = $this->getDataProvider()->find($id);
 
@@ -34,16 +33,29 @@ abstract class CrudController extends AbstractController
             throw new NotFoundHttpException("Entity not found");
         }
 
-        return $this->json($entity);
+        return $this->jsonCategory($entity, Response::HTTP_OK);
     }
 
-    public function create(Request $request): Response
+    public function create(Request $request): JsonResponse
     {
-        $entity = $this->createEntity($request);
+        $form = $this->createFormType($request);
 
-        $this->getDataProvider()->add($entity);
+        if ($form->isValid()) {
 
-        return $this->json($entity, Response::HTTP_CREATED);
+            $entity = $this->getDataProvider()->add($form->getData());
+
+            return $this->jsonCategory($entity, Response::HTTP_CREATED);
+        }
+
+        $errors = [];
+        foreach ($form->getErrors(true) as $error) {
+            $errors[] = [
+                'field' => $error->getOrigin()->getName(),
+                'message' => $error->getMessage(),
+            ];
+        }
+
+        return $this->json(['errors' => $errors], Response::HTTP_BAD_REQUEST);
     }
 
     public function update(string $id, Request $request): Response
@@ -54,11 +66,25 @@ abstract class CrudController extends AbstractController
             throw new NotFoundHttpException("Entity not found");
         }
 
-        $newEntity = $this->updateEntity($entity, $request);
+        $form = $this->createFormType($request, $entity);
+        $form->submit($request->request->all());
 
-        $updatedEntity = $this->getDataProvider()->update($newEntity);
+        if ($form->isSubmitted() && $form->isValid()) {
 
-        return $this->json($updatedEntity);
+            $entity = $this->getDataProvider()->update($form->getData());
+
+            return $this->jsonCategory($entity, Response::HTTP_OK);
+        }
+
+        $errors = [];
+        foreach ($form->getErrors(true) as $error) {
+            $errors[] = [
+                'field' => $error->getOrigin()->getName(),
+                'message' => $error->getMessage(),
+            ];
+        }
+
+        return $this->json(['errors' => $errors], Response::HTTP_BAD_REQUEST);
     }
 
     public function delete(string $id): Response
@@ -70,5 +96,20 @@ abstract class CrudController extends AbstractController
         }
 
         return $this->json($this->getDataProvider()->delete($entity), Response::HTTP_NO_CONTENT);
+    }
+
+    public function jsonCategory($entity, $httpStatus): JsonResponse
+    {
+        return $this->json($entity,
+            $httpStatus,
+            [],
+            [
+                AbstractNormalizer::CIRCULAR_REFERENCE_HANDLER => function (Category $obj) {
+                    return [
+                        $obj->getName()
+                    ];
+                }
+            ]
+        );
     }
 }

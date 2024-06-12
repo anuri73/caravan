@@ -1,15 +1,21 @@
 # Read the documentation: https://fosrestbundle.readthedocs.io/en/3.x/
 fos_rest:
-#    param_fetcher_listener:  true
-#    allowed_methods_listener:  true
-    routing_loader: false
-#    view:
-#        view_response_listener:  true
-#    exception:
-#        codes:
-#            App\Exception\MyException: 403
-#        messages:
-#            App\Exception\MyException: Forbidden area.
-#    format_listener:
-#        rules:
-#            - { path: ^/api, prefer_extension: true, fallback_format: json, priorities: [ json, html ] }
+  allowed_methods_listener: true
+  body_listener: true
+  exception:
+    enabled: true
+    codes:
+      'Symfony\Component\HttpKernel\Exception\NotFoundHttpException': HTTP_NOT_FOUND
+      'Symfony\Component\Routing\Exception\ResourceNotFoundException': HTTP_NOT_FOUND
+      'Doctrine\ORM\OptimisticLockException': HTTP_CONFLICT
+    messages:
+      'Symfony\Component\Routing\Exception\ResourceNotFoundException': true
+  format_listener:
+    enabled: true
+    rules:
+      - { path: ^/, priorities: [ 'json' ], fallback_format: json, prefer_extension: true }
+  param_fetcher_listener: force
+  view:
+    view_response_listener: true
+    formats:
+      json: true
