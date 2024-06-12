@@ -2,29 +2,29 @@
 
 namespace App\Controller;
 
-use App\DataProvider\CategoryDataProvider;
 use App\DataProvider\DataProviderInterface;
-use App\Form\CategoryFormType;
+use App\DataProvider\ParameterDataProvider;
+use App\Form\ParameterFormType;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\HttpFoundation\Request;
 
-class CategoryController extends CrudController
+class ParameterController extends CrudController
 {
-    private CategoryDataProvider $categoryDataProvider;
+    private ParameterDataProvider $parameterDataProvider;
 
-    public function __construct(CategoryDataProvider $categoryDataProvider)
+    public function __construct(ParameterDataProvider $parameterDataProvider)
     {
-        $this->categoryDataProvider = $categoryDataProvider;
+        $this->parameterDataProvider = $parameterDataProvider;
     }
 
     protected function getDataProvider(): DataProviderInterface
     {
-        return $this->categoryDataProvider;
+        return $this->parameterDataProvider;
     }
 
     protected function createFormType(Request $request, mixed $data = null, array $options = []): FormInterface
     {
-        $form = $this->createForm(CategoryFormType::class, $data);
+        $form = $this->createForm(ParameterFormType::class, $data);
 
         $form->handleRequest($request);
 

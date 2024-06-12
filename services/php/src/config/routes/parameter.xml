@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://symfony.com/schema/routing
+        http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="parameter_index" path="/parameter" methods="GET">
+        <default key="_controller">App\Controller\ParameterController::index</default>
+    </route>
+
+    <route id="parameter_show" path="/parameter/{id}" methods="GET">
+        <default key="_controller">App\Controller\ParameterController::show</default>
+    </route>
+
+    <route id="parameter_create" path="/parameter" methods="POST">
+        <default key="_controller">App\Controller\ParameterController::create</default>
+    </route>
+
+    <route id="parameter_update" path="/parameter/{id}" methods="PUT">
+        <default key="_controller">App\Controller\ParameterController::update</default>
+    </route>
+
+    <route id="parameter_delete" path="/parameter/{id}" methods="DELETE">
+        <default key="_controller">App\Controller\ParameterController::delete</default>
+    </route>
+</routes>

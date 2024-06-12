@@ -19,19 +19,30 @@ services:
       - '../src/DependencyInjection/'
       - '../src/Entity/'
       - '../src/Kernel.php'
-      - '../src/dataprovider/'
+      - '../src/DataProvider/'
       - '../src/Repository/'
 
   # add more service definitions when explicit configuration is needed
   # please note that last definitions always *replace* previous ones
 
-  App\dataprovider\CategoryDataProvider:
-    class: App\dataprovider\CategoryDataProvider
+  App\DataProvider\CategoryDataProvider:
+    class: App\DataProvider\CategoryDataProvider
     arguments:
       $categoryRepository: '@App\Repository\CategoryRepository'
 
   App\Repository\CategoryRepository:
     class: App\Repository\CategoryRepository
+    arguments:
+      $registry: '@doctrine'
+      $entityManager: '@doctrine.orm.entity_manager'
+
+  App\DataProvider\ParameterDataProvider:
+    class: App\DataProvider\ParameterDataProvider
+    arguments:
+      $parameterRepository: '@App\Repository\ParameterRepository'
+
+  App\Repository\ParameterRepository:
+    class: App\Repository\ParameterRepository
     arguments:
       $registry: '@doctrine'
       $entityManager: '@doctrine.orm.entity_manager'

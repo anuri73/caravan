@@ -46,10 +46,15 @@ class Category
     #[Serializer\MaxDepth(1)]
     private Collection $children;
 
+    #[ORM\OneToMany(targetEntity: Parameter::class, mappedBy: 'category')]
+    #[Serializer\MaxDepth(1)]
+    private Collection $parameters;
+
     public function __construct()
     {
         $this->parents = new ArrayCollection();
         $this->children = new ArrayCollection();
+        $this->parameters = new ArrayCollection();
     }
 
     public function getName(): ?string
@@ -151,6 +156,30 @@ class Category
     {
         if ($this->children->removeElement($child)) {
             $child->removeParent($this);
+        }
+
+        return $this;
+    }
+
+    public function getParameters(): Collection
+    {
+        return $this->parameters;
+    }
+
+    public function addParameter(Parameter $parameter): static
+    {
+        if (!$this->parameters->contains($parameter)) {
+            $this->parameters->add($parameter);
+            $parameter->setCategory($this);
+        }
+
+        return $this;
+    }
+
+    public function removeParameters(Parameter $child): static
+    {
+        if ($this->parameters->removeElement($child)) {
+            $child->setCategory(null);
         }
 
         return $this;

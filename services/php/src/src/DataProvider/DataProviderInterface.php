@@ -1,6 +1,6 @@
 <?php
 
-namespace App\dataprovider;
+namespace App\DataProvider;
 
 interface DataProviderInterface
 {

@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use App\dataprovider\DataProviderInterface;
+use App\DataProvider\DataProviderInterface;
 use App\Entity\Category;
 use FOS\RestBundle\Controller\AbstractFOSRestController;
 use Symfony\Component\Form\FormInterface;
@@ -104,7 +104,7 @@ abstract class CrudController extends AbstractFOSRestController
             $httpStatus,
             [],
             [
-                AbstractNormalizer::CIRCULAR_REFERENCE_HANDLER => function (Category $obj) {
+                AbstractNormalizer::CIRCULAR_REFERENCE_HANDLER => function ($obj) {
                     return [
                         $obj->getName()
                     ];
