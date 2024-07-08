@@ -46,3 +46,14 @@ services:
     arguments:
       $registry: '@doctrine'
       $entityManager: '@doctrine.orm.entity_manager'
+
+  App\DataProvider\PostDataProvider:
+    class: App\DataProvider\PostDataProvider
+    arguments:
+      $postRepository: '@App\Repository\PostRepository'
+
+  App\Repository\PostRepository:
+    class: App\Repository\PostRepository
+    arguments:
+      $registry: '@doctrine'
+      $entityManager: '@doctrine.orm.entity_manager'
