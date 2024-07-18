@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-climatic-equipment-fans-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -33,7 +33,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-climatic-equipment-fans-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -66,7 +66,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-climatic-equipment-water-heaters-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -85,7 +85,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-climatic-equipment-water-heaters-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -123,7 +123,7 @@
         },
         {
           "label": "Объем бака",
-          "name": "appliances-climatic-equipment-water-heaters-volume",
+          "name": "volume",
           "priority": 22,
           "regulations": [
             {
@@ -145,7 +145,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-climatic-equipment-boilers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -167,7 +167,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-climatic-equipment-boilers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -207,7 +207,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-climatic-equipment-air-conditioners-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -227,7 +227,7 @@
         },
         {
           "label": "Площадь помещения",
-          "name": "appliances-climatic-equipment-air-conditioners-area",
+          "name": "area",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -258,7 +258,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-climatic-equipment-air-conditioners-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -302,7 +302,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-climatic-equipment-heaters-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -327,7 +327,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-climatic-equipment-heaters-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -372,7 +372,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-climatic-equipment-air-dehumidifiers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -392,7 +392,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-climatic-equipment-air-dehumidifiers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -415,7 +415,7 @@
         },
         {
           "label": "Обслуживаемая площадь",
-          "name": "appliances-climatic-equipment-air-dehumidifiers-area-range",
+          "name": "area range",
           "priority": 22,
           "regulations": [
             {
@@ -437,7 +437,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-climatic-equipment-air-purifiers-humidifiers-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -457,7 +457,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-climatic-equipment-air-purifiers-humidifiers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -499,7 +499,7 @@
         },
         {
           "label": "Обслуживаемая площадь",
-          "name": "appliances-climatic-equipment-air-purifiers-humidifiers-area-range",
+          "name": "area range",
           "priority": 22,
           "regulations": [
             {
@@ -521,7 +521,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-climatic-equipment-fan-heaters-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -542,7 +542,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-climatic-equipment-fan-heaters-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -565,7 +565,7 @@
         },
         {
           "label": "Обслуживаемая площадь",
-          "name": "appliances-climatic-equipment-fan-heaters-area-range",
+          "name": "area range",
           "priority": 22,
           "regulations": [
             {
@@ -587,7 +587,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-climatic-equipment-floor-heating-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -607,7 +607,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-climatic-equipment-floor-heating-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",

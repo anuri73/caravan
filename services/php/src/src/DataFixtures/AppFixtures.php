@@ -54,28 +54,7 @@ class AppFixtures extends Fixture
         }
         if (array_key_exists('parameters', $data)) {
             foreach ($data['parameters'] as $parameterData) {
-                $parameter = new Parameter();
-                $parameter->setCategory($category);
-                $parameter->setName($parameterData['name']);
-                $parameter->setPostForm($parameterData['post_form']);
-                if (array_key_exists('search_form', $parameterData)) {
-                    $parameter->setSearchForm($parameterData['search_form']);
-                }
-                if (array_key_exists('search_priority', $parameterData)) {
-                    $parameter->setSearchPriority($parameterData['search_priority']);
-                }
-                if (array_key_exists('priority', $parameterData)) {
-                    $parameter->setPriority($parameterData['priority']);
-                }
-                if (array_key_exists('regulations', $parameterData)) {
-                    foreach ($parameterData['regulations'] as $regulationData) {
-                        $parameterValidation = new ParameterValidation();
-                        $parameterValidation->setParameter($parameter);
-                        $parameterValidation->setConstraintClass($regulationData['class']);
-                        $manager->persist($parameterValidation);
-                    }
-                }
-                $manager->persist($parameter);
+                $this->importParameter($category, $parameterData, $manager);
             }
         }
 
@@ -97,5 +76,37 @@ class AppFixtures extends Fixture
         }
         $manager->persist($category);
         return $category;
+    }
+
+    public function importParameter(Category $category, mixed $data, ObjectManager $manager, ?Parameter $parent = null): void
+    {
+        $parameter = new Parameter();
+        $parameter->setCategory($category);
+        $parameter->setName($data['name']);
+        $parameter->setPostForm($data['post_form']);
+        $parameter->setParent($parent);
+        if (array_key_exists('search_form', $data)) {
+            $parameter->setSearchForm($data['search_form']);
+        }
+        if (array_key_exists('search_priority', $data)) {
+            $parameter->setSearchPriority($data['search_priority']);
+        }
+        if (array_key_exists('priority', $data)) {
+            $parameter->setPriority($data['priority']);
+        }
+        if (array_key_exists('regulations', $data)) {
+            foreach ($data['regulations'] as $regulationData) {
+                $parameterValidation = new ParameterValidation();
+                $parameterValidation->setParameter($parameter);
+                $parameterValidation->setConstraintClass($regulationData['class']);
+                $manager->persist($parameterValidation);
+            }
+        }
+        $manager->persist($parameter);
+        if (array_key_exists('parameters', $data)) {
+            foreach ($data['parameters'] as $child) {
+                $this->importParameter($category, $child, $manager, $parameter);
+            }
+        }
     }
 }

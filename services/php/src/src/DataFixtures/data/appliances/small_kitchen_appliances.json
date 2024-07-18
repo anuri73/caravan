@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-blenders-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -29,7 +29,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-blenders-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -59,7 +59,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-pancakes-waffle-irons-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -78,7 +78,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-pancakes-waffle-irons-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -113,7 +113,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-grills-shish-kebabs-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -146,7 +146,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-coffee-makers-machines-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -169,7 +169,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-coffee-makers-machines-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -218,7 +218,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-coffee-grinders-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -258,7 +258,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-scales-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -277,7 +277,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-scales-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -320,7 +320,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-food-processors-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -339,7 +339,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-food-processors-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -380,7 +380,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-shredders-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -406,7 +406,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-microwaves-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -451,7 +451,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-mixers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -470,7 +470,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-mixers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -520,7 +520,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-multivarkers-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -542,7 +542,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-multivarkers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -588,7 +588,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-meat-grinders-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -607,7 +607,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-meat-grinders-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -653,7 +653,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-steamers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -683,7 +683,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-juicers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -729,7 +729,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-vegetable-fruit-dryers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -750,7 +750,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-vegetable-fruit-dryers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -785,7 +785,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-toasters-sandwich-makers-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -804,7 +804,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-toasters-sandwich-makers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -856,7 +856,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-water-filters-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -884,7 +884,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-water-filters-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -915,7 +915,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-fryers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -945,7 +945,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-breadmakers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -978,7 +978,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-small-kitchen-electric-kettles-thermopots-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -998,7 +998,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-small-kitchen-electric-kettles-thermopots-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",

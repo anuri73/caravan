@@ -1308,7 +1308,7 @@
   ],
   "parameters": [
     {
-      "name": "auto-moto-snegohody-type",
+      "name": "type",
       "label": "Тип",
       "priority": 1,
       "post_form": "dropdown",
@@ -1350,7 +1350,7 @@
     },
     {
       "label": "Цена",
-      "name": "auto-moto-snegohody-price",
+      "name": "price",
       "priority": 2,
       "post_form": "textbox",
       "search_form": "range",
@@ -1369,7 +1369,7 @@
     },
     {
       "label": "Год выпуска",
-      "name": "auto-moto-snegohody-year",
+      "name": "year",
       "priority": 3,
       "post_form": "textbox",
       "search_form": "range",
@@ -1388,7 +1388,7 @@
     },
     {
       "label": "Пробег",
-      "name": "auto-moto-snegohody-odometer",
+      "name": "odometer",
       "priority": 4,
       "post_form": "textbox",
       "measure": "км",
@@ -1401,7 +1401,7 @@
       ]
     },
     {
-      "name": "auto-moto-snegohody-engine",
+      "name": "engine",
       "label": "Тип двигателя",
       "priority": 5,
       "post_form": "radio",
@@ -1422,7 +1422,7 @@
     },
     {
       "label": "Объем двигателя",
-      "name": "auto-moto-snegohody-volume",
+      "name": "volume",
       "priority": 6,
       "post_form": "textbox",
       "search_form": "range",
@@ -1441,7 +1441,7 @@
     },
     {
       "label": "Расположение цилиндров",
-      "name": "auto-moto-snegohody-cylinder_arrangement",
+      "name": "cylinder_arrangement",
       "priority": 8,
       "post_form": "radio",
       "options": [
@@ -1453,7 +1453,7 @@
     },
     {
       "label": "Кол-во цилиндров",
-      "name": "auto-moto-snegohody-cylinder_qty",
+      "name": "cylinder_qty",
       "priority": 9,
       "post_form": "radio",
       "options": [
@@ -1467,7 +1467,7 @@
     },
     {
       "label": "Мощность",
-      "name": "auto-moto-snegohody-power",
+      "name": "power",
       "priority": 10,
       "post_form": "textbox",
       "measure": "л.с.",
@@ -1481,7 +1481,7 @@
     },
     {
       "label": "Число тактов",
-      "name": "auto-moto-snegohody-cycles_qty",
+      "name": "cycles_qty",
       "priority": 12,
       "post_form": "radio",
       "options": [
@@ -1491,7 +1491,7 @@
     },
     {
       "label": "Состояние",
-      "name": "auto-moto-snegohody-condition",
+      "name": "condition",
       "priority": 13,
       "post_form": "radio",
       "options": [
@@ -1515,7 +1515,7 @@
     },
     {
       "label": "Наличие",
-      "name": "auto-moto-snegohody-availability",
+      "name": "availability",
       "priority": 14,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -1539,7 +1539,7 @@
     },
     {
       "label": "Прочее",
-      "name": "auto-moto-snegohody-additional_information",
+      "name": "additional_information",
       "priority": 15,
       "post_form": "checkboxlist",
       "parameters": [

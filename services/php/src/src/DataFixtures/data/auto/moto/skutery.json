@@ -446,20 +446,20 @@
       "children": [
         {
           "label": "125cc",
-          "name": "auto-moto-skutery-atlant-125cc",
           "url": "auto-moto-skutery-atlant-125cc",
+          "name": "125cc",
           "priority": 1
         },
         {
           "label": "150cc",
-          "name": "auto-moto-skutery-atlant-150cc",
           "url": "auto-moto-skutery-atlant-150cc",
+          "name": "150cc",
           "priority": 2
         },
         {
           "label": "50cc",
-          "name": "auto-moto-skutery-atlant-50cc",
           "url": "auto-moto-skutery-atlant-50cc",
+          "name": "50cc",
           "priority": 3
         }
       ]
@@ -472,14 +472,14 @@
       "children": [
         {
           "label": "150cc",
-          "name": "auto-moto-skutery-ayron-150cc",
           "url": "auto-moto-skutery-ayron-150cc",
+          "name": "150cc",
           "priority": 1
         },
         {
           "label": "50cc",
-          "name": "auto-moto-skutery-ayron-50cc",
           "url": "auto-moto-skutery-ayron-50cc",
+          "name": "50cc",
           "priority": 2
         }
       ]
@@ -1162,14 +1162,14 @@
     },
     {
       "label": "Di Blasi",
-      "name": "auto-moto-skutery-di_blasi",
       "url": "auto-moto-skutery-di_blasi",
+      "name": "di_blasi",
       "priority": 30,
       "children": [
         {
           "label": "Di Blasi",
-          "name": "auto-moto-skutery-di_blasi-di_blasi",
           "url": "auto-moto-skutery-di_blasi-di_blasi",
+          "name": "di_blasi",
           "priority": 1
         }
       ]
@@ -1214,8 +1214,8 @@
         },
         {
           "label": "Corsa",
-          "name": "auto-moto-skutery-eurotex-corsa",
           "url": "auto-moto-skutery-eurotex-corsa",
+          "name": "corsa",
           "priority": 3
         },
         {
@@ -6836,7 +6836,7 @@
   "parameters": [
     {
       "label": "Цена",
-      "name": "auto-moto-skutery-price",
+      "name": "price",
       "priority": 2,
       "post_form": "textbox",
       "search_form": "range",
@@ -6856,7 +6856,7 @@
     },
     {
       "label": "Год выпуска",
-      "name": "auto-moto-skutery-year",
+      "name": "year",
       "priority": 3,
       "post_form": "textbox",
       "search_form": "range",
@@ -6876,7 +6876,7 @@
     },
     {
       "label": "Пробег",
-      "name": "auto-moto-skutery-odometer",
+      "name": "odometer",
       "priority": 4,
       "post_form": "textbox",
       "measure": "км",
@@ -6889,7 +6889,7 @@
       ]
     },
     {
-      "name": "auto-moto-skutery-engine",
+      "name": "engine",
       "label": "Тип двигателя",
       "priority": 5,
       "post_form": "radio",
@@ -6926,7 +6926,7 @@
     },
     {
       "label": "Объем двигателя",
-      "name": "auto-moto-skutery-volume",
+      "name": "volume",
       "priority": 6,
       "post_form": "textbox",
       "measure": "л",
@@ -6939,7 +6939,7 @@
     },
     {
       "label": "Коробка",
-      "name": "auto-moto-skutery-transmission",
+      "name": "transmission",
       "priority": 7,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -6962,7 +6962,7 @@
     },
     {
       "label": "Мощность",
-      "name": "auto-moto-skutery-power",
+      "name": "power",
       "priority": 10,
       "post_form": "textbox",
       "measure": "л.с.",
@@ -6976,7 +6976,7 @@
     },
     {
       "label": "Число тактов",
-      "name": "auto-moto-skutery-cycles_qty",
+      "name": "cycles_qty",
       "priority": 12,
       "post_form": "radio",
       "options": [
@@ -6986,7 +6986,7 @@
     },
     {
       "label": "Состояние",
-      "name": "auto-moto-skutery-condition",
+      "name": "condition",
       "priority": 13,
       "post_form": "radio",
       "options": [
@@ -7010,7 +7010,7 @@
     },
     {
       "label": "Наличие",
-      "name": "auto-moto-skutery-availability",
+      "name": "availability",
       "priority": 14,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -7034,7 +7034,7 @@
     },
     {
       "label": "Прочее",
-      "name": "auto-moto-skutery-additional_information",
+      "name": "additional_information",
       "priority": 15,
       "post_form": "checkboxlist",
       "parameters": [

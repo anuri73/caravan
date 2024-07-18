@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Тип",
-      "name": "kids-strollers-type",
+      "name": "type",
       "priority": 10,
       "regulations": [
         {
@@ -42,7 +42,7 @@
     },
     {
       "label": "Механизм складывания",
-      "name": "kids-strollers-folding",
+      "name": "folding",
       "priority": 21,
       "regulations": [
         {
@@ -67,7 +67,7 @@
     },
     {
       "label": "Вес коляски",
-      "name": "kids-strollers-weight",
+      "name": "weight",
       "priority": 22,
       "regulations": [
         {
@@ -86,7 +86,7 @@
     },
     {
       "label": "Максимальный вес ребенка",
-      "name": "kids-strollers-child weight",
+      "name": "child weight",
       "priority": 23,
       "regulations": [
         {
@@ -105,7 +105,7 @@
     },
     {
       "label": "Дополнительные опции",
-      "name": "kids-strollers-options",
+      "name": "options",
       "priority": 24,
       "post_form": "checkboxlist",
       "parameters": [
@@ -173,7 +173,7 @@
     },
     {
       "label": "Состояние",
-      "name": "kids-strollers-condition",
+      "name": "condition",
       "priority": 25,
       "regulations": [
         {

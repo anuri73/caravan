@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-home-washing-machines-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -29,7 +29,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-home-washing-machines-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -77,7 +77,7 @@
         },
         {
           "label": "Установка",
-          "name": "appliances-home-washing-machines-installment",
+          "name": "installment",
           "priority": 23,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -90,7 +90,7 @@
         },
         {
           "label": "Загрузка белья",
-          "name": "appliances-home-washing-machines-maxload",
+          "name": "maxload",
           "priority": 24,
           "regulations": [
             {
@@ -120,7 +120,7 @@
         },
         {
           "label": "Ширина",
-          "name": "appliances-home-washing-machines-width",
+          "name": "width",
           "priority": 26,
           "regulations": [
             {
@@ -135,7 +135,7 @@
         },
         {
           "label": "Высота",
-          "name": "appliances-home-washing-machines-height",
+          "name": "height",
           "priority": 27,
           "regulations": [
             {
@@ -150,7 +150,7 @@
         },
         {
           "label": "Глубина",
-          "name": "appliances-home-washing-machines-depth",
+          "name": "depth",
           "priority": 28,
           "regulations": [
             {
@@ -172,7 +172,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "appliances-home-dryers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -197,7 +197,7 @@
         },
         {
           "label": "Загрузка белья",
-          "name": "appliances-home-dryers-maxload",
+          "name": "maxload",
           "priority": 24,
           "regulations": [
             {
@@ -212,7 +212,7 @@
         },
         {
           "label": "Ширина",
-          "name": "appliances-home-dryers-width",
+          "name": "width",
           "priority": 26,
           "regulations": [
             {
@@ -227,7 +227,7 @@
         },
         {
           "label": "Высота",
-          "name": "appliances-home-dryers-height",
+          "name": "height",
           "priority": 27,
           "regulations": [
             {
@@ -242,7 +242,7 @@
         },
         {
           "label": "Глубина",
-          "name": "appliances-home-dryers-depth",
+          "name": "depth",
           "priority": 28,
           "regulations": [
             {
@@ -264,7 +264,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-home-vacuum-cleaners-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -285,7 +285,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-home-vacuum-cleaners-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -374,7 +374,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "appliances-home-irons-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -424,7 +424,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-home-steam-cleaners-steamers-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -444,7 +444,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-home-steam-cleaners-steamers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -478,7 +478,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-home-sewing-equipment-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [

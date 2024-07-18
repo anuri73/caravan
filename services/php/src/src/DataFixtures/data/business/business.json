@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Заголовок объявления",
-      "name": "business-title",
+      "name": "title",
       "priority": 1,
       "regulations": [
         {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Цена",
-      "name": "business-price",
+      "name": "price",
       "priority": 20,
       "regulations": [
         {
@@ -40,7 +40,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "business-raw-materials-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -72,7 +72,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "business-equipment-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -106,7 +106,7 @@
         },
         {
           "label": "Состояние",
-          "name": "business-equipment-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -138,7 +138,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "business-food-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -171,7 +171,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "business-industrial-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -202,7 +202,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "business-sell-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -243,7 +243,7 @@
       "parameters": [
         {
           "label": "Состояние",
-          "name": "business-office-furniture-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {

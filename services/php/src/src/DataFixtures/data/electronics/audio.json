@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-audio-acoustic-systems-speakers-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -63,7 +63,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-audio-acoustic-systems-speakers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -189,7 +189,7 @@
         },
         {
           "label": "Конструкция",
-          "name": "electronics-audio-acoustic-systems-speakers-purpose",
+          "name": "purpose",
           "priority": 23,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -230,7 +230,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-audio-portable-speakers-brand",
+          "name": "brand",
           "priority": 22,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -299,7 +299,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-audio-stereos-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -328,7 +328,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-audio-stereos-brand",
+          "name": "brand",
           "priority": 12,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -397,7 +397,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-audio-karaoke-brand",
+          "name": "brand",
           "priority": 11,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -454,7 +454,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-audio-cd-players-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -503,7 +503,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-audio-cd-players-brand",
+          "name": "brand",
           "priority": 12,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -576,7 +576,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-audio-headphones-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -597,7 +597,7 @@
         },
         {
           "label": "Подключение",
-          "name": "electronics-audio-headphones-connection-type",
+          "name": "connection type",
           "priority": 12,
           "regulations": [
             {
@@ -616,7 +616,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-audio-headphones-brand",
+          "name": "brand",
           "priority": 13,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -640,7 +640,7 @@
         },
         {
           "label": "Микрофон",
-          "name": "electronics-audio-headphones-purpose",
+          "name": "purpose",
           "priority": 24,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -659,7 +659,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-audio-mp3-players-brand",
+          "name": "brand",
           "priority": 13,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -682,7 +682,7 @@
         },
         {
           "label": "Объем памяти",
-          "name": "electronics-audio-mp3-players-memory",
+          "name": "memory",
           "priority": 14,
           "post_form": "textbox",
           "measure": "Гб",
@@ -704,7 +704,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-audio-radio-receivers-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -724,7 +724,7 @@
         },
         {
           "label": "Сигнал",
-          "name": "electronics-audio-radio-receivers-connection-type",
+          "name": "connection type",
           "priority": 24,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -748,7 +748,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-audio-microphones-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -777,7 +777,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-audio-microphones-brand",
+          "name": "brand",
           "priority": 12,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -839,7 +839,7 @@
         },
         {
           "label": "Опции",
-          "name": "electronics-audio-microphones-options",
+          "name": "options",
           "priority": 31,
           "post_form": "checkboxlist",
           "parameters": [
@@ -878,7 +878,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-audio-professional-equipment-type",
+          "name": "type hidden",
           "priority": 11,
           "regulations": [
             {
@@ -915,7 +915,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-audio-amplifiers-receivers-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -976,7 +976,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-audio-amplifiers-receivers-brand",
+          "name": "brand",
           "priority": 12,
           "post_form": "dropdown",
           "search_form": "checkbox",

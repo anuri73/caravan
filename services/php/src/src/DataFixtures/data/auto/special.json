@@ -11,7 +11,7 @@
       "priority": 1,
       "parameters": [
         {
-          "name": "auto-special-truck-cranes-make",
+          "name": "make",
           "label": "Марка",
           "priority": 1,
           "post_form": "dropdown",
@@ -88,7 +88,7 @@
         },
         {
           "label": "Модель",
-          "name": "auto-special-truck-cranes-model",
+          "name": "model",
           "priority": 2,
           "post_form": "textbox",
           "regulations": [
@@ -100,7 +100,7 @@
         },
         {
           "label": "Год выпуска",
-          "name": "auto-special-truck-cranes-year",
+          "name": "year",
           "priority": 3,
           "post_form": "textbox",
           "search_form": "range",
@@ -120,7 +120,7 @@
         },
         {
           "label": "Цена",
-          "name": "auto-special-truck-cranes-price",
+          "name": "price",
           "priority": 4,
           "post_form": "textbox",
           "measure": "сом",
@@ -141,7 +141,7 @@
         },
         {
           "label": "Пробег",
-          "name": "auto-special-truck-cranes-odometer",
+          "name": "odometer",
           "priority": 5,
           "post_form": "textbox",
           "measure": "км",
@@ -155,7 +155,7 @@
         },
         {
           "label": "Моточасы",
-          "name": "auto-special-truck-cranes-motohours",
+          "name": "motohours",
           "priority": 6,
           "post_form": "textbox",
           "measure": "моточасов",
@@ -169,7 +169,7 @@
         },
         {
           "label": "Объем двигателя",
-          "name": "auto-special-truck-cranes-volume",
+          "name": "volume",
           "priority": 7,
           "post_form": "textbox",
           "search_form": "range",
@@ -189,7 +189,7 @@
         },
         {
           "label": "Загрузка, кг",
-          "name": "auto-special-truck-cranes-capacity",
+          "name": "capacity",
           "priority": 8,
           "post_form": "textbox",
           "measure": "кг",
@@ -203,7 +203,7 @@
         },
         {
           "label": "Высота подъёма",
-          "name": "auto-special-truck-cranes-lift_height",
+          "name": "lift_height",
           "priority": 9,
           "post_form": "textbox",
           "measure": "м",
@@ -231,7 +231,7 @@
         },
         {
           "label": "Наличие",
-          "name": "auto-special-truck-cranes-availability",
+          "name": "availability",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -255,7 +255,7 @@
         },
         {
           "label": "Состояние",
-          "name": "auto-special-truck-cranes-condition",
+          "name": "condition",
           "priority": 12,
           "post_form": "radio",
           "options": [
@@ -286,7 +286,7 @@
       "priority": 2,
       "parameters": [
         {
-          "name": "auto-special-autoloaders-type",
+          "name": "type",
           "label": "Тип",
           "priority": 1,
           "post_form": "radio",
@@ -314,7 +314,7 @@
           ]
         },
         {
-          "name": "auto-special-autoloaders-make",
+          "name": "make",
           "label": "Марка",
           "priority": 2,
           "post_form": "dropdown",
@@ -500,7 +500,7 @@
         },
         {
           "label": "Модель",
-          "name": "auto-special-autoloaders-model",
+          "name": "model",
           "priority": 3,
           "post_form": "textbox",
           "regulations": [
@@ -512,7 +512,7 @@
         },
         {
           "label": "Год выпуска",
-          "name": "auto-special-autoloaders-year",
+          "name": "year",
           "priority": 4,
           "post_form": "textbox",
           "search_form": "range",
@@ -531,7 +531,7 @@
         },
         {
           "label": "Цена",
-          "name": "auto-special-autoloaders-price",
+          "name": "price",
           "priority": 5,
           "post_form": "textbox",
           "measure": "сом",
@@ -551,7 +551,7 @@
         },
         {
           "label": "Моточасы",
-          "name": "auto-special-autoloaders-motohours",
+          "name": "motohours",
           "priority": 6,
           "post_form": "textbox",
           "measure": "моточасов",
@@ -565,7 +565,7 @@
         },
         {
           "label": "Высота подъёма",
-          "name": "auto-special-autoloaders-lift_height",
+          "name": "lift_height",
           "priority": 7,
           "post_form": "textbox",
           "measure": "м",
@@ -579,7 +579,7 @@
         },
         {
           "label": "Наличие",
-          "name": "auto-special-autoloaders-availability",
+          "name": "availability",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -603,7 +603,7 @@
         },
         {
           "label": "Состояние",
-          "name": "auto-special-autoloader-condition",
+          "name": "condition",
           "priority": 12,
           "post_form": "radio",
           "options": [
@@ -634,7 +634,7 @@
       "priority": 3,
       "parameters": [
         {
-          "name": "auto-special-bulldozers-type",
+          "name": "type",
           "label": "Тип",
           "priority": 1,
           "post_form": "radio",
@@ -654,7 +654,7 @@
           ]
         },
         {
-          "name": "auto-special-bulldozers-make",
+          "name": "make",
           "label": "Марка",
           "priority": 2,
           "post_form": "dropdown",
@@ -706,7 +706,7 @@
         },
         {
           "label": "Модель",
-          "name": "auto-special-bulldozers-model",
+          "name": "model",
           "priority": 3,
           "post_form": "textbox",
           "regulations": [
@@ -718,7 +718,7 @@
         },
         {
           "label": "Год выпуска",
-          "name": "auto-special-bulldozers-year",
+          "name": "year",
           "priority": 4,
           "post_form": "textbox",
           "search_form": "range",
@@ -737,7 +737,7 @@
         },
         {
           "label": "Цена",
-          "name": "auto-special-bulldozers-price",
+          "name": "price",
           "priority": 5,
           "post_form": "textbox",
           "measure": "сом",
@@ -757,7 +757,7 @@
         },
         {
           "label": "Моточасы",
-          "name": "auto-special-bulldozers-motohours",
+          "name": "motohours",
           "priority": 6,
           "post_form": "textbox",
           "measure": "моточасов",
@@ -771,7 +771,7 @@
         },
         {
           "label": "Объем двигателя",
-          "name": "auto-special-bulldozers-volume",
+          "name": "volume",
           "priority": 7,
           "post_form": "textbox",
           "search_form": "range",
@@ -790,7 +790,7 @@
         },
         {
           "label": "Мощность",
-          "name": "auto-special-bulldozers-power",
+          "name": "power",
           "priority": 8,
           "post_form": "textbox",
           "measure": "л.с.",
@@ -805,7 +805,7 @@
         },
         {
           "label": "Наличие",
-          "name": "auto-special-bulldozers-availability",
+          "name": "availability",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -829,7 +829,7 @@
         },
         {
           "label": "Состояние",
-          "name": "auto-special-bulldozers-condition",
+          "name": "condition",
           "priority": 12,
           "post_form": "radio",
           "options": [
@@ -860,7 +860,7 @@
       "priority": 4,
       "parameters": [
         {
-          "name": "auto-special-сommunal-type",
+          "name": "type",
           "label": "Тип",
           "priority": 1,
           "post_form": "dropdown",
@@ -901,7 +901,7 @@
           ]
         },
         {
-          "name": "auto-special-сommunal-make",
+          "name": "make",
           "label": "Марка",
           "priority": 2,
           "post_form": "dropdown",
@@ -1038,7 +1038,7 @@
         },
         {
           "label": "Модель",
-          "name": "auto-special-сommunal-model",
+          "name": "model",
           "priority": 3,
           "post_form": "textbox",
           "regulations": [
@@ -1050,7 +1050,7 @@
         },
         {
           "label": "Год выпуска",
-          "name": "auto-special-сommunal-year",
+          "name": "year",
           "priority": 4,
           "post_form": "textbox",
           "search_form": "range",
@@ -1069,7 +1069,7 @@
         },
         {
           "label": "Цена",
-          "name": "auto-special-сommunal-price",
+          "name": "price",
           "priority": 5,
           "post_form": "textbox",
           "measure": "сом",
@@ -1088,7 +1088,7 @@
           ]
         },
         {
-          "name": "auto-special-сommunal-engine",
+          "name": "engine",
           "label": "Тип двигателя",
           "priority": 6,
           "post_form": "radio",
@@ -1113,7 +1113,7 @@
         },
         {
           "label": "Мощность",
-          "name": "\"auto-special-сommunal-power",
+          "name": "power",
           "priority": 8,
           "post_form": "textbox",
           "measure": "л.с.",
@@ -1128,7 +1128,7 @@
         },
         {
           "label": "Наличие",
-          "name": "auto-special-сommunal-availability",
+          "name": "availability",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1152,7 +1152,7 @@
         },
         {
           "label": "Состояние",
-          "name": "auto-special-сommunal-condition",
+          "name": "condition",
           "priority": 12,
           "post_form": "radio",
           "options": [
@@ -1183,7 +1183,7 @@
       "priority": 5,
       "parameters": [
         {
-          "name": "auto-special-selfloaders-make",
+          "name": "make",
           "label": "Марка",
           "priority": 2,
           "post_form": "dropdown",
@@ -1245,7 +1245,7 @@
         },
         {
           "label": "Модель",
-          "name": "auto-special-selfloaders-model",
+          "name": "model",
           "priority": 3,
           "post_form": "textbox",
           "regulations": [
@@ -1257,7 +1257,7 @@
         },
         {
           "label": "Год выпуска",
-          "name": "auto-special-selfloaders-year",
+          "name": "year",
           "priority": 4,
           "post_form": "textbox",
           "search_form": "range",
@@ -1277,7 +1277,7 @@
         },
         {
           "label": "Цена",
-          "name": "auto-special-selfloaders-price",
+          "name": "price",
           "priority": 5,
           "post_form": "textbox",
           "measure": "сом",
@@ -1298,7 +1298,7 @@
         },
         {
           "label": "Пробег",
-          "name": "auto-special-selfloaders-odometer",
+          "name": "odometer",
           "priority": 6,
           "post_form": "textbox",
           "measure": "км",
@@ -1312,7 +1312,7 @@
         },
         {
           "label": "Объем двигателя",
-          "name": "auto-special-selfloaders-volume",
+          "name": "volume",
           "priority": 7,
           "post_form": "textbox",
           "search_form": "range",
@@ -1332,7 +1332,7 @@
         },
         {
           "label": "Загрузка, кг",
-          "name": "auto-special-selfloaders-capacity",
+          "name": "capacity",
           "priority": 8,
           "post_form": "textbox",
           "measure": "кг",
@@ -1346,7 +1346,7 @@
         },
         {
           "label": "Наличие",
-          "name": "auto-special-selfloaders-availability",
+          "name": "availability",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1370,7 +1370,7 @@
         },
         {
           "label": "Состояние",
-          "name": "auto-special-selfloaders-condition",
+          "name": "condition",
           "priority": 12,
           "post_form": "radio",
           "options": [
@@ -1402,7 +1402,7 @@
       "priority": 6,
       "parameters": [
         {
-          "name": "auto-special-agricultural-type",
+          "name": "type",
           "label": "Тип",
           "priority": 1,
           "post_form": "dropdown",
@@ -1440,7 +1440,7 @@
           ]
         },
         {
-          "name": "auto-special-agricultural-make",
+          "name": "make",
           "label": "Марка",
           "priority": 2,
           "post_form": "dropdown",
@@ -1579,7 +1579,7 @@
         },
         {
           "label": "Модель",
-          "name": "auto-special-agricultural-model",
+          "name": "model",
           "priority": 3,
           "post_form": "textbox",
           "regulations": [
@@ -1591,7 +1591,7 @@
         },
         {
           "label": "Год выпуска",
-          "name": "auto-special-agricultural-year",
+          "name": "year",
           "priority": 4,
           "post_form": "textbox",
           "search_form": "range",
@@ -1610,7 +1610,7 @@
         },
         {
           "label": "Цена",
-          "name": "auto-special-agricultural-price",
+          "name": "price",
           "priority": 5,
           "post_form": "textbox",
           "measure": "сом",
@@ -1630,7 +1630,7 @@
         },
         {
           "label": "Моточасы",
-          "name": "auto-special-agricultural-motohours",
+          "name": "motohours",
           "priority": 6,
           "post_form": "textbox",
           "measure": "моточасов",
@@ -1644,7 +1644,7 @@
         },
         {
           "label": "Объем двигателя",
-          "name": "auto-special-agricultural-volume",
+          "name": "volume",
           "priority": 7,
           "post_form": "textbox",
           "search_form": "range",
@@ -1663,7 +1663,7 @@
         },
         {
           "label": "Мощность",
-          "name": "auto-special-agricultural-power",
+          "name": "power",
           "priority": 8,
           "post_form": "textbox",
           "measure": "л.с.",
@@ -1678,7 +1678,7 @@
         },
         {
           "label": "Наличие",
-          "name": "auto-special-agricultural-availability",
+          "name": "availability",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1702,7 +1702,7 @@
         },
         {
           "label": "Состояние",
-          "name": "auto-special-agricultural-condition",
+          "name": "condition",
           "priority": 12,
           "post_form": "radio",
           "options": [
@@ -1733,7 +1733,7 @@
       "priority": 7,
       "parameters": [
         {
-          "name": "auto-special-constructional-type",
+          "name": "type",
           "label": "Тип",
           "priority": 1,
           "post_form": "dropdown",
@@ -1788,7 +1788,7 @@
           ]
         },
         {
-          "name": "auto-special-constructional-make",
+          "name": "make",
           "label": "Марка",
           "priority": 2,
           "post_form": "dropdown",
@@ -1927,7 +1927,7 @@
         },
         {
           "label": "Модель",
-          "name": "auto-special-constructional-model",
+          "name": "model",
           "priority": 3,
           "post_form": "textbox",
           "regulations": [
@@ -1939,7 +1939,7 @@
         },
         {
           "label": "Год выпуска",
-          "name": "auto-special-constructional-year",
+          "name": "year",
           "priority": 4,
           "post_form": "textbox",
           "search_form": "range",
@@ -1958,7 +1958,7 @@
         },
         {
           "label": "Цена",
-          "name": "auto-special-constructional-price",
+          "name": "price",
           "priority": 5,
           "post_form": "textbox",
           "measure": "сом",
@@ -1978,7 +1978,7 @@
         },
         {
           "label": "Моточасы",
-          "name": "auto-special-constructional-motohours",
+          "name": "motohours",
           "priority": 6,
           "post_form": "textbox",
           "measure": "моточасов",
@@ -1992,7 +1992,7 @@
         },
         {
           "label": "Наличие",
-          "name": "auto-special-constructional-availability",
+          "name": "availability",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -2016,7 +2016,7 @@
         },
         {
           "label": "Состояние",
-          "name": "auto-special-constructional-condition",
+          "name": "condition",
           "priority": 12,
           "post_form": "radio",
           "options": [
@@ -2047,7 +2047,7 @@
       "priority": 8,
       "parameters": [
         {
-          "name": "auto-special-excavators-type",
+          "name": "type",
           "label": "Тип",
           "priority": 1,
           "post_form": "dropdown",
@@ -2075,7 +2075,7 @@
           ]
         },
         {
-          "name": "auto-special-excavators-make",
+          "name": "make",
           "label": "Марка",
           "priority": 2,
           "post_form": "dropdown",
@@ -2203,7 +2203,7 @@
         },
         {
           "label": "Модель",
-          "name": "auto-special-excavators-model",
+          "name": "model",
           "priority": 3,
           "post_form": "textbox",
           "regulations": [
@@ -2215,7 +2215,7 @@
         },
         {
           "label": "Год выпуска",
-          "name": "auto-special-excavators-year",
+          "name": "year",
           "priority": 4,
           "post_form": "textbox",
           "search_form": "range",
@@ -2234,7 +2234,7 @@
         },
         {
           "label": "Цена",
-          "name": "auto-special-excavators-price",
+          "name": "price",
           "priority": 5,
           "post_form": "textbox",
           "measure": "сом",
@@ -2254,7 +2254,7 @@
         },
         {
           "label": "Моточасы",
-          "name": "auto-special-excavators-price-motohours",
+          "name": "motohours",
           "priority": 6,
           "post_form": "textbox",
           "measure": "моточасов",
@@ -2268,7 +2268,7 @@
         },
         {
           "label": "Объем двигателя",
-          "name": "auto-special-excavators-volume",
+          "name": "volume",
           "priority": 7,
           "post_form": "textbox",
           "search_form": "range",
@@ -2287,7 +2287,7 @@
         },
         {
           "label": "Мощность",
-          "name": "auto-special-excavators-power",
+          "name": "power",
           "priority": 8,
           "post_form": "textbox",
           "measure": "л.с.",
@@ -2315,7 +2315,7 @@
         },
         {
           "label": "Наличие",
-          "name": "auto-special-excavators-availability",
+          "name": "availability",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -2339,7 +2339,7 @@
         },
         {
           "label": "Состояние",
-          "name": "auto-special-excavators-condition",
+          "name": "condition",
           "priority": 12,
           "post_form": "radio",
           "options": [

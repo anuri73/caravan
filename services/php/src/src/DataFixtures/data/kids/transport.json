@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Состояние",
-      "name": "kids-transport-condition",
+      "name": "condition",
       "priority": 30,
       "regulations": [
         {
@@ -37,7 +37,7 @@
       "parameters": [
         {
           "label": "Тип велосипеда",
-          "name": "kids-transport-bicycles-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -66,7 +66,7 @@
         },
         {
           "label": "Возраст ребенка",
-          "name": "kids-transport-bicycles-age",
+          "name": "age",
           "priority": 12,
           "regulations": [
             {
@@ -110,7 +110,7 @@
       "parameters": [
         {
           "label": "Возраст ребенка",
-          "name": "kids-transport-electromobiles-age",
+          "name": "age",
           "priority": 12,
           "regulations": [
             {
@@ -146,7 +146,7 @@
       "parameters": [
         {
           "label": "Возраст ребенка",
-          "name": "kids-transport-scooters-age",
+          "name": "age",
           "priority": 12,
           "regulations": [
             {

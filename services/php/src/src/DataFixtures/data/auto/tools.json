@@ -296,7 +296,7 @@
   "parameters": [
     {
       "label": "Цена",
-      "name": "auto-parts-avtoinstrumenty-price",
+      "name": "price",
       "priority": 7,
       "post_form": "textbox",
       "measure": "сом",

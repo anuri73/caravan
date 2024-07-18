@@ -15,7 +15,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "electronics-security-systems-video-surveillance-videocameras-type",
+              "name": "type",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -73,7 +73,7 @@
             },
             {
               "label": "Производитель",
-              "name": "electronics-security-systems-video-surveillance-videocameras-brand",
+              "name": "brand",
               "priority": 21,
               "post_form": "dropdown",
               "search_form": "checkbox",
@@ -109,7 +109,7 @@
             },
             {
               "label": "Разрешение",
-              "name": "electronics-security-systems-video-surveillance-videocameras-definition",
+              "name": "definition",
               "priority": 22,
               "post_form": "textbox",
               "regulations": [
@@ -161,7 +161,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "electronics-security-systems-video-surveillance-videorecorders-type",
+              "name": "type",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -190,7 +190,7 @@
             },
             {
               "label": "Производитель",
-              "name": "electronics-security-systems-video-surveillance-videorecorders-brand",
+              "name": "brand",
               "priority": 21,
               "post_form": "dropdown",
               "search_form": "checkbox",
@@ -236,7 +236,7 @@
           "parameters": [
             {
               "label": "Объем памяти",
-              "name": "electronics-security-systems-video-surveillance-hard-drives-memory",
+              "name": "memory",
               "priority": 15,
               "post_form": "textbox",
               "measure": "Тб",
@@ -258,7 +258,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "electronics-security-systems-video-surveillance-accessories-for-cameras-type",
+              "name": "type hidden",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -303,7 +303,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "electronics-security-systems-video-surveillance-cables-cords-type",
+              "name": "type hidden",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -344,7 +344,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "electronics-security-systems-video-surveillance-power-supplies-type",
+              "name": "type hidden",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -392,7 +392,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-security-systems-doorphones-intercoms-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -431,7 +431,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-security-systems-sensors-detectors-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -465,7 +465,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-security-systems-access-control-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [

@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-optical-devices-binoculars-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -37,7 +37,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-optical-devices-telescopes-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -64,7 +64,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-optical-devices-microscopes-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -91,7 +91,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-optical-devices-magnifiers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -125,7 +125,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-optical-devices-night-vision-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [

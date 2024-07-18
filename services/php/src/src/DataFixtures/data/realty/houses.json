@@ -12,7 +12,7 @@
       "parameters": [
         {
           "label": "Право собственности",
-          "name": "realty-houses-sell-from",
+          "name": "from",
           "priority": 1,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -37,7 +37,7 @@
         },
         {
           "label": "Количество комнат",
-          "name": "realty-houses-sell-room-count",
+          "name": "room-count",
           "priority": 9,
           "post_form": "textbox",
           "search_form": "range",
@@ -57,14 +57,14 @@
         },
         {
           "label": "Местоположение",
-          "name": "realty-houses-sell-microregion",
+          "name": "microregion",
           "priority": 10,
           "hint": "Район, адрес или название жилого массива",
           "post_form": "textbox"
         },
         {
           "label": "Цена",
-          "name": "realty-houses-sell-price",
+          "name": "price",
           "priority": 11,
           "post_form": "textbox",
           "search_form": "range",
@@ -85,7 +85,7 @@
         },
         {
           "label": "Материал стен",
-          "name": "realty-houses-sell-type",
+          "name": "type",
           "priority": 20,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -135,7 +135,7 @@
         },
         {
           "label": "Площадь дома",
-          "name": "realty-houses-sell-microregion-area",
+          "name": "area",
           "priority": 40,
           "post_form": "textbox",
           "search_form": "range",
@@ -155,7 +155,7 @@
         },
         {
           "label": "Площадь участка",
-          "name": "realty-houses-sell-microregion-area-land",
+          "name": "area-land",
           "priority": 50,
           "post_form": "textbox",
           "search_form": "range",
@@ -175,7 +175,7 @@
         },
         {
           "label": "Состояние",
-          "name": "realty-houses-sell-condition",
+          "name": "condition",
           "priority": 51,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -213,7 +213,7 @@
         },
         {
           "label": "Подключено",
-          "name": "realty-houses-sell-microregion-area-land-connected",
+          "name": "connected",
           "priority": 60,
           "post_form": "checkboxlist",
           "parameters": [
@@ -239,7 +239,7 @@
         },
         {
           "label": "Санузел",
-          "name": "realty-houses-sell-lavatory",
+          "name": "lavatory",
           "priority": 70,
           "post_form": "radio",
           "options": [
@@ -267,7 +267,7 @@
         },
         {
           "label": "Канализация",
-          "name": "realty-houses-sell-sewerage",
+          "name": "sewerage",
           "priority": 80,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -293,7 +293,7 @@
         },
         {
           "label": "Вода",
-          "name": "realty-houses-sell-water",
+          "name": "water",
           "priority": 90,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -319,7 +319,7 @@
         },
         {
           "label": "Электричество",
-          "name": "realty-houses-sell-electricity",
+          "name": "electricity",
           "priority": 100,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -341,7 +341,7 @@
         },
         {
           "label": "Отопление",
-          "name": "realty-houses-sell-heating",
+          "name": "heating",
           "priority": 110,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -379,7 +379,7 @@
         },
         {
           "label": "Газ",
-          "name": "realty-houses-sell-gas",
+          "name": "gas",
           "priority": 120,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -405,7 +405,7 @@
         },
         {
           "label": "Безопасность",
-          "name": "realty-houses-sell-security",
+          "name": "security",
           "priority": 130,
           "post_form": "checkboxlist",
           "parameters": [
@@ -449,7 +449,7 @@
         },
         {
           "label": "Прочее",
-          "name": "realty-houses-sell-other_info",
+          "name": "other_info",
           "priority": 131,
           "post_form": "checkboxlist",
           "parameters": [
@@ -537,7 +537,7 @@
           "parameters": [
             {
               "label": "Право собственности",
-              "name": "realty-houses-rent-monthly-from",
+              "name": "from",
               "priority": 1,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -562,7 +562,7 @@
             },
             {
               "label": "Количество комнат",
-              "name": "realty-houses-rent-monthly-room-count",
+              "name": "room-count",
               "priority": 9,
               "post_form": "textbox",
               "search_form": "range",
@@ -582,14 +582,14 @@
             },
             {
               "label": "Местоположение",
-              "name": "realty-houses-rent-monthly-microregion",
+              "name": "microregion",
               "priority": 10,
               "hint": "Район, адрес или название жилого массива",
               "post_form": "textbox"
             },
             {
               "label": "Цена",
-              "name": "realty-houses-rent-monthly-price",
+              "name": "price",
               "priority": 11,
               "post_form": "textbox",
               "search_form": "range",
@@ -610,7 +610,7 @@
             },
             {
               "label": "Площадь дома",
-              "name": "realty-houses-rent-monthly-area",
+              "name": "area",
               "priority": 40,
               "post_form": "textbox",
               "search_form": "range",
@@ -630,7 +630,7 @@
             },
             {
               "label": "Площадь участка",
-              "name": "realty-houses-rent-monthly-area-land",
+              "name": "area-land",
               "priority": 50,
               "post_form": "textbox",
               "search_form": "range",
@@ -650,7 +650,7 @@
             },
             {
               "label": "Состояние",
-              "name": "realty-houses-rent-monthly-condition",
+              "name": "condition",
               "priority": 51,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -684,7 +684,7 @@
             },
             {
               "label": "Подключено",
-              "name": "realty-houses-rent-monthly-area-land-connected",
+              "name": "connected",
               "priority": 60,
               "post_form": "checkboxlist",
               "parameters": [
@@ -710,7 +710,7 @@
             },
             {
               "label": "Санузел",
-              "name": "realty-houses-rent-monthly-lavatory",
+              "name": "lavatory",
               "priority": 70,
               "post_form": "radio",
               "options": [
@@ -738,7 +738,7 @@
             },
             {
               "label": "Мебель",
-              "name": "realty-houses-rent-monthly-furniture",
+              "name": "furniture",
               "priority": 81,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -760,7 +760,7 @@
             },
             {
               "label": "Техника",
-              "name": "realty-houses-rent-monthly-equipment",
+              "name": "equipment",
               "priority": 82,
               "post_form": "checkboxlist",
               "parameters": [
@@ -810,7 +810,7 @@
             },
             {
               "label": "Вода",
-              "name": "realty-houses-rent-monthly-water",
+              "name": "water",
               "priority": 90,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -836,7 +836,7 @@
             },
             {
               "label": "Электричество",
-              "name": "realty-houses-rent-monthly-electricity",
+              "name": "electricity",
               "priority": 100,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -858,7 +858,7 @@
             },
             {
               "label": "Отопление",
-              "name": "realty-houses-rent-monthly-heating",
+              "name": "heating",
               "priority": 110,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -896,7 +896,7 @@
             },
             {
               "label": "Газ",
-              "name": "realty-houses-rent-monthly-gas",
+              "name": "gas",
               "priority": 120,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -922,7 +922,7 @@
             },
             {
               "label": "Безопасность",
-              "name": "realty-houses-rent-monthly-security",
+              "name": "security",
               "priority": 130,
               "post_form": "checkboxlist",
               "parameters": [
@@ -966,7 +966,7 @@
             },
             {
               "label": "Прочее",
-              "name": "realty-houses-rent-monthly-other_info",
+              "name": "other_info",
               "priority": 131,
               "post_form": "checkboxlist",
               "parameters": [
@@ -1060,7 +1060,7 @@
           "parameters": [
             {
               "label": "Количество комнат",
-              "name": "realty-houses-rent-daily-room-count",
+              "name": "room-count",
               "priority": 9,
               "post_form": "textbox",
               "search_form": "range",
@@ -1080,14 +1080,14 @@
             },
             {
               "label": "Местоположение",
-              "name": "realty-houses-rent-daily-microregion",
+              "name": "microregion",
               "priority": 10,
               "hint": "Район, адрес или название жилого массива",
               "post_form": "textbox"
             },
             {
               "label": "Цена за сутки",
-              "name": "realty-houses-rent-daily-price",
+              "name": "price",
               "priority": 11,
               "post_form": "textbox",
               "search_form": "range",
@@ -1107,7 +1107,7 @@
             },
             {
               "label": "Цена за ночь",
-              "name": "realty-houses-rent-daily-price-night",
+              "name": "price-night",
               "priority": 12,
               "post_form": "textbox",
               "search_form": "range",
@@ -1124,7 +1124,7 @@
             },
             {
               "label": "Цена за 2 часа",
-              "name": "realty-houses-rent-daily-price-hour",
+              "name": "price-hour",
               "priority": 13,
               "post_form": "textbox",
               "search_form": "range",
@@ -1141,7 +1141,7 @@
             },
             {
               "label": "Площадь дома",
-              "name": "realty-houses-rent-daily-microregion-area",
+              "name": "area",
               "priority": 40,
               "post_form": "textbox",
               "search_form": "range",
@@ -1161,7 +1161,7 @@
             },
             {
               "label": "Состояние",
-              "name": "realty-houses-rent-daily-condition",
+              "name": "condition",
               "priority": 51,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1183,7 +1183,7 @@
             },
             {
               "label": "Подключено",
-              "name": "realty-houses-rent-daily-area-connected",
+              "name": "connected",
               "priority": 60,
               "post_form": "checkboxlist",
               "parameters": [
@@ -1209,7 +1209,7 @@
             },
             {
               "label": "Мебель",
-              "name": "realty-houses-rent-daily-area-furniture",
+              "name": "furniture",
               "priority": 81,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1227,7 +1227,7 @@
             },
             {
               "label": "Техника",
-              "name": "realty-houses-rent-daily-area-equipment",
+              "name": "equipment",
               "priority": 82,
               "post_form": "checkboxlist",
               "parameters": [
@@ -1277,7 +1277,7 @@
             },
             {
               "label": "Безопасность",
-              "name": "realty-houses-rent-daily-security",
+              "name": "security",
               "priority": 130,
               "post_form": "checkboxlist",
               "parameters": [
@@ -1321,7 +1321,7 @@
             },
             {
               "label": "Прочее",
-              "name": "realty-houses-rent-daily-other_info",
+              "name": "other_info",
               "priority": 131,
               "post_form": "checkboxlist",
               "parameters": [

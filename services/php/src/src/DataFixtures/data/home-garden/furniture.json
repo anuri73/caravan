@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-furniture-ready-made-kits-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -42,7 +42,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-furniture-cabinets-chests-shelves-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -75,7 +75,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-furniture-tables-chairs-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -107,7 +107,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-furniture-bedroom-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -141,7 +141,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-furniture-cushioned-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -169,7 +169,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-furniture-kids-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -203,7 +203,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-furniture-kitchen-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -232,7 +232,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-furniture-inflatable-wicker-other-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -265,7 +265,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-furniture-accessories-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [

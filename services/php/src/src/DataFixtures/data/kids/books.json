@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Тип",
-      "name": "kids-books-type",
+      "name": "type",
       "priority": 11,
       "regulations": [
         {
@@ -58,7 +58,7 @@
     },
     {
       "label": "Состояние",
-      "name": "kids-books-condition",
+      "name": "condition",
       "priority": 30,
       "regulations": [
         {

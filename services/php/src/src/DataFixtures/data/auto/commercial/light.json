@@ -1592,7 +1592,7 @@
   "parameters": [
     {
       "label": "Цена",
-      "name": "auto-commercial-light-price",
+      "name": "price",
       "measure": "сом",
       "priority": 1,
       "post_form": "textbox",
@@ -1612,7 +1612,7 @@
       ]
     },
     {
-      "name": "auto-commercial-light-type",
+      "name": "type",
       "label": "Тип кузова",
       "priority": 2,
       "post_form": "dropdown",
@@ -1678,7 +1678,7 @@
     },
     {
       "label": "Год выпуска",
-      "name": "auto-commercial-light-year",
+      "name": "year",
       "priority": 3,
       "post_form": "textbox",
       "search_form": "range",
@@ -1697,7 +1697,7 @@
     },
     {
       "label": "Руль",
-      "name": "auto-commercial-light-steering_wheel",
+      "name": "steering_wheel",
       "priority": 4,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -1720,7 +1720,7 @@
       ]
     },
     {
-      "name": "auto-commercial-light-engine",
+      "name": "engine",
       "label": "Тип двигателя",
       "priority": 5,
       "post_form": "radio",
@@ -1757,7 +1757,7 @@
     },
     {
       "label": "Объем двигателя",
-      "name": "auto-commercial-light-volume",
+      "name": "volume",
       "priority": 6,
       "post_form": "textbox",
       "search_form": "range",
@@ -1777,7 +1777,7 @@
     },
     {
       "label": "Коробка передач",
-      "name": "auto-commercial-light-transmission",
+      "name": "transmission",
       "priority": 7,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -1809,7 +1809,7 @@
     },
     {
       "label": "Пробег",
-      "name": "auto-commercial-light-odometer",
+      "name": "odometer",
       "priority": 8,
       "post_form": "textbox",
       "measure": "км",
@@ -1823,7 +1823,7 @@
     },
     {
       "label": "Мощность",
-      "name": "auto-commercial-light-power",
+      "name": "power",
       "priority": 9,
       "post_form": "textbox",
       "measure": "л.с.",
@@ -1837,7 +1837,7 @@
     },
     {
       "label": "Грузоподъемность",
-      "name": "auto-commercial-light-capacity",
+      "name": "capacity",
       "priority": 10,
       "post_form": "textbox",
       "measure": "кг.",
@@ -1852,7 +1852,7 @@
     },
     {
       "label": "Привод",
-      "name": "auto-commercial-light-drive",
+      "name": "drive",
       "priority": 11,
       "post_form": "radio",
       "options": [
@@ -1884,7 +1884,7 @@
     },
     {
       "label": "Состояние",
-      "name": "auto-commercial-light-condition",
+      "name": "condition",
       "priority": 12,
       "post_form": "radio",
       "options": [
@@ -1908,7 +1908,7 @@
     },
     {
       "label": "Наличие",
-      "name": "auto-commercial-light-vailability",
+      "name": "availability",
       "priority": 13,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -1932,13 +1932,13 @@
     },
     {
       "label": "Опции",
-      "name": "auto-commercial-light-options",
+      "name": "options",
       "priority": 14,
       "post_form": "collapse",
       "parameters": [
         {
           "label": "Безопасность",
-          "name": "auto-commercial-light-options-security",
+          "name": "security",
           "priority": 2,
           "post_form": "checkboxlist",
           "parameters": [
@@ -2038,7 +2038,7 @@
     },
     {
       "label": "Прочее",
-      "name": "auto-commercial-light-additional_information",
+      "name": "additional_information",
       "priority": 15,
       "post_form": "checkboxlist",
       "parameters": [

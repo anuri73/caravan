@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-video-tv-brand",
+          "name": "brand",
           "priority": 22,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -132,7 +132,7 @@
         },
         {
           "label": "Диагональ",
-          "name": "electronics-video-tv-screen-size",
+          "name": "screen size",
           "priority": 23,
           "regulations": [
             {
@@ -147,7 +147,7 @@
         },
         {
           "label": "Опции",
-          "name": "electronics-video-tv-options",
+          "name": "options",
           "priority": 34,
           "post_form": "checkboxlist",
           "parameters": [
@@ -198,7 +198,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-video-home-theatres-brand",
+          "name": "brand",
           "priority": 11,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -234,7 +234,7 @@
         },
         {
           "label": "Опции",
-          "name": "electronics-video-home-theatres-options",
+          "name": "options",
           "priority": 32,
           "post_form": "checkboxlist",
           "parameters": [
@@ -301,7 +301,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-video-tv-accessories-type",
+          "name": "type hidden",
           "priority": 11,
           "regulations": [
             {
@@ -333,7 +333,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-video-cable-tv-type",
+          "name": "type hidden",
           "priority": 11,
           "regulations": [
             {

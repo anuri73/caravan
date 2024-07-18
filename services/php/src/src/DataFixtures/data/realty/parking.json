@@ -20,7 +20,7 @@
   "parameters": [
     {
       "label": "Право собственности",
-      "name": "realty-parking-from",
+      "name": "from",
       "priority": 1,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -45,7 +45,7 @@
     },
     {
       "label": "Тип",
-      "name": "realty-parking-type",
+      "name": "type",
       "priority": 2,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -78,14 +78,14 @@
     },
     {
       "label": "Местоположение",
-      "name": "realty-parking-from-microregion",
+      "name": "microregion",
       "priority": 3,
       "hint": "Район, адрес или название жилого комплекса",
       "post_form": "textbox"
     },
     {
       "label": "Цена",
-      "name": "realty-parking-price",
+      "name": "price",
       "priority": 4,
       "post_form": "textbox",
       "search_form": "range",
@@ -106,7 +106,7 @@
     },
     {
       "label": "Площадь",
-      "name": "realty-parking-from-microregion-area",
+      "name": "area",
       "priority": 5,
       "post_form": "textbox",
       "search_form": "range",

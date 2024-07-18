@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Состояние",
-      "name": "personal-bags-suitcases-condition",
+      "name": "condition",
       "priority": 30,
       "regulations": [
         {
@@ -37,7 +37,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-bags-suitcases-bags-type",
+          "name": "type",
           "priority": 10,
           "post_form": "radio",
           "regulations": [
@@ -64,7 +64,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-bags-suitcases-bags-sex",
+          "name": "sex",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -78,7 +78,7 @@
         },
         {
           "label": "Способ ношения",
-          "name": "personal-bags-suitcases-bags-carry type",
+          "name": "carry type",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -92,7 +92,7 @@
         },
         {
           "label": "Назначение",
-          "name": "personal-bags-suitcases-bags-purpose",
+          "name": "purpose",
           "priority": 13,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -107,7 +107,7 @@
         },
         {
           "label": "Материал",
-          "name": "personal-bags-suitcases-bags-material",
+          "name": "material",
           "priority": 14,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -133,7 +133,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-bags-suitcases-suitcases-type",
+          "name": "type",
           "priority": 10,
           "post_form": "radio",
           "regulations": [
@@ -156,7 +156,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-bags-suitcases-suitcases-sex",
+          "name": "sex",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -170,7 +170,7 @@
         },
         {
           "label": "Объем",
-          "name": "personal-bags-suitcases-suitcases-volume",
+          "name": "volume",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -191,7 +191,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-bags-suitcases-travel-bags-type",
+          "name": "type",
           "priority": 10,
           "post_form": "radio",
           "regulations": [
@@ -213,7 +213,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-bags-suitcases-travel-bags-sex",
+          "name": "sex",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -227,7 +227,7 @@
         },
         {
           "label": "Материал",
-          "name": "personal-bags-suitcases-travel-bags-material",
+          "name": "material",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -245,7 +245,7 @@
         },
         {
           "label": "Объем",
-          "name": "personal-bags-suitcases-travel-bags-volume",
+          "name": "volume",
           "priority": 13,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -266,7 +266,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-bags-suitcases-sport-bags-type",
+          "name": "type",
           "priority": 10,
           "post_form": "radio",
           "regulations": [
@@ -289,7 +289,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-bags-suitcases-sport-bags-sex",
+          "name": "sex",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -310,7 +310,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-bags-suitcases-backpacks-type",
+          "name": "type",
           "priority": 10,
           "post_form": "radio",
           "regulations": [
@@ -339,7 +339,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-bags-suitcases-backpacks-sex",
+          "name": "sex",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -353,7 +353,7 @@
         },
         {
           "label": "Отделение для ноутбука",
-          "name": "personal-bags-suitcases-backpacks-notebook department",
+          "name": "notebook department",
           "priority": 14,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -377,7 +377,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-bags-suitcases-briefcases-type",
+          "name": "type",
           "priority": 10,
           "post_form": "radio",
           "regulations": [
@@ -396,7 +396,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-bags-suitcases-briefcases-sex",
+          "name": "sex",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -410,7 +410,7 @@
         },
         {
           "label": "Плечевой ремень",
-          "name": "personal-bags-suitcases-briefcases-shoulder strap",
+          "name": "shoulder strap",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -422,7 +422,7 @@
         },
         {
           "label": "Материал",
-          "name": "personal-bags-suitcases-briefcases-material",
+          "name": "material",
           "priority": 13,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -439,7 +439,7 @@
         },
         {
           "label": "Отделение для ноутбука",
-          "name": "personal-bags-suitcases-briefcases-notebook department",
+          "name": "notebook department",
           "priority": 14,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -458,7 +458,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-bags-suitcases-beauticians-beauty-cases-type",
+          "name": "type",
           "priority": 10,
           "post_form": "radio",
           "regulations": [
@@ -478,7 +478,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-bags-suitcases-beauticians-beauty-cases-sex",
+          "name": "sex",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -491,7 +491,7 @@
         },
         {
           "label": "Материал",
-          "name": "personal-bags-suitcases-beauticians-beauty-cases-material",
+          "name": "material",
           "priority": 13,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -514,7 +514,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-bags-suitcases-bags-backpacks-for-notebooks-type",
+          "name": "type",
           "priority": 10,
           "post_form": "radio",
           "regulations": [
@@ -538,7 +538,7 @@
         },
         {
           "label": "Размер ноутбука",
-          "name": "personal-bags-suitcases-bags-backpacks-for-notebooks-screen-size",
+          "name": "screen size",
           "priority": 13,
           "regulations": [
             {

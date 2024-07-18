@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Название услуги",
-      "name": "services-title",
+      "name": "title",
       "priority": 1,
       "regulations": [
         {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Цена от",
-      "name": "services-price",
+      "name": "price",
       "priority": 20,
       "regulations": [
         {
@@ -139,7 +139,7 @@
           "parameters": [
             {
               "label": "Тип услуг",
-              "name": "services-domestic-cleaning-type",
+              "name": "type hidden",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -213,7 +213,7 @@
           "parameters": [
             {
               "label": "Тип услуг",
-              "name": "services-business-legal-type",
+              "name": "type hidden",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -353,7 +353,7 @@
           "parameters": [
             {
               "label": "Тип услуг",
-              "name": "services-care-nannies-type",
+              "name": "type",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -377,7 +377,7 @@
             },
             {
               "label": "Опыт",
-              "name": "services-care-nannies-experience",
+              "name": "experience",
               "priority": 12,
               "post_form": "radio",
               "regulations": [
@@ -398,7 +398,7 @@
             },
             {
               "label": "Возраст",
-              "name": "services-care-nannies-age",
+              "name": "age",
               "priority": 13,
               "post_form": "radio",
               "regulations": [
@@ -425,7 +425,7 @@
           "parameters": [
             {
               "label": "Тип услуг",
-              "name": "services-care-nurses-type",
+              "name": "type",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -446,7 +446,7 @@
             },
             {
               "label": "Опыт",
-              "name": "services-care-nurses-experience",
+              "name": "experience",
               "priority": 12,
               "post_form": "radio",
               "regulations": [
@@ -467,7 +467,7 @@
             },
             {
               "label": "Возраст",
-              "name": "services-care-nurses-age",
+              "name": "age",
               "priority": 13,
               "post_form": "radio",
               "regulations": [
@@ -501,7 +501,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "services-courses-foreign-languages-type",
+              "name": "type hidden",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -537,7 +537,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "services-courses-driving-type",
+              "name": "type hidden",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -578,7 +578,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "services-courses-preschool-type",
+              "name": "type",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -607,7 +607,7 @@
           "parameters": [
             {
               "label": "Курсы",
-              "name": "services-courses-skills-development-type",
+              "name": "typeWithLabel",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -642,7 +642,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "services-courses-education-abroad-type",
+              "name": "type hidden",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -672,7 +672,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "services-courses-tuitors-type",
+              "name": "type hidden",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -703,7 +703,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "services-courses-seminars-trainings-type",
+              "name": "type hidden",
               "priority": 11,
               "post_form": "radio",
               "regulations": [

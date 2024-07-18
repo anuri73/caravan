@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Тип",
-      "name": "kids-for-school-type",
+      "name": "type",
       "priority": 11,
       "regulations": [
         {
@@ -46,7 +46,7 @@
     },
     {
       "label": "Состояние",
-      "name": "kids-for-school-condition",
+      "name": "condition",
       "priority": 30,
       "regulations": [
         {

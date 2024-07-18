@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Тип спорта",
-      "name": "kids-sport-type",
+      "name": "type",
       "priority": 11,
       "regulations": [
         {
@@ -78,7 +78,7 @@
     },
     {
       "label": "Состояние",
-      "name": "kids-sport-condition",
+      "name": "condition",
       "priority": 30,
       "regulations": [
         {

@@ -15,6 +15,7 @@ class ParameterValidation
 
     #[ORM\ManyToOne(inversedBy: 'validators')]
     #[ORM\JoinColumn(name: 'parameter_name', referencedColumnName: 'name', nullable: false)]
+    #[ORM\JoinColumn(name: 'parameter_category_name', referencedColumnName: 'category_name', nullable: false)]
     private ?Parameter $parameter = null;
 
     #[ORM\Column(name: "constraint_class", length: 512)]

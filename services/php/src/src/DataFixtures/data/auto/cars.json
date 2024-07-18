@@ -294,67 +294,56 @@
           "label": "1er",
           "children": [
             {
-              "name": "auto-cars-bmw-1er-114",
               "url": "auto-cars-bmw-1er-114",
               "priority": 1,
               "label": "114"
             },
             {
-              "name": "auto-cars-bmw-1er-116",
               "url": "auto-cars-bmw-1er-116",
               "priority": 2,
               "label": "116"
             },
             {
-              "name": "auto-cars-bmw-1er-118",
               "url": "auto-cars-bmw-1er-118",
               "priority": 3,
               "label": "118"
             },
             {
-              "name": "auto-cars-bmw-1er-120",
               "url": "auto-cars-bmw-1er-120",
               "priority": 4,
               "label": "120"
             },
             {
-              "name": "auto-cars-bmw-1er-123",
               "url": "auto-cars-bmw-1er-123",
               "priority": 5,
               "label": "123"
             },
             {
-              "name": "auto-cars-bmw-1er-125",
               "url": "auto-cars-bmw-1er-125",
               "priority": 6,
               "label": "125"
             },
             {
-              "name": "auto-cars-bmw-1er-128",
               "url": "auto-cars-bmw-1er-128",
               "priority": 7,
               "label": "128"
             },
             {
-              "name": "auto-cars-bmw-1er-130",
               "url": "auto-cars-bmw-1er-130",
               "priority": 8,
               "label": "130"
             },
             {
-              "name": "auto-cars-bmw-1er-135",
               "url": "auto-cars-bmw-1er-135",
               "priority": 9,
               "label": "135"
             },
             {
-              "name": "auto-cars-bmw-1er-m135i",
               "url": "auto-cars-bmw-1er-m135i",
               "priority": 10,
               "label": "M135i"
             },
             {
-              "name": "auto-cars-bmw-1er-m140i",
               "url": "auto-cars-bmw-1er-m140i",
               "priority": 11,
               "label": "M140i"
@@ -362,7 +351,6 @@
           ]
         },
         {
-          "name": "auto-cars-bmw-1m",
           "url": "auto-cars-bmw-1m",
           "priority": 22,
           "label": "1M"
@@ -374,43 +362,36 @@
           "label": "2er",
           "children": [
             {
-              "name": "auto-cars-bmw-2er-218",
               "url": "auto-cars-bmw-2er-218",
               "priority": 1,
               "label": "218"
             },
             {
-              "name": "auto-cars-bmw-2er-220",
               "url": "auto-cars-bmw-2er-220",
               "priority": 2,
               "label": "220"
             },
             {
-              "name": "auto-cars-bmw-2er-225",
               "url": "auto-cars-bmw-2er-225",
               "priority": 3,
               "label": "225"
             },
             {
-              "name": "auto-cars-bmw-2er-228",
               "url": "auto-cars-bmw-2er-228",
               "priority": 4,
               "label": "228"
             },
             {
-              "name": "auto-cars-bmw-2er-230",
               "url": "auto-cars-bmw-2er-230",
               "priority": 5,
               "label": "230"
             },
             {
-              "name": "auto-cars-bmw-2er-m235i",
               "url": "auto-cars-bmw-2er-m235i",
               "priority": 6,
               "label": "M235i"
             },
             {
-              "name": "auto-cars-bmw-2er-m240i",
               "url": "auto-cars-bmw-2er-m240i",
               "priority": 7,
               "label": "M240i"
@@ -424,31 +405,26 @@
           "label": "2er Active Tourer",
           "children": [
             {
-              "name": "auto-cars-bmw-2er-active-tourer-216",
               "url": "auto-cars-bmw-2er-active-tourer-216",
               "priority": 1,
               "label": "216"
             },
             {
-              "name": "auto-cars-bmw-2er-active-tourer-218",
               "url": "auto-cars-bmw-2er-active-tourer-218",
               "priority": 2,
               "label": "218"
             },
             {
-              "name": "auto-cars-bmw-2er-active-tourer-220",
               "url": "auto-cars-bmw-2er-active-tourer-220",
               "priority": 3,
               "label": "220"
             },
             {
-              "name": "auto-cars-bmw-2er-active-tourer-225",
               "url": "auto-cars-bmw-2er-active-tourer-225",
               "priority": 4,
               "label": "225"
             },
             {
-              "name": "auto-cars-bmw-2er-active-tourer-m235i",
               "url": "auto-cars-bmw-2er-active-tourer-m235i",
               "priority": 5,
               "label": "M235i"
@@ -462,31 +438,26 @@
           "label": "2er Grand Tourer",
           "children": [
             {
-              "name": "auto-cars-bmw-2er-grand-tourer-216",
               "url": "auto-cars-bmw-2er-grand-tourer-216",
               "priority": 1,
               "label": "216"
             },
             {
-              "name": "auto-cars-bmw-2er-grand-tourer-218",
               "url": "auto-cars-bmw-2er-grand-tourer-218",
               "priority": 2,
               "label": "218"
             },
             {
-              "name": "auto-cars-bmw-2er-grand-tourer-220",
               "url": "auto-cars-bmw-2er-grand-tourer-220",
               "priority": 3,
               "label": "220"
             },
             {
-              "name": "auto-cars-bmw-2er-grand-tourer-225",
               "url": "auto-cars-bmw-2er-grand-tourer-225",
               "priority": 4,
               "label": "225"
             },
             {
-              "name": "auto-cars-bmw-2er-grand-tourer-m235i",
               "url": "auto-cars-bmw-2er-grand-tourer-m235i",
               "priority": 5,
               "label": "M235i"
@@ -500,73 +471,61 @@
           "label": "3er",
           "children": [
             {
-              "name": "auto-cars-bmw-3er-315",
               "url": "auto-cars-bmw-3er-315",
               "priority": 1,
               "label": "315"
             },
             {
-              "name": "auto-cars-bmw-3er-316",
               "url": "auto-cars-bmw-3er-316",
               "priority": 2,
               "label": "316"
             },
             {
-              "name": "auto-cars-bmw-3er-318",
               "url": "auto-cars-bmw-3er-318",
               "priority": 3,
               "label": "318"
             },
             {
-              "name": "auto-cars-bmw-3er-320",
               "url": "auto-cars-bmw-3er-320",
               "priority": 4,
               "label": "320"
             },
             {
-              "name": "auto-cars-bmw-3er-323",
               "url": "auto-cars-bmw-3er-323",
               "priority": 5,
               "label": "323"
             },
             {
-              "name": "auto-cars-bmw-3er-324",
               "url": "auto-cars-bmw-3er-324",
               "priority": 6,
               "label": "324"
             },
             {
-              "name": "auto-cars-bmw-3er-325",
               "url": "auto-cars-bmw-3er-325",
               "priority": 7,
               "label": "325"
             },
             {
-              "name": "auto-cars-bmw-3er-328",
               "url": "auto-cars-bmw-3er-328",
               "priority": 8,
               "label": "328"
             },
             {
-              "name": "auto-cars-bmw-3er-330",
               "url": "auto-cars-bmw-3er-330",
               "priority": 9,
               "label": "330"
             },
             {
-              "name": "auto-cars-bmw-3er-335",
               "url": "auto-cars-bmw-3er-335",
               "priority": 10,
               "label": "335"
             },
             {
-              "name": "auto-cars-bmw-3er-340",
               "url": "auto-cars-bmw-3er-340",
               "priority": 11,
               "label": "340"
             },
             {
-              "name": "auto-cars-bmw-3er-gran-turismo",
               "url": "auto-cars-bmw-3er-gran-turismo",
               "priority": 12,
               "label": "Gran Turismo"
@@ -580,43 +539,36 @@
           "label": "4er",
           "children": [
             {
-              "name": "auto-cars-bmw-4er-418",
               "url": "auto-cars-bmw-4er-418",
               "priority": 1,
               "label": "418"
             },
             {
-              "name": "auto-cars-bmw-4er-420",
               "url": "auto-cars-bmw-4er-420",
               "priority": 2,
               "label": "420"
             },
             {
-              "name": "auto-cars-bmw-4er-425",
               "url": "auto-cars-bmw-4er-425",
               "priority": 3,
               "label": "425"
             },
             {
-              "name": "auto-cars-bmw-4er-428",
               "url": "auto-cars-bmw-4er-428",
               "priority": 4,
               "label": "428"
             },
             {
-              "name": "auto-cars-bmw-4er-430",
               "url": "auto-cars-bmw-4er-430",
               "priority": 5,
               "label": "430"
             },
             {
-              "name": "auto-cars-bmw-4er-435",
               "url": "auto-cars-bmw-4er-435",
               "priority": 6,
               "label": "435"
             },
             {
-              "name": "auto-cars-bmw-4er-440",
               "url": "auto-cars-bmw-4er-440",
               "priority": 7,
               "label": "440"
@@ -630,85 +582,71 @@
           "label": "5er",
           "children": [
             {
-              "name": "auto-cars-bmw-5er-518",
               "url": "auto-cars-bmw-5er-518",
               "priority": 1,
               "label": "518"
             },
             {
-              "name": "auto-cars-bmw-5er-520",
               "url": "auto-cars-bmw-5er-520",
               "priority": 2,
               "label": "520"
             },
             {
-              "name": "auto-cars-bmw-5er-523",
               "url": "auto-cars-bmw-5er-523",
               "priority": 3,
               "label": "523"
             },
             {
-              "name": "auto-cars-bmw-5er-524",
               "url": "auto-cars-bmw-5er-524",
               "priority": 4,
               "label": "524"
             },
             {
-              "name": "auto-cars-bmw-5er-525",
               "url": "auto-cars-bmw-5er-525",
               "priority": 5,
               "label": "525"
             },
             {
-              "name": "auto-cars-bmw-5er-528",
               "url": "auto-cars-bmw-5er-528",
               "priority": 6,
               "label": "528"
             },
             {
-              "name": "auto-cars-bmw-5er-530",
               "url": "auto-cars-bmw-5er-530",
               "priority": 7,
               "label": "530"
             },
             {
-              "name": "auto-cars-bmw-5er-535",
               "url": "auto-cars-bmw-5er-535",
               "priority": 8,
               "label": "535"
             },
             {
-              "name": "auto-cars-bmw-5er-540",
               "url": "auto-cars-bmw-5er-540",
               "priority": 9,
               "label": "540"
             },
             {
-              "name": "auto-cars-bmw-5er-545",
               "url": "auto-cars-bmw-5er-545",
               "priority": 10,
               "label": "545"
             },
             {
-              "name": "auto-cars-bmw-5er-550",
               "url": "auto-cars-bmw-5er-550",
               "priority": 11,
               "label": "550"
             },
             {
-              "name": "auto-cars-bmw-5er-activehybrid",
               "url": "auto-cars-bmw-5er-activehybrid",
               "priority": 12,
               "label": "ActiveHybrid"
             },
             {
-              "name": "auto-cars-bmw-5er-gran-turismo",
               "url": "auto-cars-bmw-5er-gran-turismo",
               "priority": 13,
               "label": "Gran Turismo"
             },
             {
-              "name": "auto-cars-bmw-5er-m550d-xdrive",
               "url": "auto-cars-bmw-5er-m550d-xdrive",
               "priority": 14,
               "label": "M550d xDrive"
@@ -722,43 +660,36 @@
           "label": "6er",
           "children": [
             {
-              "name": "auto-cars-bmw-6er-628",
               "url": "auto-cars-bmw-6er-628",
               "priority": 1,
               "label": "628"
             },
             {
-              "name": "auto-cars-bmw-6er-630",
               "url": "auto-cars-bmw-6er-630",
               "priority": 2,
               "label": "630"
             },
             {
-              "name": "auto-cars-bmw-6er-633",
               "url": "auto-cars-bmw-6er-633",
               "priority": 3,
               "label": "633"
             },
             {
-              "name": "auto-cars-bmw-6er-635",
               "url": "auto-cars-bmw-6er-635",
               "priority": 4,
               "label": "635"
             },
             {
-              "name": "auto-cars-bmw-6er-640",
               "url": "auto-cars-bmw-6er-640",
               "priority": 5,
               "label": "640"
             },
             {
-              "name": "auto-cars-bmw-6er-645",
               "url": "auto-cars-bmw-6er-645",
               "priority": 6,
               "label": "645"
             },
             {
-              "name": "auto-cars-bmw-6er-650",
               "url": "auto-cars-bmw-6er-650",
               "priority": 7,
               "label": "650"
@@ -772,67 +703,56 @@
           "label": "7er",
           "children": [
             {
-              "name": "auto-cars-bmw-7er-725",
               "url": "auto-cars-bmw-7er-725",
               "priority": 1,
               "label": "725"
             },
             {
-              "name": "auto-cars-bmw-7er-728",
               "url": "auto-cars-bmw-7er-728",
               "priority": 2,
               "label": "728"
             },
             {
-              "name": "auto-cars-bmw-7er-730",
               "url": "auto-cars-bmw-7er-730",
               "priority": 3,
               "label": "730"
             },
             {
-              "name": "auto-cars-bmw-7er-733",
               "url": "auto-cars-bmw-7er-733",
               "priority": 4,
               "label": "733"
             },
             {
-              "name": "auto-cars-bmw-7er-735",
               "url": "auto-cars-bmw-7er-735",
               "priority": 5,
               "label": "735"
             },
             {
-              "name": "auto-cars-bmw-7er-740",
               "url": "auto-cars-bmw-7er-740",
               "priority": 6,
               "label": "740"
             },
             {
-              "name": "auto-cars-bmw-7er-745",
               "url": "auto-cars-bmw-7er-745",
               "priority": 7,
               "label": "745"
             },
             {
-              "name": "auto-cars-bmw-7er-750",
               "url": "auto-cars-bmw-7er-750",
               "priority": 8,
               "label": "750"
             },
             {
-              "name": "auto-cars-bmw-7er-760",
               "url": "auto-cars-bmw-7er-760",
               "priority": 9,
               "label": "760"
             },
             {
-              "name": "auto-cars-bmw-7er-active-hybrid-7",
               "url": "auto-cars-bmw-7er-active-hybrid-7",
               "priority": 10,
               "label": "Active Hybrid 7"
             },
             {
-              "name": "auto-cars-bmw-7er-m760",
               "url": "auto-cars-bmw-7er-m760",
               "priority": 11,
               "label": "M760"
@@ -858,31 +778,26 @@
           "label": "i8"
         },
         {
-          "name": "auto-cars-bmw-m2",
           "url": "auto-cars-bmw-m2",
           "priority": 30,
           "label": "M2"
         },
         {
-          "name": "auto-cars-bmw-m3",
           "url": "auto-cars-bmw-m3",
           "priority": 30,
           "label": "M3"
         },
         {
-          "name": "auto-cars-bmw-m4",
           "url": "auto-cars-bmw-m4",
           "priority": 30,
           "label": "M4"
         },
         {
-          "name": "auto-cars-bmw-m5",
           "url": "auto-cars-bmw-m5",
           "priority": 30,
           "label": "M5"
         },
         {
-          "name": "auto-cars-bmw-m6",
           "url": "auto-cars-bmw-m6",
           "priority": 30,
           "label": "M6"
@@ -912,7 +827,6 @@
           "label": "X5"
         },
         {
-          "name": "auto-cars-bmw-x5-m",
           "url": "auto-cars-bmw-x5-m",
           "priority": 33,
           "label": "X5 M"
@@ -924,7 +838,6 @@
           "label": "X6"
         },
         {
-          "name": "auto-cars-bmw-x6-m",
           "url": "auto-cars-bmw-x6-m",
           "priority": 11,
           "label": "X6 M"
@@ -942,7 +855,6 @@
           "label": "Z3"
         },
         {
-          "name": "auto-cars-bmw-z3-m",
           "url": "auto-cars-bmw-z3-m",
           "priority": 36,
           "label": "Z3 M"
@@ -954,7 +866,6 @@
           "label": "Z4"
         },
         {
-          "name": "auto-cars-bmw-z4-m",
           "url": "auto-cars-bmw-z4-m",
           "priority": 37,
           "label": "Z4 M"
@@ -14482,7 +14393,7 @@
   "parameters": [
     {
       "label": "Расположение руля",
-      "name": "auto-cars-steering_wheel",
+      "name": "steering_wheel",
       "priority": 5,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -14507,7 +14418,7 @@
     },
     {
       "label": "Год выпуска",
-      "name": "auto-cars-year",
+      "name": "year",
       "priority": 2,
       "post_form": "textbox",
       "search_form": "range",
@@ -14527,7 +14438,7 @@
     },
     {
       "label": "Цена",
-      "name": "cars-price",
+      "name": "price",
       "priority": 1,
       "measure": "сом",
       "post_form": "textbox",
@@ -14548,7 +14459,7 @@
     },
     {
       "label": "Коробка передач",
-      "name": "auto-cars-transmission",
+      "name": "transmission",
       "priority": 7,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -14585,7 +14496,7 @@
     },
     {
       "label": "Вид топлива",
-      "name": "auto-cars-engine",
+      "name": "engine",
       "priority": 6,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -14621,7 +14532,7 @@
     },
     {
       "label": "Объем двигателя",
-      "name": "auto-cars-volume",
+      "name": "volume",
       "priority": 4,
       "post_form": "textbox",
       "search_form": "range",
@@ -14641,7 +14552,7 @@
     },
     {
       "label": "Пробег",
-      "name": "auto-cars-odometer",
+      "name": "odometer",
       "priority": 3,
       "post_form": "textbox",
       "measure": "км",
@@ -14656,7 +14567,7 @@
     },
     {
       "label": "Наличие",
-      "name": "auto-cars-availability",
+      "name": "availability",
       "priority": 8,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -14680,7 +14591,7 @@
     },
     {
       "label": "Опции",
-      "name": "auto-cars-options",
+      "name": "options",
       "priority": 9,
       "post_form": "collapse",
       "parameters": [
@@ -14755,7 +14666,7 @@
         },
         {
           "label": "Комплектация",
-          "name": "auto-cars-equipment",
+          "name": "equipment",
           "priority": 5,
           "post_form": "checkboxlist",
           "parameters": [
@@ -14797,7 +14708,7 @@
     },
     {
       "label": "Прочее",
-      "name": "auto-cars-additional_information",
+      "name": "additional_information",
       "priority": 18,
       "post_form": "checkboxlist",
       "parameters": [

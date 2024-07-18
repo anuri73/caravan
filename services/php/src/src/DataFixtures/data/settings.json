@@ -9,36 +9,36 @@
       "url": "auto",
       "children": [
         {
-          "file": "/src/DataFixtures/data//auto/cars.json"
+          "file": "/src/DataFixtures/data/auto/cars.json"
         },
         {
-          "file": "/src/DataFixtures/data//auto/commercial.json"
+          "file": "/src/DataFixtures/data/auto/commercial.json"
         },
         {
-          "file": "/src/DataFixtures/data//auto/special.json"
+          "file": "/src/DataFixtures/data/auto/special.json"
         },
         {
-          "file": "/src/DataFixtures/data//auto/moto.json"
+          "file": "/src/DataFixtures/data/auto/moto.json"
         },
         {
-          "file": "/src/DataFixtures/data//auto/wheels.json"
+          "file": "/src/DataFixtures/data/auto/wheels.json"
         },
         {
-          "file": "/src/DataFixtures/data//auto/parts.json"
+          "file": "/src/DataFixtures/data/auto/parts.json"
         },
         {
-          "file": "/src/DataFixtures/data//auto/tools.json"
+          "file": "/src/DataFixtures/data/auto/tools.json"
         },
         {
-          "file": "/src/DataFixtures/data//auto/accessories.json"
+          "file": "/src/DataFixtures/data/auto/accessories.json"
         },
         {
-          "file": "/src/DataFixtures/data//auto/oil_chemical.json"
+          "file": "/src/DataFixtures/data/auto/oil_chemical.json"
         }
       ]
     },
     {
-      "file": "/src/DataFixtures/data//realty/realty.json"
+      "file": "/src/DataFixtures/data/realty/realty.json"
     },
     {
       "label": "Детский мир",
@@ -47,7 +47,7 @@
       "parameters": [
         {
           "label": "Название товара",
-          "name": "kids-title",
+          "name": "title",
           "priority": 1,
           "regulations": [
             {
@@ -59,7 +59,7 @@
         },
         {
           "label": "Цена",
-          "name": "kids-price",
+          "name": "price",
           "priority": 20,
           "regulations": [
             {
@@ -80,37 +80,37 @@
       ],
       "children": [
         {
-          "file": "/src/DataFixtures/data//kids/clothing.json"
+          "file": "/src/DataFixtures/data/kids/clothing.json"
         },
         {
-          "file": "/src/DataFixtures/data//kids/toys.json"
+          "file": "/src/DataFixtures/data/kids/toys.json"
         },
         {
-          "file": "/src/DataFixtures/data//kids/strollers.json"
+          "file": "/src/DataFixtures/data/kids/strollers.json"
         },
         {
-          "file": "/src/DataFixtures/data//kids/carseats.json"
+          "file": "/src/DataFixtures/data/kids/carseats.json"
         },
         {
-          "file": "/src/DataFixtures/data//kids/newborn.json"
+          "file": "/src/DataFixtures/data/kids/newborn.json"
         },
         {
-          "file": "/src/DataFixtures/data//kids/furniture.json"
+          "file": "/src/DataFixtures/data/kids/furniture.json"
         },
         {
-          "file": "/src/DataFixtures/data//kids/transport.json"
+          "file": "/src/DataFixtures/data/kids/transport.json"
         },
         {
-          "file": "/src/DataFixtures/data//kids/sport.json"
+          "file": "/src/DataFixtures/data/kids/sport.json"
         },
         {
-          "file": "/src/DataFixtures/data//kids/books.json"
+          "file": "/src/DataFixtures/data/kids/books.json"
         },
         {
-          "file": "/src/DataFixtures/data//kids/school.json"
+          "file": "/src/DataFixtures/data/kids/school.json"
         },
         {
-          "file": "/src/DataFixtures/data//kids/hobby-creativity.json"
+          "file": "/src/DataFixtures/data/kids/hobby-creativity.json"
         },
         {
           "label": "Прочие детские товары",
@@ -119,7 +119,7 @@
           "parameters": [
             {
               "label": "Состояние",
-              "name": "kids-other-condition",
+              "name": "condition",
               "priority": 30,
               "regulations": [
                 {
@@ -153,7 +153,7 @@
       "parameters": [
         {
           "label": "Название товара",
-          "name": "electronics-title",
+          "name": "title",
           "priority": 1,
           "regulations": [
             {
@@ -165,7 +165,7 @@
         },
         {
           "label": "Цена",
-          "name": "electronics-price",
+          "name": "price",
           "priority": 20,
           "regulations": [
             {
@@ -185,7 +185,7 @@
         },
         {
           "label": "Состояние",
-          "name": "electronics-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -211,40 +211,40 @@
       ],
       "children": [
         {
-          "file": "/src/DataFixtures/data//electronics/phones.json"
+          "file": "/src/DataFixtures/data/electronics/phones.json"
         },
         {
-          "file": "/src/DataFixtures/data//electronics/tablets_and_ereaders.json"
+          "file": "/src/DataFixtures/data/electronics/tablets_and_ereaders.json"
         },
         {
-          "file": "/src/DataFixtures/data//electronics/computers.json"
+          "file": "/src/DataFixtures/data/electronics/computers.json"
         },
         {
-          "file": "/src/DataFixtures/data//electronics/cameras.json"
+          "file": "/src/DataFixtures/data/electronics/cameras.json"
         },
         {
-          "file": "/src/DataFixtures/data//electronics/tv_video.json"
+          "file": "/src/DataFixtures/data/electronics/tv_video.json"
         },
         {
-          "file": "/src/DataFixtures/data//electronics/gaming_consoles.json"
+          "file": "/src/DataFixtures/data/electronics/gaming_consoles.json"
         },
         {
-          "file": "/src/DataFixtures/data//electronics/audio.json"
+          "file": "/src/DataFixtures/data/electronics/audio.json"
         },
         {
-          "file": "/src/DataFixtures/data//electronics/office_equipment.json"
+          "file": "/src/DataFixtures/data/electronics/office_equipment.json"
         },
         {
-          "file": "/src/DataFixtures/data//electronics/security_systems.json"
+          "file": "/src/DataFixtures/data/electronics/security_systems.json"
         },
         {
-          "file": "/src/DataFixtures/data//electronics/beauty_health.json"
+          "file": "/src/DataFixtures/data/electronics/beauty_health.json"
         },
         {
-          "file": "/src/DataFixtures/data//electronics/optical_devices.json"
+          "file": "/src/DataFixtures/data/electronics/optical_devices.json"
         },
         {
-          "file": "/src/DataFixtures/data//electronics/gps_navigation.json"
+          "file": "/src/DataFixtures/data/electronics/gps_navigation.json"
         },
         {
           "label": "Прочая электроника",
@@ -260,7 +260,7 @@
       "parameters": [
         {
           "label": "Название товара",
-          "name": "appliances-title",
+          "name": "title",
           "priority": 1,
           "regulations": [
             {
@@ -272,7 +272,7 @@
         },
         {
           "label": "Цена",
-          "name": "appliances-price",
+          "name": "price",
           "priority": 20,
           "regulations": [
             {
@@ -292,7 +292,7 @@
         },
         {
           "label": "Состояние",
-          "name": "appliances-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -317,18 +317,10 @@
         }
       ],
       "children": [
-        {
-          "file": "/src/DataFixtures/data//appliances/large_kitchen_appliances.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//appliances/small_kitchen_appliances.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//appliances/climatic_equipment.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//appliances/home_appliances.json"
-        }
+        { "file": "/src/DataFixtures/data/appliances/large_kitchen_appliances.json" },
+        { "file": "/src/DataFixtures/data/appliances/small_kitchen_appliances.json" },
+        { "file": "/src/DataFixtures/data/appliances/climatic_equipment.json" },
+        { "file": "/src/DataFixtures/data/appliances/home_appliances.json" }
       ]
     },
     {
@@ -338,7 +330,7 @@
       "parameters": [
         {
           "label": "Название товара",
-          "name": "home-garden-title",
+          "name": "title",
           "priority": 1,
           "regulations": [
             {
@@ -350,7 +342,7 @@
         },
         {
           "label": "Цена",
-          "name": "home-garden-price",
+          "name": "price",
           "priority": 20,
           "regulations": [
             {
@@ -370,7 +362,7 @@
         },
         {
           "label": "Состояние",
-          "name": "home-garden-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -395,39 +387,17 @@
         }
       ],
       "children": [
-        {
-          "file": "/src/DataFixtures/data//home-garden/construction_renovation.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//home-garden/summer_house_garden.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//home-garden/furniture.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//home-garden/interior.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//home-garden/lighting.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//home-garden/dishes_kitchenware.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//home-garden/household.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//home-garden/textyle.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//home-garden/household_chemicals.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//home-garden/houseplants.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//home-garden/holiday_goods.json"
-        },
+        { "file": "/src/DataFixtures/data/home-garden/construction_renovation.json" },
+        { "file": "/src/DataFixtures/data/home-garden/summer_house_garden.json" },
+        { "file": "/src/DataFixtures/data/home-garden/furniture.json" },
+        { "file": "/src/DataFixtures/data/home-garden/interior.json" },
+        { "file": "/src/DataFixtures/data/home-garden/lighting.json" },
+        { "file": "/src/DataFixtures/data/home-garden/dishes_kitchenware.json" },
+        { "file": "/src/DataFixtures/data/home-garden/household.json" },
+        { "file": "/src/DataFixtures/data/home-garden/textyle.json" },
+        { "file": "/src/DataFixtures/data/home-garden/household_chemicals.json" },
+        { "file": "/src/DataFixtures/data/home-garden/houseplants.json" },
+        { "file": "/src/DataFixtures/data/home-garden/holiday_goods.json" },
         {
           "label": "Прочие товары для дома и дачи",
           "url": "home-garden-other",
@@ -442,7 +412,7 @@
       "parameters": [
         {
           "label": "Название товара",
-          "name": "personal-title",
+          "name": "title",
           "priority": 1,
           "regulations": [
             {
@@ -454,7 +424,7 @@
         },
         {
           "label": "Цена",
-          "name": "personal-price",
+          "name": "price",
           "priority": 20,
           "regulations": [
             {
@@ -474,21 +444,11 @@
         }
       ],
       "children": [
-        {
-          "file": "/src/DataFixtures/data//personal/women.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//personal/men.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//personal/bags_suitcases.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//personal/accessories.json"
-        },
-        {
-          "file": "/src/DataFixtures/data//personal/beauty_health.json"
-        },
+        { "file": "/src/DataFixtures/data/personal/women.json" },
+        { "file": "/src/DataFixtures/data/personal/men.json" },
+        { "file": "/src/DataFixtures/data/personal/bags_suitcases.json" },
+        { "file": "/src/DataFixtures/data/personal/accessories.json" },
+        { "file": "/src/DataFixtures/data/personal/beauty_health.json" },
         {
           "label": "Прочие личные вещи",
           "url": "personal-other",
@@ -497,19 +457,19 @@
       ]
     },
     {
-      "file": "/src/DataFixtures/data//services/services.json"
+      "file": "/src/DataFixtures/data/services/services.json"
     },
     {
-      "file": "/src/DataFixtures/data//sport-hobby/sport_hobby.json"
+      "file": "/src/DataFixtures/data/sport-hobby/sport_hobby.json"
     },
     {
-      "file": "/src/DataFixtures/data//business/business.json"
+      "file": "/src/DataFixtures/data/business/business.json"
     },
     {
-      "file": "/src/DataFixtures/data//animals/animals.json"
+      "file": "/src/DataFixtures/data/animals/animals.json"
     },
     {
-      "file": "/src/DataFixtures/data//handmade/handmade.json"
+      "file": "/src/DataFixtures/data/handmade/handmade.json"
     }
   ]
 }

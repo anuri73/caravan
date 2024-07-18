@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-office-equipment-copiers-mfp-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -35,7 +35,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-office-equipment-copiers-mfp-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -90,7 +90,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-office-equipment-printers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -112,7 +112,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-office-equipment-printers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -167,7 +167,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-office-cartridges-for-printers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -189,7 +189,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-office-cartridges-for-printers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -219,7 +219,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-office-inks-toners-photoconductors-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -239,7 +239,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-office-inks-toners-photoconductors-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -265,7 +265,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-office-scanners-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -309,7 +309,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-office-projectors-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -330,7 +330,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-office-projectors-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -409,7 +409,7 @@
         },
         {
           "label": "Назначение",
-          "name": "electronics-office-projectors-purpose",
+          "name": "purpose",
           "priority": 24,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -430,7 +430,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-office-projection-screens-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -452,7 +452,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-office-projection-screens-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -494,7 +494,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-office-ats-mini-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -514,7 +514,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-office-ats-mini-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -544,7 +544,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-office-shredders-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -576,7 +576,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-office-calculators-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",

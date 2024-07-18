@@ -15,7 +15,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-tools-power-tools-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -59,7 +59,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-tools-chainsaws-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -98,7 +98,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-tools-hand-tools-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -144,7 +144,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-tools-pneumatic-tools-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -173,7 +173,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-tools-measurement-tools-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -204,7 +204,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-tools-consumables-accessories-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -248,7 +248,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-tools-other-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -311,7 +311,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-sanitary-engineering-shower-cabins-type",
+              "name": "type",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -352,7 +352,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-sanitary-engineering-materials-components-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -400,7 +400,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-sanitary-engineering-pipes-water-supply-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -466,7 +466,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-materials-finishing-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -506,7 +506,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-materials-floor-coverings-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -543,7 +543,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-materials-paints-varnishes-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -577,7 +577,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-materials-construction-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -611,7 +611,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-materials-fixture-fittings-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -663,7 +663,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-electrics-welding-equipment-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -737,7 +737,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-electrics-measurement-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -766,7 +766,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-electrics-wiring-accessories-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -823,7 +823,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-electrics-automatic-switches-rcd-difavatus-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -919,7 +919,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-heating-ventilation-ventilation-type",
+              "name": "type",
               "priority": 11,
               "post_form": "dropdown",
               "regulations": [
@@ -1024,7 +1024,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "home-garden-construction-renovation-doors-windows-accessories-type",
+              "name": "type",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -1078,7 +1078,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-construction-renovation-saunas-bathhouses-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [

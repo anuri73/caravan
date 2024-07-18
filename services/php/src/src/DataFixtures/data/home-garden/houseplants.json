@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Тип",
-      "name": "home-garden-houseplants-type",
+      "name": "type",
       "priority": 11,
       "post_form": "dropdown",
       "regulations": [

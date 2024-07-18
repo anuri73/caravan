@@ -36,7 +36,8 @@ class Post
     #[ORM\ManyToMany(targetEntity: Parameter::class)]
     #[ORM\JoinTable(name: 'post_parameter_value')]
     #[ORM\JoinColumn(name: 'post_id', referencedColumnName: 'id')]
-    #[ORM\InverseJoinColumn(name: 'parameter_id', referencedColumnName: 'name')]
+    #[ORM\InverseJoinColumn(name: 'parameter_name', referencedColumnName: 'name')]
+    #[ORM\InverseJoinColumn(name: 'parameter_category_name', referencedColumnName: 'category_name')]
     private Collection $parameterValues;
 
     public function __construct()

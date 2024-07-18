@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Операционная система",
-          "name": "electronics-tablets-ereaders-tablets-operating system",
+          "name": "operating system",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -59,7 +59,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-tablets-ereaders-tablets-brand",
+          "name": "brand",
           "priority": 13,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -133,7 +133,7 @@
         },
         {
           "label": "Объем памяти",
-          "name": "electronics-tablets-ereaders-tablets-memory",
+          "name": "memory",
           "priority": 15,
           "post_form": "textbox",
           "measure": "Гб",
@@ -148,7 +148,7 @@
         },
         {
           "label": "Объем оперативной памяти",
-          "name": "electronics-tablets-ereaders-tablets-ram",
+          "name": "ram",
           "priority": 16,
           "post_form": "textbox",
           "measure": "Гб",
@@ -163,7 +163,7 @@
         },
         {
           "label": "Разрешение основной камеры",
-          "name": "electronics-tablets-ereaders-tablets-main-camera",
+          "name": "main camera",
           "priority": 17,
           "post_form": "textbox",
           "measure": "мп",
@@ -185,7 +185,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-tablets-ereaders-ereaders-brand",
+          "name": "brand",
           "priority": 10,
           "post_form": "dropdown",
           "search_form": "checkbox",

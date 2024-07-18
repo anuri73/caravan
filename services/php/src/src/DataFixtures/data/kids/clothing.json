@@ -142,7 +142,7 @@
       "parameters": [
         {
           "label": "Возраст ребенка",
-          "name": "kids-clothing-girls-age",
+          "name": "age",
           "priority": 40,
           "regulations": [
             {
@@ -315,7 +315,7 @@
       "parameters": [
         {
           "label": "Возраст ребенка",
-          "name": "kids-clothing-boys-age",
+          "name": "age",
           "priority": 40,
           "regulations": [
             {
@@ -453,7 +453,7 @@
       "parameters": [
         {
           "label": "Возраст",
-          "name": "kids-clothing-newborn-age",
+          "name": "age",
           "priority": 40,
           "regulations": [
             {
@@ -501,7 +501,7 @@
       "parameters": [
         {
           "label": "Тип обуви",
-          "name": "kids-clothing-girl-shoes-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -570,7 +570,7 @@
         },
         {
           "label": "Размер",
-          "name": "kids-clothing-girl-shoes-size",
+          "name": "size",
           "priority": 11,
           "regulations": [
             {
@@ -646,7 +646,7 @@
       "parameters": [
         {
           "label": "Тип обуви",
-          "name": "kids-clothing-boys-shoes-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -711,7 +711,7 @@
         },
         {
           "label": "Размер",
-          "name": "kids-clothing-boys-shoes-size",
+          "name": "size",
           "priority": 11,
           "regulations": [
             {
@@ -787,7 +787,7 @@
       "parameters": [
         {
           "label": "Тип обуви",
-          "name": "kids-clothing-newborn-shoes-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -824,7 +824,7 @@
         },
         {
           "label": "Размер",
-          "name": "kids-clothing-newborn-shoes-size",
+          "name": "size",
           "priority": 12,
           "regulations": [
             {
@@ -857,7 +857,7 @@
   "parameters": [
     {
       "label": "Состояние товара",
-      "name": "kids-clothing-condition",
+      "name": "condition",
       "priority": 30,
       "regulations": [
         {

@@ -6,19 +6,16 @@
   "children": [
     {
       "label": "ABM",
-      "name": "auto-moto-motorcycle-abm",
       "url": "auto-moto-motorcycle-abm",
       "priority": 1,
       "children": [
         {
           "label": "Alpha 110",
-          "name": "auto-moto-motorcycle-abm-alpha_110",
           "url": "auto-moto-motorcycle-abm-alpha_110",
           "priority": 1
         },
         {
           "label": "Alpha 50",
-          "name": "auto-moto-motorcycle-abm-alpha_50",
           "url": "auto-moto-motorcycle-abm-alpha_50",
           "priority": 2
         },
@@ -13258,7 +13255,7 @@
   ],
   "parameters": [
     {
-      "name": "auto-moto-motorcycle-type",
+      "name": "type",
       "label": "Тип мотоцикла",
       "priority": 1,
       "post_form": "dropdown",
@@ -13308,7 +13305,7 @@
     },
     {
       "label": "Цена",
-      "name": "auto-moto-motorcycle-price",
+      "name": "price",
       "priority": 2,
       "post_form": "textbox",
       "search_form": "range",
@@ -13327,7 +13324,7 @@
     },
     {
       "label": "Год выпуска",
-      "name": "auto-moto-motorcycle-year",
+      "name": "year",
       "priority": 3,
       "post_form": "textbox",
       "search_form": "range",
@@ -13346,7 +13343,7 @@
     },
     {
       "label": "Пробег",
-      "name": "auto-moto-motorcycle-odometer",
+      "name": "odometer",
       "priority": 4,
       "post_form": "textbox",
       "measure": "км",
@@ -13359,7 +13356,7 @@
       ]
     },
     {
-      "name": "auto-moto-motorcycle-engine",
+      "name": "engine",
       "label": "Тип двигателя",
       "priority": 5,
       "post_form": "radio",
@@ -13392,7 +13389,7 @@
     },
     {
       "label": "Объем двигателя",
-      "name": "auto-moto-motorcycle-volume",
+      "name": "volume",
       "priority": 6,
       "post_form": "textbox",
       "search_form": "range",
@@ -13411,7 +13408,7 @@
     },
     {
       "label": "Коробка передач",
-      "name": "auto-moto-motorcycle-transmission",
+      "name": "transmission",
       "priority": 7,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -13444,7 +13441,7 @@
     },
     {
       "label": "Расположение цилиндров",
-      "name": "auto-moto-motorcycle-cylinder_arrangement",
+      "name": "cylinder_arrangement",
       "priority": 8,
       "post_form": "radio",
       "options": [
@@ -13456,7 +13453,7 @@
     },
     {
       "label": "Кол-во цилиндров",
-      "name": "auto-moto-motorcycle-cylinder_qty",
+      "name": "cylinder_qty",
       "priority": 9,
       "post_form": "radio",
       "options": [
@@ -13471,7 +13468,7 @@
     },
     {
       "label": "Мощность",
-      "name": "auto-moto-motorcycle-power",
+      "name": "power",
       "priority": 10,
       "post_form": "textbox",
       "measure": "л.с.",
@@ -13485,7 +13482,7 @@
     },
     {
       "label": "Привод",
-      "name": "auto-moto-motorcycle-drive",
+      "name": "drive",
       "priority": 11,
       "post_form": "radio",
       "options": [
@@ -13505,7 +13502,7 @@
     },
     {
       "label": "Число тактов",
-      "name": "auto-moto-motorcycle-cycles_qty",
+      "name": "cycles_qty",
       "priority": 12,
       "post_form": "radio",
       "options": [
@@ -13515,7 +13512,7 @@
     },
     {
       "label": "Состояние",
-      "name": "auto-moto-motorcycle-condition",
+      "name": "condition",
       "priority": 13,
       "post_form": "radio",
       "options": [
@@ -13539,7 +13536,7 @@
     },
     {
       "label": "Наличие",
-      "name": "auto-moto-motorcycle-availability",
+      "name": "availability",
       "priority": 14,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -13563,7 +13560,7 @@
     },
     {
       "label": "Прочее",
-      "name": "auto-moto-motorcycle-additional_information",
+      "name": "additional_information",
       "priority": 15,
       "post_form": "checkboxlist",
       "parameters": [

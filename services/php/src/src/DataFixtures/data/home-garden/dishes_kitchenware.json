@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-dishes-kitchenware-cooking-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -59,7 +59,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-dishes-kitchenware-table-setting-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -96,7 +96,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-dishes-kitchenware-beverage-preparation-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -127,7 +127,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-dishes-kitchenware-kitchen-accessories-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -158,7 +158,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-dishes-kitchenware-food-storage-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [

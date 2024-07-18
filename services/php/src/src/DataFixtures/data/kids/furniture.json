@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Состояние",
-      "name": "kids-furniture-condition",
+      "name": "condition",
       "priority": 21,
       "regulations": [
         {

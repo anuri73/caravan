@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-laptops-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -35,7 +35,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-computers-laptops-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -133,7 +133,7 @@
         },
         {
           "label": "Размера экрана",
-          "name": "electronics-computers-laptops-screen-size",
+          "name": "screen size",
           "priority": 22,
           "regulations": [
             {
@@ -149,7 +149,7 @@
         },
         {
           "label": "Размер оперативной памяти",
-          "name": "electronics-computers-laptops-ram",
+          "name": "ram",
           "priority": 23,
           "regulations": [
             {
@@ -164,7 +164,7 @@
         },
         {
           "label": "Объем жесткого диска",
-          "name": "electronics-computers-laptops-memory",
+          "name": "memory",
           "priority": 24,
           "regulations": [
             {
@@ -179,7 +179,7 @@
         },
         {
           "label": "Тип жесткого диска",
-          "name": "electronics-computers-laptops-disk-type",
+          "name": "disk type",
           "priority": 25,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -201,7 +201,7 @@
         },
         {
           "label": "Размер видеокарты",
-          "name": "electronics-computers-laptops-videocard",
+          "name": "videocard",
           "priority": 26,
           "regulations": [
             {
@@ -223,7 +223,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-desktop-type",
+          "name": "type",
           "priority": 21,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -254,7 +254,7 @@
         },
         {
           "label": "Размер оперативной памяти",
-          "name": "electronics-computers-desktop-ram",
+          "name": "ram",
           "priority": 22,
           "regulations": [
             {
@@ -269,7 +269,7 @@
         },
         {
           "label": "Объем жесткого диска",
-          "name": "electronics-computers-desktop-memory",
+          "name": "memory",
           "priority": 23,
           "regulations": [
             {
@@ -284,7 +284,7 @@
         },
         {
           "label": "Тип жесткого диска",
-          "name": "electronics-computers-desktop-disk-type",
+          "name": "disk type",
           "priority": 24,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -306,7 +306,7 @@
         },
         {
           "label": "Размер видеокарты",
-          "name": "electronics-computers-desktop-videocard",
+          "name": "videocard",
           "priority": 25,
           "regulations": [
             {
@@ -328,7 +328,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-computers-monitors-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -368,7 +368,7 @@
         },
         {
           "label": "Диагональ экрана",
-          "name": "electronics-computers-monitors-screen-size",
+          "name": "screen size",
           "priority": 22,
           "regulations": [
             {
@@ -391,7 +391,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-keyboards-mouses-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -420,7 +420,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-computers-keyboards-mouses-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -467,7 +467,7 @@
         },
         {
           "label": "Подключение",
-          "name": "electronics-computers-keyboards-mouses-connection-type",
+          "name": "connection type",
           "priority": 25,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -485,7 +485,7 @@
         },
         {
           "label": "Назначение",
-          "name": "electronics-computers-keyboards-mouses-purpose",
+          "name": "purpose",
           "priority": 26,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -510,7 +510,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-joysticks-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -539,7 +539,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-computers-joysticks-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -572,7 +572,7 @@
         },
         {
           "label": "Подключение",
-          "name": "electronics-computers-joysticks-connection-type",
+          "name": "connection type",
           "priority": 25,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -597,7 +597,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-earphones-microphones-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -626,7 +626,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-computers-earphones-microphones-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -688,7 +688,7 @@
         },
         {
           "label": "Подключение",
-          "name": "electronics-computers-earphones-microphones-connection-type",
+          "name": "connection type",
           "priority": 25,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -713,7 +713,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-computers-speakers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -750,7 +750,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-computers-upc-power-supplies-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -789,7 +789,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-usb-flashdrives-memory-cards-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -814,7 +814,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-computers-usb-flashdrives-memory-cards-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -849,7 +849,7 @@
         },
         {
           "label": "Объем памяти",
-          "name": "electronics-computers-usb-flashdrives-memory-cards-memory",
+          "name": "memory",
           "priority": 24,
           "regulations": [
             {
@@ -871,7 +871,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-external-hdd-ssd-hard-drives-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -896,7 +896,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-computers-external-hdd-ssd-hard-drives-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -919,7 +919,7 @@
         },
         {
           "label": "Объем памяти",
-          "name": "electronics-computers-external-hdd-ssd-hard-drives-memory",
+          "name": "memory",
           "priority": 24,
           "regulations": [
             {
@@ -941,7 +941,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-notebook-accessories-type",
+          "name": "type hidden",
           "priority": 10,
           "regulations": [
             {
@@ -978,7 +978,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-cases-bags-backpacks-type",
+          "name": "type hidden",
           "priority": 10,
           "regulations": [
             {
@@ -1007,7 +1007,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-accessories-type",
+          "name": "type hidden",
           "priority": 10,
           "regulations": [
             {
@@ -1045,7 +1045,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-servers-type",
+          "name": "type hidden",
           "priority": 10,
           "regulations": [
             {
@@ -1073,7 +1073,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-computers-network-equipment-type",
+          "name": "type hidden",
           "priority": 10,
           "regulations": [
             {
@@ -1106,7 +1106,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-computers-network-equipment-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -1182,7 +1182,7 @@
       "parameters": [
         {
           "label": "Тематика",
-          "name": "electronics-computers-software-games-type",
+          "name": "type hidden",
           "priority": 10,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -1209,7 +1209,7 @@
         },
         {
           "label": "Операционная система",
-          "name": "electronics-computers-software-games-operating system",
+          "name": "operating system",
           "priority": 21,
           "post_form": "radio",
           "search_form": "checkbox",

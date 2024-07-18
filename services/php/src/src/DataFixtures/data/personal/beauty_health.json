@@ -15,7 +15,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-cosmetics-perfumes-perfumery-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -50,7 +50,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-for-lips-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -84,7 +84,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-removal-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -121,7 +121,7 @@
                 },
                 {
                   "label": "Тип кожи",
-                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-removal-skin type",
+                  "name": "skin type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -145,7 +145,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-for-eyes-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -173,7 +173,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-for-face-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -205,7 +205,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-for-eyebrows-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -234,7 +234,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-accessories-type",
+                  "name": "type2",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -272,7 +272,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-moisturizing-nourishing-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -298,7 +298,7 @@
                 },
                 {
                   "label": "Тип кожи",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-moisturizing-nourishing-skin type",
+                  "name": "skin type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -322,7 +322,7 @@
               "parameters": [
                 {
                   "label": "Вид маски",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-masks-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -352,7 +352,7 @@
                 },
                 {
                   "label": "Тип кожи",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-masks-skin type",
+                  "name": "skin type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -369,7 +369,7 @@
                 },
                 {
                   "label": "Действие",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-masks-effect",
+                  "name": "effect",
                   "priority": 12,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -396,7 +396,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-toning-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -421,7 +421,7 @@
                 },
                 {
                   "label": "Тип кожи",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-toning-skin type",
+                  "name": "skin type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -445,7 +445,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-scrubs-peelings-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -466,7 +466,7 @@
                 },
                 {
                   "label": "Тип средства",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-scrubs-peelings-form",
+                  "name": "form",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -489,7 +489,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-problem-skin-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -534,7 +534,7 @@
                 },
                 {
                   "label": "Назначение",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-problem-skin-purpose",
+                  "name": "purpose",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -547,7 +547,7 @@
                 },
                 {
                   "label": "Тип кожи",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-problem-skin-skin type",
+                  "name": "skin type",
                   "priority": 12,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -564,7 +564,7 @@
                 },
                 {
                   "label": "Эффект",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-problem-skin-effect",
+                  "name": "effect",
                   "priority": 13,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -591,7 +591,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-eyes-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -633,7 +633,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-lips-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -668,7 +668,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-makeup-removal-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -705,7 +705,7 @@
                 },
                 {
                   "label": "Тип кожи",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-makeup-removal-skin type",
+                  "name": "skin type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -722,7 +722,7 @@
                 },
                 {
                   "label": "Эффект",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-makeup-removal-effect",
+                  "name": "effect",
                   "priority": 12,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -745,7 +745,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-sunscreen-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -772,7 +772,7 @@
                 },
                 {
                   "label": "Назначение",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-sunscreen-purpose",
+                  "name": "purpose",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -787,7 +787,7 @@
                 },
                 {
                   "label": "Тип кожи",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-sunscreen-skin type",
+                  "name": "skin type",
                   "priority": 12,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -816,7 +816,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-cotton-sticks-swab-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -843,7 +843,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-anti-aging-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -898,7 +898,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-hairbrushes-brushes-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -928,7 +928,7 @@
               "parameters": [
                 {
                   "label": "Тип волос",
-                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-shampoos-hair type",
+                  "name": "hair type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -959,7 +959,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-dry-shampoos-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -986,7 +986,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-masks-serums-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1023,7 +1023,7 @@
                 },
                 {
                   "label": "Тип волос",
-                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-masks-serums-hair type",
+                  "name": "hair type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1049,7 +1049,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-curlers-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1072,7 +1072,7 @@
                 },
                 {
                   "label": "Размер бигуди",
-                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-curlerssize",
+                  "name": "size",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1094,7 +1094,7 @@
               "parameters": [
                 {
                   "label": "Тип волос",
-                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-rinsers-hair type",
+                  "name": "hair type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1119,7 +1119,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-coloring-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1148,7 +1148,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-styling-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1182,7 +1182,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-hairpins-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1229,7 +1229,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-for-shower-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1262,7 +1262,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-creams-lotions-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1296,7 +1296,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-anti-cellulite-products-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1338,7 +1338,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-deodorants-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1358,7 +1358,7 @@
                 },
                 {
                   "label": "Способ нанесения",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-deodorants-purpose",
+                  "name": "purpose",
                   "priority": 12,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1379,7 +1379,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-hand-care-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1418,7 +1418,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-feet-care-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1453,7 +1453,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-depilation-epilation-type",
+                  "name": "type2",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1484,7 +1484,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-accessories-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1514,7 +1514,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-paper-products-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1541,7 +1541,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-cotton-sticks-swabs-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1568,7 +1568,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-sunscreens-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1595,7 +1595,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-soaps-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1614,7 +1614,7 @@
                 },
                 {
                   "label": "Вид",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-soaps-form",
+                  "name": "form",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1635,7 +1635,7 @@
               "parameters": [
                 {
                   "label": "Средство",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-scrubs-peelings-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1656,7 +1656,7 @@
                 },
                 {
                   "label": "Форма средства",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-scrubs-peelings-form",
+                  "name": "form",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1681,7 +1681,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-foam-salt-oil-for-bath-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "regulations": [
@@ -1718,7 +1718,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-cosmetics-perfumes-nails-care-type",
+              "name": "type",
               "priority": 10,
               "post_form": "dropdown",
               "regulations": [
@@ -1758,7 +1758,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-cosmetics-perfumes-for-men-type",
+              "name": "type2",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -1816,7 +1816,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-pharmacy-medical-devices-type",
+              "name": "type2",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -1857,7 +1857,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-pharmacy-medical-herbs-type",
+              "name": "type",
               "priority": 10,
               "post_form": "dropdown",
               "regulations": [
@@ -1962,7 +1962,7 @@
             },
             {
               "label": "Форма выпуска",
-              "name": "personal-beauty-health-pharmacy-medical-herbs-form",
+              "name": "form",
               "priority": 11,
               "post_form": "radio",
               "regulations": [
@@ -1993,7 +1993,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-pharmacy-medical-materials-type",
+              "name": "type2",
               "priority": 10,
               "post_form": "dropdown",
               "regulations": [
@@ -2034,7 +2034,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-pharmacy-medical-diagnostic-tests-type",
+              "name": "type",
               "priority": 10,
               "post_form": "dropdown",
               "regulations": [
@@ -2078,7 +2078,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-pharmacy-medical-nursing-type",
+              "name": "type2",
               "priority": 10,
               "post_form": "dropdown",
               "regulations": [
@@ -2107,7 +2107,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-pharmacy-medical-orthopedic-products-type",
+              "name": "type2",
               "priority": 10,
               "post_form": "dropdown",
               "regulations": [
@@ -2153,7 +2153,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-optics-contact-lenses-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -2194,7 +2194,7 @@
             },
             {
               "label": "Производитель",
-              "name": "personal-beauty-health-optics-contact-lenses-brand",
+              "name": "brand",
               "priority": 12,
               "post_form": "dropdown",
               "search_form": "checkbox",
@@ -2228,7 +2228,7 @@
             },
             {
               "label": "Оптическая сила",
-              "name": "personal-beauty-health-optics-contact-lenses-optycal-force",
+              "name": "optycal force",
               "priority": 13,
               "post_form": "dropdown",
               "search_form": "checkbox",
@@ -2372,7 +2372,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-optics-glasses-for-sight-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -2393,7 +2393,7 @@
             },
             {
               "label": "Конструкция",
-              "name": "personal-beauty-health-optics-glasses-for-sight-style",
+              "name": "style",
               "priority": 13,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -2407,7 +2407,7 @@
             },
             {
               "label": "Материал оправы",
-              "name": "personal-beauty-health-optics-glasses-for-sight-material",
+              "name": "material",
               "priority": 14,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -2421,7 +2421,7 @@
             },
             {
               "label": "Материал линз",
-              "name": "personal-beauty-health-optics-glasses-for-sight-material-lenses",
+              "name": "material lenses",
               "priority": 15,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -2434,7 +2434,7 @@
             },
             {
               "label": "Диоптрий",
-              "name": "personal-beauty-health-optics-glasses-for-sight-optycal-force",
+              "name": "optycal force",
               "priority": 16,
               "post_form": "dropdown",
               "search_form": "checkbox",
@@ -2501,7 +2501,7 @@
           "parameters": [
             {
               "label": "Конструкция",
-              "name": "personal-beauty-health-optics-glasses-frames-style",
+              "name": "style",
               "priority": 13,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -2515,7 +2515,7 @@
             },
             {
               "label": "Материал оправы",
-              "name": "personal-beauty-health-optics-glasses-frames-material",
+              "name": "material",
               "priority": 14,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -2529,7 +2529,7 @@
             },
             {
               "label": "Форма оправы",
-              "name": "personal-beauty-health-optics-glasses-frames-form",
+              "name": "form",
               "priority": 15,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -2549,7 +2549,7 @@
             },
             {
               "label": "Пол",
-              "name": "personal-beauty-health-optics-glasses-frames-sex",
+              "name": "sex",
               "priority": 16,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -2570,7 +2570,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-optics-glasses-lenses-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -2585,7 +2585,7 @@
             },
             {
               "label": "Материал линз",
-              "name": "personal-beauty-health-optics-glasses-lenses-material-lenses",
+              "name": "material lenses",
               "priority": 15,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -2598,7 +2598,7 @@
             },
             {
               "label": "Диоптрий",
-              "name": "personal-beauty-health-optics-glasses-lenses-optycal-force",
+              "name": "optycal force",
               "priority": 16,
               "post_form": "dropdown",
               "search_form": "checkbox",
@@ -2668,7 +2668,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-beauty-health-optics-accessories-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "regulations": [

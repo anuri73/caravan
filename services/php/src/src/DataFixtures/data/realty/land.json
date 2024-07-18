@@ -18,7 +18,7 @@
           "parameters": [
             {
               "label": "Право собственности",
-              "name": "realty-land-sell-for_realty-from",
+              "name": "from",
               "priority": 1,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -43,7 +43,7 @@
             },
             {
               "label": "Площадь участка",
-              "name": "realty-land-sell-for_realty-area-land",
+              "name": "area-land",
               "priority": 100,
               "post_form": "textbox",
               "search_form": "range",
@@ -63,7 +63,7 @@
             },
             {
               "label": "Цена",
-              "name": "realty-land-sell-for_realty-price",
+              "name": "price",
               "priority": 110,
               "post_form": "textbox",
               "search_form": "range",
@@ -84,7 +84,7 @@
             },
             {
               "label": "Тип местоположения",
-              "name": "realty-land-sell-for_realty-emplacement",
+              "name": "emplacement",
               "priority": 111,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -122,7 +122,7 @@
             },
             {
               "label": "Местоположение",
-              "name": "realty-land-sell-for_realty-microregion",
+              "name": "microregion",
               "priority": 112,
               "hint": "Район, адрес или название жилого массива",
               "post_form": "textbox"
@@ -152,42 +152,42 @@
             },
             {
               "label": "Подключено",
-              "name": "realty-land-sell-for_realty-connected",
+              "name": "connected",
               "priority": 300,
               "post_form": "checkboxlist",
               "parameters": [
                 {
-                  "name": "realty-land-sell-for_realty-phone",
+                  "name": "phone",
                   "post_form": "checkbox",
                   "label": "Телефон",
                   "priority": 1
                 },
                 {
-                  "name": "realty-land-sell-for_realty-electricity",
+                  "name": "electricity",
                   "post_form": "checkbox",
                   "label": "Электричество",
                   "priority": 2
                 },
                 {
-                  "name": "realty-land-sell-for_realty-water",
+                  "name": "water",
                   "post_form": "checkbox",
                   "label": "Вода",
                   "priority": 3
                 },
                 {
-                  "name": "realty-land-sell-for_realty-gas",
+                  "name": "gas",
                   "post_form": "checkbox",
                   "label": "Газ",
                   "priority": 4
                 },
                 {
-                  "name": "realty-land-sell-for_realty-sewerage",
+                  "name": "sewerage",
                   "post_form": "checkbox",
                   "label": "Канализация",
                   "priority": 5
                 },
                 {
-                  "name": "realty-land-sell-for_realty-connected-heating",
+                  "name": "heating",
                   "post_form": "checkbox",
                   "label": "Отопление",
                   "priority": 6
@@ -196,7 +196,7 @@
             },
             {
               "label": "Прочее",
-              "name": "realty-land-sell-for_realty-other_info",
+              "name": "other_info",
               "priority": 311,
               "post_form": "checkboxlist",
               "parameters": [
@@ -266,7 +266,7 @@
           "parameters": [
             {
               "label": "Право собственности",
-              "name": "realty-land-sell-for_farming-from",
+              "name": "from",
               "priority": 1,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -291,7 +291,7 @@
             },
             {
               "label": "Площадь участка",
-              "name": "realty-land-sell-for_farming-area-hectare",
+              "name": "area-hectare",
               "priority": 100,
               "post_form": "textbox",
               "search_form": "range",
@@ -311,7 +311,7 @@
             },
             {
               "label": "Цена",
-              "name": "realty-land-sell-for_farming-price",
+              "name": "price",
               "priority": 110,
               "post_form": "textbox",
               "search_form": "range",
@@ -332,7 +332,7 @@
             },
             {
               "label": "Расстояние до города",
-              "name": "realty-land-sell-for_farming-distance",
+              "name": "distance",
               "priority": 111,
               "post_form": "textbox",
               "search_form": "range",
@@ -355,7 +355,7 @@
           "parameters": [
             {
               "label": "Право собственности",
-              "name": "realty-land-sell-for_industry-from",
+              "name": "from",
               "priority": 1,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -380,7 +380,7 @@
             },
             {
               "label": "Площадь участка",
-              "name": "realty-land-sell-for_industry-area-land",
+              "name": "area-land",
               "priority": 100,
               "post_form": "textbox",
               "search_form": "range",
@@ -400,7 +400,7 @@
             },
             {
               "label": "Цена",
-              "name": "realty-land-sell-for_industry-price",
+              "name": "price",
               "priority": 110,
               "post_form": "textbox",
               "search_form": "range",
@@ -421,7 +421,7 @@
             },
             {
               "label": "Расстояние до города",
-              "name": "realty-land-sell-for_industry-distance",
+              "name": "distance",
               "priority": 111,
               "post_form": "textbox",
               "search_form": "range",
@@ -452,7 +452,7 @@
           "parameters": [
             {
               "label": "Право собственности",
-              "name": "realty-land-rent-for_realty-from",
+              "name": "from",
               "priority": 1,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -477,7 +477,7 @@
             },
             {
               "label": "Площадь участка",
-              "name": "realty-land-rent-for_realty-area-land",
+              "name": "area-land",
               "priority": 100,
               "post_form": "textbox",
               "search_form": "range",
@@ -497,7 +497,7 @@
             },
             {
               "label": "Цена",
-              "name": "realty-land-rent-for_realty-price",
+              "name": "price",
               "priority": 110,
               "post_form": "textbox",
               "search_form": "range",
@@ -518,7 +518,7 @@
             },
             {
               "label": "Тип местоположения",
-              "name": "realty-land-rent-for_realty-emplacement",
+              "name": "emplacement",
               "priority": 111,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -556,49 +556,49 @@
             },
             {
               "label": "Местоположение",
-              "name": "realty-land-rent-for_realty-microregion",
+              "name": "microregion",
               "priority": 112,
               "hint": "Район, адрес или название жилого массива",
               "post_form": "textbox"
             },
             {
               "label": "Подключено",
-              "name": "realty-land-rent-for_realty-connected",
+              "name": "connected",
               "priority": 300,
               "post_form": "checkboxlist",
               "parameters": [
                 {
-                  "name": "realty-land-rent-for_realty-phone",
+                  "name": "phone",
                   "post_form": "checkbox",
                   "label": "Телефон",
                   "priority": 1
                 },
                 {
-                  "name": "realty-land-rent-for_realty-electricity",
+                  "name": "electricity",
                   "post_form": "checkbox",
                   "label": "Электричество",
                   "priority": 2
                 },
                 {
-                  "name": "realty-land-rent-for_realty-water",
+                  "name": "water",
                   "post_form": "checkbox",
                   "label": "Вода",
                   "priority": 3
                 },
                 {
-                  "name": "realty-land-rent-for_realty-gas",
+                  "name": "gas",
                   "post_form": "checkbox",
                   "label": "Газ",
                   "priority": 4
                 },
                 {
-                  "name": "realty-land-rent-for_realty-sewerage",
+                  "name": "sewerage",
                   "post_form": "checkbox",
                   "label": "Канализация",
                   "priority": 5
                 },
                 {
-                  "name": "realty-land-rent-for_realty-connected-heating",
+                  "name": "heating",
                   "post_form": "checkbox",
                   "label": "Отопление",
                   "priority": 6
@@ -607,7 +607,7 @@
             },
             {
               "label": "Прочее",
-              "name": "realty-land-rent-for_realty-other_info",
+              "name": "other_info",
               "priority": 311,
               "post_form": "checkboxlist",
               "parameters": [
@@ -665,7 +665,7 @@
           "parameters": [
             {
               "label": "Право собственности",
-              "name": "realty-land-rent-for_farming-from",
+              "name": "from",
               "priority": 1,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -690,7 +690,7 @@
             },
             {
               "label": "Площадь участка",
-              "name": "realty-land-rent-for_farming-area-hectare",
+              "name": "area-hectare",
               "priority": 100,
               "post_form": "textbox",
               "search_form": "range",
@@ -710,7 +710,7 @@
             },
             {
               "label": "Цена",
-              "name": "realty-land-rent-for_farming-price",
+              "name": "price",
               "priority": 110,
               "post_form": "textbox",
               "search_form": "range",
@@ -731,7 +731,7 @@
             },
             {
               "label": "Расстояние до города",
-              "name": "realty-land-rent-for_farming-distance",
+              "name": "distance",
               "priority": 111,
               "post_form": "textbox",
               "search_form": "range",
@@ -754,7 +754,7 @@
           "parameters": [
             {
               "label": "Право собственности",
-              "name": "realty-land-rent-for_industry-from",
+              "name": "from",
               "priority": 1,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -779,7 +779,7 @@
             },
             {
               "label": "Площадь участка",
-              "name": "realty-land-rent-for_industry-area-land",
+              "name": "area-land",
               "priority": 100,
               "post_form": "textbox",
               "search_form": "range",
@@ -799,7 +799,7 @@
             },
             {
               "label": "Цена",
-              "name": "realty-land-rent-for_industry-price",
+              "name": "price",
               "priority": 110,
               "post_form": "textbox",
               "search_form": "range",
@@ -820,7 +820,7 @@
             },
             {
               "label": "Расстояние до города",
-              "name": "realty-land-rent-for_industry-distance",
+              "name": "distance",
               "priority": 111,
               "post_form": "textbox",
               "search_form": "range",

@@ -10,7 +10,7 @@
       "url": "auto-parts-kolyosa-v_sbore",
       "parameters": [
         {
-          "name": "auto-parts-kolyosa-v_sbore-type",
+          "name": "type",
           "label": "Сезонность шин",
           "priority": 1,
           "post_form": "radio",
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-v_sbore-width",
+          "name": "width",
           "label": "Ширина профиля",
           "priority": 3,
           "post_form": "dropdown",
@@ -95,7 +95,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-v_sbore-height",
+          "name": "height",
           "label": "Высота профиля",
           "priority": 4,
           "post_form": "dropdown",
@@ -139,7 +139,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-v_sbore-diameter",
+          "name": "diameter",
           "label": "Диаметр",
           "priority": 5,
           "post_form": "dropdown",
@@ -170,7 +170,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-v_sbore-qty",
+          "name": "qty",
           "label": "Количество",
           "priority": 6,
           "post_form": "textbox",
@@ -191,7 +191,7 @@
         },
         {
           "label": "Прочее",
-          "name": "auto-parts-kolyosa-v_sbore-additional_information",
+          "name": "additional_information",
           "priority": 8,
           "post_form": "checkboxlist",
           "parameters": [
@@ -217,7 +217,7 @@
       "url": "auto-parts-kolyosa-kolyosnye_diski",
       "parameters": [
         {
-          "name": "auto-parts-kolyosa-kolyosnye_diski-type",
+          "name": "type",
           "label": "Тип",
           "priority": 1,
           "post_form": "radio",
@@ -239,7 +239,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-kolyosnye_diski-brand",
+          "name": "brand",
           "label": "Производитель",
           "priority": 2,
           "post_form": "dropdown",
@@ -508,7 +508,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-kolyosnye_diski-diameter",
+          "name": "diameter",
           "label": "Диаметр",
           "priority": 4,
           "post_form": "dropdown",
@@ -539,7 +539,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-kolyosnye_diski-qty",
+          "name": "qty",
           "label": "Количество",
           "priority": 5,
           "post_form": "textbox",
@@ -566,7 +566,7 @@
       "url": "auto-parts-kolyosa-shiny",
       "parameters": [
         {
-          "name": "auto-parts-kolyosa-shiny-type",
+          "name": "type",
           "label": "Сезонность",
           "priority": 1,
           "post_form": "radio",
@@ -586,7 +586,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-shiny-brand",
+          "name": "brand",
           "label": "Производитель",
           "priority": 2,
           "post_form": "dropdown",
@@ -864,7 +864,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-shiny-width",
+          "name": "width",
           "label": "Ширина профиля",
           "priority": 3,
           "post_form": "dropdown",
@@ -929,7 +929,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-shiny-height",
+          "name": "height",
           "label": "Высота профиля",
           "priority": 4,
           "post_form": "dropdown",
@@ -973,7 +973,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-shiny-diameter",
+          "name": "diameter",
           "label": "Диаметр",
           "priority": 5,
           "post_form": "dropdown",
@@ -1004,7 +1004,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-shiny-qty",
+          "name": "qty",
           "label": "Количество",
           "priority": 6,
           "post_form": "textbox",
@@ -1025,7 +1025,7 @@
         },
         {
           "label": "Прочее",
-          "name": "auto-parts-kolyosa-shiny-additional_information",
+          "name": "additional_information",
           "priority": 8,
           "post_form": "checkboxlist",
           "parameters": [
@@ -1052,7 +1052,7 @@
       "url": "auto-parts-kolyosa-motoshiny",
       "parameters": [
         {
-          "name": "auto-parts-kolyosa-motoshiny-type",
+          "name": "type",
           "label": "Тип",
           "priority": 1,
           "post_form": "radio",
@@ -1072,7 +1072,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-motoshiny-season",
+          "name": "season",
           "label": "Сезонность",
           "priority": 2,
           "post_form": "radio",
@@ -1092,13 +1092,13 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-motoshiny-brand",
+          "name": "brand",
           "label": "Производитель",
           "priority": 2,
           "post_form": "textbox"
         },
         {
-          "name": "auto-parts-kolyosa-motoshiny-width",
+          "name": "width",
           "label": "Ширина профиля",
           "priority": 3,
           "post_form": "textbox",
@@ -1114,7 +1114,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-motoshiny-height",
+          "name": "height",
           "label": "Высота профиля",
           "priority": 4,
           "post_form": "textbox",
@@ -1130,7 +1130,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-motoshiny-diameter",
+          "name": "diameter",
           "label": "Диаметр, R",
           "priority": 5,
           "post_form": "textbox",
@@ -1142,7 +1142,7 @@
           ]
         },
         {
-          "name": "auto-parts-kolyosa-motoshiny-qty",
+          "name": "qty",
           "label": "Количество",
           "priority": 6,
           "post_form": "textbox",
@@ -1170,7 +1170,7 @@
       "url": "auto-parts-kolyosa-parts_for_wheels",
       "parameters": [
         {
-          "name": "auto-parts-kolyosa-parts_for_wheels-type",
+          "name": "type",
           "label": "Тип",
           "priority": 1,
           "post_form": "radio",
@@ -1215,7 +1215,7 @@
   "parameters": [
     {
       "label": "Цена",
-      "name": "auto-parts-kolyosa-price",
+      "name": "price",
       "priority": 7,
       "post_form": "textbox",
       "measure": "сом",

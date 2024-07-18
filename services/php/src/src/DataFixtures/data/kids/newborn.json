@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "kids-newborn-diapers-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -35,7 +35,7 @@
         },
         {
           "label": "Вес ребенка",
-          "name": "kids-newborn-diapers-child weight",
+          "name": "child weight",
           "priority": 22,
           "regulations": [
             {
@@ -92,7 +92,7 @@
         },
         {
           "label": "Пол ребенка",
-          "name": "kids-newborn-diapers-sex",
+          "name": "sex",
           "priority": 23,
           "regulations": [
             {
@@ -120,7 +120,7 @@
         },
         {
           "label": "Число штук в упаковке",
-          "name": "kids-newborn-diapers-amount",
+          "name": "amount",
           "priority": 24,
           "regulations": [
             {
@@ -140,7 +140,7 @@
         },
         {
           "label": "Дополнительно",
-          "name": "kids-newborn-diapers-options",
+          "name": "options",
           "priority": 25,
           "post_form": "checkboxlist",
           "parameters": [
@@ -179,7 +179,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "kids-newborn-hygiene-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -251,7 +251,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "kids-newborn-food-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -308,7 +308,7 @@
         },
         {
           "label": "Возраст от",
-          "name": "kids-newborn-food-age",
+          "name": "age",
           "priority": 22,
           "regulations": [
             {
@@ -335,7 +335,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "kids-newborn-accessories-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -416,7 +416,7 @@
         },
         {
           "label": "Возраст от",
-          "name": "kids-newborn-accessories-age",
+          "name": "age",
           "priority": 22,
           "regulations": [
             {

@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип игрушки",
-          "name": "kids-toys-for-babies-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -71,7 +71,7 @@
         },
         {
           "label": "Возраст ребенка",
-          "name": "kids-toys-for-babies-age",
+          "name": "age",
           "priority": 21,
           "regulations": [
             {
@@ -147,7 +147,7 @@
       "parameters": [
         {
           "label": "Пол",
-          "name": "kids-toys-building-sex",
+          "name": "sex",
           "priority": 11,
           "regulations": [
             {
@@ -176,7 +176,7 @@
         },
         {
           "label": "Возраст",
-          "name": "kids-toys-building-age",
+          "name": "age",
           "priority": 21,
           "regulations": [
             {
@@ -264,7 +264,7 @@
       "parameters": [
         {
           "label": "Тип игрушки",
-          "name": "kids-toys-interactive-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -305,7 +305,7 @@
         },
         {
           "label": "Пол",
-          "name": "kids-toys-interactive-sex",
+          "name": "sex",
           "priority": 11,
           "regulations": [
             {
@@ -334,7 +334,7 @@
         },
         {
           "label": "Возраст",
-          "name": "kids-toys-interactive-age",
+          "name": "age",
           "priority": 21,
           "regulations": [
             {
@@ -382,7 +382,7 @@
       "parameters": [
         {
           "label": "Тип игрушки",
-          "name": "kids-toys-role-playing-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -443,7 +443,7 @@
         },
         {
           "label": "Пол",
-          "name": "kids-toys-role-playing-sex",
+          "name": "sex",
           "priority": 22,
           "regulations": [
             {
@@ -472,7 +472,7 @@
         },
         {
           "label": "Возраст",
-          "name": "kids-toys-role-playing-age",
+          "name": "age",
           "priority": 21,
           "regulations": [
             {
@@ -516,7 +516,7 @@
       "parameters": [
         {
           "label": "Пол",
-          "name": "kids-toys-soft-sex",
+          "name": "sex",
           "priority": 22,
           "regulations": [
             {
@@ -552,7 +552,7 @@
       "parameters": [
         {
           "label": "Тип игрушки",
-          "name": "kids-toys-dolls-accessories-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -609,7 +609,7 @@
         },
         {
           "label": "Возраст",
-          "name": "kids-toys-dolls-accessories-age",
+          "name": "age",
           "priority": 21,
           "regulations": [
             {
@@ -665,7 +665,7 @@
       "parameters": [
         {
           "label": "Тип игрушки",
-          "name": "kids-toys-radio-controlled-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -722,7 +722,7 @@
         },
         {
           "label": "Возраст",
-          "name": "kids-toys-radio-controlled-age",
+          "name": "age",
           "priority": 21,
           "regulations": [
             {
@@ -774,7 +774,7 @@
       "parameters": [
         {
           "label": "Тип игрушки",
-          "name": "kids-toys-transport-cars-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -834,7 +834,7 @@
       "parameters": [
         {
           "label": "Тип игрушки",
-          "name": "kids-toys-weapons-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -887,7 +887,7 @@
         },
         {
           "label": "Возраст",
-          "name": "kids-toys-weapons-age",
+          "name": "age",
           "priority": 21,
           "regulations": [
             {
@@ -947,7 +947,7 @@
       "parameters": [
         {
           "label": "Тип игрушки",
-          "name": "kids-toys-railways-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -991,7 +991,7 @@
       "parameters": [
         {
           "label": "Тип игрушки",
-          "name": "kids-toys-figures-type",
+          "name": "type",
           "priority": 10,
           "regulations": [
             {
@@ -1044,7 +1044,7 @@
         },
         {
           "label": "Пол",
-          "name": "kids-toys-figures-sex",
+          "name": "sex",
           "priority": 21,
           "regulations": [
             {
@@ -1112,7 +1112,7 @@
   "parameters": [
     {
       "label": "Состояние товара",
-      "name": "kids-toys-condition",
+      "name": "condition",
       "priority": 30,
       "regulations": [
         {

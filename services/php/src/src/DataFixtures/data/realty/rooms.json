@@ -12,7 +12,7 @@
       "parameters": [
         {
           "label": "Право собственности",
-          "name": "realty-room-rent-monthly-from",
+          "name": "from",
           "priority": 1,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -37,7 +37,7 @@
         },
         {
           "label": "Количество комнат",
-          "name": "realty-room-rent-monthly-room-count",
+          "name": "room-count",
           "priority": 9,
           "post_form": "textbox",
           "search_form": "range",
@@ -57,14 +57,14 @@
         },
         {
           "label": "Местоположение",
-          "name": "realty-room-rent-monthly-microregion",
+          "name": "microregion",
           "priority": 10,
           "hint": "Например: Восток-5 или Московская/Советская",
           "post_form": "textbox"
         },
         {
           "label": "Цена",
-          "name": "realty-room-rent-monthly-price",
+          "name": "price",
           "priority": 11,
           "post_form": "textbox",
           "search_form": "range",
@@ -85,7 +85,7 @@
         },
         {
           "label": "Площадь",
-          "name": "realty-room-rent-monthly-area",
+          "name": "area",
           "priority": 30,
           "post_form": "textbox",
           "search_form": "range",
@@ -105,7 +105,7 @@
         },
         {
           "label": "Состояние",
-          "name": "realty-room-rent-monthly-condition",
+          "name": "condition",
           "priority": 70,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -127,7 +127,7 @@
         },
         {
           "label": "Мебель",
-          "name": "realty-room-rent-monthly-furniture",
+          "name": "furniture",
           "priority": 81,
           "post_form": "radio",
           "options": [
@@ -147,7 +147,7 @@
         },
         {
           "label": "Техника",
-          "name": "realty-room-rent-monthly-equipment",
+          "name": "equipment",
           "priority": 82,
           "post_form": "checkboxlist",
           "parameters": [
@@ -197,7 +197,7 @@
         },
         {
           "label": "Подключено",
-          "name": "realty-room-rent-monthly-connected",
+          "name": "connected",
           "priority": 83,
           "post_form": "checkboxlist",
           "parameters": [
@@ -223,7 +223,7 @@
         },
         {
           "label": "Прочее",
-          "name": "realty-room-rent-monthly-other_info",
+          "name": "other_info",
           "priority": 121,
           "post_form": "checkboxlist",
           "parameters": [
@@ -281,7 +281,7 @@
       "parameters": [
         {
           "label": "Количество комнат",
-          "name": "realty-room-rent-daily-room-count",
+          "name": "room-count",
           "priority": 9,
           "post_form": "textbox",
           "search_form": "range",
@@ -301,14 +301,14 @@
         },
         {
           "label": "Местоположение",
-          "name": "realty-room-rent-daily-microregion",
+          "name": "microregion",
           "priority": 10,
           "hint": "Например: Восток-5 или Московская/Советская",
           "post_form": "textbox"
         },
         {
           "label": "Цена",
-          "name": "realty-room-rent-daily-price",
+          "name": "price",
           "priority": 11,
           "post_form": "textbox",
           "search_form": "range",
@@ -329,7 +329,7 @@
         },
         {
           "label": "Площадь",
-          "name": "realty-room-rent-daily-area",
+          "name": "area",
           "priority": 30,
           "post_form": "textbox",
           "search_form": "range",
@@ -349,7 +349,7 @@
         },
         {
           "label": "Состояние",
-          "name": "realty-room-rent-daily-condition",
+          "name": "condition",
           "priority": 70,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -371,7 +371,7 @@
         },
         {
           "label": "Мебель",
-          "name": "realty-room-rent-daily-furniture",
+          "name": "furniture",
           "priority": 81,
           "post_form": "radio",
           "options": [
@@ -391,7 +391,7 @@
         },
         {
           "label": "Техника",
-          "name": "realty-room-rent-daily-equipment",
+          "name": "equipment",
           "priority": 82,
           "post_form": "checkboxlist",
           "parameters": [
@@ -441,7 +441,7 @@
         },
         {
           "label": "Подключено",
-          "name": "realty-room-rent-daily-connected",
+          "name": "connected",
           "priority": 83,
           "post_form": "checkboxlist",
           "parameters": [
@@ -467,7 +467,7 @@
         },
         {
           "label": "Прочее",
-          "name": "realty-room-rent-daily-other_info",
+          "name": "other_info",
           "priority": 121,
           "post_form": "checkboxlist",
           "parameters": [

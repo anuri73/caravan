@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Заголовок",
-      "name": "sport-hobby-title",
+      "name": "title",
       "priority": 1,
       "regulations": [
         {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Цена",
-      "name": "sport-hobby-price",
+      "name": "price",
       "post_form": "textbox",
       "measure": "сом",
       "priority": 20,
@@ -45,7 +45,7 @@
       "parameters": [
         {
           "label": "Состояние",
-          "name": "sport-hobby-sports-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -82,7 +82,7 @@
               "parameters": [
                 {
                   "label": "Возраст",
-                  "name": "sport-hobby-bikes-bicycles-age",
+                  "name": "age",
                   "post_form": "radio",
                   "priority": 2,
                   "search_form": "checkbox",
@@ -102,7 +102,7 @@
                 },
                 {
                   "label": "Тип",
-                  "name": "sport-hobby-bikes-bicycles-type",
+                  "name": "type",
                   "post_form": "dropdown",
                   "priority": 3,
                   "search_form": "checkbox",
@@ -122,7 +122,7 @@
                 },
                 {
                   "label": "Пол",
-                  "name": "sport-hobby-bikes-bicycles-sex",
+                  "name": "sex",
                   "post_form": "radio",
                   "priority": 4,
                   "search_form": "checkbox",
@@ -142,7 +142,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "sport-hobby-bikes-parts-accessories-type",
+                  "name": "type hidden",
                   "post_form": "dropdown",
                   "priority": 2,
                   "search_form": "checkbox",
@@ -211,7 +211,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-helmets-protection-type",
+              "name": "typeWithLabel",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -243,7 +243,7 @@
             },
             {
               "label": "Вид спорта",
-              "name": "sport-hobby-sports-helmets-protection-sport-type",
+              "name": "sport type",
               "post_form": "dropdown",
               "priority": 3,
               "search_form": "checkbox",
@@ -262,7 +262,7 @@
             },
             {
               "label": "Возраст",
-              "name": "sport-hobby-sports-helmets-protection-age",
+              "name": "age",
               "post_form": "radio",
               "priority": 4,
               "search_form": "checkbox",
@@ -282,7 +282,7 @@
             },
             {
               "label": "Пол",
-              "name": "sport-hobby-sports-helmets-protection-sport-sex",
+              "name": "sex",
               "post_form": "radio",
               "priority": 5,
               "search_form": "checkbox",
@@ -301,7 +301,7 @@
           "parameters": [
             {
               "label": "Возраст",
-              "name": "sport-hobby-sports-scooters-age",
+              "name": "age",
               "post_form": "radio",
               "priority": 2,
               "search_form": "checkbox",
@@ -321,7 +321,7 @@
             },
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-scooters-type",
+              "name": "type",
               "post_form": "dropdown",
               "priority": 3,
               "search_form": "checkbox",
@@ -347,7 +347,7 @@
           "parameters": [
             {
               "label": "Возраст",
-              "name": "sport-hobby-sports-gyroscooters-age",
+              "name": "age",
               "post_form": "radio",
               "priority": 2,
               "search_form": "checkbox",
@@ -366,7 +366,7 @@
             },
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-gyroscooters-type",
+              "name": "type",
               "post_form": "dropdown",
               "priority": 3,
               "search_form": "checkbox",
@@ -387,7 +387,7 @@
           "parameters": [
             {
               "label": "Возраст",
-              "name": "sport-hobby-sports-skateboards-longboards-age",
+              "name": "age",
               "post_form": "radio",
               "priority": 2,
               "search_form": "checkbox",
@@ -406,7 +406,7 @@
             },
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-skateboards-longboards-type",
+              "name": "type",
               "post_form": "dropdown",
               "priority": 3,
               "search_form": "checkbox",
@@ -429,7 +429,7 @@
           "parameters": [
             {
               "label": "Размер",
-              "name": "sport-hobby-sports-roller-skates-size",
+              "name": "size",
               "priority": 3,
               "regulations": [
                 {
@@ -456,7 +456,7 @@
               "parameters": [
                 {
                   "label": "Возраст",
-                  "name": "sport-hobby-skiing-snowboarding-skis-age",
+                  "name": "age",
                   "post_form": "radio",
                   "priority": 2,
                   "search_form": "checkbox",
@@ -475,7 +475,7 @@
                 },
                 {
                   "label": "Тип",
-                  "name": "sport-hobby-skiing-snowboarding-skis-type",
+                  "name": "type",
                   "post_form": "radio",
                   "priority": 3,
                   "regulations": [
@@ -494,7 +494,7 @@
                 },
                 {
                   "label": "Пол",
-                  "name": "sport-hobby-skiing-snowboarding-skis-sex",
+                  "name": "sex",
                   "post_form": "radio",
                   "priority": 4,
                   "search_form": "checkbox",
@@ -507,7 +507,7 @@
                 },
                 {
                   "label": "Ростовка",
-                  "name": "sport-hobby-skiing-snowboarding-skis-length",
+                  "name": "length",
                   "priority": 5,
                   "regulations": [
                     {
@@ -523,7 +523,7 @@
                 },
                 {
                   "label": "Размер ботинок",
-                  "name": "sport-hobby-skiing-snowboarding-skis-size",
+                  "name": "size",
                   "priority": 6,
                   "regulations": [
                     {
@@ -545,7 +545,7 @@
               "parameters": [
                 {
                   "label": "Возраст",
-                  "name": "sport-hobby-skiing-snowboarding-ski-boots-age",
+                  "name": "age",
                   "post_form": "radio",
                   "priority": 2,
                   "search_form": "checkbox",
@@ -564,7 +564,7 @@
                 },
                 {
                   "label": "Пол",
-                  "name": "sport-hobby-skiing-snowboarding-ski-boots-sex",
+                  "name": "sex",
                   "post_form": "radio",
                   "priority": 4,
                   "search_form": "checkbox",
@@ -577,7 +577,7 @@
                 },
                 {
                   "label": "Размер ботинок",
-                  "name": "sport-hobby-skiing-snowboarding-ski-boots-size",
+                  "name": "size",
                   "priority": 6,
                   "regulations": [
                     {
@@ -599,7 +599,7 @@
               "parameters": [
                 {
                   "label": "Возраст",
-                  "name": "sport-hobby-skiing-snowboarding-ski-sticks-age",
+                  "name": "age",
                   "post_form": "radio",
                   "priority": 2,
                   "search_form": "checkbox",
@@ -618,7 +618,7 @@
                 },
                 {
                   "label": "Пол",
-                  "name": "sport-hobby-skiing-snowboarding-ski-sticks-sex",
+                  "name": "sex",
                   "post_form": "radio",
                   "priority": 4,
                   "search_form": "checkbox",
@@ -631,7 +631,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "sport-hobby-skiing-snowboarding-ski-sticks-length",
+                  "name": "length",
                   "priority": 6,
                   "regulations": [
                     {
@@ -654,7 +654,7 @@
               "parameters": [
                 {
                   "label": "Возраст",
-                  "name": "sport-hobby-skiing-snowboarding-ski-mounts-age",
+                  "name": "age",
                   "post_form": "radio",
                   "priority": 2,
                   "search_form": "checkbox",
@@ -673,7 +673,7 @@
                 },
                 {
                   "label": "Пол",
-                  "name": "sport-hobby-skiing-snowboarding-ski-mounts-sex",
+                  "name": "sex",
                   "post_form": "radio",
                   "priority": 4,
                   "search_form": "checkbox",
@@ -693,7 +693,7 @@
               "parameters": [
                 {
                   "label": "Возраст",
-                  "name": "sport-hobby-skiing-snowboarding-snowboards-age",
+                  "name": "age",
                   "post_form": "radio",
                   "priority": 2,
                   "search_form": "checkbox",
@@ -712,7 +712,7 @@
                 },
                 {
                   "label": "Пол",
-                  "name": "sport-hobby-skiing-snowboarding-snowboards-sex",
+                  "name": "sex",
                   "post_form": "radio",
                   "priority": 4,
                   "search_form": "checkbox",
@@ -725,7 +725,7 @@
                 },
                 {
                   "label": "Ростовка",
-                  "name": "sport-hobby-skiing-snowboarding-snowboards-length",
+                  "name": "length",
                   "priority": 5,
                   "regulations": [
                     {
@@ -748,7 +748,7 @@
               "parameters": [
                 {
                   "label": "Возраст",
-                  "name": "sport-hobby-skiing-snowboarding-snowboard-bootsage",
+                  "name": "age",
                   "post_form": "radio",
                   "priority": 2,
                   "search_form": "checkbox",
@@ -767,7 +767,7 @@
                 },
                 {
                   "label": "Пол",
-                  "name": "sport-hobby-skiing-snowboarding-snowboard-bootssex",
+                  "name": "sex",
                   "post_form": "radio",
                   "priority": 4,
                   "search_form": "checkbox",
@@ -780,7 +780,7 @@
                 },
                 {
                   "label": "Размер ботинок",
-                  "name": "sport-hobby-skiing-snowboarding-snowboard-bootssize",
+                  "name": "size",
                   "priority": 6,
                   "regulations": [
                     {
@@ -802,7 +802,7 @@
               "parameters": [
                 {
                   "label": "Тип крепления",
-                  "name": "tsport-hobby-skiing-snowboarding-snowboard-mounts-ype",
+                  "name": "type",
                   "post_form": "radio",
                   "priority": 2,
                   "search_form": "checkbox",
@@ -818,7 +818,7 @@
                 },
                 {
                   "label": "Возраст",
-                  "name": "sport-hobby-skiing-snowboarding-snowboard-mounts-age",
+                  "name": "age",
                   "post_form": "radio",
                   "priority": 3,
                   "search_form": "checkbox",
@@ -831,7 +831,7 @@
                 },
                 {
                   "label": "Пол",
-                  "name": "sport-hobby-skiing-snowboarding-snowboard-mounts-sex",
+                  "name": "sex",
                   "post_form": "radio",
                   "priority": 4,
                   "search_form": "checkbox",
@@ -844,7 +844,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "sport-hobby-skiing-snowboarding-snowboard-mounts-size",
+                  "name": "size",
                   "post_form": "radio",
                   "priority": 5,
                   "search_form": "checkbox",
@@ -866,7 +866,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "sport-hobby-skiing-snowboarding-accessories-type",
+                  "name": "type hidden",
                   "post_form": "radio",
                   "priority": 2,
                   "regulations": [
@@ -898,7 +898,7 @@
           "parameters": [
             {
               "label": "Возраст",
-              "name": "sport-hobby-sports-skating-age",
+              "name": "age",
               "post_form": "radio",
               "priority": 2,
               "search_form": "checkbox",
@@ -918,7 +918,7 @@
             },
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-skating-type",
+              "name": "type",
               "post_form": "radio",
               "priority": 3,
               "regulations": [
@@ -939,7 +939,7 @@
             },
             {
               "label": "Пол",
-              "name": "sport-hobby-sports-skating-sex",
+              "name": "sex",
               "post_form": "radio",
               "priority": 4,
               "search_form": "checkbox",
@@ -953,7 +953,7 @@
             },
             {
               "label": "Размер",
-              "name": "sport-hobby-sports-skating-size",
+              "name": "size",
               "priority": 6,
               "regulations": [
                 {
@@ -980,7 +980,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-fitness-gym-trainers-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1084,7 +1084,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-nutrition-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1118,7 +1118,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-tennis-badminton-darts-type",
+              "name": "type hidden",
               "post_form": "radio",
               "priority": 2,
               "search_form": "checkbox",
@@ -1147,7 +1147,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-billiards-bowling-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1176,7 +1176,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-water-sports-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1211,7 +1211,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-boxing-martial-arts-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1241,7 +1241,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-sports-ball-sports-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1296,7 +1296,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "sport-hobby-hunting-fishing-type",
+          "name": "type hidden",
           "post_form": "dropdown",
           "priority": 2,
           "search_form": "checkbox",
@@ -1327,7 +1327,7 @@
         },
         {
           "label": "Состояние",
-          "name": "sport-hobby-hunting-fishing-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -1359,7 +1359,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "sport-hobby-tourism-outdoor-recreation-type",
+          "name": "type hidden",
           "post_form": "dropdown",
           "priority": 2,
           "search_form": "checkbox",
@@ -1397,7 +1397,7 @@
         },
         {
           "label": "Состояние",
-          "name": "sport-hobby-tourism-outdoor-recreation-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -1429,7 +1429,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "sport-hobby-for-picnic-type",
+          "name": "type hidden",
           "post_form": "dropdown",
           "priority": 2,
           "search_form": "checkbox",
@@ -1452,7 +1452,7 @@
         },
         {
           "label": "Состояние",
-          "name": "sport-hobby-for-picnic-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -1484,7 +1484,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "sport-hobby-collecting-type",
+          "name": "type hidden",
           "post_form": "dropdown",
           "priority": 2,
           "search_form": "checkbox",
@@ -1537,7 +1537,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "sport-hobby-tickets-type",
+          "name": "type hidden",
           "post_form": "dropdown",
           "priority": 2,
           "search_form": "checkbox",
@@ -1570,7 +1570,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "sport-hobby-traveling-type",
+          "name": "type hidden",
           "post_form": "dropdown",
           "priority": 2,
           "search_form": "checkbox",
@@ -1598,7 +1598,7 @@
       "parameters": [
         {
           "label": "Состояние",
-          "name": "sport-hobby-musical-instruments-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -1630,7 +1630,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-musical-instruments-accordions-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1657,7 +1657,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-musical-instruments-accessories-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1688,7 +1688,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-musical-instruments-guitars-string-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1717,7 +1717,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-musical-instruments-wind-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1752,7 +1752,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-musical-instruments-equipments-for-studios-concerts-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1788,7 +1788,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-musical-instruments-pianos-keyboard-instruments-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1818,7 +1818,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-musical-instruments-violins-bowed-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1847,7 +1847,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-musical-instruments-drums-percussion-instruments-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1876,7 +1876,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "sport-hobby-musical-instruments-national-type",
+              "name": "type hidden",
               "post_form": "dropdown",
               "priority": 2,
               "search_form": "checkbox",
@@ -1913,7 +1913,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "sport-hobby-board-games-type",
+          "name": "type hidden",
           "post_form": "dropdown",
           "priority": 2,
           "search_form": "checkbox",
@@ -1942,7 +1942,7 @@
         },
         {
           "label": "Состояние",
-          "name": "sport-hobby-board-games-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -1974,7 +1974,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "sport-hobby-cd-dvd-type",
+          "name": "type hidden",
           "post_form": "dropdown",
           "priority": 2,
           "search_form": "checkbox",
@@ -2002,7 +2002,7 @@
       "parameters": [
         {
           "label": "Тематика",
-          "name": "sport-hobby-books-magazines-type",
+          "name": "type hidden",
           "post_form": "dropdown",
           "priority": 2,
           "search_form": "checkbox",
@@ -2035,7 +2035,7 @@
         },
         {
           "label": "Состояние",
-          "name": "sport-hobby-books-magazines-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -2067,7 +2067,7 @@
       "parameters": [
         {
           "label": "Состояние",
-          "name": "sport-hobby-other-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {

@@ -1293,7 +1293,7 @@
   "parameters": [
     {
       "label": "Цена",
-      "name": "auto-commercial-arctic-price",
+      "name": "price",
       "priority": 1,
       "post_form": "textbox",
       "measure": "сом",
@@ -1314,7 +1314,7 @@
     },
     {
       "label": "Год выпуска",
-      "name": "auto-commercial-arctic-year",
+      "name": "year",
       "priority": 2,
       "post_form": "textbox",
       "search_form": "range",
@@ -1334,7 +1334,7 @@
     },
     {
       "label": "Пробег",
-      "name": "auto-commercial-arctic-odometer",
+      "name": "odometer",
       "priority": 3,
       "post_form": "textbox",
       "measure": "км",
@@ -1348,7 +1348,7 @@
     },
     {
       "label": "Руль",
-      "name": "auto-commercial-arctic-steering_wheel",
+      "name": "steering_wheel",
       "priority": 4,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -1373,7 +1373,7 @@
 
     },
     {
-      "name": "auto-commercial-arctic-engine",
+      "name": "engine",
       "label": "Тип двигателя",
       "priority": 5,
       "post_form": "radio",
@@ -1398,7 +1398,7 @@
     },
     {
       "label": "Объем двигателя",
-      "name": "auto-commercial-arctic-volume",
+      "name": "volume",
       "priority": 6,
       "post_form": "textbox",
       "search_form": "range",
@@ -1418,7 +1418,7 @@
     },
     {
       "label": "Мощность",
-      "name": "auto-commercial-arctic-power",
+      "name": "power",
       "priority": 7,
       "post_form": "textbox",
       "measure": "л.с.",
@@ -1433,7 +1433,7 @@
     },
     {
       "label": "Коробка передач",
-      "name": "auto-commercial-arctic-transmission",
+      "name": "transmission",
       "priority": 8,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -1460,7 +1460,7 @@
       ]
     },
     {
-      "name": "auto-commercial-arctic-wheel_formula",
+      "name": "wheel_formula",
       "label": "Колесная формула",
       "priority": 9,
       "post_form": "radio",
@@ -1496,7 +1496,7 @@
       ]
     },
     {
-      "name": "auto-commercial-arctic-cab_type",
+      "name": "cab_type",
       "label": "Тип кабины",
       "priority": 10,
       "post_form": "dropdown",
@@ -1548,7 +1548,7 @@
       ]
     },
     {
-      "name": "auto-commercial-arctic-cab_suspension",
+      "name": "cab_suspension",
       "label": "Подвеска кабины",
       "priority": 12,
       "post_form": "radio",
@@ -1565,7 +1565,7 @@
     },
     {
       "label": "Состояние",
-      "name": "auto-commercial-arctic-condition",
+      "name": "condition",
       "priority": 13,
       "post_form": "radio",
       "options": [
@@ -1589,7 +1589,7 @@
     },
     {
       "label": "Наличие",
-      "name": "auto-commercial-arctic-availability",
+      "name": "availability",
       "priority": 14,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -1613,13 +1613,13 @@
     },
     {
       "label": "Опции",
-      "name": "auto-commercial-arctic-options",
+      "name": "options",
       "priority": 15,
       "post_form": "collapse",
       "parameters": [
         {
           "label": "Комплектация",
-          "name": "auto-commercial-arctic-options-equipment",
+          "name": "equipment",
           "priority": 1,
           "post_form": "checkboxlist",
           "parameters": [
@@ -1867,7 +1867,7 @@
     },
     {
       "label": "Прочее",
-      "name": "auto-commercial-arctic-additional_information",
+      "name": "additional_information",
       "priority": 16,
       "post_form": "checkboxlist",
       "parameters": [

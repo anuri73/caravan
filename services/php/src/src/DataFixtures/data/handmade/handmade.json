@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Название товара",
-      "name": "handmade-title",
+      "name": "title",
       "priority": 1,
       "regulations": [
         {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Цена",
-      "name": "handmade-price",
+      "name": "price",
       "priority": 20,
       "regulations": [
         {
@@ -40,7 +40,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "handmade-national-products-type",
+          "name": "type hidden",
           "post_form": "dropdown",
           "priority": 2,
           "search_form": "checkbox",
@@ -69,7 +69,7 @@
         },
         {
           "label": "Состояние",
-          "name": "handmade-national-products-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -101,7 +101,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "handmade-jewelry-decorations-type",
+          "name": "type hidden",
           "post_form": "radio",
           "priority": 2,
           "search_form": "checkbox",
@@ -124,7 +124,7 @@
         },
         {
           "label": "Состояние",
-          "name": "handmade-jewelry-decorations-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -156,7 +156,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "handmade-house-interior-type",
+          "name": "type hidden",
           "post_form": "radio",
           "priority": 2,
           "search_form": "checkbox",
@@ -179,7 +179,7 @@
         },
         {
           "label": "Состояние",
-          "name": "handmade-house-interior-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -211,7 +211,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "handmade-clothing-shoes-type",
+          "name": "type",
           "post_form": "radio",
           "priority": 2,
           "search_form": "checkbox",
@@ -231,7 +231,7 @@
         },
         {
           "label": "Состояние",
-          "name": "handmade-clothing-shoes-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -263,7 +263,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "handmade-toys-type",
+          "name": "type hidden",
           "post_form": "radio",
           "priority": 2,
           "search_form": "checkbox",
@@ -284,7 +284,7 @@
         },
         {
           "label": "Состояние",
-          "name": "handmade-toys-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -341,7 +341,7 @@
       "parameters": [
         {
           "label": "Состояние",
-          "name": "handmade-souvenirs-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -373,7 +373,7 @@
       "parameters": [
         {
           "label": "Состояние",
-          "name": "handmade-bags-accessories-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -405,7 +405,7 @@
       "parameters": [
         {
           "label": "Состояние",
-          "name": "handmade-for-animals-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -437,7 +437,7 @@
       "parameters": [
         {
           "label": "Состояние",
-          "name": "handmade-other-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {

@@ -12,7 +12,7 @@
       "parameters": [
         {
           "label": "Право собственности",
-          "name": "realty-cottages-sell-from",
+          "name": "from",
           "priority": 1,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -37,7 +37,7 @@
         },
         {
           "label": "Тип",
-          "name": "realty-cottages-sell-type",
+          "name": "type",
           "priority": 2,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -66,7 +66,7 @@
         },
         {
           "label": "Количество комнат",
-          "name": "realty-cottages-sell-room-count",
+          "name": "room-count",
           "priority": 9,
           "post_form": "textbox",
           "search_form": "range",
@@ -86,14 +86,14 @@
         },
         {
           "label": "Местоположение",
-          "name": "realty-cottages-sell-microregion",
+          "name": "microregion",
           "priority": 10,
           "hint": "Район, адрес или название дачного массива / коттеджного городка",
           "post_form": "textbox"
         },
         {
           "label": "Цена",
-          "name": "realty-cottages-sell-price",
+          "name": "price",
           "priority": 11,
           "post_form": "textbox",
           "search_form": "range",
@@ -114,7 +114,7 @@
         },
         {
           "label": "Материал стен",
-          "name": "realty-cottages-sell-building-type",
+          "name": "building-type",
           "priority": 20,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -164,7 +164,7 @@
         },
         {
           "label": "Площадь дома",
-          "name": "realty-cottages-sell-area",
+          "name": "area",
           "priority": 40,
           "post_form": "textbox",
           "search_form": "range",
@@ -183,7 +183,7 @@
         },
         {
           "label": "Площадь участка",
-          "name": "realty-cottages-sell-area-land",
+          "name": "area-land",
           "priority": 50,
           "post_form": "textbox",
           "search_form": "range",
@@ -198,7 +198,7 @@
         },
         {
           "label": "Состояние",
-          "name": "realty-cottages-sell-condition",
+          "name": "condition",
           "priority": 51,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -236,7 +236,7 @@
         },
         {
           "label": "Подключено",
-          "name": "realty-cottages-sell-area-land-connected",
+          "name": "connected",
           "priority": 60,
           "post_form": "checkboxlist",
           "parameters": [
@@ -262,7 +262,7 @@
         },
         {
           "label": "Санузел",
-          "name": "realty-cottages-sell-lavatory",
+          "name": "lavatory",
           "priority": 70,
           "post_form": "radio",
           "options": [
@@ -290,7 +290,7 @@
         },
         {
           "label": "Канализация",
-          "name": "realty-cottages-sell-sewerage",
+          "name": "sewerage",
           "priority": 80,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -316,7 +316,7 @@
         },
         {
           "label": "Вода",
-          "name": "realty-cottages-sell-water",
+          "name": "water",
           "priority": 90,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -342,7 +342,7 @@
         },
         {
           "label": "Электричество",
-          "name": "realty-cottages-sell-electricity",
+          "name": "electricity",
           "priority": 100,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -364,7 +364,7 @@
         },
         {
           "label": "Отопление",
-          "name": "realty-cottages-sell-heating",
+          "name": "heating",
           "priority": 110,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -402,7 +402,7 @@
         },
         {
           "label": "Газ",
-          "name": "realty-cottages-sell-gas",
+          "name": "gas",
           "priority": 120,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -428,7 +428,7 @@
         },
         {
           "label": "Безопасность",
-          "name": "realty-cottages-sell-security",
+          "name": "security",
           "priority": 130,
           "post_form": "checkboxlist",
           "parameters": [
@@ -472,7 +472,7 @@
         },
         {
           "label": "Прочее",
-          "name": "realty-cottages-sell-other_info",
+          "name": "other_info",
           "priority": 131,
           "post_form": "checkboxlist",
           "parameters": [
@@ -560,7 +560,7 @@
           "parameters": [
             {
               "label": "Право собственности",
-              "name": "realty-cottages-rent-monthly-from",
+              "name": "from",
               "priority": 1,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -585,7 +585,7 @@
             },
             {
               "label": "Тип",
-              "name": "realty-cottages-rent-monthly-type",
+              "name": "type",
               "priority": 2,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -614,7 +614,7 @@
             },
             {
               "label": "Количество комнат",
-              "name": "realty-cottages-rent-monthly-room-count",
+              "name": "room-count",
               "priority": 9,
               "post_form": "textbox",
               "search_form": "range",
@@ -634,14 +634,14 @@
             },
             {
               "label": "Местоположение",
-              "name": "realty-cottages-rent-monthly-microregion",
+              "name": "microregion",
               "priority": 10,
               "hint": "Район, адрес или название дачного массива / коттеджного городка",
               "post_form": "textbox"
             },
             {
               "label": "Цена",
-              "name": "realty-cottages-rent-monthly-price",
+              "name": "price",
               "priority": 11,
               "post_form": "textbox",
               "search_form": "range",
@@ -662,7 +662,7 @@
             },
             {
               "label": "Площадь дома",
-              "name": "realty-cottages-rent-monthly-area",
+              "name": "area",
               "priority": 40,
               "post_form": "textbox",
               "search_form": "range",
@@ -682,7 +682,7 @@
             },
             {
               "label": "Площадь участка",
-              "name": "realty-cottages-rent-monthly-area-land",
+              "name": "area-land",
               "priority": 50,
               "post_form": "textbox",
               "search_form": "range",
@@ -697,7 +697,7 @@
             },
             {
               "label": "Состояние",
-              "name": "realty-cottages-rent-monthly-condition",
+              "name": "condition",
               "priority": 51,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -723,7 +723,7 @@
             },
             {
               "label": "Подключено",
-              "name": "realty-cottages-rent-monthly-area-land-connected",
+              "name": "connected",
               "priority": 60,
               "post_form": "checkboxlist",
               "parameters": [
@@ -749,7 +749,7 @@
             },
             {
               "label": "Санузел",
-              "name": "realty-cottages-rent-monthly-lavatory",
+              "name": "lavatory",
               "priority": 70,
               "post_form": "radio",
               "options": [
@@ -777,7 +777,7 @@
             },
             {
               "label": "Мебель",
-              "name": "realty-cottages-rent-monthly-furniture",
+              "name": "furniture",
               "priority": 81,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -799,7 +799,7 @@
             },
             {
               "label": "Техника",
-              "name": "realty-cottages-rent-monthly-equipment",
+              "name": "equipment",
               "priority": 82,
               "post_form": "checkboxlist",
               "parameters": [
@@ -849,7 +849,7 @@
             },
             {
               "label": "Безопасность",
-              "name": "realty-cottages-rent-monthly-security",
+              "name": "security",
               "priority": 130,
               "post_form": "checkboxlist",
               "parameters": [
@@ -893,7 +893,7 @@
             },
             {
               "label": "Прочее",
-              "name": "realty-cottages-rent-monthly-other_info",
+              "name": "other_info",
               "priority": 131,
               "post_form": "checkboxlist",
               "parameters": [
@@ -987,7 +987,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "realty-cottages-rent-daily-type",
+              "name": "type",
               "priority": 2,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1016,7 +1016,7 @@
             },
             {
               "label": "Количество комнат",
-              "name": "realty-cottages-rent-daily-room-count",
+              "name": "room-count",
               "priority": 3,
               "post_form": "textbox",
               "search_form": "range",
@@ -1036,14 +1036,14 @@
             },
             {
               "label": "Местоположение",
-              "name": "realty-cottages-rent-daily-microregion",
+              "name": "microregion",
               "priority": 10,
               "hint": "Район, адрес или название дачного массива / коттеджного городка",
               "post_form": "textbox"
             },
             {
               "label": "Цена за сутки",
-              "name": "realty-cottages-rent-daily-price",
+              "name": "price",
               "priority": 11,
               "post_form": "textbox",
               "search_form": "range",
@@ -1063,7 +1063,7 @@
             },
             {
               "label": "Площадь дома",
-              "name": "realty-cottages-rent-daily-area",
+              "name": "area",
               "priority": 40,
               "post_form": "textbox",
               "search_form": "range",
@@ -1078,7 +1078,7 @@
             },
             {
               "label": "Вместимость",
-              "name": "realty-cottages-rent-capacity",
+              "name": "capacity",
               "priority": 41,
               "post_form": "textbox",
               "measure": "человек",
@@ -1093,7 +1093,7 @@
             },
             {
               "label": "Состояние",
-              "name": "realty-cottages-rent-daily-condition",
+              "name": "condition",
               "priority": 51,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1115,7 +1115,7 @@
             },
             {
               "label": "Подключено",
-              "name": "realty-cottages-rent-daily-area-connected",
+              "name": "connected",
               "priority": 60,
               "post_form": "checkboxlist",
               "parameters": [
@@ -1141,7 +1141,7 @@
             },
             {
               "label": "Мебель",
-              "name": "realty-cottages-rent-daily-area-furniture",
+              "name": "furniture",
               "priority": 81,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1159,7 +1159,7 @@
             },
             {
               "label": "Техника",
-              "name": "realty-cottages-rent-daily-area-equipment",
+              "name": "equipment",
               "priority": 82,
               "post_form": "checkboxlist",
               "parameters": [
@@ -1209,7 +1209,7 @@
             },
             {
               "label": "Прочее",
-              "name": "realty-cottages-rent-daily-other_info",
+              "name": "other_info",
               "priority": 131,
               "post_form": "checkboxlist",
               "parameters": [

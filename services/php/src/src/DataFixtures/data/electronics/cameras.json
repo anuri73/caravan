@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип камеры",
-          "name": "electronics-cameras-photo-digital-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -39,7 +39,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-cameras-photo-digital-brand",
+          "name": "brand",
           "priority": 22,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -129,7 +129,7 @@
         },
         {
           "label": "Число мегапикселей",
-          "name": "electronics-cameras-photo-digital-definition",
+          "name": "definition",
           "priority": 23,
           "regulations": [
             {
@@ -184,7 +184,7 @@
         },
         {
           "label": "Оптический Zoom",
-          "name": "electronics-cameras-photo-digital-optic-zoom",
+          "name": "optic zoom",
           "priority": 26,
           "regulations": [
             {
@@ -206,7 +206,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-cameras-photo-film-brand",
+          "name": "brand",
           "priority": 22,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -267,7 +267,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-cameras-photo-instant-brand",
+          "name": "brand",
           "priority": 22,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -304,7 +304,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-cameras-video-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -428,7 +428,7 @@
         },
         {
           "label": "Оптический Zoom",
-          "name": "electronics-cameras-video-optic-zoom",
+          "name": "optic zoom",
           "priority": 25,
           "post_form": "textbox",
           "measure": "- кратный зум",
@@ -437,7 +437,7 @@
         },
         {
           "label": "Число мегапикселей",
-          "name": "electronics-cameras-video-definition",
+          "name": "definition",
           "priority": 26,
           "post_form": "textbox",
           "measure": "мп",
@@ -458,7 +458,7 @@
       "parameters": [
         {
           "label": "Тип объектива",
-          "name": "electronics-cameras-lenses-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -499,7 +499,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-cameras-lenses-brand",
+          "name": "brand",
           "priority": 22,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -576,7 +576,7 @@
       "parameters": [
         {
           "label": "Тип вспышки",
-          "name": "electronics-cameras-flashlights-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -613,7 +613,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-cameras-flashlights-brand",
+          "name": "brand",
           "priority": 22,
           "post_form": "dropdown",
           "search_form": "checkbox",

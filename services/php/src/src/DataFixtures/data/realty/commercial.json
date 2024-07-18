@@ -18,7 +18,7 @@
           "parameters": [
             {
               "label": "Право собственности",
-              "name": "realty-commercial-offices-sell-from",
+              "name": "from",
               "priority": 1,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -43,7 +43,7 @@
             },
             {
               "label": "Количество комнат",
-              "name": "realty-commercial-offices-sell-room-count",
+              "name": "room-count",
               "priority": 2,
               "post_form": "textbox",
               "search_form": "range",
@@ -63,14 +63,14 @@
             },
             {
               "label": "Район",
-              "name": "realty-commercial-offices-sell-microregion",
+              "name": "microregion",
               "priority": 3,
               "hint": "Например: Восток-5 или Московская/Советская",
               "post_form": "textbox"
             },
             {
               "label": "Цена",
-              "name": "realty-commercial-offices-sell-price",
+              "name": "price",
               "priority": 4,
               "post_form": "textbox",
               "search_form": "range",
@@ -91,7 +91,7 @@
             },
             {
               "label": "Тип офиса",
-              "name": "realty-commercial-offices-sell-type",
+              "name": "type",
               "priority": 5,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -121,7 +121,7 @@
             },
             {
               "label": "Год постройки (Сдачи в эксплуатацию)",
-              "name": "realty-commercial-offices-sell-year",
+              "name": "year",
               "priority": 6,
               "post_form": "textbox",
               "search_form": "range",
@@ -136,7 +136,7 @@
             },
             {
               "label": "Площадь",
-              "name": "realty-commercial-offices-sell-area",
+              "name": "area",
               "priority": 7,
               "post_form": "textbox",
               "search_form": "range",
@@ -156,7 +156,7 @@
             },
             {
               "label": "Этаж",
-              "name": "realty-commercial-offices-sell-floor",
+              "name": "floor",
               "priority": 8,
               "post_form": "textbox",
               "regulations": [
@@ -169,7 +169,7 @@
             },
             {
               "label": "Этажей в доме",
-              "name": "realty-commercial-offices-sell-floor_count",
+              "name": "floor_count",
               "priority": 9,
               "post_form": "textbox",
               "regulations": [
@@ -182,7 +182,7 @@
             },
             {
               "label": "Отопление",
-              "name": "realty-commercial-offices-sell-heating",
+              "name": "heating",
               "priority": 10,
               "post_form": "radio",
               "options": [
@@ -198,7 +198,7 @@
             },
             {
               "label": "Состояние",
-              "name": "realty-commercial-offices-sell-condition",
+              "name": "condition",
               "priority": 11,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -232,7 +232,7 @@
             },
             {
               "label": "Подключено",
-              "name": "realty-commercial-offices-sell-connected",
+              "name": "connected",
               "priority": 12,
               "post_form": "checkboxlist",
               "parameters": [
@@ -252,7 +252,7 @@
             },
             {
               "label": "Безопасность",
-              "name": "realty-commercial-offices-sell-security",
+              "name": "security",
               "priority": 13,
               "post_form": "checkboxlist",
               "parameters": [
@@ -296,7 +296,7 @@
             },
             {
               "label": "Прочее",
-              "name": "realty-commercial-offices-sell-other_info",
+              "name": "other_info",
               "priority": 14,
               "post_form": "checkboxlist",
               "parameters": [
@@ -313,7 +313,7 @@
                   "priority": 2
                 },
                 {
-                  "name": "realty-commercial-offices-sell-furniture",
+                  "name": "furniture",
                   "post_form": "checkbox",
                   "label": "Офисная мебель",
                   "priority": 3
@@ -330,7 +330,7 @@
           "parameters": [
             {
               "label": "Право собственности",
-              "name": "realty-commercial-offices-rent-from",
+              "name": "from",
               "priority": 1,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -355,7 +355,7 @@
             },
             {
               "label": "Количество комнат",
-              "name": "realty-commercial-offices-rent-room-count",
+              "name": "room-count",
               "priority": 2,
               "post_form": "textbox",
               "search_form": "range",
@@ -375,14 +375,14 @@
             },
             {
               "label": "Район",
-              "name": "realty-commercial-offices-rent-microregion",
+              "name": "microregion",
               "priority": 3,
               "hint": "Например: Восток-5 или Московская/Советская",
               "post_form": "textbox"
             },
             {
               "label": "Цена",
-              "name": "realty-commercial-offices-rent-price",
+              "name": "price",
               "priority": 4,
               "post_form": "textbox",
               "search_form": "range",
@@ -420,7 +420,7 @@
             },
             {
               "label": "Тип офиса",
-              "name": "realty-commercial-offices-rent-type",
+              "name": "type",
               "priority": 6,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -450,7 +450,7 @@
             },
             {
               "label": "Площадь",
-              "name": "realty-commercial-offices-rent-area",
+              "name": "area",
               "priority": 7,
               "post_form": "textbox",
               "search_form": "range",
@@ -470,7 +470,7 @@
             },
             {
               "label": "Этаж",
-              "name": "realty-commercial-offices-rent-floor",
+              "name": "floor",
               "priority": 8,
               "post_form": "textbox",
               "regulations": [
@@ -483,7 +483,7 @@
             },
             {
               "label": "Состояние",
-              "name": "realty-commercial-offices-rent-condition",
+              "name": "condition",
               "priority": 11,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -517,7 +517,7 @@
             },
             {
               "label": "Подключено",
-              "name": "realty-commercial-offices-rent-connected",
+              "name": "connected",
               "priority": 12,
               "post_form": "checkboxlist",
               "parameters": [
@@ -537,7 +537,7 @@
             },
             {
               "label": "Безопасность",
-              "name": "realty-commercial-offices-rent-security",
+              "name": "security",
               "priority": 13,
               "post_form": "checkboxlist",
               "parameters": [
@@ -581,24 +581,24 @@
             },
             {
               "label": "Прочее",
-              "name": "realty-commercial-offices-rent-other_info",
+              "name": "other_info",
               "priority": 14,
               "post_form": "checkboxlist",
               "parameters": [
                 {
-                  "name": "realty-commercial-offices-rent-own_entry",
+                  "name": "own_entry",
                   "post_form": "checkbox",
                   "label": "Отдельный вход",
                   "priority": 1
                 },
                 {
-                  "name": "realty-commercial-offices-rent-plastic_window",
+                  "name": "plastic_window",
                   "post_form": "checkbox",
                   "label": "Пластиковые окна",
                   "priority": 2
                 },
                 {
-                  "name": "realty-commercial-offices-rent-furniture",
+                  "name": "furniture",
                   "post_form": "checkbox",
                   "label": "Офисная мебель",
                   "priority": 3
@@ -631,7 +631,7 @@
       "parameters": [
         {
           "label": "Право собственности",
-          "name": "realty-commercial-shops-from",
+          "name": "from",
           "priority": 1,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -656,7 +656,7 @@
         },
         {
           "label": "Тип",
-          "name": "realty-commercial-shops-type",
+          "name": "type",
           "priority": 2,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -693,7 +693,7 @@
         },
         {
           "label": "Цена",
-          "name": "realty-commercial-shops-price",
+          "name": "price",
           "priority": 3,
           "post_form": "textbox",
           "search_form": "range",
@@ -714,7 +714,7 @@
         },
         {
           "label": "Площадь",
-          "name": "realty-commercial-shops-area",
+          "name": "area",
           "priority": 4,
           "post_form": "textbox",
           "search_form": "range",
@@ -734,7 +734,7 @@
         },
         {
           "label": "Тип местоположения",
-          "name": "realty-commercial-emplacement",
+          "name": "emplacement",
           "priority": 5,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -772,14 +772,14 @@
         },
         {
           "label": "Местоположение",
-          "name": "realty-commercial-shops-microregion",
+          "name": "microregion",
           "priority": 6,
           "hint": "Район, адрес либо название торгового центра/рынка",
           "post_form": "textbox"
         },
         {
           "label": "Прочее",
-          "name": "realty-commercial-shops-other_info",
+          "name": "other_info",
           "priority": 7,
           "post_form": "checkboxlist",
           "parameters": [
@@ -821,7 +821,7 @@
       "parameters": [
         {
           "label": "Право собственности",
-          "name": "realty-commercial-cafes-from",
+          "name": "from",
           "priority": 1,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -846,7 +846,7 @@
         },
         {
           "label": "Тип",
-          "name": "realty-commercial-cafes-type",
+          "name": "type",
           "priority": 2,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -891,7 +891,7 @@
         },
         {
           "label": "Цена",
-          "name": "realty-commercial-cafes-price",
+          "name": "price",
           "priority": 3,
           "post_form": "textbox",
           "search_form": "range",
@@ -912,7 +912,7 @@
         },
         {
           "label": "Площадь",
-          "name": "realty-commercial-cafes-area",
+          "name": "area",
           "priority": 4,
           "post_form": "textbox",
           "search_form": "range",
@@ -932,7 +932,7 @@
         },
         {
           "label": "Местоположение",
-          "name": "realty-commercial-cafes-microregion",
+          "name": "microregion",
           "priority": 6,
           "hint": "Район / адрес",
           "post_form": "textbox"
@@ -961,7 +961,7 @@
       "parameters": [
         {
           "label": "Право собственности",
-          "name": "realty-commercial-hotels-from",
+          "name": "from",
           "priority": 1,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -986,7 +986,7 @@
         },
         {
           "label": "Тип",
-          "name": "realty-commercial-hotels-type",
+          "name": "type",
           "priority": 2,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1019,7 +1019,7 @@
         },
         {
           "label": "Цена",
-          "name": "realty-commercial-hotels-price",
+          "name": "price",
           "priority": 3,
           "post_form": "textbox",
           "search_form": "range",
@@ -1040,7 +1040,7 @@
         },
         {
           "label": "Кол-во гостиничных номеров",
-          "name": "realty-commercial-hotels-room-count",
+          "name": "room-count",
           "priority": 4,
           "post_form": "textbox",
           "search_form": "range",
@@ -1055,7 +1055,7 @@
         },
         {
           "label": "Площадь",
-          "name": "realty-commercial-hotels-area",
+          "name": "area",
           "priority": 5,
           "post_form": "textbox",
           "search_form": "range",
@@ -1074,7 +1074,7 @@
         },
         {
           "label": "Площадь участка",
-          "name": "realty-commercial-hotels-area-land",
+          "name": "area-land",
           "priority": 6,
           "post_form": "textbox",
           "search_form": "range",
@@ -1089,14 +1089,14 @@
         },
         {
           "label": "Местоположение",
-          "name": "realty-commercial-hotels-microregion",
+          "name": "microregion",
           "priority": 7,
           "hint": "Район / адрес",
           "post_form": "textbox"
         },
         {
           "label": "Канализация",
-          "name": "realty-commercial-hotels-sewerage",
+          "name": "sewerage",
           "priority": 8,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1122,7 +1122,7 @@
         },
         {
           "label": "Вода",
-          "name": "realty-commercial-hotels-water",
+          "name": "water",
           "priority": 9,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1148,7 +1148,7 @@
         },
         {
           "label": "Электричество",
-          "name": "realty-commercial-hotels-electricity",
+          "name": "electricity",
           "priority": 10,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1170,7 +1170,7 @@
         },
         {
           "label": "Отопление",
-          "name": "realty-commercial-hotels-heating",
+          "name": "heating",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1208,7 +1208,7 @@
         },
         {
           "label": "Газ",
-          "name": "realty-commercial-hotels-gas",
+          "name": "gas",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1234,7 +1234,7 @@
         },
         {
           "label": "Подключено",
-          "name": "realty-commercial-hotels-connected",
+          "name": "connected",
           "priority": 13,
           "post_form": "checkboxlist",
           "parameters": [
@@ -1282,7 +1282,7 @@
       "parameters": [
         {
           "label": "Право собственности",
-          "name": "realty-commercial-places-from",
+          "name": "from",
           "priority": 1,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1307,7 +1307,7 @@
         },
         {
           "label": "Цена",
-          "name": "realty-commercial-places-price",
+          "name": "price",
           "priority": 3,
           "post_form": "textbox",
           "search_form": "range",
@@ -1328,7 +1328,7 @@
         },
         {
           "label": "Площадь",
-          "name": "realty-commercial-places-area",
+          "name": "area",
           "priority": 5,
           "post_form": "textbox",
           "search_form": "range",
@@ -1347,14 +1347,14 @@
         },
         {
           "label": "Местоположение",
-          "name": "realty-commercial-places-microregion",
+          "name": "microregion",
           "priority": 7,
           "hint": "Район / адрес",
           "post_form": "textbox"
         },
         {
           "label": "Состояние",
-          "name": "realty-commercial-places-condition",
+          "name": "condition",
           "priority": 30,
           "post_form": "radio",
           "options": [
@@ -1390,48 +1390,48 @@
         },
         {
           "label": "Подключено",
-          "name": "realty-commercial-places-connected",
+          "name": "connected",
           "priority": 40,
           "post_form": "checkboxlist",
           "parameters": [
             {
-              "name": "realty-commercial-places-connected-phone",
+              "name": "phone",
               "post_form": "checkbox",
               "label": "Телефон",
               "priority": 1
             },
             {
-              "name": "realty-commercial-places-connected-internet",
+              "name": "internet",
               "post_form": "checkbox",
               "label": "Интернет",
               "priority": 2
             },
             {
-              "name": "realty-commercial-places-connected-electricity",
+              "name": "electricity",
               "post_form": "checkbox",
               "label": "Электричество",
               "priority": 3
             },
             {
-              "name": "realty-commercial-places-connected-water",
+              "name": "water",
               "post_form": "checkbox",
               "label": "Вода",
               "priority": 4
             },
             {
-              "name": "realty-commercial-places-connected-gas",
+              "name": "gas",
               "post_form": "checkbox",
               "label": "Газ",
               "priority": 5
             },
             {
-              "name": "realty-commercial-places-connected-sewerage",
+              "name": "sewerage",
               "post_form": "checkbox",
               "label": "Канализация",
               "priority": 6
             },
             {
-              "name": "realty-commercial-places-connected-heating",
+              "name": "heating",
               "post_form": "checkbox",
               "label": "Отопление",
               "priority": 7
@@ -1462,7 +1462,7 @@
       "parameters": [
         {
           "label": "Право собственности",
-          "name": "realty-commercial-buildings-from",
+          "name": "from",
           "priority": 1,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1487,7 +1487,7 @@
         },
         {
           "label": "Цена",
-          "name": "realty-commercial-buildings-price",
+          "name": "price",
           "priority": 3,
           "post_form": "textbox",
           "search_form": "range",
@@ -1508,7 +1508,7 @@
         },
         {
           "label": "Площадь",
-          "name": "realty-commercial-buildings-area",
+          "name": "area",
           "priority": 5,
           "post_form": "textbox",
           "search_form": "range",
@@ -1527,7 +1527,7 @@
         },
         {
           "label": "Площадь участка",
-          "name": "realty-commercial-buildings-area-land",
+          "name": "area-land",
           "priority": 6,
           "post_form": "textbox",
           "search_form": "range",
@@ -1542,7 +1542,7 @@
         },
         {
           "label": "Кол-во этажей",
-          "name": "realty-commercial-buildings-floor_count",
+          "name": "floor_count",
           "priority": 7,
           "post_form": "textbox",
           "search_form": "range",
@@ -1550,7 +1550,7 @@
         },
         {
           "label": "Год постройки",
-          "name": "realty-commercial-buildings-year",
+          "name": "year",
           "priority": 8,
           "post_form": "textbox",
           "search_form": "range",
@@ -1565,14 +1565,14 @@
         },
         {
           "label": "Местоположение",
-          "name": "realty-commercial-buildings-microregion",
+          "name": "microregion",
           "priority": 9,
           "hint": "Район / адрес",
           "post_form": "textbox"
         },
         {
           "label": "Тип строения",
-          "name": "realty-commercial-buildings-type",
+          "name": "type",
           "priority": 10,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1620,7 +1620,7 @@
         },
         {
           "label": "Состояние",
-          "name": "realty-commercial-buildings-condition",
+          "name": "condition",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1658,48 +1658,48 @@
         },
         {
           "label": "Подключено",
-          "name": "realty-commercial-buildings-connected",
+          "name": "connected",
           "priority": 12,
           "post_form": "checkboxlist",
           "parameters": [
             {
-              "name": "realty-commercial-buildings-connected-phone",
+              "name": "phone",
               "post_form": "checkbox",
               "label": "Телефон",
               "priority": 1
             },
             {
-              "name": "realty-commercial-buildings-connected-internet",
+              "name": "internet",
               "post_form": "checkbox",
               "label": "Интернет",
               "priority": 2
             },
             {
-              "name": "realty-commercial-buildings-connected-electricity",
+              "name": "electricity",
               "post_form": "checkbox",
               "label": "Электричество",
               "priority": 3
             },
             {
-              "name": "realty-commercial-buildings-connected-water",
+              "name": "water",
               "post_form": "checkbox",
               "label": "Вода",
               "priority": 4
             },
             {
-              "name": "realty-commercial-buildings-connected-gas",
+              "name": "gas",
               "post_form": "checkbox",
               "label": "Газ",
               "priority": 5
             },
             {
-              "name": "realty-commercial-buildings-connected-sewerage",
+              "name": "sewerage",
               "post_form": "checkbox",
               "label": "Канализация",
               "priority": 6
             },
             {
-              "name": "realty-commercial-buildings-connected-heating",
+              "name": "heating",
               "post_form": "checkbox",
               "label": "Отопление",
               "priority": 7
@@ -1730,7 +1730,7 @@
       "parameters": [
         {
           "label": "Право собственности",
-          "name": "realty-commercial-factory-from",
+          "name": "from",
           "priority": 1,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1755,7 +1755,7 @@
         },
         {
           "label": "Тип объекта",
-          "name": "realty-commercial-factory-type",
+          "name": "type",
           "priority": 2,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1784,7 +1784,7 @@
         },
         {
           "label": "Цена",
-          "name": "realty-commercial-factory-price",
+          "name": "price",
           "priority": 3,
           "post_form": "textbox",
           "search_form": "range",
@@ -1805,7 +1805,7 @@
         },
         {
           "label": "Площадь",
-          "name": "realty-commercial-factory-area",
+          "name": "area",
           "priority": 5,
           "post_form": "textbox",
           "search_form": "range",
@@ -1824,7 +1824,7 @@
         },
         {
           "label": "Площадь участка",
-          "name": "realty-commercial-factory-area-land",
+          "name": "area-land",
           "priority": 6,
           "post_form": "textbox",
           "search_form": "range",
@@ -1839,55 +1839,55 @@
         },
         {
           "label": "Местоположение",
-          "name": "realty-commercial-factory-microregion",
+          "name": "microregion",
           "priority": 9,
           "hint": "Район / адрес",
           "post_form": "textbox"
         },
         {
           "label": "Подключено",
-          "name": "realty-commercial-factory-connected",
+          "name": "connected",
           "priority": 12,
           "post_form": "checkboxlist",
           "parameters": [
             {
-              "name": "realty-commercial-factory-connected-phone",
+              "name": "phone",
               "post_form": "checkbox",
               "label": "Телефон",
               "priority": 1
             },
             {
-              "name": "realty-commercial-factory-connected-internet",
+              "name": "internet",
               "post_form": "checkbox",
               "label": "Интернет",
               "priority": 2
             },
             {
-              "name": "realty-commercial-factory-connected-electricity",
+              "name": "electricity",
               "post_form": "checkbox",
               "label": "Электричество",
               "priority": 3
             },
             {
-              "name": "realty-commercial-factory-connected-water",
+              "name": "water",
               "post_form": "checkbox",
               "label": "Вода",
               "priority": 4
             },
             {
-              "name": "realty-commercial-factory-connected-gas",
+              "name": "gas",
               "post_form": "checkbox",
               "label": "Газ",
               "priority": 5
             },
             {
-              "name": "realty-commercial-factory-connected-sewerage",
+              "name": "sewerage",
               "post_form": "checkbox",
               "label": "Канализация",
               "priority": 6
             },
             {
-              "name": "realty-commercial-factory-connected-heating",
+              "name": "heating",
               "post_form": "checkbox",
               "label": "Отопление",
               "priority": 7

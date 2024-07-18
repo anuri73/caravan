@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Состояние",
-      "name": "personal-accessories-condition",
+      "name": "condition",
       "priority": 30,
       "regulations": [
         {
@@ -42,7 +42,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-accessories-watches-wristwatches-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -62,7 +62,7 @@
             },
             {
               "label": "Производитель",
-              "name": "personal-accessories-watches-wristwatches-brand",
+              "name": "brand",
               "priority": 11,
               "post_form": "dropdown",
               "search_form": "checkbox",
@@ -377,7 +377,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-accessories-watches-smartwatches-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -396,7 +396,7 @@
             },
             {
               "label": "Производитель",
-              "name": "personal-accessories-watches-smartwatches-brand",
+              "name": "brand",
               "priority": 11,
               "post_form": "dropdown",
               "search_form": "checkbox",
@@ -506,7 +506,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-accessories-watches-pulse-meters-pedometers-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -526,7 +526,7 @@
             },
             {
               "label": "Производитель",
-              "name": "personal-accessories-watches-pulse-meters-pedometers-brand",
+              "name": "brand",
               "priority": 11,
               "post_form": "dropdown",
               "search_form": "checkbox",
@@ -570,7 +570,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-accessories-watches-straps-bracelets-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -603,7 +603,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-accessories-wallets-type",
+          "name": "type",
           "priority": 10,
           "post_form": "radio",
           "regulations": [
@@ -626,7 +626,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-accessories-wallets-sex",
+          "name": "sex",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -647,7 +647,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-accessories-umbrellas-type",
+          "name": "type",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -668,7 +668,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-accessories-sunglasses-type",
+          "name": "type",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -682,7 +682,7 @@
         },
         {
           "label": "Форма",
-          "name": "personal-accessories-sunglasses-style",
+          "name": "style",
           "priority": 13,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -709,7 +709,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-accessories-belts-type",
+          "name": "type",
           "priority": 12,
           "post_form": "radio",
           "regulations": [
@@ -729,7 +729,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-accessories-belts-sex",
+          "name": "sex",
           "priority": 13,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -743,7 +743,7 @@
         },
         {
           "label": "Материал",
-          "name": "personal-accessories-belts-material",
+          "name": "material",
           "priority": 14,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -768,7 +768,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-accessories-ties-type",
+          "name": "type",
           "priority": 12,
           "post_form": "radio",
           "regulations": [
@@ -788,7 +788,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-accessories-ties-sex",
+          "name": "sex",
           "priority": 13,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -808,7 +808,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-accessories-carnival-costumes-type",
+          "name": "type",
           "priority": 12,
           "post_form": "radio",
           "regulations": [
@@ -840,7 +840,7 @@
         },
         {
           "label": "Назначение",
-          "name": "personal-accessories-carnival-costumes-sex",
+          "name": "sex",
           "priority": 13,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -928,7 +928,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-accessories-trinkets-type",
+          "name": "type",
           "priority": 12,
           "post_form": "radio",
           "regulations": [
@@ -947,7 +947,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-accessories-trinkets-sex",
+          "name": "sex",
           "priority": 13,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -968,7 +968,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-accessories-card-holders-type",
+          "name": "type",
           "priority": 12,
           "post_form": "radio",
           "regulations": [
@@ -987,7 +987,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-accessories-card-holders-sex",
+          "name": "sex",
           "priority": 13,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1001,7 +1001,7 @@
         },
         {
           "label": "Материал",
-          "name": "personal-accessories-card-holders-material",
+          "name": "material",
           "priority": 14,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1023,7 +1023,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "personal-accessories-covers-for-documents-type",
+          "name": "type",
           "priority": 12,
           "post_form": "radio",
           "regulations": [
@@ -1049,7 +1049,7 @@
         },
         {
           "label": "Пол",
-          "name": "personal-accessories-covers-for-documents-sex",
+          "name": "sex",
           "priority": 13,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1063,7 +1063,7 @@
         },
         {
           "label": "Материал",
-          "name": "personal-accessories-covers-for-documents-material",
+          "name": "material",
           "priority": 14,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -1090,7 +1090,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-accessories-jewelry-bijouterie-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -1122,7 +1122,7 @@
             },
             {
               "label": "Вставка",
-              "name": "personal-accessories-jewelry-bijouterie-attachment",
+              "name": "attachment",
               "priority": 11,
               "post_form": "dropdown",
               "search_form": "checkbox",
@@ -1153,7 +1153,7 @@
             },
             {
               "label": "Основной материал",
-              "name": "personal-accessories-jewelry-bijouterie-material",
+              "name": "material",
               "priority": 12,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1177,7 +1177,7 @@
             },
             {
               "label": "Пол",
-              "name": "personal-accessories-jewelry-bijouterie-sex",
+              "name": "sex",
               "priority": 13,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1197,7 +1197,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-accessories-jewelry-stands-holders-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -1225,7 +1225,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-accessories-jewelry-jewelry-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "regulations": [
@@ -1255,7 +1255,7 @@
             },
             {
               "label": "Пол",
-              "name": "personal-accessories-jewelry-jewelry-sex",
+              "name": "sex",
               "priority": 11,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1269,7 +1269,7 @@
             },
             {
               "label": "Материал",
-              "name": "personal-accessories-jewelry-jewelry-material",
+              "name": "material",
               "priority": 12,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1284,7 +1284,7 @@
             },
             {
               "label": "Вставка",
-              "name": "personal-accessories-jewelry-jewelry-attachment",
+              "name": "attachment",
               "priority": 13,
               "post_form": "radio",
               "search_form": "checkbox",

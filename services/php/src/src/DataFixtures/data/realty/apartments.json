@@ -12,7 +12,7 @@
       "parameters": [
         {
           "label": "Право собственности",
-          "name": "realty-apartments-sell-from",
+          "name": "from",
           "priority": 1,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -37,7 +37,7 @@
         },
         {
           "label": "Количество комнат",
-          "name": "realty-apartments-sell-room-count",
+          "name": "room-count",
           "priority": 9,
           "post_form": "textbox",
           "search_form": "range",
@@ -57,14 +57,14 @@
         },
         {
           "label": "Местоположение",
-          "name": "realty-apartments-sell-microregion",
+          "name": "microregion",
           "priority": 10,
           "hint": "Район, адрес или название жилого комплекса",
           "post_form": "textbox"
         },
         {
           "label": "Цена",
-          "name": "realty-apartments-sell-price",
+          "name": "price",
           "priority": 11,
           "post_form": "textbox",
           "search_form": "range",
@@ -85,7 +85,7 @@
         },
         {
           "label": "Вид объекта",
-          "name": "realty-apartments-sell-type",
+          "name": "type",
           "priority": 20,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -110,7 +110,7 @@
         },
         {
           "label": "Год постройки / Сдачи в эксплуатацию",
-          "name": "realty-apartments-sell-year",
+          "name": "year",
           "priority": 21,
           "post_form": "textbox",
           "search_form": "range",
@@ -125,7 +125,7 @@
         },
         {
           "label": "Серия",
-          "name": "realty-apartments-sell-series",
+          "name": "series",
           "priority": 22,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -151,7 +151,7 @@
         },
         {
           "label": "Площадь",
-          "name": "realty-apartments-sell-area",
+          "name": "area",
           "priority": 30,
           "post_form": "textbox",
           "search_form": "range",
@@ -171,7 +171,7 @@
         },
         {
           "label": "Тип строения",
-          "name": "realty-apartments-sell-building-type",
+          "name": "building-type",
           "priority": 40,
           "post_form": "radio",
           "options": [
@@ -203,7 +203,7 @@
         },
         {
           "label": "Этаж",
-          "name": "realty-apartments-sell-floor",
+          "name": "floor",
           "priority": 50,
           "post_form": "textbox",
           "search_form": "range",
@@ -222,7 +222,7 @@
         },
         {
           "label": "Этажей в доме",
-          "name": "realty-apartments-sell-floor_count",
+          "name": "floor_count",
           "priority": 60,
           "post_form": "textbox",
           "regulations": [
@@ -239,7 +239,7 @@
         },
         {
           "label": "Состояние",
-          "name": "realty-apartments-sell-condition",
+          "name": "condition",
           "priority": 70,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -273,7 +273,7 @@
         },
         {
           "label": "Санузел",
-          "name": "realty-apartments-sell-lavatory",
+          "name": "lavatory",
           "priority": 80,
           "post_form": "radio",
           "options": [
@@ -297,7 +297,7 @@
         },
         {
           "label": "Дверь",
-          "name": "realty-apartments-sell-door",
+          "name": "door",
           "priority": 90,
           "post_form": "radio",
           "options": [
@@ -317,7 +317,7 @@
         },
         {
           "label": "Паркинг",
-          "name": "realty-apartments-sell-parking",
+          "name": "parking",
           "priority": 100,
           "post_form": "radio",
           "options": [
@@ -337,7 +337,7 @@
         },
         {
           "label": "Подключено",
-          "name": "realty-apartments-sell-connected",
+          "name": "connected",
           "priority": 110,
           "post_form": "checkboxlist",
           "parameters": [
@@ -363,7 +363,7 @@
         },
         {
           "label": "Безопасность",
-          "name": "realty-apartments-sell-security",
+          "name": "security",
           "priority": 120,
           "post_form": "checkboxlist",
           "parameters": [
@@ -419,7 +419,7 @@
         },
         {
           "label": "Прочее",
-          "name": "realty-apartments-sell-other_info",
+          "name": "other_info",
           "priority": 121,
           "post_form": "checkboxlist",
           "parameters": [
@@ -501,7 +501,7 @@
           "parameters": [
             {
               "label": "Право собственности",
-              "name": "realty-apartments-rent-monthly-from",
+              "name": "from",
               "priority": 1,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -526,7 +526,7 @@
             },
             {
               "label": "Количество комнат",
-              "name": "realty-apartments-rent-monthly-room-count",
+              "name": "room-count",
               "priority": 9,
               "post_form": "textbox",
               "search_form": "range",
@@ -546,14 +546,14 @@
             },
             {
               "label": "Местоположение",
-              "name": "realty-apartments-rent-monthly-microregion",
+              "name": "microregion",
               "priority": 10,
               "hint": "Район, адрес или название жилого комплекса",
               "post_form": "textbox"
             },
             {
               "label": "Цена",
-              "name": "realty-apartments-rent-monthly-price",
+              "name": "price",
               "priority": 11,
               "post_form": "textbox",
               "search_form": "range",
@@ -574,7 +574,7 @@
             },
             {
               "label": "Вид объекта",
-              "name": "realty-apartments-rent-monthly-type",
+              "name": "type",
               "priority": 20,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -598,7 +598,7 @@
             },
             {
               "label": "Серия",
-              "name": "realty-apartments-rent-monthly-series",
+              "name": "series",
               "priority": 21,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -624,7 +624,7 @@
             },
             {
               "label": "Площадь",
-              "name": "realty-apartments-rent-monthly-area",
+              "name": "area",
               "priority": 30,
               "post_form": "textbox",
               "search_form": "range",
@@ -644,7 +644,7 @@
             },
             {
               "label": "Этаж",
-              "name": "realty-apartments-rent-monthly-floor",
+              "name": "floor",
               "priority": 50,
               "post_form": "textbox",
               "search_form": "range",
@@ -663,7 +663,7 @@
             },
             {
               "label": "Этажей в доме",
-              "name": "realty-apartments-rent-monthly-floor_count",
+              "name": "floor_count",
               "priority": 60,
               "post_form": "textbox",
               "regulations": [
@@ -680,7 +680,7 @@
             },
             {
               "label": "Состояние",
-              "name": "realty-apartments-rent-monthly-condition",
+              "name": "condition",
               "priority": 70,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -702,7 +702,7 @@
             },
             {
               "label": "Санузел",
-              "name": "realty-apartments-rent-monthly-lavatory",
+              "name": "lavatory",
               "priority": 80,
               "post_form": "radio",
               "options": [
@@ -726,7 +726,7 @@
             },
             {
               "label": "Мебель",
-              "name": "realty-apartments-rent-monthly-furniture",
+              "name": "furniture",
               "priority": 81,
               "post_form": "radio",
               "options": [
@@ -746,7 +746,7 @@
             },
             {
               "label": "Техника",
-              "name": "realty-apartments-rent-monthly-equipment",
+              "name": "equipment",
               "priority": 82,
               "post_form": "checkboxlist",
               "parameters": [
@@ -796,7 +796,7 @@
             },
             {
               "label": "Подключено",
-              "name": "realty-apartments-rent-monthly-connected",
+              "name": "connected",
               "priority": 83,
               "post_form": "checkboxlist",
               "parameters": [
@@ -822,7 +822,7 @@
             },
             {
               "label": "Дверь",
-              "name": "realty-apartments-rent-monthly-door",
+              "name": "door",
               "priority": 90,
               "post_form": "radio",
               "options": [
@@ -842,7 +842,7 @@
             },
             {
               "label": "Паркинг",
-              "name": "realty-apartments-rent-monthly-parking",
+              "name": "parking",
               "priority": 100,
               "post_form": "radio",
               "options": [
@@ -862,7 +862,7 @@
             },
             {
               "label": "Безопасность",
-              "name": "realty-apartments-rent-monthly-parking-security",
+              "name": "security",
               "priority": 120,
               "post_form": "checkboxlist",
               "parameters": [
@@ -918,7 +918,7 @@
             },
             {
               "label": "Прочее",
-              "name": "realty-apartments-rent-monthly-other_info",
+              "name": "other_info",
               "priority": 121,
               "post_form": "checkboxlist",
               "parameters": [
@@ -1000,7 +1000,7 @@
           "parameters": [
             {
               "label": "Количество комнат",
-              "name": "realty-apartments-rent-daily-room-count",
+              "name": "room-count",
               "priority": 9,
               "post_form": "textbox",
               "search_form": "range",
@@ -1020,14 +1020,14 @@
             },
             {
               "label": "Местоположение",
-              "name": "realty-apartments-rent-daily-microregion",
+              "name": "microregion",
               "priority": 10,
               "hint": "Район, адрес или название жилого комплекса",
               "post_form": "textbox"
             },
             {
               "label": "Цена за сутки",
-              "name": "realty-apartments-rent-daily-price",
+              "name": "price",
               "priority": 11,
               "post_form": "textbox",
               "search_form": "range",
@@ -1047,7 +1047,7 @@
             },
             {
               "label": "Цена за ночь",
-              "name": "realty-apartments-rent-daily-price-night",
+              "name": "price-night",
               "priority": 12,
               "post_form": "textbox",
               "search_form": "range",
@@ -1064,7 +1064,7 @@
             },
             {
               "label": "Цена за 2 часа",
-              "name": "realty-apartments-rent-daily-price-price-hour",
+              "name": "price-hour",
               "priority": 13,
               "post_form": "textbox",
               "search_form": "range",
@@ -1081,7 +1081,7 @@
             },
             {
               "label": "Вид объекта",
-              "name": "realty-apartments-rent-daily-type",
+              "name": "type",
               "priority": 20,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1105,7 +1105,7 @@
             },
             {
               "label": "Площадь",
-              "name": "realty-apartments-rent-daily-area",
+              "name": "area",
               "priority": 30,
               "post_form": "textbox",
               "search_form": "range",
@@ -1121,7 +1121,7 @@
             },
             {
               "label": "Состояние",
-              "name": "realty-apartments-rent-daily-condition",
+              "name": "condition",
               "priority": 70,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1143,7 +1143,7 @@
             },
             {
               "label": "Мебель",
-              "name": "realty-apartments-rent-daily-furniture",
+              "name": "furniture",
               "priority": 81,
               "post_form": "radio",
               "options": [
@@ -1159,7 +1159,7 @@
             },
             {
               "label": "Техника",
-              "name": "realty-apartments-rent-daily-equipment",
+              "name": "equipment",
               "priority": 82,
               "post_form": "checkboxlist",
               "parameters": [
@@ -1209,7 +1209,7 @@
             },
             {
               "label": "Подключено",
-              "name": "realty-apartments-rent-daily-connected",
+              "name": "connected",
               "priority": 83,
               "post_form": "checkboxlist",
               "parameters": [
@@ -1235,7 +1235,7 @@
             },
             {
               "label": "Паркинг",
-              "name": "realty-apartments-rent-daily-parking",
+              "name": "parking",
               "priority": 100,
               "post_form": "radio",
               "options": [
@@ -1255,7 +1255,7 @@
             },
             {
               "label": "Прочее",
-              "name": "realty-apartments-rent-daily-other_info",
+              "name": "other_info",
               "priority": 121,
               "post_form": "checkboxlist",
               "parameters": [

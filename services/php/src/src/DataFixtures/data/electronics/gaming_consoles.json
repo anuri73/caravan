@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-gaming-consoles-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -29,7 +29,7 @@
         },
         {
           "label": "Производитель",
-          "name": "lectronics-gaming-consoles-brand",
+          "name": "brand",
           "priority": 22,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -66,7 +66,7 @@
       "parameters": [
         {
           "label": "Платформа",
-          "name": "electronics-gaming-consoles-games-type",
+          "name": "type hidden",
           "priority": 11,
           "regulations": [
             {
@@ -101,7 +101,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-gaming-joysticks-gamepads-type",
+          "name": "type hidden",
           "priority": 11,
           "regulations": [
             {
@@ -125,7 +125,7 @@
         },
         {
           "label": "Подключение",
-          "name": "electronics-gaming-joysticks-gamepad-connection-type",
+          "name": "connection type",
           "priority": 25,
           "post_form": "radio",
           "search_form": "checkbox",

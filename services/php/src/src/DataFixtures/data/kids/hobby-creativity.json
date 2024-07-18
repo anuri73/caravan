@@ -5,7 +5,7 @@
   "parameters": [
     {
       "label": "Тип",
-      "name": "kids-hobby-creativity-type",
+      "name": "type",
       "priority": 11,
       "regulations": [
         {
@@ -86,7 +86,7 @@
     },
     {
       "label": "Состояние",
-      "name": "kids-hobby-creativity-condition",
+      "name": "condition",
       "priority": 30,
       "regulations": [
         {

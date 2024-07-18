@@ -11,12 +11,11 @@ use Symfony\Component\Serializer\Attribute as Serializer;
 
 #[ORM\Entity(repositoryClass: ParameterRepository::class)]
 #[ORM\Table(name: 'parameter')]
-#[ORM\UniqueConstraint(name: 'idx_parameter_name', columns: ['name'])]
+#[ORM\UniqueConstraint(name: 'idx_parameter_name', columns: ['name', 'category_name'])]
 #[ORM\HasLifecycleCallbacks]
 class Parameter
 {
     #[ORM\Id]
-    #[ORM\Unique]
     #[ORM\Column(name: "name", length: 255)]
     private ?string $name = null;
 
@@ -29,6 +28,7 @@ class Parameter
     #[ORM\Column]
     private ?DateTimeImmutable $updatedAt = null;
 
+    #[ORM\Id]
     #[ORM\ManyToOne(targetEntity: Category::class, inversedBy: 'parameters')]
     #[ORM\JoinColumn(name: 'category_name', referencedColumnName: 'name')]
     #[Serializer\MaxDepth(1)]
@@ -49,9 +49,21 @@ class Parameter
     #[ORM\Column(nullable: true)]
     private ?int $searchPriority = 0;
 
+    #[ORM\ManyToOne(targetEntity: self::class, inversedBy: 'children')]
+    #[ORM\JoinColumn(name: 'parent_name', referencedColumnName: 'name')]
+    #[ORM\JoinColumn(name: 'parent_category_name', referencedColumnName: 'category_name')]
+    private ?self $parent = null;
+
+    /**
+     * @var Collection<int, self>
+     */
+    #[ORM\OneToMany(targetEntity: self::class, mappedBy: 'parent')]
+    private Collection $children;
+
     public function __construct()
     {
         $this->validators = new ArrayCollection();
+        $this->children = new ArrayCollection();
     }
 
     public function getName(): ?string
@@ -175,6 +187,48 @@ class Parameter
     public function setSearchPriority(int $searchPriority): static
     {
         $this->searchPriority = $searchPriority;
+
+        return $this;
+    }
+
+    public function getParent(): ?self
+    {
+        return $this->parent;
+    }
+
+    public function setParent(?self $parent): static
+    {
+        $this->parent = $parent;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, self>
+     */
+    public function getChildren(): Collection
+    {
+        return $this->children;
+    }
+
+    public function addChild(self $child): static
+    {
+        if (!$this->children->contains($child)) {
+            $this->children->add($child);
+            $child->setParent($this);
+        }
+
+        return $this;
+    }
+
+    public function removeChild(self $child): static
+    {
+        if ($this->children->removeElement($child)) {
+            // set the owning side to null (unless already changed)
+            if ($child->getParent() === $this) {
+                $child->setParent(null);
+            }
+        }
 
         return $this;
     }

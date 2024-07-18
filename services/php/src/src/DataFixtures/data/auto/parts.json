@@ -6176,7 +6176,7 @@
   "parameters": [
     {
       "label": "Цена",
-      "name": "auto-parts-price",
+      "name": "price",
       "priority": 8,
       "post_form": "textbox",
       "measure": "сом",

@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-large-kitchen-cooktops-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -30,7 +30,7 @@
         },
         {
           "label": "Установка",
-          "name": "appliances-large-kitchen-cooktops-installment",
+          "name": "installment",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -43,7 +43,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-large-kitchen-cooktops-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -81,7 +81,7 @@
         },
         {
           "label": "Ширина",
-          "name": "appliances-large-kitchen-cooktops-width",
+          "name": "width",
           "priority": 22,
           "regulations": [
             {
@@ -96,7 +96,7 @@
         },
         {
           "label": "Глубина",
-          "name": "appliances-large-kitchen-cooktops-depth",
+          "name": "depth",
           "priority": 23,
           "regulations": [
             {
@@ -118,7 +118,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-large-kitchen-cooker-hoods-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -138,7 +138,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-large-kitchen-cooker-hoods-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -175,7 +175,7 @@
         },
         {
           "label": "Ширина",
-          "name": "appliances-large-kitchen-cooker-hoods-width",
+          "name": "width",
           "priority": 22,
           "regulations": [
             {
@@ -197,7 +197,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-large-kitchen-dispensers-water-coolers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -224,7 +224,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-large-kitchen-ovens-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -243,7 +243,7 @@
         },
         {
           "label": "Установка",
-          "name": "appliances-large-kitchen-ovens-installment",
+          "name": "installment",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -256,7 +256,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-large-kitchen-ovens-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -301,7 +301,7 @@
         },
         {
           "label": "Ширина",
-          "name": "appliances-large-kitchen-ovens-width",
+          "name": "width",
           "priority": 22,
           "regulations": [
             {
@@ -316,7 +316,7 @@
         },
         {
           "label": "Высота",
-          "name": "appliances-large-kitchen-ovens-height",
+          "name": "height",
           "priority": 23,
           "regulations": [
             {
@@ -331,7 +331,7 @@
         },
         {
           "label": "Глубина",
-          "name": "appliances-large-kitchen-ovens-depth",
+          "name": "depth",
           "priority": 24,
           "regulations": [
             {
@@ -353,7 +353,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-large-kitchen-cookers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -373,7 +373,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-large-kitchen-cookers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -414,7 +414,7 @@
         },
         {
           "label": "Ширина",
-          "name": "appliances-large-kitchen-cookers-width",
+          "name": "width",
           "priority": 22,
           "regulations": [
             {
@@ -429,7 +429,7 @@
         },
         {
           "label": "Высота",
-          "name": "appliances-large-kitchen-cookers-height",
+          "name": "height",
           "priority": 23,
           "regulations": [
             {
@@ -444,7 +444,7 @@
         },
         {
           "label": "Глубина",
-          "name": "appliances-large-kitchen-cookers-depth",
+          "name": "depth",
           "priority": 24,
           "regulations": [
             {
@@ -466,7 +466,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-large-kitchen-dishwashers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -486,7 +486,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-large-kitchen-dishwashers-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -517,7 +517,7 @@
         },
         {
           "label": "Ширина",
-          "name": "appliances-large-kitchen-dishwashers-width",
+          "name": "width",
           "priority": 22,
           "regulations": [
             {
@@ -532,7 +532,7 @@
         },
         {
           "label": "Высота",
-          "name": "appliances-large-kitchen-dishwashers-height",
+          "name": "height",
           "priority": 23,
           "regulations": [
             {
@@ -547,7 +547,7 @@
         },
         {
           "label": "Глубина",
-          "name": "appliances-large-kitchen-dishwashers-depth",
+          "name": "depth",
           "priority": 24,
           "regulations": [
             {
@@ -569,7 +569,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "appliances-large-kitchen-refrigerators-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -593,7 +593,7 @@
         },
         {
           "label": "Производитель",
-          "name": "appliances-large-kitchen-refrigerators-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -630,7 +630,7 @@
         },
         {
           "label": "Ширина",
-          "name": "appliances-large-kitchen-refrigerators-width",
+          "name": "width",
           "priority": 22,
           "regulations": [
             {
@@ -645,7 +645,7 @@
         },
         {
           "label": "Высота",
-          "name": "appliances-large-kitchen-refrigerators-height",
+          "name": "height",
           "priority": 23,
           "regulations": [
             {
@@ -660,7 +660,7 @@
         },
         {
           "label": "Глубина",
-          "name": "appliances-large-kitchen-refrigerators-depth",
+          "name": "depth",
           "priority": 24,
           "regulations": [
             {

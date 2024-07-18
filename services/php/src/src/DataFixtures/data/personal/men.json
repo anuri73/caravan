@@ -20,7 +20,7 @@
               "parameters": [
                 {
                   "label": "Модель",
-                  "name": "personal-men-clothing-outerwear-jackets-type",
+                  "name": "type",
                   "priority": 10,
                   "regulations": [
                     {
@@ -46,7 +46,7 @@
                 },
                 {
                   "label": "Cезон",
-                  "name": "personal-men-clothing-outerwear-jackets-season",
+                  "name": "season",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -61,7 +61,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-outerwear-jackets-size",
+                  "name": "size",
                   "priority": 13,
                   "regulations": [
                     {
@@ -82,7 +82,7 @@
               "parameters": [
                 {
                   "label": "Cезон",
-                  "name": "personal-men-clothing-outerwear-waistcoats-season",
+                  "name": "season",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -97,7 +97,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-outerwear-waistcoats-size",
+                  "name": "size",
                   "priority": 13,
                   "regulations": [
                     {
@@ -118,7 +118,7 @@
               "parameters": [
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-outerwear-raincoats-size",
+                  "name": "size",
                   "priority": 13,
                   "regulations": [
                     {
@@ -139,7 +139,7 @@
               "parameters": [
                 {
                   "label": "Cезон",
-                  "name": "personal-men-clothing-outerwear-coats-season",
+                  "name": "season",
                   "priority": 12,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -152,7 +152,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-outerwear-coats-size",
+                  "name": "size",
                   "priority": 13,
                   "regulations": [
                     {
@@ -173,7 +173,7 @@
               "parameters": [
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-outerwear-sheepskins-size",
+                  "name": "size",
                   "priority": 13,
                   "regulations": [
                     {
@@ -194,7 +194,7 @@
               "parameters": [
                 {
                   "label": "Cезон",
-                  "name": "personal-men-clothing-outerwear-down-jackets-season",
+                  "name": "season",
                   "priority": 12,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -207,7 +207,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-outerwear-down-jackets-size",
+                  "name": "size",
                   "priority": 13,
                   "regulations": [
                     {
@@ -228,7 +228,7 @@
               "parameters": [
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-outerwear-other-size",
+                  "name": "size",
                   "priority": 13,
                   "regulations": [
                     {
@@ -251,7 +251,7 @@
           "parameters": [
             {
               "label": "Модель",
-              "name": "personal-men-clothing-jeans-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -266,7 +266,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-clothing-jeans-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -287,7 +287,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-clothing-shirts-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -300,7 +300,7 @@
             },
             {
               "label": "Рукав",
-              "name": "personal-men-clothing-shirts-sleeve",
+              "name": "sleeve",
               "priority": 11,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -313,7 +313,7 @@
             },
             {
               "label": "Фасон",
-              "name": "personal-men-clothing-shirts-style",
+              "name": "style",
               "priority": 12,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -326,7 +326,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-clothing-shirts-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -347,7 +347,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-clothing-sweatshirts-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -360,7 +360,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-clothing-sweatshirts-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -381,7 +381,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-clothing-t-shirts-type",
+              "name": "type",
               "priority": 10,
               "regulations": [
                 {
@@ -402,7 +402,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-clothing-t-shirts-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -423,7 +423,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-clothing-home-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -441,7 +441,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-clothing-home-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -462,7 +462,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-clothing-pants-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -475,7 +475,7 @@
             },
             {
               "label": "Фасон",
-              "name": "personal-men-clothing-pants-style",
+              "name": "style",
               "priority": 11,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -491,7 +491,7 @@
             },
             {
               "label": "Cезон",
-              "name": "personal-men-clothing-pants-season",
+              "name": "season",
               "priority": 12,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -506,7 +506,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-clothing-pants-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -527,7 +527,7 @@
           "parameters": [
             {
               "label": "Размер",
-              "name": "personal-men-clothing-vests-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -548,7 +548,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-clothing-suits-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -561,7 +561,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-clothing-suits-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -582,7 +582,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-clothing-blazers-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -596,7 +596,7 @@
             },
             {
               "label": "Фасон",
-              "name": "personal-men-clothing-blazer-style",
+              "name": "style",
               "priority": 11,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -609,7 +609,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-clothing-blazer-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -630,7 +630,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-clothing-sweaters-cardigans-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -647,7 +647,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-clothing-sweaters-cardigans-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -668,7 +668,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-clothing-shorts-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -681,7 +681,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-clothing-shorts-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -707,7 +707,7 @@
               "parameters": [
                 {
                   "label": "Вид спорта",
-                  "name": "personal-men-clothing-sportswear-jackets-sport-type",
+                  "name": "sport type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -736,7 +736,7 @@
                 },
                 {
                   "label": "Cезон",
-                  "name": "personal-men-clothing-sportswear-jackets-season",
+                  "name": "season",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -751,7 +751,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-sportswear-jackets-size",
+                  "name": "size",
                   "priority": 13,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -784,7 +784,7 @@
               "parameters": [
                 {
                   "label": "Вид спорта",
-                  "name": "personal-men-clothing-sportswear-tracksuits-sport-type",
+                  "name": "sport type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -809,7 +809,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-sportswear-tracksuits-size",
+                  "name": "size",
                   "priority": 13,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -842,7 +842,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-men-clothing-sportswear-thermal-underwear-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -862,7 +862,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-sportswear-thermal-underwear-size",
+                  "name": "size",
                   "priority": 13,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -895,7 +895,7 @@
               "parameters": [
                 {
                   "label": "Вид спорта",
-                  "name": "personal-men-clothing-sportswear-pants-sport type",
+                  "name": "sport type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -927,7 +927,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-sportswear-pants-size",
+                  "name": "size",
                   "priority": 13,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -960,7 +960,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-men-clothing-sportswear-accessories-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -988,7 +988,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-men-clothing-sportswear-winter-sets-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1009,7 +1009,7 @@
               "parameters": [
                 {
                   "label": "Вид единоборства",
-                  "name": "personal-men-clothing-sportswear-kimono-sport-type",
+                  "name": "sport type",
                   "priority": 10,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1032,7 +1032,7 @@
               "parameters": [
                 {
                   "label": "Тип",
-                  "name": "personal-men-clothing-sportswear-sweatshirts-type",
+                  "name": "type",
                   "priority": 10,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1047,7 +1047,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-sportswear-sweatshirts-size",
+                  "name": "size",
                   "priority": 13,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1080,7 +1080,7 @@
               "parameters": [
                 {
                   "label": "Вид спорта",
-                  "name": "personal-men-clothing-sportswear-uniforms-sport type",
+                  "name": "sport type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1104,7 +1104,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-sportswear-uniforms-size",
+                  "name": "size",
                   "priority": 13,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1137,7 +1137,7 @@
               "parameters": [
                 {
                   "label": "Вид спорта",
-                  "name": "personal-men-clothing-sportswear-t-shirts-sport type",
+                  "name": "sport type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1170,7 +1170,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-sportswear-t-shirts-size",
+                  "name": "size",
                   "priority": 13,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1203,7 +1203,7 @@
               "parameters": [
                 {
                   "label": "Вид спорта",
-                  "name": "personal-men-clothing-sportswear-shorts-sport type",
+                  "name": "sport type",
                   "priority": 11,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1236,7 +1236,7 @@
                 },
                 {
                   "label": "Размер",
-                  "name": "personal-men-clothing-sportswear-shorts-size",
+                  "name": "size",
                   "priority": 13,
                   "post_form": "radio",
                   "search_form": "checkbox",
@@ -1278,7 +1278,7 @@
       "parameters": [
         {
           "label": "Состояние",
-          "name": "personal-men-clothing-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {
@@ -1315,7 +1315,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-underwear-pants-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1330,7 +1330,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-underwear-pants-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1351,7 +1351,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-underwear-swimshorts-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1364,7 +1364,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-underwear-swimshorts-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1385,7 +1385,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-underwear-socks-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1412,7 +1412,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-shoes-boots-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1426,7 +1426,7 @@
             },
             {
               "label": "Стиль",
-              "name": "personal-men-shoes-boots-style",
+              "name": "style",
               "priority": 11,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1440,7 +1440,7 @@
             },
             {
               "label": "Cезон",
-              "name": "personal-men-shoes-boots-season",
+              "name": "season",
               "priority": 12,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1455,7 +1455,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-shoes-boots-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1476,7 +1476,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-shoes-winter-boots-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1491,7 +1491,7 @@
             },
             {
               "label": "Cезон",
-              "name": "personal-men-shoes-winter-boots-season",
+              "name": "season",
               "priority": 11,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1504,7 +1504,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-shoes-winter-boots-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1525,7 +1525,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-shoes-sneakers-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1538,7 +1538,7 @@
             },
             {
               "label": "Cезон",
-              "name": "personal-men-shoes-sneakers-season",
+              "name": "season",
               "priority": 11,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1553,7 +1553,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-shoes-sneakers-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1574,7 +1574,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-shoes-moccasins-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1589,7 +1589,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-shoes-moccasins-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1610,7 +1610,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-shoes-sport-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1628,7 +1628,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-shoes-sport-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1649,7 +1649,7 @@
           "parameters": [
             {
               "label": "Размер",
-              "name": "personal-men-shoes-felt-boots-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1670,7 +1670,7 @@
           "parameters": [
             {
               "label": "Размер",
-              "name": "personal-men-shoes-home-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1691,7 +1691,7 @@
           "parameters": [
             {
               "label": "Размер",
-              "name": "personal-men-shoes-sandals-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1712,7 +1712,7 @@
           "parameters": [
             {
               "label": "Тип",
-              "name": "personal-men-shoes-shoes-type",
+              "name": "type",
               "priority": 10,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1729,7 +1729,7 @@
             },
             {
               "label": "Cезон",
-              "name": "personal-men-shoes-shoes-season",
+              "name": "season",
               "priority": 11,
               "post_form": "radio",
               "search_form": "checkbox",
@@ -1742,7 +1742,7 @@
             },
             {
               "label": "Размер",
-              "name": "personal-men-shoes-shoes-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1763,7 +1763,7 @@
           "parameters": [
             {
               "label": "Размер",
-              "name": "personal-men-shoes-ugg-boots-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1784,7 +1784,7 @@
           "parameters": [
             {
               "label": "Размер",
-              "name": "personal-men-shoes-unty-boots-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1805,7 +1805,7 @@
           "parameters": [
             {
               "label": "Размер",
-              "name": "personal-men-shoes-flip-flops-size",
+              "name": "size",
               "priority": 13,
               "regulations": [
                 {
@@ -1828,7 +1828,7 @@
       "parameters": [
         {
           "label": "Состояние",
-          "name": "personal-men-shoes-condition",
+          "name": "condition",
           "priority": 30,
           "regulations": [
             {

@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-beauty-health-hairdryers-styling-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -43,7 +43,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-beauty-health-epilators-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -72,7 +72,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-beauty-health-electric-shavers-trimmers-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -91,7 +91,7 @@
         },
         {
           "label": "Назначение",
-          "name": "electronics-beauty-health-electric-shavers-trimmers-purpose",
+          "name": "purpose",
           "priority": 12,
           "post_form": "radio",
           "regulations": [
@@ -125,7 +125,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-beauty-health-scales-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -151,7 +151,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-beauty-health-medical-devices-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -189,7 +189,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-beauty-health-electric-toothbrushes-irrigators-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -216,7 +216,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-beauty-health-body-face-care-devices-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -246,7 +246,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-beauty-health-massagers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [

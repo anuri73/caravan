@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-gps-navigation-navigators-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -52,7 +52,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-gps-navigation-navigators-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -82,7 +82,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-gps-navigation-trackers-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -109,7 +109,7 @@
       "parameters": [
         {
           "label": "Производитель",
-          "name": "electronics-gps-navigation-maps-software-brand",
+          "name": "brand",
           "priority": 21,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -134,7 +134,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-gps-navigation-accessories-type",
+          "name": "type hidden",
           "priority": 11,
           "post_form": "radio",
           "regulations": [
@@ -161,7 +161,7 @@
         },
         {
           "label": "Тип GPS-навигатора",
-          "name": "electronics-gps-navigation-accessories-purpose",
+          "name": "purpose",
           "priority": 22,
           "post_form": "radio",
           "search_form": "checkbox",

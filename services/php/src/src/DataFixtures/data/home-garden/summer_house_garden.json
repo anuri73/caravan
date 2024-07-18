@@ -15,7 +15,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-summer-house-garden-tools-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -61,7 +61,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-summer-house-garden-furniture-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [
@@ -96,7 +96,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "home-garden-summer-house-seeds-seedlings-type",
+          "name": "type",
           "priority": 11,
           "post_form": "dropdown",
           "regulations": [

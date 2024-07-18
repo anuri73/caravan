@@ -2421,7 +2421,7 @@
   "parameters": [
     {
       "label": "Цена",
-      "name": "auto-commercial-bus-price",
+      "name": "price",
       "priority": 1,
       "post_form": "textbox",
       "measure": "сом",
@@ -2441,7 +2441,7 @@
       ]
     },
     {
-      "name": "auto-commercial-bus-type",
+      "name": "type",
       "label": "Тип автобуса",
       "priority": 2,
       "post_form": "radio",
@@ -2487,7 +2487,7 @@
     },
     {
       "label": "Год выпуска",
-      "name": "auto-commercial-bus-year",
+      "name": "year",
       "priority": 3,
       "post_form": "textbox",
       "search_form": "range",
@@ -2506,7 +2506,7 @@
     },
     {
       "label": "Руль",
-      "name": "auto-commercial-bus-steering_wheel",
+      "name": "steering_wheel",
       "priority": 4,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -2529,7 +2529,7 @@
       ]
     },
     {
-      "name": "auto-commercial-bus-engine",
+      "name": "engine",
       "label": "Тип двигателя",
       "priority": 5,
       "post_form": "radio",
@@ -2570,7 +2570,7 @@
     },
     {
       "label": "Объем двигателя",
-      "name": "auto-commercial-bus-volume",
+      "name": "volume",
       "priority": 6,
       "post_form": "textbox",
       "search_form": "range",
@@ -2590,7 +2590,7 @@
     },
     {
       "label": "Коробка",
-      "name": "auto-commercial-bus-ransmission",
+      "name": "transmission",
       "priority": 7,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -2622,7 +2622,7 @@
     },
     {
       "label": "Пробег",
-      "name": "auto-commercial-bus-odometer",
+      "name": "odometer",
       "priority": 8,
       "post_form": "textbox",
       "measure": "км",
@@ -2636,7 +2636,7 @@
     },
     {
       "label": "Мощность",
-      "name": "auto-commercial-bus-power",
+      "name": "power",
       "priority": 9,
       "post_form": "textbox",
       "measure": "л.с.",
@@ -2649,7 +2649,7 @@
       ]
     },
     {
-      "name": "auto-commercial-bus-wheel_formula",
+      "name": "wheel_formula",
       "label": "Колесная формула",
       "priority": 10,
       "post_form": "radio",
@@ -2691,7 +2691,7 @@
     },
     {
       "label": "Состояние",
-      "name": "auto-commercial-bus-condition",
+      "name": "condition",
       "priority": 12,
       "post_form": "radio",
       "options": [
@@ -2715,7 +2715,7 @@
     },
     {
       "label": "Наличие",
-      "name": "auto-commercial-bus-availability",
+      "name": "availability",
       "priority": 13,
       "post_form": "radio",
       "search_form": "checkbox",
@@ -2739,13 +2739,13 @@
     },
     {
       "label": "Опции",
-      "name": "auto-commercial-bus-options",
+      "name": "options",
       "priority": 14,
       "post_form": "collapse",
       "parameters": [
         {
           "label": "Комплектация",
-          "name": "auto-commercial-bus-options-equipment",
+          "name": "equipment",
           "priority": 1,
           "post_form": "checkboxlist",
           "parameters": [
@@ -2877,7 +2877,7 @@
     },
     {
       "label": "Прочее",
-      "name": "auto-commercial-bus-additional_information",
+      "name": "additional_information",
       "priority": 15,
       "post_form": "checkboxlist",
       "parameters": [

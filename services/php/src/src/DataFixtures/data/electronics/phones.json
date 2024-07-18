@@ -10,7 +10,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-phones-cell-phones-type",
+          "name": "type",
           "priority": 11,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -35,7 +35,7 @@
         },
         {
           "label": "Операционная система",
-          "name": "electronics-phones-cell-phones-operating system",
+          "name": "operating system",
           "priority": 12,
           "post_form": "radio",
           "search_form": "checkbox",
@@ -76,7 +76,7 @@
         },
         {
           "label": "Производитель",
-          "name": "electronics-phones-cell-phones-brand",
+          "name": "brand",
           "priority": 13,
           "post_form": "dropdown",
           "search_form": "checkbox",
@@ -220,7 +220,7 @@
         },
         {
           "label": "Объем памяти",
-          "name": "electronics-phones-cell-phones-memory",
+          "name": "memory",
           "priority": 15,
           "post_form": "textbox",
           "measure": "Гб",
@@ -235,7 +235,7 @@
         },
         {
           "label": "Объем оперативной памяти",
-          "name": "electronics-phones-cell-phones-ram",
+          "name": "ram",
           "priority": 16,
           "post_form": "textbox",
           "measure": "Гб",
@@ -250,7 +250,7 @@
         },
         {
           "label": "Разрешение основной камеры",
-          "name": "electronics-phones-cell-phones-main-camera",
+          "name": "main camera",
           "priority": 17,
           "post_form": "textbox",
           "measure": "мп",
@@ -287,7 +287,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-phones-accessories-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -371,7 +371,7 @@
       "parameters": [
         {
           "label": "Тип",
-          "name": "electronics-phones-spares-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
@@ -427,7 +427,7 @@
       "parameters": [
         {
           "label": "Оператор",
-          "name": "electronics-phones-simcards-type",
+          "name": "type",
           "priority": 11,
           "regulations": [
             {
