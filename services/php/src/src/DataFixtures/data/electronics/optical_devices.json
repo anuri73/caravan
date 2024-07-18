@@ -1,0 +1,153 @@
+{
+  "label": "Оптические приборы",
+  "url": "electronics-optical-devices",
+  "priority": 10,
+  "children": [
+    {
+      "label": "Бинокли и зрительные трубы",
+      "url": "electronics-optical-devices-binoculars",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-optical-devices-binoculars-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "бинокль","priority": 1},
+            {"label": "зрительная труба","priority": 1},
+            {"label": "монокуляр","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Телескопы",
+      "url": "electronics-optical-devices-telescopes",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-optical-devices-telescopes-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "линзовые","priority": 1},
+            {"label": "зеркальные","priority": 1},
+            {"label": "зеркально-линзовые","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Микроскопы",
+      "url": "electronics-optical-devices-microscopes",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-optical-devices-microscopes-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "учебные","priority": 1},
+            {"label": "профессиональные","priority": 1},
+            {"label": "бытовые","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Лупы",
+      "url": "electronics-optical-devices-magnifiers",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-optical-devices-magnifiers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "зерновая","priority": 1},
+            {"label": "измерительная","priority": 1},
+            {"label": "линза Френеля","priority": 1},
+            {"label": "лупа-лампа","priority": 1},
+            {"label": "лупа-линейка","priority": 1},
+            {"label": "просмотровая","priority": 1},
+            {"label": "светопольная","priority": 1},
+            {"label": "текстильная","priority": 1},
+            {"label": "часовая","priority": 1},
+            {"label": "электронный увеличитель","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Приборы ночного видения",
+      "url": "electronics-optical-devices-night-vision",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-optical-devices-night-vision-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "бинокль","priority": 1},
+            {"label": "монокуляр","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Прочие оптические приборы",
+      "url": "electronics-optical-devices-other",
+      "priority": 6
+    }
+  ]
+}

@@ -1,0 +1,1900 @@
+{
+  "name": "realty-commercial",
+  "label": "Коммерческая недвижимость",
+  "url": "realty-commercial",
+  "priority": 4,
+  "children": [
+    {
+      "name": "realty-commercial-offices",
+      "label": "Офисы",
+      "url": "realty-commercial-offices",
+      "priority": 1,
+      "children": [
+        {
+          "name": "realty-commercial-offices-sell",
+          "label": "Продам",
+          "url": "realty-commercial-offices-sell",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Право собственности",
+              "name": "realty-commercial-offices-sell-from",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип права собствености"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Собственник",
+                  "priority": 1
+                },
+                {
+                  "label": "Посредник",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Количество комнат",
+              "name": "realty-commercial-offices-sell-room-count",
+              "priority": 2,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите количество комнат"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "\"Кол-во комнат\" - значение должно быть целым числом."
+                }
+              ]
+            },
+            {
+              "label": "Район",
+              "name": "realty-commercial-offices-sell-microregion",
+              "priority": 3,
+              "hint": "Например: Восток-5 или Московская/Советская",
+              "post_form": "textbox"
+            },
+            {
+              "label": "Цена",
+              "name": "realty-commercial-offices-sell-price",
+              "priority": 4,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 4,
+              "filter_default_toggle": true,
+              "measure": "сом",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите цену"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "\"Цена\"- значение должно быть целым числом."
+                }
+              ]
+            },
+            {
+              "label": "Тип офиса",
+              "name": "realty-commercial-offices-sell-type",
+              "priority": 5,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 5,
+              "options": [
+                {
+                  "label": "В бизнес-центре",
+                  "priority": 2
+                },
+                {
+                  "label": "В адм. здании",
+                  "priority": 3
+                },
+                {
+                  "label": "В жилом доме",
+                  "priority": 4
+                },
+                {
+                  "label": "В частном доме",
+                  "priority": 5
+                },
+                {
+                  "label": "иное",
+                  "priority": 6
+                }
+              ]
+            },
+            {
+              "label": "Год постройки (Сдачи в эксплуатацию)",
+              "name": "realty-commercial-offices-sell-year",
+              "priority": 6,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 6,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "\"Год\"- значение должно быть целым числом."
+                }
+              ]
+            },
+            {
+              "label": "Площадь",
+              "name": "realty-commercial-offices-sell-area",
+              "priority": 7,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 7,
+              "measure": "м²",
+              "hint": "Пример: 48 м²",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите площадь"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Площадь - значение должно быть числом"
+                }
+              ]
+            },
+            {
+              "label": "Этаж",
+              "name": "realty-commercial-offices-sell-floor",
+              "priority": 8,
+              "post_form": "textbox",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "Этаж - значение должно быть целым числом"
+                }
+              ]
+            },
+            {
+              "label": "Этажей в доме",
+              "name": "realty-commercial-offices-sell-floor_count",
+              "priority": 9,
+              "post_form": "textbox",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "Кол-во этажей - значение должно быть целым числом"
+                }
+              ]
+            },
+            {
+              "label": "Отопление",
+              "name": "realty-commercial-offices-sell-heating",
+              "priority": 10,
+              "post_form": "radio",
+              "options": [
+                {
+                  "label": "Автономное",
+                  "priority": 1
+                },
+                {
+                  "label": "Центральное",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Состояние",
+              "name": "realty-commercial-offices-sell-condition",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "options": [
+                {
+                  "label": "Требуется ремонт",
+                  "priority": 1
+                },
+                {
+                  "label": "Среднее",
+                  "priority": 2
+                },
+                {
+                  "label": "Хорошее",
+                  "priority": 3
+                },
+                {
+                  "label": "Евроремонт",
+                  "priority": 4
+                },
+                {
+                  "label": "Свободная планировка",
+                  "priority": 5
+                },
+                {
+                  "label": "Черновая отделка",
+                  "priority": 6
+                }
+              ]
+            },
+            {
+              "label": "Подключено",
+              "name": "realty-commercial-offices-sell-connected",
+              "priority": 12,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "phone",
+                  "post_form": "checkbox",
+                  "label": "Телефон",
+                  "priority": 1
+                },
+                {
+                  "name": "internet",
+                  "post_form": "checkbox",
+                  "label": "Интернет",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Безопасность",
+              "name": "realty-commercial-offices-sell-security",
+              "priority": 13,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "bars_on_the_windows",
+                  "post_form": "checkbox",
+                  "label": "Решетка на окнах",
+                  "priority": 1
+                },
+                {
+                  "name": "guard",
+                  "post_form": "checkbox",
+                  "label": "Охрана",
+                  "priority": 2
+                },
+                {
+                  "name": "signalling",
+                  "post_form": "checkbox",
+                  "label": "Сигнализация",
+                  "priority": 3
+                },
+                {
+                  "name": "surveillance",
+                  "post_form": "checkbox",
+                  "label": "Видеонаблюдение",
+                  "priority": 4
+                },
+                {
+                  "name": "fire-alarm",
+                  "post_form": "checkbox",
+                  "label": "Пожарная сигнализация",
+                  "priority": 5
+                },
+                {
+                  "name": "fire-extinguishing-system",
+                  "post_form": "checkbox",
+                  "label": "Cистема пожаротушения",
+                  "priority": 6
+                }
+              ]
+            },
+            {
+              "label": "Прочее",
+              "name": "realty-commercial-offices-sell-other_info",
+              "priority": 14,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "own_entry",
+                  "post_form": "checkbox",
+                  "label": "Отдельный вход",
+                  "priority": 1
+                },
+                {
+                  "name": "plastic_window",
+                  "post_form": "checkbox",
+                  "label": "Пластиковые окна",
+                  "priority": 2
+                },
+                {
+                  "name": "realty-commercial-offices-sell-furniture",
+                  "post_form": "checkbox",
+                  "label": "Офисная мебель",
+                  "priority": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "realty-commercial-offices-rent",
+          "label": "Сдам",
+          "url": "realty-commercial-offices-rent",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Право собственности",
+              "name": "realty-commercial-offices-rent-from",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип права собствености"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Собственник",
+                  "priority": 1
+                },
+                {
+                  "label": "Посредник",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Количество комнат",
+              "name": "realty-commercial-offices-rent-room-count",
+              "priority": 2,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите количество комнат"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "\"Кол-во комнат\" - значение должно быть целым числом."
+                }
+              ]
+            },
+            {
+              "label": "Район",
+              "name": "realty-commercial-offices-rent-microregion",
+              "priority": 3,
+              "hint": "Например: Восток-5 или Московская/Советская",
+              "post_form": "textbox"
+            },
+            {
+              "label": "Цена",
+              "name": "realty-commercial-offices-rent-price",
+              "priority": 4,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 4,
+              "filter_default_toggle": true,
+              "measure": "сом/месяц",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите цену"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "\"Цена\"- значение должно быть целым числом."
+                }
+              ]
+            },
+            {
+              "label": "Цена за кв.м.",
+              "name": "price-metr",
+              "priority": 5,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 5,
+              "filter_default_toggle": true,
+              "measure": "сом",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "\"Цена\"- значение должно быть целым числом."
+                }
+              ]
+            },
+            {
+              "label": "Тип офиса",
+              "name": "realty-commercial-offices-rent-type",
+              "priority": 6,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 6,
+              "options": [
+                {
+                  "label": "В бизнес-центре",
+                  "priority": 2
+                },
+                {
+                  "label": "В адм. здании",
+                  "priority": 3
+                },
+                {
+                  "label": "В жилом доме",
+                  "priority": 4
+                },
+                {
+                  "label": "В частном доме",
+                  "priority": 5
+                },
+                {
+                  "label": "иное",
+                  "priority": 6
+                }
+              ]
+            },
+            {
+              "label": "Площадь",
+              "name": "realty-commercial-offices-rent-area",
+              "priority": 7,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 7,
+              "measure": "м²",
+              "hint": "Пример: 48 м²",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите площадь"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Площадь - значение должно быть числом"
+                }
+              ]
+            },
+            {
+              "label": "Этаж",
+              "name": "realty-commercial-offices-rent-floor",
+              "priority": 8,
+              "post_form": "textbox",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "Этаж - значение должно быть целым числом"
+                }
+              ]
+            },
+            {
+              "label": "Состояние",
+              "name": "realty-commercial-offices-rent-condition",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "options": [
+                {
+                  "label": "Требуется ремонт",
+                  "priority": 1
+                },
+                {
+                  "label": "Среднее",
+                  "priority": 2
+                },
+                {
+                  "label": "Хорошее",
+                  "priority": 3
+                },
+                {
+                  "label": "Евроремонт",
+                  "priority": 4
+                },
+                {
+                  "label": "Свободная планировка",
+                  "priority": 5
+                },
+                {
+                  "label": "Черновая отделка",
+                  "priority": 6
+                }
+              ]
+            },
+            {
+              "label": "Подключено",
+              "name": "realty-commercial-offices-rent-connected",
+              "priority": 12,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "phone",
+                  "post_form": "checkbox",
+                  "label": "Телефон",
+                  "priority": 1
+                },
+                {
+                  "name": "internet",
+                  "post_form": "checkbox",
+                  "label": "Интернет",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Безопасность",
+              "name": "realty-commercial-offices-rent-security",
+              "priority": 13,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "bars_on_the_windows",
+                  "post_form": "checkbox",
+                  "label": "Решетка на окнах",
+                  "priority": 1
+                },
+                {
+                  "name": "guard",
+                  "post_form": "checkbox",
+                  "label": "Охрана",
+                  "priority": 2
+                },
+                {
+                  "name": "signalling",
+                  "post_form": "checkbox",
+                  "label": "Сигнализация",
+                  "priority": 3
+                },
+                {
+                  "name": "surveillance",
+                  "post_form": "checkbox",
+                  "label": "Видеонаблюдение",
+                  "priority": 4
+                },
+                {
+                  "name": "fire-alarm",
+                  "post_form": "checkbox",
+                  "label": "Пожарная сигнализация",
+                  "priority": 5
+                },
+                {
+                  "name": "fire-extinguishing-system",
+                  "post_form": "checkbox",
+                  "label": "Cистема пожаротушения",
+                  "priority": 6
+                }
+              ]
+            },
+            {
+              "label": "Прочее",
+              "name": "realty-commercial-offices-rent-other_info",
+              "priority": 14,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "realty-commercial-offices-rent-own_entry",
+                  "post_form": "checkbox",
+                  "label": "Отдельный вход",
+                  "priority": 1
+                },
+                {
+                  "name": "realty-commercial-offices-rent-plastic_window",
+                  "post_form": "checkbox",
+                  "label": "Пластиковые окна",
+                  "priority": 2
+                },
+                {
+                  "name": "realty-commercial-offices-rent-furniture",
+                  "post_form": "checkbox",
+                  "label": "Офисная мебель",
+                  "priority": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "realty-commercial-shops",
+      "label": "Магазины, бутики, контейнеры",
+      "url": "realty-shops",
+      "priority": 2,
+      "children": [
+        {
+          "name": "realty-commercial-shops-sell",
+          "label": "Продам",
+          "url": "realty-commercial-shops-sell",
+          "priority": 1
+        },
+        {
+          "name": "realty-commercial-shops-rent",
+          "label": "Сдам",
+          "url": "realty-commercial-shops-rent",
+          "priority": 2
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Право собственности",
+          "name": "realty-commercial-shops-from",
+          "priority": 1,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип права собствености"
+            }
+          ],
+          "options": [
+            {
+              "label": "Собственник",
+              "priority": 1
+            },
+            {
+              "label": "Посредник",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Тип",
+          "name": "realty-commercial-shops-type",
+          "priority": 2,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип торговой площади"
+            }
+          ],
+          "options": [
+            {
+              "label": "магазин",
+              "priority": 1
+            },
+            {
+              "label": "бутик",
+              "priority": 2
+            },
+            {
+              "label": "киоск",
+              "priority": 3
+            },
+            {
+              "label": "контейнер",
+              "priority": 4
+            },
+            {
+              "label": "павильон",
+              "priority": 5
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "realty-commercial-shops-price",
+          "priority": 3,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "filter_default_toggle": true,
+          "measure": "сом",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\"- значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Площадь",
+          "name": "realty-commercial-shops-area",
+          "priority": 4,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 4,
+          "measure": "м²",
+          "hint": "Пример: 48 м²",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите площадь"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Тип местоположения",
+          "name": "realty-commercial-emplacement",
+          "priority": 5,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 5,
+          "options": [
+            {
+              "label": "в торговом центре",
+              "priority": 1
+            },
+            {
+              "label": "в административном здании",
+              "priority": 2
+            },
+            {
+              "label": "на рынке",
+              "priority": 3
+            },
+            {
+              "label": "в жилом доме",
+              "priority": 4
+            },
+            {
+              "label": "отдельно стоящее здание",
+              "priority": 5
+            },
+            {
+              "label": "остановочный комплекс",
+              "priority": 6
+            },
+            {
+              "label": "другое",
+              "priority": 7
+            }
+          ]
+        },
+        {
+          "label": "Местоположение",
+          "name": "realty-commercial-shops-microregion",
+          "priority": 6,
+          "hint": "Район, адрес либо название торгового центра/рынка",
+          "post_form": "textbox"
+        },
+        {
+          "label": "Прочее",
+          "name": "realty-commercial-shops-other_info",
+          "priority": 7,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "with-commodity",
+              "post_form": "checkbox",
+              "label": "С товаром",
+              "priority": 1
+            },
+            {
+              "name": "with-commercial-equipment",
+              "post_form": "checkbox",
+              "label": "С торговым оборудованием",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "realty-commercial-cafes",
+      "label": "Помещения общественного питания",
+      "url": "realty-cafes",
+      "priority": 3,
+      "children": [
+        {
+          "name": "realty-commercial-cafe-sell",
+          "label": "Продам",
+          "url": "realty-commercial-cafe-sell",
+          "priority": 1
+        },
+        {
+          "name": "realty-commercial-cafe-rent",
+          "label": "Сдам",
+          "url": "realty-commercial-cafe-rent",
+          "priority": 2
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Право собственности",
+          "name": "realty-commercial-cafes-from",
+          "priority": 1,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип права собствености"
+            }
+          ],
+          "options": [
+            {
+              "label": "Собственник",
+              "priority": 1
+            },
+            {
+              "label": "Посредник",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Тип",
+          "name": "realty-commercial-cafes-type",
+          "priority": 2,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип"
+            }
+          ],
+          "options": [
+            {
+              "label": "Ресторан",
+              "priority": 1
+            },
+            {
+              "label": "Бар",
+              "priority": 2
+            },
+            {
+              "label": "Кафе",
+              "priority": 3
+            },
+            {
+              "label": "Чайхана",
+              "priority": 4
+            },
+            {
+              "label": "Кофейня",
+              "priority": 5
+            },
+            {
+              "label": "Столовая",
+              "priority": 6
+            },
+            {
+              "label": "Другое",
+              "priority": 7
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "realty-commercial-cafes-price",
+          "priority": 3,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "filter_default_toggle": true,
+          "measure": "сом",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\"- значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Площадь",
+          "name": "realty-commercial-cafes-area",
+          "priority": 4,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 4,
+          "measure": "м²",
+          "hint": "Пример: 48 м²",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите площадь"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Местоположение",
+          "name": "realty-commercial-cafes-microregion",
+          "priority": 6,
+          "hint": "Район / адрес",
+          "post_form": "textbox"
+        }
+      ]
+    },
+    {
+      "name": "realty-commercial-hotels",
+      "label": "Гостиницы, отели",
+      "url": "realty-commercial-hotels",
+      "priority": 4,
+      "children": [
+        {
+          "name": "realty-commercial-hotels-sell",
+          "label": "Продам",
+          "url": "realty-commercial-hotels-sell",
+          "priority": 1
+        },
+        {
+          "name": "realty-commercial-hotels-rent",
+          "label": "Сдам",
+          "url": "realty-commercial-hotels-rent",
+          "priority": 2
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Право собственности",
+          "name": "realty-commercial-hotels-from",
+          "priority": 1,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип права собствености"
+            }
+          ],
+          "options": [
+            {
+              "label": "Собственник",
+              "priority": 1
+            },
+            {
+              "label": "Посредник",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Тип",
+          "name": "realty-commercial-hotels-type",
+          "priority": 2,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип"
+            }
+          ],
+          "options": [
+            {
+              "label": "Гостиница",
+              "priority": 1
+            },
+            {
+              "label": "Отель",
+              "priority": 2
+            },
+            {
+              "label": "Гостевой дом",
+              "priority": 3
+            },
+            {
+              "label": "Хостел",
+              "priority": 4
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "realty-commercial-hotels-price",
+          "priority": 3,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "filter_default_toggle": true,
+          "measure": "сом",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\"- значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Кол-во гостиничных номеров",
+          "name": "realty-commercial-hotels-room-count",
+          "priority": 4,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 4,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "Кол-во номеров - значение должно быть целым числом"
+            }
+          ]
+        },
+        {
+          "label": "Площадь",
+          "name": "realty-commercial-hotels-area",
+          "priority": 5,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 5,
+          "measure": "м²",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите площадь"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Площадь участка",
+          "name": "realty-commercial-hotels-area-land",
+          "priority": 6,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 6,
+          "measure": "соток",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Местоположение",
+          "name": "realty-commercial-hotels-microregion",
+          "priority": 7,
+          "hint": "Район / адрес",
+          "post_form": "textbox"
+        },
+        {
+          "label": "Канализация",
+          "name": "realty-commercial-hotels-sewerage",
+          "priority": 8,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 8,
+          "options": [
+            {
+              "label": "Центральная",
+              "priority": 1
+            },
+            {
+              "label": "Есть возможность подведения",
+              "priority": 2
+            },
+            {
+              "label": "Септик",
+              "priority": 3
+            },
+            {
+              "label": "Нет",
+              "priority": 4
+            }
+          ]
+        },
+        {
+          "label": "Вода",
+          "name": "realty-commercial-hotels-water",
+          "priority": 9,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 9,
+          "options": [
+            {
+              "label": "Центральное водоснабжение",
+              "priority": 1
+            },
+            {
+              "label": "Есть возможность подведения",
+              "priority": 2
+            },
+            {
+              "label": "Скважина",
+              "priority": 3
+            },
+            {
+              "label": "Нет",
+              "priority": 4
+            }
+          ]
+        },
+        {
+          "label": "Электричество",
+          "name": "realty-commercial-hotels-electricity",
+          "priority": 10,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "options": [
+            {
+              "label": "Есть",
+              "priority": 1
+            },
+            {
+              "label": "Есть возможность подведения",
+              "priority": 2
+            },
+            {
+              "label": "Нет",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Отопление",
+          "name": "realty-commercial-hotels-heating",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "options": [
+            {
+              "label": "Центральное",
+              "priority": 1
+            },
+            {
+              "label": "3-х фазка",
+              "priority": 2
+            },
+            {
+              "label": "На газе",
+              "priority": 3
+            },
+            {
+              "label": "На твердом топливе",
+              "priority": 4
+            },
+            {
+              "label": "На жидком топливе",
+              "priority": 5
+            },
+            {
+              "label": "Смешанное",
+              "priority": 6
+            },
+            {
+              "label": "Без отопления",
+              "priority": 7
+            }
+          ]
+        },
+        {
+          "label": "Газ",
+          "name": "realty-commercial-hotels-gas",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "options": [
+            {
+              "label": "Магистральный",
+              "priority": 1
+            },
+            {
+              "label": "Автономный",
+              "priority": 2
+            },
+            {
+              "label": "Есть возможность подключения",
+              "priority": 3
+            },
+            {
+              "label": "Нет",
+              "priority": 4
+            }
+          ]
+        },
+        {
+          "label": "Подключено",
+          "name": "realty-commercial-hotels-connected",
+          "priority": 13,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "phone",
+              "post_form": "checkbox",
+              "label": "Телефон",
+              "priority": 1
+            },
+            {
+              "name": "internet",
+              "post_form": "checkbox",
+              "label": "Интернет",
+              "priority": 2
+            },
+            {
+              "name": "iptv",
+              "post_form": "checkbox",
+              "label": "Кабельное/IP ТВ",
+              "priority": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "realty-commercial-places",
+      "label": "Помещение свободного назначения",
+      "url": "realty-commercial-places",
+      "priority": 5,
+      "children": [
+        {
+          "name": "realty-commercial-places-sell",
+          "label": "Продам",
+          "url": "realty-commercial-places-sell",
+          "priority": 1
+        },
+        {
+          "name": "realty-commercial-places-rent",
+          "label": "Сдам",
+          "url": "realty-commercial-places-rent",
+          "priority": 2
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Право собственности",
+          "name": "realty-commercial-places-from",
+          "priority": 1,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип права собствености"
+            }
+          ],
+          "options": [
+            {
+              "label": "Собственник",
+              "priority": 1
+            },
+            {
+              "label": "Посредник",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "realty-commercial-places-price",
+          "priority": 3,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "filter_default_toggle": true,
+          "measure": "сом",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\"- значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Площадь",
+          "name": "realty-commercial-places-area",
+          "priority": 5,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 5,
+          "measure": "м²",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите площадь"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Местоположение",
+          "name": "realty-commercial-places-microregion",
+          "priority": 7,
+          "hint": "Район / адрес",
+          "post_form": "textbox"
+        },
+        {
+          "label": "Состояние",
+          "name": "realty-commercial-places-condition",
+          "priority": 30,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Требуется ремонт",
+              "priority": 1
+            },
+            {
+              "label": "Среднее",
+              "priority": 2
+            },
+            {
+              "label": "Хорошее",
+              "priority": 3
+            },
+            {
+              "label": "Евроремонт",
+              "priority": 4
+            },
+            {
+              "label": "Свободная планировка",
+              "priority": 5
+            },
+            {
+              "label": "Черновая отделка",
+              "priority": 6
+            },
+            {
+              "label": "Недостроено",
+              "priority": 7
+            }
+          ]
+        },
+        {
+          "label": "Подключено",
+          "name": "realty-commercial-places-connected",
+          "priority": 40,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "realty-commercial-places-connected-phone",
+              "post_form": "checkbox",
+              "label": "Телефон",
+              "priority": 1
+            },
+            {
+              "name": "realty-commercial-places-connected-internet",
+              "post_form": "checkbox",
+              "label": "Интернет",
+              "priority": 2
+            },
+            {
+              "name": "realty-commercial-places-connected-electricity",
+              "post_form": "checkbox",
+              "label": "Электричество",
+              "priority": 3
+            },
+            {
+              "name": "realty-commercial-places-connected-water",
+              "post_form": "checkbox",
+              "label": "Вода",
+              "priority": 4
+            },
+            {
+              "name": "realty-commercial-places-connected-gas",
+              "post_form": "checkbox",
+              "label": "Газ",
+              "priority": 5
+            },
+            {
+              "name": "realty-commercial-places-connected-sewerage",
+              "post_form": "checkbox",
+              "label": "Канализация",
+              "priority": 6
+            },
+            {
+              "name": "realty-commercial-places-connected-heating",
+              "post_form": "checkbox",
+              "label": "Отопление",
+              "priority": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "realty-commercial-buildings",
+      "label": "Здания",
+      "url": "realty-commercial-buildings",
+      "priority": 6,
+      "children": [
+        {
+          "name": "realty-commercial-building-sell",
+          "label": "Продам",
+          "url": "realty-commercial-building-sell",
+          "priority": 1
+        },
+        {
+          "name": "realty-commercial-building-rent",
+          "label": "Сдам",
+          "url": "realty-commercial-building-rent",
+          "priority": 2
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Право собственности",
+          "name": "realty-commercial-buildings-from",
+          "priority": 1,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип права собствености"
+            }
+          ],
+          "options": [
+            {
+              "label": "Собственник",
+              "priority": 1
+            },
+            {
+              "label": "Посредник",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "realty-commercial-buildings-price",
+          "priority": 3,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "filter_default_toggle": true,
+          "measure": "сом",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\"- значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Площадь",
+          "name": "realty-commercial-buildings-area",
+          "priority": 5,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 5,
+          "measure": "м²",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите площадь"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Площадь участка",
+          "name": "realty-commercial-buildings-area-land",
+          "priority": 6,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 6,
+          "measure": "соток",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Кол-во этажей",
+          "name": "realty-commercial-buildings-floor_count",
+          "priority": 7,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 7
+        },
+        {
+          "label": "Год постройки",
+          "name": "realty-commercial-buildings-year",
+          "priority": 8,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 8,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Год\"- значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Местоположение",
+          "name": "realty-commercial-buildings-microregion",
+          "priority": 9,
+          "hint": "Район / адрес",
+          "post_form": "textbox"
+        },
+        {
+          "label": "Тип строения",
+          "name": "realty-commercial-buildings-type",
+          "priority": 10,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип"
+            }
+          ],
+          "options": [
+            {
+              "label": "Кирпичный",
+              "priority": 1
+            },
+            {
+              "label": "Панельный",
+              "priority": 2
+            },
+            {
+              "label": "Монолитный",
+              "priority": 3
+            },
+            {
+              "label": "Деревянный",
+              "priority": 4
+            },
+            {
+              "label": "Пеноблочный",
+              "priority": 5
+            },
+            {
+              "label": "Сэндвич-панельный",
+              "priority": 6
+            },
+            {
+              "label": "Каркасно-щитовой",
+              "priority": 7
+            },
+            {
+              "label": "Иное",
+              "priority": 8
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "realty-commercial-buildings-condition",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "options": [
+            {
+              "label": "Требуется ремонт",
+              "priority": 1
+            },
+            {
+              "label": "Среднее",
+              "priority": 2
+            },
+            {
+              "label": "Хорошее",
+              "priority": 3
+            },
+            {
+              "label": "Евроремонт",
+              "priority": 4
+            },
+            {
+              "label": "Свободная планировка",
+              "priority": 5
+            },
+            {
+              "label": "Черновая отделка",
+              "priority": 6
+            },
+            {
+              "label": "Недостроено",
+              "priority": 7
+            }
+          ]
+        },
+        {
+          "label": "Подключено",
+          "name": "realty-commercial-buildings-connected",
+          "priority": 12,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "realty-commercial-buildings-connected-phone",
+              "post_form": "checkbox",
+              "label": "Телефон",
+              "priority": 1
+            },
+            {
+              "name": "realty-commercial-buildings-connected-internet",
+              "post_form": "checkbox",
+              "label": "Интернет",
+              "priority": 2
+            },
+            {
+              "name": "realty-commercial-buildings-connected-electricity",
+              "post_form": "checkbox",
+              "label": "Электричество",
+              "priority": 3
+            },
+            {
+              "name": "realty-commercial-buildings-connected-water",
+              "post_form": "checkbox",
+              "label": "Вода",
+              "priority": 4
+            },
+            {
+              "name": "realty-commercial-buildings-connected-gas",
+              "post_form": "checkbox",
+              "label": "Газ",
+              "priority": 5
+            },
+            {
+              "name": "realty-commercial-buildings-connected-sewerage",
+              "post_form": "checkbox",
+              "label": "Канализация",
+              "priority": 6
+            },
+            {
+              "name": "realty-commercial-buildings-connected-heating",
+              "post_form": "checkbox",
+              "label": "Отопление",
+              "priority": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "realty-commercial-factory",
+      "label": "Промбазы, склады, заводы",
+      "url": "realty-commercial-factory",
+      "priority": 7,
+      "children": [
+        {
+          "name": "realty-commercial-factory-sell",
+          "label": "Продам",
+          "url": "realty-commercial-factory-sell",
+          "priority": 1
+        },
+        {
+          "name": "realty-commercial-factory-rent",
+          "label": "Сдам",
+          "url": "realty-commercial-factory-rent",
+          "priority": 2
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Право собственности",
+          "name": "realty-commercial-factory-from",
+          "priority": 1,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип права собствености"
+            }
+          ],
+          "options": [
+            {
+              "label": "Собственник",
+              "priority": 1
+            },
+            {
+              "label": "Посредник",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Тип объекта",
+          "name": "realty-commercial-factory-type",
+          "priority": 2,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип"
+            }
+          ],
+          "options": [
+            {
+              "label": "Промбаза",
+              "priority": 1
+            },
+            {
+              "label": "Склад",
+              "priority": 2
+            },
+            {
+              "label": "Завод",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "realty-commercial-factory-price",
+          "priority": 3,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "filter_default_toggle": true,
+          "measure": "сом",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\"- значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Площадь",
+          "name": "realty-commercial-factory-area",
+          "priority": 5,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 5,
+          "measure": "м²",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите площадь"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Площадь участка",
+          "name": "realty-commercial-factory-area-land",
+          "priority": 6,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 6,
+          "measure": "соток",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Местоположение",
+          "name": "realty-commercial-factory-microregion",
+          "priority": 9,
+          "hint": "Район / адрес",
+          "post_form": "textbox"
+        },
+        {
+          "label": "Подключено",
+          "name": "realty-commercial-factory-connected",
+          "priority": 12,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "realty-commercial-factory-connected-phone",
+              "post_form": "checkbox",
+              "label": "Телефон",
+              "priority": 1
+            },
+            {
+              "name": "realty-commercial-factory-connected-internet",
+              "post_form": "checkbox",
+              "label": "Интернет",
+              "priority": 2
+            },
+            {
+              "name": "realty-commercial-factory-connected-electricity",
+              "post_form": "checkbox",
+              "label": "Электричество",
+              "priority": 3
+            },
+            {
+              "name": "realty-commercial-factory-connected-water",
+              "post_form": "checkbox",
+              "label": "Вода",
+              "priority": 4
+            },
+            {
+              "name": "realty-commercial-factory-connected-gas",
+              "post_form": "checkbox",
+              "label": "Газ",
+              "priority": 5
+            },
+            {
+              "name": "realty-commercial-factory-connected-sewerage",
+              "post_form": "checkbox",
+              "label": "Канализация",
+              "priority": 6
+            },
+            {
+              "name": "realty-commercial-factory-connected-heating",
+              "post_form": "checkbox",
+              "label": "Отопление",
+              "priority": 7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

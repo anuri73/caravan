@@ -1,0 +1,1055 @@
+{
+  "label": "Мелкая техника для кухни",
+  "url": "appliances-small-kitchen",
+  "priority": 2,
+  "children": [
+    {
+      "label": "Блендеры",
+      "url": "appliances-small-kitchen-blenders",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-blenders-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Погружной","priority": 1},
+            {"label": "Стационарный","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-blenders-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Bosch", "priority": 1},
+            {"label": "Braun", "priority": 1},
+            {"label": "ENDEVER", "priority": 1},
+            {"label": "KitchenAid", "priority": 1},
+            {"label": "Kitfort", "priority": 1},
+            {"label": "Moulinex", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "RAWMID", "priority": 1},
+            {"label": "REDMOND", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "smeg", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Блинницы и вафельницы",
+      "url": "appliances-small-kitchen-pancakes-waffle-irons",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-pancakes-waffle-irons-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Блинница","priority": 1},
+            {"label": "Вафельница","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-pancakes-waffle-irons-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Aresa", "priority": 1},
+            {"label": "Ariete", "priority": 1},
+            {"label": "Caso", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Gastrorag", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Irit", "priority": 1},
+            {"label": "Kitfort", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Smile", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Tristar", "priority": 1},
+            {"label": "VES", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Аксион", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Грили и шашлычницы",
+      "url": "appliances-small-kitchen-grills-shish-kebabs",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-grills-shish-kebabs-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Барбекю","priority": 1},
+            {"label": "Гриль","priority": 1},
+            {"label": "Гриль-ракетница","priority": 1},
+            {"label": "Шашлычница","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Йогуртницы и мороженицы",
+      "url": "appliances-small-kitchen-yogurt-ice-cream-makers",
+      "priority": 4
+    },
+    {
+      "label": "Кофеварки и кофемашины",
+      "url": "appliances-small-kitchen-coffee-makers-machines",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-coffee-makers-machines-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Гейзерная","priority": 1},
+            {"label": "Для кофе по-турецки","priority": 1},
+            {"label": "Капельная","priority": 1},
+            {"label": "Капсульная","priority": 1},
+            {"label": "Комбинированная","priority": 1},
+            {"label": "Эспрессо","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-coffee-makers-machines-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Aresa", "priority": 1},
+            {"label": "Artel", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Berghoff", "priority": 1},
+            {"label": "BORK", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Delonghi", "priority": 1},
+            {"label": "Delta", "priority": 1},
+            {"label": "ENDEVER", "priority": 1},
+            {"label": "Galaxy", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Grundig", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Irit", "priority": 1},
+            {"label": "Jura", "priority": 1},
+            {"label": "Kenwood", "priority": 1},
+            {"label": "Kitfort", "priority": 1},
+            {"label": "Krups", "priority": 1},
+            {"label": "Maestro", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Melitta", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Rondell", "priority": 1},
+            {"label": "Russell Hobbs", "priority": 1},
+            {"label": "Saeco", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Кофемолки",
+      "url": "appliances-small-kitchen-coffee-grinders",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-coffee-grinders-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Atlanta", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Caso", "priority": 1},
+            {"label": "Delonghi", "priority": 1},
+            {"label": "Delta", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Fakir", "priority": 1},
+            {"label": "Galaxy", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Irit", "priority": 1},
+            {"label": "Lumme", "priority": 1},
+            {"label": "Maxima", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Rommelsbacher", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Smile", "priority": 1},
+            {"label": "Supra", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Микма", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Кухонные весы",
+      "url": "appliances-small-kitchen-scales",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-scales-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Механические","priority": 1},
+            {"label": "Электронные","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-scales-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Aresa", "priority": 1},
+            {"label": "BBK", "priority": 1},
+            {"label": "Berghoff", "priority": 1},
+            {"label": "Beurer", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Energy", "priority": 1},
+            {"label": "Fakir", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "HOMESTAR", "priority": 1},
+            {"label": "Kenwood", "priority": 1},
+            {"label": "Lumme", "priority": 1},
+            {"label": "Marta", "priority": 1},
+            {"label": "Maxima", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Soehnle", "priority": 1},
+            {"label": "Supra", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "UNIT", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Zigmund Shtain", "priority": 1},
+            {"label": "Масса-К", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Кухонные комбайны",
+      "url": "appliances-small-kitchen-food-processors",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-food-processors-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Измельчитель","priority": 1},
+            {"label": "Комбайн","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-food-processors-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Berghoff", "priority": 1},
+            {"label": "Bomann", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Braun", "priority": 1},
+            {"label": "Chicco", "priority": 1},
+            {"label": "Clatronic", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Fakir", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Kenwood", "priority": 1},
+            {"label": "KitchenAid", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Moulinex", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Russell Hobbs", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sencor", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Zigmund Shtain", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ломтерезки",
+      "url": "appliances-small-kitchen-shredders",
+      "priority": 9,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-shredders-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Bomann", "priority": 1},
+            {"label": "Clatronic", "priority": 1},
+            {"label": "Gemlux", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Kitfort", "priority": 1},
+            {"label": "Oursson", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Ritter", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Микроволновые печи",
+      "url": "appliances-small-kitchen-microwaves",
+      "priority": 10,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-microwaves-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "ARISTON", "priority": 1},
+            {"label": "Artel", "priority": 1},
+            {"label": "Ava", "priority": 1},
+            {"label": "BBK", "priority": 1},
+            {"label": "Beko", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "CATA", "priority": 1},
+            {"label": "Daewoo", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "HORIZONT", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Kenwood", "priority": 1},
+            {"label": "LG", "priority": 1},
+            {"label": "Maunfeld", "priority": 1},
+            {"label": "Midea", "priority": 1},
+            {"label": "Mystery", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Sharp", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "SUPRA", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Whirlpool", "priority": 1},
+            {"label": "Zanussi", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Миксеры",
+      "url": "appliances-small-kitchen-mixers",
+      "priority": 11,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-mixers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Ручной","priority": 1},
+            {"label": "Стационарный","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-mixers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Artel", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Braun", "priority": 1},
+            {"label": "Centek", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Eurostek", "priority": 1},
+            {"label": "Fakir", "priority": 1},
+            {"label": "First", "priority": 1},
+            {"label": "Galaxy", "priority": 1},
+            {"label": "Gemlux", "priority": 1},
+            {"label": "Hitt", "priority": 1},
+            {"label": "Kambrook", "priority": 1},
+            {"label": "Kenwood", "priority": 1},
+            {"label": "KitchenAid", "priority": 1},
+            {"label": "Kitfort", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Moulinex", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Russell Hobbs", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sharp", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "smeg", "priority": 1},
+            {"label": "Starwind", "priority": 1},
+            {"label": "Supra", "priority": 1},
+            {"label": "Viconte", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Мультиварки",
+      "url": "appliances-small-kitchen-multivarkers",
+      "priority": 12,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-multivarkers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "медленноварка", "priority": 1},
+            {"label": "мультиварка", "priority": 1},
+            {"label": "рисоварка", "priority": 1},
+            {"label": "скороварка", "priority": 1},
+            {"label": "скороварка/мультиварка", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-multivarkers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Artel", "priority": 1},
+            {"label": "Blesk", "priority": 1},
+            {"label": "Bork", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Braun", "priority": 1},
+            {"label": "Chicco", "priority": 1},
+            {"label": "Cuckoo", "priority": 1},
+            {"label": "Delonghi", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Kenwood", "priority": 1},
+            {"label": "Kitchen Flower", "priority": 1},
+            {"label": "Lumme", "priority": 1},
+            {"label": "Marta", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Moulinex", "priority": 1},
+            {"label": "Mystery", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Russell Hobbs", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Steba", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Vitesse", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Мясорубки",
+      "url": "appliances-small-kitchen-meat-grinders",
+      "priority": 13,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-meat-grinders-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Ручная", "priority": 1},
+            {"label": "Электрическая", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-meat-grinders-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Artel", "priority": 1},
+            {"label": "Arzum", "priority": 1},
+            {"label": "Ava", "priority": 1},
+            {"label": "Beko", "priority": 1},
+            {"label": "Bork", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Caso", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Fakir", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Kambrook", "priority": 1},
+            {"label": "Kenwood", "priority": 1},
+            {"label": "King", "priority": 1},
+            {"label": "Kitfort", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Moulinex", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "UNIT", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Zigmund Shtain", "priority": 1},
+            {"label": "Аксион", "priority": 1},
+            {"label": "Ротор", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Пароварки",
+      "url": "appliances-small-kitchen-steamers",
+      "priority": 14,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-steamers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Beaba", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Braun", "priority": 1},
+            {"label": "Chicco", "priority": 1},
+            {"label": "ENDEVER", "priority": 1},
+            {"label": "First", "priority": 1},
+            {"label": "Happy Baby", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Philips AVENT", "priority": 1},
+            {"label": "smeg", "priority": 1},
+            {"label": "SUPRA", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Соковыжималки",
+      "url": "appliances-small-kitchen-juicers",
+      "priority": 15,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-juicers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Artel", "priority": 1},
+            {"label": "BBK", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Berghoff", "priority": 1},
+            {"label": "BORK", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Braun", "priority": 1},
+            {"label": "ENDEVER", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Hurom", "priority": 1},
+            {"label": "Kambrook", "priority": 1},
+            {"label": "Kenwood", "priority": 1},
+            {"label": "Kitfort", "priority": 1},
+            {"label": "Maxima", "priority": 1},
+            {"label": "Moulinex", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Russell Hobbs", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sencor", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "smeg", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Zigmund Shtain", "priority": 1},
+            {"label": "Аксион", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Сушилки для овощей и фруктов",
+      "url": "appliances-small-kitchen-vegetable-fruit-dryers",
+      "priority": 16,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-vegetable-fruit-dryers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "инфракрасная", "priority": 1},
+            {"label": "конвективная", "priority": 1},
+            {"label": "нагревательная", "priority": 1},
+            {"label": "сушилка-скатерть", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-vegetable-fruit-dryers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Berghoff", "priority": 1},
+            {"label": "ENDEVER", "priority": 1},
+            {"label": "Marta", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "RAWMID", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "SUPRA", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Zigmund Shtain", "priority": 1},
+            {"label": "Агропласт", "priority": 1},
+            {"label": "Аксион", "priority": 1},
+            {"label": "БелОМО", "priority": 1},
+            {"label": "ВолТера", "priority": 1},
+            {"label": "Дива", "priority": 1},
+            {"label": "Ротор", "priority": 1},
+            {"label": "Спектр-Прибор", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Тостеры, сэндвичницы",
+      "url": "appliances-small-kitchen-toasters-sandwich-makers",
+      "priority": 17,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-toasters-sandwich-makers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Тостер", "priority": 1},
+            {"label": "Сэндвичница", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-toasters-sandwich-makers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "BEKO", "priority": 1},
+            {"label": "Berghoff", "priority": 1},
+            {"label": "Bork", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Braun", "priority": 1},
+            {"label": "Delonghi", "priority": 1},
+            {"label": "Delta", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Energy", "priority": 1},
+            {"label": "Fakir", "priority": 1},
+            {"label": "Galaxy", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Home Element", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Irit", "priority": 1},
+            {"label": "Kambrook", "priority": 1},
+            {"label": "Kenwood", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Moulinex", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Russell Hobbs", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sencor", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Smile", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Zigmund Shtain", "priority": 1},
+            {"label": "Василиса", "priority": 1},
+            {"label": "МиГ", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Фильтры для воды",
+      "url": "appliances-small-kitchen-water-filters",
+      "priority": 18,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-water-filters-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "диспенсер встраиваемый", "priority": 1},
+            {"label": "диспенсер напольный", "priority": 1},
+            {"label": "диспенсер настольный", "priority": 1},
+            {"label": "кувшин", "priority": 1},
+            {"label": "насадка на кран", "priority": 1},
+            {"label": "переносной", "priority": 1},
+            {"label": "постфильтр", "priority": 1},
+            {"label": "предфильтр", "priority": 1},
+            {"label": "предфильтр с редуктором", "priority": 1},
+            {"label": "система под мойкой", "priority": 1},
+            {"label": "система рядом с мойкой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-water-filters-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AQUAPRO", "priority": 1},
+            {"label": "Atoll", "priority": 1},
+            {"label": "Brita", "priority": 1},
+            {"label": "BWT", "priority": 1},
+            {"label": "Clean Water", "priority": 1},
+            {"label": "Ecotronic", "priority": 1},
+            {"label": "Fibos", "priority": 1},
+            {"label": "Honeywell", "priority": 1},
+            {"label": "Keosan", "priority": 1},
+            {"label": "Аквафор", "priority": 1},
+            {"label": "Барьер", "priority": 1},
+            {"label": "Гейзер", "priority": 1},
+            {"label": "Новая Вода", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Фритюрницы",
+      "url": "appliances-small-kitchen-fryers",
+      "priority": 19,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-fryers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Bomann", "priority": 1},
+            {"label": "CENTEK", "priority": 1},
+            {"label": "Clatronic", "priority": 1},
+            {"label": "ENDEVER", "priority": 1},
+            {"label": "Gemlux", "priority": 1},
+            {"label": "GFgril", "priority": 1},
+            {"label": "Kitfort", "priority": 1},
+            {"label": "Princess", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Smile", "priority": 1},
+            {"label": "Steba", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Хлебопечки",
+      "url": "appliances-small-kitchen-breadmakers",
+      "priority": 20,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-breadmakers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Clatronic", "priority": 1},
+            {"label": "ENDEVER", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Kenwood", "priority": 1},
+            {"label": "LG", "priority": 1},
+            {"label": "Midea", "priority": 1},
+            {"label": "Moulinex", "priority": 1},
+            {"label": "Mystery", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "REDMOND", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "SUPRA", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Электрочайники и термопоты",
+      "url": "appliances-small-kitchen-electric-kettles-thermopots",
+      "priority": 21,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-small-kitchen-electric-kettles-thermopots-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "самовар", "priority": 1},
+            {"label": "термопот", "priority": 1},
+            {"label": "чайник", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-small-kitchen-electric-kettles-thermopots-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Aresa", "priority": 1},
+            {"label": "Artel", "priority": 1},
+            {"label": "Atlanta", "priority": 1},
+            {"label": "BBK", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Bork", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Braun", "priority": 1},
+            {"label": "Delonghi", "priority": 1},
+            {"label": "Delta", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Energy", "priority": 1},
+            {"label": "Fakir", "priority": 1},
+            {"label": "Galaxy", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Grundig", "priority": 1},
+            {"label": "Kenwood", "priority": 1},
+            {"label": "KitchenAid", "priority": 1},
+            {"label": "Kitfort", "priority": 1},
+            {"label": "Maxima", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Russell Hobbs", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sencor", "priority": 1},
+            {"label": "Sharp", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "smeg", "priority": 1},
+            {"label": "Sunny", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Viconte", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Xiaomi", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Zigmund Shtain", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Прочая мелкая техника для кухни",
+      "url": "appliances-small-kitchen-other",
+      "priority": 22
+    }
+  ]
+}

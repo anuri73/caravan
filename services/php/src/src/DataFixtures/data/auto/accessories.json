@@ -1,0 +1,665 @@
+{
+  "name": "auto-parts-aksessuary",
+  "label": "Аксессуары",
+  "url": "auto-parts-aksessuary",
+  "priority": 8,
+  "children": [
+    {
+      "name": "auto-parts-aksessuary-avtoprinadlezhnosti",
+      "label": "Автопринадлежности",
+      "url": "auto-parts-aksessuary-avtoprinadlezhnosti",
+      "children": [
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-alkotestery",
+          "label": "Алкотестеры",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-alkotestery"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-aptechki",
+          "label": "Аптечки",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-aptechki"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-vodosgony",
+          "label": "Водосгоны",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-vodosgony"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-vyodra",
+          "label": "Вёдра",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-vyodra"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-gubki",
+          "label": "Губки",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-gubki"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-domkraty",
+          "label": "Домкраты",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-domkraty"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-zaryadnoe_ustrojstvo",
+          "label": "Зарядное устройство",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-zaryadnoe_ustrojstvo"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-znaki_avarijnoj_ostanovki",
+          "label": "Знаки аварийной остановки",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-znaki_avarijnoj_ostanovki"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-izolenta_i_skotch",
+          "label": "Изолента и скотч",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-izolenta_i_skotch"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-kanistry",
+          "label": "Канистры",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-kanistry"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-kompressory",
+          "label": "Компрессоры",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-kompressory"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-lampa_perenosnaya",
+          "label": "Лампа переносная",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-lampa_perenosnaya"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-manometry",
+          "label": "Манометры",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-manometry"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-nabor_avtomobilista",
+          "label": "Набор автомобилиста",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-nabor_avtomobilista"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-ognetushiteli",
+          "label": "Огнетушители",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-ognetushiteli"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-provoda_dlya_prikurivaniya",
+          "label": "Провода для прикуривания",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-provoda_dlya_prikurivaniya"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-pusko-zaryadnoe_ustrojstvo",
+          "label": "Пуско-зарядное устройство",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-pusko-zaryadnoe_ustrojstvo"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-puskovoe_ustrojstvo",
+          "label": "Пусковое устройство",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-puskovoe_ustrojstvo"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-pylesosy_avtomobilxnye",
+          "label": "Пылесосы автомобильные",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-pylesosy_avtomobilxnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-radar-detektory",
+          "label": "Радар-детекторы",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-radar-detektory"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-salfetki_i_tkani",
+          "label": "Салфетки и ткани",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-salfetki_i_tkani"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-skrebki_i_shtyotki",
+          "label": "Скребки и щётки",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-skrebki_i_shtyotki"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-stoliki_avtomobilxnye",
+          "label": "Столики автомобильные",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-stoliki_avtomobilxnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-tablichki_pod_nomera",
+          "label": "Таблички под номера",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-tablichki_pod_nomera"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-termometry_avtomobilxnye",
+          "label": "Термометры автомобильные",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-termometry_avtomobilxnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-tkanx_vodopogloshtayushtaya",
+          "label": "Ткань водопоглощающая",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-tkanx_vodopogloshtayushtaya"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-trosy_buksirovochnye",
+          "label": "Тросы буксировочные",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-trosy_buksirovochnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-avtoprinadlezhnosti-cepi_protivoskolxzheniya",
+          "label": "Цепи противоскольжения",
+          "url": "auto-parts-aksessuary-avtoprinadlezhnosti-cepi_protivoskolxzheniya"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-aksessuary-aksessuary_naruzhnye",
+      "label": "Аксессуары наружные",
+      "url": "auto-parts-aksessuary-aksessuary_naruzhnye",
+      "children": [
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-antenny",
+          "label": "Антенны",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-antenny"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-zashtita_radiatora",
+          "label": "Защита радиатора",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-zashtita_radiatora"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-zashtita_far",
+          "label": "Защита фар",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-zashtita_far"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-kolpaki_zapasnogo_kolesa",
+          "label": "Колпаки запасного колеса",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-kolpaki_zapasnogo_kolesa"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-kolpachok_litogo_diska",
+          "label": "Колпачок литого диска",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-kolpachok_litogo_diska"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-maska-uteplitelx",
+          "label": "Маска-утеплитель",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-maska-uteplitelx"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-nakladka_poroga",
+          "label": "Накладка порога",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-nakladka_poroga"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-nakladki_naruzhnye",
+          "label": "Накладки наружные",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-nakladki_naruzhnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-nippelxnye_kolpachki",
+          "label": "Ниппельные колпачки",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-nippelxnye_kolpachki"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-parktronik",
+          "label": "Парктроник",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-parktronik"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-porogi_bokovye",
+          "label": "Пороги боковые",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-porogi_bokovye"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-ramka_nomernogo_znaka",
+          "label": "Рамка номерного знака",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-ramka_nomernogo_znaka"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-utepliteli_dvigatelya",
+          "label": "Утеплители двигателя",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-utepliteli_dvigatelya"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-chehly_dlya_koles",
+          "label": "Чехлы для колес",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-chehly_dlya_koles"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_naruzhnye-chehly_zashtitnye",
+          "label": "Чехлы защитные",
+          "url": "auto-parts-aksessuary-aksessuary_naruzhnye-chehly_zashtitnye"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-aksessuary-aksessuary_salonnye",
+      "label": "Аксессуары салонные",
+      "url": "auto-parts-aksessuary-aksessuary_salonnye",
+      "children": [
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-aromatizatory",
+          "label": "Ароматизаторы",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-aromatizatory"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-ventilyatory_avtomobilxnye",
+          "label": "Вентиляторы автомобильные",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-ventilyatory_avtomobilxnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-derzhateli_i_podstakanniki",
+          "label": "Держатели и подстаканники",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-derzhateli_i_podstakanniki"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-detskie_avtokresla_i_aksessuary",
+          "label": "Детские автокресла и аксессуары",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-detskie_avtokresla_i_aksessuary"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-ionizatory",
+          "label": "Ионизаторы",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-ionizatory"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-kovriki",
+          "label": "Коврики",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-kovriki"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-nakladki_salonnye",
+          "label": "Накладки салонные",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-nakladki_salonnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-oplyotki_na_rulx",
+          "label": "Оплётки на руль",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-oplyotki_na_rulx"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-organajzery",
+          "label": "Органайзеры",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-organajzery"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-podlokotniki",
+          "label": "Подлокотники",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-podlokotniki"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-podushki_avtomobilxnye",
+          "label": "Подушки автомобильные",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-podushki_avtomobilxnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-razvetviteli_prikurivatelya",
+          "label": "Разветвители прикуривателя",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-razvetviteli_prikurivatelya"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-rukoyatki_rychaga_kpp",
+          "label": "Рукоятки рычага кпп",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-rukoyatki_rychaga_kpp"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-solncezashtitnye_kozyrxki",
+          "label": "Солнцезащитные козырьки",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-solncezashtitnye_kozyrxki"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-tonirovka_syyomnaya",
+          "label": "Тонировка съёмная",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-tonirovka_syyomnaya"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-holodilxniki_avtomobilxnye",
+          "label": "Холодильники автомобильные",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-holodilxniki_avtomobilxnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-chajniki_avtomobilxnye",
+          "label": "Чайники автомобильные",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-chajniki_avtomobilxnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-chehly",
+          "label": "Чехлы",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-chehly"
+        },
+        {
+          "name": "auto-parts-aksessuary-aksessuary_salonnye-shtorki_avtomobilxnye",
+          "label": "Шторки автомобильные",
+          "url": "auto-parts-aksessuary-aksessuary_salonnye-shtorki_avtomobilxnye"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-aksessuary-atributika",
+      "label": "Атрибутика",
+      "url": "auto-parts-aksessuary-atributika",
+      "children": [
+        {
+          "name": "auto-parts-aksessuary-atributika-braslet",
+          "label": "Браслет",
+          "url": "auto-parts-aksessuary-atributika-braslet"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-breloki",
+          "label": "Брелоки",
+          "url": "auto-parts-aksessuary-atributika-breloki"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-zaponki",
+          "label": "Запонки",
+          "url": "auto-parts-aksessuary-atributika-zaponki"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-znachki",
+          "label": "Значки",
+          "url": "auto-parts-aksessuary-atributika-znachki"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-zonty",
+          "label": "Зонты",
+          "url": "auto-parts-aksessuary-atributika-zonty"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-igrushki",
+          "label": "Игрушки",
+          "url": "auto-parts-aksessuary-atributika-igrushki"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-knizhka_zapisnaya",
+          "label": "Книжка записная",
+          "url": "auto-parts-aksessuary-atributika-knizhka_zapisnaya"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-kruzhki",
+          "label": "Кружки",
+          "url": "auto-parts-aksessuary-atributika-kruzhki"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-logotipy",
+          "label": "Логотипы",
+          "url": "auto-parts-aksessuary-atributika-logotipy"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-modeli_avtomobilej",
+          "label": "Модели автомобилей",
+          "url": "auto-parts-aksessuary-atributika-modeli_avtomobilej"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-nomernye_znaki_suvenirnye",
+          "label": "Номерные знаки сувенирные",
+          "url": "auto-parts-aksessuary-atributika-nomernye_znaki_suvenirnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-odezhda",
+          "label": "Одежда",
+          "url": "auto-parts-aksessuary-atributika-odezhda"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-portmone",
+          "label": "Портмоне",
+          "url": "auto-parts-aksessuary-atributika-portmone"
+        },
+        {
+          "name": "auto-parts-aksessuary-atributika-chasy",
+          "label": "Часы",
+          "url": "auto-parts-aksessuary-atributika-chasy"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie",
+      "label": "Внедорожное оборудование",
+      "url": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie",
+      "children": [
+        {
+          "name": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-bagazhnik_ekspedicionnyj",
+          "label": "Багажник экспедиционный",
+          "url": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-bagazhnik_ekspedicionnyj"
+        },
+        {
+          "name": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-bamper_silovoj",
+          "label": "Бампер силовой",
+          "url": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-bamper_silovoj"
+        },
+        {
+          "name": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-duga_bezopasnosti",
+          "label": "Дуга безопасности",
+          "url": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-duga_bezopasnosti"
+        },
+        {
+          "name": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-kenguriny",
+          "label": "Кенгурины",
+          "url": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-kenguriny"
+        },
+        {
+          "name": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-lebyodki",
+          "label": "Лебёдки",
+          "url": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-lebyodki"
+        },
+        {
+          "name": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-lestnica_na_zadnyuyu_dverx",
+          "label": "Лестница на заднюю дверь",
+          "url": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-lestnica_na_zadnyuyu_dverx"
+        },
+        {
+          "name": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-porogi_silovye",
+          "label": "Пороги силовые",
+          "url": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-porogi_silovye"
+        },
+        {
+          "name": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-send-traki",
+          "label": "Сэнд-траки",
+          "url": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-send-traki"
+        },
+        {
+          "name": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-shnorkeli",
+          "label": "Шноркели",
+          "url": "auto-parts-aksessuary-vnedorozhnoe_oborudovanie-shnorkeli"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-aksessuary-ionizator",
+      "label": "Ионизатор",
+      "url": "auto-parts-aksessuary-ionizator",
+      "children": []
+    },
+    {
+      "name": "auto-parts-aksessuary-literatura",
+      "label": "Литература",
+      "url": "auto-parts-aksessuary-literatura",
+      "children": [
+        {
+          "name": "auto-parts-aksessuary-literatura-instrukciya_po_ekspluatacii",
+          "label": "Инструкция по эксплуатации",
+          "url": "auto-parts-aksessuary-literatura-instrukciya_po_ekspluatacii"
+        },
+        {
+          "name": "auto-parts-aksessuary-literatura-rukovodstvo_po_remontu",
+          "label": "Руководство по ремонту",
+          "url": "auto-parts-aksessuary-literatura-rukovodstvo_po_remontu"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-aksessuary-nabor_dlya_piknika",
+      "label": "Набор для пикника",
+      "url": "auto-parts-aksessuary-nabor_dlya_piknika",
+      "children": []
+    },
+    {
+      "name": "auto-parts-aksessuary-perevozka_veshtej",
+      "label": "Перевозка вещей",
+      "url": "auto-parts-aksessuary-perevozka_veshtej",
+      "children": [
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-bagazhnik_na_kryshu",
+          "label": "Багажник на крышу",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-bagazhnik_na_kryshu"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-bagazhnye_boksy",
+          "label": "Багажные боксы",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-bagazhnye_boksy"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-bagazhnye_sistemy",
+          "label": "Багажные системы",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-bagazhnye_sistemy"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-kreplenie_bagazhnika",
+          "label": "Крепление багажника",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-kreplenie_bagazhnika"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-krepleniya_dlya_velosipedov",
+          "label": "Крепления для велосипедов",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-krepleniya_dlya_velosipedov"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-krepleniya_dlya_lyzh_i_snoubordov",
+          "label": "Крепления для лыж и сноубордов",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-krepleniya_dlya_lyzh_i_snoubordov"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-kryshka_rejlinga",
+          "label": "Крышка рейлинга",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-kryshka_rejlinga"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-polki_bagazhnye",
+          "label": "Полки багажные",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-polki_bagazhnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-prinadlezhnosti_dlya_krepleniya",
+          "label": "Принадлежности для крепления",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-prinadlezhnosti_dlya_krepleniya"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-rejlingi",
+          "label": "Рейлинги",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-rejlingi"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-remkomplekt_farkopa",
+          "label": "Ремкомплект фаркопа",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-remkomplekt_farkopa"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-remni_styazhnye",
+          "label": "Ремни стяжные",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-remni_styazhnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-rozetka_farkopa",
+          "label": "Розетка фаркопа",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-rozetka_farkopa"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-setki_bagazhnye",
+          "label": "Сетки багажные",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-setki_bagazhnye"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-farkop",
+          "label": "Фаркоп",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-farkop"
+        },
+        {
+          "name": "auto-parts-aksessuary-perevozka_veshtej-elektrika_farkopa",
+          "label": "Электрика фаркопа",
+          "url": "auto-parts-aksessuary-perevozka_veshtej-elektrika_farkopa"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-aksessuary-termosumka",
+      "label": "Термосумка",
+      "url": "auto-parts-aksessuary-termosumka",
+      "children": []
+    },
+    {
+      "name": "auto-parts-aksessuary-holodilxnik",
+      "label": "Холодильник",
+      "url": "auto-parts-aksessuary-holodilxnik",
+      "children": []
+    },
+    {
+      "name": "auto-parts-aksessuary-elektronika",
+      "label": "Электроника",
+      "url": "auto-parts-aksessuary-elektronika",
+      "children": [
+        {
+          "name": "auto-parts-aksessuary-elektronika-audio",
+          "label": "Аудио",
+          "url": "auto-parts-aksessuary-elektronika-audio"
+        },
+        {
+          "name": "auto-parts-aksessuary-elektronika-video",
+          "label": "Видео",
+          "url": "auto-parts-aksessuary-elektronika-video"
+        },
+        {
+          "name": "auto-parts-aksessuary-elektronika-videoregistratory",
+          "label": "Видеорегистраторы",
+          "url": "auto-parts-aksessuary-elektronika-videoregistratory"
+        },
+        {
+          "name": "auto-parts-aksessuary-elektronika-vneshnij_akkumulyator",
+          "label": "Внешний аккумулятор",
+          "url": "auto-parts-aksessuary-elektronika-vneshnij_akkumulyator"
+        },
+        {
+          "name": "auto-parts-aksessuary-elektronika-informacionnyj_displej",
+          "label": "Информационный дисплей",
+          "url": "auto-parts-aksessuary-elektronika-informacionnyj_displej"
+        },
+        {
+          "name": "auto-parts-aksessuary-elektronika-navigatory",
+          "label": "Навигаторы",
+          "url": "auto-parts-aksessuary-elektronika-navigatory"
+        },
+        {
+          "name": "auto-parts-aksessuary-elektronika-protivougonnaya_sistema",
+          "label": "Противоугонная система",
+          "url": "auto-parts-aksessuary-elektronika-protivougonnaya_sistema"
+        },
+        {
+          "name": "auto-parts-aksessuary-elektronika-radar-detektor",
+          "label": "Радар-детектор",
+          "url": "auto-parts-aksessuary-elektronika-radar-detektor"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "label": "Цена",
+      "name": "auto-parts-aksessuary-price",
+      "priority": 7,
+      "post_form": "textbox",
+      "measure": "сом",
+      "search_form": "range",
+      "search_priority": 7,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите цену"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\" - значение должно быть целым числом."
+        }
+      ]
+    }
+  ]
+}

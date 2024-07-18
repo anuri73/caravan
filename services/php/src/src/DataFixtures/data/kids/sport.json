@@ -1,0 +1,104 @@
+{
+  "label": "Детский спорт",
+  "url": "kids-sport",
+  "priority": 8,
+  "parameters": [
+    {
+      "label": "Тип спорта",
+      "name": "kids-sport-type",
+      "priority": 11,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип спорта"
+        }
+      ],
+      "post_form": "dropdown",
+      "search_form": "checkbox",
+      "search_priority": 11,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Водный спорт",
+          "priority": 1
+        },
+        {
+          "label": "Гимнастика",
+          "priority": 2
+        },
+        {
+          "label": "Игры с мячом",
+          "priority": 3
+        },
+        {
+          "label": "Единоборства",
+          "priority": 4
+        },
+        {
+          "label": "Легкая атлетика",
+          "priority": 5
+        },
+        {
+          "label": "Лыжный спорт",
+          "priority": 6
+        },
+        {
+          "label": "Ролики",
+          "priority": 7
+        },
+        {
+          "label": "Сноубординг",
+          "priority": 8
+        },
+        {
+          "label": "Скейтборды",
+          "priority": 9
+        },
+        {
+          "label": "Теннис, бадминтон",
+          "priority": 10
+        },
+        {
+          "label": "Тренажеры",
+          "priority": 11
+        },
+        {
+          "label": "Хоккей",
+          "priority": 12
+        },
+        {
+          "label": "Фигурное катание",
+          "priority": 13
+        },
+        {
+          "label": "Прочие детские спортивные товары",
+          "priority": 14
+        }
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "kids-sport-condition",
+      "priority": 30,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите состояние товара"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 30,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}

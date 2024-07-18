@@ -1,0 +1,293 @@
+{
+  "label": "Для бизнеса",
+  "url": "business",
+  "priority": 10,
+  "parameters": [
+    {
+      "label": "Заголовок объявления",
+      "name": "business-title",
+      "priority": 1,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Введите заголовок объявления"
+        }
+      ],
+      "post_form": "textbox"
+    },
+    {
+      "label": "Цена",
+      "name": "business-price",
+      "priority": 20,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "Цена - значение должно быть числом"
+        }
+      ],
+      "post_form": "textbox",
+      "measure": "сом",
+      "search_form": "range",
+      "filter_default_toggle": true,
+      "search_priority": 20
+    }
+  ],
+  "children": [
+    {
+      "url": "business-raw-materials",
+      "label": "Сырье и материалы",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "business-raw-materials-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Вторичное сырье","priority": 1},
+            {"label": "Для легкой промышленности","priority": 1},
+            {"label": "Для пищевой промышленности","priority": 1},
+            {"label": "Для сельского хозяйства","priority": 1},
+            {"label": "Полезные ископаемые","priority": 1},
+            {"label": "Резина, стекло, пластик","priority": 1},
+            {"label": "Химическое сырье","priority": 1},
+            {"label": "Другое сырье и материалы","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "business-equipment",
+      "label": "Оборудование и техника",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "business-equipment-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Для магазина","priority": 1},
+            {"label": "Для офиса","priority": 1},
+            {"label": "Для ресторана, кафе","priority": 1},
+            {"label": "Для салона красоты","priority": 1},
+            {"label": "Для водоснабжения, теплоснабжения","priority": 1},
+            {"label": "Для легкой промышленности","priority": 1},
+            {"label": "Для пищевой промышленности","priority": 1},
+            {"label": "Для сельского хозяйства","priority": 1},
+            {"label": "Для химической промышленности","priority": 1},
+            {"label": "Медицинское оборудование","priority": 1},
+            {"label": "Полиграфическое оборудование","priority": 1},
+            {"label": "Сварочное оборудование","priority": 1},
+            {"label": "Станки","priority": 1},
+            {"label": "Строительное оборудование","priority": 1},
+            {"label": "Упаковочное оборудование","priority": 1},
+            {"label": "Холодильное оборудование","priority": 1},
+            {"label": "Другое оборудование и техника","priority": 1}
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "business-equipment-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "business-food",
+      "label": "Продукты питания",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "business-food-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Бакалея","priority": 1},
+            {"label": "Безалкогольные напитки","priority": 1},
+            {"label": "Консервы, полуфабрикаты","priority": 1},
+            {"label": "Молочные продукты","priority": 1},
+            {"label": "Масложировая продукция","priority": 1},
+            {"label": "Овощи, фрукты","priority": 1},
+            {"label": "Птица, яйца","priority": 1},
+            {"label": "Хлебобулочные, кондитерские изделия","priority": 1},
+            {"label": "Другие продукты питания","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "business-industrial",
+      "label": "Промышленные товары",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "business-industrial-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Безопасность и защита","priority": 1},
+            {"label": "Изделия из металла","priority": 1},
+            {"label": "Изделия из пластика, резины","priority": 1},
+            {"label": "Контрольно-измерительные приборы","priority": 1},
+            {"label": "Промышленная химия","priority": 1},
+            {"label": "Тара и упаковка","priority": 1},
+            {"label": "Другие промышленные товары","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "business-sell",
+      "label": "Продажа бизнеса",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "business-sell-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Готовые фирмы","priority": 1},
+            {"label": "Автомойки, СТО","priority": 1},
+            {"label": "Магазины, салоны","priority": 1},
+            {"label": "Сфера услуг","priority": 1},
+            {"label": "Общественное питание","priority": 1},
+            {"label": "Развлечения","priority": 1},
+            {"label": "Торговля","priority": 1},
+            {"label": "Производство","priority": 1},
+            {"label": "Строительство","priority": 1},
+            {"label": "Сайты, IT-бизнес","priority": 1},
+            {"label": "Сельское хозяйство","priority": 1},
+            {"label": "Другие виды бизнеса","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "business-stationery",
+      "label": "Канцтовары",
+      "priority": 6
+    },
+    {
+      "url": "business-office-furniture",
+      "label": "Мебель для офиса",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "business-office-furniture-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "business-partnership-investments",
+      "label": "Партнерство, инвестиции",
+      "priority": 8
+    },
+    {
+      "url": "business-advertising-marketing",
+      "label": "Реклама и маркетинг",
+      "priority": 9
+    },
+    {
+      "url": "business-network-marketing",
+      "label": "Сетевой маркетинг",
+      "priority": 10
+    },
+    {
+      "url": "business-other",
+      "label": "Прочее для бизнеса",
+      "priority": 11
+    }
+  ]
+}
+

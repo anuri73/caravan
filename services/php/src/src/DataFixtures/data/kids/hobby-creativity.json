@@ -1,0 +1,113 @@
+{
+  "label": "Хобби и творчество",
+  "url": "kids-hobby-creativity",
+  "priority": 11,
+  "parameters": [
+    {
+      "label": "Тип",
+      "name": "kids-hobby-creativity-type",
+      "priority": 11,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип товара"
+        }
+      ],
+      "post_form": "dropdown",
+      "search_form": "checkbox",
+      "search_priority": 11,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Рисование и гравюры",
+          "priority": 1
+        },
+        {
+          "label": "Лепка",
+          "priority": 2
+        },
+        {
+          "label": "Кинетический песок",
+          "priority": 3
+        },
+        {
+          "label": "Аппликация и декорирование",
+          "priority": 4
+        },
+        {
+          "label": "Цветная бумага и картон",
+          "priority": 5
+        },
+        {
+          "label": "Сборные модели",
+          "priority": 6
+        },
+        {
+          "label": "Вязание",
+          "priority": 7
+        },
+        {
+          "label": "Шитье и вышивание",
+          "priority": 8
+        },
+        {
+          "label": "Бисер и бисероплетение",
+          "priority": 9
+        },
+        {
+          "label": "Валяние",
+          "priority": 10
+        },
+        {
+          "label": "Декупаж",
+          "priority": 11
+        },
+        {
+          "label": "Квиллинг",
+          "priority": 12
+        },
+        {
+          "label": "Скрапбукинг",
+          "priority": 13
+        },
+        {
+          "label": "Мыловарение",
+          "priority": 14
+        },
+        {
+          "label": "Книги по рукоделию",
+          "priority": 15
+        },
+        {
+          "label": "Прочие товары для хобби и творчества",
+          "priority": 16
+        }
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "kids-hobby-creativity-condition",
+      "priority": 30,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите состояние товара"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 30,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}

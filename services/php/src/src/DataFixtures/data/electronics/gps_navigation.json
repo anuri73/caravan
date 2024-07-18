@@ -1,0 +1,181 @@
+{
+  "label": "GPS-навигация",
+  "url": "electronics-gps-navigation",
+  "priority": 11,
+  "children": [
+    {
+      "label": "GPS-навигаторы",
+      "url": "electronics-gps-navigation-navigators",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-gps-navigation-navigators-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "авиационный","priority": 1},
+            {"label": "автомобильный","priority": 1},
+            {"label": "велосипедный","priority": 1},
+            {"label": "морской","priority": 1},
+            {"label": "мотоциклетный","priority": 1},
+            {"label": "наручный","priority": 1},
+            {"label": "универсальный","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Программное обеспечение",
+          "name": "software",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Garmin","priority": 1},
+            {"label": "TomTom","priority": 1},
+            {"label": "Навител","priority": 1},
+            {"label": "ПРОГОРОД","priority": 1},
+            {"label": "СитиГИД","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-gps-navigation-navigators-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Artway","priority": 1},
+            {"label": "AVEL","priority": 1},
+            {"label": "AvtoVision","priority": 1},
+            {"label": "Digma","priority": 1},
+            {"label": "Dunobil","priority": 1},
+            {"label": "Eplutus","priority": 1},
+            {"label": "Garmin","priority": 1},
+            {"label": "LEXAND","priority": 1},
+            {"label": "Navitel","priority": 1},
+            {"label": "Neoline","priority": 1},
+            {"label": "Prestigio","priority": 1},
+            {"label": "Prology","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "GPS-трекеры",
+      "url": "electronics-gps-navigation-trackers",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-gps-navigation-trackers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "автомобильные","priority": 1},
+            {"label": "персональные","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Карты и программы для GPS",
+      "url": "electronics-gps-navigation-maps-software",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-gps-navigation-maps-software-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "C-MAP by JEPPESEN","priority": 1},
+            {"label": "CityGuide","priority": 1},
+            {"label": "Garmin","priority": 1},
+            {"label": "Navionics","priority": 1},
+            {"label": "Navitel","priority": 1},
+            {"label": "ndrive","priority": 1},
+            {"label": "ГдеМои","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Аксессуары для GPS-навигаторов",
+      "url": "electronics-gps-navigation-accessories",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-gps-navigation-accessories-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "автомобильный адаптер","priority": 1},
+            {"label": "аккумулятор","priority": 1},
+            {"label": "антенна","priority": 1},
+            {"label": "датчик","priority": 1},
+            {"label": "док-станция/кредл","priority": 1},
+            {"label": "комплект для монтажа","priority": 1},
+            {"label": "крепление","priority": 1},
+            {"label": "сетевое зарядное устройство","priority": 1},
+            {"label": "чехол","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Тип GPS-навигатора",
+          "name": "electronics-gps-navigation-accessories-purpose",
+          "priority": 22,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {"label": "автомобильный","priority": 1},
+            {"label": "велосипедный","priority": 1},
+            {"label": "морской","priority": 1},
+            {"label": "мотоциклетный","priority": 1},
+            {"label": "наручный","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    }
+  ]
+}

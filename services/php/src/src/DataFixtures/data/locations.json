@@ -1,0 +1,164 @@
+[
+  {
+    "label": "Кыргызстан",
+    "priority": 1,
+    "url": "kyrgyzstan",
+    "population": 6120459,
+    "kind_name": "country",
+    "level": 1,
+    "lat":0,
+    "lon":0,
+    "children": [
+      {
+        "label": "Бишкек",
+        "priority": 1,
+        "url": "bishkek",
+        "population": 907000,
+        "level": 2,
+        "kind_name": "city",
+        "lat":42.8742589,
+        "lon":74.6131682
+      },
+      {
+        "label": "Ош",
+        "priority": 1,
+        "url": "osh",
+        "population": 232700,
+        "level": 2,
+        "kind_name": "city",
+        "lat":40.5169,
+        "lon":72.8056
+      },
+      {
+        "label": "Жалал-Абад",
+        "priority": 2,
+        "url": "jalal-abad",
+        "population": 90000,
+        "level": 2,
+        "kind_name": "city",
+        "lat":40.936590,
+        "lon":72.983248
+      },
+      {
+        "label": "Каракол",
+        "priority": 2,
+        "url": "karakol",
+        "population": 70000,
+        "level": 2,
+        "kind_name": "city",
+        "lat":42.4892,
+        "lon":78.3976
+      },
+      {
+        "label": "Нарын",
+        "priority": 2,
+        "url": "naryn",
+        "population": 40000,
+        "level": 2,
+        "kind_name": "city",
+        "lat":41.4282,
+        "lon":75.9938
+      },
+      {
+        "label": "Талас",
+        "priority": 2,
+        "url": "talas",
+        "population": 40000,
+        "level": 2,
+        "kind_name": "city",
+        "lat":42.5204,
+        "lon":72.2505
+      },
+      {
+        "label": "Баткен",
+        "priority": 2,
+        "url": "batken",
+        "population": 30000,
+        "level": 2,
+        "kind_name": "city",
+        "lat":40.0590,
+        "lon":70.8211
+      },
+      {
+        "label": "Кызыл-Кыя",
+        "priority": 2,
+        "url": "kyzyl-kiya",
+        "population": 50000,
+        "level": 2,
+        "kind_name": "city",
+        "lat":40.2544805,
+        "lon":72.1298072
+      },
+      {
+        "label": "Ошская область",
+        "priority": 3,
+        "url": "oshskaja_oblast",
+        "population": 1228400,
+        "level": 2,
+        "kind_name": "oblast",
+        "lat":0,
+        "lon":0
+      },
+      {
+        "label": "Джалал-Абадская область",
+        "priority": 4,
+        "url": "dzhalal-abadskaja_oblast",
+        "population": 1146500,
+        "level": 2,
+        "kind_name": "oblast",
+        "lat":0,
+        "lon":0
+      },
+      {
+        "label": "Чуйская область",
+        "priority": 5,
+        "url": "chujskaja_oblast",
+        "population": 870300,
+        "level": 2,
+        "kind_name": "oblast",
+        "lat":0,
+        "lon":0
+      },
+      {
+        "label": "Баткенская область",
+        "priority": 6,
+        "url": "batkenskaja_oblast",
+        "population": 480700,
+        "level": 2,
+        "kind_name": "oblast",
+        "lat":0,
+        "lon":0
+      },
+      {
+        "label": "Иссык-Кульская область",
+        "priority": 7,
+        "url": "issyk-kulskaja_oblast",
+        "population": 463900,
+        "level": 2,
+        "kind_name": "oblast",
+        "lat":0,
+        "lon":0
+      },
+      {
+        "label": "Нарынская область",
+        "priority": 8,
+        "url": "narynskaja_oblast",
+        "population": 274500,
+        "level": 2,
+        "kind_name": "oblast",
+        "lat":0,
+        "lon":0
+      },
+      {
+        "label": "Таласская область",
+        "priority": 9,
+        "url": "talasskaja_oblast",
+        "population": 247200,
+        "level": 2,
+        "kind_name": "oblast",
+        "lat":0,
+        "lon":0
+      }
+    ]
+  }
+]

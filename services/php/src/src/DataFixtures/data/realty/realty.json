@@ -1,0 +1,51 @@
+{
+  "name": "realty",
+  "label": "Недвижимость",
+  "priority": 2,
+  "url": "realty",
+  "children": [
+    {
+      "file": "/src/DataFixtures/data/realty/apartments.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/realty/houses.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/realty/rooms.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/realty/land.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/realty/commercial.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/realty/cottages.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/realty/parking.json"
+    }
+  ],
+  "parameters": [
+    {
+      "label": "На карте",
+      "name": "location",
+      "priority": 999,
+      "post_form": "map",
+      "parameters": [
+        {
+          "label": "Широта",
+          "name": "latitude",
+          "post_form": "hidden",
+          "priority": 1
+        },
+        {
+          "label": "Долгота",
+          "name": "longitude",
+          "post_form": "hidden",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}

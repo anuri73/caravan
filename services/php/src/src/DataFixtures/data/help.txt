@@ -1,0 +1,42 @@
+Типы параметров для формы (kind): textbox, dropdown, radio
+
+Типы параметров для фильтра (filter_kind): checkbox, range
+
+Если параметр должен быть в фильтре: "search_form": "checkbox"
+
+Если параметр в фильтре должен быть развернут: "filter_default_toggle": true,
+
+Пример настроек валидации:
+
+"regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\" - значение должно быть целым числом."
+            }
+          ]
+
+{
+    Категория-Животные
+    Параметры
+        Заголовок-П priority-4
+        Наличие-П priority-1 filter_priority - 2
+    Собака-К
+        Порода-П priority-3 filter_priority - 1
+        Пол-П priority-2 filter_priority - 3
+
+}
+
+Наличие
+
+Пол
+Порода
+Заголовок
+
+Порода
+Наличие
+Пол

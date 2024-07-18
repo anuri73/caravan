@@ -1,0 +1,2374 @@
+{
+  "label": "Спецтехника",
+  "name": "auto-special",
+  "url": "auto-special",
+  "priority": 3,
+  "children": [
+    {
+      "label": "Автокраны",
+      "name": "auto-special-truck-cranes",
+      "url": "auto-special-truck-cranes",
+      "priority": 1,
+      "parameters": [
+        {
+          "name": "auto-special-truck-cranes-make",
+          "label": "Марка",
+          "priority": 1,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 3,
+          "options": [
+            {"label": "Altec", "priority": 1},
+            {"label": "Bison", "priority": 1},
+            {"label": "CKD", "priority": 1},
+            {"label": "Demag", "priority": 1},
+            {"label": "Faun", "priority": 1},
+            {"label": "Ford", "priority": 1},
+            {"label": "Grove", "priority": 1},
+            {"label": "Hidrokon", "priority": 1},
+            {"label": "Hydros", "priority": 1},
+            {"label": "IVECO", "priority": 1},
+            {"label": "KATO", "priority": 1},
+            {"label": "KOBELCO", "priority": 1},
+            {"label": "Komatsu", "priority": 1},
+            {"label": "Krupp", "priority": 1},
+            {"label": "Liebherr", "priority": 1},
+            {"label": "Locatelli", "priority": 1},
+            {"label": "Lokomo", "priority": 1},
+            {"label": "Marchetti", "priority": 1},
+            {"label": "Mazda", "priority": 1},
+            {"label": "Metalna", "priority": 1},
+            {"label": "Mitsubishi Fuso", "priority": 1},
+            {"label": "Nissan", "priority": 1},
+            {"label": "Palfinger", "priority": 1},
+            {"label": "Palfinger Sany", "priority": 1},
+            {"label": "Sany", "priority": 1},
+            {"label": "Sennebogen", "priority": 1},
+            {"label": "Tadano", "priority": 1},
+            {"label": "Tatra", "priority": 1},
+            {"label": "TCM", "priority": 1},
+            {"label": "Terex", "priority": 1},
+            {"label": "Terex-Demag", "priority": 1},
+            {"label": "XCMG", "priority": 1},
+            {"label": "Zoomlion", "priority": 1},
+            {"label": "ГАЗ", "priority": 1},
+            {"label": "ГАЗАКС", "priority": 1},
+            {"label": "Галичанин", "priority": 1},
+            {"label": "ДАК", "priority": 1},
+            {"label": "Днепр", "priority": 1},
+            {"label": "ЗИЛ", "priority": 1},
+            {"label": "Ивановец", "priority": 1},
+            {"label": "Ивэнергомаш", "priority": 1},
+            {"label": "Клинцы", "priority": 1},
+            {"label": "КМЗ (ОАО Сокол)", "priority": 1},
+            {"label": "КрАЗ", "priority": 1},
+            {"label": "КРАЯН", "priority": 1},
+            {"label": "КЭМЗ", "priority": 1},
+            {"label": "МАЗ", "priority": 1},
+            {"label": "Машека", "priority": 1},
+            {"label": "Мотовилиха", "priority": 1},
+            {"label": "РДК", "priority": 1},
+            {"label": "РМЗ", "priority": 1},
+            {"label": "Сокол", "priority": 1},
+            {"label": "ТМЗ (Туапсинский МашЗавод)", "priority": 1},
+            {"label": "Угличмаш", "priority": 1},
+            {"label": "Ульяновец", "priority": 1},
+            {"label": "Урал", "priority": 1},
+            {"label": "Челябинец", "priority": 1},
+            {"label": "ЧМЗ", "priority": 1},
+            {"label": "Юргинец", "priority": 1},
+            {"label": "Январец", "priority": 1}
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите марку"
+            }
+          ]
+        },
+        {
+          "label": "Модель",
+          "name": "auto-special-truck-cranes-model",
+          "priority": 2,
+          "post_form": "textbox",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": " Укажите модель"
+            }
+          ]
+        },
+        {
+          "label": "Год выпуска",
+          "name": "auto-special-truck-cranes-year",
+          "priority": 3,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите год выпуска"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Год выпуска\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "auto-special-truck-cranes-price",
+          "priority": 4,
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Пробег",
+          "name": "auto-special-truck-cranes-odometer",
+          "priority": 5,
+          "post_form": "textbox",
+          "measure": "км",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Пробег\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Моточасы",
+          "name": "auto-special-truck-cranes-motohours",
+          "priority": 6,
+          "post_form": "textbox",
+          "measure": "моточасов",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Моточасы\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Объем двигателя",
+          "name": "auto-special-truck-cranes-volume",
+          "priority": 7,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 4,
+          "measure": "л.",
+          "hint": "пример: 11.2",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите объем двигателя."
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "\"Объем двигателя\" - значение должно быть числом."
+            }
+          ]
+        },
+        {
+          "label": "Загрузка, кг",
+          "name": "auto-special-truck-cranes-capacity",
+          "priority": 8,
+          "post_form": "textbox",
+          "measure": "кг",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Загрузка, кг\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Высота подъёма",
+          "name": "auto-special-truck-cranes-lift_height",
+          "priority": 9,
+          "post_form": "textbox",
+          "measure": "м",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Высота подъёма\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Вылет стрелы",
+          "name": "arrow_height",
+          "priority": 10,
+          "post_form": "textbox",
+          "measure": "м",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Высота стрелы\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Наличие",
+          "name": "auto-special-truck-cranes-availability",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "options": [
+            {
+              "label": "В наличии",
+              "priority": 1
+            },
+            {
+              "label": "На заказ",
+              "priority": 2
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите наличие"
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "auto-special-truck-cranes-condition",
+          "priority": 12,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Отличное",
+              "priority": 1
+            },
+            {
+              "label": "Хорошее",
+              "priority": 2
+            },
+            {
+              "label": "Среднее",
+              "priority": 3
+            },
+            {
+              "label": "Требует ремонта",
+              "priority": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Автопогрузчики",
+      "name": "auto-special-autoloaders",
+      "url": "auto-special-autoloaders",
+      "priority": 2,
+      "parameters": [
+        {
+          "name": "auto-special-autoloaders-type",
+          "label": "Тип",
+          "priority": 1,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Вилочный электропогрузчик", "priority": 1},
+            {"label": "Вилочный автопогрузчик", "priority": 1},
+            {"label": "Мини-погрузчик", "priority": 1},
+            {"label": "Универсальный погрузчик", "priority": 1},
+            {"label": "Фронтальный погрузчик", "priority": 1},
+            {"label": "Контейнерный погрузчик", "priority": 1},
+            {"label": "Телескопический погрузчик", "priority": 1},
+            {"label": "Грейферный погрузчик", "priority": 1},
+            {"label": "Погрузочно-доставочная машина", "priority": 1},
+            {"label": "Погрузчик-комплектовщик", "priority": 1}
+
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип"
+            }
+          ]
+        },
+        {
+          "name": "auto-special-autoloaders-make",
+          "label": "Марка",
+          "priority": 2,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 5,
+          "options": [
+            {"label": "Alift", "priority": 1},
+            {"label": "Atlet", "priority": 1},
+            {"label": "Attack", "priority": 1},
+            {"label": "Ausa", "priority": 1},
+            {"label": "Avant", "priority": 1},
+            {"label": "Balkancar", "priority": 1},
+            {"label": "Baoli", "priority": 1},
+            {"label": "Baumann", "priority": 1},
+            {"label": "Bobcat", "priority": 1},
+            {"label": "Boulder", "priority": 1},
+            {"label": "Bront", "priority": 1},
+            {"label": "BT Cargo", "priority": 1},
+            {"label": "Bull", "priority": 1},
+            {"label": "Bulmor", "priority": 1},
+            {"label": "Case", "priority": 1},
+            {"label": "Caterpillar", "priority": 1},
+            {"label": "Cayman", "priority": 1},
+            {"label": "Champ", "priority": 1},
+            {"label": "Changlin", "priority": 1},
+            {"label": "ChengGong", "priority": 1},
+            {"label": "Clark", "priority": 1},
+            {"label": "Combilift", "priority": 1},
+            {"label": "Crown", "priority": 1},
+            {"label": "CTK", "priority": 1},
+            {"label": "Daewoo", "priority": 1},
+            {"label": "Dalian", "priority": 1},
+            {"label": "Desta", "priority": 1},
+            {"label": "Detva", "priority": 1},
+            {"label": "Dieci", "priority": 1},
+            {"label": "Digger", "priority": 1},
+            {"label": "DIMEX", "priority": 1},
+            {"label": "DISD", "priority": 1},
+            {"label": "Dongin", "priority": 1},
+            {"label": "Doosan", "priority": 1},
+            {"label": "Dressta", "priority": 1},
+            {"label": "Everun", "priority": 1},
+            {"label": "Faresin Handlers", "priority": 1},
+            {"label": "Feeler", "priority": 1},
+            {"label": "Fiat Kobelco", "priority": 1},
+            {"label": "Fiat-Hitachi", "priority": 1},
+            {"label": "First Machinery Group", "priority": 1},
+            {"label": "Forway", "priority": 1},
+            {"label": "Foton", "priority": 1},
+            {"label": "Fuchs", "priority": 1},
+            {"label": "Fukai", "priority": 1},
+            {"label": "Gehl", "priority": 1},
+            {"label": "Giant", "priority": 1},
+            {"label": "Goodsense", "priority": 1},
+            {"label": "Hangcha", "priority": 1},
+            {"label": "Haulotte", "priority": 1},
+            {"label": "HC", "priority": 1},
+            {"label": "Hecha", "priority": 1},
+            {"label": "Heli", "priority": 1},
+            {"label": "Hitachi", "priority": 1},
+            {"label": "Hysoon", "priority": 1},
+            {"label": "Hyster", "priority": 1},
+            {"label": "Hyundai", "priority": 1},
+            {"label": "JAC", "priority": 1},
+            {"label": "JCB", "priority": 1},
+            {"label": "JJCC", "priority": 1},
+            {"label": "JLG", "priority": 1},
+            {"label": "John Deere", "priority": 1},
+            {"label": "Jun Gong", "priority": 1},
+            {"label": "Jungheinrich", "priority": 1},
+            {"label": "Kalmar", "priority": 1},
+            {"label": "Kipor", "priority": 1},
+            {"label": "Komatsu", "priority": 1},
+            {"label": "Kramer", "priority": 1},
+            {"label": "Kubota", "priority": 1},
+            {"label": "Laigong", "priority": 1},
+            {"label": "Lema", "priority": 1},
+            {"label": "Liebherr", "priority": 1},
+            {"label": "Linde", "priority": 1},
+            {"label": "LiuGong", "priority": 1},
+            {"label": "Locust", "priority": 1},
+            {"label": "LongGong", "priority": 1},
+            {"label": "Lonking", "priority": 1},
+            {"label": "Luqing", "priority": 1},
+            {"label": "Magni", "priority": 1},
+            {"label": "Manitou", "priority": 1},
+            {"label": "Mattson", "priority": 1},
+            {"label": "Maximal", "priority": 1},
+            {"label": "Merlo", "priority": 1},
+            {"label": "Mitsuber", "priority": 1},
+            {"label": "Mitsubishi", "priority": 1},
+            {"label": "Molot", "priority": 1},
+            {"label": "MultiOne", "priority": 1},
+            {"label": "Multix", "priority": 1},
+            {"label": "Mustang", "priority": 1},
+            {"label": "Neo", "priority": 1},
+            {"label": "New Holland", "priority": 1},
+            {"label": "Nichiyu", "priority": 1},
+            {"label": "Nissan", "priority": 1},
+            {"label": "OM Pimespo", "priority": 1},
+            {"label": "Palfinger", "priority": 1},
+            {"label": "Renders", "priority": 1},
+            {"label": "Rocla", "priority": 1},
+            {"label": "Royal Forklift", "priority": 1},
+            {"label": "Schaffer", "priority": 1},
+            {"label": "SDLG", "priority": 1},
+            {"label": "SEM", "priority": 1},
+            {"label": "Sennebogen", "priority": 1},
+            {"label": "Shanlin", "priority": 1},
+            {"label": "Shantui", "priority": 1},
+            {"label": "Shinko", "priority": 1},
+            {"label": "SMV", "priority": 1},
+            {"label": "Soosung", "priority": 1},
+            {"label": "Stalowa Wola", "priority": 1},
+            {"label": "Still", "priority": 1},
+            {"label": "Sumitomo", "priority": 1},
+            {"label": "Sunward", "priority": 1},
+            {"label": "SZM", "priority": 1},
+            {"label": "Takeuchi", "priority": 1},
+            {"label": "TCM", "priority": 1},
+            {"label": "Terex", "priority": 1},
+            {"label": "TEU", "priority": 1},
+            {"label": "TFN", "priority": 1},
+            {"label": "Thomas", "priority": 1},
+            {"label": "Tota", "priority": 1},
+            {"label": "Toyota", "priority": 1},
+            {"label": "UN", "priority": 1},
+            {"label": "UNC", "priority": 1},
+            {"label": "Utilev", "priority": 1},
+            {"label": "Venieri", "priority": 1},
+            {"label": "VigorBull", "priority": 1},
+            {"label": "Vmax", "priority": 1},
+            {"label": "Volvo", "priority": 1},
+            {"label": "VP", "priority": 1},
+            {"label": "Wacker Neuson", "priority": 1},
+            {"label": "Wecan", "priority": 1},
+            {"label": "Wille", "priority": 1},
+            {"label": "World", "priority": 1},
+            {"label": "XCMG", "priority": 1},
+            {"label": "XCMGEuropa", "priority": 1},
+            {"label": "XGMA", "priority": 1},
+            {"label": "Xtreme", "priority": 1},
+            {"label": "Yale", "priority": 1},
+            {"label": "YiGong", "priority": 1},
+            {"label": "Yineng", "priority": 1},
+            {"label": "YTO", "priority": 1},
+            {"label": "Yutong", "priority": 1},
+            {"label": "Zettelmeyer", "priority": 1},
+            {"label": "Амкодор", "priority": 1},
+            {"label": "Барс", "priority": 1},
+            {"label": "ЗИЛ", "priority": 1},
+            {"label": "Кировец", "priority": 1},
+            {"label": "Курганмашзавод", "priority": 1},
+            {"label": "КЭМЗ", "priority": 1},
+            {"label": "Львовский Автопогрузчик", "priority": 1},
+            {"label": "МАЗ", "priority": 1},
+            {"label": "МАЗ-МАН", "priority": 1},
+            {"label": "Мекан", "priority": 1},
+            {"label": "МЗиК", "priority": 1},
+            {"label": "МоАЗ", "priority": 1},
+            {"label": "МТЗ", "priority": 1},
+            {"label": "Орловский Погрузчик", "priority": 1},
+            {"label": "Погрузчик", "priority": 1},
+            {"label": "Ратеп", "priority": 1},
+            {"label": "Сибиряк", "priority": 1},
+            {"label": "СибКомСельМаш", "priority": 1},
+            {"label": "Спецстроймаш", "priority": 1},
+            {"label": "ТВЭКС", "priority": 1},
+            {"label": "Технокор", "priority": 1},
+            {"label": "Уралвагонзавод", "priority": 1},
+            {"label": "ХТЗ", "priority": 1},
+            {"label": "ЧЕТРА", "priority": 1},
+            {"label": "ЧЗА", "priority": 1},
+            {"label": "ЧСДМ", "priority": 1},
+            {"label": "ЧТЗ", "priority": 1}
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите марку"
+            }
+          ]
+        },
+        {
+          "label": "Модель",
+          "name": "auto-special-autoloaders-model",
+          "priority": 3,
+          "post_form": "textbox",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": " Укажите модель"
+            }
+          ]
+        },
+        {
+          "label": "Год выпуска",
+          "name": "auto-special-autoloaders-year",
+          "priority": 4,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите год выпуска"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Год выпуска\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "auto-special-autoloaders-price",
+          "priority": 5,
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "search_priority": 2,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Моточасы",
+          "name": "auto-special-autoloaders-motohours",
+          "priority": 6,
+          "post_form": "textbox",
+          "measure": "моточасов",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Моточасы\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Высота подъёма",
+          "name": "auto-special-autoloaders-lift_height",
+          "priority": 7,
+          "post_form": "textbox",
+          "measure": "м",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Высота подъёма\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Наличие",
+          "name": "auto-special-autoloaders-availability",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "options": [
+            {
+              "label": "В наличии",
+              "priority": 1
+            },
+            {
+              "label": "На заказ",
+              "priority": 2
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите наличие"
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "auto-special-autoloader-condition",
+          "priority": 12,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Отличное",
+              "priority": 1
+            },
+            {
+              "label": "Хорошее",
+              "priority": 2
+            },
+            {
+              "label": "Среднее",
+              "priority": 3
+            },
+            {
+              "label": "Требует ремонта",
+              "priority": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Бульдозеры",
+      "name": "auto-special-bulldozers",
+      "url": "auto-special-bulldozers",
+      "priority": 3,
+      "parameters": [
+        {
+          "name": "auto-special-bulldozers-type",
+          "label": "Тип",
+          "priority": 1,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Колесный бульдозер", "priority": 1},
+            {"label": "Гусеничный бульдозер", "priority": 1}
+
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип"
+            }
+          ]
+        },
+        {
+          "name": "auto-special-bulldozers-make",
+          "label": "Марка",
+          "priority": 2,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 4,
+          "options": [
+            {"label": "Case", "priority": 1},
+            {"label": "Caterpillar", "priority": 1},
+            {"label": "Dressta", "priority": 1},
+            {"label": "Fiat-Hitachi", "priority": 1},
+            {"label": "HBXG", "priority": 1},
+            {"label": "Hitachi", "priority": 1},
+            {"label": "John Deere", "priority": 1},
+            {"label": "Komatsu", "priority": 1},
+            {"label": "Liebherr", "priority": 1},
+            {"label": "LiuGong", "priority": 1},
+            {"label": "Massey Ferguson", "priority": 1},
+            {"label": "Mitsubishi", "priority": 1},
+            {"label": "New Holland", "priority": 1},
+            {"label": "Pengpu", "priority": 1},
+            {"label": "Shantui", "priority": 1},
+            {"label": "Shehwa", "priority": 1},
+            {"label": "XCMG", "priority": 1},
+            {"label": "XGMA", "priority": 1},
+            {"label": "Xiagong", "priority": 1},
+            {"label": "Zoomlion", "priority": 1},
+            {"label": "ВгТЗ", "priority": 1},
+            {"label": "ВТЗ", "priority": 1},
+            {"label": "ДЗ", "priority": 1},
+            {"label": "Дормаш", "priority": 1},
+            {"label": "ДСТ-Урал", "priority": 1},
+            {"label": "Кировец", "priority": 1},
+            {"label": "КТЗ Траком", "priority": 1},
+            {"label": "МТЗ", "priority": 1},
+            {"label": "ОТЗ", "priority": 1},
+            {"label": "Промтрактор (ЧЗПТ)", "priority": 1},
+            {"label": "Русич (КЗКТ)", "priority": 1},
+            {"label": "Спецстроймаш", "priority": 1},
+            {"label": "ЧЕТРА", "priority": 1},
+            {"label": "ЧЗТ", "priority": 1},
+            {"label": "ЧТЗ", "priority": 1}
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите марку"
+            }
+          ]
+        },
+        {
+          "label": "Модель",
+          "name": "auto-special-bulldozers-model",
+          "priority": 3,
+          "post_form": "textbox",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": " Укажите модель"
+            }
+          ]
+        },
+        {
+          "label": "Год выпуска",
+          "name": "auto-special-bulldozers-year",
+          "priority": 4,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите год выпуска"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Год выпуска\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "auto-special-bulldozers-price",
+          "priority": 5,
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "search_priority": 2,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Моточасы",
+          "name": "auto-special-bulldozers-motohours",
+          "priority": 6,
+          "post_form": "textbox",
+          "measure": "моточасов",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Моточасы\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Объем двигателя",
+          "name": "auto-special-bulldozers-volume",
+          "priority": 7,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 5,
+          "measure": "л.",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите объем двигателя."
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "\"Объем двигателя\" - значение должно быть числом."
+            }
+          ]
+        },
+        {
+          "label": "Мощность",
+          "name": "auto-special-bulldozers-power",
+          "priority": 8,
+          "post_form": "textbox",
+          "measure": "л.с.",
+          "hint": "пример: 80 л.с.",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Мощность\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Наличие",
+          "name": "auto-special-bulldozers-availability",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "options": [
+            {
+              "label": "В наличии",
+              "priority": 1
+            },
+            {
+              "label": "На заказ",
+              "priority": 2
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите наличие"
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "auto-special-bulldozers-condition",
+          "priority": 12,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Отличное",
+              "priority": 1
+            },
+            {
+              "label": "Хорошее",
+              "priority": 2
+            },
+            {
+              "label": "Среднее",
+              "priority": 3
+            },
+            {
+              "label": "Требует ремонта",
+              "priority": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Коммунальная",
+      "name": "auto-special-сommunal",
+      "url": "auto-special-сommunal",
+      "priority": 4,
+      "parameters": [
+        {
+          "name": "auto-special-сommunal-type",
+          "label": "Тип",
+          "priority": 1,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Мусоровоз", "priority": 1},
+            {"label": "Вакуумная машина", "priority": 1},
+            {"label": "Подметально-уборочная", "priority": 1},
+            {"label": "Пожарный автомобиль", "priority": 1},
+            {"label": "Поливомоечная машина", "priority": 1},
+            {"label": "Пескоразбрасыватель", "priority": 1},
+            {"label": "Аварийно-ремонтная", "priority": 1},
+            {"label": "Снегоочиститель", "priority": 1},
+            {"label": "Автовышка", "priority": 1},
+            {"label": "Контейнеровоз-бункеровоз", "priority": 1},
+            {"label": "Вакуумная подметально уборочная", "priority": 1},
+            {"label": "Погрузочно-уборочная", "priority": 1},
+            {"label": "Илососная машина", "priority": 1},
+            {"label": "Сборщик-прессовщик мусора", "priority": 1},
+            {"label": "Каналопромывочная машина", "priority": 1},
+            {"label": "Пресс", "priority": 1},
+            {"label": "Коленчатый подъемник", "priority": 1},
+            {"label": "Ножничный подъемник", "priority": 1},
+            {"label": "Парогенераторная установка", "priority": 1},
+            {"label": "Прицепной подъемник", "priority": 1},
+            {"label": "Снегоуплотнительная машина", "priority": 1},
+            {"label": "Снегоплавильная машина", "priority": 1},
+            {"label": "Полуприцеп-электростанция", "priority": 1}
+
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип"
+            }
+          ]
+        },
+        {
+          "name": "auto-special-сommunal-make",
+          "label": "Марка",
+          "priority": 2,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 4,
+          "options": [
+            {"label": "Aerial", "priority": 1},
+            {"label": "Aichi", "priority": 1},
+            {"label": "Belos", "priority": 1},
+            {"label": "Bomag", "priority": 1},
+            {"label": "Boschung", "priority": 1},
+            {"label": "Bucher", "priority": 1},
+            {"label": "Ceksan", "priority": 1},
+            {"label": "Cela", "priority": 1},
+            {"label": "Cella", "priority": 1},
+            {"label": "CO.ME.T Officine", "priority": 1},
+            {"label": "Daewoo", "priority": 1},
+            {"label": "DAF", "priority": 1},
+            {"label": "Dasan", "priority": 1},
+            {"label": "Dinolift", "priority": 1},
+            {"label": "Donghae", "priority": 1},
+            {"label": "Dulevo", "priority": 1},
+            {"label": "Ecopress", "priority": 1},
+            {"label": "Etramo", "priority": 1},
+            {"label": "Faun", "priority": 1},
+            {"label": "Favero", "priority": 1},
+            {"label": "Ford", "priority": 1},
+            {"label": "Foton", "priority": 1},
+            {"label": "Geesinknorba", "priority": 1},
+            {"label": "Genie", "priority": 1},
+            {"label": "Grove", "priority": 1},
+            {"label": "Hako", "priority": 1},
+            {"label": "Hansin", "priority": 1},
+            {"label": "Haulotte", "priority": 1},
+            {"label": "Hidro-Mak", "priority": 1},
+            {"label": "Hino", "priority": 1},
+            {"label": "Husqvarna", "priority": 1},
+            {"label": "Hyundai", "priority": 1},
+            {"label": "Isuzu", "priority": 1},
+            {"label": "IVECO", "priority": 1},
+            {"label": "Jinwoo", "priority": 1},
+            {"label": "Johnston Sweepers", "priority": 1},
+            {"label": "Karcher", "priority": 1},
+            {"label": "Kia", "priority": 1},
+            {"label": "Kioti", "priority": 1},
+            {"label": "Kobit", "priority": 1},
+            {"label": "LGMG", "priority": 1},
+            {"label": "Lm Trac", "priority": 1},
+            {"label": "MAN", "priority": 1},
+            {"label": "Mercedes-Benz", "priority": 1},
+            {"label": "Mitsubishi Fuso", "priority": 1},
+            {"label": "Multicar", "priority": 1},
+            {"label": "Mustang", "priority": 1},
+            {"label": "Nichijyo", "priority": 1},
+            {"label": "Nilfisk", "priority": 1},
+            {"label": "Nissan", "priority": 1},
+            {"label": "Nisseki", "priority": 1},
+            {"label": "Omme", "priority": 1},
+            {"label": "Paus", "priority": 1},
+            {"label": "PistenBully", "priority": 1},
+            {"label": "Rasco", "priority": 1},
+            {"label": "Ravo", "priority": 1},
+            {"label": "Renault", "priority": 1},
+            {"label": "Samangan", "priority": 1},
+            {"label": "Scania", "priority": 1},
+            {"label": "Schmidt", "priority": 1},
+            {"label": "Shacman (Shaanxi)", "priority": 1},
+            {"label": "Silant", "priority": 1},
+            {"label": "Sisu", "priority": 1},
+            {"label": "Skyman", "priority": 1},
+            {"label": "Toyota", "priority": 1},
+            {"label": "TYM", "priority": 1},
+            {"label": "Volvo", "priority": 1},
+            {"label": "Wado", "priority": 1},
+            {"label": "Weber", "priority": 1},
+            {"label": "Wille", "priority": 1},
+            {"label": "Zoeller", "priority": 1},
+            {"label": "АЗКМ (КОММАШ)", "priority": 1},
+            {"label": "Амкодор", "priority": 1},
+            {"label": "ВИПО", "priority": 1},
+            {"label": "ВТЗ", "priority": 1},
+            {"label": "ГАЗ", "priority": 1},
+            {"label": "ГАЗ-САЗ", "priority": 1},
+            {"label": "Доркомтехника", "priority": 1},
+            {"label": "Дормаш", "priority": 1},
+            {"label": "Дорэлектромаш", "priority": 1},
+            {"label": "ЗДС", "priority": 1},
+            {"label": "ЗИЛ", "priority": 1},
+            {"label": "КамАЗ", "priority": 1},
+            {"label": "КДМ", "priority": 1},
+            {"label": "КЗКМ (КОММАШ)", "priority": 1},
+            {"label": "КМ", "priority": 1},
+            {"label": "КО", "priority": 1},
+            {"label": "Коммаш (Арзамас)", "priority": 1},
+            {"label": "Коммаш (Мценск)", "priority": 1},
+            {"label": "Коммунал-Авто", "priority": 1},
+            {"label": "КЭМЗ", "priority": 1},
+            {"label": "ЛЗМКМ", "priority": 1},
+            {"label": "Людиновец", "priority": 1},
+            {"label": "МАЗ", "priority": 1},
+            {"label": "МашКомДорСервис", "priority": 1},
+            {"label": "МДК", "priority": 1},
+            {"label": "МЗиК", "priority": 1},
+            {"label": "МЗКМ (КОММАШ)", "priority": 1},
+            {"label": "МиниМакс", "priority": 1},
+            {"label": "МКЗ", "priority": 1},
+            {"label": "МКМ", "priority": 1},
+            {"label": "МКС", "priority": 1},
+            {"label": "МРМЗ", "priority": 1},
+            {"label": "МТЗ", "priority": 1},
+            {"label": "НПК Коммаш", "priority": 1},
+            {"label": "Плавский", "priority": 1},
+            {"label": "ПФС", "priority": 1},
+            {"label": "РАРЗ", "priority": 1},
+            {"label": "Севдормаш", "priority": 1},
+            {"label": "Спецстроймаш", "priority": 1},
+            {"label": "Тверькоммаш", "priority": 1},
+            {"label": "Техстроймаш", "priority": 1},
+            {"label": "ТоМеЗ", "priority": 1},
+            {"label": "Торфмаш", "priority": 1},
+            {"label": "Ульяновец", "priority": 1},
+            {"label": "Урал", "priority": 1},
+            {"label": "ФРС", "priority": 1},
+            {"label": "ЧМЗ", "priority": 1},
+            {"label": "Экомтех-Трейдинг", "priority": 1},
+            {"label": "ЭРМЗ", "priority": 1}
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите марку"
+            }
+          ]
+        },
+        {
+          "label": "Модель",
+          "name": "auto-special-сommunal-model",
+          "priority": 3,
+          "post_form": "textbox",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": " Укажите модель"
+            }
+          ]
+        },
+        {
+          "label": "Год выпуска",
+          "name": "auto-special-сommunal-year",
+          "priority": 4,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите год выпуска"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Год выпуска\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "auto-special-сommunal-price",
+          "priority": 5,
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "search_priority": 2,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "name": "auto-special-сommunal-engine",
+          "label": "Тип двигателя",
+          "priority": 6,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 6,
+          "options": [
+            {
+              "label": "Дизель",
+              "priority": 1
+            },
+            {
+              "label": "Бензин",
+              "priority": 2
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип двигателя."
+            }
+          ]
+        },
+        {
+          "label": "Мощность",
+          "name": "\"auto-special-сommunal-power",
+          "priority": 8,
+          "post_form": "textbox",
+          "measure": "л.с.",
+          "hint": "пример: 80 л.с.",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Мощность\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Наличие",
+          "name": "auto-special-сommunal-availability",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "options": [
+            {
+              "label": "В наличии",
+              "priority": 1
+            },
+            {
+              "label": "На заказ",
+              "priority": 2
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите наличие"
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "auto-special-сommunal-condition",
+          "priority": 12,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Отличное",
+              "priority": 1
+            },
+            {
+              "label": "Хорошее",
+              "priority": 2
+            },
+            {
+              "label": "Среднее",
+              "priority": 3
+            },
+            {
+              "label": "Требует ремонта",
+              "priority": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Самопогрузчики",
+      "name": "auto-special-selfloaders",
+      "url": "auto-special-selfloaders",
+      "priority": 5,
+      "parameters": [
+        {
+          "name": "auto-special-selfloaders-make",
+          "label": "Марка",
+          "priority": 2,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 5,
+          "options": [
+            {"label": "Atlas", "priority": 1},
+            {"label": "Avia", "priority": 1},
+            {"label": "BAW", "priority": 1},
+            {"label": "Boblift", "priority": 1},
+            {"label": "Daewoo", "priority": 1},
+            {"label": "DAF", "priority": 1},
+            {"label": "Dinex Crane", "priority": 1},
+            {"label": "DongFeng", "priority": 1},
+            {"label": "Ford", "priority": 1},
+            {"label": "Foton", "priority": 1},
+            {"label": "Hino", "priority": 1},
+            {"label": "Hyundai", "priority": 1},
+            {"label": "Isuzu", "priority": 1},
+            {"label": "IVECO", "priority": 1},
+            {"label": "JAC", "priority": 1},
+            {"label": "Kanglim", "priority": 1},
+            {"label": "Kia", "priority": 1},
+            {"label": "MAN", "priority": 1},
+            {"label": "Mazda", "priority": 1},
+            {"label": "Mercedes-Benz", "priority": 1},
+            {"label": "Mitsubishi", "priority": 1},
+            {"label": "Mitsubishi Fuso", "priority": 1},
+            {"label": "Naveco", "priority": 1},
+            {"label": "Nissan", "priority": 1},
+            {"label": "Palfinger", "priority": 1},
+            {"label": "Renault", "priority": 1},
+            {"label": "Scania", "priority": 1},
+            {"label": "Shacman (Shaanxi)", "priority": 1},
+            {"label": "Soosan", "priority": 1},
+            {"label": "TATA", "priority": 1},
+            {"label": "Tatra", "priority": 1},
+            {"label": "Toyota", "priority": 1},
+            {"label": "Unic", "priority": 1},
+            {"label": "Volvo", "priority": 1},
+            {"label": "Yuejin", "priority": 1},
+            {"label": "ГАЗ", "priority": 1},
+            {"label": "Загорец", "priority": 1},
+            {"label": "ЗИЛ", "priority": 1},
+            {"label": "КамАЗ", "priority": 1},
+            {"label": "КрАЗ", "priority": 1},
+            {"label": "МАЗ", "priority": 1},
+            {"label": "МозырМаш", "priority": 1},
+            {"label": "Урал", "priority": 1},
+            {"label": "УралСпецТранс", "priority": 1},
+            {"label": "Чайка-Сервис", "priority": 1}
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите марку"
+            }
+          ]
+        },
+        {
+          "label": "Модель",
+          "name": "auto-special-selfloaders-model",
+          "priority": 3,
+          "post_form": "textbox",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": " Укажите модель"
+            }
+          ]
+        },
+        {
+          "label": "Год выпуска",
+          "name": "auto-special-selfloaders-year",
+          "priority": 4,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите год выпуска"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Год выпуска\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "auto-special-selfloaders-price",
+          "priority": 5,
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Пробег",
+          "name": "auto-special-selfloaders-odometer",
+          "priority": 6,
+          "post_form": "textbox",
+          "measure": "км",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Пробег\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Объем двигателя",
+          "name": "auto-special-selfloaders-volume",
+          "priority": 7,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 4,
+          "measure": "л.",
+          "hint": "пример: 3.0",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите объем двигателя."
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "\"Объем двигателя\" - значение должно быть числом."
+            }
+          ]
+        },
+        {
+          "label": "Загрузка, кг",
+          "name": "auto-special-selfloaders-capacity",
+          "priority": 8,
+          "post_form": "textbox",
+          "measure": "кг",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Загрузка, кг\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Наличие",
+          "name": "auto-special-selfloaders-availability",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "options": [
+            {
+              "label": "В наличии",
+              "priority": 1
+            },
+            {
+              "label": "На заказ",
+              "priority": 2
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите наличие"
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "auto-special-selfloaders-condition",
+          "priority": 12,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Отличное",
+              "priority": 1
+            },
+            {
+              "label": "Хорошее",
+              "priority": 2
+            },
+            {
+              "label": "Среднее",
+              "priority": 3
+            },
+            {
+              "label": "Требует ремонта",
+              "priority": 4
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "label": "Сельскохозяйственная",
+      "name": "auto-special-agricultural",
+      "url": "auto-special-agricultural",
+      "priority": 6,
+      "parameters": [
+        {
+          "name": "auto-special-agricultural-type",
+          "label": "Тип",
+          "priority": 1,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Комбайн", "priority": 1},
+            {"label": "Колесный трактор", "priority": 1},
+            {"label": "Гусеничный трактор", "priority": 1},
+            {"label": "Минитрактор", "priority": 1},
+            {"label": "Мотоблок", "priority": 1},
+            {"label": "Сеялка", "priority": 1},
+            {"label": "Опрыскиватель", "priority": 1},
+            {"label": "Подборщик", "priority": 1},
+            {"label": "Мульчер", "priority": 1},
+            {"label": "Скиддер", "priority": 1},
+            {"label": "Форвардер", "priority": 1},
+            {"label": "Пожарный трактор", "priority": 1},
+            {"label": "Валочно-пакетирующая машина", "priority": 1},
+            {"label": "Харвестер", "priority": 1},
+            {"label": "Пересадчик деревьев", "priority": 1},
+            {"label": "Измельчитель", "priority": 1},
+            {"label": "Трелевочный трактор", "priority": 1},
+            {"label": "Кормораздатчик/миксер-кормораздатчик", "priority": 1},
+            {"label": "Самоходная газонокосилка", "priority": 1},
+            {"label": "Загрузчик сухих кормов", "priority": 1}
+
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип"
+            }
+          ]
+        },
+        {
+          "name": "auto-special-agricultural-make",
+          "label": "Марка",
+          "priority": 2,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 4,
+          "options": [
+            {"label": "Agromehanika", "priority": 1},
+            {"label": "Agrostroj", "priority": 1},
+            {"label": "Ahwi", "priority": 1},
+            {"label": "Amazone", "priority": 1},
+            {"label": "Bagram", "priority": 1},
+            {"label": "Buhler", "priority": 1},
+            {"label": "Case IH", "priority": 1},
+            {"label": "Caterpillar", "priority": 1},
+            {"label": "Catmann", "priority": 1},
+            {"label": "Challenger", "priority": 1},
+            {"label": "Chery", "priority": 1},
+            {"label": "Claas", "priority": 1},
+            {"label": "Crosser", "priority": 1},
+            {"label": "Deutz-Fahr", "priority": 1},
+            {"label": "DongFeng", "priority": 1},
+            {"label": "ECHO", "priority": 1},
+            {"label": "Energreen", "priority": 1},
+            {"label": "Fecon", "priority": 1},
+            {"label": "Fendt", "priority": 1},
+            {"label": "Fengshou", "priority": 1},
+            {"label": "Fortschritt", "priority": 1},
+            {"label": "Foton", "priority": 1},
+            {"label": "Garden Scout", "priority": 1},
+            {"label": "Goldoni", "priority": 1},
+            {"label": "Heizohack", "priority": 1},
+            {"label": "Hinomoto", "priority": 1},
+            {"label": "Holmer", "priority": 1},
+            {"label": "Horsch", "priority": 1},
+            {"label": "Huanghai Jinma", "priority": 1},
+            {"label": "Iseki", "priority": 1},
+            {"label": "JCB", "priority": 1},
+            {"label": "Jinma", "priority": 1},
+            {"label": "John Deere", "priority": 1},
+            {"label": "Kepler", "priority": 1},
+            {"label": "Kioti", "priority": 1},
+            {"label": "Kodiak", "priority": 1},
+            {"label": "Komatsu", "priority": 1},
+            {"label": "Kubota", "priority": 1},
+            {"label": "Lamborghini", "priority": 1},
+            {"label": "LGMG", "priority": 1},
+            {"label": "LKT", "priority": 1},
+            {"label": "Logset", "priority": 1},
+            {"label": "Massey Ferguson", "priority": 1},
+            {"label": "MasterYard", "priority": 1},
+            {"label": "McCormick", "priority": 1},
+            {"label": "McCulloch", "priority": 1},
+            {"label": "Mitsubishi", "priority": 1},
+            {"label": "Morbark", "priority": 1},
+            {"label": "New Holland", "priority": 1},
+            {"label": "Palesse", "priority": 1},
+            {"label": "Pazzaglia", "priority": 1},
+            {"label": "Ponsse", "priority": 1},
+            {"label": "Ropa", "priority": 1},
+            {"label": "Rottne", "priority": 1},
+            {"label": "Same", "priority": 1},
+            {"label": "Shibaura", "priority": 1},
+            {"label": "ShiFeng", "priority": 1},
+            {"label": "Skorpion", "priority": 1},
+            {"label": "Stara", "priority": 1},
+            {"label": "Storti", "priority": 1},
+            {"label": "Swatt", "priority": 1},
+            {"label": "TaiShan", "priority": 1},
+            {"label": "Teknamotor", "priority": 1},
+            {"label": "Terrion", "priority": 1},
+            {"label": "Timberjack", "priority": 1},
+            {"label": "TYM", "priority": 1},
+            {"label": "Unique", "priority": 1},
+            {"label": "Valmet", "priority": 1},
+            {"label": "Valtra", "priority": 1},
+            {"label": "Volvo", "priority": 1},
+            {"label": "Weituo", "priority": 1},
+            {"label": "WIC", "priority": 1},
+            {"label": "XCMG", "priority": 1},
+            {"label": "Xingtai", "priority": 1},
+            {"label": "Yanmar", "priority": 1},
+            {"label": "YTO", "priority": 1},
+            {"label": "Yukon", "priority": 1},
+            {"label": "Zetor", "priority": 1},
+            {"label": "Агромашхолдинг", "priority": 1},
+            {"label": "АЗСМ Прогресс", "priority": 1},
+            {"label": "Алттрак", "priority": 1},
+            {"label": "Амкодор", "priority": 1},
+            {"label": "АТЗ", "priority": 1},
+            {"label": "АТЗ Гранд", "priority": 1},
+            {"label": "БАЗ", "priority": 1},
+            {"label": "Беларус", "priority": 1},
+            {"label": "Бобруйск АгроМаш", "priority": 1},
+            {"label": "ВгТЗ", "priority": 1},
+            {"label": "Владимирец", "priority": 1},
+            {"label": "ВМТЗ", "priority": 1},
+            {"label": "ВТЗ", "priority": 1},
+            {"label": "ГазТурбоСервис", "priority": 1},
+            {"label": "Гомсельмаш", "priority": 1},
+            {"label": "Енисей", "priority": 1},
+            {"label": "КамАЗ", "priority": 1},
+            {"label": "КамТЗ", "priority": 1},
+            {"label": "Киргизстан", "priority": 1},
+            {"label": "Кировец", "priority": 1},
+            {"label": "КМЗ", "priority": 1},
+            {"label": "КТЗ Траком", "priority": 1},
+            {"label": "КЭМЗ", "priority": 1},
+            {"label": "ЛесТехКом", "priority": 1},
+            {"label": "Лидагропроммаш", "priority": 1},
+            {"label": "ЛМЗ", "priority": 1},
+            {"label": "ЛТЗ", "priority": 1},
+            {"label": "Митракс", "priority": 1},
+            {"label": "МТЗ", "priority": 1},
+            {"label": "Промтехсервис", "priority": 1},
+            {"label": "ПТК", "priority": 1},
+            {"label": "РКЗ", "priority": 1},
+            {"label": "Ростсельмаш", "priority": 1},
+            {"label": "Рубин", "priority": 1},
+            {"label": "Спецстроймаш", "priority": 1},
+            {"label": "СпецТракАгро", "priority": 1},
+            {"label": "Техносервис", "priority": 1},
+            {"label": "Техстроймаш", "priority": 1},
+            {"label": "ТКЗ", "priority": 1},
+            {"label": "Уралец", "priority": 1},
+            {"label": "ХТЗ", "priority": 1},
+            {"label": "Чувашпиллер", "priority": 1},
+            {"label": "ЮМЗ", "priority": 1},
+            {"label": "Ярославец", "priority": 1}
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите марку"
+            }
+          ]
+        },
+        {
+          "label": "Модель",
+          "name": "auto-special-agricultural-model",
+          "priority": 3,
+          "post_form": "textbox",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": " Укажите модель"
+            }
+          ]
+        },
+        {
+          "label": "Год выпуска",
+          "name": "auto-special-agricultural-year",
+          "priority": 4,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите год выпуска"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Год выпуска\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "auto-special-agricultural-price",
+          "priority": 5,
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "search_priority": 2,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Моточасы",
+          "name": "auto-special-agricultural-motohours",
+          "priority": 6,
+          "post_form": "textbox",
+          "measure": "моточасов",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Моточасы\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Объем двигателя",
+          "name": "auto-special-agricultural-volume",
+          "priority": 7,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 5,
+          "measure": "л.",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите объем двигателя."
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "\"Объем двигателя\" - значение должно быть числом."
+            }
+          ]
+        },
+        {
+          "label": "Мощность",
+          "name": "auto-special-agricultural-power",
+          "priority": 8,
+          "post_form": "textbox",
+          "measure": "л.с.",
+          "hint": "пример: 80 л.с.",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Мощность\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Наличие",
+          "name": "auto-special-agricultural-availability",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "options": [
+            {
+              "label": "В наличии",
+              "priority": 1
+            },
+            {
+              "label": "На заказ",
+              "priority": 2
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите наличие"
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "auto-special-agricultural-condition",
+          "priority": 12,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Отличное",
+              "priority": 1
+            },
+            {
+              "label": "Хорошее",
+              "priority": 2
+            },
+            {
+              "label": "Среднее",
+              "priority": 3
+            },
+            {
+              "label": "Требует ремонта",
+              "priority": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Строительная",
+      "name": "auto-special-constructional",
+      "url": "auto-special-constructional",
+      "priority": 7,
+      "parameters": [
+        {
+          "name": "auto-special-constructional-type",
+          "label": "Тип",
+          "priority": 1,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Бурильно-сваебойная машина", "priority": 1},
+            {"label": "Автобетоносмеситель", "priority": 1},
+            {"label": "Буровая установка", "priority": 1},
+            {"label": "Трубоукладчик", "priority": 1},
+            {"label": "Каток", "priority": 1},
+            {"label": "Автогрейдер", "priority": 1},
+            {"label": "Асфальтоукладчик", "priority": 1},
+            {"label": "Дорожная фреза", "priority": 1},
+            {"label": "Миксер", "priority": 1},
+            {"label": "Дробильно-сортировочная установка", "priority": 1},
+            {"label": "Башенный кран", "priority": 1},
+            {"label": "Гусеничный кран", "priority": 1},
+            {"label": "Пневмоколёсный кран", "priority": 1},
+            {"label": "Гусеничный думпер", "priority": 1},
+            {"label": "Кабелеукладчик", "priority": 1},
+            {"label": "Автобетононасос", "priority": 1},
+            {"label": "Сочленённый самосвал", "priority": 1},
+            {"label": "Машины дорожной разметки", "priority": 1},
+            {"label": "Карьерный самосвал", "priority": 1},
+            {"label": "Карьерно-тоннельный самосвал", "priority": 1},
+            {"label": "Мини думпер", "priority": 1},
+            {"label": "Скрепер самоходный", "priority": 1},
+            {"label": "Автогудронатор", "priority": 1},
+            {"label": "Колесный думпер", "priority": 1},
+            {"label": "Траншеекопатель", "priority": 1},
+            {"label": "Цементировочный агрегат", "priority": 1},
+            {"label": "Прицеп-компрессор", "priority": 1},
+            {"label": "Прицепной бетононасос/растворонасос", "priority": 1},
+            {"label": "Разрушитель", "priority": 1},
+            {"label": "Бетоноукладчик", "priority": 1},
+            {"label": "Рециклер/стабилизатор", "priority": 1},
+            {"label": "Сварочный агрегат", "priority": 1},
+            {"label": "Прицепной кран", "priority": 1},
+            {"label": "Транспортер", "priority": 1},
+            {"label": "Заливщик швов", "priority": 1},
+            {"label": "Проходческий комбайн", "priority": 1},
+            {"label": "Передвижная компрессорная станция", "priority": 1}
+
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип"
+            }
+          ]
+        },
+        {
+          "name": "auto-special-constructional-make",
+          "label": "Марка",
+          "priority": 2,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 4,
+          "options": [
+            {"label": "Agromehanika", "priority": 1},
+            {"label": "Agrostroj", "priority": 1},
+            {"label": "Ahwi", "priority": 1},
+            {"label": "Amazone", "priority": 1},
+            {"label": "Bagram", "priority": 1},
+            {"label": "Buhler", "priority": 1},
+            {"label": "Case IH", "priority": 1},
+            {"label": "Caterpillar", "priority": 1},
+            {"label": "Catmann", "priority": 1},
+            {"label": "Challenger", "priority": 1},
+            {"label": "Chery", "priority": 1},
+            {"label": "Claas", "priority": 1},
+            {"label": "Crosser", "priority": 1},
+            {"label": "Deutz-Fahr", "priority": 1},
+            {"label": "DongFeng", "priority": 1},
+            {"label": "ECHO", "priority": 1},
+            {"label": "Energreen", "priority": 1},
+            {"label": "Fecon", "priority": 1},
+            {"label": "Fendt", "priority": 1},
+            {"label": "Fengshou", "priority": 1},
+            {"label": "Fortschritt", "priority": 1},
+            {"label": "Foton", "priority": 1},
+            {"label": "Garden Scout", "priority": 1},
+            {"label": "Goldoni", "priority": 1},
+            {"label": "Heizohack", "priority": 1},
+            {"label": "Hinomoto", "priority": 1},
+            {"label": "Holmer", "priority": 1},
+            {"label": "Horsch", "priority": 1},
+            {"label": "Huanghai Jinma", "priority": 1},
+            {"label": "Iseki", "priority": 1},
+            {"label": "JCB", "priority": 1},
+            {"label": "Jinma", "priority": 1},
+            {"label": "John Deere", "priority": 1},
+            {"label": "Kepler", "priority": 1},
+            {"label": "Kioti", "priority": 1},
+            {"label": "Kodiak", "priority": 1},
+            {"label": "Komatsu", "priority": 1},
+            {"label": "Kubota", "priority": 1},
+            {"label": "Lamborghini", "priority": 1},
+            {"label": "LGMG", "priority": 1},
+            {"label": "LKT", "priority": 1},
+            {"label": "Logset", "priority": 1},
+            {"label": "Massey Ferguson", "priority": 1},
+            {"label": "MasterYard", "priority": 1},
+            {"label": "McCormick", "priority": 1},
+            {"label": "McCulloch", "priority": 1},
+            {"label": "Mitsubishi", "priority": 1},
+            {"label": "Morbark", "priority": 1},
+            {"label": "New Holland", "priority": 1},
+            {"label": "Palesse", "priority": 1},
+            {"label": "Pazzaglia", "priority": 1},
+            {"label": "Ponsse", "priority": 1},
+            {"label": "Ropa", "priority": 1},
+            {"label": "Rottne", "priority": 1},
+            {"label": "Same", "priority": 1},
+            {"label": "Shibaura", "priority": 1},
+            {"label": "ShiFeng", "priority": 1},
+            {"label": "Skorpion", "priority": 1},
+            {"label": "Stara", "priority": 1},
+            {"label": "Storti", "priority": 1},
+            {"label": "Swatt", "priority": 1},
+            {"label": "TaiShan", "priority": 1},
+            {"label": "Teknamotor", "priority": 1},
+            {"label": "Terrion", "priority": 1},
+            {"label": "Timberjack", "priority": 1},
+            {"label": "TYM", "priority": 1},
+            {"label": "Unique", "priority": 1},
+            {"label": "Valmet", "priority": 1},
+            {"label": "Valtra", "priority": 1},
+            {"label": "Volvo", "priority": 1},
+            {"label": "Weituo", "priority": 1},
+            {"label": "WIC", "priority": 1},
+            {"label": "XCMG", "priority": 1},
+            {"label": "Xingtai", "priority": 1},
+            {"label": "Yanmar", "priority": 1},
+            {"label": "YTO", "priority": 1},
+            {"label": "Yukon", "priority": 1},
+            {"label": "Zetor", "priority": 1},
+            {"label": "Агромашхолдинг", "priority": 1},
+            {"label": "АЗСМ Прогресс", "priority": 1},
+            {"label": "Алттрак", "priority": 1},
+            {"label": "Амкодор", "priority": 1},
+            {"label": "АТЗ", "priority": 1},
+            {"label": "АТЗ Гранд", "priority": 1},
+            {"label": "БАЗ", "priority": 1},
+            {"label": "Беларус", "priority": 1},
+            {"label": "Бобруйск АгроМаш", "priority": 1},
+            {"label": "ВгТЗ", "priority": 1},
+            {"label": "Владимирец", "priority": 1},
+            {"label": "ВМТЗ", "priority": 1},
+            {"label": "ВТЗ", "priority": 1},
+            {"label": "ГазТурбоСервис", "priority": 1},
+            {"label": "Гомсельмаш", "priority": 1},
+            {"label": "Енисей", "priority": 1},
+            {"label": "КамАЗ", "priority": 1},
+            {"label": "КамТЗ", "priority": 1},
+            {"label": "Киргизстан", "priority": 1},
+            {"label": "Кировец", "priority": 1},
+            {"label": "КМЗ", "priority": 1},
+            {"label": "КТЗ Траком", "priority": 1},
+            {"label": "КЭМЗ", "priority": 1},
+            {"label": "ЛесТехКом", "priority": 1},
+            {"label": "Лидагропроммаш", "priority": 1},
+            {"label": "ЛМЗ", "priority": 1},
+            {"label": "ЛТЗ", "priority": 1},
+            {"label": "Митракс", "priority": 1},
+            {"label": "МТЗ", "priority": 1},
+            {"label": "Промтехсервис", "priority": 1},
+            {"label": "ПТК", "priority": 1},
+            {"label": "РКЗ", "priority": 1},
+            {"label": "Ростсельмаш", "priority": 1},
+            {"label": "Рубин", "priority": 1},
+            {"label": "Спецстроймаш", "priority": 1},
+            {"label": "СпецТракАгро", "priority": 1},
+            {"label": "Техносервис", "priority": 1},
+            {"label": "Техстроймаш", "priority": 1},
+            {"label": "ТКЗ", "priority": 1},
+            {"label": "Уралец", "priority": 1},
+            {"label": "ХТЗ", "priority": 1},
+            {"label": "Чувашпиллер", "priority": 1},
+            {"label": "ЮМЗ", "priority": 1},
+            {"label": "Ярославец", "priority": 1}
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите марку"
+            }
+          ]
+        },
+        {
+          "label": "Модель",
+          "name": "auto-special-constructional-model",
+          "priority": 3,
+          "post_form": "textbox",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": " Укажите модель"
+            }
+          ]
+        },
+        {
+          "label": "Год выпуска",
+          "name": "auto-special-constructional-year",
+          "priority": 4,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите год выпуска"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Год выпуска\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "auto-special-constructional-price",
+          "priority": 5,
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "search_priority": 2,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Моточасы",
+          "name": "auto-special-constructional-motohours",
+          "priority": 6,
+          "post_form": "textbox",
+          "measure": "моточасов",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Моточасы\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Наличие",
+          "name": "auto-special-constructional-availability",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "options": [
+            {
+              "label": "В наличии",
+              "priority": 1
+            },
+            {
+              "label": "На заказ",
+              "priority": 2
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите наличие"
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "auto-special-constructional-condition",
+          "priority": 12,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Отличное",
+              "priority": 1
+            },
+            {
+              "label": "Хорошее",
+              "priority": 2
+            },
+            {
+              "label": "Среднее",
+              "priority": 3
+            },
+            {
+              "label": "Требует ремонта",
+              "priority": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Экскаваторы",
+      "name": "auto-special-excavators",
+      "url": "auto-special-excavators",
+      "priority": 8,
+      "parameters": [
+        {
+          "name": "auto-special-excavators-type",
+          "label": "Тип",
+          "priority": 1,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Планировщик", "priority": 1},
+            {"label": "Гусеничный экскаватор", "priority": 1},
+            {"label": "Колёсный экскаватор", "priority": 1},
+            {"label": "Экскаватор-погрузчик", "priority": 1},
+            {"label": "Траншейный экскаватор", "priority": 1},
+            {"label": "Карьерный экскаватор", "priority": 1},
+            {"label": "Мини-экскаватор", "priority": 1},
+            {"label": "Земснаряд", "priority": 1},
+            {"label": "Экскаватор-амфибия", "priority": 1},
+            {"label": "Шагающий экскаватор", "priority": 1}
+
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип"
+            }
+          ]
+        },
+        {
+          "name": "auto-special-excavators-make",
+          "label": "Марка",
+          "priority": 2,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 4,
+          "options": [
+            {"label": "A LEX", "priority": 1},
+            {"label": "Ahlmann", "priority": 1},
+            {"label": "Airman", "priority": 1},
+            {"label": "Akerman", "priority": 1},
+            {"label": "Atlas", "priority": 1},
+            {"label": "Avant", "priority": 1},
+            {"label": "Bobcat", "priority": 1},
+            {"label": "Bonny", "priority": 1},
+            {"label": "Case", "priority": 1},
+            {"label": "Caterpillar", "priority": 1},
+            {"label": "Changlin", "priority": 1},
+            {"label": "Cukurova", "priority": 1},
+            {"label": "Daewoo", "priority": 1},
+            {"label": "Doosan", "priority": 1},
+            {"label": "Eurocomach", "priority": 1},
+            {"label": "Fermec", "priority": 1},
+            {"label": "Fiat Kobelco", "priority": 1},
+            {"label": "Fiat-Hitachi", "priority": 1},
+            {"label": "Forway", "priority": 1},
+            {"label": "Furukawa", "priority": 1},
+            {"label": "Gallmac", "priority": 1},
+            {"label": "Geismar", "priority": 1},
+            {"label": "Geogid", "priority": 1},
+            {"label": "Hanix", "priority": 1},
+            {"label": "HBM-Nobas", "priority": 1},
+            {"label": "Hidromek", "priority": 1},
+            {"label": "Hitachi", "priority": 1},
+            {"label": "Hyundai", "priority": 1},
+            {"label": "IHI", "priority": 1},
+            {"label": "Isuzu", "priority": 1},
+            {"label": "J8", "priority": 1},
+            {"label": "JCB", "priority": 1},
+            {"label": "John Deere", "priority": 1},
+            {"label": "Jonyang", "priority": 1},
+            {"label": "KATO", "priority": 1},
+            {"label": "KOBELCO", "priority": 1},
+            {"label": "Komatsu", "priority": 1},
+            {"label": "Kramer", "priority": 1},
+            {"label": "Kubota", "priority": 1},
+            {"label": "Landformer", "priority": 1},
+            {"label": "Liebherr", "priority": 1},
+            {"label": "LiuGong", "priority": 1},
+            {"label": "Lonking", "priority": 1},
+            {"label": "Manitou", "priority": 1},
+            {"label": "Mecalac", "priority": 1},
+            {"label": "Mitsuber", "priority": 1},
+            {"label": "Mitsubishi", "priority": 1},
+            {"label": "MST", "priority": 1},
+            {"label": "Neumeier", "priority": 1},
+            {"label": "New Holland", "priority": 1},
+            {"label": "Nissan", "priority": 1},
+            {"label": "Paload", "priority": 1},
+            {"label": "Polar Wolverine", "priority": 1},
+            {"label": "POWERPLUS", "priority": 1},
+            {"label": "Rhinoceros-Xiniu", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Sany", "priority": 1},
+            {"label": "SDLG", "priority": 1},
+            {"label": "Sinomach", "priority": 1},
+            {"label": "Sumitomo", "priority": 1},
+            {"label": "Sunward", "priority": 1},
+            {"label": "Takeuchi", "priority": 1},
+            {"label": "Tarsus", "priority": 1},
+            {"label": "Terex", "priority": 1},
+            {"label": "Terex O&K", "priority": 1},
+            {"label": "TYM", "priority": 1},
+            {"label": "UDS", "priority": 1},
+            {"label": "Venieri", "priority": 1},
+            {"label": "Volvo", "priority": 1},
+            {"label": "Wacker Neuson", "priority": 1},
+            {"label": "Watermaster", "priority": 1},
+            {"label": "XCG", "priority": 1},
+            {"label": "XCMG", "priority": 1},
+            {"label": "Xiagong", "priority": 1},
+            {"label": "Yanmar", "priority": 1},
+            {"label": "Yuchai", "priority": 1},
+            {"label": "Zeppelin", "priority": 1},
+            {"label": "Амкодор", "priority": 1},
+            {"label": "АТЕК", "priority": 1},
+            {"label": "Борекс", "priority": 1},
+            {"label": "Донецкий экскаватор", "priority": 1},
+            {"label": "ДорТехника", "priority": 1},
+            {"label": "Дорэлектромаш", "priority": 1},
+            {"label": "ДЭЗ", "priority": 1},
+            {"label": "ЕЛАЗ", "priority": 1},
+            {"label": "Ирмаш", "priority": 1},
+            {"label": "КамАЗ", "priority": 1},
+            {"label": "Ковровец", "priority": 1},
+            {"label": "Кранэкс", "priority": 1},
+            {"label": "ЛМЗ", "priority": 1},
+            {"label": "МТЗ", "priority": 1},
+            {"label": "НЗТТМ", "priority": 1},
+            {"label": "НКМЗ", "priority": 1},
+            {"label": "ПЭА", "priority": 1},
+            {"label": "Святовит", "priority": 1},
+            {"label": "Сибиряк", "priority": 1},
+            {"label": "СМТ", "priority": 1},
+            {"label": "Спецстроймаш", "priority": 1},
+            {"label": "Таллэкс", "priority": 1},
+            {"label": "ТВЭКС", "priority": 1},
+            {"label": "УЗГО", "priority": 1},
+            {"label": "Урал", "priority": 1},
+            {"label": "Уралвагонзавод", "priority": 1},
+            {"label": "Уралмаш", "priority": 1},
+            {"label": "ЧЗМК", "priority": 1},
+            {"label": "ЧЛМЗ", "priority": 1},
+            {"label": "ЭКОсервис-Нефтегаз", "priority": 1},
+            {"label": "ЭксМаш", "priority": 1},
+            {"label": "ЭО", "priority": 1},
+            {"label": "ЭОВ", "priority": 1},
+            {"label": "ЮМЗ", "priority": 1}
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите марку"
+            }
+          ]
+        },
+        {
+          "label": "Модель",
+          "name": "auto-special-excavators-model",
+          "priority": 3,
+          "post_form": "textbox",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": " Укажите модель"
+            }
+          ]
+        },
+        {
+          "label": "Год выпуска",
+          "name": "auto-special-excavators-year",
+          "priority": 4,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 3,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите год выпуска"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Год выпуска\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "auto-special-excavators-price",
+          "priority": 5,
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "search_priority": 2,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Моточасы",
+          "name": "auto-special-excavators-price-motohours",
+          "priority": 6,
+          "post_form": "textbox",
+          "measure": "моточасов",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Моточасы\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Объем двигателя",
+          "name": "auto-special-excavators-volume",
+          "priority": 7,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 5,
+          "measure": "л.",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите объем двигателя."
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "\"Объем двигателя\" - значение должно быть числом."
+            }
+          ]
+        },
+        {
+          "label": "Мощность",
+          "name": "auto-special-excavators-power",
+          "priority": 8,
+          "post_form": "textbox",
+          "measure": "л.с.",
+          "hint": "пример: 80 л.с.",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Мощность\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Объем ковша",
+          "name": "bucket_capacity",
+          "priority": 9,
+          "post_form": "textbox",
+          "measure": "м<sup>3</sup>",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "\"Объем ковша\" - значение должно быть числом."
+            }
+          ]
+        },
+        {
+          "label": "Наличие",
+          "name": "auto-special-excavators-availability",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "options": [
+            {
+              "label": "В наличии",
+              "priority": 1
+            },
+            {
+              "label": "На заказ",
+              "priority": 2
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите наличие"
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "auto-special-excavators-condition",
+          "priority": 12,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Отличное",
+              "priority": 1
+            },
+            {
+              "label": "Хорошее",
+              "priority": 2
+            },
+            {
+              "label": "Среднее",
+              "priority": 3
+            },
+            {
+              "label": "Требует ремонта",
+              "priority": 4
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}
+
+
+
+
+
+

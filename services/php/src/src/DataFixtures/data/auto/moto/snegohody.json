@@ -1,0 +1,1585 @@
+{
+  "label": "Снегоходы",
+  "name": "auto-moto-snegohody",
+  "url": "auto-moto-snegohody",
+  "priority": 4,
+  "children": [
+    {
+      "label": "ABM",
+      "name": "auto-moto-snegohody-abm",
+      "url": "auto-moto-snegohody-abm",
+      "children": [
+        {
+          "label": "Apache Track",
+          "name": "auto-moto-snegohody-abm-apache_track",
+          "url": "auto-moto-snegohody-abm-apache_track"
+        },
+        {
+          "label": "Ladoga",
+          "name": "auto-moto-snegohody-abm-ladoga",
+          "url": "auto-moto-snegohody-abm-ladoga"
+        },
+        {
+          "label": "Wind 320",
+          "name": "auto-moto-snegohody-abm-wind_320",
+          "url": "auto-moto-snegohody-abm-wind_320"
+        }
+      ]
+    },
+    {
+      "label": "Alpina",
+      "name": "auto-moto-snegohody-alpina",
+      "url": "auto-moto-snegohody-alpina",
+      "children": [
+        {
+          "label": "Sherpa",
+          "name": "auto-moto-snegohody-alpina-sherpa",
+          "url": "auto-moto-snegohody-alpina-sherpa"
+        }
+      ]
+    },
+    {
+      "label": "Arctic Cat",
+      "name": "auto-moto-snegohody-arctic_cat",
+      "url": "auto-moto-snegohody-arctic_cat",
+      "children": [
+        {
+          "label": "Bearcat",
+          "name": "auto-moto-snegohody-arctic_cat-bearcat",
+          "url": "auto-moto-snegohody-arctic_cat-bearcat"
+        },
+        {
+          "label": "F series",
+          "name": "auto-moto-snegohody-arctic_cat-f_series",
+          "url": "auto-moto-snegohody-arctic_cat-f_series"
+        },
+        {
+          "label": "M series",
+          "name": "auto-moto-snegohody-arctic_cat-m_series",
+          "url": "auto-moto-snegohody-arctic_cat-m_series"
+        },
+        {
+          "label": "Pantera",
+          "name": "auto-moto-snegohody-arctic_cat-pantera",
+          "url": "auto-moto-snegohody-arctic_cat-pantera"
+        },
+        {
+          "label": "Panther",
+          "name": "auto-moto-snegohody-arctic_cat-panther",
+          "url": "auto-moto-snegohody-arctic_cat-panther"
+        },
+        {
+          "label": "Sabercat",
+          "name": "auto-moto-snegohody-arctic_cat-sabercat",
+          "url": "auto-moto-snegohody-arctic_cat-sabercat"
+        },
+        {
+          "label": "Sno Pro",
+          "name": "auto-moto-snegohody-arctic_cat-sno_pro",
+          "url": "auto-moto-snegohody-arctic_cat-sno_pro"
+        },
+        {
+          "label": "T660",
+          "name": "auto-moto-snegohody-arctic_cat-t660",
+          "url": "auto-moto-snegohody-arctic_cat-t660"
+        },
+        {
+          "label": "TZ1",
+          "name": "auto-moto-snegohody-arctic_cat-tz1",
+          "url": "auto-moto-snegohody-arctic_cat-tz1"
+        },
+        {
+          "label": "XF series",
+          "name": "auto-moto-snegohody-arctic_cat-xf_series",
+          "url": "auto-moto-snegohody-arctic_cat-xf_series"
+        },
+        {
+          "label": "ZR series",
+          "name": "auto-moto-snegohody-arctic_cat-zr_series",
+          "url": "auto-moto-snegohody-arctic_cat-zr_series"
+        }
+      ]
+    },
+    {
+      "label": "Armada",
+      "name": "auto-moto-snegohody-armada",
+      "url": "auto-moto-snegohody-armada",
+      "children": [
+        {
+          "label": "PD",
+          "name": "auto-moto-snegohody-armada-pd",
+          "url": "auto-moto-snegohody-armada-pd"
+        },
+        {
+          "label": "PD250",
+          "name": "auto-moto-snegohody-armada-pd250",
+          "url": "auto-moto-snegohody-armada-pd250"
+        },
+        {
+          "label": "SR",
+          "name": "auto-moto-snegohody-armada-sr",
+          "url": "auto-moto-snegohody-armada-sr"
+        }
+      ]
+    },
+    {
+      "label": "ASA",
+      "name": "auto-moto-snegohody-asa",
+      "url": "auto-moto-snegohody-asa",
+      "children": [
+        {
+          "label": "Snow Scooter 301",
+          "name": "auto-moto-snegohody-asa-snow_scooter_301",
+          "url": "auto-moto-snegohody-asa-snow_scooter_301"
+        },
+        {
+          "label": "Snow Scooter 305",
+          "name": "auto-moto-snegohody-asa-snow_scooter_305",
+          "url": "auto-moto-snegohody-asa-snow_scooter_305"
+        }
+      ]
+    },
+    {
+      "label": "BMW Alpina",
+      "name": "auto-moto-snegohody-bmw_alpina",
+      "url": "auto-moto-snegohody-bmw_alpina",
+      "children": [
+        {
+          "label": "SUPERCLASS Mk2 Xtreme",
+          "name": "auto-moto-snegohody-bmw_alpina-superclass_mk2_xtreme",
+          "url": "auto-moto-snegohody-bmw_alpina-superclass_mk2_xtreme"
+        },
+        {
+          "label": "Sherpa",
+          "name": "auto-moto-snegohody-bmw_alpina-sherpa",
+          "url": "auto-moto-snegohody-bmw_alpina-sherpa"
+        }
+      ]
+    },
+    {
+      "label": "BRP",
+      "name": "auto-moto-snegohody-brp",
+      "url": "auto-moto-snegohody-brp",
+      "children": [
+        {
+          "label": "Lynx 49 Ranger",
+          "name": "auto-moto-snegohody-brp-lynx_49_ranger",
+          "url": "auto-moto-snegohody-brp-lynx_49_ranger"
+        },
+        {
+          "label": "Lynx 69 Alpine",
+          "name": "auto-moto-snegohody-brp-lynx_69_alpine",
+          "url": "auto-moto-snegohody-brp-lynx_69_alpine"
+        },
+        {
+          "label": "Lynx 69 Ranger",
+          "name": "auto-moto-snegohody-brp-lynx_69_ranger",
+          "url": "auto-moto-snegohody-brp-lynx_69_ranger"
+        },
+        {
+          "label": "Lynx 6900",
+          "name": "auto-moto-snegohody-brp-lynx_6900",
+          "url": "auto-moto-snegohody-brp-lynx_6900"
+        },
+        {
+          "label": "Lynx Adventure",
+          "name": "auto-moto-snegohody-brp-lynx_adventure",
+          "url": "auto-moto-snegohody-brp-lynx_adventure"
+        },
+        {
+          "label": "Lynx BoonDocker",
+          "name": "auto-moto-snegohody-brp-lynx_boondocker",
+          "url": "auto-moto-snegohody-brp-lynx_boondocker"
+        },
+        {
+          "label": "Lynx Commander",
+          "name": "auto-moto-snegohody-brp-lynx_commander",
+          "url": "auto-moto-snegohody-brp-lynx_commander"
+        },
+        {
+          "label": "Lynx Explorer",
+          "name": "auto-moto-snegohody-brp-lynx_explorer",
+          "url": "auto-moto-snegohody-brp-lynx_explorer"
+        },
+        {
+          "label": "Lynx Forest Fox",
+          "name": "auto-moto-snegohody-brp-lynx_forest_fox",
+          "url": "auto-moto-snegohody-brp-lynx_forest_fox"
+        },
+        {
+          "label": "Lynx GLX 5900",
+          "name": "auto-moto-snegohody-brp-lynx_glx_5900",
+          "url": "auto-moto-snegohody-brp-lynx_glx_5900"
+        },
+        {
+          "label": "Lynx Rave",
+          "name": "auto-moto-snegohody-brp-lynx_rave",
+          "url": "auto-moto-snegohody-brp-lynx_rave"
+        },
+        {
+          "label": "Lynx ST",
+          "name": "auto-moto-snegohody-brp-lynx_st",
+          "url": "auto-moto-snegohody-brp-lynx_st"
+        },
+        {
+          "label": "Lynx Safari",
+          "name": "auto-moto-snegohody-brp-lynx_safari",
+          "url": "auto-moto-snegohody-brp-lynx_safari"
+        },
+        {
+          "label": "Lynx Xtrim 550",
+          "name": "auto-moto-snegohody-brp-lynx_xtrim_550",
+          "url": "auto-moto-snegohody-brp-lynx_xtrim_550"
+        },
+        {
+          "label": "Lynx Xtrim Commander 600",
+          "name": "auto-moto-snegohody-brp-lynx_xtrim_commander_600",
+          "url": "auto-moto-snegohody-brp-lynx_xtrim_commander_600"
+        },
+        {
+          "label": "Lynx Xtrim Commander 800",
+          "name": "auto-moto-snegohody-brp-lynx_xtrim_commander_800",
+          "url": "auto-moto-snegohody-brp-lynx_xtrim_commander_800"
+        },
+        {
+          "label": "Lynx Xtrim SC 600",
+          "name": "auto-moto-snegohody-brp-lynx_xtrim_sc_600",
+          "url": "auto-moto-snegohody-brp-lynx_xtrim_sc_600"
+        },
+        {
+          "label": "Lynx Xtrim SC 800",
+          "name": "auto-moto-snegohody-brp-lynx_xtrim_sc_800",
+          "url": "auto-moto-snegohody-brp-lynx_xtrim_sc_800"
+        },
+        {
+          "label": "Lynx Yeti",
+          "name": "auto-moto-snegohody-brp-lynx_yeti",
+          "url": "auto-moto-snegohody-brp-lynx_yeti"
+        },
+        {
+          "label": "Lynx Yeti Pro Army",
+          "name": "auto-moto-snegohody-brp-lynx_yeti_pro_army",
+          "url": "auto-moto-snegohody-brp-lynx_yeti_pro_army"
+        },
+        {
+          "label": "Ski-Doo Elite",
+          "name": "auto-moto-snegohody-brp-ski-doo_elite",
+          "url": "auto-moto-snegohody-brp-ski-doo_elite"
+        },
+        {
+          "label": "Ski-Doo Expedition",
+          "name": "auto-moto-snegohody-brp-ski-doo_expedition",
+          "url": "auto-moto-snegohody-brp-ski-doo_expedition"
+        },
+        {
+          "label": "Ski-Doo Formula",
+          "name": "auto-moto-snegohody-brp-ski-doo_formula",
+          "url": "auto-moto-snegohody-brp-ski-doo_formula"
+        },
+        {
+          "label": "Ski-Doo Freeride",
+          "name": "auto-moto-snegohody-brp-ski-doo_freeride",
+          "url": "auto-moto-snegohody-brp-ski-doo_freeride"
+        },
+        {
+          "label": "Ski-Doo Freestyle",
+          "name": "auto-moto-snegohody-brp-ski-doo_freestyle",
+          "url": "auto-moto-snegohody-brp-ski-doo_freestyle"
+        },
+        {
+          "label": "Ski-Doo GSX",
+          "name": "auto-moto-snegohody-brp-ski-doo_gsx",
+          "url": "auto-moto-snegohody-brp-ski-doo_gsx"
+        },
+        {
+          "label": "Ski-Doo GTX 1200",
+          "name": "auto-moto-snegohody-brp-ski-doo_gtx_1200",
+          "url": "auto-moto-snegohody-brp-ski-doo_gtx_1200"
+        },
+        {
+          "label": "Ski-Doo GTX 380",
+          "name": "auto-moto-snegohody-brp-ski-doo_gtx_380",
+          "url": "auto-moto-snegohody-brp-ski-doo_gtx_380"
+        },
+        {
+          "label": "Ski-Doo GTX 500",
+          "name": "auto-moto-snegohody-brp-ski-doo_gtx_500",
+          "url": "auto-moto-snegohody-brp-ski-doo_gtx_500"
+        },
+        {
+          "label": "Ski-Doo GTX 550",
+          "name": "auto-moto-snegohody-brp-ski-doo_gtx_550",
+          "url": "auto-moto-snegohody-brp-ski-doo_gtx_550"
+        },
+        {
+          "label": "Ski-Doo GTX 600",
+          "name": "auto-moto-snegohody-brp-ski-doo_gtx_600",
+          "url": "auto-moto-snegohody-brp-ski-doo_gtx_600"
+        },
+        {
+          "label": "Ski-Doo GTX 800",
+          "name": "auto-moto-snegohody-brp-ski-doo_gtx_800",
+          "url": "auto-moto-snegohody-brp-ski-doo_gtx_800"
+        },
+        {
+          "label": "Ski-Doo Grand Touring",
+          "name": "auto-moto-snegohody-brp-ski-doo_grand_touring",
+          "url": "auto-moto-snegohody-brp-ski-doo_grand_touring"
+        },
+        {
+          "label": "Ski-Doo Legend",
+          "name": "auto-moto-snegohody-brp-ski-doo_legend",
+          "url": "auto-moto-snegohody-brp-ski-doo_legend"
+        },
+        {
+          "label": "Ski-Doo MXZ Racing X 440",
+          "name": "auto-moto-snegohody-brp-ski-doo_mxz_racing_x_440",
+          "url": "auto-moto-snegohody-brp-ski-doo_mxz_racing_x_440"
+        },
+        {
+          "label": "Ski-Doo MXZ Renegade X 1000",
+          "name": "auto-moto-snegohody-brp-ski-doo_mxz_renegade_x_1000",
+          "url": "auto-moto-snegohody-brp-ski-doo_mxz_renegade_x_1000"
+        },
+        {
+          "label": "Ski-Doo MXZ Renegade X 1200",
+          "name": "auto-moto-snegohody-brp-ski-doo_mxz_renegade_x_1200",
+          "url": "auto-moto-snegohody-brp-ski-doo_mxz_renegade_x_1200"
+        },
+        {
+          "label": "Ski-Doo MXZ Renegade X 600",
+          "name": "auto-moto-snegohody-brp-ski-doo_mxz_renegade_x_600",
+          "url": "auto-moto-snegohody-brp-ski-doo_mxz_renegade_x_600"
+        },
+        {
+          "label": "Ski-Doo MXZ Renegade X 800",
+          "name": "auto-moto-snegohody-brp-ski-doo_mxz_renegade_x_800",
+          "url": "auto-moto-snegohody-brp-ski-doo_mxz_renegade_x_800"
+        },
+        {
+          "label": "Ski-Doo Mach Z",
+          "name": "auto-moto-snegohody-brp-ski-doo_mach_z",
+          "url": "auto-moto-snegohody-brp-ski-doo_mach_z"
+        },
+        {
+          "label": "Ski-Doo Scandic 900",
+          "name": "auto-moto-snegohody-brp-ski-doo_scandic_900",
+          "url": "auto-moto-snegohody-brp-ski-doo_scandic_900"
+        },
+        {
+          "label": "Ski-Doo Skandic 500",
+          "name": "auto-moto-snegohody-brp-ski-doo_skandic_500",
+          "url": "auto-moto-snegohody-brp-ski-doo_skandic_500"
+        },
+        {
+          "label": "Ski-Doo Skandic 550",
+          "name": "auto-moto-snegohody-brp-ski-doo_skandic_550",
+          "url": "auto-moto-snegohody-brp-ski-doo_skandic_550"
+        },
+        {
+          "label": "Ski-Doo Skandic 600",
+          "name": "auto-moto-snegohody-brp-ski-doo_skandic_600",
+          "url": "auto-moto-snegohody-brp-ski-doo_skandic_600"
+        },
+        {
+          "label": "Ski-Doo Summit 1000",
+          "name": "auto-moto-snegohody-brp-ski-doo_summit_1000",
+          "url": "auto-moto-snegohody-brp-ski-doo_summit_1000"
+        },
+        {
+          "label": "Ski-Doo Summit 500",
+          "name": "auto-moto-snegohody-brp-ski-doo_summit_500",
+          "url": "auto-moto-snegohody-brp-ski-doo_summit_500"
+        },
+        {
+          "label": "Ski-Doo Summit 550",
+          "name": "auto-moto-snegohody-brp-ski-doo_summit_550",
+          "url": "auto-moto-snegohody-brp-ski-doo_summit_550"
+        },
+        {
+          "label": "Ski-Doo Summit 600",
+          "name": "auto-moto-snegohody-brp-ski-doo_summit_600",
+          "url": "auto-moto-snegohody-brp-ski-doo_summit_600"
+        },
+        {
+          "label": "Ski-Doo Summit 700",
+          "name": "auto-moto-snegohody-brp-ski-doo_summit_700",
+          "url": "auto-moto-snegohody-brp-ski-doo_summit_700"
+        },
+        {
+          "label": "Ski-Doo Summit 800",
+          "name": "auto-moto-snegohody-brp-ski-doo_summit_800",
+          "url": "auto-moto-snegohody-brp-ski-doo_summit_800"
+        },
+        {
+          "label": "Ski-Doo Summit 850",
+          "name": "auto-moto-snegohody-brp-ski-doo_summit_850",
+          "url": "auto-moto-snegohody-brp-ski-doo_summit_850"
+        },
+        {
+          "label": "Ski-Doo Touring",
+          "name": "auto-moto-snegohody-brp-ski-doo_touring",
+          "url": "auto-moto-snegohody-brp-ski-doo_touring"
+        },
+        {
+          "label": "Ski-Doo Tundra 550",
+          "name": "auto-moto-snegohody-brp-ski-doo_tundra_550",
+          "url": "auto-moto-snegohody-brp-ski-doo_tundra_550"
+        },
+        {
+          "label": "Ski-Doo Tundra 800",
+          "name": "auto-moto-snegohody-brp-ski-doo_tundra_800",
+          "url": "auto-moto-snegohody-brp-ski-doo_tundra_800"
+        }
+      ]
+    },
+    {
+      "label": "CFMoto",
+      "name": "auto-moto-snegohody-cfmoto",
+      "url": "auto-moto-snegohody-cfmoto",
+      "children": [
+        {
+          "label": "CF250",
+          "name": "auto-moto-snegohody-cfmoto-cf250",
+          "url": "auto-moto-snegohody-cfmoto-cf250"
+        }
+      ]
+    },
+    {
+      "label": "Cronus",
+      "name": "auto-moto-snegohody-cronus",
+      "url": "auto-moto-snegohody-cronus",
+      "children": [
+        {
+          "label": "TT200P",
+          "name": "auto-moto-snegohody-cronus-tt200p",
+          "url": "auto-moto-snegohody-cronus-tt200p"
+        }
+      ]
+    },
+    {
+      "label": "Fighter",
+      "name": "auto-moto-snegohody-fighter",
+      "url": "auto-moto-snegohody-fighter",
+      "children": [
+        {
+          "label": "Snow",
+          "name": "auto-moto-snegohody-fighter-snow",
+          "url": "auto-moto-snegohody-fighter-snow"
+        }
+      ]
+    },
+    {
+      "label": "Fun&Tec",
+      "name": "auto-moto-snegohody-fun_and_tec",
+      "url": "auto-moto-snegohody-fun_and_tec",
+      "children": [
+        {
+          "label": "Snow Fly",
+          "name": "auto-moto-snegohody-fun_and_tec-snow_fly",
+          "url": "auto-moto-snegohody-fun_and_tec-snow_fly"
+        },
+        {
+          "label": "Лайка",
+          "name": "auto-moto-snegohody-fun_and_tec-lajka",
+          "url": "auto-moto-snegohody-fun_and_tec-lajka"
+        }
+      ]
+    },
+    {
+      "label": "IRBIS",
+      "name": "auto-moto-snegohody-irbis",
+      "url": "auto-moto-snegohody-irbis",
+      "children": [
+        {
+          "label": "DINGO",
+          "name": "auto-moto-snegohody-irbis-dingo",
+          "url": "auto-moto-snegohody-irbis-dingo"
+        },
+        {
+          "label": "Мухтар",
+          "name": "auto-moto-snegohody-irbis-muhtar",
+          "url": "auto-moto-snegohody-irbis-muhtar"
+        }
+      ]
+    },
+    {
+      "label": "Manfred",
+      "name": "auto-moto-snegohody-manfred",
+      "url": "auto-moto-snegohody-manfred",
+      "children": [
+        {
+          "label": "250",
+          "name": "auto-moto-snegohody-manfred-250",
+          "url": "auto-moto-snegohody-manfred-250"
+        }
+      ]
+    },
+    {
+      "label": "Motoland",
+      "name": "auto-moto-snegohody-motoland",
+      "url": "auto-moto-snegohody-motoland",
+      "children": [
+        {
+          "label": "S1",
+          "name": "auto-moto-snegohody-motoland-s1",
+          "url": "auto-moto-snegohody-motoland-s1"
+        },
+        {
+          "label": "S2",
+          "name": "auto-moto-snegohody-motoland-s2",
+          "url": "auto-moto-snegohody-motoland-s2"
+        }
+      ]
+    },
+    {
+      "label": "Paxus",
+      "name": "auto-moto-snegohody-paxus",
+      "url": "auto-moto-snegohody-paxus",
+      "children": [
+        {
+          "label": "Мотобуксировщики",
+          "name": "auto-moto-snegohody-paxus-motobuksirovshtiki",
+          "url": "auto-moto-snegohody-paxus-motobuksirovshtiki"
+        }
+      ]
+    },
+    {
+      "label": "Pegas",
+      "name": "auto-moto-snegohody-pegas",
+      "url": "auto-moto-snegohody-pegas",
+      "children": [
+        {
+          "label": "Voyager",
+          "name": "auto-moto-snegohody-pegas-voyager",
+          "url": "auto-moto-snegohody-pegas-voyager"
+        }
+      ]
+    },
+    {
+      "label": "Phantom Snowmobiles",
+      "name": "auto-moto-snegohody-phantom_snowmobiles",
+      "url": "auto-moto-snegohody-phantom_snowmobiles",
+      "children": [
+        {
+          "label": "250",
+          "name": "auto-moto-snegohody-phantom_snowmobiles-250",
+          "url": "auto-moto-snegohody-phantom_snowmobiles-250"
+        }
+      ]
+    },
+    {
+      "label": "Polaris",
+      "name": "auto-moto-snegohody-polaris",
+      "url": "auto-moto-snegohody-polaris",
+      "children": [
+        {
+          "label": "120 Assault",
+          "name": "auto-moto-snegohody-polaris-120_assault",
+          "url": "auto-moto-snegohody-polaris-120_assault"
+        },
+        {
+          "label": "120 Dragon",
+          "name": "auto-moto-snegohody-polaris-120_dragon",
+          "url": "auto-moto-snegohody-polaris-120_dragon"
+        },
+        {
+          "label": "120 INDY",
+          "name": "auto-moto-snegohody-polaris-120_indy",
+          "url": "auto-moto-snegohody-polaris-120_indy"
+        },
+        {
+          "label": "120 PRO X",
+          "name": "auto-moto-snegohody-polaris-120_pro_x",
+          "url": "auto-moto-snegohody-polaris-120_pro_x"
+        },
+        {
+          "label": "120 PRO-R",
+          "name": "auto-moto-snegohody-polaris-120_pro-r",
+          "url": "auto-moto-snegohody-polaris-120_pro-r"
+        },
+        {
+          "label": "340 Edge",
+          "name": "auto-moto-snegohody-polaris-340_edge",
+          "url": "auto-moto-snegohody-polaris-340_edge"
+        },
+        {
+          "label": "340 Transport",
+          "name": "auto-moto-snegohody-polaris-340_transport",
+          "url": "auto-moto-snegohody-polaris-340_transport"
+        },
+        {
+          "label": "440 INDY",
+          "name": "auto-moto-snegohody-polaris-440_indy",
+          "url": "auto-moto-snegohody-polaris-440_indy"
+        },
+        {
+          "label": "500 INDY",
+          "name": "auto-moto-snegohody-polaris-500_indy",
+          "url": "auto-moto-snegohody-polaris-500_indy"
+        },
+        {
+          "label": "500 IQ",
+          "name": "auto-moto-snegohody-polaris-500_iq",
+          "url": "auto-moto-snegohody-polaris-500_iq"
+        },
+        {
+          "label": "550 Classic",
+          "name": "auto-moto-snegohody-polaris-550_classic",
+          "url": "auto-moto-snegohody-polaris-550_classic"
+        },
+        {
+          "label": "550 INDY",
+          "name": "auto-moto-snegohody-polaris-550_indy",
+          "url": "auto-moto-snegohody-polaris-550_indy"
+        },
+        {
+          "label": "550 IQ",
+          "name": "auto-moto-snegohody-polaris-550_iq",
+          "url": "auto-moto-snegohody-polaris-550_iq"
+        },
+        {
+          "label": "550 Shift 136",
+          "name": "auto-moto-snegohody-polaris-550_shift_136",
+          "url": "auto-moto-snegohody-polaris-550_shift_136"
+        },
+        {
+          "label": "550 Trail Touring",
+          "name": "auto-moto-snegohody-polaris-550_trail_touring",
+          "url": "auto-moto-snegohody-polaris-550_trail_touring"
+        },
+        {
+          "label": "550 Transport",
+          "name": "auto-moto-snegohody-polaris-550_transport",
+          "url": "auto-moto-snegohody-polaris-550_transport"
+        },
+        {
+          "label": "600 Classic",
+          "name": "auto-moto-snegohody-polaris-600_classic",
+          "url": "auto-moto-snegohody-polaris-600_classic"
+        },
+        {
+          "label": "600 INDY",
+          "name": "auto-moto-snegohody-polaris-600_indy",
+          "url": "auto-moto-snegohody-polaris-600_indy"
+        },
+        {
+          "label": "600 IQ",
+          "name": "auto-moto-snegohody-polaris-600_iq",
+          "url": "auto-moto-snegohody-polaris-600_iq"
+        },
+        {
+          "label": "600 PRO-RMK",
+          "name": "auto-moto-snegohody-polaris-600_pro-rmk",
+          "url": "auto-moto-snegohody-polaris-600_pro-rmk"
+        },
+        {
+          "label": "600 RMK",
+          "name": "auto-moto-snegohody-polaris-600_rmk",
+          "url": "auto-moto-snegohody-polaris-600_rmk"
+        },
+        {
+          "label": "600 Rush",
+          "name": "auto-moto-snegohody-polaris-600_rush",
+          "url": "auto-moto-snegohody-polaris-600_rush"
+        },
+        {
+          "label": "600 Shift 136",
+          "name": "auto-moto-snegohody-polaris-600_shift_136",
+          "url": "auto-moto-snegohody-polaris-600_shift_136"
+        },
+        {
+          "label": "600 Switchback",
+          "name": "auto-moto-snegohody-polaris-600_switchback",
+          "url": "auto-moto-snegohody-polaris-600_switchback"
+        },
+        {
+          "label": "700 Classic",
+          "name": "auto-moto-snegohody-polaris-700_classic",
+          "url": "auto-moto-snegohody-polaris-700_classic"
+        },
+        {
+          "label": "700 INDY",
+          "name": "auto-moto-snegohody-polaris-700_indy",
+          "url": "auto-moto-snegohody-polaris-700_indy"
+        },
+        {
+          "label": "700 IQ",
+          "name": "auto-moto-snegohody-polaris-700_iq",
+          "url": "auto-moto-snegohody-polaris-700_iq"
+        },
+        {
+          "label": "700 RMK",
+          "name": "auto-moto-snegohody-polaris-700_rmk",
+          "url": "auto-moto-snegohody-polaris-700_rmk"
+        },
+        {
+          "label": "700 SKS",
+          "name": "auto-moto-snegohody-polaris-700_sks",
+          "url": "auto-moto-snegohody-polaris-700_sks"
+        },
+        {
+          "label": "700 Switchback",
+          "name": "auto-moto-snegohody-polaris-700_switchback",
+          "url": "auto-moto-snegohody-polaris-700_switchback"
+        },
+        {
+          "label": "800 Edge",
+          "name": "auto-moto-snegohody-polaris-800_edge",
+          "url": "auto-moto-snegohody-polaris-800_edge"
+        },
+        {
+          "label": "800 INDY",
+          "name": "auto-moto-snegohody-polaris-800_indy",
+          "url": "auto-moto-snegohody-polaris-800_indy"
+        },
+        {
+          "label": "800 IQ",
+          "name": "auto-moto-snegohody-polaris-800_iq",
+          "url": "auto-moto-snegohody-polaris-800_iq"
+        },
+        {
+          "label": "800 PRO X",
+          "name": "auto-moto-snegohody-polaris-800_pro_x",
+          "url": "auto-moto-snegohody-polaris-800_pro_x"
+        },
+        {
+          "label": "800 PRO-RMK",
+          "name": "auto-moto-snegohody-polaris-800_pro-rmk",
+          "url": "auto-moto-snegohody-polaris-800_pro-rmk"
+        },
+        {
+          "label": "800 RMK",
+          "name": "auto-moto-snegohody-polaris-800_rmk",
+          "url": "auto-moto-snegohody-polaris-800_rmk"
+        },
+        {
+          "label": "800 Rush",
+          "name": "auto-moto-snegohody-polaris-800_rush",
+          "url": "auto-moto-snegohody-polaris-800_rush"
+        },
+        {
+          "label": "800 SKS",
+          "name": "auto-moto-snegohody-polaris-800_sks",
+          "url": "auto-moto-snegohody-polaris-800_sks"
+        },
+        {
+          "label": "800 Switchback",
+          "name": "auto-moto-snegohody-polaris-800_switchback",
+          "url": "auto-moto-snegohody-polaris-800_switchback"
+        },
+        {
+          "label": "900 Fusion",
+          "name": "auto-moto-snegohody-polaris-900_fusion",
+          "url": "auto-moto-snegohody-polaris-900_fusion"
+        },
+        {
+          "label": "900 RMK",
+          "name": "auto-moto-snegohody-polaris-900_rmk",
+          "url": "auto-moto-snegohody-polaris-900_rmk"
+        },
+        {
+          "label": "FS",
+          "name": "auto-moto-snegohody-polaris-fs",
+          "url": "auto-moto-snegohody-polaris-fs"
+        },
+        {
+          "label": "FST",
+          "name": "auto-moto-snegohody-polaris-fst",
+          "url": "auto-moto-snegohody-polaris-fst"
+        },
+        {
+          "label": "Trail RMK",
+          "name": "auto-moto-snegohody-polaris-trail_rmk",
+          "url": "auto-moto-snegohody-polaris-trail_rmk"
+        },
+        {
+          "label": "Turbo IQ",
+          "name": "auto-moto-snegohody-polaris-turbo_iq",
+          "url": "auto-moto-snegohody-polaris-turbo_iq"
+        },
+        {
+          "label": "Turbo Switchback",
+          "name": "auto-moto-snegohody-polaris-turbo_switchback",
+          "url": "auto-moto-snegohody-polaris-turbo_switchback"
+        },
+        {
+          "label": "Widetrak IQ",
+          "name": "auto-moto-snegohody-polaris-widetrak_iq",
+          "url": "auto-moto-snegohody-polaris-widetrak_iq"
+        },
+        {
+          "label": "Widetrak LX",
+          "name": "auto-moto-snegohody-polaris-widetrak_lx",
+          "url": "auto-moto-snegohody-polaris-widetrak_lx"
+        }
+      ]
+    },
+    {
+      "label": "Simbel",
+      "name": "auto-moto-snegohody-simbel",
+      "url": "auto-moto-snegohody-simbel",
+      "children": [
+        {
+          "label": "FX-170",
+          "name": "auto-moto-snegohody-simbel-fx-170",
+          "url": "auto-moto-snegohody-simbel-fx-170"
+        }
+      ]
+    },
+    {
+      "label": "Snow Hawk",
+      "name": "auto-moto-snegohody-snow_hawk",
+      "url": "auto-moto-snegohody-snow_hawk",
+      "children": [
+        {
+          "label": "500 LT",
+          "name": "auto-moto-snegohody-snow_hawk-500_lt",
+          "url": "auto-moto-snegohody-snow_hawk-500_lt"
+        },
+        {
+          "label": "600 LT",
+          "name": "auto-moto-snegohody-snow_hawk-600_lt",
+          "url": "auto-moto-snegohody-snow_hawk-600_lt"
+        },
+        {
+          "label": "SNOW HAWK",
+          "name": "auto-moto-snegohody-snow_hawk-snow_hawk",
+          "url": "auto-moto-snegohody-snow_hawk-snow_hawk"
+        }
+      ]
+    },
+    {
+      "label": "Snowmax",
+      "name": "auto-moto-snegohody-snowmax",
+      "url": "auto-moto-snegohody-snowmax",
+      "children": [
+        {
+          "label": "T200",
+          "name": "auto-moto-snegohody-snowmax-t200",
+          "url": "auto-moto-snegohody-snowmax-t200"
+        }
+      ]
+    },
+    {
+      "label": "Stels",
+      "name": "auto-moto-snegohody-stels",
+      "url": "auto-moto-snegohody-stels",
+      "children": [
+        {
+          "label": "Viking",
+          "name": "auto-moto-snegohody-stels-viking",
+          "url": "auto-moto-snegohody-stels-viking"
+        },
+        {
+          "label": "Ермак",
+          "name": "auto-moto-snegohody-stels-ermak",
+          "url": "auto-moto-snegohody-stels-ermak"
+        },
+        {
+          "label": "Росомаха",
+          "name": "auto-moto-snegohody-stels-rosomaha",
+          "url": "auto-moto-snegohody-stels-rosomaha"
+        }
+      ]
+    },
+    {
+      "label": "Wels",
+      "name": "auto-moto-snegohody-wels",
+      "url": "auto-moto-snegohody-wels",
+      "children": [
+        {
+          "label": "Phantom",
+          "name": "auto-moto-snegohody-wels-phantom",
+          "url": "auto-moto-snegohody-wels-phantom"
+        }
+      ]
+    },
+    {
+      "label": "Yamaha",
+      "name": "auto-moto-snegohody-yamaha",
+      "url": "auto-moto-snegohody-yamaha",
+      "children": [
+        {
+          "label": "Apex",
+          "name": "auto-moto-snegohody-yamaha-apex",
+          "url": "auto-moto-snegohody-yamaha-apex"
+        },
+        {
+          "label": "Bravo T",
+          "name": "auto-moto-snegohody-yamaha-bravo_t",
+          "url": "auto-moto-snegohody-yamaha-bravo_t"
+        },
+        {
+          "label": "FX Nytro",
+          "name": "auto-moto-snegohody-yamaha-fx_nytro",
+          "url": "auto-moto-snegohody-yamaha-fx_nytro"
+        },
+        {
+          "label": "Mountain Max",
+          "name": "auto-moto-snegohody-yamaha-mountain_max",
+          "url": "auto-moto-snegohody-yamaha-mountain_max"
+        },
+        {
+          "label": "Phazer",
+          "name": "auto-moto-snegohody-yamaha-phazer",
+          "url": "auto-moto-snegohody-yamaha-phazer"
+        },
+        {
+          "label": "RS Rage",
+          "name": "auto-moto-snegohody-yamaha-rs_rage",
+          "url": "auto-moto-snegohody-yamaha-rs_rage"
+        },
+        {
+          "label": "RS Vector",
+          "name": "auto-moto-snegohody-yamaha-rs_vector",
+          "url": "auto-moto-snegohody-yamaha-rs_vector"
+        },
+        {
+          "label": "RS Venture",
+          "name": "auto-moto-snegohody-yamaha-rs_venture",
+          "url": "auto-moto-snegohody-yamaha-rs_venture"
+        },
+        {
+          "label": "RX Warrior",
+          "name": "auto-moto-snegohody-yamaha-rx_warrior",
+          "url": "auto-moto-snegohody-yamaha-rx_warrior"
+        },
+        {
+          "label": "RX-1",
+          "name": "auto-moto-snegohody-yamaha-rx-1",
+          "url": "auto-moto-snegohody-yamaha-rx-1"
+        },
+        {
+          "label": "SRX120",
+          "name": "auto-moto-snegohody-yamaha-srx120",
+          "url": "auto-moto-snegohody-yamaha-srx120"
+        },
+        {
+          "label": "SRX700",
+          "name": "auto-moto-snegohody-yamaha-srx700",
+          "url": "auto-moto-snegohody-yamaha-srx700"
+        },
+        {
+          "label": "SXViper",
+          "name": "auto-moto-snegohody-yamaha-sxviper",
+          "url": "auto-moto-snegohody-yamaha-sxviper"
+        },
+        {
+          "label": "VK Professional",
+          "name": "auto-moto-snegohody-yamaha-vk_professional",
+          "url": "auto-moto-snegohody-yamaha-vk_professional"
+        },
+        {
+          "label": "VK540",
+          "name": "auto-moto-snegohody-yamaha-vk540",
+          "url": "auto-moto-snegohody-yamaha-vk540"
+        },
+        {
+          "label": "VMAX SR",
+          "name": "auto-moto-snegohody-yamaha-vmax_sr",
+          "url": "auto-moto-snegohody-yamaha-vmax_sr"
+        },
+        {
+          "label": "Venture",
+          "name": "auto-moto-snegohody-yamaha-venture",
+          "url": "auto-moto-snegohody-yamaha-venture"
+        }
+      ]
+    },
+    {
+      "label": "Арктика",
+      "name": "auto-moto-snegohody-arktika",
+      "url": "auto-moto-snegohody-arktika",
+      "children": [
+        {
+          "label": "1500",
+          "name": "auto-moto-snegohody-arktika-1500",
+          "url": "auto-moto-snegohody-arktika-1500"
+        }
+      ]
+    },
+    {
+      "label": "Барс",
+      "name": "auto-moto-snegohody-bars",
+      "url": "auto-moto-snegohody-bars",
+      "children": [
+        {
+          "label": "Партизан",
+          "name": "auto-moto-snegohody-bars-partizan",
+          "url": "auto-moto-snegohody-bars-partizan"
+        },
+        {
+          "label": "Следопыт",
+          "name": "auto-moto-snegohody-bars-sledopyt",
+          "url": "auto-moto-snegohody-bars-sledopyt"
+        }
+      ]
+    },
+    {
+      "label": "Бурлак",
+      "name": "auto-moto-snegohody-burlak",
+      "url": "auto-moto-snegohody-burlak",
+      "children": [
+        {
+          "label": "Бурлак",
+          "name": "auto-moto-snegohody-burlak-burlak",
+          "url": "auto-moto-snegohody-burlak-burlak"
+        }
+      ]
+    },
+    {
+      "label": "Джек",
+      "name": "auto-moto-snegohody-dzhek",
+      "url": "auto-moto-snegohody-dzhek",
+      "children": [
+        {
+          "label": "Джек",
+          "name": "auto-moto-snegohody-dzhek-dzhek",
+          "url": "auto-moto-snegohody-dzhek-dzhek"
+        }
+      ]
+    },
+    {
+      "label": "ЗиД",
+      "name": "auto-moto-snegohody-zid",
+      "url": "auto-moto-snegohody-zid",
+      "children": [
+        {
+          "label": "МБГ-1 Фишкар",
+          "name": "auto-moto-snegohody-zid-mbg-1_fishkar",
+          "url": "auto-moto-snegohody-zid-mbg-1_fishkar"
+        },
+        {
+          "label": "МБГ-2 Вьюга",
+          "name": "auto-moto-snegohody-zid-mbg-2_vxyuga",
+          "url": "auto-moto-snegohody-zid-mbg-2_vxyuga"
+        }
+      ]
+    },
+    {
+      "label": "Итлан",
+      "name": "auto-moto-snegohody-itlan",
+      "url": "auto-moto-snegohody-itlan",
+      "children": [
+        {
+          "label": "Каюр",
+          "name": "auto-moto-snegohody-itlan-kayur",
+          "url": "auto-moto-snegohody-itlan-kayur"
+        }
+      ]
+    },
+    {
+      "label": "МВП",
+      "name": "auto-moto-snegohody-mvp",
+      "url": "auto-moto-snegohody-mvp",
+      "children": [
+        {
+          "label": "500",
+          "name": "auto-moto-snegohody-mvp-500",
+          "url": "auto-moto-snegohody-mvp-500"
+        }
+      ]
+    },
+    {
+      "label": "Пегас",
+      "name": "auto-moto-snegohody-pegas_russia",
+      "url": "auto-moto-snegohody-pegas_russia",
+      "children": [
+        {
+          "label": "СМТ-001",
+          "name": "auto-moto-snegohody-pegas-smt-001",
+          "url": "auto-moto-snegohody-pegas-smt-001"
+        }
+      ]
+    },
+    {
+      "label": "Пелец",
+      "name": "auto-moto-snegohody-pelec",
+      "url": "auto-moto-snegohody-pelec",
+      "children": [
+        {
+          "label": "Пилигрим",
+          "name": "auto-moto-snegohody-pelec-piligrim",
+          "url": "auto-moto-snegohody-pelec-piligrim"
+        }
+      ]
+    },
+    {
+      "label": "Прогресс",
+      "name": "auto-moto-snegohody-progress",
+      "url": "auto-moto-snegohody-progress",
+      "children": [
+        {
+          "label": "Прогресс 9S",
+          "name": "auto-moto-snegohody-progress-progress_9s",
+          "url": "auto-moto-snegohody-progress-progress_9s"
+        }
+      ]
+    },
+    {
+      "label": "Псковская Механика",
+      "name": "auto-moto-snegohody-pskovskaq_mehanika",
+      "url": "auto-moto-snegohody-pskovskaq_mehanika",
+      "children": [
+        {
+          "label": "CSZ",
+          "name": "auto-moto-snegohody-pskovskaq_mehanika-csz",
+          "url": "auto-moto-snegohody-pskovskaq_mehanika-csz"
+        }
+      ]
+    },
+    {
+      "label": "Райда",
+      "name": "auto-moto-snegohody-rajda",
+      "url": "auto-moto-snegohody-rajda",
+      "children": [
+        {
+          "label": "КБ-48",
+          "name": "auto-moto-snegohody-rajda-kb-48",
+          "url": "auto-moto-snegohody-rajda-kb-48"
+        }
+      ]
+    },
+    {
+      "label": "Русская Механика (RM)",
+      "name": "auto-moto-snegohody-russkaq_mehanika_rm",
+      "url": "auto-moto-snegohody-russkaq_mehanika_rm",
+      "children": [
+        {
+          "label": "Tiksy",
+          "name": "auto-moto-snegohody-russkaq_mehanika_rm-tiksy",
+          "url": "auto-moto-snegohody-russkaq_mehanika_rm-tiksy"
+        },
+        {
+          "label": "Буран",
+          "name": "auto-moto-snegohody-russkaq_mehanika_rm-buran",
+          "url": "auto-moto-snegohody-russkaq_mehanika_rm-buran"
+        },
+        {
+          "label": "Рыбинка",
+          "name": "auto-moto-snegohody-russkaq_mehanika_rm-rybinka",
+          "url": "auto-moto-snegohody-russkaq_mehanika_rm-rybinka"
+        },
+        {
+          "label": "Тайга Атака",
+          "name": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_ataka",
+          "url": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_ataka"
+        },
+        {
+          "label": "Тайга Варяг 500",
+          "name": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_varqg_500",
+          "url": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_varqg_500"
+        },
+        {
+          "label": "Тайга Варяг 550",
+          "name": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_varqg_550",
+          "url": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_varqg_550"
+        },
+        {
+          "label": "Тайга Патруль 550",
+          "name": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_patrulx_550",
+          "url": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_patrulx_550"
+        },
+        {
+          "label": "Тайга Патруль 551",
+          "name": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_patrulx_551",
+          "url": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_patrulx_551"
+        },
+        {
+          "label": "Тайга Патруль 800",
+          "name": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_patrulx_800",
+          "url": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_patrulx_800"
+        },
+        {
+          "label": "Тайга РМ Рысь",
+          "name": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_rm_rysx",
+          "url": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_rm_rysx"
+        },
+        {
+          "label": "Тайга СТ500Д",
+          "name": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_st500d",
+          "url": "auto-moto-snegohody-russkaq_mehanika_rm-tajga_st500d"
+        }
+      ]
+    },
+    {
+      "label": "Рысь",
+      "name": "auto-moto-snegohody-rysx",
+      "url": "auto-moto-snegohody-rysx",
+      "children": [
+        {
+          "label": "113",
+          "name": "auto-moto-snegohody-rysx-113",
+          "url": "auto-moto-snegohody-rysx-113"
+        },
+        {
+          "label": "119",
+          "name": "auto-moto-snegohody-rysx-119",
+          "url": "auto-moto-snegohody-rysx-119"
+        },
+        {
+          "label": "121",
+          "name": "auto-moto-snegohody-rysx-121",
+          "url": "auto-moto-snegohody-rysx-121"
+        },
+        {
+          "label": "500+",
+          "name": "auto-moto-snegohody-rysx-500+",
+          "url": "auto-moto-snegohody-rysx-500+"
+        }
+      ]
+    },
+    {
+      "label": "Турист",
+      "name": "auto-moto-snegohody-turist",
+      "url": "auto-moto-snegohody-turist",
+      "children": [
+        {
+          "label": "Снегоскутер",
+          "name": "auto-moto-snegohody-turist-snegoskuter",
+          "url": "auto-moto-snegohody-turist-snegoskuter"
+        }
+      ]
+    },
+    {
+      "label": "Ураган",
+      "name": "auto-moto-snegohody-uragan",
+      "url": "auto-moto-snegohody-uragan",
+      "children": [
+        {
+          "label": "Разборный",
+          "name": "auto-moto-snegohody-uragan-razbornyj",
+          "url": "auto-moto-snegohody-uragan-razbornyj"
+        }
+      ]
+    },
+    {
+      "label": "Хаски",
+      "name": "auto-moto-snegohody-haski",
+      "url": "auto-moto-snegohody-haski",
+      "children": [
+        {
+          "label": "Хаски",
+          "name": "auto-moto-snegohody-haski-haski",
+          "url": "auto-moto-snegohody-haski-haski"
+        }
+      ]
+    },
+    {
+      "label": "Шихан",
+      "name": "auto-moto-snegohody-shihan",
+      "url": "auto-moto-snegohody-shihan",
+      "children": [
+        {
+          "label": "Д-1",
+          "name": "auto-moto-snegohody-shihan-d-1",
+          "url": "auto-moto-snegohody-shihan-d-1"
+        },
+        {
+          "label": "Д-2",
+          "name": "auto-moto-snegohody-shihan-d-2",
+          "url": "auto-moto-snegohody-shihan-d-2"
+        },
+        {
+          "label": "К-1",
+          "name": "auto-moto-snegohody-shihan-k-1",
+          "url": "auto-moto-snegohody-shihan-k-1"
+        },
+        {
+          "label": "К-2",
+          "name": "auto-moto-snegohody-shihan-k-2",
+          "url": "auto-moto-snegohody-shihan-k-2"
+        }
+      ]
+    },
+    {
+      "label": "ЯВТ",
+      "name": "auto-moto-snegohody-yavt",
+      "url": "auto-moto-snegohody-yavt",
+      "children": [
+        {
+          "label": "Ирбис",
+          "name": "auto-moto-snegohody-yavt-irbis",
+          "url": "auto-moto-snegohody-yavt-irbis"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "name": "auto-moto-snegohody-type",
+      "label": "Тип",
+      "priority": 1,
+      "post_form": "dropdown",
+      "search_form": "checkbox",
+      "search_priority": 1,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Детский",
+          "priority": 1
+        },
+        {
+          "label": "Кроссовер",
+          "priority": 1
+        },
+        {
+          "label": "Спортивный горный",
+          "priority": 1
+        },
+        {
+          "label": "Спортивный кроссовый",
+          "priority": 1
+        },
+        {
+          "label": "Туристический",
+          "priority": 1
+        },
+        {
+          "label": "Утилитарный",
+          "priority": 1
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип"
+        }
+      ]
+    },
+    {
+      "label": "Цена",
+      "name": "auto-moto-snegohody-price",
+      "priority": 2,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 2,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите цену"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Год выпуска",
+      "name": "auto-moto-snegohody-year",
+      "priority": 3,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 3,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите год выпуска"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Год выпуска\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Пробег",
+      "name": "auto-moto-snegohody-odometer",
+      "priority": 4,
+      "post_form": "textbox",
+      "measure": "км",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Пробег\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "name": "auto-moto-snegohody-engine",
+      "label": "Тип двигателя",
+      "priority": 5,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 5,
+      "options": [
+        {"label": "Дизель", "priority": 1},
+        {"label": "Инжектор", "priority": 2},
+        {"label": "Карбюратор", "priority": 3},
+        {"label": "Бензин турбонаддув", "priority": 4}
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип двигателя"
+        }
+      ]
+    },
+    {
+      "label": "Объем двигателя",
+      "name": "auto-moto-snegohody-volume",
+      "priority": 6,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 6,
+      "measure": "л",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите объем двигателя"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "\"Объем двигателя\" - значение должно быть числом."
+        }
+      ]
+    },
+    {
+      "label": "Расположение цилиндров",
+      "name": "auto-moto-snegohody-cylinder_arrangement",
+      "priority": 8,
+      "post_form": "radio",
+      "options": [
+        {"label": "V-образное", "priority": 1},
+        {"label": "Оппозитное", "priority": 2},
+        {"label": "Рядное", "priority": 3},
+        {"label": "Ротор", "priority": 4}
+      ]
+    },
+    {
+      "label": "Кол-во цилиндров",
+      "name": "auto-moto-snegohody-cylinder_qty",
+      "priority": 9,
+      "post_form": "radio",
+      "options": [
+        {"label": "1", "priority": 1},
+        {"label": "2", "priority": 2},
+        {"label": "3", "priority": 3},
+        {"label": "4", "priority": 4},
+        {"label": "5", "priority": 5},
+        {"label": "6", "priority": 6}
+      ]
+    },
+    {
+      "label": "Мощность",
+      "name": "auto-moto-snegohody-power",
+      "priority": 10,
+      "post_form": "textbox",
+      "measure": "л.с.",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Мощность\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Число тактов",
+      "name": "auto-moto-snegohody-cycles_qty",
+      "priority": 12,
+      "post_form": "radio",
+      "options": [
+        {"label": "2", "priority": 1},
+        {"label": "4", "priority": 2}
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "auto-moto-snegohody-condition",
+      "priority": 13,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "Отличное",
+          "priority": 1
+        },
+        {
+          "label": "Хорошее",
+          "priority": 2
+        },
+        {
+          "label": "Среднее",
+          "priority": 3
+        },
+        {
+          "label": "Требует ремонта",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "Наличие",
+      "name": "auto-moto-snegohody-availability",
+      "priority": 14,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 14,
+      "options": [
+        {
+          "label": "В наличии",
+          "priority": 1
+        },
+        {
+          "label": "На заказ",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите наличие"
+        }
+      ]
+    },
+    {
+      "label": "Прочее",
+      "name": "auto-moto-snegohody-additional_information",
+      "priority": 15,
+      "post_form": "checkboxlist",
+      "parameters": [
+        {
+          "name": "newly_delivered",
+          "label": "Свежедоставлен",
+          "post_form": "checkbox",
+          "priority": 1
+        },
+        {
+          "name": "cleared",
+          "label": "Растаможен",
+          "post_form": "checkbox",
+          "priority": 2
+        },
+        {
+          "name": "investment_does_not_required",
+          "label": "Вложений не требует",
+          "post_form": "checkbox",
+          "priority": 3
+        },
+        {
+          "name": "urgent",
+          "label": "Срочно",
+          "post_form": "checkbox",
+          "priority": 4
+        },
+        {
+          "name": "inspection_passed",
+          "label": "Техосмотр пройден",
+          "post_form": "checkbox",
+          "priority": 5
+        },
+        {
+          "name": "barter",
+          "label": "Возможен обмен",
+          "post_form": "checkbox",
+          "priority": 6
+        }
+      ]
+    }
+  ]
+}

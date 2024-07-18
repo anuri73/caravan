@@ -1,0 +1,41 @@
+{
+  "label": "Освещение",
+  "url": "home-garden-lighting",
+  "priority": 5,
+  "parameters": [
+    {
+      "label": "Тип",
+      "name": "home-garden-lighting-type",
+      "priority": 11,
+      "post_form": "dropdown",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип"
+        }
+      ],
+      "search_form": "checkbox",
+      "search_priority": 11,
+      "filter_default_toggle": true,
+      "options": [
+        {"label": "Лампочки","priority": 1},
+        {"label": "Люстры","priority": 1},
+        {"label": "Настенно-потолочные светильники","priority": 1},
+        {"label": "Настольные лампы","priority": 1},
+        {"label": "Бра","priority": 1},
+        {"label": "Торшеры и напольные светильники","priority": 1},
+        {"label": "Интерьерная подсветка","priority": 1},
+        {"label": "Светодиодные ленты","priority": 1},
+        {"label": "Ночники","priority": 1},
+        {"label": "Встраиваемые светильники","priority": 1},
+        {"label": "Споты и трек-системы","priority": 1},
+        {"label": "Комплектующие","priority": 1},
+        {"label": "Уличное освещение","priority": 1},
+        {"label": "Прожекторы","priority": 1},
+        {"label": "Управление освещением","priority": 1},
+        {"label": "Шнуры и плафоны","priority": 1},
+        {"label": "Другой","priority": 1}
+      ]
+    }
+  ]
+}

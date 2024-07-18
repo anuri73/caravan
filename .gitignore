@@ -7,3 +7,4 @@ docker-compose.yml
 # Nginx
 /services/nginx/conf.d/*
 /services/nginx/logs/*
+/services/php/log/*

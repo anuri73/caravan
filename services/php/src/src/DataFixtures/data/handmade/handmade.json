@@ -1,0 +1,466 @@
+{
+  "label": "Ручная работа",
+  "url": "handmade",
+  "priority": 12,
+  "parameters": [
+    {
+      "label": "Название товара",
+      "name": "handmade-title",
+      "priority": 1,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Введите название товара"
+        }
+      ],
+      "post_form": "textbox"
+    },
+    {
+      "label": "Цена",
+      "name": "handmade-price",
+      "priority": 20,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "Цена - значение должно быть числом"
+        }
+      ],
+      "post_form": "textbox",
+      "measure": "сом",
+      "search_form": "range",
+      "filter_default_toggle": true,
+      "search_priority": 20
+    }
+  ],
+  "children": [
+    {
+      "label": "Национальные изделия",
+      "url": "handmade-national-products",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "handmade-national-products-type",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Головные уборы и шарфы","priority": 1},
+            {"label": "Изделия из войлока","priority": 1},
+            {"label": "Изделия из дерева","priority": 1},
+            {"label": "Изделия из кожи","priority": 1},
+            {"label": "Изделия из металла","priority": 1},
+            {"label": "Национальная одежда и обувь","priority": 1},
+            {"label": "Национальные украшения","priority": 1},
+            {"label": "Национальная посуда","priority": 1},
+            {"label": "Сувениры","priority": 1},
+            {"label": "Сумки, ремни, аксессуары","priority": 1},
+            {"label": "Кызга сеп, приданое","priority": 1},
+            {"label": "Другие национальные изделия","priority": 1}
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "handmade-national-products-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Украшения",
+      "url": "handmade-jewelry-decorations",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "handmade-jewelry-decorations-type",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Браслеты","priority": 1},
+            {"label": "Броши","priority": 1},
+            {"label": "Заколки, обручи","priority": 1},
+            {"label": "Колье, бусы","priority": 1},
+            {"label": "Серьги","priority": 1},
+            {"label": "Другие украшения","priority": 1}
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "handmade-jewelry-decorations-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Дом и интерьер",
+      "url": "handmade-house-interior",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "handmade-house-interior-type",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Кухня и посуда","priority": 1},
+            {"label": "Предметы мебели","priority": 1},
+            {"label": "Ковры и шырдаки","priority": 1},
+            {"label": "Подушки, тошоки","priority": 1},
+            {"label": "Интерьер, декор","priority": 1},
+            {"label": "Другие изделия","priority": 1}
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "handmade-house-interior-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Одежда и обувь",
+      "url": "handmade-clothing-shoes",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "handmade-clothing-shoes-type",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Детям","priority": 1},
+            {"label": "Женщинам","priority": 1},
+            {"label": "Мужчинам","priority": 1}
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "handmade-clothing-shoes-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Игрушки",
+      "url": "handmade-toys",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "handmade-toys-type",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Деревянные игрушки","priority": 1},
+            {"label": "Куклы","priority": 1},
+            {"label": "Мягкие игрушки","priority": 1},
+            {"label": "Другие игрушки","priority": 1}
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "handmade-toys-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Живопись",
+      "url": "handmade-painting",
+      "priority": 6
+    },
+    {
+      "label": "Косметика и мыло",
+      "url": "handmade-сosmetics-soap",
+      "priority": 7
+    },
+    {
+      "label": "Мастер классы",
+      "url": "handmade-master-classes",
+      "priority": 8
+    },
+    {
+      "label": "Материалы для ручной работы",
+      "url": "handmade-materials-for-creativity",
+      "priority": 9
+    },
+    {
+      "label": "Открытки и канцтовары",
+      "url": "handmade-postcards-stationery",
+      "priority": 10
+    },
+    {
+      "label": "Сувениры ручной работы",
+      "url": "handmade-souvenirs",
+      "priority": 11,
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "handmade-souvenirs-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Сумки и аксессуары",
+      "url": "handmade-bags-accessories",
+      "priority": 12,
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "handmade-bags-accessories-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Для домашних животных",
+      "url": "handmade-for-animals",
+      "priority": 13,
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "handmade-for-animals-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Другие изделия ручной работы",
+      "url": "handmade-other",
+      "priority": 14,
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "handmade-other-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

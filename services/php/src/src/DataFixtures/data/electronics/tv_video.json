@@ -1,0 +1,366 @@
+{
+  "label": "Телевизоры и видео",
+  "url": "electronics-video",
+  "priority": 5,
+  "children": [
+    {
+      "url": "electronics-video-tv",
+      "label": "Телевизоры",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-video-tv-brand",
+          "priority": 22,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "Artel",
+              "priority": 1
+            },
+            {
+              "label": "BBK",
+              "priority": 2
+            },
+            {
+              "label": "Beko",
+              "priority": 3
+            },
+            {
+              "label": "Blesk",
+              "priority": 4
+            },
+            {
+              "label": "Elenberg",
+              "priority": 5
+            },
+            {
+              "label": "Grundig",
+              "priority": 6
+            },
+            {
+              "label": "Haier",
+              "priority": 7
+            },
+            {
+              "label": "Hisense",
+              "priority": 8
+            },
+            {
+              "label": "JVC",
+              "priority": 9
+            },
+            {
+              "label": "LG",
+              "priority": 10
+            },
+            {
+              "label": "Mystery",
+              "priority": 11
+            },
+            {
+              "label": "Osten",
+              "priority": 12
+            },
+            {
+              "label": "Panasonic",
+              "priority": 13
+            },
+            {
+              "label": "Philips",
+              "priority": 14
+            },
+            {
+              "label": "Samsung",
+              "priority": 15
+            },
+            {
+              "label": "Sanyo",
+              "priority": 16
+            },
+            {
+              "label": "Sharp",
+              "priority": 17
+            },
+            {
+              "label": "Shivaki",
+              "priority": 18
+            },
+            {
+              "label": "SKYWORTH",
+              "priority": 20
+            },
+            {
+              "label": "Sony",
+              "priority": 21
+            },
+            {
+              "label": "SUPRA",
+              "priority": 22
+            },
+            {
+              "label": "TCL",
+              "priority": 23
+            },
+            {
+              "label": "TELEFUNKEN",
+              "priority": 24
+            },
+            {
+              "label": "Thomson",
+              "priority": 25
+            },
+            {
+              "label": "Toshiba",
+              "priority": 26
+            },
+            {
+              "label": "Vestel",
+              "priority": 27
+            },
+            {
+              "label": "Xiaomi",
+              "priority": 28
+            },
+            {
+              "label": "Другое",
+              "priority": 29
+            }
+          ]
+        },
+        {
+          "label": "Диагональ",
+          "name": "electronics-video-tv-screen-size",
+          "priority": 23,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Диагональ - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "дюймов",
+          "search_form": "range",
+          "search_priority": 33
+        },
+        {
+          "label": "Опции",
+          "name": "electronics-video-tv-options",
+          "priority": 34,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "label": "Smart TV",
+              "name": "smart tv",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "label": "Поддержка 3D",
+              "name": "3d",
+              "post_form": "checkbox",
+              "priority": 3
+            },
+            {
+              "label": "HDMI",
+              "name": "hdmi",
+              "post_form": "checkbox",
+              "priority": 4
+            },
+            {
+              "label": "Wi-Fi",
+              "name": "wifi",
+              "post_form": "checkbox",
+              "priority": 5
+            },
+            {
+              "label": "Изогнутый экран",
+              "name": "curved",
+              "post_form": "checkbox",
+              "priority": 6
+            },
+            {
+              "label": "Поддержка HDR",
+              "name": "hdr",
+              "post_form": "checkbox",
+              "priority": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-video-home-theatres",
+      "label": "Домашние кинотеатры",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-video-home-theatres-brand",
+          "priority": 11,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AEG","priority": 1},
+            {"label": "BBK","priority": 1},
+            {"label": "Bose","priority": 1},
+            {"label": "Denon","priority": 1},
+            {"label": "Digital","priority": 1},
+            {"label": "ESCADA Electronics","priority": 1},
+            {"label": "Harman/Kardon","priority": 1},
+            {"label": "Hyundai","priority": 1},
+            {"label": "JVC","priority": 1},
+            {"label": "KEF","priority": 1},
+            {"label": "LG","priority": 1},
+            {"label": "Mystery","priority": 1},
+            {"label": "Nakamichi","priority": 1},
+            {"label": "Onkyo","priority": 1},
+            {"label": "Panasonic","priority": 1},
+            {"label": "Philips","priority": 1},
+            {"label": "Pioneer","priority": 1},
+            {"label": "Polk Audio","priority": 1},
+            {"label": "Pyle","priority": 1},
+            {"label": "Samsung","priority": 1},
+            {"label": "Sharp","priority": 1},
+            {"label": "Sherwood","priority": 1},
+            {"label": "Sony","priority": 1},
+            {"label": "SUPRA","priority": 1},
+            {"label": "Yamaha","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        },
+        {
+          "label": "Опции",
+          "name": "electronics-video-home-theatres-options",
+          "priority": 32,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "label": "Звуковая панель",
+              "name": "soundbar",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "label": "Караоке",
+              "name": "karaoke",
+              "post_form": "checkbox",
+              "priority": 4
+            },
+            {
+              "label": "Поддержка BD (Blu-ray Disc)",
+              "name": "blue-ray support",
+              "post_form": "checkbox",
+              "priority": 5
+            },
+            {
+              "label": "Поддержка Blu-Ray 3D",
+              "name": "blue-ray 3d support",
+              "post_form": "checkbox",
+              "priority": 6
+            },
+            {
+              "label": "Поддержка MKV",
+              "name": "mkv support",
+              "post_form": "checkbox",
+              "priority": 7
+            },
+            {
+              "label": "Поддержка iPhone/iPod",
+              "name": "iPhone/iPod support",
+              "post_form": "checkbox",
+              "priority": 8
+            },
+            {
+              "label": "Декодер DTS-HD Master Audio",
+              "name": "DTS-HD Master Audio decoder",
+              "post_form": "checkbox",
+              "priority": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-video-media-players",
+      "label": "Медиаплееры",
+      "priority": 3
+    },
+    {
+      "url": "electronics-video-dvd-blu-ray-players",
+      "label": "DVD и Blu-ray плееры",
+      "priority": 4
+    },
+    {
+      "url": "electronics-video-tv-accessories",
+      "label": "Аксессуары для ТВ",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-video-tv-accessories-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "3D очки","priority": 1},
+            {"label": "пульты управления","priority": 1},
+            {"label": "антенны","priority": 1},
+            {"label": "стойки для ТВ и аудио","priority": 1},
+            {"label": "крепления","priority": 1},
+            {"label": "кабели HDMI, DVI, VGA","priority": 1},
+            {"label": "аудио- и видеокабели","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-video-cable-tv",
+      "label": "Спутниковое и кабельное ТВ",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-video-cable-tv-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "карты доступа","priority": 1},
+            {"label": "комплекты","priority": 1},
+            {"label": "конвертеры","priority": 1},
+            {"label": "мультисвичи","priority": 1},
+            {"label": "спутниковые антенны","priority": 1},
+            {"label": "спутниковые ресиверы","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-video-other",
+      "label": "Прочая ТВ и видеотехника",
+      "priority": 7
+    }
+  ]
+}

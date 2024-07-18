@@ -1,0 +1,1463 @@
+{
+  "label": "Животные",
+  "url": "animals",
+  "priority": 11,
+  "parameters": [
+    {
+      "label": "Заголовок",
+      "name": "animals-title",
+      "priority": 1,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите заголовок"
+        }
+      ],
+      "post_form": "textbox"
+    }
+  ],
+  "children": [
+    {
+      "label": "Товары для животных",
+      "url": "animals-supplies",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "animals-supplies-type",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {
+              "label": "Для сельхоз. животных",
+              "priority": 1
+            },
+            {
+              "label": "Для сельхоз. птиц",
+              "priority": 1
+            },
+            {
+              "label": "Для домашних питомцев",
+              "priority": 1
+            },
+            {
+              "label": "Другие",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "animals-supplies-price",
+          "priority": 20,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Цена - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "filter_default_toggle": true,
+          "search_priority": 20
+        }
+      ]
+    },
+    {
+      "label": "Собаки",
+      "url": "animals-dogs",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Порода",
+          "name": "animals-dogs-breed",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "options": [
+            {
+              "label": "Акита",
+              "priority": 1
+            },
+            {
+              "label": "Аляскинский маламут",
+              "priority": 1
+            },
+            {
+              "label": "Американский бульдог",
+              "priority": 1
+            },
+            {
+              "label": "Английский бульдог",
+              "priority": 1
+            },
+            {
+              "label": "Бассет",
+              "priority": 1
+            },
+            {
+              "label": "Бельгийская овчарка",
+              "priority": 1
+            },
+            {
+              "label": "Бернский зенненхунд",
+              "priority": 1
+            },
+            {
+              "label": "Бигль",
+              "priority": 1
+            },
+            {
+              "label": "Бишон фризе",
+              "priority": 1
+            },
+            {
+              "label": "Боксер",
+              "priority": 1
+            },
+            {
+              "label": "Болонка",
+              "priority": 1
+            },
+            {
+              "label": "Бордоский дог",
+              "priority": 1
+            },
+            {
+              "label": "Бульмастиф",
+              "priority": 1
+            },
+            {
+              "label": "Бультерьер",
+              "priority": 1
+            },
+            {
+              "label": "Бурбуль",
+              "priority": 1
+            },
+            {
+              "label": "Вест хайленд уайт терьер",
+              "priority": 1
+            },
+            {
+              "label": "Восточно-европейская овчарка",
+              "priority": 1
+            },
+            {
+              "label": "Гриффон",
+              "priority": 1
+            },
+            {
+              "label": "Далматин",
+              "priority": 1
+            },
+            {
+              "label": "Джек Рассел",
+              "priority": 1
+            },
+            {
+              "label": "Доберман",
+              "priority": 1
+            },
+            {
+              "label": "Золотистый ретривер",
+              "priority": 1
+            },
+            {
+              "label": "Ирландский сеттер",
+              "priority": 1
+            },
+            {
+              "label": "Йоркширский терьер",
+              "priority": 1
+            },
+            {
+              "label": "Кавказская овчарка",
+              "priority": 1
+            },
+            {
+              "label": "Кане корсо",
+              "priority": 1
+            },
+            {
+              "label": "Карликовый пинчер",
+              "priority": 1
+            },
+            {
+              "label": "Керри-блю терьер",
+              "priority": 1
+            },
+            {
+              "label": "Китайская хохлатая",
+              "priority": 1
+            },
+            {
+              "label": "Колли",
+              "priority": 1
+            },
+            {
+              "label": "Лабрадор ретривер",
+              "priority": 1
+            },
+            {
+              "label": "Лайка",
+              "priority": 1
+            },
+            {
+              "label": "Мальтийская болонка",
+              "priority": 1
+            },
+            {
+              "label": "Мастиф",
+              "priority": 1
+            },
+            {
+              "label": "Мексиканская голая собака",
+              "priority": 1
+            },
+            {
+              "label": "Миттельшнауцер",
+              "priority": 1
+            },
+            {
+              "label": "Мопс",
+              "priority": 1
+            },
+            {
+              "label": "Московская сторожевая",
+              "priority": 1
+            },
+            {
+              "label": "Немецкая овчарка",
+              "priority": 1
+            },
+            {
+              "label": "Немецкий дог",
+              "priority": 1
+            },
+            {
+              "label": "Папийон",
+              "priority": 1
+            },
+            {
+              "label": "Пекинес",
+              "priority": 1
+            },
+            {
+              "label": "Пит-бультерьер",
+              "priority": 1
+            },
+            {
+              "label": "Померанский шпиц",
+              "priority": 1
+            },
+            {
+              "label": "Пудель",
+              "priority": 1
+            },
+            {
+              "label": "Ризеншнауцер",
+              "priority": 1
+            },
+            {
+              "label": "Родезийский риджбек",
+              "priority": 1
+            },
+            {
+              "label": "Ротвейлер",
+              "priority": 1
+            },
+            {
+              "label": "Русская борзая",
+              "priority": 1
+            },
+            {
+              "label": "Русский черный терьер",
+              "priority": 1
+            },
+            {
+              "label": "Самоедская собака",
+              "priority": 1
+            },
+            {
+              "label": "Сенбернар",
+              "priority": 1
+            },
+            {
+              "label": "Сибирский хаски",
+              "priority": 1
+            },
+            {
+              "label": "Скай-терьер",
+              "priority": 1
+            },
+            {
+              "label": "Скотч-терьер",
+              "priority": 1
+            },
+            {
+              "label": "Спаниель",
+              "priority": 1
+            },
+            {
+              "label": "Среднеазиатская овчарка",
+              "priority": 1
+            },
+            {
+              "label": "Стаффордширский бультерьер",
+              "priority": 1
+            },
+            {
+              "label": "Стаффордширский терьер",
+              "priority": 1
+            },
+            {
+              "label": "Такса",
+              "priority": 1
+            },
+            {
+              "label": "Той-терьер",
+              "priority": 1
+            },
+            {
+              "label": "Фокстерьер",
+              "priority": 1
+            },
+            {
+              "label": "Французский бульдог",
+              "priority": 1
+            },
+            {
+              "label": "Цвергпинчер",
+              "priority": 1
+            },
+            {
+              "label": "Цвергшнауцер",
+              "priority": 1
+            },
+            {
+              "label": "Чау-чау",
+              "priority": 1
+            },
+            {
+              "label": "Чихуахуа",
+              "priority": 1
+            },
+            {
+              "label": "Шарпей",
+              "priority": 1
+            },
+            {
+              "label": "Ши-тцу",
+              "priority": 1
+            },
+            {
+              "label": "Шпиц",
+              "priority": 1
+            },
+            {
+              "label": "Эрдельтерьер",
+              "priority": 1
+            },
+            {
+              "label": "Японский хин",
+              "priority": 1
+            },
+            {
+              "label": "Другая",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "animals-dogs-price",
+          "priority": 20,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Цена - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "filter_default_toggle": true,
+          "search_priority": 20
+        }
+      ]
+    },
+    {
+      "label": "Кошки",
+      "url": "animals-cats",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Порода",
+          "name": "animals-cats-breed",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "options": [
+            {
+              "label": "Абиссинская",
+              "priority": 1
+            },
+            {
+              "label": "Американский керл",
+              "priority": 1
+            },
+            {
+              "label": "Бенгальская",
+              "priority": 1
+            },
+            {
+              "label": "Британская длинношерстная",
+              "priority": 1
+            },
+            {
+              "label": "Британская короткошерстная",
+              "priority": 1
+            },
+            {
+              "label": "Девон-рекс",
+              "priority": 1
+            },
+            {
+              "label": "Донской сфинкс",
+              "priority": 1
+            },
+            {
+              "label": "Европейская короткошерстная",
+              "priority": 1
+            },
+            {
+              "label": "Канадский сфинкс",
+              "priority": 1
+            },
+            {
+              "label": "Корниш-рекс",
+              "priority": 1
+            },
+            {
+              "label": "Курильский бобтейл",
+              "priority": 1
+            },
+            {
+              "label": "Манчкин",
+              "priority": 1
+            },
+            {
+              "label": "Мейн-кун",
+              "priority": 1
+            },
+            {
+              "label": "Меконгский бобтейл",
+              "priority": 1
+            },
+            {
+              "label": "Невская маскарадная",
+              "priority": 1
+            },
+            {
+              "label": "Норвежская лесная",
+              "priority": 1
+            },
+            {
+              "label": "Ориентальная",
+              "priority": 1
+            },
+            {
+              "label": "Персидская",
+              "priority": 1
+            },
+            {
+              "label": "Петерболд",
+              "priority": 1
+            },
+            {
+              "label": "Русская голубая",
+              "priority": 1
+            },
+            {
+              "label": "Сиамская",
+              "priority": 1
+            },
+            {
+              "label": "Сибирская",
+              "priority": 1
+            },
+            {
+              "label": "Скоттиш страйт",
+              "priority": 1
+            },
+            {
+              "label": "Скоттиш фолд",
+              "priority": 1
+            },
+            {
+              "label": "Сомалийская",
+              "priority": 1
+            },
+            {
+              "label": "Другая порода",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "animals-cats-price",
+          "priority": 20,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Цена - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "filter_default_toggle": true,
+          "search_priority": 20
+        }
+      ]
+    },
+    {
+      "label": "Сельхоз. животные и птицы",
+      "url": "animals-farm-animals",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Вид животного",
+          "name": "typeHidden",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите вид животного"
+            }
+          ],
+          "options": [
+            {
+              "label": "Крупно-рогатый скот",
+              "priority": 1
+            },
+            {
+              "label": "Лошади",
+              "priority": 1
+            },
+            {
+              "label": "Овцы",
+              "priority": 1
+            },
+            {
+              "label": "Пчелы",
+              "priority": 1
+            },
+            {
+              "label": "Козы",
+              "priority": 1
+            },
+            {
+              "label": "Свиньи",
+              "priority": 1
+            },
+            {
+              "label": "Куры,цыплята",
+              "priority": 1
+            },
+            {
+              "label": "Утки",
+              "priority": 1
+            },
+            {
+              "label": "Гуси",
+              "priority": 1
+            },
+            {
+              "label": "Индюки",
+              "priority": 1
+            },
+            {
+              "label": "Другие",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "animals-farm-animals-price",
+          "priority": 20,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Цена - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "filter_default_toggle": true,
+          "search_priority": 20
+        }
+      ]
+    },
+    {
+      "label": "Рептилии",
+      "url": "animals-reptiles",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Вид рептилии",
+          "name": "animals-reptiles-type",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите вид рептилии"
+            }
+          ],
+          "options": [
+            {
+              "label": "Черепахи",
+              "priority": 1
+            },
+            {
+              "label": "Ящерицы",
+              "priority": 1
+            },
+            {
+              "label": "Змеи",
+              "priority": 1
+            },
+            {
+              "label": "Игуаны",
+              "priority": 1
+            },
+            {
+              "label": "Хамелеоны",
+              "priority": 1
+            },
+            {
+              "label": "Другие",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "animals-reptiles-price",
+          "priority": 20,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Цена - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "filter_default_toggle": true,
+          "search_priority": 20
+        }
+      ]
+    },
+    {
+      "label": "Грызуны",
+      "url": "animals-rodents",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Вид грызуна",
+          "name": "animals-rodents-type",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите вид грызуна"
+            }
+          ],
+          "options": [
+            {
+              "label": "Хомячки",
+              "priority": 1
+            },
+            {
+              "label": "Морские свинки",
+              "priority": 1
+            },
+            {
+              "label": "Другие",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "animals-rodents-price",
+          "priority": 20,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Цена - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "filter_default_toggle": true,
+          "search_priority": 20
+        }
+      ]
+    },
+    {
+      "label": "Экзотические птицы",
+      "url": "animals-exotic-birds",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Вид птицы",
+          "name": "animals-exotic-birds-type",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите вид птицы"
+            }
+          ],
+          "options": [
+            {
+              "label": "Попугаи",
+              "priority": 1
+            },
+            {
+              "label": "Певчие птицы",
+              "priority": 1
+            },
+            {
+              "label": "Водоплавающие",
+              "priority": 1
+            },
+            {
+              "label": "Другие",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "animals-exotic-birds-price",
+          "priority": 20,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Цена - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "filter_default_toggle": true,
+          "search_priority": 20
+        }
+      ]
+    },
+    {
+      "label": "Аквариум",
+      "url": "animals-aquariums-fishes",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "animals-aquariums-fishes-type",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {
+              "label": "Аквариумы и комплектующие",
+              "priority": 1
+            },
+            {
+              "label": "Рыбы",
+              "priority": 1
+            },
+            {
+              "label": "Креветки, раки, крабы и улитки",
+              "priority": 1
+            },
+            {
+              "label": "Другие",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "animals-aquariums-fishes-price",
+          "priority": 20,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Цена - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "filter_default_toggle": true,
+          "search_priority": 20
+        }
+      ]
+    },
+    {
+      "label": "Другие животные",
+      "url": "animals-other-animals",
+      "priority": 9,
+      "parameters": [
+        {
+          "label": "Цена",
+          "name": "animals-other-animals-price",
+          "priority": 20,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Цена - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "filter_default_toggle": true,
+          "search_priority": 20
+        }
+      ]
+    },
+    {
+      "label": "Услуги для животных",
+      "url": "animals-services",
+      "priority": 10,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "animals-services-type",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {
+              "label": "Услуги ветеринара",
+              "priority": 1
+            },
+            {
+              "label": "Выгул",
+              "priority": 1
+            },
+            {
+              "label": "Дрессировка",
+              "priority": 1
+            },
+            {
+              "label": "Стрижки",
+              "priority": 1
+            },
+            {
+              "label": "Зоогостиницы, передержка",
+              "priority": 1
+            },
+            {
+              "label": "Другие",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "label": "Цена",
+          "name": "animals-services-price",
+          "priority": 20,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Цена - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "сом",
+          "search_form": "range",
+          "filter_default_toggle": true,
+          "search_priority": 20
+        }
+      ]
+    },
+    {
+      "label": "Вязка",
+      "url": "animals-mating",
+      "priority": 11,
+      "children":[
+        {
+          "label": "Собаки",
+          "url": "animals-mating-dogs",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Порода",
+              "name": "animals-mating-dogs-breed",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 21,
+              "options": [
+                {
+                  "label": "Акита",
+                  "priority": 1
+                },
+                {
+                  "label": "Аляскинский маламут",
+                  "priority": 1
+                },
+                {
+                  "label": "Американский бульдог",
+                  "priority": 1
+                },
+                {
+                  "label": "Английский бульдог",
+                  "priority": 1
+                },
+                {
+                  "label": "Бассет",
+                  "priority": 1
+                },
+                {
+                  "label": "Бельгийская овчарка",
+                  "priority": 1
+                },
+                {
+                  "label": "Бернский зенненхунд",
+                  "priority": 1
+                },
+                {
+                  "label": "Бигль",
+                  "priority": 1
+                },
+                {
+                  "label": "Бишон фризе",
+                  "priority": 1
+                },
+                {
+                  "label": "Боксер",
+                  "priority": 1
+                },
+                {
+                  "label": "Болонка",
+                  "priority": 1
+                },
+                {
+                  "label": "Бордоский дог",
+                  "priority": 1
+                },
+                {
+                  "label": "Бульмастиф",
+                  "priority": 1
+                },
+                {
+                  "label": "Бультерьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Бурбуль",
+                  "priority": 1
+                },
+                {
+                  "label": "Вест хайленд уайт терьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Восточно-европейская овчарка",
+                  "priority": 1
+                },
+                {
+                  "label": "Гриффон",
+                  "priority": 1
+                },
+                {
+                  "label": "Далматин",
+                  "priority": 1
+                },
+                {
+                  "label": "Джек Рассел",
+                  "priority": 1
+                },
+                {
+                  "label": "Доберман",
+                  "priority": 1
+                },
+                {
+                  "label": "Золотистый ретривер",
+                  "priority": 1
+                },
+                {
+                  "label": "Ирландский сеттер",
+                  "priority": 1
+                },
+                {
+                  "label": "Йоркширский терьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Кавказская овчарка",
+                  "priority": 1
+                },
+                {
+                  "label": "Кане корсо",
+                  "priority": 1
+                },
+                {
+                  "label": "Карликовый пинчер",
+                  "priority": 1
+                },
+                {
+                  "label": "Керри-блю терьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Китайская хохлатая",
+                  "priority": 1
+                },
+                {
+                  "label": "Колли",
+                  "priority": 1
+                },
+                {
+                  "label": "Лабрадор ретривер",
+                  "priority": 1
+                },
+                {
+                  "label": "Лайка",
+                  "priority": 1
+                },
+                {
+                  "label": "Мальтийская болонка",
+                  "priority": 1
+                },
+                {
+                  "label": "Мастиф",
+                  "priority": 1
+                },
+                {
+                  "label": "Мексиканская голая собака",
+                  "priority": 1
+                },
+                {
+                  "label": "Миттельшнауцер",
+                  "priority": 1
+                },
+                {
+                  "label": "Мопс",
+                  "priority": 1
+                },
+                {
+                  "label": "Московская сторожевая",
+                  "priority": 1
+                },
+                {
+                  "label": "Немецкая овчарка",
+                  "priority": 1
+                },
+                {
+                  "label": "Немецкий дог",
+                  "priority": 1
+                },
+                {
+                  "label": "Папийон",
+                  "priority": 1
+                },
+                {
+                  "label": "Пекинес",
+                  "priority": 1
+                },
+                {
+                  "label": "Пит-бультерьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Померанский шпиц",
+                  "priority": 1
+                },
+                {
+                  "label": "Пудель",
+                  "priority": 1
+                },
+                {
+                  "label": "Ризеншнауцер",
+                  "priority": 1
+                },
+                {
+                  "label": "Родезийский риджбек",
+                  "priority": 1
+                },
+                {
+                  "label": "Ротвейлер",
+                  "priority": 1
+                },
+                {
+                  "label": "Русская борзая",
+                  "priority": 1
+                },
+                {
+                  "label": "Русский черный терьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Самоедская собака",
+                  "priority": 1
+                },
+                {
+                  "label": "Сенбернар",
+                  "priority": 1
+                },
+                {
+                  "label": "Сибирский хаски",
+                  "priority": 1
+                },
+                {
+                  "label": "Скай-терьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Скотч-терьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Спаниель",
+                  "priority": 1
+                },
+                {
+                  "label": "Среднеазиатская овчарка",
+                  "priority": 1
+                },
+                {
+                  "label": "Стаффордширский бультерьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Стаффордширский терьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Такса",
+                  "priority": 1
+                },
+                {
+                  "label": "Той-терьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Фокстерьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Французский бульдог",
+                  "priority": 1
+                },
+                {
+                  "label": "Цвергпинчер",
+                  "priority": 1
+                },
+                {
+                  "label": "Цвергшнауцер",
+                  "priority": 1
+                },
+                {
+                  "label": "Чау-чау",
+                  "priority": 1
+                },
+                {
+                  "label": "Чихуахуа",
+                  "priority": 1
+                },
+                {
+                  "label": "Шарпей",
+                  "priority": 1
+                },
+                {
+                  "label": "Ши-тцу",
+                  "priority": 1
+                },
+                {
+                  "label": "Шпиц",
+                  "priority": 1
+                },
+                {
+                  "label": "Эрдельтерьер",
+                  "priority": 1
+                },
+                {
+                  "label": "Японский хин",
+                  "priority": 1
+                },
+                {
+                  "label": "Другая",
+                  "priority": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Кошки",
+          "url": "animals-mating-cats",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Порода",
+              "name": "animals-mating-cats-breed",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 21,
+              "options": [
+                {
+                  "label": "Абиссинская",
+                  "priority": 1
+                },
+                {
+                  "label": "Американский керл",
+                  "priority": 1
+                },
+                {
+                  "label": "Бенгальская",
+                  "priority": 1
+                },
+                {
+                  "label": "Британская длинношерстная",
+                  "priority": 1
+                },
+                {
+                  "label": "Британская короткошерстная",
+                  "priority": 1
+                },
+                {
+                  "label": "Девон-рекс",
+                  "priority": 1
+                },
+                {
+                  "label": "Донской сфинкс",
+                  "priority": 1
+                },
+                {
+                  "label": "Европейская короткошерстная",
+                  "priority": 1
+                },
+                {
+                  "label": "Канадский сфинкс",
+                  "priority": 1
+                },
+                {
+                  "label": "Корниш-рекс",
+                  "priority": 1
+                },
+                {
+                  "label": "Курильский бобтейл",
+                  "priority": 1
+                },
+                {
+                  "label": "Манчкин",
+                  "priority": 1
+                },
+                {
+                  "label": "Мейн-кун",
+                  "priority": 1
+                },
+                {
+                  "label": "Меконгский бобтейл",
+                  "priority": 1
+                },
+                {
+                  "label": "Невская маскарадная",
+                  "priority": 1
+                },
+                {
+                  "label": "Норвежская лесная",
+                  "priority": 1
+                },
+                {
+                  "label": "Ориентальная",
+                  "priority": 1
+                },
+                {
+                  "label": "Персидская",
+                  "priority": 1
+                },
+                {
+                  "label": "Петерболд",
+                  "priority": 1
+                },
+                {
+                  "label": "Русская голубая",
+                  "priority": 1
+                },
+                {
+                  "label": "Сиамская",
+                  "priority": 1
+                },
+                {
+                  "label": "Сибирская",
+                  "priority": 1
+                },
+                {
+                  "label": "Скоттиш страйт",
+                  "priority": 1
+                },
+                {
+                  "label": "Скоттиш фолд",
+                  "priority": 1
+                },
+                {
+                  "label": "Сомалийская",
+                  "priority": 1
+                },
+                {
+                  "label": "Другая порода",
+                  "priority": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Сельхоз. животные",
+          "url": "animals-mating-farm-animals",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Вид животного",
+              "name": "animals-mating-farm-animals-type",
+              "post_form": "radio",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите вид животного"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Крупно-рогатый скот",
+                  "priority": 1
+                },
+                {
+                  "label": "Лошади",
+                  "priority": 1
+                },
+                {
+                  "label": "Овцы",
+                  "priority": 1
+                },
+                {
+                  "label": "Козы",
+                  "priority": 1
+                },
+                {
+                  "label": "Свиньи",
+                  "priority": 1
+                },
+                {
+                  "label": "Другие",
+                  "priority": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Другие животные",
+          "url": "animals-mating-other",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "Отдам в хорошие руки",
+      "url": "animals-for-free",
+      "priority": 12,
+      "parameters": [
+        {
+          "label": "Вид животного",
+          "name": "animals-for-free-type",
+          "post_form": "radio",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Собаки",
+              "priority": 1
+            },
+            {
+              "label": "Кошки",
+              "priority": 1
+            },
+            {
+              "label": "Другие",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Бюро находок",
+      "url": "animals-lost-and-found",
+      "priority": 13
+    }
+  ]
+}

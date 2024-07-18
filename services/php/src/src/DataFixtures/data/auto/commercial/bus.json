@@ -1,0 +1,2923 @@
+{
+  "label": "Автобусы",
+  "name": "auto-commercial-bus",
+  "url": "auto-commercial-bus",
+  "priority": 4,
+  "children": [
+    {
+      "label": "ANKAI",
+      "name": "auto-commercial-bus-ankai",
+      "url": "auto-commercial-bus-ankai",
+      "children": [
+        {
+          "label": "GK15",
+          "name": "auto-commercial-bus-ankai-gk15",
+          "url": "auto-commercial-bus-ankai-gk15"
+        },
+        {
+          "label": "GK39",
+          "name": "auto-commercial-bus-ankai-gk39",
+          "url": "auto-commercial-bus-ankai-gk39"
+        },
+        {
+          "label": "K32",
+          "name": "auto-commercial-bus-ankai-k32",
+          "url": "auto-commercial-bus-ankai-k32"
+        },
+        {
+          "label": "K46",
+          "name": "auto-commercial-bus-ankai-k46",
+          "url": "auto-commercial-bus-ankai-k46"
+        },
+        {
+          "label": "K55",
+          "name": "auto-commercial-bus-ankai-k55",
+          "url": "auto-commercial-bus-ankai-k55"
+        },
+        {
+          "label": "K57",
+          "name": "auto-commercial-bus-ankai-k57",
+          "url": "auto-commercial-bus-ankai-k57"
+        },
+        {
+          "label": "K59",
+          "name": "auto-commercial-bus-ankai-k59",
+          "url": "auto-commercial-bus-ankai-k59"
+        }
+      ]
+    },
+    {
+      "label": "Asia",
+      "name": "auto-commercial-bus-asia",
+      "url": "auto-commercial-bus-asia",
+      "children": [
+        {
+          "label": "Cosmos",
+          "name": "auto-commercial-bus-asia-cosmos",
+          "url": "auto-commercial-bus-asia-cosmos"
+        }
+      ]
+    },
+    {
+      "label": "Ayats",
+      "name": "auto-commercial-bus-ayats",
+      "url": "auto-commercial-bus-ayats",
+      "children": [
+        {
+          "label": "ATLANTIS",
+          "name": "auto-commercial-bus-ayats-atlantis",
+          "url": "auto-commercial-bus-ayats-atlantis"
+        },
+        {
+          "label": "ATLAS2",
+          "name": "auto-commercial-bus-ayats-atlas2",
+          "url": "auto-commercial-bus-ayats-atlas2"
+        },
+        {
+          "label": "BRAVO I CITY",
+          "name": "auto-commercial-bus-ayats-bravo_i_city",
+          "url": "auto-commercial-bus-ayats-bravo_i_city"
+        },
+        {
+          "label": "BRAVO I R",
+          "name": "auto-commercial-bus-ayats-bravo_i_r",
+          "url": "auto-commercial-bus-ayats-bravo_i_r"
+        },
+        {
+          "label": "BRAVO II",
+          "name": "auto-commercial-bus-ayats-bravo_ii",
+          "url": "auto-commercial-bus-ayats-bravo_ii"
+        },
+        {
+          "label": "CITY USA",
+          "name": "auto-commercial-bus-ayats-city_usa",
+          "url": "auto-commercial-bus-ayats-city_usa"
+        },
+        {
+          "label": "PLATINUM",
+          "name": "auto-commercial-bus-ayats-platinum",
+          "url": "auto-commercial-bus-ayats-platinum"
+        }
+      ]
+    },
+    {
+      "label": "BAW",
+      "name": "auto-commercial-bus-baw",
+      "url": "auto-commercial-bus-baw",
+      "children": [
+        {
+          "label": "Express",
+          "name": "auto-commercial-bus-baw-express",
+          "url": "auto-commercial-bus-baw-express"
+        },
+        {
+          "label": "Street",
+          "name": "auto-commercial-bus-baw-street",
+          "url": "auto-commercial-bus-baw-street"
+        }
+      ]
+    },
+    {
+      "label": "Bluebird",
+      "name": "auto-commercial-bus-bluebird",
+      "url": "auto-commercial-bus-bluebird",
+      "children": [
+        {
+          "label": "CSRE",
+          "name": "auto-commercial-bus-bluebird-csre",
+          "url": "auto-commercial-bus-bluebird-csre"
+        }
+      ]
+    },
+    {
+      "label": "Bova",
+      "name": "auto-commercial-bus-bova",
+      "url": "auto-commercial-bus-bova",
+      "children": [
+        {
+          "label": "Europa",
+          "name": "auto-commercial-bus-bova-europa",
+          "url": "auto-commercial-bus-bova-europa"
+        },
+        {
+          "label": "Futura",
+          "name": "auto-commercial-bus-bova-futura",
+          "url": "auto-commercial-bus-bova-futura"
+        },
+        {
+          "label": "Magiq",
+          "name": "auto-commercial-bus-bova-magiq",
+          "url": "auto-commercial-bus-bova-magiq"
+        }
+      ]
+    },
+    {
+      "label": "Cobus",
+      "name": "auto-commercial-bus-cobus",
+      "url": "auto-commercial-bus-cobus",
+      "children": [
+        {
+          "label": "2400",
+          "name": "auto-commercial-bus-cobus-2400",
+          "url": "auto-commercial-bus-cobus-2400"
+        },
+        {
+          "label": "2700",
+          "name": "auto-commercial-bus-cobus-2700",
+          "url": "auto-commercial-bus-cobus-2700"
+        }
+      ]
+    },
+    {
+      "label": "Daewoo",
+      "name": "auto-commercial-bus-daewoo",
+      "url": "auto-commercial-bus-daewoo",
+      "children": [
+        {
+          "label": "BH-090",
+          "name": "auto-commercial-bus-daewoo-bh-090",
+          "url": "auto-commercial-bus-daewoo-bh-090"
+        },
+        {
+          "label": "BH-115",
+          "name": "auto-commercial-bus-daewoo-bh-115",
+          "url": "auto-commercial-bus-daewoo-bh-115"
+        },
+        {
+          "label": "BH-116",
+          "name": "auto-commercial-bus-daewoo-bh-116",
+          "url": "auto-commercial-bus-daewoo-bh-116"
+        },
+        {
+          "label": "BH-117",
+          "name": "auto-commercial-bus-daewoo-bh-117",
+          "url": "auto-commercial-bus-daewoo-bh-117"
+        },
+        {
+          "label": "BH-120",
+          "name": "auto-commercial-bus-daewoo-bh-120",
+          "url": "auto-commercial-bus-daewoo-bh-120"
+        },
+        {
+          "label": "BM",
+          "name": "auto-commercial-bus-daewoo-bm",
+          "url": "auto-commercial-bus-daewoo-bm"
+        },
+        {
+          "label": "BS-106",
+          "name": "auto-commercial-bus-daewoo-bs-106",
+          "url": "auto-commercial-bus-daewoo-bs-106"
+        },
+        {
+          "label": "BX-212",
+          "name": "auto-commercial-bus-daewoo-bx-212",
+          "url": "auto-commercial-bus-daewoo-bx-212"
+        },
+        {
+          "label": "FX 116",
+          "name": "auto-commercial-bus-daewoo-fx_116",
+          "url": "auto-commercial-bus-daewoo-fx_116"
+        },
+        {
+          "label": "Lestar",
+          "name": "auto-commercial-bus-daewoo-lestar",
+          "url": "auto-commercial-bus-daewoo-lestar"
+        }
+      ]
+    },
+    {
+      "label": "DAF",
+      "name": "auto-commercial-bus-daf",
+      "url": "auto-commercial-bus-daf",
+      "children": [
+        {
+          "label": "Туристический",
+          "name": "auto-commercial-bus-daf-turisticheskij",
+          "url": "auto-commercial-bus-daf-turisticheskij"
+        }
+      ]
+    },
+    {
+      "label": "DongFeng",
+      "name": "auto-commercial-bus-dongfeng",
+      "url": "auto-commercial-bus-dongfeng",
+      "children": [
+        {
+          "label": "6600",
+          "name": "auto-commercial-bus-dongfeng-6600",
+          "url": "auto-commercial-bus-dongfeng-6600"
+        },
+        {
+          "label": "6720",
+          "name": "auto-commercial-bus-dongfeng-6720",
+          "url": "auto-commercial-bus-dongfeng-6720"
+        },
+        {
+          "label": "6801",
+          "name": "auto-commercial-bus-dongfeng-6801",
+          "url": "auto-commercial-bus-dongfeng-6801"
+        }
+      ]
+    },
+    {
+      "label": "FAW",
+      "name": "auto-commercial-bus-faw",
+      "url": "auto-commercial-bus-faw",
+      "children": [
+        {
+          "label": "CA6602",
+          "name": "auto-commercial-bus-faw-ca6602",
+          "url": "auto-commercial-bus-faw-ca6602"
+        }
+      ]
+    },
+    {
+      "label": "Feniksbus",
+      "name": "auto-commercial-bus-feniksbus",
+      "url": "auto-commercial-bus-feniksbus",
+      "children": [
+        {
+          "label": "FBI",
+          "name": "auto-commercial-bus-feniksbus-fbi",
+          "url": "auto-commercial-bus-feniksbus-fbi"
+        }
+      ]
+    },
+    {
+      "label": "Fiat",
+      "name": "auto-commercial-bus-fiat",
+      "url": "auto-commercial-bus-fiat",
+      "children": [
+        {
+          "label": "Ducato",
+          "name": "auto-commercial-bus-fiat-ducato",
+          "url": "auto-commercial-bus-fiat-ducato"
+        }
+      ]
+    },
+    {
+      "label": "Ford",
+      "name": "auto-commercial-bus-ford",
+      "url": "auto-commercial-bus-ford",
+      "children": [
+        {
+          "label": "Transit",
+          "name": "auto-commercial-bus-ford-transit",
+          "url": "auto-commercial-bus-ford-transit"
+        }
+      ]
+    },
+    {
+      "label": "Foton",
+      "name": "auto-commercial-bus-foton",
+      "url": "auto-commercial-bus-foton",
+      "children": [
+        {
+          "label": "BJ 6126",
+          "name": "auto-commercial-bus-foton-bj_6126",
+          "url": "auto-commercial-bus-foton-bj_6126"
+        },
+        {
+          "label": "BJ 6760",
+          "name": "auto-commercial-bus-foton-bj_6760",
+          "url": "auto-commercial-bus-foton-bj_6760"
+        }
+      ]
+    },
+    {
+      "label": "Foxbus",
+      "name": "auto-commercial-bus-foxbus",
+      "url": "auto-commercial-bus-foxbus",
+      "children": [
+        {
+          "label": "22501",
+          "name": "auto-commercial-bus-foxbus-22501",
+          "url": "auto-commercial-bus-foxbus-22501"
+        }
+      ]
+    },
+    {
+      "label": "Freightliner",
+      "name": "auto-commercial-bus-freightliner",
+      "url": "auto-commercial-bus-freightliner",
+      "children": [
+        {
+          "label": "FS",
+          "name": "auto-commercial-bus-freightliner-fs",
+          "url": "auto-commercial-bus-freightliner-fs"
+        }
+      ]
+    },
+    {
+      "label": "Golden Dragon",
+      "name": "auto-commercial-bus-golden_dragon",
+      "url": "auto-commercial-bus-golden_dragon",
+      "children": [
+        {
+          "label": "XML6102UE",
+          "name": "auto-commercial-bus-golden_dragon-xml6102ue",
+          "url": "auto-commercial-bus-golden_dragon-xml6102ue"
+        },
+        {
+          "label": "XML6125",
+          "name": "auto-commercial-bus-golden_dragon-xml6125",
+          "url": "auto-commercial-bus-golden_dragon-xml6125"
+        },
+        {
+          "label": "XML6126",
+          "name": "auto-commercial-bus-golden_dragon-xml6126",
+          "url": "auto-commercial-bus-golden_dragon-xml6126"
+        },
+        {
+          "label": "XML6127",
+          "name": "auto-commercial-bus-golden_dragon-xml6127",
+          "url": "auto-commercial-bus-golden_dragon-xml6127"
+        },
+        {
+          "label": "XML6129E",
+          "name": "auto-commercial-bus-golden_dragon-xml6129e",
+          "url": "auto-commercial-bus-golden_dragon-xml6129e"
+        },
+        {
+          "label": "XML6139",
+          "name": "auto-commercial-bus-golden_dragon-xml6139",
+          "url": "auto-commercial-bus-golden_dragon-xml6139"
+        },
+        {
+          "label": "XML6145",
+          "name": "auto-commercial-bus-golden_dragon-xml6145",
+          "url": "auto-commercial-bus-golden_dragon-xml6145"
+        },
+        {
+          "label": "XML6796E",
+          "name": "auto-commercial-bus-golden_dragon-xml6796e",
+          "url": "auto-commercial-bus-golden_dragon-xml6796e"
+        },
+        {
+          "label": "XML6845",
+          "name": "auto-commercial-bus-golden_dragon-xml6845",
+          "url": "auto-commercial-bus-golden_dragon-xml6845"
+        },
+        {
+          "label": "XML6896E",
+          "name": "auto-commercial-bus-golden_dragon-xml6896e",
+          "url": "auto-commercial-bus-golden_dragon-xml6896e"
+        },
+        {
+          "label": "XML6957",
+          "name": "auto-commercial-bus-golden_dragon-xml6957",
+          "url": "auto-commercial-bus-golden_dragon-xml6957"
+        }
+      ]
+    },
+    {
+      "label": "Hentgong",
+      "name": "auto-commercial-bus-hentgong",
+      "url": "auto-commercial-bus-hentgong",
+      "children": [
+        {
+          "label": "CKZ6126HN4",
+          "name": "auto-commercial-bus-hentgong-ckz6126hn4",
+          "url": "auto-commercial-bus-hentgong-ckz6126hn4"
+        }
+      ]
+    },
+    {
+      "label": "Higer",
+      "name": "auto-commercial-bus-higer",
+      "url": "auto-commercial-bus-higer",
+      "children": [
+        {
+          "label": "KLQ 6109",
+          "name": "auto-commercial-bus-higer-klq_6109",
+          "url": "auto-commercial-bus-higer-klq_6109"
+        },
+        {
+          "label": "KLQ 6118",
+          "name": "auto-commercial-bus-higer-klq_6118",
+          "url": "auto-commercial-bus-higer-klq_6118"
+        },
+        {
+          "label": "KLQ 6119",
+          "name": "auto-commercial-bus-higer-klq_6119",
+          "url": "auto-commercial-bus-higer-klq_6119"
+        },
+        {
+          "label": "KLQ 6122",
+          "name": "auto-commercial-bus-higer-klq_6122",
+          "url": "auto-commercial-bus-higer-klq_6122"
+        },
+        {
+          "label": "KLQ 6129",
+          "name": "auto-commercial-bus-higer-klq_6129",
+          "url": "auto-commercial-bus-higer-klq_6129"
+        },
+        {
+          "label": "KLQ 6720",
+          "name": "auto-commercial-bus-higer-klq_6720",
+          "url": "auto-commercial-bus-higer-klq_6720"
+        },
+        {
+          "label": "KLQ 6728",
+          "name": "auto-commercial-bus-higer-klq_6728",
+          "url": "auto-commercial-bus-higer-klq_6728"
+        },
+        {
+          "label": "KLQ 6826",
+          "name": "auto-commercial-bus-higer-klq_6826",
+          "url": "auto-commercial-bus-higer-klq_6826"
+        },
+        {
+          "label": "KLQ 6840",
+          "name": "auto-commercial-bus-higer-klq_6840",
+          "url": "auto-commercial-bus-higer-klq_6840"
+        },
+        {
+          "label": "KLQ 6885",
+          "name": "auto-commercial-bus-higer-klq_6885",
+          "url": "auto-commercial-bus-higer-klq_6885"
+        },
+        {
+          "label": "KLQ 6891",
+          "name": "auto-commercial-bus-higer-klq_6891",
+          "url": "auto-commercial-bus-higer-klq_6891"
+        },
+        {
+          "label": "KLQ 6928",
+          "name": "auto-commercial-bus-higer-klq_6928",
+          "url": "auto-commercial-bus-higer-klq_6928"
+        }
+      ]
+    },
+    {
+      "label": "Hino",
+      "name": "auto-commercial-bus-hino",
+      "url": "auto-commercial-bus-hino",
+      "children": [
+        {
+          "label": "Большого класса",
+          "name": "auto-commercial-bus-hino-bolxshogo_klassa",
+          "url": "auto-commercial-bus-hino-bolxshogo_klassa"
+        },
+        {
+          "label": "Малого класса",
+          "name": "auto-commercial-bus-hino-malogo_klassa",
+          "url": "auto-commercial-bus-hino-malogo_klassa"
+        },
+        {
+          "label": "Среднего класса",
+          "name": "auto-commercial-bus-hino-srednego_klassa",
+          "url": "auto-commercial-bus-hino-srednego_klassa"
+        }
+      ]
+    },
+    {
+      "label": "Hyundai",
+      "name": "auto-commercial-bus-hyundai",
+      "url": "auto-commercial-bus-hyundai",
+      "children": [
+        {
+          "label": "Aero City",
+          "name": "auto-commercial-bus-hyundai-aero_city",
+          "url": "auto-commercial-bus-hyundai-aero_city"
+        },
+        {
+          "label": "Aero Express",
+          "name": "auto-commercial-bus-hyundai-aero_express",
+          "url": "auto-commercial-bus-hyundai-aero_express"
+        },
+        {
+          "label": "Aero Queen",
+          "name": "auto-commercial-bus-hyundai-aero_queen",
+          "url": "auto-commercial-bus-hyundai-aero_queen"
+        },
+        {
+          "label": "Aero Space",
+          "name": "auto-commercial-bus-hyundai-aero_space",
+          "url": "auto-commercial-bus-hyundai-aero_space"
+        },
+        {
+          "label": "Aero Town",
+          "name": "auto-commercial-bus-hyundai-aero_town",
+          "url": "auto-commercial-bus-hyundai-aero_town"
+        },
+        {
+          "label": "Chorus",
+          "name": "auto-commercial-bus-hyundai-chorus",
+          "url": "auto-commercial-bus-hyundai-chorus"
+        },
+        {
+          "label": "County",
+          "name": "auto-commercial-bus-hyundai-county",
+          "url": "auto-commercial-bus-hyundai-county"
+        },
+        {
+          "label": "Universe",
+          "name": "auto-commercial-bus-hyundai-universe",
+          "url": "auto-commercial-bus-hyundai-universe"
+        },
+        {
+          "label": "Богдан",
+          "name": "auto-commercial-bus-hyundai-bogdan",
+          "url": "auto-commercial-bus-hyundai-bogdan"
+        }
+      ]
+    },
+    {
+      "label": "Ikarbus",
+      "name": "auto-commercial-bus-ikarbus",
+      "url": "auto-commercial-bus-ikarbus",
+      "children": [
+        {
+          "label": "IK-103",
+          "name": "auto-commercial-bus-ikarbus-ik-103",
+          "url": "auto-commercial-bus-ikarbus-ik-103"
+        },
+        {
+          "label": "IK-107",
+          "name": "auto-commercial-bus-ikarbus-ik-107",
+          "url": "auto-commercial-bus-ikarbus-ik-107"
+        },
+        {
+          "label": "IK-112",
+          "name": "auto-commercial-bus-ikarbus-ik-112",
+          "url": "auto-commercial-bus-ikarbus-ik-112"
+        },
+        {
+          "label": "IK-206",
+          "name": "auto-commercial-bus-ikarbus-ik-206",
+          "url": "auto-commercial-bus-ikarbus-ik-206"
+        },
+        {
+          "label": "IK-218",
+          "name": "auto-commercial-bus-ikarbus-ik-218",
+          "url": "auto-commercial-bus-ikarbus-ik-218"
+        },
+        {
+          "label": "IK-308",
+          "name": "auto-commercial-bus-ikarbus-ik-308",
+          "url": "auto-commercial-bus-ikarbus-ik-308"
+        },
+        {
+          "label": "IK-312",
+          "name": "auto-commercial-bus-ikarbus-ik-312",
+          "url": "auto-commercial-bus-ikarbus-ik-312"
+        }
+      ]
+    },
+    {
+      "label": "Ikarus",
+      "name": "auto-commercial-bus-ikarus",
+      "url": "auto-commercial-bus-ikarus",
+      "children": [
+        {
+          "label": "211",
+          "name": "auto-commercial-bus-ikarus-211",
+          "url": "auto-commercial-bus-ikarus-211"
+        },
+        {
+          "label": "255",
+          "name": "auto-commercial-bus-ikarus-255",
+          "url": "auto-commercial-bus-ikarus-255"
+        },
+        {
+          "label": "256",
+          "name": "auto-commercial-bus-ikarus-256",
+          "url": "auto-commercial-bus-ikarus-256"
+        },
+        {
+          "label": "260/263",
+          "name": "auto-commercial-bus-ikarus-260/263",
+          "url": "auto-commercial-bus-ikarus-260/263"
+        },
+        {
+          "label": "280/283",
+          "name": "auto-commercial-bus-ikarus-280/283",
+          "url": "auto-commercial-bus-ikarus-280/283"
+        },
+        {
+          "label": "350",
+          "name": "auto-commercial-bus-ikarus-350",
+          "url": "auto-commercial-bus-ikarus-350"
+        },
+        {
+          "label": "365",
+          "name": "auto-commercial-bus-ikarus-365",
+          "url": "auto-commercial-bus-ikarus-365"
+        },
+        {
+          "label": "386",
+          "name": "auto-commercial-bus-ikarus-386",
+          "url": "auto-commercial-bus-ikarus-386"
+        },
+        {
+          "label": "396",
+          "name": "auto-commercial-bus-ikarus-396",
+          "url": "auto-commercial-bus-ikarus-396"
+        },
+        {
+          "label": "415",
+          "name": "auto-commercial-bus-ikarus-415",
+          "url": "auto-commercial-bus-ikarus-415"
+        },
+        {
+          "label": "435",
+          "name": "auto-commercial-bus-ikarus-435",
+          "url": "auto-commercial-bus-ikarus-435"
+        },
+        {
+          "label": "543",
+          "name": "auto-commercial-bus-ikarus-543",
+          "url": "auto-commercial-bus-ikarus-543"
+        },
+        {
+          "label": "545",
+          "name": "auto-commercial-bus-ikarus-545",
+          "url": "auto-commercial-bus-ikarus-545"
+        }
+      ]
+    },
+    {
+      "label": "Intech",
+      "name": "auto-commercial-bus-intech",
+      "url": "auto-commercial-bus-intech",
+      "children": [
+        {
+          "label": "Fox",
+          "name": "auto-commercial-bus-intech-fox",
+          "url": "auto-commercial-bus-intech-fox"
+        }
+      ]
+    },
+    {
+      "label": "Irisbus",
+      "name": "auto-commercial-bus-irisbus",
+      "url": "auto-commercial-bus-irisbus",
+      "children": [
+        {
+          "label": "Agora",
+          "name": "auto-commercial-bus-irisbus-agora",
+          "url": "auto-commercial-bus-irisbus-agora"
+        },
+        {
+          "label": "Ares",
+          "name": "auto-commercial-bus-irisbus-ares",
+          "url": "auto-commercial-bus-irisbus-ares"
+        },
+        {
+          "label": "Arway",
+          "name": "auto-commercial-bus-irisbus-arway",
+          "url": "auto-commercial-bus-irisbus-arway"
+        },
+        {
+          "label": "Citelis",
+          "name": "auto-commercial-bus-irisbus-citelis",
+          "url": "auto-commercial-bus-irisbus-citelis"
+        },
+        {
+          "label": "Crossway",
+          "name": "auto-commercial-bus-irisbus-crossway",
+          "url": "auto-commercial-bus-irisbus-crossway"
+        },
+        {
+          "label": "Domino",
+          "name": "auto-commercial-bus-irisbus-domino",
+          "url": "auto-commercial-bus-irisbus-domino"
+        },
+        {
+          "label": "Evadys",
+          "name": "auto-commercial-bus-irisbus-evadys",
+          "url": "auto-commercial-bus-irisbus-evadys"
+        },
+        {
+          "label": "Iliade",
+          "name": "auto-commercial-bus-irisbus-iliade",
+          "url": "auto-commercial-bus-irisbus-iliade"
+        },
+        {
+          "label": "Midway",
+          "name": "auto-commercial-bus-irisbus-midway",
+          "url": "auto-commercial-bus-irisbus-midway"
+        },
+        {
+          "label": "Midys",
+          "name": "auto-commercial-bus-irisbus-midys",
+          "url": "auto-commercial-bus-irisbus-midys"
+        },
+        {
+          "label": "Proxys",
+          "name": "auto-commercial-bus-irisbus-proxys",
+          "url": "auto-commercial-bus-irisbus-proxys"
+        },
+        {
+          "label": "Recreo",
+          "name": "auto-commercial-bus-irisbus-recreo",
+          "url": "auto-commercial-bus-irisbus-recreo"
+        }
+      ]
+    },
+    {
+      "label": "Isuzu",
+      "name": "auto-commercial-bus-isuzu",
+      "url": "auto-commercial-bus-isuzu",
+      "children": [
+        {
+          "label": "Citibus",
+          "name": "auto-commercial-bus-isuzu-citibus",
+          "url": "auto-commercial-bus-isuzu-citibus"
+        },
+        {
+          "label": "Novo",
+          "name": "auto-commercial-bus-isuzu-novo",
+          "url": "auto-commercial-bus-isuzu-novo"
+        },
+        {
+          "label": "Turkuaz",
+          "name": "auto-commercial-bus-isuzu-turkuaz",
+          "url": "auto-commercial-bus-isuzu-turkuaz"
+        },
+        {
+          "label": "Visigo",
+          "name": "auto-commercial-bus-isuzu-visigo",
+          "url": "auto-commercial-bus-isuzu-visigo"
+        }
+      ]
+    },
+    {
+      "label": "IVECO",
+      "name": "auto-commercial-bus-iveco",
+      "url": "auto-commercial-bus-iveco",
+      "children": [
+        {
+          "label": "Crossway",
+          "name": "auto-commercial-bus-iveco-crossway",
+          "url": "auto-commercial-bus-iveco-crossway"
+        },
+        {
+          "label": "EuroRider",
+          "name": "auto-commercial-bus-iveco-eurorider",
+          "url": "auto-commercial-bus-iveco-eurorider"
+        },
+        {
+          "label": "Magelys",
+          "name": "auto-commercial-bus-iveco-magelys",
+          "url": "auto-commercial-bus-iveco-magelys"
+        }
+      ]
+    },
+    {
+      "label": "JAC",
+      "name": "auto-commercial-bus-jac",
+      "url": "auto-commercial-bus-jac",
+      "children": [
+        {
+          "label": "HFC6830G",
+          "name": "auto-commercial-bus-jac-hfc6830g",
+          "url": "auto-commercial-bus-jac-hfc6830g"
+        },
+        {
+          "label": "HK6105G1",
+          "name": "auto-commercial-bus-jac-hk6105g1",
+          "url": "auto-commercial-bus-jac-hk6105g1"
+        },
+        {
+          "label": "HK6118G",
+          "name": "auto-commercial-bus-jac-hk6118g",
+          "url": "auto-commercial-bus-jac-hk6118g"
+        },
+        {
+          "label": "HK6120",
+          "name": "auto-commercial-bus-jac-hk6120",
+          "url": "auto-commercial-bus-jac-hk6120"
+        },
+        {
+          "label": "HK6730K",
+          "name": "auto-commercial-bus-jac-hk6730k",
+          "url": "auto-commercial-bus-jac-hk6730k"
+        },
+        {
+          "label": "HK6813G",
+          "name": "auto-commercial-bus-jac-hk6813g",
+          "url": "auto-commercial-bus-jac-hk6813g"
+        },
+        {
+          "label": "HK6880K",
+          "name": "auto-commercial-bus-jac-hk6880k",
+          "url": "auto-commercial-bus-jac-hk6880k"
+        }
+      ]
+    },
+    {
+      "label": "Karosa",
+      "name": "auto-commercial-bus-karosa",
+      "url": "auto-commercial-bus-karosa",
+      "children": [
+        {
+          "label": "B700 Series",
+          "name": "auto-commercial-bus-karosa-b700_series",
+          "url": "auto-commercial-bus-karosa-b700_series"
+        },
+        {
+          "label": "B900 Series",
+          "name": "auto-commercial-bus-karosa-b900_series",
+          "url": "auto-commercial-bus-karosa-b900_series"
+        },
+        {
+          "label": "C700 Series",
+          "name": "auto-commercial-bus-karosa-c700_series",
+          "url": "auto-commercial-bus-karosa-c700_series"
+        }
+      ]
+    },
+    {
+      "label": "Kia",
+      "name": "auto-commercial-bus-kia",
+      "url": "auto-commercial-bus-kia",
+      "children": [
+        {
+          "label": "Combi",
+          "name": "auto-commercial-bus-kia-combi",
+          "url": "auto-commercial-bus-kia-combi"
+        },
+        {
+          "label": "Cosmos",
+          "name": "auto-commercial-bus-kia-cosmos",
+          "url": "auto-commercial-bus-kia-cosmos"
+        },
+        {
+          "label": "Granbird",
+          "name": "auto-commercial-bus-kia-granbird",
+          "url": "auto-commercial-bus-kia-granbird"
+        }
+      ]
+    },
+    {
+      "label": "King Long",
+      "name": "auto-commercial-bus-king_long",
+      "url": "auto-commercial-bus-king_long",
+      "children": [
+        {
+          "label": "XMQ6120C",
+          "name": "auto-commercial-bus-king_long-xmq6120c",
+          "url": "auto-commercial-bus-king_long-xmq6120c"
+        },
+        {
+          "label": "XMQ6121G City",
+          "name": "auto-commercial-bus-king_long-xmq6121g_city",
+          "url": "auto-commercial-bus-king_long-xmq6121g_city"
+        },
+        {
+          "label": "XMQ6127",
+          "name": "auto-commercial-bus-king_long-xmq6127",
+          "url": "auto-commercial-bus-king_long-xmq6127"
+        },
+        {
+          "label": "XMQ6129",
+          "name": "auto-commercial-bus-king_long-xmq6129",
+          "url": "auto-commercial-bus-king_long-xmq6129"
+        },
+        {
+          "label": "XMQ6130",
+          "name": "auto-commercial-bus-king_long-xmq6130",
+          "url": "auto-commercial-bus-king_long-xmq6130"
+        },
+        {
+          "label": "XMQ6800",
+          "name": "auto-commercial-bus-king_long-xmq6800",
+          "url": "auto-commercial-bus-king_long-xmq6800"
+        },
+        {
+          "label": "XMQ6840",
+          "name": "auto-commercial-bus-king_long-xmq6840",
+          "url": "auto-commercial-bus-king_long-xmq6840"
+        },
+        {
+          "label": "XMQ6900",
+          "name": "auto-commercial-bus-king_long-xmq6900",
+          "url": "auto-commercial-bus-king_long-xmq6900"
+        }
+      ]
+    },
+    {
+      "label": "LAG",
+      "name": "auto-commercial-bus-lag",
+      "url": "auto-commercial-bus-lag",
+      "children": [
+        {
+          "label": "EOS 100",
+          "name": "auto-commercial-bus-lag-eos_100",
+          "url": "auto-commercial-bus-lag-eos_100"
+        }
+      ]
+    },
+    {
+      "label": "MAN",
+      "name": "auto-commercial-bus-man",
+      "url": "auto-commercial-bus-man",
+      "children": [
+        {
+          "label": "A12",
+          "name": "auto-commercial-bus-man-a12",
+          "url": "auto-commercial-bus-man-a12"
+        },
+        {
+          "label": "Lion's City",
+          "name": "auto-commercial-bus-man-lions_city",
+          "url": "auto-commercial-bus-man-lions_city"
+        },
+        {
+          "label": "Lions Coach",
+          "name": "auto-commercial-bus-man-lions_coach",
+          "url": "auto-commercial-bus-man-lions_coach"
+        },
+        {
+          "label": "Lions Intercity",
+          "name": "auto-commercial-bus-man-lions_intercity",
+          "url": "auto-commercial-bus-man-lions_intercity"
+        },
+        {
+          "label": "Lions Regio",
+          "name": "auto-commercial-bus-man-lions_regio",
+          "url": "auto-commercial-bus-man-lions_regio"
+        },
+        {
+          "label": "Lions Star",
+          "name": "auto-commercial-bus-man-lions_star",
+          "url": "auto-commercial-bus-man-lions_star"
+        },
+        {
+          "label": "NG",
+          "name": "auto-commercial-bus-man-ng",
+          "url": "auto-commercial-bus-man-ng"
+        },
+        {
+          "label": "NL",
+          "name": "auto-commercial-bus-man-nl",
+          "url": "auto-commercial-bus-man-nl"
+        },
+        {
+          "label": "SL",
+          "name": "auto-commercial-bus-man-sl",
+          "url": "auto-commercial-bus-man-sl"
+        },
+        {
+          "label": "SU",
+          "name": "auto-commercial-bus-man-su",
+          "url": "auto-commercial-bus-man-su"
+        },
+        {
+          "label": "UL",
+          "name": "auto-commercial-bus-man-ul",
+          "url": "auto-commercial-bus-man-ul"
+        }
+      ]
+    },
+    {
+      "label": "Marcopolo",
+      "name": "auto-commercial-bus-marcopolo",
+      "url": "auto-commercial-bus-marcopolo",
+      "children": [
+        {
+          "label": "Bravis",
+          "name": "auto-commercial-bus-marcopolo-bravis",
+          "url": "auto-commercial-bus-marcopolo-bravis"
+        }
+      ]
+    },
+    {
+      "label": "Mercedes-Benz",
+      "name": "auto-commercial-bus-mercedes-benz",
+      "url": "auto-commercial-bus-mercedes-benz",
+      "children": [
+        {
+          "label": "Citaro",
+          "name": "auto-commercial-bus-mercedes-benz-citaro",
+          "url": "auto-commercial-bus-mercedes-benz-citaro"
+        },
+        {
+          "label": "Conecto",
+          "name": "auto-commercial-bus-mercedes-benz-conecto",
+          "url": "auto-commercial-bus-mercedes-benz-conecto"
+        },
+        {
+          "label": "Integro",
+          "name": "auto-commercial-bus-mercedes-benz-integro",
+          "url": "auto-commercial-bus-mercedes-benz-integro"
+        },
+        {
+          "label": "Intouro",
+          "name": "auto-commercial-bus-mercedes-benz-intouro",
+          "url": "auto-commercial-bus-mercedes-benz-intouro"
+        },
+        {
+          "label": "O 303",
+          "name": "auto-commercial-bus-mercedes-benz-o_303",
+          "url": "auto-commercial-bus-mercedes-benz-o_303"
+        },
+        {
+          "label": "O 305",
+          "name": "auto-commercial-bus-mercedes-benz-o_305",
+          "url": "auto-commercial-bus-mercedes-benz-o_305"
+        },
+        {
+          "label": "O 309",
+          "name": "auto-commercial-bus-mercedes-benz-o_309",
+          "url": "auto-commercial-bus-mercedes-benz-o_309"
+        },
+        {
+          "label": "Sprinter",
+          "name": "auto-commercial-bus-mercedes-benz-sprinter",
+          "url": "auto-commercial-bus-mercedes-benz-sprinter"
+        },
+        {
+          "label": "Tourismo",
+          "name": "auto-commercial-bus-mercedes-benz-tourismo",
+          "url": "auto-commercial-bus-mercedes-benz-tourismo"
+        },
+        {
+          "label": "Travego",
+          "name": "auto-commercial-bus-mercedes-benz-travego",
+          "url": "auto-commercial-bus-mercedes-benz-travego"
+        }
+      ]
+    },
+    {
+      "label": "Mitsubishi",
+      "name": "auto-commercial-bus-mitsubishi",
+      "url": "auto-commercial-bus-mitsubishi",
+      "children": [
+        {
+          "label": "Maraton",
+          "name": "auto-commercial-bus-mitsubishi-maraton",
+          "url": "auto-commercial-bus-mitsubishi-maraton"
+        },
+        {
+          "label": "Rosa",
+          "name": "auto-commercial-bus-mitsubishi-rosa",
+          "url": "auto-commercial-bus-mitsubishi-rosa"
+        }
+      ]
+    },
+    {
+      "label": "Mudan",
+      "name": "auto-commercial-bus-mudan",
+      "url": "auto-commercial-bus-mudan",
+      "children": [
+        {
+          "label": "MD6100",
+          "name": "auto-commercial-bus-mudan-md6100",
+          "url": "auto-commercial-bus-mudan-md6100"
+        },
+        {
+          "label": "MD6608",
+          "name": "auto-commercial-bus-mudan-md6608",
+          "url": "auto-commercial-bus-mudan-md6608"
+        },
+        {
+          "label": "MD6701",
+          "name": "auto-commercial-bus-mudan-md6701",
+          "url": "auto-commercial-bus-mudan-md6701"
+        },
+        {
+          "label": "MD6750",
+          "name": "auto-commercial-bus-mudan-md6750",
+          "url": "auto-commercial-bus-mudan-md6750"
+        }
+      ]
+    },
+    {
+      "label": "Neoplan",
+      "name": "auto-commercial-bus-neoplan",
+      "url": "auto-commercial-bus-neoplan",
+      "children": [
+        {
+          "label": "Centroliner",
+          "name": "auto-commercial-bus-neoplan-centroliner",
+          "url": "auto-commercial-bus-neoplan-centroliner"
+        },
+        {
+          "label": "Cityliner",
+          "name": "auto-commercial-bus-neoplan-cityliner",
+          "url": "auto-commercial-bus-neoplan-cityliner"
+        },
+        {
+          "label": "Euroliner",
+          "name": "auto-commercial-bus-neoplan-euroliner",
+          "url": "auto-commercial-bus-neoplan-euroliner"
+        },
+        {
+          "label": "Jetliner",
+          "name": "auto-commercial-bus-neoplan-jetliner",
+          "url": "auto-commercial-bus-neoplan-jetliner"
+        },
+        {
+          "label": "Jumbocruiser",
+          "name": "auto-commercial-bus-neoplan-jumbocruiser",
+          "url": "auto-commercial-bus-neoplan-jumbocruiser"
+        },
+        {
+          "label": "Megaliner",
+          "name": "auto-commercial-bus-neoplan-megaliner",
+          "url": "auto-commercial-bus-neoplan-megaliner"
+        },
+        {
+          "label": "Metroliner",
+          "name": "auto-commercial-bus-neoplan-metroliner",
+          "url": "auto-commercial-bus-neoplan-metroliner"
+        },
+        {
+          "label": "Skyliner",
+          "name": "auto-commercial-bus-neoplan-skyliner",
+          "url": "auto-commercial-bus-neoplan-skyliner"
+        },
+        {
+          "label": "Spaceliner",
+          "name": "auto-commercial-bus-neoplan-spaceliner",
+          "url": "auto-commercial-bus-neoplan-spaceliner"
+        },
+        {
+          "label": "Starliner",
+          "name": "auto-commercial-bus-neoplan-starliner",
+          "url": "auto-commercial-bus-neoplan-starliner"
+        },
+        {
+          "label": "Tourliner",
+          "name": "auto-commercial-bus-neoplan-tourliner",
+          "url": "auto-commercial-bus-neoplan-tourliner"
+        },
+        {
+          "label": "Transliner",
+          "name": "auto-commercial-bus-neoplan-transliner",
+          "url": "auto-commercial-bus-neoplan-transliner"
+        },
+        {
+          "label": "Trendliner",
+          "name": "auto-commercial-bus-neoplan-trendliner",
+          "url": "auto-commercial-bus-neoplan-trendliner"
+        }
+      ]
+    },
+    {
+      "label": "Nissan",
+      "name": "auto-commercial-bus-nissan",
+      "url": "auto-commercial-bus-nissan",
+      "children": [
+        {
+          "label": "Civilian",
+          "name": "auto-commercial-bus-nissan-civilian",
+          "url": "auto-commercial-bus-nissan-civilian"
+        }
+      ]
+    },
+    {
+      "label": "Otokar",
+      "name": "auto-commercial-bus-otokar",
+      "url": "auto-commercial-bus-otokar",
+      "children": [
+        {
+          "label": "Doruk",
+          "name": "auto-commercial-bus-otokar-doruk",
+          "url": "auto-commercial-bus-otokar-doruk"
+        },
+        {
+          "label": "M2000",
+          "name": "auto-commercial-bus-otokar-m2000",
+          "url": "auto-commercial-bus-otokar-m2000"
+        },
+        {
+          "label": "Navigo",
+          "name": "auto-commercial-bus-otokar-navigo",
+          "url": "auto-commercial-bus-otokar-navigo"
+        },
+        {
+          "label": "Tempo",
+          "name": "auto-commercial-bus-otokar-tempo",
+          "url": "auto-commercial-bus-otokar-tempo"
+        },
+        {
+          "label": "Vectio",
+          "name": "auto-commercial-bus-otokar-vectio",
+          "url": "auto-commercial-bus-otokar-vectio"
+        }
+      ]
+    },
+    {
+      "label": "Otoyol",
+      "name": "auto-commercial-bus-otoyol",
+      "url": "auto-commercial-bus-otoyol",
+      "children": [
+        {
+          "label": "M29",
+          "name": "auto-commercial-bus-otoyol-m29",
+          "url": "auto-commercial-bus-otoyol-m29"
+        }
+      ]
+    },
+    {
+      "label": "Scania",
+      "name": "auto-commercial-bus-scania",
+      "url": "auto-commercial-bus-scania",
+      "children": [
+        {
+          "label": "Irizar",
+          "name": "auto-commercial-bus-scania-irizar",
+          "url": "auto-commercial-bus-scania-irizar"
+        },
+        {
+          "label": "Metrolink",
+          "name": "auto-commercial-bus-scania-metrolink",
+          "url": "auto-commercial-bus-scania-metrolink"
+        },
+        {
+          "label": "OMNI",
+          "name": "auto-commercial-bus-scania-omni",
+          "url": "auto-commercial-bus-scania-omni"
+        }
+      ]
+    },
+    {
+      "label": "Setra",
+      "name": "auto-commercial-bus-setra",
+      "url": "auto-commercial-bus-setra",
+      "children": [
+        {
+          "label": "200 Series",
+          "name": "auto-commercial-bus-setra-200_series",
+          "url": "auto-commercial-bus-setra-200_series"
+        },
+        {
+          "label": "300 Series",
+          "name": "auto-commercial-bus-setra-300_series",
+          "url": "auto-commercial-bus-setra-300_series"
+        },
+        {
+          "label": "Comfort Class",
+          "name": "auto-commercial-bus-setra-comfort_class",
+          "url": "auto-commercial-bus-setra-comfort_class"
+        },
+        {
+          "label": "Multi Class",
+          "name": "auto-commercial-bus-setra-multi_class",
+          "url": "auto-commercial-bus-setra-multi_class"
+        },
+        {
+          "label": "Top Class",
+          "name": "auto-commercial-bus-setra-top_class",
+          "url": "auto-commercial-bus-setra-top_class"
+        }
+      ]
+    },
+    {
+      "label": "Shen Long",
+      "name": "auto-commercial-bus-shen_long",
+      "url": "auto-commercial-bus-shen_long",
+      "children": [
+        {
+          "label": "SLK6111",
+          "name": "auto-commercial-bus-shen_long-slk6111",
+          "url": "auto-commercial-bus-shen_long-slk6111"
+        },
+        {
+          "label": "SLK6128",
+          "name": "auto-commercial-bus-shen_long-slk6128",
+          "url": "auto-commercial-bus-shen_long-slk6128"
+        },
+        {
+          "label": "SLK6602",
+          "name": "auto-commercial-bus-shen_long-slk6602",
+          "url": "auto-commercial-bus-shen_long-slk6602"
+        },
+        {
+          "label": "SLK6931",
+          "name": "auto-commercial-bus-shen_long-slk6931",
+          "url": "auto-commercial-bus-shen_long-slk6931"
+        }
+      ]
+    },
+    {
+      "label": "Shuchi",
+      "name": "auto-commercial-bus-shuchi",
+      "url": "auto-commercial-bus-shuchi",
+      "children": [
+        {
+          "label": "Пригородный",
+          "name": "auto-commercial-bus-shuchi-prigorodnyj",
+          "url": "auto-commercial-bus-shuchi-prigorodnyj"
+        },
+        {
+          "label": "Туристический",
+          "name": "auto-commercial-bus-shuchi-turisticheskij",
+          "url": "auto-commercial-bus-shuchi-turisticheskij"
+        }
+      ]
+    },
+    {
+      "label": "Solaris",
+      "name": "auto-commercial-bus-solaris",
+      "url": "auto-commercial-bus-solaris",
+      "children": [
+        {
+          "label": "Inter Urbino",
+          "name": "auto-commercial-bus-solaris-inter_urbino",
+          "url": "auto-commercial-bus-solaris-inter_urbino"
+        }
+      ]
+    },
+    {
+      "label": "Ssang Yong",
+      "name": "auto-commercial-bus-ssang_yong",
+      "url": "auto-commercial-bus-ssang_yong",
+      "children": [
+        {
+          "label": "Transstar",
+          "name": "auto-commercial-bus-ssang_yong-transstar",
+          "url": "auto-commercial-bus-ssang_yong-transstar"
+        }
+      ]
+    },
+    {
+      "label": "Temsa",
+      "name": "auto-commercial-bus-temsa",
+      "url": "auto-commercial-bus-temsa",
+      "children": [
+        {
+          "label": "Diamond",
+          "name": "auto-commercial-bus-temsa-diamond",
+          "url": "auto-commercial-bus-temsa-diamond"
+        },
+        {
+          "label": "Euro SAFARI",
+          "name": "auto-commercial-bus-temsa-euro_safari",
+          "url": "auto-commercial-bus-temsa-euro_safari"
+        },
+        {
+          "label": "Metropol IC",
+          "name": "auto-commercial-bus-temsa-metropol_ic",
+          "url": "auto-commercial-bus-temsa-metropol_ic"
+        },
+        {
+          "label": "Opalin",
+          "name": "auto-commercial-bus-temsa-opalin",
+          "url": "auto-commercial-bus-temsa-opalin"
+        },
+        {
+          "label": "Prestij",
+          "name": "auto-commercial-bus-temsa-prestij",
+          "url": "auto-commercial-bus-temsa-prestij"
+        },
+        {
+          "label": "Safari HD",
+          "name": "auto-commercial-bus-temsa-safari_hd",
+          "url": "auto-commercial-bus-temsa-safari_hd"
+        },
+        {
+          "label": "Tourmalin IC",
+          "name": "auto-commercial-bus-temsa-tourmalin_ic",
+          "url": "auto-commercial-bus-temsa-tourmalin_ic"
+        }
+      ]
+    },
+    {
+      "label": "Thomas Built Buses",
+      "name": "auto-commercial-bus-thomas_built_buses",
+      "url": "auto-commercial-bus-thomas_built_buses",
+      "children": [
+        {
+          "label": "Saf-T-Liner C2",
+          "name": "auto-commercial-bus-thomas_built_buses-saf-t-liner_c2",
+          "url": "auto-commercial-bus-thomas_built_buses-saf-t-liner_c2"
+        },
+        {
+          "label": "Saf-T-Liner EFX/HDX",
+          "name": "auto-commercial-bus-thomas_built_buses-saf-t-liner_efx/hdx",
+          "url": "auto-commercial-bus-thomas_built_buses-saf-t-liner_efx/hdx"
+        }
+      ]
+    },
+    {
+      "label": "Toyota",
+      "name": "auto-commercial-bus-toyota",
+      "url": "auto-commercial-bus-toyota",
+      "children": [
+        {
+          "label": "Coaster",
+          "name": "auto-commercial-bus-toyota-coaster",
+          "url": "auto-commercial-bus-toyota-coaster"
+        }
+      ]
+    },
+    {
+      "label": "Van Hool",
+      "name": "auto-commercial-bus-van_hool",
+      "url": "auto-commercial-bus-van_hool",
+      "children": [
+        {
+          "label": "Acron",
+          "name": "auto-commercial-bus-van_hool-acron",
+          "url": "auto-commercial-bus-van_hool-acron"
+        },
+        {
+          "label": "T9 - series",
+          "name": "auto-commercial-bus-van_hool-t9_-_series",
+          "url": "auto-commercial-bus-van_hool-t9_-_series"
+        }
+      ]
+    },
+    {
+      "label": "VDL Berkhof",
+      "name": "auto-commercial-bus-vdl_berkhof",
+      "url": "auto-commercial-bus-vdl_berkhof",
+      "children": [
+        {
+          "label": "Axial",
+          "name": "auto-commercial-bus-vdl_berkhof-axial",
+          "url": "auto-commercial-bus-vdl_berkhof-axial"
+        }
+      ]
+    },
+    {
+      "label": "VDL Bus Chassis (DAF)",
+      "name": "auto-commercial-bus-vdl_bus_chassis_daf",
+      "url": "auto-commercial-bus-vdl_bus_chassis_daf",
+      "children": [
+        {
+          "label": "SB",
+          "name": "auto-commercial-bus-vdl_bus_chassis_daf-sb",
+          "url": "auto-commercial-bus-vdl_bus_chassis_daf-sb"
+        }
+      ]
+    },
+    {
+      "label": "Volkswagen",
+      "name": "auto-commercial-bus-volkswagen",
+      "url": "auto-commercial-bus-volkswagen",
+      "children": [
+        {
+          "label": "Crafter",
+          "name": "auto-commercial-bus-volkswagen-crafter",
+          "url": "auto-commercial-bus-volkswagen-crafter"
+        }
+      ]
+    },
+    {
+      "label": "Volvo",
+      "name": "auto-commercial-bus-volvo",
+      "url": "auto-commercial-bus-volvo",
+      "children": [
+        {
+          "label": "7000",
+          "name": "auto-commercial-bus-volvo-7000",
+          "url": "auto-commercial-bus-volvo-7000"
+        },
+        {
+          "label": "7450",
+          "name": "auto-commercial-bus-volvo-7450",
+          "url": "auto-commercial-bus-volvo-7450"
+        },
+        {
+          "label": "7500",
+          "name": "auto-commercial-bus-volvo-7500",
+          "url": "auto-commercial-bus-volvo-7500"
+        },
+        {
+          "label": "7550",
+          "name": "auto-commercial-bus-volvo-7550",
+          "url": "auto-commercial-bus-volvo-7550"
+        },
+        {
+          "label": "7700",
+          "name": "auto-commercial-bus-volvo-7700",
+          "url": "auto-commercial-bus-volvo-7700"
+        },
+        {
+          "label": "8500",
+          "name": "auto-commercial-bus-volvo-8500",
+          "url": "auto-commercial-bus-volvo-8500"
+        },
+        {
+          "label": "8700",
+          "name": "auto-commercial-bus-volvo-8700",
+          "url": "auto-commercial-bus-volvo-8700"
+        },
+        {
+          "label": "9700",
+          "name": "auto-commercial-bus-volvo-9700",
+          "url": "auto-commercial-bus-volvo-9700"
+        },
+        {
+          "label": "9900",
+          "name": "auto-commercial-bus-volvo-9900",
+          "url": "auto-commercial-bus-volvo-9900"
+        },
+        {
+          "label": "B10",
+          "name": "auto-commercial-bus-volvo-b10",
+          "url": "auto-commercial-bus-volvo-b10"
+        },
+        {
+          "label": "B12",
+          "name": "auto-commercial-bus-volvo-b12",
+          "url": "auto-commercial-bus-volvo-b12"
+        },
+        {
+          "label": "C10M",
+          "name": "auto-commercial-bus-volvo-c10m",
+          "url": "auto-commercial-bus-volvo-c10m"
+        }
+      ]
+    },
+    {
+      "label": "Youyi",
+      "name": "auto-commercial-bus-youyi",
+      "url": "auto-commercial-bus-youyi",
+      "children": [
+        {
+          "label": "ZGT6120DH",
+          "name": "auto-commercial-bus-youyi-zgt6120dh",
+          "url": "auto-commercial-bus-youyi-zgt6120dh"
+        }
+      ]
+    },
+    {
+      "label": "Yutong",
+      "name": "auto-commercial-bus-yutong",
+      "url": "auto-commercial-bus-yutong",
+      "children": [
+        {
+          "label": "ZK6118",
+          "name": "auto-commercial-bus-yutong-zk6118",
+          "url": "auto-commercial-bus-yutong-zk6118"
+        },
+        {
+          "label": "ZK6119HA",
+          "name": "auto-commercial-bus-yutong-zk6119ha",
+          "url": "auto-commercial-bus-yutong-zk6119ha"
+        },
+        {
+          "label": "ZK6121HQ",
+          "name": "auto-commercial-bus-yutong-zk6121hq",
+          "url": "auto-commercial-bus-yutong-zk6121hq"
+        },
+        {
+          "label": "ZK6122H9",
+          "name": "auto-commercial-bus-yutong-zk6122h9",
+          "url": "auto-commercial-bus-yutong-zk6122h9"
+        },
+        {
+          "label": "ZK6126HGA",
+          "name": "auto-commercial-bus-yutong-zk6126hga",
+          "url": "auto-commercial-bus-yutong-zk6126hga"
+        },
+        {
+          "label": "ZK6129H",
+          "name": "auto-commercial-bus-yutong-zk6129h",
+          "url": "auto-commercial-bus-yutong-zk6129h"
+        },
+        {
+          "label": "ZK6737D",
+          "name": "auto-commercial-bus-yutong-zk6737d",
+          "url": "auto-commercial-bus-yutong-zk6737d"
+        },
+        {
+          "label": "ZK6831H",
+          "name": "auto-commercial-bus-yutong-zk6831h",
+          "url": "auto-commercial-bus-yutong-zk6831h"
+        },
+        {
+          "label": "ZK6852HG",
+          "name": "auto-commercial-bus-yutong-zk6852hg",
+          "url": "auto-commercial-bus-yutong-zk6852hg"
+        },
+        {
+          "label": "ZK6899HA",
+          "name": "auto-commercial-bus-yutong-zk6899ha",
+          "url": "auto-commercial-bus-yutong-zk6899ha"
+        },
+        {
+          "label": "ZK6938HB9",
+          "name": "auto-commercial-bus-yutong-zk6938hb9",
+          "url": "auto-commercial-bus-yutong-zk6938hb9"
+        }
+      ]
+    },
+    {
+      "label": "Zhong Tong",
+      "name": "auto-commercial-bus-zhong_tong",
+      "url": "auto-commercial-bus-zhong_tong",
+      "children": [
+        {
+          "label": "BOVA",
+          "name": "auto-commercial-bus-zhong_tong-bova",
+          "url": "auto-commercial-bus-zhong_tong-bova"
+        },
+        {
+          "label": "Caesar",
+          "name": "auto-commercial-bus-zhong_tong-caesar",
+          "url": "auto-commercial-bus-zhong_tong-caesar"
+        },
+        {
+          "label": "Catch",
+          "name": "auto-commercial-bus-zhong_tong-catch",
+          "url": "auto-commercial-bus-zhong_tong-catch"
+        },
+        {
+          "label": "ComPass",
+          "name": "auto-commercial-bus-zhong_tong-compass",
+          "url": "auto-commercial-bus-zhong_tong-compass"
+        },
+        {
+          "label": "Creator",
+          "name": "auto-commercial-bus-zhong_tong-creator",
+          "url": "auto-commercial-bus-zhong_tong-creator"
+        },
+        {
+          "label": "LCK",
+          "name": "auto-commercial-bus-zhong_tong-lck",
+          "url": "auto-commercial-bus-zhong_tong-lck"
+        },
+        {
+          "label": "Magiq",
+          "name": "auto-commercial-bus-zhong_tong-magiq",
+          "url": "auto-commercial-bus-zhong_tong-magiq"
+        },
+        {
+          "label": "Navigator Half-deck",
+          "name": "auto-commercial-bus-zhong_tong-navigator_half-deck",
+          "url": "auto-commercial-bus-zhong_tong-navigator_half-deck"
+        },
+        {
+          "label": "Sparkling",
+          "name": "auto-commercial-bus-zhong_tong-sparkling",
+          "url": "auto-commercial-bus-zhong_tong-sparkling"
+        },
+        {
+          "label": "Sunny",
+          "name": "auto-commercial-bus-zhong_tong-sunny",
+          "url": "auto-commercial-bus-zhong_tong-sunny"
+        }
+      ]
+    },
+    {
+      "label": "Zonda",
+      "name": "auto-commercial-bus-zonda",
+      "url": "auto-commercial-bus-zonda",
+      "children": [
+        {
+          "label": "JLY6122SBK",
+          "name": "auto-commercial-bus-zonda-jly6122sbk",
+          "url": "auto-commercial-bus-zonda-jly6122sbk"
+        },
+        {
+          "label": "JLY6137SBK",
+          "name": "auto-commercial-bus-zonda-jly6137sbk",
+          "url": "auto-commercial-bus-zonda-jly6137sbk"
+        },
+        {
+          "label": "YCK6105HC",
+          "name": "auto-commercial-bus-zonda-yck6105hc",
+          "url": "auto-commercial-bus-zonda-yck6105hc"
+        },
+        {
+          "label": "YCK6106HG",
+          "name": "auto-commercial-bus-zonda-yck6106hg",
+          "url": "auto-commercial-bus-zonda-yck6106hg"
+        },
+        {
+          "label": "YCK6107HG",
+          "name": "auto-commercial-bus-zonda-yck6107hg",
+          "url": "auto-commercial-bus-zonda-yck6107hg"
+        },
+        {
+          "label": "YCK6116HC",
+          "name": "auto-commercial-bus-zonda-yck6116hc",
+          "url": "auto-commercial-bus-zonda-yck6116hc"
+        },
+        {
+          "label": "YCK6116HG",
+          "name": "auto-commercial-bus-zonda-yck6116hg",
+          "url": "auto-commercial-bus-zonda-yck6116hg"
+        },
+        {
+          "label": "YCK6116HGW",
+          "name": "auto-commercial-bus-zonda-yck6116hgw",
+          "url": "auto-commercial-bus-zonda-yck6116hgw"
+        },
+        {
+          "label": "YCK6117HG",
+          "name": "auto-commercial-bus-zonda-yck6117hg",
+          "url": "auto-commercial-bus-zonda-yck6117hg"
+        },
+        {
+          "label": "YCK6121HG",
+          "name": "auto-commercial-bus-zonda-yck6121hg",
+          "url": "auto-commercial-bus-zonda-yck6121hg"
+        },
+        {
+          "label": "YCK6126HC",
+          "name": "auto-commercial-bus-zonda-yck6126hc",
+          "url": "auto-commercial-bus-zonda-yck6126hc"
+        },
+        {
+          "label": "YCK6126HG",
+          "name": "auto-commercial-bus-zonda-yck6126hg",
+          "url": "auto-commercial-bus-zonda-yck6126hg"
+        },
+        {
+          "label": "YCK6129HG",
+          "name": "auto-commercial-bus-zonda-yck6129hg",
+          "url": "auto-commercial-bus-zonda-yck6129hg"
+        },
+        {
+          "label": "YCK6129HGN",
+          "name": "auto-commercial-bus-zonda-yck6129hgn",
+          "url": "auto-commercial-bus-zonda-yck6129hgn"
+        },
+        {
+          "label": "YCK6139HGW",
+          "name": "auto-commercial-bus-zonda-yck6139hgw",
+          "url": "auto-commercial-bus-zonda-yck6139hgw"
+        },
+        {
+          "label": "YCK6508HC",
+          "name": "auto-commercial-bus-zonda-yck6508hc",
+          "url": "auto-commercial-bus-zonda-yck6508hc"
+        },
+        {
+          "label": "YCK6602",
+          "name": "auto-commercial-bus-zonda-yck6602",
+          "url": "auto-commercial-bus-zonda-yck6602"
+        },
+        {
+          "label": "YCK6799HG",
+          "name": "auto-commercial-bus-zonda-yck6799hg",
+          "url": "auto-commercial-bus-zonda-yck6799hg"
+        },
+        {
+          "label": "YCK6805HC",
+          "name": "auto-commercial-bus-zonda-yck6805hc",
+          "url": "auto-commercial-bus-zonda-yck6805hc"
+        },
+        {
+          "label": "YCK6849H",
+          "name": "auto-commercial-bus-zonda-yck6849h",
+          "url": "auto-commercial-bus-zonda-yck6849h"
+        },
+        {
+          "label": "YCK6850HC",
+          "name": "auto-commercial-bus-zonda-yck6850hc",
+          "url": "auto-commercial-bus-zonda-yck6850hc"
+        },
+        {
+          "label": "YCK6899H",
+          "name": "auto-commercial-bus-zonda-yck6899h",
+          "url": "auto-commercial-bus-zonda-yck6899h"
+        },
+        {
+          "label": "YCK6939H",
+          "name": "auto-commercial-bus-zonda-yck6939h",
+          "url": "auto-commercial-bus-zonda-yck6939h"
+        },
+        {
+          "label": "YCK6997HG",
+          "name": "auto-commercial-bus-zonda-yck6997hg",
+          "url": "auto-commercial-bus-zonda-yck6997hg"
+        }
+      ]
+    },
+    {
+      "label": "Авто-Модуль (АМД)",
+      "name": "auto-commercial-bus-avto-modulx_amd",
+      "url": "auto-commercial-bus-avto-modulx_amd",
+      "children": [
+        {
+          "label": "АМ-3249",
+          "name": "auto-commercial-bus-avto-modulx_amd-am-3249",
+          "url": "auto-commercial-bus-avto-modulx_amd-am-3249"
+        }
+      ]
+    },
+    {
+      "label": "БАЗ_",
+      "name": "auto-commercial-bus-baz_",
+      "url": "auto-commercial-bus-baz_",
+      "children": [
+        {
+          "label": "А079",
+          "name": "auto-commercial-bus-baz_-a079",
+          "url": "auto-commercial-bus-baz_-a079"
+        },
+        {
+          "label": "А148",
+          "name": "auto-commercial-bus-baz_-a148",
+          "url": "auto-commercial-bus-baz_-a148"
+        }
+      ]
+    },
+    {
+      "label": "Богдан",
+      "name": "auto-commercial-bus-bogdan",
+      "url": "auto-commercial-bus-bogdan",
+      "children": [
+        {
+          "label": "А-069",
+          "name": "auto-commercial-bus-bogdan-a-069",
+          "url": "auto-commercial-bus-bogdan-a-069"
+        },
+        {
+          "label": "А-092",
+          "name": "auto-commercial-bus-bogdan-a-092",
+          "url": "auto-commercial-bus-bogdan-a-092"
+        },
+        {
+          "label": "А-144",
+          "name": "auto-commercial-bus-bogdan-a-144",
+          "url": "auto-commercial-bus-bogdan-a-144"
+        },
+        {
+          "label": "А-145",
+          "name": "auto-commercial-bus-bogdan-a-145",
+          "url": "auto-commercial-bus-bogdan-a-145"
+        },
+        {
+          "label": "А-201",
+          "name": "auto-commercial-bus-bogdan-a-201",
+          "url": "auto-commercial-bus-bogdan-a-201"
+        },
+        {
+          "label": "А-231",
+          "name": "auto-commercial-bus-bogdan-a-231",
+          "url": "auto-commercial-bus-bogdan-a-231"
+        },
+        {
+          "label": "А-3017",
+          "name": "auto-commercial-bus-bogdan-a-3017",
+          "url": "auto-commercial-bus-bogdan-a-3017"
+        },
+        {
+          "label": "А-40160",
+          "name": "auto-commercial-bus-bogdan-a-40160",
+          "url": "auto-commercial-bus-bogdan-a-40160"
+        }
+      ]
+    },
+    {
+      "label": "ВМЗ",
+      "name": "auto-commercial-bus-vmz",
+      "url": "auto-commercial-bus-vmz",
+      "children": [
+        {
+          "label": "4252 «Олимп»",
+          "name": "auto-commercial-bus-vmz-4252_olimp",
+          "url": "auto-commercial-bus-vmz-4252_olimp"
+        }
+      ]
+    },
+    {
+      "label": "Волжанин",
+      "name": "auto-commercial-bus-volzhanin",
+      "url": "auto-commercial-bus-volzhanin",
+      "children": [
+        {
+          "label": "Междугородный",
+          "name": "auto-commercial-bus-volzhanin-mezhdugorodnyj",
+          "url": "auto-commercial-bus-volzhanin-mezhdugorodnyj"
+        }
+      ]
+    },
+    {
+      "label": "ГАЗ",
+      "name": "auto-commercial-bus-gaz",
+      "url": "auto-commercial-bus-gaz",
+      "children": [
+        {
+          "label": "Next Citiline",
+          "name": "auto-commercial-bus-gaz-next_citiline",
+          "url": "auto-commercial-bus-gaz-next_citiline"
+        },
+        {
+          "label": "ВМ-3284",
+          "name": "auto-commercial-bus-gaz-vm-3284",
+          "url": "auto-commercial-bus-gaz-vm-3284"
+        }
+      ]
+    },
+    {
+      "label": "ГолАЗ",
+      "name": "auto-commercial-bus-golaz",
+      "url": "auto-commercial-bus-golaz",
+      "children": [
+        {
+          "label": "4244",
+          "name": "auto-commercial-bus-golaz-4244",
+          "url": "auto-commercial-bus-golaz-4244"
+        },
+        {
+          "label": "5256",
+          "name": "auto-commercial-bus-golaz-5256",
+          "url": "auto-commercial-bus-golaz-5256"
+        },
+        {
+          "label": "5291",
+          "name": "auto-commercial-bus-golaz-5291",
+          "url": "auto-commercial-bus-golaz-5291"
+        },
+        {
+          "label": "6228",
+          "name": "auto-commercial-bus-golaz-6228",
+          "url": "auto-commercial-bus-golaz-6228"
+        },
+        {
+          "label": "Andare",
+          "name": "auto-commercial-bus-golaz-andare",
+          "url": "auto-commercial-bus-golaz-andare"
+        }
+      ]
+    },
+    {
+      "label": "ЗАЗ",
+      "name": "auto-commercial-bus-zaz",
+      "url": "auto-commercial-bus-zaz",
+      "children": [
+        {
+          "label": "А07",
+          "name": "auto-commercial-bus-zaz-a07",
+          "url": "auto-commercial-bus-zaz-a07"
+        },
+        {
+          "label": "А10",
+          "name": "auto-commercial-bus-zaz-a10",
+          "url": "auto-commercial-bus-zaz-a10"
+        }
+      ]
+    },
+    {
+      "label": "ЗИЛ",
+      "name": "auto-commercial-bus-zil",
+      "url": "auto-commercial-bus-zil",
+      "children": [
+        {
+          "label": "118/3207",
+          "name": "auto-commercial-bus-zil-118/3207",
+          "url": "auto-commercial-bus-zil-118/3207"
+        },
+        {
+          "label": "3250",
+          "name": "auto-commercial-bus-zil-3250",
+          "url": "auto-commercial-bus-zil-3250"
+        }
+      ]
+    },
+    {
+      "label": "КАвЗ",
+      "name": "auto-commercial-bus-kavz",
+      "url": "auto-commercial-bus-kavz",
+      "children": [
+        {
+          "label": "685",
+          "name": "auto-commercial-bus-kavz-685",
+          "url": "auto-commercial-bus-kavz-685"
+        },
+        {
+          "label": "3244",
+          "name": "auto-commercial-bus-kavz-3244",
+          "url": "auto-commercial-bus-kavz-3244"
+        },
+        {
+          "label": "3276",
+          "name": "auto-commercial-bus-kavz-3276",
+          "url": "auto-commercial-bus-kavz-3276"
+        },
+        {
+          "label": "3976",
+          "name": "auto-commercial-bus-kavz-3976",
+          "url": "auto-commercial-bus-kavz-3976"
+        },
+        {
+          "label": "4235",
+          "name": "auto-commercial-bus-kavz-4235",
+          "url": "auto-commercial-bus-kavz-4235"
+        },
+        {
+          "label": "4238",
+          "name": "auto-commercial-bus-kavz-4238",
+          "url": "auto-commercial-bus-kavz-4238"
+        },
+        {
+          "label": "4238 Школьный",
+          "name": "auto-commercial-bus-kavz-4238_shkolxnyj",
+          "url": "auto-commercial-bus-kavz-4238_shkolxnyj"
+        },
+        {
+          "label": "4239",
+          "name": "auto-commercial-bus-kavz-4239",
+          "url": "auto-commercial-bus-kavz-4239"
+        },
+        {
+          "label": "32081",
+          "name": "auto-commercial-bus-kavz-32081",
+          "url": "auto-commercial-bus-kavz-32081"
+        }
+      ]
+    },
+    {
+      "label": "Кубань",
+      "name": "auto-commercial-bus-kubanx",
+      "url": "auto-commercial-bus-kubanx",
+      "children": [
+        {
+          "label": "Г1А",
+          "name": "auto-commercial-bus-kubanx-g1a",
+          "url": "auto-commercial-bus-kubanx-g1a"
+        }
+      ]
+    },
+    {
+      "label": "ЛАЗ",
+      "name": "auto-commercial-bus-laz",
+      "url": "auto-commercial-bus-laz",
+      "children": [
+        {
+          "label": "695",
+          "name": "auto-commercial-bus-laz-695",
+          "url": "auto-commercial-bus-laz-695"
+        },
+        {
+          "label": "697",
+          "name": "auto-commercial-bus-laz-697",
+          "url": "auto-commercial-bus-laz-697"
+        },
+        {
+          "label": "4207",
+          "name": "auto-commercial-bus-laz-4207",
+          "url": "auto-commercial-bus-laz-4207"
+        },
+        {
+          "label": "5207",
+          "name": "auto-commercial-bus-laz-5207",
+          "url": "auto-commercial-bus-laz-5207"
+        },
+        {
+          "label": "52528",
+          "name": "auto-commercial-bus-laz-52528",
+          "url": "auto-commercial-bus-laz-52528"
+        },
+        {
+          "label": "НеоЛаз",
+          "name": "auto-commercial-bus-laz-neolaz",
+          "url": "auto-commercial-bus-laz-neolaz"
+        }
+      ]
+    },
+    {
+      "label": "ЛиАЗ",
+      "name": "auto-commercial-bus-liaz",
+      "url": "auto-commercial-bus-liaz",
+      "children": [
+        {
+          "label": "158В (ЗиЛ)",
+          "name": "auto-commercial-bus-liaz-158v_zil",
+          "url": "auto-commercial-bus-liaz-158v_zil"
+        },
+        {
+          "label": "5256",
+          "name": "auto-commercial-bus-liaz-5256",
+          "url": "auto-commercial-bus-liaz-5256"
+        },
+        {
+          "label": "5292",
+          "name": "auto-commercial-bus-liaz-5292",
+          "url": "auto-commercial-bus-liaz-5292"
+        },
+        {
+          "label": "5293",
+          "name": "auto-commercial-bus-liaz-5293",
+          "url": "auto-commercial-bus-liaz-5293"
+        },
+        {
+          "label": "6212",
+          "name": "auto-commercial-bus-liaz-6212",
+          "url": "auto-commercial-bus-liaz-6212"
+        },
+        {
+          "label": "6213",
+          "name": "auto-commercial-bus-liaz-6213",
+          "url": "auto-commercial-bus-liaz-6213"
+        }
+      ]
+    },
+    {
+      "label": "МАЗ",
+      "name": "auto-commercial-bus-maz",
+      "url": "auto-commercial-bus-maz",
+      "children": [
+        {
+          "label": "103",
+          "name": "auto-commercial-bus-maz-103",
+          "url": "auto-commercial-bus-maz-103"
+        },
+        {
+          "label": "105",
+          "name": "auto-commercial-bus-maz-105",
+          "url": "auto-commercial-bus-maz-105"
+        },
+        {
+          "label": "107",
+          "name": "auto-commercial-bus-maz-107",
+          "url": "auto-commercial-bus-maz-107"
+        },
+        {
+          "label": "152",
+          "name": "auto-commercial-bus-maz-152",
+          "url": "auto-commercial-bus-maz-152"
+        },
+        {
+          "label": "203",
+          "name": "auto-commercial-bus-maz-203",
+          "url": "auto-commercial-bus-maz-203"
+        },
+        {
+          "label": "206",
+          "name": "auto-commercial-bus-maz-206",
+          "url": "auto-commercial-bus-maz-206"
+        },
+        {
+          "label": "231",
+          "name": "auto-commercial-bus-maz-231",
+          "url": "auto-commercial-bus-maz-231"
+        },
+        {
+          "label": "241",
+          "name": "auto-commercial-bus-maz-241",
+          "url": "auto-commercial-bus-maz-241"
+        },
+        {
+          "label": "251",
+          "name": "auto-commercial-bus-maz-251",
+          "url": "auto-commercial-bus-maz-251"
+        },
+        {
+          "label": "256",
+          "name": "auto-commercial-bus-maz-256",
+          "url": "auto-commercial-bus-maz-256"
+        }
+      ]
+    },
+    {
+      "label": "МАРЗ",
+      "name": "auto-commercial-bus-marz",
+      "url": "auto-commercial-bus-marz",
+      "children": [
+        {
+          "label": "4251",
+          "name": "auto-commercial-bus-marz-4251",
+          "url": "auto-commercial-bus-marz-4251"
+        },
+        {
+          "label": "42191",
+          "name": "auto-commercial-bus-marz-42191",
+          "url": "auto-commercial-bus-marz-42191"
+        },
+        {
+          "label": "5266/5277",
+          "name": "auto-commercial-bus-marz-5266/5277",
+          "url": "auto-commercial-bus-marz-5266/5277"
+        }
+      ]
+    },
+    {
+      "label": "Неман ОЗ",
+      "name": "auto-commercial-bus-neman_oz",
+      "url": "auto-commercial-bus-neman_oz",
+      "children": [
+        {
+          "label": "3232",
+          "name": "auto-commercial-bus-neman_oz-3232",
+          "url": "auto-commercial-bus-neman_oz-3232"
+        },
+        {
+          "label": "4201",
+          "name": "auto-commercial-bus-neman_oz-4201",
+          "url": "auto-commercial-bus-neman_oz-4201"
+        },
+        {
+          "label": "4202",
+          "name": "auto-commercial-bus-neman_oz-4202",
+          "url": "auto-commercial-bus-neman_oz-4202"
+        },
+        {
+          "label": "5201",
+          "name": "auto-commercial-bus-neman_oz-5201",
+          "url": "auto-commercial-bus-neman_oz-5201"
+        }
+      ]
+    },
+    {
+      "label": "НефАЗ",
+      "name": "auto-commercial-bus-nefaz",
+      "url": "auto-commercial-bus-nefaz",
+      "children": [
+        {
+          "label": "3297",
+          "name": "auto-commercial-bus-nefaz-3297",
+          "url": "auto-commercial-bus-nefaz-3297"
+        },
+        {
+          "label": "4208",
+          "name": "auto-commercial-bus-nefaz-4208",
+          "url": "auto-commercial-bus-nefaz-4208"
+        },
+        {
+          "label": "4211",
+          "name": "auto-commercial-bus-nefaz-4211",
+          "url": "auto-commercial-bus-nefaz-4211"
+        },
+        {
+          "label": "5299 Городской",
+          "name": "auto-commercial-bus-nefaz-5299_gorodskoj",
+          "url": "auto-commercial-bus-nefaz-5299_gorodskoj"
+        },
+        {
+          "label": "5299 Междугородный",
+          "name": "auto-commercial-bus-nefaz-5299_mezhdugorodnyj",
+          "url": "auto-commercial-bus-nefaz-5299_mezhdugorodnyj"
+        }
+      ]
+    },
+    {
+      "label": "ПАЗ",
+      "name": "auto-commercial-bus-paz",
+      "url": "auto-commercial-bus-paz",
+      "children": [
+        {
+          "label": "3202 Валдай",
+          "name": "auto-commercial-bus-paz-3202_valdaj",
+          "url": "auto-commercial-bus-paz-3202_valdaj"
+        },
+        {
+          "label": "3203",
+          "name": "auto-commercial-bus-paz-3203",
+          "url": "auto-commercial-bus-paz-3203"
+        },
+        {
+          "label": "3204",
+          "name": "auto-commercial-bus-paz-3204",
+          "url": "auto-commercial-bus-paz-3204"
+        },
+        {
+          "label": "3205",
+          "name": "auto-commercial-bus-paz-3205",
+          "url": "auto-commercial-bus-paz-3205"
+        },
+        {
+          "label": "3206",
+          "name": "auto-commercial-bus-paz-3206",
+          "url": "auto-commercial-bus-paz-3206"
+        },
+        {
+          "label": "3237",
+          "name": "auto-commercial-bus-paz-3237",
+          "url": "auto-commercial-bus-paz-3237"
+        },
+        {
+          "label": "4223/4228",
+          "name": "auto-commercial-bus-paz-4223/4228",
+          "url": "auto-commercial-bus-paz-4223/4228"
+        },
+        {
+          "label": "4230 Аврора",
+          "name": "auto-commercial-bus-paz-4230_avrora",
+          "url": "auto-commercial-bus-paz-4230_avrora"
+        },
+        {
+          "label": "4234",
+          "name": "auto-commercial-bus-paz-4234",
+          "url": "auto-commercial-bus-paz-4234"
+        },
+        {
+          "label": "5271/5272",
+          "name": "auto-commercial-bus-paz-5271/5272",
+          "url": "auto-commercial-bus-paz-5271/5272"
+        }
+      ]
+    },
+    {
+      "label": "РМЗ",
+      "name": "auto-commercial-bus-rmz",
+      "url": "auto-commercial-bus-rmz",
+      "children": [
+        {
+          "label": "Родник",
+          "name": "auto-commercial-bus-rmz-rodnik",
+          "url": "auto-commercial-bus-rmz-rodnik"
+        }
+      ]
+    },
+    {
+      "label": "РоАЗ",
+      "name": "auto-commercial-bus-roaz",
+      "url": "auto-commercial-bus-roaz",
+      "children": [
+        {
+          "label": "5236",
+          "name": "auto-commercial-bus-roaz-5236",
+          "url": "auto-commercial-bus-roaz-5236"
+        },
+        {
+          "label": "5239",
+          "name": "auto-commercial-bus-roaz-5239",
+          "url": "auto-commercial-bus-roaz-5239"
+        }
+      ]
+    },
+    {
+      "label": "СЕМАР",
+      "name": "auto-commercial-bus-semar",
+      "url": "auto-commercial-bus-semar",
+      "children": [
+        {
+          "label": "Пригородный",
+          "name": "auto-commercial-bus-semar-prigorodnyj",
+          "url": "auto-commercial-bus-semar-prigorodnyj"
+        }
+      ]
+    },
+    {
+      "label": "ТАРЗ",
+      "name": "auto-commercial-bus-tarz",
+      "url": "auto-commercial-bus-tarz",
+      "children": [
+        {
+          "label": "ТА-6",
+          "name": "auto-commercial-bus-tarz-ta-6",
+          "url": "auto-commercial-bus-tarz-ta-6"
+        }
+      ]
+    },
+    {
+      "label": "Тушино-Авто",
+      "name": "auto-commercial-bus-tushino-avto",
+      "url": "auto-commercial-bus-tushino-avto",
+      "children": [
+        {
+          "label": "Городской",
+          "name": "auto-commercial-bus-tushino-avto-gorodskoj",
+          "url": "auto-commercial-bus-tushino-avto-gorodskoj"
+        }
+      ]
+    },
+    {
+      "label": "Урал",
+      "name": "auto-commercial-bus-ural",
+      "url": "auto-commercial-bus-ural",
+      "children": [
+        {
+          "label": "3255",
+          "name": "auto-commercial-bus-ural-3255",
+          "url": "auto-commercial-bus-ural-3255"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "label": "Цена",
+      "name": "auto-commercial-bus-price",
+      "priority": 1,
+      "post_form": "textbox",
+      "measure": "сом",
+      "search_form": "range",
+      "search_priority": 2,
+      "filter_default_toggle": true,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Необходимо заполнить поле \"Цена\"."
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\" - значение быть целым числом."
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-bus-type",
+      "label": "Тип автобуса",
+      "priority": 2,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 1,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Вахтовый",
+          "priority": 1
+        },
+        {
+          "label": "Городской",
+          "priority": 2
+        },
+        {
+          "label": "Междугородный",
+          "priority": 3
+        },
+        {
+          "label": "Пригородный",
+          "priority": 4
+        },
+        {
+          "label": "Специальный",
+          "priority": 5
+        },
+        {
+          "label": "Туристический",
+          "priority": 6
+        },
+        {
+          "label": "Школьный",
+          "priority": 7
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип автобуса"
+        }
+      ]
+    },
+    {
+      "label": "Год выпуска",
+      "name": "auto-commercial-bus-year",
+      "priority": 3,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 3,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите год выпуска"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Год выпуска\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Руль",
+      "name": "auto-commercial-bus-steering_wheel",
+      "priority": 4,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 4,
+      "options": [
+        {
+          "label": "Слева",
+          "priority": 1
+        },
+        {
+          "label": "Справа",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите расположение руля"
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-bus-engine",
+      "label": "Тип двигателя",
+      "priority": 5,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 5,
+      "options": [
+        {
+          "label": "Дизель",
+          "priority": 1
+        },
+        {
+          "label": "Бензин",
+          "priority": 2
+        },
+        {
+          "label": "Бензин/Газ",
+          "priority": 3
+        },
+        {
+          "label": "Газ",
+          "priority": 4
+        },
+        {
+          "label": "Гибрид",
+          "priority": 5
+        },
+        {
+          "label": "Электро",
+          "priority": 6
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип двигателя"
+        }
+      ]
+    },
+    {
+      "label": "Объем двигателя",
+      "name": "auto-commercial-bus-volume",
+      "priority": 6,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 6,
+      "measure": "л.",
+      "hint": "пример: 3.0",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите объем двигателя"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "\"Объем двигателя\" - значение должно быть числом"
+        }
+      ]
+    },
+    {
+      "label": "Коробка",
+      "name": "auto-commercial-bus-ransmission",
+      "priority": 7,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 7,
+      "options": [
+        {
+          "label": "Механика",
+          "priority": 1
+        },
+        {
+          "label": "Автомат",
+          "priority": 2
+        },
+        {
+          "label": "Вариатор",
+          "priority": 3
+        },
+        {
+          "label": "Робот",
+          "priority": 4
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип коробки передач"
+        }
+      ]
+    },
+    {
+      "label": "Пробег",
+      "name": "auto-commercial-bus-odometer",
+      "priority": 8,
+      "post_form": "textbox",
+      "measure": "км",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Пробег\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Мощность",
+      "name": "auto-commercial-bus-power",
+      "priority": 9,
+      "post_form": "textbox",
+      "measure": "л.с.",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Мощность\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-bus-wheel_formula",
+      "label": "Колесная формула",
+      "priority": 10,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "4x2",
+          "priority": 3
+        },
+        {
+          "label": "4x4",
+          "priority": 4
+        },
+        {
+          "label": "6x2",
+          "priority": 5
+        },
+        {
+          "label": "6x4",
+          "priority": 6
+        },
+        {
+          "label": "6x6",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "label": "Кол-во мест",
+      "name": "seats_quantity",
+      "priority": 11,
+      "post_form": "textbox",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Кол-во мест\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "auto-commercial-bus-condition",
+      "priority": 12,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "Отличное",
+          "priority": 1
+        },
+        {
+          "label": "Хорошее",
+          "priority": 2
+        },
+        {
+          "label": "Среднее",
+          "priority": 3
+        },
+        {
+          "label": "Требует ремонта",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "Наличие",
+      "name": "auto-commercial-bus-availability",
+      "priority": 13,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 13,
+      "options": [
+        {
+          "label": "В наличии",
+          "priority": 1
+        },
+        {
+          "label": "На заказ",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите наличие"
+        }
+      ]
+    },
+    {
+      "label": "Опции",
+      "name": "auto-commercial-bus-options",
+      "priority": 14,
+      "post_form": "collapse",
+      "parameters": [
+        {
+          "label": "Комплектация",
+          "name": "auto-commercial-bus-options-equipment",
+          "priority": 1,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "abs",
+              "label": "Антиблок. система (ABS)",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "bow_thruster",
+              "label": "Подруливающая ось",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "name": "fridge",
+              "label": "Холодильник",
+              "post_form": "checkbox",
+              "priority": 3
+            },
+            {
+              "name": "trunk",
+              "label": "Багажное отделение",
+              "post_form": "checkbox",
+              "priority": 4
+            },
+            {
+              "name": "navigation",
+              "label": "Навигационная система",
+              "post_form": "checkbox",
+              "priority": 5
+            },
+            {
+              "name": "curtains",
+              "label": "Занавески",
+              "post_form": "checkbox",
+              "priority": 6
+            },
+            {
+              "name": "toned_windows",
+              "label": "Тонированные стекла",
+              "post_form": "checkbox",
+              "priority": 7
+            },
+            {
+              "name": "mountain_brake",
+              "label": "Горный тормоз",
+              "post_form": "checkbox",
+              "priority": 8
+            },
+            {
+              "name": "tv",
+              "label": "Телевизор",
+              "post_form": "checkbox",
+              "priority": 9
+            },
+            {
+              "name": "conditioner",
+              "label": "Кондиционер",
+              "post_form": "checkbox",
+              "priority": 10
+            },
+            {
+              "name": "wc",
+              "label": "Туалет",
+              "post_form": "checkbox",
+              "priority": 11
+            },
+            {
+              "name": "entry_for_disabled",
+              "label": "Вход для инвалидов",
+              "post_form": "checkbox",
+              "priority": 12
+            },
+            {
+              "name": "passenger_lights",
+              "label": "Светильники у пассажиров",
+              "post_form": "checkbox",
+              "priority": 13
+            }
+          ]
+        },
+        {
+          "label": "Магнитола",
+          "name": "media",
+          "priority": 6,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "cd",
+              "label": "CD",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "dvd",
+              "label": "DVD",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "name": "cassette",
+              "label": "Кассетная",
+              "post_form": "checkbox",
+              "priority": 3
+            },
+            {
+              "name": "usb",
+              "label": "USB",
+              "post_form": "checkbox",
+              "priority": 4
+            },
+            {
+              "name": "mp3",
+              "label": "MP3",
+              "post_form": "checkbox",
+              "priority": 5
+            },
+            {
+              "name": "radio",
+              "label": "Радио",
+              "post_form": "checkbox",
+              "priority": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Прочее",
+      "name": "auto-commercial-bus-additional_information",
+      "priority": 15,
+      "post_form": "checkboxlist",
+      "parameters": [
+        {
+          "name": "newly_delivered",
+          "label": "Свежедоставлен",
+          "post_form": "checkbox",
+          "priority": 1
+        },
+        {
+          "name": "cleared",
+          "label": "Растаможен",
+          "post_form": "checkbox",
+          "priority": 2
+        },
+        {
+          "name": "investment_does_not_required",
+          "label": "Вложений не требует",
+          "post_form": "checkbox",
+          "priority": 3
+        },
+        {
+          "name": "urgent",
+          "label": "Срочно",
+          "post_form": "checkbox",
+          "priority": 4
+        },
+        {
+          "name": "inspection_passed",
+          "label": "Техосмотр пройден",
+          "post_form": "checkbox",
+          "priority": 5
+        },
+        {
+          "name": "barter",
+          "label": "Возможен обмен",
+          "post_form": "checkbox",
+          "priority": 6
+        }
+      ]
+    }
+  ]
+}

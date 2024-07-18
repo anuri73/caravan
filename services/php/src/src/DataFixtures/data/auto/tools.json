@@ -1,0 +1,318 @@
+{
+  "name": "auto-parts-avtoinstrumenty",
+  "label": "Автоинструменты",
+  "url": "auto-parts-avtoinstrumenty",
+  "priority": 7,
+  "children": [
+    {
+      "name": "auto-parts-avtoinstrumenty-bity",
+      "label": "Биты",
+      "url": "auto-parts-avtoinstrumenty-bity",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-bity-nabor_bit",
+          "label": "Набор бит",
+          "url": "auto-parts-avtoinstrumenty-bity-nabor_bit"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-gaechnye_klyuchi",
+      "label": "Гаечные ключи",
+      "url": "auto-parts-avtoinstrumenty-gaechnye_klyuchi",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-balonnye_klyuchi",
+          "label": "Балонные ключи",
+          "url": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-balonnye_klyuchi"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-dinamometricheskie_klyuchi",
+          "label": "Динамометрические ключи",
+          "url": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-dinamometricheskie_klyuchi"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-nakidnye_klyuchi",
+          "label": "Накидные ключи",
+          "url": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-nakidnye_klyuchi"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-rozhkovo-nakidnye_klyuchi",
+          "label": "Рожково-накидные ключи",
+          "url": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-rozhkovo-nakidnye_klyuchi"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-rozhkovye_klyuchi",
+          "label": "Рожковые ключи",
+          "url": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-rozhkovye_klyuchi"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-svechnye_klyuchi",
+          "label": "Свечные ключи",
+          "url": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-svechnye_klyuchi"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-torcevye_klyuchi",
+          "label": "Торцевые ключи",
+          "url": "auto-parts-avtoinstrumenty-gaechnye_klyuchi-torcevye_klyuchi"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-izmeritelxnyj_instrument",
+      "label": "Измерительный инструмент",
+      "url": "auto-parts-avtoinstrumenty-izmeritelxnyj_instrument",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-izmeritelxnyj_instrument-tolshtinomer",
+          "label": "Толщиномер",
+          "url": "auto-parts-avtoinstrumenty-izmeritelxnyj_instrument-tolshtinomer"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-izmeritelxnyj_instrument-shtangencirkulx",
+          "label": "Штангенциркуль",
+          "url": "auto-parts-avtoinstrumenty-izmeritelxnyj_instrument-shtangencirkulx"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-instrumenty_dlya_okrashivaniya_poverhnostej",
+      "label": "Инструменты для окрашивания поверхностей",
+      "url": "auto-parts-avtoinstrumenty-instrumenty_dlya_okrashivaniya_poverhnostej",
+      "children": []
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-lestnica",
+      "label": "Лестница",
+      "url": "auto-parts-avtoinstrumenty-lestnica",
+      "children": []
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-nabor_instrumenta",
+      "label": "Набор инструмента",
+      "url": "auto-parts-avtoinstrumenty-nabor_instrumenta",
+      "children": []
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-nozh",
+      "label": "Нож",
+      "url": "auto-parts-avtoinstrumenty-nozh",
+      "children": []
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-otvertki",
+      "label": "Отвертки",
+      "url": "auto-parts-avtoinstrumenty-otvertki",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-otvertki-nabor_otvertok",
+          "label": "Набор отверток",
+          "url": "auto-parts-avtoinstrumenty-otvertki-nabor_otvertok"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-otvertki-otvertka",
+          "label": "Отвертка",
+          "url": "auto-parts-avtoinstrumenty-otvertki-otvertka"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-passatizhi",
+      "label": "Пассатижи",
+      "url": "auto-parts-avtoinstrumenty-passatizhi",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-passatizhi-nabor_passatizhej",
+          "label": "Набор пассатижей",
+          "url": "auto-parts-avtoinstrumenty-passatizhi-nabor_passatizhej"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-perchatki",
+      "label": "Перчатки",
+      "url": "auto-parts-avtoinstrumenty-perchatki",
+      "children": []
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-pnevmoinstrument",
+      "label": "Пневмоинструмент",
+      "url": "auto-parts-avtoinstrumenty-pnevmoinstrument",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-pnevmoinstrument-pnevmoshlifmashiny",
+          "label": "Пневмошлифмашины",
+          "url": "auto-parts-avtoinstrumenty-pnevmoinstrument-pnevmoshlifmashiny"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-prisposobleniya_dlya_shlifovki_i_polirovki",
+      "label": "Приспособления для шлифовки и полировки",
+      "url": "auto-parts-avtoinstrumenty-prisposobleniya_dlya_shlifovki_i_polirovki",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-prisposobleniya_dlya_shlifovki_i_polirovki-bumaga_nazhdachnaya",
+          "label": "Бумага наждачная",
+          "url": "auto-parts-avtoinstrumenty-prisposobleniya_dlya_shlifovki_i_polirovki-bumaga_nazhdachnaya"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-prisposobleniya_dlya_shlifovki_i_polirovki-diski_abrazivnye",
+          "label": "Диски абразивные",
+          "url": "auto-parts-avtoinstrumenty-prisposobleniya_dlya_shlifovki_i_polirovki-diski_abrazivnye"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-rezhushtij_instrument",
+      "label": "Режущий инструмент",
+      "url": "auto-parts-avtoinstrumenty-rezhushtij_instrument",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-rezhushtij_instrument-krugi_otreznye",
+          "label": "Круги отрезные",
+          "url": "auto-parts-avtoinstrumenty-rezhushtij_instrument-krugi_otreznye"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-rezhushtij_instrument-metchiki",
+          "label": "Метчики",
+          "url": "auto-parts-avtoinstrumenty-rezhushtij_instrument-metchiki"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-rezhushtij_instrument-plashki",
+          "label": "Плашки",
+          "url": "auto-parts-avtoinstrumenty-rezhushtij_instrument-plashki"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-svarochnoe_oborudovanie",
+      "label": "Сварочное оборудование",
+      "url": "auto-parts-avtoinstrumenty-svarochnoe_oborudovanie",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-svarochnoe_oborudovanie-svarochnyj_apparat_invertornyj",
+          "label": "Сварочный аппарат инверторный",
+          "url": "auto-parts-avtoinstrumenty-svarochnoe_oborudovanie-svarochnyj_apparat_invertornyj"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-specialxnyj_instrument",
+      "label": "Специальный инструмент",
+      "url": "auto-parts-avtoinstrumenty-specialxnyj_instrument",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-specialxnyj_instrument-invertory",
+          "label": "Инверторы",
+          "url": "auto-parts-avtoinstrumenty-specialxnyj_instrument-invertory"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-specialxnyj_instrument-syemniki",
+          "label": "Съемники",
+          "url": "auto-parts-avtoinstrumenty-specialxnyj_instrument-syemniki"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-specialxnyj_instrument-testery",
+          "label": "Тестеры",
+          "url": "auto-parts-avtoinstrumenty-specialxnyj_instrument-testery"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-strubciny",
+      "label": "Струбцины",
+      "url": "auto-parts-avtoinstrumenty-strubciny",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-strubciny-nabor_strubcin",
+          "label": "Набор струбцин",
+          "url": "auto-parts-avtoinstrumenty-strubciny-nabor_strubcin"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-strubciny-strubcina",
+          "label": "Струбцина",
+          "url": "auto-parts-avtoinstrumenty-strubciny-strubcina"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-torcevye_golovki",
+      "label": "Торцевые головки",
+      "url": "auto-parts-avtoinstrumenty-torcevye_golovki",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-torcevye_golovki-nabor_torcevyh_golovok",
+          "label": "Набор торцевых головок",
+          "url": "auto-parts-avtoinstrumenty-torcevye_golovki-nabor_torcevyh_golovok"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-torcevye_golovki-torcevaya_golovka",
+          "label": "Торцевая головка",
+          "url": "auto-parts-avtoinstrumenty-torcevye_golovki-torcevaya_golovka"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-hranenie_instrumenta",
+      "label": "Хранение инструмента",
+      "url": "auto-parts-avtoinstrumenty-hranenie_instrumenta",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-hranenie_instrumenta-sumka_dlya_instrumenta",
+          "label": "Сумка для инструмента",
+          "url": "auto-parts-avtoinstrumenty-hranenie_instrumenta-sumka_dlya_instrumenta"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-hranenie_instrumenta-yashtik_instrumentalxnyj",
+          "label": "Ящик инструментальный",
+          "url": "auto-parts-avtoinstrumenty-hranenie_instrumenta-yashtik_instrumentalxnyj"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-avtoinstrumenty-elektroinstrument",
+      "label": "Электроинструмент",
+      "url": "auto-parts-avtoinstrumenty-elektroinstrument",
+      "children": [
+        {
+          "name": "auto-parts-avtoinstrumenty-elektroinstrument-akkumulyatory_dlya_elektroinstrumenta",
+          "label": "Аккумуляторы для электроинструмента",
+          "url": "auto-parts-avtoinstrumenty-elektroinstrument-akkumulyatory_dlya_elektroinstrumenta"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-elektroinstrument-lobzik",
+          "label": "Лобзик",
+          "url": "auto-parts-avtoinstrumenty-elektroinstrument-lobzik"
+        },
+        {
+          "name": "auto-parts-avtoinstrumenty-elektroinstrument-shurupovert",
+          "label": "Шуруповерт",
+          "url": "auto-parts-avtoinstrumenty-elektroinstrument-shurupovert"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "label": "Цена",
+      "name": "auto-parts-avtoinstrumenty-price",
+      "priority": 7,
+      "post_form": "textbox",
+      "measure": "сом",
+      "search_form": "range",
+      "search_priority": 7,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите цену"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\" - значение должно быть целым числом."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "label": "Оргтехника",
+  "url": "electronics-office-equipment",
+  "priority": 8,
+  "children": [
+    {
+      "label": "Копировальные аппараты и МФУ",
+      "url": "electronics-office-equipment-copiers-mfp",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-office-equipment-copiers-mfp-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Копировальные аппараты",
+              "priority": 1
+            },
+            {
+              "label": "МФУ",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-office-equipment-copiers-mfp-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Brother","priority": 1},
+            {"label": "Canon","priority": 1},
+            {"label": "DELL","priority": 1},
+            {"label": "Develop","priority": 1},
+            {"label": "Epson","priority": 1},
+            {"label": "Fujifilm","priority": 1},
+            {"label": "Gestetner","priority": 1},
+            {"label": "HiTi","priority": 1},
+            {"label": "HP","priority": 1},
+            {"label": "KIP","priority": 1},
+            {"label": "Konica Minolta","priority": 1},
+            {"label": "Kyocera","priority": 1},
+            {"label": "Lexmark","priority": 1},
+            {"label": "LG","priority": 1},
+            {"label": "MiLi","priority": 1},
+            {"label": "Mimaki","priority": 1},
+            {"label": "Minolta","priority": 1},
+            {"label": "Mitsubishi Electric","priority": 1},
+            {"label": "Mustang Printers","priority": 1},
+            {"label": "Mutoh","priority": 1},
+            {"label": "Oce","priority": 1},
+            {"label": "OKI","priority": 1},
+            {"label": "Panasonic","priority": 1},
+            {"label": "Pantum","priority": 1},
+            {"label": "Philips","priority": 1},
+            {"label": "Planon","priority": 1},
+            {"label": "Ricoh","priority": 1},
+            {"label": "Riso","priority": 1},
+            {"label": "Roland","priority": 1},
+            {"label": "ROWE","priority": 1},
+            {"label": "Samsung","priority": 1},
+            {"label": "Seiko","priority": 1},
+            {"label": "Sharp","priority": 1},
+            {"label": "Shinco","priority": 1},
+            {"label": "Toshiba","priority": 1},
+            {"label": "TWINJET","priority": 1},
+            {"label": "Xerox","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Принтеры",
+      "url": "electronics-office-equipment-printers",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-office-equipment-printers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "струйный","priority": 1},
+            {"label": "лазерный","priority": 1},
+            {"label": "сублимационный","priority": 1},
+            {"label": "твердочернильный","priority": 1},
+            {"label": "3D-печать","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-office-equipment-printers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Brother","priority": 1},
+            {"label": "Canon","priority": 1},
+            {"label": "DELL","priority": 1},
+            {"label": "Develop","priority": 1},
+            {"label": "Epson","priority": 1},
+            {"label": "Fujifilm","priority": 1},
+            {"label": "Gestetner","priority": 1},
+            {"label": "HiTi","priority": 1},
+            {"label": "HP","priority": 1},
+            {"label": "KIP","priority": 1},
+            {"label": "Konica Minolta","priority": 1},
+            {"label": "Kyocera","priority": 1},
+            {"label": "Lexmark","priority": 1},
+            {"label": "LG","priority": 1},
+            {"label": "MiLi","priority": 1},
+            {"label": "Mimaki","priority": 1},
+            {"label": "Minolta","priority": 1},
+            {"label": "Mitsubishi Electric","priority": 1},
+            {"label": "Mustang Printers","priority": 1},
+            {"label": "Mutoh","priority": 1},
+            {"label": "Oce","priority": 1},
+            {"label": "OKI","priority": 1},
+            {"label": "Panasonic","priority": 1},
+            {"label": "Pantum","priority": 1},
+            {"label": "Philips","priority": 1},
+            {"label": "Planon","priority": 1},
+            {"label": "Ricoh","priority": 1},
+            {"label": "Riso","priority": 1},
+            {"label": "Roland","priority": 1},
+            {"label": "ROWE","priority": 1},
+            {"label": "Samsung","priority": 1},
+            {"label": "Seiko","priority": 1},
+            {"label": "Sharp","priority": 1},
+            {"label": "Shinco","priority": 1},
+            {"label": "Toshiba","priority": 1},
+            {"label": "TWINJET","priority": 1},
+            {"label": "Xerox","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Картриджи для принтеров",
+      "url": "electronics-office-cartridges-for-printers",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-office-cartridges-for-printers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "для лазерного принтера","priority": 1},
+            {"label": "для матричного принтера","priority": 1},
+            {"label": "для струйного принтера","priority": 1},
+            {"label": "для сублимационного принтера","priority": 1},
+            {"label": "для твердочернильного принтера","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-office-cartridges-for-printers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Brother","priority": 1},
+            {"label": "Cactus","priority": 1},
+            {"label": "Canon","priority": 1},
+            {"label": "Epson","priority": 1},
+            {"label": "HP","priority": 1},
+            {"label": "Konica Minolta","priority": 1},
+            {"label": "KYOCERA","priority": 1},
+            {"label": "NV Print","priority": 1},
+            {"label": "OKI","priority": 1},
+            {"label": "Panasonic","priority": 1},
+            {"label": "Samsung","priority": 1},
+            {"label": "Xerox","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Чернила, тонеры, фотобарабаны",
+      "url": "electronics-office-inks-toners-photoconductors",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-office-inks-toners-photoconductors-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "тонера","priority": 1},
+            {"label": "чернила","priority": 1},
+            {"label": "фотобарабаны","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-office-inks-toners-photoconductors-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Canon","priority": 1},
+            {"label": "Epson","priority": 1},
+            {"label": "Hi-Black","priority": 1},
+            {"label": "Ink-Mate","priority": 1},
+            {"label": "Katun","priority": 1},
+            {"label": "Net Product","priority": 1},
+            {"label": "Samsung","priority": 1},
+            {"label": "Xerox","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Сканеры",
+      "url": "electronics-office-scanners",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-office-scanners-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AVE","priority": 1},
+            {"label": "Avision","priority": 1},
+            {"label": "Bliss","priority": 1},
+            {"label": "Brother","priority": 1},
+            {"label": "Canon","priority": 1},
+            {"label": "Colortrac","priority": 1},
+            {"label": "Contex","priority": 1},
+            {"label": "Epson","priority": 1},
+            {"label": "Fujitsu-Siemens","priority": 1},
+            {"label": "Graphtec","priority": 1},
+            {"label": "HAMA","priority": 1},
+            {"label": "HP","priority": 1},
+            {"label": "I.R.I.S.","priority": 1},
+            {"label": "Ion","priority": 1},
+            {"label": "Kodak","priority": 1},
+            {"label": "Microtek","priority": 1},
+            {"label": "Mustek","priority": 1},
+            {"label": "Nikon","priority": 1},
+            {"label": "Oce","priority": 1},
+            {"label": "Panasonic","priority": 1},
+            {"label": "Penpower","priority": 1},
+            {"label": "Planon","priority": 1},
+            {"label": "Plustek","priority": 1},
+            {"label": "ROWE","priority": 1},
+            {"label": "Visioneer","priority": 1},
+            {"label": "Xerox","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Проекторы",
+      "url": "electronics-office-projectors",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-office-projectors-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "карманный","priority": 1},
+            {"label": "портативный","priority": 1},
+            {"label": "стационарный","priority": 1},
+            {"label": "ультрапортативный","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-office-projectors-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "3M","priority": 1},
+            {"label": "AAXA","priority": 1},
+            {"label": "Acer","priority": 1},
+            {"label": "Aiptek","priority": 1},
+            {"label": "ANTHEM","priority": 1},
+            {"label": "ASK Proxima","priority": 1},
+            {"label": "ASUS","priority": 1},
+            {"label": "Avielo","priority": 1},
+            {"label": "Barco","priority": 1},
+            {"label": "BenQ","priority": 1},
+            {"label": "Boxlight","priority": 1},
+            {"label": "Bright-technics","priority": 1},
+            {"label": "Brookstone","priority": 1},
+            {"label": "Canon","priority": 1},
+            {"label": "Casio","priority": 1},
+            {"label": "Christie","priority": 1},
+            {"label": "Cineversum","priority": 1},
+            {"label": "CooLux","priority": 1},
+            {"label": "CRE","priority": 1},
+            {"label": "DELL","priority": 1},
+            {"label": "Digital Projection","priority": 1},
+            {"label": "DIGITUS","priority": 1},
+            {"label": "Dream Vision","priority": 1},
+            {"label": "EIKI","priority": 1},
+            {"label": "Epson","priority": 1},
+            {"label": "FAVI","priority": 1},
+            {"label": "Genius","priority": 1},
+            {"label": "Hitachi","priority": 1},
+            {"label": "HP","priority": 1},
+            {"label": "IconBit","priority": 1},
+            {"label": "InFocus","priority": 1},
+            {"label": "Innovative","priority": 1},
+            {"label": "JVC","priority": 1},
+            {"label": "Kenko","priority": 1},
+            {"label": "KiDiGi","priority": 1},
+            {"label": "KINDERMANN","priority": 1},
+            {"label": "Leica","priority": 1},
+            {"label": "LG","priority": 1},
+            {"label": "Marantz","priority": 1},
+            {"label": "McIntosh","priority": 1},
+            {"label": "Meridian","priority": 1},
+            {"label": "Merlin","priority": 1},
+            {"label": "Microvision","priority": 1},
+            {"label": "MiLi","priority": 1},
+            {"label": "Mitsubishi Electric","priority": 1},
+            {"label": "NEC","priority": 1},
+            {"label": "Nobo","priority": 1},
+            {"label": "Optoma","priority": 1},
+            {"label": "Panasonic","priority": 1},
+            {"label": "Philips","priority": 1},
+            {"label": "Planar","priority": 1},
+            {"label": "Projectiondesign","priority": 1},
+            {"label": "Promethean Planet","priority": 1},
+            {"label": "Ricoh","priority": 1},
+            {"label": "Runco","priority": 1},
+            {"label": "Samsung","priority": 1},
+            {"label": "Sanyo","priority": 1},
+            {"label": "Sharp","priority": 1},
+            {"label": "Sim2","priority": 1},
+            {"label": "SMART","priority": 1},
+            {"label": "Sony","priority": 1},
+            {"label": "SZ Telstar","priority": 1},
+            {"label": "Toshiba","priority": 1},
+            {"label": "Vidikron","priority": 1},
+            {"label": "Viewsonic","priority": 1},
+            {"label": "Vivitek","priority": 1},
+            {"label": "Wolf Cinema","priority": 1},
+            {"label": "WOWee ONE","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        },
+        {
+          "label": "Назначение",
+          "name": "electronics-office-projectors-purpose",
+          "priority": 24,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 34,
+          "options": [
+            {"label": "для домашнего кинотеатра","priority": 1},
+            {"label": "для интерактивного класса","priority": 1},
+            {"label": "для концертного зала","priority": 1},
+            {"label": "для офиса","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Проекционные экраны",
+      "url": "electronics-office-projection-screens",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-office-projection-screens-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "настольные","priority": 1},
+            {"label": "на треноге","priority": 1},
+            {"label": "напольные","priority": 1},
+            {"label": "настенные","priority": 1},
+            {"label": "потолочные","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-office-projection-screens-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AccuScreens","priority": 1},
+            {"label": "Cadanz","priority": 1},
+            {"label": "Classic Solution","priority": 1},
+            {"label": "Comix","priority": 1},
+            {"label": "Da-Lite","priority": 1},
+            {"label": "Digis","priority": 1},
+            {"label": "Dinon","priority": 1},
+            {"label": "Draper","priority": 1},
+            {"label": "DreamVision","priority": 1},
+            {"label": "Elite Screens","priority": 1},
+            {"label": "EuroScreen","priority": 1},
+            {"label": "Geha","priority": 1},
+            {"label": "Grandview","priority": 1},
+            {"label": "Ligra","priority": 1},
+            {"label": "Lumene","priority": 1},
+            {"label": "Lumien","priority": 1},
+            {"label": "Procolor","priority": 1},
+            {"label": "Projecta","priority": 1},
+            {"label": "Redleaf","priority": 1},
+            {"label": "ScreenMedia","priority": 1},
+            {"label": "Sopar","priority": 1},
+            {"label": "Stewart","priority": 1},
+            {"label": "Viewstar","priority": 1},
+            {"label": "Vutec","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Мини АТС",
+      "url": "electronics-office-ats-mini",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-office-ats-mini-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "аналоговые АТС","priority": 1},
+            {"label": "цифровые АТС","priority": 1},
+            {"label": "IP-АТС","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-office-ats-mini-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Aastra","priority": 1},
+            {"label": "AddPac","priority": 1},
+            {"label": "Atcom","priority": 1},
+            {"label": "Grandstream","priority": 1},
+            {"label": "LG","priority": 1},
+            {"label": "LG-Ericsson","priority": 1},
+            {"label": "OpenVox","priority": 1},
+            {"label": "Panasonic","priority": 1},
+            {"label": "PicStar","priority": 1},
+            {"label": "Unify","priority": 1},
+            {"label": "Yeastar","priority": 1},
+            {"label": "ZYCOO","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Шредеры",
+      "url": "electronics-office-shredders",
+      "priority": 9,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-office-shredders-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Bulros","priority": 1},
+            {"label": "Comix","priority": 1},
+            {"label": "Deluxe","priority": 1},
+            {"label": "Fellowes","priority": 1},
+            {"label": "Geha","priority": 1},
+            {"label": "GLADWORK","priority": 1},
+            {"label": "HSM","priority": 1},
+            {"label": "Jinpex","priority": 1},
+            {"label": "KOBRA","priority": 1},
+            {"label": "New United","priority": 1},
+            {"label": "Office Kit","priority": 1},
+            {"label": "ProfiOffice","priority": 1},
+            {"label": "Rexel","priority": 1},
+            {"label": "ГЕЛЕОС","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Калькуляторы",
+      "url": "electronics-office-calculators",
+      "priority": 10,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-office-calculators-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "ASSISTANT","priority": 1},
+            {"label": "Attache","priority": 1},
+            {"label": "Berlingo","priority": 1},
+            {"label": "Canon","priority": 1},
+            {"label": "CASIO","priority": 1},
+            {"label": "Citizen","priority": 1},
+            {"label": "ErichKrause","priority": 1},
+            {"label": "InФормат","priority": 1},
+            {"label": "MILAN","priority": 1},
+            {"label": "Sharp","priority": 1},
+            {"label": "SKAINER","priority": 1},
+            {"label": "STAFF","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Счетчики банкнот и детекторы валют",
+      "url": "electronics-office-banknote-counters-detectors",
+      "priority": 11
+    },
+    {
+      "label": "Прочая офисная техника",
+      "url": "electronics-office-other",
+      "priority": 12
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "label": "Деткая мебель",
+  "url": "kids-furniture",
+  "priority": 6,
+  "parameters": [
+    {
+      "label": "Состояние",
+      "name": "kids-furniture-condition",
+      "priority": 21,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите состояние"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 21,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "label": "Бескаркасная мебель",
+      "url": "kids-furniture-frameless",
+      "priority": 1
+    },
+    {
+      "label": "Детские гарнитуры",
+      "url": "kids-furniture-sets",
+      "priority": 2
+    },
+    {
+      "label": "Манежи",
+      "url": "kids-furniture-playpens",
+      "priority": 3
+    },
+    {
+      "label": "Качели, шезлонги",
+      "url": "kids-furniture-teeters",
+      "priority": 4
+    },
+    {
+      "label": "Колыбели и люльки",
+      "url": "kids-furniture-cradles",
+      "priority": 5
+    },
+    {
+      "label": "Кроватки",
+      "url": "kids-furniture-beds",
+      "priority": 6
+    },
+    {
+      "label": "Комоды",
+      "url": "kids-furniture-chests",
+      "priority": 7
+    },
+    {
+      "label": "Парты и стулья",
+      "url": "kids-furniture-desks-and-chairs",
+      "priority": 8
+    },
+    {
+      "label": "Пеленальные столики",
+      "url": "kids-furniture-changing-tables",
+      "priority": 9
+    },
+    {
+      "label": "Столы и стульчики для кормления",
+      "url": "kids-furniture-feeding",
+      "priority": 10
+    },
+    {
+      "label": "Ходунки и прыгунки",
+      "url": "kids-furniture-walkers",
+      "priority": 11
+    },
+    {
+      "label": "Шведские стенки",
+      "url": "kids-furniture-wall-bars",
+      "priority": 12
+    },
+    {
+      "label": "Другая детская мебель",
+      "url": "kids-furniture-other",
+      "priority": 13
+    }
+  ]
+}

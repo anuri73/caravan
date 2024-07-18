@@ -1,0 +1,85 @@
+{
+  "label": "Детская литература",
+  "url": "kids-books",
+  "priority": 9,
+  "parameters": [
+    {
+      "label": "Тип",
+      "name": "kids-books-type",
+      "priority": 11,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип литературы"
+        }
+      ],
+      "post_form": "dropdown",
+      "search_form": "checkbox",
+      "search_priority": 11,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Для малышей",
+          "priority": 1
+        },
+        {
+          "label": "Художественная литература",
+          "priority": 2
+        },
+        {
+          "label": "Развивающая литература",
+          "priority": 3
+        },
+        {
+          "label": "Литература для родителей",
+          "priority": 4
+        },
+        {
+          "label": "Сказки",
+          "priority": 5
+        },
+        {
+          "label": "Комиксы",
+          "priority": 6
+        },
+        {
+          "label": "Стихи",
+          "priority": 7
+        },
+        {
+          "label": "Загадки, задачи",
+          "priority": 8
+        },
+        {
+          "label": "Прочая детская литература",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "kids-books-condition",
+      "priority": 30,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите состояние"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 30,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}

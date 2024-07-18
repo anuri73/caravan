@@ -1,0 +1,2096 @@
+{
+  "label": "Спорт и хобби",
+  "url": "sport-hobby",
+  "priority": 9,
+  "parameters": [
+    {
+      "label": "Заголовок",
+      "name": "sport-hobby-title",
+      "priority": 1,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите заголовок"
+        }
+      ],
+      "post_form": "textbox"
+    },
+    {
+      "label": "Цена",
+      "name": "sport-hobby-price",
+      "post_form": "textbox",
+      "measure": "сом",
+      "priority": 20,
+      "search_form": "range",
+      "search_priority": 20,
+      "filter_default_toggle": true,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите цену"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\" - значение должно быть целым числом."
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "label": "Спорт и отдых",
+      "url": "sport-hobby-sports",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "sport-hobby-sports-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ],
+      "children": [
+        {
+          "label": "Велосипеды",
+          "url": "sport-hobby-sports-bikes",
+          "priority": 1,
+          "children": [
+            {
+              "label": "Велосипеды",
+              "url": "sport-hobby-bikes-bicycles",
+              "priority": 1,
+              "parameters": [
+                {
+                  "label": "Возраст",
+                  "name": "sport-hobby-bikes-bicycles-age",
+                  "post_form": "radio",
+                  "priority": 2,
+                  "search_form": "checkbox",
+                  "search_priority": 2,
+                  "filter_default_toggle": true,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите возрастную категорию"
+                    }
+                  ],
+                  "options": [
+                    {"label": "Детский","priority": 1},
+                    {"label": "Для взрослых","priority": 1},
+                    {"label": "Подростковый","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Тип",
+                  "name": "sport-hobby-bikes-bicycles-type",
+                  "post_form": "dropdown",
+                  "priority": 3,
+                  "search_form": "checkbox",
+                  "search_priority": 3,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "BMX","priority": 1},
+                    {"label": "горный (MTB)","priority": 1},
+                    {"label": "горный гибрид","priority": 1},
+                    {"label": "городской","priority": 1},
+                    {"label": "дорожный","priority": 1},
+                    {"label": "круизер","priority": 1},
+                    {"label": "фэт-байк","priority": 1},
+                    {"label": "шоссейный","priority": 1},
+                    {"label": "шоссейный гибрид","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Пол",
+                  "name": "sport-hobby-bikes-bicycles-sex",
+                  "post_form": "radio",
+                  "priority": 4,
+                  "search_form": "checkbox",
+                  "search_priority": 4,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "женский","priority": 1},
+                    {"label": "унисекс","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Запчасти и аксессуары",
+              "url": "sport-hobby-bikes-parts-accessories",
+              "priority": 2,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "sport-hobby-bikes-parts-accessories-type",
+                  "post_form": "dropdown",
+                  "priority": 2,
+                  "search_form": "checkbox",
+                  "search_priority": 21,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "options": [
+                    {"label": "Тормоза для велосипедов","priority": 1},
+                    {"label": "Покрышки и камеры для велосипедов","priority": 1},
+                    {"label": "Рулевое управление для велосипедов","priority": 1},
+                    {"label": "Сумки для велосипедов","priority": 1},
+                    {"label": "Седла и подседельные штыри для велосипедов","priority": 1},
+                    {"label": "Инструменты для велосипедов","priority": 1},
+                    {"label": "Фонари для велосипедов","priority": 1},
+                    {"label": "Манетки и шифтеры для велосипедов","priority": 1},
+                    {"label": "Крылья для велосипедов","priority": 1},
+                    {"label": "Втулки для велосипедов","priority": 1},
+                    {"label": "Фляги и флягодержатели для велосипедов","priority": 1},
+                    {"label": "Педали для велосипедов","priority": 1},
+                    {"label": "Насосы для велосипедов","priority": 1},
+                    {"label": "Вилки для велосипедов","priority": 1},
+                    {"label": "Цепи для велосипедов","priority": 1},
+                    {"label": "Замки для велосипедов","priority": 1},
+                    {"label": "Компьютеры для велосипедов","priority": 1},
+                    {"label": "Корзины и багажники для велосипедов","priority": 1},
+                    {"label": "Кассеты и трещотки для велосипедов","priority": 1},
+                    {"label": "Каретки для велосипедов","priority": 1},
+                    {"label": "Звонки и клаксоны для велосипедов","priority": 1},
+                    {"label": "Прочие для велосипедов","priority": 1}
+
+
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Велорюкзаки",
+              "url": "sport-hobby-bikes-backpacks",
+              "priority": 3
+            },
+            {
+              "label": "Велокресла для малышей",
+              "url": "sport-hobby-bikes-seats-kids",
+              "priority": 4
+            },
+            {
+              "label": "Велоперчатки",
+              "url": "sport-hobby-bikes-cycling-gloves",
+              "priority": 5
+            },
+            {
+              "label": "Велоочки",
+              "url": "sport-hobby-bikes-cycling-glasses",
+              "priority": 6
+            }
+          ]
+        },
+        {
+          "label": "Шлемы, спортивная защита",
+          "url": "sport-hobby-sports-helmets-protection",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-helmets-protection-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 21,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "шлем","priority": 1},
+                {"label": "бинт-бандаж","priority": 1},
+                {"label": "защита бедра","priority": 1},
+                {"label": "защита голеностопа","priority": 1},
+                {"label": "защита груди","priority": 1},
+                {"label": "защита запястий","priority": 1},
+                {"label": "защита корпуса","priority": 1},
+                {"label": "защита паха","priority": 1},
+                {"label": "защита предплечья","priority": 1},
+                {"label": "защита спины","priority": 1},
+                {"label": "защита стопы","priority": 1},
+                {"label": "защитная капа","priority": 1},
+                {"label": "комплект защиты","priority": 1},
+                {"label": "наколенники","priority": 1},
+                {"label": "налокотники","priority": 1}
+              ]
+            },
+            {
+              "label": "Вид спорта",
+              "name": "sport-hobby-sports-helmets-protection-sport-type",
+              "post_form": "dropdown",
+              "priority": 3,
+              "search_form": "checkbox",
+              "search_priority": 33,
+              "options": [
+                {"label": "бокс и единборства","priority": 1},
+                {"label": "велоспорт","priority": 1},
+                {"label": "волейбол","priority": 1},
+                {"label": "горные лыжи","priority": 1},
+                {"label": "регби, гандбол","priority": 1},
+                {"label": "ролики, самокаты, скейтборды","priority": 1},
+                {"label": "сноубординг","priority": 1},
+                {"label": "футбол","priority": 1},
+                {"label": "хоккей","priority": 1}
+              ]
+            },
+            {
+              "label": "Возраст",
+              "name": "sport-hobby-sports-helmets-protection-age",
+              "post_form": "radio",
+              "priority": 4,
+              "search_form": "checkbox",
+              "search_priority": 24,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите возрастную категорию"
+                }
+              ],
+              "options": [
+                {"label": "Детский","priority": 1},
+                {"label": "Для взрослых","priority": 1},
+                {"label": "Подростковый","priority": 1}
+              ]
+            },
+            {
+              "label": "Пол",
+              "name": "sport-hobby-sports-helmets-protection-sport-sex",
+              "post_form": "radio",
+              "priority": 5,
+              "search_form": "checkbox",
+              "search_priority": 35,
+              "options": [
+                {"label": "женский","priority": 1},
+                {"label": "унисекс","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Самокаты",
+          "url": "sport-hobby-sports-scooters",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Возраст",
+              "name": "sport-hobby-sports-scooters-age",
+              "post_form": "radio",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите возрастную категорию"
+                }
+              ],
+              "options": [
+                {"label": "Детский","priority": 1},
+                {"label": "Взрослый","priority": 1},
+                {"label": "Для малышей","priority": 1}
+              ]
+            },
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-scooters-type",
+              "post_form": "dropdown",
+              "priority": 3,
+              "search_form": "checkbox",
+              "search_priority": 3,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "внедорожный","priority": 1},
+                {"label": "городской","priority": 1},
+                {"label": "кикборд","priority": 1},
+                {"label": "самокат-беговел","priority": 1},
+                {"label": "спортивный","priority": 1},
+                {"label": "тридер","priority": 1},
+                {"label": "футбайк","priority": 1},
+                {"label": "электросамокат","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Моноколеса и гироскутеры",
+          "url": "sport-hobby-sports-gyroscooters",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Возраст",
+              "name": "sport-hobby-sports-gyroscooters-age",
+              "post_form": "radio",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите возрастную категорию"
+                }
+              ],
+              "options": [
+                {"label": "Детский","priority": 1},
+                {"label": "Взрослый","priority": 1}
+              ]
+            },
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-gyroscooters-type",
+              "post_form": "dropdown",
+              "priority": 3,
+              "search_form": "checkbox",
+              "search_priority": 3,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "гироскутер","priority": 1},
+                {"label": "моноколесо","priority": 1},
+                {"label": "сегвей","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Скейтборды и лонгборды",
+          "url": "sport-hobby-sports-skateboards-longboards",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Возраст",
+              "name": "sport-hobby-sports-skateboards-longboards-age",
+              "post_form": "radio",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите возрастную категорию"
+                }
+              ],
+              "options": [
+                {"label": "Детский","priority": 1},
+                {"label": "Взрослый","priority": 1}
+              ]
+            },
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-skateboards-longboards-type",
+              "post_form": "dropdown",
+              "priority": 3,
+              "search_form": "checkbox",
+              "search_priority": 3,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "лонгборд","priority": 1},
+                {"label": "роллерсерф","priority": 1},
+                {"label": "скейтборд","priority": 1},
+                {"label": "электрический роллерсерф","priority": 1},
+                {"label": "электроскейт","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Роликовые коньки",
+          "url": "sport-hobby-sports-roller-skates",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "sport-hobby-sports-roller-skates-size",
+              "priority": 3,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 23,
+              "filter_default_toggle": true
+            }
+          ]
+        },
+        {
+          "label": "Лыжи и сноуборды",
+          "url": "sport-hobby-sports-skiing-snowboarding",
+          "priority": 8,
+          "children": [
+            {
+              "label": "Горные лыжи",
+              "url": "sport-hobby-skiing-snowboarding-skis",
+              "priority": 1,
+              "parameters": [
+                {
+                  "label": "Возраст",
+                  "name": "sport-hobby-skiing-snowboarding-skis-age",
+                  "post_form": "radio",
+                  "priority": 2,
+                  "search_form": "checkbox",
+                  "search_priority": 2,
+                  "filter_default_toggle": true,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите возрастную категорию"
+                    }
+                  ],
+                  "options": [
+                    {"label": "Детские","priority": 1},
+                    {"label": "Взрослые","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Тип",
+                  "name": "sport-hobby-skiing-snowboarding-skis-type",
+                  "post_form": "radio",
+                  "priority": 3,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 3,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "C ботинками","priority": 1},
+                    {"label": "Без ботинок","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Пол",
+                  "name": "sport-hobby-skiing-snowboarding-skis-sex",
+                  "post_form": "radio",
+                  "priority": 4,
+                  "search_form": "checkbox",
+                  "search_priority": 4,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "женские","priority": 1},
+                    {"label": "универсальные","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Ростовка",
+                  "name": "sport-hobby-skiing-snowboarding-skis-length",
+                  "priority": 5,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Ростовка - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "measure": "см",
+                  "search_form": "range",
+                  "search_priority": 25,
+                  "filter_default_toggle": true
+                },
+                {
+                  "label": "Размер ботинок",
+                  "name": "sport-hobby-skiing-snowboarding-skis-size",
+                  "priority": 6,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 26,
+                  "filter_default_toggle": true
+                }
+              ]
+            },
+            {
+              "label": "Горнолыжные ботинки",
+              "url": "sport-hobby-skiing-snowboarding-ski-boots",
+              "priority": 2,
+              "parameters": [
+                {
+                  "label": "Возраст",
+                  "name": "sport-hobby-skiing-snowboarding-ski-boots-age",
+                  "post_form": "radio",
+                  "priority": 2,
+                  "search_form": "checkbox",
+                  "search_priority": 2,
+                  "filter_default_toggle": true,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите возрастную категорию"
+                    }
+                  ],
+                  "options": [
+                    {"label": "Детские","priority": 1},
+                    {"label": "Взрослые","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Пол",
+                  "name": "sport-hobby-skiing-snowboarding-ski-boots-sex",
+                  "post_form": "radio",
+                  "priority": 4,
+                  "search_form": "checkbox",
+                  "search_priority": 4,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "женские","priority": 1},
+                    {"label": "универсальные","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер ботинок",
+                  "name": "sport-hobby-skiing-snowboarding-ski-boots-size",
+                  "priority": 6,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 26,
+                  "filter_default_toggle": true
+                }
+              ]
+            },
+            {
+              "label": "Палки для горных лыж",
+              "url": "sport-hobby-skiing-snowboarding-ski-sticks",
+              "priority": 3,
+              "parameters": [
+                {
+                  "label": "Возраст",
+                  "name": "sport-hobby-skiing-snowboarding-ski-sticks-age",
+                  "post_form": "radio",
+                  "priority": 2,
+                  "search_form": "checkbox",
+                  "search_priority": 2,
+                  "filter_default_toggle": true,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите возрастную категорию"
+                    }
+                  ],
+                  "options": [
+                    {"label": "Детские","priority": 1},
+                    {"label": "Взрослые","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Пол",
+                  "name": "sport-hobby-skiing-snowboarding-ski-sticks-sex",
+                  "post_form": "radio",
+                  "priority": 4,
+                  "search_form": "checkbox",
+                  "search_priority": 4,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "женские","priority": 1},
+                    {"label": "универсальные","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "sport-hobby-skiing-snowboarding-ski-sticks-length",
+                  "priority": 6,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "measure": "см",
+                  "search_form": "range",
+                  "search_priority": 26,
+                  "filter_default_toggle": true
+                }
+              ]
+            },
+            {
+              "label": "Крепления для лыж",
+              "url": "sport-hobby-skiing-snowboarding-ski-mounts",
+              "priority": 4,
+              "parameters": [
+                {
+                  "label": "Возраст",
+                  "name": "sport-hobby-skiing-snowboarding-ski-mounts-age",
+                  "post_form": "radio",
+                  "priority": 2,
+                  "search_form": "checkbox",
+                  "search_priority": 2,
+                  "filter_default_toggle": true,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите возрастную категорию"
+                    }
+                  ],
+                  "options": [
+                    {"label": "Детские","priority": 1},
+                    {"label": "Взрослые","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Пол",
+                  "name": "sport-hobby-skiing-snowboarding-ski-mounts-sex",
+                  "post_form": "radio",
+                  "priority": 4,
+                  "search_form": "checkbox",
+                  "search_priority": 4,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "женские","priority": 1},
+                    {"label": "универсальные","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Сноуборды",
+              "url": "sport-hobby-skiing-snowboarding-snowboards",
+              "priority": 5,
+              "parameters": [
+                {
+                  "label": "Возраст",
+                  "name": "sport-hobby-skiing-snowboarding-snowboards-age",
+                  "post_form": "radio",
+                  "priority": 2,
+                  "search_form": "checkbox",
+                  "search_priority": 2,
+                  "filter_default_toggle": true,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите возрастную категорию"
+                    }
+                  ],
+                  "options": [
+                    {"label": "Детские","priority": 1},
+                    {"label": "Взрослые","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Пол",
+                  "name": "sport-hobby-skiing-snowboarding-snowboards-sex",
+                  "post_form": "radio",
+                  "priority": 4,
+                  "search_form": "checkbox",
+                  "search_priority": 4,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "женские","priority": 1},
+                    {"label": "универсальные","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Ростовка",
+                  "name": "sport-hobby-skiing-snowboarding-snowboards-length",
+                  "priority": 5,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Ростовка - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "measure": "см",
+                  "search_form": "range",
+                  "search_priority": 25,
+                  "filter_default_toggle": true
+                }
+              ]
+            },
+            {
+              "label": "Ботинки для сноубординга",
+              "url": "sport-hobby-skiing-snowboarding-snowboard-boots",
+              "priority": 6,
+              "parameters": [
+                {
+                  "label": "Возраст",
+                  "name": "sport-hobby-skiing-snowboarding-snowboard-bootsage",
+                  "post_form": "radio",
+                  "priority": 2,
+                  "search_form": "checkbox",
+                  "search_priority": 2,
+                  "filter_default_toggle": true,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите возрастную категорию"
+                    }
+                  ],
+                  "options": [
+                    {"label": "Детские","priority": 1},
+                    {"label": "Взрослые","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Пол",
+                  "name": "sport-hobby-skiing-snowboarding-snowboard-bootssex",
+                  "post_form": "radio",
+                  "priority": 4,
+                  "search_form": "checkbox",
+                  "search_priority": 4,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "женские","priority": 1},
+                    {"label": "универсальные","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер ботинок",
+                  "name": "sport-hobby-skiing-snowboarding-snowboard-bootssize",
+                  "priority": 6,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 26,
+                  "filter_default_toggle": true
+                }
+              ]
+            },
+            {
+              "label": "Крепления для сноубордов",
+              "url": "sport-hobby-skiing-snowboarding-snowboard-mounts",
+              "priority": 7,
+              "parameters": [
+                {
+                  "label": "Тип крепления",
+                  "name": "tsport-hobby-skiing-snowboarding-snowboard-mounts-ype",
+                  "post_form": "radio",
+                  "priority": 2,
+                  "search_form": "checkbox",
+                  "search_priority": 2,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Step-In","priority": 1},
+                    {"label": "Step-on","priority": 1},
+                    {"label": "для сплитборда","priority": 1},
+                    {"label": "классические","priority": 1},
+                    {"label": "с откидывающимся хайбэком","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Возраст",
+                  "name": "sport-hobby-skiing-snowboarding-snowboard-mounts-age",
+                  "post_form": "radio",
+                  "priority": 3,
+                  "search_form": "checkbox",
+                  "search_priority": 3,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Детские","priority": 1},
+                    {"label": "Взрослые","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Пол",
+                  "name": "sport-hobby-skiing-snowboarding-snowboard-mounts-sex",
+                  "post_form": "radio",
+                  "priority": 4,
+                  "search_form": "checkbox",
+                  "search_priority": 4,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "женские","priority": 1},
+                    {"label": "универсальные","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "sport-hobby-skiing-snowboarding-snowboard-mounts-size",
+                  "post_form": "radio",
+                  "priority": 5,
+                  "search_form": "checkbox",
+                  "search_priority": 5,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "X","priority": 1},
+                    {"label": "XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Аксессуары для лыж и сноубординга",
+              "url": "sport-hobby-skiing-snowboarding-accessories",
+              "priority": 8,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "sport-hobby-skiing-snowboarding-accessories-type",
+                  "post_form": "radio",
+                  "priority": 2,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 2,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Очки, маски","priority": 1},
+                    {"label": "Перчатки","priority": 1},
+                    {"label": "Сумки, чехлы","priority": 1},
+                    {"label": "Мази","priority": 1},
+                    {"label": "Наклейки","priority": 1},
+                    {"label": "Прочее","priority": 1}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Коньки",
+          "url": "sport-hobby-sports-skating",
+          "priority": 9,
+          "parameters": [
+            {
+              "label": "Возраст",
+              "name": "sport-hobby-sports-skating-age",
+              "post_form": "radio",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите возрастную категорию"
+                }
+              ],
+              "options": [
+                {"label": "Детские","priority": 1},
+                {"label": "Подростковые","priority": 1},
+                {"label": "Взрослые","priority": 1}
+              ]
+            },
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-skating-type",
+              "post_form": "radio",
+              "priority": 3,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 3,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Прогулочные","priority": 1},
+                {"label": "Спринтерские","priority": 1},
+                {"label": "Фигурные","priority": 1},
+                {"label": "Хоккейные","priority": 1}
+              ]
+            },
+            {
+              "label": "Пол",
+              "name": "sport-hobby-sports-skating-sex",
+              "post_form": "radio",
+              "priority": 4,
+              "search_form": "checkbox",
+              "search_priority": 4,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "женские","priority": 1},
+                {"label": "мужские","priority": 1},
+                {"label": "унисекс","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "sport-hobby-sports-skating-size",
+              "priority": 6,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 26,
+              "filter_default_toggle": true
+            }
+          ]
+        },
+        {
+          "label": "Санки и снегокаты",
+          "url": "sport-hobby-sports-sledges-snow-scooters",
+          "priority": 10
+        },
+        {
+          "label": "Тренажеры и фитнес",
+          "url": "sport-hobby-sports-fitness-gym-trainers",
+          "priority": 11,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-fitness-gym-trainers-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 21,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Батуты",
+                  "priority": 1
+                },
+                {
+                  "label": "Беговые дорожки",
+                  "priority": 2
+                },
+                {
+                  "label": "Эллиптические тренажеры",
+                  "priority": 3
+                },
+                {
+                  "label": "Велотренажеры",
+                  "priority": 4
+                },
+                {
+                  "label": "Силовые тренажеры",
+                  "priority": 5
+                },
+                {
+                  "label": "Турники, брусья",
+                  "priority": 6
+                },
+                {
+                  "label": "Гиперэкстензии",
+                  "priority": 7
+                },
+                {
+                  "label": "Гребные тренажеры",
+                  "priority": 8
+                },
+                {
+                  "label": "Гантели, штанги, диски",
+                  "priority": 9
+                },
+                {
+                  "label": "Скамьи и стойки",
+                  "priority": 10
+                },
+                {
+                  "label": "Утяжелители",
+                  "priority": 11
+                },
+                {
+                  "label": "Эспандеры",
+                  "priority": 12
+                },
+                {
+                  "label": "Гимнастические мячи",
+                  "priority": 13
+                },
+                {
+                  "label": "Спортивные комплексы",
+                  "priority": 14
+                },
+                {
+                  "label": "Степперы",
+                  "priority": 15
+                },
+                {
+                  "label": "Джамперы",
+                  "priority": 16
+                },
+                {
+                  "label": "Виброплатформы",
+                  "priority": 17
+                },
+                {
+                  "label": "Для йоги",
+                  "priority": 18
+                },
+                {
+                  "label": "Обручи, скакалки",
+                  "priority": 19
+                },
+                {
+                  "label": "Другие",
+                  "priority": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Спортивное питание",
+          "url": "sport-hobby-sports-nutrition",
+          "priority": 12,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-nutrition-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 21,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "Аминокислоты", "priority": 1},
+                {"label": "Витамины и минералы", "priority": 1},
+                {"label": "Гейнеры", "priority": 1},
+                {"label": "Жиросжигатели", "priority": 1},
+                {"label": "Креатин", "priority": 1},
+                {"label": "Препараты для восстановления", "priority": 1},
+                {"label": "Протеины", "priority": 1},
+                {"label": "Энергетики и изотоники", "priority": 1},
+                {"label": "Шейкеры и бутылки", "priority": 1},
+                {"label": "Другие", "priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Теннис, бадминтон, дартс",
+          "url": "sport-hobby-sports-tennis-badminton-darts",
+          "priority": 13,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-tennis-badminton-darts-type",
+              "post_form": "radio",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 21,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+
+                {"label": "Большой теннис", "priority": 1},
+                {"label": "Настольный теннис", "priority": 1},
+                {"label": "Бадминтон", "priority": 1},
+                {"label": "Дартс", "priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Бильярд, боулинг",
+          "url": "sport-hobby-sports-billiards-bowling",
+          "priority": 14,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-billiards-bowling-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 21,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "Бильярдные кии", "priority": 1},
+                {"label": "Бильярдные столы", "priority": 1},
+                {"label": "Шары для бильярда", "priority": 1},
+                {"label": "Шары для боулинга", "priority": 1},
+                {"label": "Другое", "priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Водный спорт, дайвинг",
+          "url": "sport-hobby-sports-water-sports",
+          "priority": 15,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-water-sports-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 21,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "Серфинг и водные лыжи", "priority": 1},
+                {"label": "Бассейны", "priority": 1},
+                {"label": "Гидрокостюмы и дайвинг", "priority": 1},
+                {"label": "Ласты", "priority": 1},
+                {"label": "Лодки и катамараны", "priority": 1},
+                {"label": "Маски и трубки", "priority": 1},
+                {"label": "Надувные круги и матрасы", "priority": 1},
+                {"label": "Очки для плавания", "priority": 1},
+                {"label": "Спасательные жилеты", "priority": 1},
+                {"label": "Шапочки для плавания", "priority": 1},
+                {"label": "Другое для водного спорта", "priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Единоборства, бокс",
+          "url": "sport-hobby-sports-boxing-martial-arts",
+          "priority": 16,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-boxing-martial-arts-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 21,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "Перчатки", "priority": 1},
+                {"label": "Лапы и макивары", "priority": 1},
+                {"label": "Груши, мешки, манекены", "priority": 1},
+                {"label": "Кимоно и одежда", "priority": 1},
+                {"label": "Обувь для единоборств", "priority": 1},
+                {"label": "Другие товары ", "priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Игры с мячом",
+          "url": "sport-hobby-sports-ball-sports",
+          "priority": 17,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-sports-ball-sports-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 21,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "Баскетбол", "priority": 1},
+                {"label": "Бейсбол", "priority": 1},
+                {"label": "Волейбол", "priority": 1},
+                {"label": "Гандбол", "priority": 1},
+                {"label": "Гольф", "priority": 1},
+                {"label": "Регби", "priority": 1},
+                {"label": "Футбол", "priority": 1},
+                {"label": "Хоккей на траве", "priority": 1},
+                {"label": "Другие", "priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Пейнтбол, страйкбол",
+          "url": "sport-hobby-sports-paintball-strikeball",
+          "priority": 18
+        },
+        {
+          "label": "Альпинизм",
+          "url": "sport-hobby-sports-alpinism",
+          "priority": 19
+        },
+        {
+          "label": "Конный спорт",
+          "url": "sport-hobby-sports-equestrian",
+          "priority": 20
+        },
+        {
+          "label": "Прочее для спорта и отдыха",
+          "url": "sport-hobby-sports-other",
+          "priority": 21
+        }
+      ]
+    },
+    {
+      "label": "Охота и рыбалка",
+      "url": "sport-hobby-hunting-fishing",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "sport-hobby-hunting-fishing-type",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Эхолоты","priority": 1},
+            {"label": "Удилища","priority": 1},
+            {"label": "Рыболовные принадлежности","priority": 1},
+            {"label": "Аксессуары","priority": 1},
+            {"label": "Подводная охота","priority": 1},
+            {"label": "Прицелы","priority": 1},
+            {"label": "Палатки для рыбалки","priority": 1},
+            {"label": "Манки","priority": 1},
+            {"label": "Кейсы и чехлы","priority": 1},
+            {"label": "Кобуры","priority": 1},
+            {"label": "Подсумки","priority": 1},
+            {"label": "Сумки и ящики","priority": 1},
+            {"label": "Одежда и обувь","priority": 1},
+            {"label": "Другие", "priority": 1}
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "sport-hobby-hunting-fishing-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Туризм, отдых на природе",
+      "url": "sport-hobby-tourism-outdoor-recreation",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "sport-hobby-tourism-outdoor-recreation-type",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Палатки","priority": 1},
+            {"label": "Спальные мешки","priority": 1},
+            {"label": "Рюкзаки","priority": 1},
+            {"label": "Фонари","priority": 1},
+            {"label": "Походная мебель","priority": 1},
+            {"label": "GPS-навигаторы","priority": 1},
+            {"label": "Аксессуары для палаток","priority": 1},
+            {"label": "Коврики","priority": 1},
+            {"label": "Компасы","priority": 1},
+            {"label": "Лодочные моторы","priority": 1},
+            {"label": "Надувные лодки","priority": 1},
+            {"label": "Надувная мебель","priority": 1},
+            {"label": "Туристическая посуда","priority": 1},
+            {"label": "Одноразовая посуда","priority": 1},
+            {"label": "Термосы и термокружки","priority": 1},
+            {"label": "Сумки-холодильники","priority": 1},
+            {"label": "Тенты","priority": 1},
+            {"label": "Средства от комаров и клещей","priority": 1},
+            {"label": "Газовые горелки","priority": 1},
+            {"label": "Ножи и мультитулы","priority": 1},
+            {"label": "Другие товары","priority": 1}
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "sport-hobby-tourism-outdoor-recreation-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Для пикника",
+      "url": "sport-hobby-for-picnic",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "sport-hobby-for-picnic-type",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Грили, барбекю","priority": 1},
+            {"label": "Мангалы, шампуры","priority": 1},
+            {"label": "Угли, дрова","priority": 1},
+            {"label": "Наборы для пикника","priority": 1},
+            {"label": "Казаны","priority": 1},
+            {"label": "Другие","priority": 1}
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "sport-hobby-for-picnic-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Коллекционирование",
+      "url": "sport-hobby-collecting",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "sport-hobby-collecting-type",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Антиквариат","priority": 1},
+            {"label": "Банкноты","priority": 1},
+            {"label": "Билеты","priority": 1},
+            {"label": "Вещи знаменитостей, автографы","priority": 1},
+            {"label": "Виниловые пластинки","priority": 1},
+            {"label": "Вкладыши, наклейки","priority": 1},
+            {"label": "Военные вещи","priority": 1},
+            {"label": "Документы","priority": 1},
+            {"label": "Жетоны, медали, значки","priority": 1},
+            {"label": "Календари","priority": 1},
+            {"label": "Киндер-сюрпризы","priority": 1},
+            {"label": "Книги, журналы, рукописи","priority": 1},
+            {"label": "Конверты, открытки","priority": 1},
+            {"label": "Копилки","priority": 1},
+            {"label": "Куклы, игрушки","priority": 1},
+            {"label": "Магниты","priority": 1},
+            {"label": "Марки","priority": 1},
+            {"label": "Модели","priority": 1},
+            {"label": "Монеты, нумизматика","priority": 1},
+            {"label": "Музыкальные инструменты","priority": 1},
+            {"label": "Пепельницы, зажигалки","priority": 1},
+            {"label": "Пластиковые карточки","priority": 1},
+            {"label": "Предметы искусства, картины","priority": 1},
+            {"label": "Статуэтки, фигурки","priority": 1},
+            {"label": "Украшения, аксессуары","priority": 1},
+            {"label": "Фотографии, письма","priority": 1},
+            {"label": "Шахматы, игры","priority": 1},
+            {"label": "Шкатулки","priority": 1},
+            {"label": "Этикетки, бутылки, пробки","priority": 1},
+            {"label": "Другие вещи коллекционирования","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Билеты, абономенты",
+      "url": "sport-hobby-tickets",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "sport-hobby-tickets-type",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Спортивные мероприятия","priority": 1},
+            {"label": "Купоны и абонементы","priority": 1},
+            {"label": "Детские мероприятия","priority": 1},
+            {"label": "Концерты","priority": 1},
+            {"label": "Бизнес","priority": 1},
+            {"label": "Театр, опера, балет","priority": 1},
+            {"label": "Цирк, кино","priority": 1},
+            {"label": "Выставки, фестивали","priority": 1},
+            {"label": "Другие мероприятия","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Путешествия, туры",
+      "url": "sport-hobby-traveling",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "sport-hobby-traveling-type",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Туры и путевки","priority": 1},
+            {"label": "Авиабилеты","priority": 1},
+            {"label": "Услуги для туристов","priority": 1},
+            {"label": "Другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Музыкальные инструменты",
+      "url": "sport-hobby-musical-instruments",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "sport-hobby-musical-instruments-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ],
+      "children": [
+        {
+          "label": "Аккордеоны, гармони, баяны",
+          "url": "sport-hobby-musical-instruments-accordions",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-musical-instruments-accordions-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "аккордеоны","priority": 1},
+                {"label": "баяны","priority": 1},
+                {"label": "гармони","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Аксессуары для музыкальных инструментов",
+          "url": "sport-hobby-musical-instruments-accessories",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-musical-instruments-accessories-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "аксессуары для гитар","priority": 1},
+                {"label": "гитарная аппаратура","priority": 1},
+                {"label": "гитарные комплектующие","priority": 1},
+                {"label": "аксессуары для ударных инструментов","priority": 1},
+                {"label": "аксессуары для клавишных инструментов","priority": 1},
+                {"label": "аксессуары для духовых инструментов","priority": 1},
+                {"label": "аксессуары для струных инструментов","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Гитары и другие струнные",
+          "url": "sport-hobby-musical-instruments-guitars-string",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-musical-instruments-guitars-string-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "бас-гитары","priority": 1},
+                {"label": "классические и акустические гитары","priority": 1},
+                {"label": "укулеле","priority": 1},
+                {"label": "электрогитары","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Духовые инструменты",
+          "url": "sport-hobby-musical-instruments-wind",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-musical-instruments-wind-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "блок-флейты","priority": 1},
+                {"label": "губные гармошки","priority": 1},
+                {"label": "кларнеты, фаготы, гобои","priority": 1},
+                {"label": "валторны","priority": 1},
+                {"label": "тромбоны","priority": 1},
+                {"label": "трубы","priority": 1},
+                {"label": "тубы","priority": 1},
+                {"label": "пианики (мелодики)","priority": 1},
+                {"label": "саксофоны","priority": 1},
+                {"label": "флейты","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Оборудование для студии и концертов",
+          "url": "sport-hobby-musical-instruments-equipments-for-studios-concerts",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-musical-instruments-equipments-for-studios-concerts-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "оборудование для DJ","priority": 1},
+                {"label": "аксессуары для оборудования","priority": 1},
+                {"label": "акустические системы","priority": 1},
+                {"label": "оборудование для обработки звука","priority": 1},
+                {"label": "радиосистемы","priority": 1},
+                {"label": "микшерные пульты","priority": 1},
+                {"label": "генераторы эффектов","priority": 1},
+                {"label": "световое оборудование","priority": 1},
+                {"label": "усилители мощности","priority": 1},
+                {"label": "аудиоинтерфейсы и звуковые карты","priority": 1},
+                {"label": "акустические материалы","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Пианино и другие клавишные",
+          "url": "sport-hobby-musical-instruments-pianos-keyboard-instruments",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-musical-instruments-pianos-keyboard-instruments-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "пианино","priority": 1},
+                {"label": "рояли","priority": 1},
+                {"label": "синтезаторы","priority": 1},
+                {"label": "сценические и цифровые пианино","priority": 1},
+                {"label": "midi-клавиатуры","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Скрипки и другие смычковые",
+          "url": "sport-hobby-musical-instruments-violins-bowed",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-musical-instruments-violins-bowed-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "альты","priority": 1},
+                {"label": "виолончели","priority": 1},
+                {"label": "контрабасы","priority": 1},
+                {"label": "скрипки","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Ударные инструменты",
+          "url": "sport-hobby-musical-instruments-drums-percussion-instruments",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-musical-instruments-drums-percussion-instruments-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "барабаны","priority": 1},
+                {"label": "перкуссии","priority": 1},
+                {"label": "ударные установки","priority": 1},
+                {"label": "электронные ударные установки","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Национальные инструменты",
+          "url": "sport-hobby-musical-instruments-national",
+          "priority": 9,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "sport-hobby-musical-instruments-national-type",
+              "post_form": "dropdown",
+              "priority": 2,
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "options": [
+                {"label": "струнные","priority": 1},
+                {"label": "клавишные","priority": 1},
+                {"label": "ударные","priority": 1},
+                {"label": "язычковые","priority": 1},
+                {"label": "духовые","priority": 1},
+                {"label": "другие","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Другие музыкальные инструменты",
+          "url": "sport-hobby-musical-instruments-other",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "label": "Настольные игры",
+      "url": "sport-hobby-board-games",
+      "priority": 9,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "sport-hobby-board-games-type",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Бродилки","priority": 1},
+            {"label": "Викторины","priority": 1},
+            {"label": "Домино, лото","priority": 1},
+            {"label": "Карточные","priority": 1},
+            {"label": "Морской бой","priority": 1},
+            {"label": "Пазлы, головоломки","priority": 1},
+            {"label": "Романтические","priority": 1},
+            {"label": "Слова, ассоциации","priority": 1},
+            {"label": "Футбол, хоккей, бильярд","priority": 1},
+            {"label": "Шахматы, шашки, нарды","priority": 1},
+            {"label": "Экономические","priority": 1},
+            {"label": "Другие настольные игры","priority": 1}
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "sport-hobby-board-games-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "CD, DVD, пластинки",
+      "url": "sport-hobby-cd-dvd",
+      "priority": 10,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "sport-hobby-cd-dvd-type",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "options": [
+            {"label": "Аудиокниги","priority": 1},
+            {"label": "Видео","priority": 1},
+            {"label": "Музыка","priority": 1},
+            {"label": "Другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Книги и журналы",
+      "url": "sport-hobby-books-magazines",
+      "priority": 11,
+      "parameters": [
+        {
+          "label": "Тематика",
+          "name": "sport-hobby-books-magazines-type",
+          "post_form": "dropdown",
+          "priority": 2,
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тему"
+            }
+          ],
+          "options": [
+            {"label": "Аудиокниги","priority": 1},
+            {"label": "Художественная литература","priority": 1},
+            {"label": "Наука и образование","priority": 1},
+            {"label": "Компьютеры и интернет","priority": 1},
+            {"label": "Бизнес и экономика","priority": 1},
+            {"label": "Искусство и культура","priority": 1},
+            {"label": "Дом, семья, досуг","priority": 1},
+            {"label": "Детская литература","priority": 1},
+            {"label": "Словари, справочники, энциклопедии","priority": 1},
+            {"label": "Техническая литература","priority": 1},
+            {"label": "Медицина","priority": 1},
+            {"label": "Юридическая литература","priority": 1},
+            {"label": "Литература на иностранных языках","priority": 1},
+            {"label": "Журналы и газеты","priority": 1},
+            {"label": "Календари","priority": 1},
+            {"label": "Другие","priority": 1}
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "sport-hobby-books-magazines-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Другое",
+      "url": "sport-hobby-other",
+      "priority": 12,
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "sport-hobby-other-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "label": "Коммерческие",
+  "name": "auto-commercial",
+  "url": "auto-commercial",
+  "priority": 2,
+  "children": [
+    {
+      "file": "/src/DataFixtures/data/auto/commercial/light.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/auto/commercial/trucks.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/auto/commercial/artic.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/auto/commercial/bus.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/auto/commercial/trailer.json"
+    }
+  ]
+}

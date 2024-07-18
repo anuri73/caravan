@@ -1,0 +1,73 @@
+{
+  "label": "Школьные товары",
+  "url": "kids-for-school",
+  "priority": 10,
+  "parameters": [
+    {
+      "label": "Тип",
+      "name": "kids-for-school-type",
+      "priority": 11,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип товара"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 11,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Канцелярские товары",
+          "priority": 1
+        },
+        {
+          "label": "Ранцы, рюкзаки, сумки",
+          "priority": 2
+        },
+        {
+          "label": "Школьная форма",
+          "priority": 3
+        },
+        {
+          "label": "Учебники",
+          "priority": 4
+        },
+        {
+          "label": "Карты и атласы",
+          "priority": 5
+        },
+        {
+          "label": "Прочие школьные товары",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "kids-for-school-condition",
+      "priority": 30,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите состояние товара"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 30,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}

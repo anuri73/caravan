@@ -1,0 +1,1324 @@
+{
+  "label": "Аксессуары и украшения",
+  "url": "personal-accessories",
+  "priority": 4,
+  "parameters": [
+    {
+      "label": "Состояние",
+      "name": "personal-accessories-condition",
+      "priority": 30,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите состояние товара"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 30,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "url": "personal-accessories-watches",
+      "label": "Часы",
+      "priority": 1,
+      "children": [
+        {
+          "url": "personal-accessories-watches-wristwatches",
+          "label": "Наручные часы",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-accessories-watches-wristwatches-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "женские","priority": 1},
+                {"label": "мужские","priority": 1},
+                {"label": "унисекс","priority": 1}
+              ]
+            },
+            {
+              "label": "Производитель",
+              "name": "personal-accessories-watches-wristwatches-brand",
+              "priority": 11,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "search_priority": 31,
+              "options": [
+                {"label": "Adriatica","priority": 1},
+                {"label": "Aerowatch","priority": 1},
+                {"label": "Alfex","priority": 1},
+                {"label": "AM:PM","priority": 1},
+                {"label": "Anne Klein","priority": 1},
+                {"label": "Appella","priority": 1},
+                {"label": "Aquanautic","priority": 1},
+                {"label": "Armani","priority": 1},
+                {"label": "Armani Exchange","priority": 1},
+                {"label": "ARMITRON","priority": 1},
+                {"label": "Art-Life","priority": 1},
+                {"label": "Atlantic","priority": 1},
+                {"label": "Aztorin","priority": 1},
+                {"label": "Azzaro","priority": 1},
+                {"label": "Balmain","priority": 1},
+                {"label": "Bergstern","priority": 1},
+                {"label": "Bering","priority": 1},
+                {"label": "Beverly Hills Polo Club","priority": 1},
+                {"label": "BINGER","priority": 1},
+                {"label": "Breitling","priority": 1},
+                {"label": "Bruno Sohnle","priority": 1},
+                {"label": "Bulova","priority": 1},
+                {"label": "Cacharel","priority": 1},
+                {"label": "Calvin Klein","priority": 1},
+                {"label": "Calypso","priority": 1},
+                {"label": "Candino","priority": 1},
+                {"label": "Carbon","priority": 1},
+                {"label": "Cartier","priority": 1},
+                {"label": "CASIMA","priority": 1},
+                {"label": "Casio","priority": 1},
+                {"label": "Century","priority": 1},
+                {"label": "Certina","priority": 1},
+                {"label": "Charmex","priority": 1},
+                {"label": "Christina","priority": 1},
+                {"label": "Chronoswiss","priority": 1},
+                {"label": "Cimier","priority": 1},
+                {"label": "Citizen","priority": 1},
+                {"label": "Claude Bernard","priority": 1},
+                {"label": "Cluse","priority": 1},
+                {"label": "Concord","priority": 1},
+                {"label": "Continental","priority": 1},
+                {"label": "Cornavin","priority": 1},
+                {"label": "Corum","priority": 1},
+                {"label": "Cover","priority": 1},
+                {"label": "Curren","priority": 1},
+                {"label": "Dalvey","priority": 1},
+                {"label": "Daniel Klein","priority": 1},
+                {"label": "Daniel Wellington","priority": 1},
+                {"label": "Danish Design","priority": 1},
+                {"label": "Davidoff","priority": 1},
+                {"label": "Davosa","priority": 1},
+                {"label": "Delbana","priority": 1},
+                {"label": "DIESEL","priority": 1},
+                {"label": "Dior","priority": 1},
+                {"label": "DKNY","priority": 1},
+                {"label": "Dolce&Gabbana","priority": 1},
+                {"label": "Edox","priority": 1},
+                {"label": "Element","priority": 1},
+                {"label": "Elite","priority": 1},
+                {"label": "Elixa","priority": 1},
+                {"label": "Elysee Emile Chouriet","priority": 1},
+                {"label": "Epos","priority": 1},
+                {"label": "Ernest Borel","priority": 1},
+                {"label": "Esprit","priority": 1},
+                {"label": "Festina","priority": 1},
+                {"label": "Fontenay","priority": 1},
+                {"label": "Fortis","priority": 1},
+                {"label": "Fossil","priority": 1},
+                {"label": "Frederique Constant","priority": 1},
+                {"label": "Girard Perregaux","priority": 1},
+                {"label": "Glozis","priority": 1},
+                {"label": "Grovana","priority": 1},
+                {"label": "Guardo","priority": 1},
+                {"label": "Gucci","priority": 1},
+                {"label": "Guess","priority": 1},
+                {"label": "Guy Laroche","priority": 1},
+                {"label": "Hamilton","priority": 1},
+                {"label": "Hanowa","priority": 1},
+                {"label": "Haurex","priority": 1},
+                {"label": "Hermle","priority": 1},
+                {"label": "Hilser","priority": 1},
+                {"label": "Hugo Boss","priority": 1},
+                {"label": "Hush Puppies","priority": 1},
+                {"label": "Ingersoll","priority": 1},
+                {"label": "INVICTA","priority": 1},
+                {"label": "J.Springs","priority": 1},
+                {"label": "Jacques Lemans","priority": 1},
+                {"label": "Jaguar","priority": 1},
+                {"label": "Jean d'Eve","priority": 1},
+                {"label": "Jean Richard","priority": 1},
+                {"label": "Jowissa","priority": 1},
+                {"label": "Kappa","priority": 1},
+                {"label": "Kenneth Cole","priority": 1},
+                {"label": "KHANN TENGRI","priority": 1},
+                {"label": "Kolber","priority": 1},
+                {"label": "KYRGYZSTAN","priority": 1},
+                {"label": "Le Chic","priority": 1},
+                {"label": "Lee Cooper","priority": 1},
+                {"label": "Longines","priority": 1},
+                {"label": "Lotus","priority": 1},
+                {"label": "Louis Erard","priority": 1},
+                {"label": "Louis Moinet","priority": 1},
+                {"label": "Lowell","priority": 1},
+                {"label": "Luminox","priority": 1},
+                {"label": "Mado","priority": 1},
+                {"label": "Martin Ferrer","priority": 1},
+                {"label": "Mauboussin","priority": 1},
+                {"label": "Maurice Lacroix","priority": 1},
+                {"label": "Medana","priority": 1},
+                {"label": "Michael Kors","priority": 1},
+                {"label": "Michel Renee","priority": 1},
+                {"label": "MINGRUI","priority": 1},
+                {"label": "Misaki","priority": 1},
+                {"label": "Moog","priority": 1},
+                {"label": "Morgan","priority": 1},
+                {"label": "Moschino","priority": 1},
+                {"label": "Nautica","priority": 1},
+                {"label": "NaviForce","priority": 1},
+                {"label": "Nesterov","priority": 1},
+                {"label": "Nexxen","priority": 1},
+                {"label": "Nika","priority": 1},
+                {"label": "O.TAGE","priority": 1},
+                {"label": "Obaku","priority": 1},
+                {"label": "Officina del Tempo","priority": 1},
+                {"label": "Omega","priority": 1},
+                {"label": "Orient","priority": 1},
+                {"label": "Oris","priority": 1},
+                {"label": "Paris Hilton","priority": 1},
+                {"label": "Paul Picot","priority": 1},
+                {"label": "Paul Smith","priority": 1},
+                {"label": "Pequignet","priority": 1},
+                {"label": "Perrelet","priority": 1},
+                {"label": "Pierre Cardin","priority": 1},
+                {"label": "Pierre Lannier","priority": 1},
+                {"label": "Pierre Ricaud","priority": 1},
+                {"label": "Police","priority": 1},
+                {"label": "Poljot International","priority": 1},
+                {"label": "Power","priority": 1},
+                {"label": "Puma","priority": 1},
+                {"label": "Q&Q","priority": 1},
+                {"label": "Quantum","priority": 1},
+                {"label": "Rado","priority": 1},
+                {"label": "Raymond Weil","priority": 1},
+                {"label": "Revue Thommen","priority": 1},
+                {"label": "RG","priority": 1},
+                {"label": "Rhythm","priority": 1},
+                {"label": "Richelieu","priority": 1},
+                {"label": "RISTOS","priority": 1},
+                {"label": "Roamer","priority": 1},
+                {"label": "Rodania","priority": 1},
+                {"label": "Romanson","priority": 1},
+                {"label": "Royal London","priority": 1},
+                {"label": "Rue du Rhone","priority": 1},
+                {"label": "Saint Honore","priority": 1},
+                {"label": "Salvatore Ferragamo","priority": 1},
+                {"label": "SANDA","priority": 1},
+                {"label": "Sandoz","priority": 1},
+                {"label": "Sauvage","priority": 1},
+                {"label": "Seculus","priority": 1},
+                {"label": "Seiko","priority": 1},
+                {"label": "Sergio Tacchini","priority": 1},
+                {"label": "Sevenfriday","priority": 1},
+                {"label": "SHE","priority": 1},
+                {"label": "SINOBI","priority": 1},
+                {"label": "Skagen","priority": 1},
+                {"label": "Skmei","priority": 1},
+                {"label": "Spazio","priority": 1},
+                {"label": "Suunto","priority": 1},
+                {"label": "Swatch","priority": 1},
+                {"label": "Swiss Alpine Military","priority": 1},
+                {"label": "Swiss Eagle","priority": 1},
+                {"label": "Swiss Military","priority": 1},
+                {"label": "TechnoMarine","priority": 1},
+                {"label": "Ted Baker London","priority": 1},
+                {"label": "Ted Lapidus","priority": 1},
+                {"label": "Temporis","priority": 1},
+                {"label": "Timberland","priority": 1},
+                {"label": "Timex","priority": 1},
+                {"label": "Tissot","priority": 1},
+                {"label": "Tommy Hilfiger","priority": 1},
+                {"label": "TVG","priority": 1},
+                {"label": "U.S.POLO ASSN.","priority": 1},
+                {"label": "Ulysse Nardin","priority": 1},
+                {"label": "Valentino","priority": 1},
+                {"label": "Venus","priority": 1},
+                {"label": "Versace","priority": 1},
+                {"label": "Viceroy","priority": 1},
+                {"label": "Victorinox","priority": 1},
+                {"label": "Victorinox Swiss Army","priority": 1},
+                {"label": "VIP Time Italy","priority": 1},
+                {"label": "Vivienne Westwood","priority": 1},
+                {"label": "Vogard","priority": 1},
+                {"label": "Vostok Europe","priority": 1},
+                {"label": "Vulcain","priority": 1},
+                {"label": "WEIDE","priority": 1},
+                {"label": "Wenger","priority": 1},
+                {"label": "Westar","priority": 1},
+                {"label": "WeWood","priority": 1},
+                {"label": "William L","priority": 1},
+                {"label": "WINNER","priority": 1},
+                {"label": "Zarya","priority": 1},
+                {"label": "Zenith","priority": 1},
+                {"label": "Zeno-Watch Basel","priority": 1},
+                {"label": "ZentRa","priority": 1},
+                {"label": "ZIZ","priority": 1},
+                {"label": "Восток","priority": 1},
+                {"label": "Полет","priority": 1},
+                {"label": "Другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Тип механизма",
+              "name": "mechanism type",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "кварцевые","priority": 1},
+                {"label": "механические","priority": 1},
+                {"label": "электронные","priority": 1},
+                {"label": "кинетические","priority": 1}
+              ]
+            },
+            {
+              "label": "Способ отображения времени",
+              "name": "display type",
+              "priority": 13,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 33,
+              "options": [
+                {"label": "аналоговый (стрелки)","priority": 1},
+                {"label": "аналоговый + цифровой","priority": 1},
+                {"label": "бинарный","priority": 1},
+                {"label": "цифровой (электронный)","priority": 1}
+              ]
+            },
+            {
+              "label": "Цвет",
+              "name": "color",
+              "priority": 14,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "search_priority": 34,
+              "options": [
+                {"label": "бежевый","priority": 1},
+                {"label": "белый","priority": 1},
+                {"label": "бирюзовый","priority": 1},
+                {"label": "бордовый","priority": 1},
+                {"label": "голубой","priority": 1},
+                {"label": "желтый","priority": 1},
+                {"label": "зеленый","priority": 1},
+                {"label": "золотой","priority": 1},
+                {"label": "коричневый","priority": 1},
+                {"label": "красный","priority": 1},
+                {"label": "оранжевый","priority": 1},
+                {"label": "разноцветный","priority": 1},
+                {"label": "розовое золото","priority": 1},
+                {"label": "розовый","priority": 1},
+                {"label": "салатовый","priority": 1},
+                {"label": "светло-розовый","priority": 1},
+                {"label": "серебристо-золотой","priority": 1},
+                {"label": "серебристо-розовый","priority": 1},
+                {"label": "серебристый","priority": 1},
+                {"label": "серый","priority": 1},
+                {"label": "синий","priority": 1},
+                {"label": "сиреневый","priority": 1},
+                {"label": "сливовый","priority": 1},
+                {"label": "темно-зеленый","priority": 1},
+                {"label": "темно-коричневый","priority": 1},
+                {"label": "темно-серый","priority": 1},
+                {"label": "темно-синий","priority": 1},
+                {"label": "фиолетовый","priority": 1},
+                {"label": "хаки","priority": 1},
+                {"label": "черный","priority": 1},
+                {"label": "другой","priority": 1}
+              ]
+            },
+            {
+              "label": "Материал браслета/ремешка",
+              "name": "bracelet type",
+              "priority": 15,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 35,
+              "options": [
+                {"label": "кожа","priority": 1},
+                {"label": "нерж. сталь","priority": 1},
+                {"label": "пластик","priority": 1},
+                {"label": "каучук","priority": 1},
+                {"label": "другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-accessories-watches-pocketwatches",
+          "label": "Карманные часы",
+          "priority": 2
+        },
+        {
+          "url": "personal-accessories-watches-smartwatches",
+          "label": "Умные часы и браслеты",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-accessories-watches-smartwatches-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "браслет","priority": 1},
+                {"label": "часы","priority": 1}
+              ]
+            },
+            {
+              "label": "Производитель",
+              "name": "personal-accessories-watches-smartwatches-brand",
+              "priority": 11,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "search_priority": 31,
+              "options": [
+                {"label": "31 ВЕК","priority": 1},
+                {"label": "Alcatel","priority": 1},
+                {"label": "Alpina","priority": 1},
+                {"label": "Apple","priority": 1},
+                {"label": "Amazfit","priority": 1},
+                {"label": "ASUS","priority": 1},
+                {"label": "Beurer","priority": 1},
+                {"label": "Bizzaro","priority": 1},
+                {"label": "CASIO","priority": 1},
+                {"label": "ColMi","priority": 1},
+                {"label": "Ecdream","priority": 1},
+                {"label": "Elari","priority": 1},
+                {"label": "EnBe","priority": 1},
+                {"label": "Fitbit","priority": 1},
+                {"label": "Fitbug","priority": 1},
+                {"label": "Fossil","priority": 1},
+                {"label": "Frederique Constant","priority": 1},
+                {"label": "Garmin","priority": 1},
+                {"label": "Gator","priority": 1},
+                {"label": "Ginzzu","priority": 1},
+                {"label": "GUESS","priority": 1},
+                {"label": "Harper","priority": 1},
+                {"label": "Healbe","priority": 1},
+                {"label": "Hello","priority": 1},
+                {"label": "Hiper","priority": 1},
+                {"label": "Honor","priority": 1},
+                {"label": "Huami","priority": 1},
+                {"label": "Huawei","priority": 1},
+                {"label": "iWOWN","priority": 1},
+                {"label": "Jawbone","priority": 1},
+                {"label": "Jet","priority": 1},
+                {"label": "KingWear","priority": 1},
+                {"label": "Krez","priority": 1},
+                {"label": "Leifer","priority": 1},
+                {"label": "Lemon Tree","priority": 1},
+                {"label": "Lenovo","priority": 1},
+                {"label": "LEXAND","priority": 1},
+                {"label": "LG","priority": 1},
+                {"label": "Lime","priority": 1},
+                {"label": "Lynwo","priority": 1},
+                {"label": "Medisana","priority": 1},
+                {"label": "Meizu","priority": 1},
+                {"label": "Microsoft","priority": 1},
+                {"label": "Mio","priority": 1},
+                {"label": "Misfit","priority": 1},
+                {"label": "MML","priority": 1},
+                {"label": "Motorola","priority": 1},
+                {"label": "MyKronoz","priority": 1},
+                {"label": "MyRope","priority": 1},
+                {"label": "Nautilus","priority": 1},
+                {"label": "Nike","priority": 1},
+                {"label": "NO.1","priority": 1},
+                {"label": "Nokia","priority": 1},
+                {"label": "ONETRAK","priority": 1},
+                {"label": "Pebble","priority": 1},
+                {"label": "Polar","priority": 1},
+                {"label": "Prolike","priority": 1},
+                {"label": "Qumann","priority": 1},
+                {"label": "Razer","priority": 1},
+                {"label": "Remax","priority": 1},
+                {"label": "Rover","priority": 1},
+                {"label": "Runtastic","priority": 1},
+                {"label": "Samsung","priority": 1},
+                {"label": "Sigma","priority": 1},
+                {"label": "Silva","priority": 1},
+                {"label": "SMA","priority": 1},
+                {"label": "Smart Baby Watch","priority": 1},
+                {"label": "SmartBand","priority": 1},
+                {"label": "Smarterra","priority": 1},
+                {"label": "Sony","priority": 1},
+                {"label": "Supra","priority": 1},
+                {"label": "Suunto","priority": 1},
+                {"label": "ThinkRace","priority": 1},
+                {"label": "TipTop","priority": 1},
+                {"label": "Tiroki","priority": 1},
+                {"label": "Trasense","priority": 1},
+                {"label": "Us Medica","priority": 1},
+                {"label": "UWatch","priority": 1},
+                {"label": "Vertex","priority": 1},
+                {"label": "Vtech","priority": 1},
+                {"label": "WISE","priority": 1},
+                {"label": "Withings","priority": 1},
+                {"label": "WOCHI","priority": 1},
+                {"label": "Wokka Lokka","priority": 1},
+                {"label": "Wonlex","priority": 1},
+                {"label": "Xiaomi","priority": 1},
+                {"label": "Yamaguchi","priority": 1},
+                {"label": "ZGPAX","priority": 1},
+                {"label": "Zodikam","priority": 1},
+                {"label": "КАРКАМ","priority": 1},
+                {"label": "Кнопка Жизни","priority": 1},
+                {"label": "Маяк","priority": 1},
+                {"label": "Другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-accessories-watches-pulse-meters-pedometers",
+          "label": "Пульсометры и шагомеры",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-accessories-watches-pulse-meters-pedometers-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "пульсометр","priority": 1},
+                {"label": "универсальное устройство","priority": 1},
+                {"label": "шагомер","priority": 1}
+              ]
+            },
+            {
+              "label": "Производитель",
+              "name": "personal-accessories-watches-pulse-meters-pedometers-brand",
+              "priority": 11,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "search_priority": 31,
+              "options": [
+                {"label": "A&D","priority": 1},
+                {"label": "AND","priority": 1},
+                {"label": "Barry","priority": 1},
+                {"label": "Beurer","priority": 1},
+                {"label": "Bradex","priority": 1},
+                {"label": "DFC","priority": 1},
+                {"label": "DJI","priority": 1},
+                {"label": "Elite","priority": 1},
+                {"label": "Garmin","priority": 1},
+                {"label": "iSport","priority": 1},
+                {"label": "Kacper","priority": 1},
+                {"label": "KETTLER","priority": 1},
+                {"label": "Lumo","priority": 1},
+                {"label": "Noname","priority": 1},
+                {"label": "Omron","priority": 1},
+                {"label": "ONETRAK","priority": 1},
+                {"label": "Parrot","priority": 1},
+                {"label": "Polar","priority": 1},
+                {"label": "Sanitas","priority": 1},
+                {"label": "Sigma","priority": 1},
+                {"label": "Silva","priority": 1},
+                {"label": "Suunto","priority": 1},
+                {"label": "Wahoo","priority": 1},
+                {"label": "Xiaomi","priority": 1},
+                {"label": "Yagnob","priority": 1},
+                {"label": "Сима-ленд","priority": 1},
+                {"label": "Другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-accessories-watches-straps-bracelets",
+          "label": "Ремешки для часов",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-accessories-watches-straps-bracelets-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "браслет","priority": 1},
+                {"label": "ремешок","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-accessories-watches-caskets",
+          "label": "Шкатулки для часов",
+          "priority": 6
+        }
+        ]
+    },
+    {
+      "url": "personal-accessories-wallets",
+      "label": "Кошельки",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-accessories-wallets-type",
+          "priority": 10,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "бумажник","priority": 1},
+            {"label": "зажим для купюр","priority": 1},
+            {"label": "кошелек","priority": 1},
+            {"label": "монетница","priority": 1},
+            {"label": "нагрудный кошелек","priority": 1},
+            {"label": "портмоне","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-accessories-wallets-sex",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-accessories-umbrellas",
+      "label": "Зонты",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-accessories-umbrellas-type",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-accessories-sunglasses",
+      "label": "Солнцезащитные очки",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-accessories-sunglasses-type",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        },
+        {
+          "label": "Форма",
+          "name": "personal-accessories-sunglasses-style",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 13,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "авиаторы","priority": 1},
+            {"label": "вайфареры","priority": 1},
+            {"label": "квадратные","priority": 1},
+            {"label": "клабмастеры","priority": 1},
+            {"label": "кошачий глаз","priority": 1},
+            {"label": "круглые","priority": 1},
+            {"label": "овальные","priority": 1},
+            {"label": "прямоугольные","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-accessories-belts",
+      "label": "Ремни и пояса",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-accessories-belts-type",
+          "priority": 12,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "подтяжки","priority": 1},
+            {"label": "ремень","priority": 1},
+            {"label": "пояс","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-accessories-belts-sex",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 13,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        },
+        {
+          "label": "Материал",
+          "name": "personal-accessories-belts-material",
+          "priority": 14,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 14,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "искусственная замша","priority": 1},
+            {"label": "искусственная кожа","priority": 1},
+            {"label": "натуральная замша","priority": 1},
+            {"label": "натуральная кожа","priority": 1},
+            {"label": "пластик","priority": 1},
+            {"label": "текстиль","priority": 1},
+            {"label": "экокожа","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-accessories-ties",
+      "label": "Галстуки",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-accessories-ties-type",
+          "priority": 12,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "галстук","priority": 1},
+            {"label": "бабочка","priority": 1},
+            {"label": "шейный платок","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-accessories-ties-sex",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 13,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-accessories-carnival-costumes",
+      "label": "Карнавальные костюмы",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-accessories-carnival-costumes-type",
+          "priority": 12,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "борода","priority": 1},
+            {"label": "головной убор","priority": 1},
+            {"label": "карнавальный набор","priority": 1},
+            {"label": "кигуруми","priority": 1},
+            {"label": "корона","priority": 1},
+            {"label": "костюм","priority": 1},
+            {"label": "крылья","priority": 1},
+            {"label": "маска","priority": 1},
+            {"label": "накидка","priority": 1},
+            {"label": "ободок","priority": 1},
+            {"label": "очки","priority": 1},
+            {"label": "парик","priority": 1},
+            {"label": "платье","priority": 1},
+            {"label": "туфли","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Назначение",
+          "name": "personal-accessories-carnival-costumes-sex",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 13,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "для женщин","priority": 1},
+            {"label": "для мужчин","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        },
+        {
+          "label": "Персонаж",
+          "name": "character",
+          "priority": 14,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 34,
+          "options": [
+            {"label": "Ангел","priority": 1},
+            {"label": "Бабочка","priority": 1},
+            {"label": "Белоснежка","priority": 1},
+            {"label": "Божья коровка","priority": 1},
+            {"label": "Буратино","priority": 1},
+            {"label": "Бэтмен","priority": 1},
+            {"label": "Вампир","priority": 1},
+            {"label": "Ведьма","priority": 1},
+            {"label": "Викинг","priority": 1},
+            {"label": "Вишенка","priority": 1},
+            {"label": "Военный","priority": 1},
+            {"label": "Волк","priority": 1},
+            {"label": "Гарри Поттер","priority": 1},
+            {"label": "Гном","priority": 1},
+            {"label": "Дарт Вейдер","priority": 1},
+            {"label": "Дед Мороз","priority": 1},
+            {"label": "Дюймовочка","priority": 1},
+            {"label": "Железный человек","priority": 1},
+            {"label": "Заяц","priority": 1},
+            {"label": "Золушка","priority": 1},
+            {"label": "Зомби","priority": 1},
+            {"label": "Зорро","priority": 1},
+            {"label": "Карабас Барабас","priority": 1},
+            {"label": "Клоун","priority": 1},
+            {"label": "Ковбой","priority": 1},
+            {"label": "Королева","priority": 1},
+            {"label": "Король","priority": 1},
+            {"label": "Кошка","priority": 1},
+            {"label": "Красная шапочка","priority": 1},
+            {"label": "Медведь","priority": 1},
+            {"label": "Монстр","priority": 1},
+            {"label": "Мушкетер","priority": 1},
+            {"label": "Ниндзя","priority": 1},
+            {"label": "осьминожка","priority": 1},
+            {"label": "Пират","priority": 1},
+            {"label": "повар","priority": 1},
+            {"label": "Полицейский","priority": 1},
+            {"label": "Помидор","priority": 1},
+            {"label": "Принц","priority": 1},
+            {"label": "Принцесса","priority": 1},
+            {"label": "Пчелка","priority": 1},
+            {"label": "Разбойник","priority": 1},
+            {"label": "Рыцарь","priority": 1},
+            {"label": "Санта Клаус","priority": 1},
+            {"label": "Скелет","priority": 1},
+            {"label": "Снегурочка","priority": 1},
+            {"label": "Снежинка","priority": 1},
+            {"label": "София Прекрасная","priority": 1},
+            {"label": "Супермен","priority": 1},
+            {"label": "Тигр","priority": 1},
+            {"label": "Фея","priority": 1},
+            {"label": "Человек-паук","priority": 1},
+            {"label": "Черепаха","priority": 1},
+            {"label": "Черепашки-ниндзя","priority": 1},
+            {"label": "Чертик","priority": 1},
+            {"label": "Шут","priority": 1},
+            {"label": "Другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-accessories-trinkets",
+      "label": "Брелоки и ключницы",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-accessories-trinkets-type",
+          "priority": 12,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "брелок","priority": 1},
+            {"label": "ключница","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-accessories-trinkets-sex",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 13,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "мужской","priority": 1},
+            {"label": "женский","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-accessories-card-holders",
+      "label": "Визитницы и кредитницы",
+      "priority": 9,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-accessories-card-holders-type",
+          "priority": 12,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "визитница","priority": 1},
+            {"label": "кредитница","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-accessories-card-holders-sex",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 13,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "мужской","priority": 1},
+            {"label": "женский","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        },
+        {
+          "label": "Материал",
+          "name": "personal-accessories-card-holders-material",
+          "priority": 14,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 14,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "искусственная кожа","priority": 1},
+            {"label": "натуральная кожа","priority": 1},
+            {"label": "пластик","priority": 1},
+            {"label": "текстиль","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-accessories-covers-for-documents",
+      "label": "Обложки для документов",
+      "priority": 10,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-accessories-covers-for-documents-type",
+          "priority": 12,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "для авиадокументов","priority": 1},
+            {"label": "для автодокументов","priority": 1},
+            {"label": "для военного билета","priority": 1},
+            {"label": "для зачетной книжки","priority": 1},
+            {"label": "для паспорта","priority": 1},
+            {"label": "для проездного","priority": 1},
+            {"label": "для студенческого","priority": 1},
+            {"label": "для удостоверения","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-accessories-covers-for-documents-sex",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 13,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "мужской","priority": 1},
+            {"label": "женский","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        },
+        {
+          "label": "Материал",
+          "name": "personal-accessories-covers-for-documents-material",
+          "priority": 14,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 14,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "искусственная кожа","priority": 1},
+            {"label": "натуральная кожа","priority": 1},
+            {"label": "пластик","priority": 1},
+            {"label": "текстиль","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-accessories-jewelry",
+      "label": "Украшения",
+      "priority": 11,
+      "children": [
+        {
+          "url": "personal-accessories-jewelry-bijouterie",
+          "label": "Бижутерия",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-accessories-jewelry-bijouterie-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "браслет","priority": 1},
+                {"label": "брошь","priority": 1},
+                {"label": "бусы","priority": 1},
+                {"label": "зажим для галстука","priority": 1},
+                {"label": "запонки","priority": 1},
+                {"label": "клипсы","priority": 1},
+                {"label": "колье","priority": 1},
+                {"label": "кольцо","priority": 1},
+                {"label": "комплект украшений","priority": 1},
+                {"label": "печатка","priority": 1},
+                {"label": "пирсинг","priority": 1},
+                {"label": "подвеска","priority": 1},
+                {"label": "серьги","priority": 1},
+                {"label": "чокер","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Вставка",
+              "name": "personal-accessories-jewelry-bijouterie-attachment",
+              "priority": 11,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "filter_default_toggle": true,
+              "search_priority": 11,
+              "options": [
+                {"label": "авантюрин","priority": 1},
+                {"label": "агат","priority": 1},
+                {"label": "аметист","priority": 1},
+                {"label": "бисер","priority": 1},
+                {"label": "дерево","priority": 1},
+                {"label": "жемчуг","priority": 1},
+                {"label": "кварц","priority": 1},
+                {"label": "кожа","priority": 1},
+                {"label": "коралл","priority": 1},
+                {"label": "малахит","priority": 1},
+                {"label": "пластик","priority": 1},
+                {"label": "сердолик","priority": 1},
+                {"label": "стекло","priority": 1},
+                {"label": "стразы","priority": 1},
+                {"label": "фианит","priority": 1},
+                {"label": "хрусталь","priority": 1},
+                {"label": "циркон","priority": 1},
+                {"label": "эмаль","priority": 1},
+                {"label": "янтарь","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Основной материал",
+              "name": "personal-accessories-jewelry-bijouterie-material",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "ацетат","priority": 1},
+                {"label": "дерево","priority": 1},
+                {"label": "камень","priority": 1},
+                {"label": "кожа","priority": 1},
+                {"label": "латунь","priority": 1},
+                {"label": "медь","priority": 1},
+                {"label": "мельхиор","priority": 1},
+                {"label": "пластик","priority": 1},
+                {"label": "сталь","priority": 1},
+                {"label": "титан","priority": 1},
+                {"label": "цинк","priority": 1},
+                {"label": "ювелирный сплав","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Пол",
+              "name": "personal-accessories-jewelry-bijouterie-sex",
+              "priority": 13,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 33,
+              "options": [
+                {"label": "женский","priority": 1},
+                {"label": "мужской","priority": 1},
+                {"label": "унисекс","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-accessories-jewelry-stands-holders",
+          "label": "Подставки и держатели для украшений",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-accessories-jewelry-stands-holders-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "для колец","priority": 1},
+                {"label": "для цепочек","priority": 1},
+                {"label": "универсальный","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-accessories-jewelry-jewelry",
+          "label": "Ювелирные украшения",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-accessories-jewelry-jewelry-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "браслет","priority": 1},
+                {"label": "брелок","priority": 1},
+                {"label": "брошь","priority": 1},
+                {"label": "зажим для галстука","priority": 1},
+                {"label": "запонки","priority": 1},
+                {"label": "колье","priority": 1},
+                {"label": "кольцо","priority": 1},
+                {"label": "крест","priority": 1},
+                {"label": "кулон","priority": 1},
+                {"label": "подвеска","priority": 1},
+                {"label": "серьги","priority": 1},
+                {"label": "цепочка","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Пол",
+              "name": "personal-accessories-jewelry-jewelry-sex",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "женский","priority": 1},
+                {"label": "мужской","priority": 1},
+                {"label": "унисекс","priority": 1}
+              ]
+            },
+            {
+              "label": "Материал",
+              "name": "personal-accessories-jewelry-jewelry-material",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "золото","priority": 1},
+                {"label": "платина","priority": 1},
+                {"label": "серебро","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Вставка",
+              "name": "personal-accessories-jewelry-jewelry-attachment",
+              "priority": 13,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "filter_default_toggle": true,
+              "search_priority": 13,
+              "options": [
+                {"label": "аметист","priority": 1},
+                {"label": "бирюза","priority": 1},
+                {"label": "бриллиант","priority": 1},
+                {"label": "гранат","priority": 1},
+                {"label": "жемчуг","priority": 1},
+                {"label": "изумруд","priority": 1},
+                {"label": "иолит","priority": 1},
+                {"label": "кварц","priority": 1},
+                {"label": "кристалл","priority": 1},
+                {"label": "лунный камень","priority": 1},
+                {"label": "оникс","priority": 1},
+                {"label": "отсутствует","priority": 1},
+                {"label": "сапфир","priority": 1},
+                {"label": "топаз","priority": 1},
+                {"label": "фианит","priority": 1},
+                {"label": "хризолит","priority": 1},
+                {"label": "цитрин","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-accessories-jewelry-other",
+      "label": "Прочие аксессуары и украшения",
+      "priority": 12
+    }
+  ]
+}

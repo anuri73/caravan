@@ -1,0 +1,1125 @@
+{
+  "label": "Услуги",
+  "url": "services",
+  "priority": 8,
+  "parameters": [
+    {
+      "label": "Название услуги",
+      "name": "services-title",
+      "priority": 1,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Введите название услуги"
+        }
+      ],
+      "post_form": "textbox"
+    },
+    {
+      "label": "Цена от",
+      "name": "services-price",
+      "priority": 20,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "Цена - значение должно быть числом"
+        }
+      ],
+      "post_form": "textbox",
+      "measure": "сом",
+      "search_form": "range",
+      "filter_default_toggle": true,
+      "search_priority": 20
+    }
+  ],
+  "children": [
+    {
+      "url": "services-it",
+      "label": "IT, Интернет, телеком",
+      "priority": 1,
+      "children": [
+        {
+          "url": "services-it-software-installation",
+          "label": "Установка и настройка ПО",
+          "priority": 1
+        },
+        {
+          "url": "services-it-website-app-development",
+          "label": "Разработка сайтов, приложений, ПО",
+          "priority": 2
+        },
+        {
+          "url": "services-it-1c-crm-business-automation",
+          "label": "1С, автоматизация бизнеса",
+          "priority": 3
+        },
+        {
+          "url": "services-it-seo-smm-context-ads",
+          "label": "Продвижение, раскрутка",
+          "priority": 4
+        },
+        {
+          "url": "services-it-design",
+          "label": "Дизайн",
+          "priority": 5
+        },
+        {
+          "url": "services-it-telephony-sip-internet",
+          "label": "Телефония, связь, интернет",
+          "priority": 6
+        },
+        {
+          "url": "services-it-other",
+          "label": "Другие IT-услуги",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "url": "services-repair-equipment",
+      "label": "Ремонт техники",
+      "priority": 2,
+      "children": [
+        {
+          "url": "services-repair-equipment-tv",
+          "label": "Телевизоры",
+          "priority": 1
+        },
+        {
+          "url": "services-repair-equipment-mobile-devices",
+          "label": "Мобильные устройства",
+          "priority": 2
+        },
+        {
+          "url": "services-repair-equipment-small-appliances",
+          "label": "Мелкая бытовая техника",
+          "priority": 3
+        },
+        {
+          "url": "services-repair-equipment-photo-video-audio-devices",
+          "label": "Фото, видео, аудиотехника",
+          "priority": 4
+        },
+        {
+          "url": "services-repair-equipment-computers-printers-scanners",
+          "label": "Компьютеры и оргтехника",
+          "priority": 5
+        },
+        {
+          "url": "services-repair-equipment-big-appliances",
+          "label": "Крупная бытовая техника",
+          "priority": 6
+        },
+        {
+          "url": "services-repair-equipment-sewing-machines",
+          "label": "Швейное оборудование",
+          "priority": 7
+        },
+        {
+          "url": "services-repair-equipment-other",
+          "label": "Ремонт прочей техники",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "url": "services-equipment-installation",
+      "label": "Установка техники",
+      "priority": 3
+    },
+    {
+      "url": "services-domestic",
+      "label": "Бытовые услуги",
+      "priority": 4,
+      "children": [
+        {
+          "url": "services-domestic-cleaning",
+          "label": "Уборка",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип услуг",
+              "name": "services-domestic-cleaning-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Вывоз мусора","priority": 1},
+                {"label": "Генеральная уборка","priority": 1},
+                {"label": "Мойка окон","priority": 1},
+                {"label": "Простая уборка","priority": 1},
+                {"label": "Уборка после ремонта","priority": 1},
+                {"label": "Чистка ковров","priority": 1},
+                {"label": "Чистка мягкой мебели","priority": 1},
+                {"label": "Другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "services-domestic-garden",
+          "label": "Сад и благоустройство",
+          "priority": 2
+        },
+        {
+          "url": "services-domestic-master-universal",
+          "label": "Мастер на час",
+          "priority": 3
+        },
+        {
+          "url": "services-domestic-clothes-sewing-repair",
+          "label": "Пошив и ремонт одежды",
+          "priority": 4
+        },
+        {
+          "url": "services-domestic-repair-watches",
+          "label": "Ремонт часов",
+          "priority": 5
+        },
+        {
+          "url": "services-domestic-dry-cleaning-laundry",
+          "label": "Химчистка, стирка",
+          "priority": 6
+        },
+        {
+          "url": "services-domestic-jewelry",
+          "label": "Ювелирные услуги",
+          "priority": 7
+        },
+        {
+          "url": "services-domestic-other",
+          "label": "Прочие бытовые услуги",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "url": "services-business",
+      "label": "Деловые услуги",
+      "priority": 5,
+      "children": [
+        {
+          "url": "services-business-legal",
+          "label": "Юридические услуги",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип услуг",
+              "name": "services-business-legal-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Адвокаты","priority": 1},
+                {"label": "Нотариусы","priority": 1},
+                {"label": "Юридические консультации","priority": 1},
+                {"label": "Помощь в оформлении документов","priority": 1},
+                {"label": "Прочие юридические услуги","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "services-business-accounting-finance",
+          "label": "Бухгалтерия, финансы",
+          "priority": 2
+        },
+        {
+          "url": "services-business-consulting",
+          "label": "Консультирование",
+          "priority": 3
+        },
+        {
+          "url": "services-business-translation",
+          "label": "Перевод",
+          "priority": 4
+        },
+        {
+          "url": "services-business-text-typing-editing-copywriting",
+          "label": "Набор и коррекция текста",
+          "priority": 5
+        },
+        {
+          "url": "services-business-other",
+          "label": "Прочие деловые услуги",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "url": "services-advertising",
+      "label": "Реклама и полиграфия",
+      "priority": 6,
+      "children": [
+        {
+          "url": "services-advertising-marketing-pr",
+          "label": "Маркетинг, реклама, PR",
+          "priority": 1
+        },
+        {
+          "url": "services-advertising-design-printing",
+          "label": "Полиграфия, дизайн",
+          "priority": 2
+        },
+        {
+          "url": "services-advertising-other",
+          "label": "Прочие рекламные услуги",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "url": "services-beauty-health",
+      "label": "Красота и здоровье",
+      "priority": 7,
+      "children": [
+        {
+          "url": "services-beauty-health-barbershop-haircut",
+          "label": "Услуги парикмахера",
+          "priority": 1
+        },
+        {
+          "url": "services-beauty-health-manicure-pedicure",
+          "label": "Маникюр, педикюр",
+          "priority": 2
+        },
+        {
+          "url": "services-beauty-health-makeup",
+          "label": "Макияж, визаж",
+          "priority": 3
+        },
+        {
+          "url": "services-beauty-health-cosmetology",
+          "label": "Косметология",
+          "priority": 4
+        },
+        {
+          "url": "services-beauty-health-epilation-depilation",
+          "label": "Эпиляция, депиляция",
+          "priority": 5
+        },
+        {
+          "url": "services-beauty-health-massage",
+          "label": "Массаж",
+          "priority": 6
+        },
+        {
+          "url": "services-beauty-health-medical-services",
+          "label": "Медицинские услуги",
+          "priority": 7
+        },
+        {
+          "url": "services-beauty-health-psychology",
+          "label": "Психология",
+          "priority": 8
+        },
+        {
+          "url": "services-beauty-health-tattoo-piercing",
+          "label": "Тату, пирсинг",
+          "priority": 9
+        },
+        {
+          "url": "services-beauty-health-other",
+          "label": "Прочие услуги для красоты и здоровья",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "url": "services-care",
+      "label": "Няни, сиделки",
+      "priority": 8,
+      "children": [
+        {
+          "url": "services-care-nannies",
+          "label": "Няни",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип услуг",
+              "name": "services-care-nannies-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "детский сад на дому","priority": 1},
+                {"label": "гувернантка","priority": 1},
+                {"label": "воспитатель","priority": 1},
+                {"label": "няня с проживанием","priority": 1},
+                {"label": "няня без проживания","priority": 1},
+                {"label": "няня для сопровождения","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Опыт",
+              "name": "services-care-nannies-experience",
+              "priority": 12,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите опыт"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "без опыта","priority": 1},
+                {"label": "до 3 лет","priority": 1},
+                {"label": "от 3 до 5 лет","priority": 1},
+                {"label": "от 5 и более","priority": 1}
+              ]
+            },
+            {
+              "label": "Возраст",
+              "name": "services-care-nannies-age",
+              "priority": 13,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите возраст"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 13,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "18-25","priority": 1},
+                {"label": "25-35","priority": 1},
+                {"label": "35 и старше","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "services-care-nurses",
+          "label": "Сиделки, медсестры",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип услуг",
+              "name": "services-care-nurses-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "сиделка","priority": 1},
+                {"label": "медсестра","priority": 1},
+                {"label": "уход за престарелыми","priority": 1},
+                {"label": "уход за инвалидами","priority": 1}
+              ]
+            },
+            {
+              "label": "Опыт",
+              "name": "services-care-nurses-experience",
+              "priority": 12,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите опыт"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "без опыта","priority": 1},
+                {"label": "до 3 лет","priority": 1},
+                {"label": "от 3 до 5 лет","priority": 1},
+                {"label": "от 5 и более","priority": 1}
+              ]
+            },
+            {
+              "label": "Возраст",
+              "name": "services-care-nurses-age",
+              "priority": 13,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите возраст"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 13,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "18-25","priority": 1},
+                {"label": "25-35","priority": 1},
+                {"label": "35 и старше","priority": 1}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "services-courses",
+      "label": "Обучение, курсы",
+      "priority": 9,
+      "children": [
+        {
+          "url": "services-courses-foreign-languages",
+          "label": "Иностранные языки",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "services-courses-foreign-languages-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "английский","priority": 1},
+                {"label": "русский","priority": 1},
+                {"label": "кыргызский","priority": 1},
+                {"label": "китайский","priority": 1},
+                {"label": "турецкий","priority": 1},
+                {"label": "немецкий","priority": 1},
+                {"label": "французский","priority": 1},
+                {"label": "арабский","priority": 1},
+                {"label": "испанский","priority": 1},
+                {"label": "корейский","priority": 1},
+                {"label": "японский","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "services-courses-driving",
+          "label": "Вождение",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "services-courses-driving-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "автошколы","priority": 1},
+                {"label": "инструкторы","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "services-courses-music-theatre",
+          "label": "Музыка, театр",
+          "priority": 3
+        },
+        {
+          "url": "services-courses-sport-dancing",
+          "label": "Спорт, танцы",
+          "priority": 4
+        },
+        {
+          "url": "services-courses-drawing-design-art-handicraft",
+          "label": "Рисование, дизайн, рукоделие",
+          "priority": 5
+        },
+        {
+          "url": "services-courses-preschool",
+          "label": "Дошкольное обучение, логопеды",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "services-courses-preschool-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "подготовка к школе","priority": 1},
+                {"label": "занятия с логопедом","priority": 1},
+                {"label": "летний лагерь","priority": 1},
+                {"label": "детский сад","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "services-courses-skills-development",
+          "label": "Курсы, повышение квалификации",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Курсы",
+              "name": "services-courses-skills-development-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "для бухгалтеров","priority": 1},
+                {"label": "бизнес курсы","priority": 1},
+                {"label": "компьютерные курсы","priority": 1},
+                {"label": "программирование, IT","priority": 1},
+                {"label": "для дизайнеров","priority": 1},
+                {"label": "по наращиванию ногтей","priority": 1},
+                {"label": "по наращиванию ресниц","priority": 1},
+                {"label": "для парикмахеров","priority": 1},
+                {"label": "курсы массажа","priority": 1},
+                {"label": "курсы кройки и шитья","priority": 1},
+                {"label": "другие","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "services-courses-education-abroad",
+          "label": "Образование за рубежом",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "services-courses-education-abroad-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "языковые центры, лагеря","priority": 1},
+                {"label": "школы","priority": 1},
+                {"label": "высшее образование","priority": 1},
+                {"label": "подготовка к университетам","priority": 1},
+                {"label": "подготовка к международным экзаменам","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "services-courses-tuitors",
+          "label": "Репетиторы",
+          "priority": 9,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "services-courses-tuitors-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "английский язык","priority": 1},
+                {"label": "кыргызский язык","priority": 1},
+                {"label": "русский язык","priority": 1},
+                {"label": "гуманитарные науки","priority": 1},
+                {"label": "естественные науки","priority": 1},
+                {"label": "компьютерные технологии","priority": 1},
+                {"label": "прочее","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "services-courses-seminars-trainings",
+          "label": "Семинары, тренинги",
+          "priority": 10,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "services-courses-seminars-trainings-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "по маркетингу и продажам","priority": 1},
+                {"label": "по управлению персоналом","priority": 1},
+                {"label": "по менеджменту","priority": 1},
+                {"label": "коммуникационные","priority": 1},
+                {"label": "личностные","priority": 1},
+                {"label": "отраслевые","priority": 1},
+                {"label": "прочее","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "services-courses-other",
+          "label": "Прочие образовательные услуги",
+          "priority": 11
+        }
+      ]
+    },
+    {
+      "url": "services-sport",
+      "label": "Спорт, фитнес, танцы",
+      "priority": 10,
+      "children": [
+        {
+          "url": "services-sport-gyms",
+          "label": "Тренажерные залы",
+          "priority": 1
+        },
+        {
+          "url": "services-sport-fitness-clubs",
+          "label": "Фитнес-клубы",
+          "priority": 2
+        },
+        {
+          "url": "services-sport-swimming-pools",
+          "label": "Бассейны",
+          "priority": 3
+        },
+        {
+          "url": "services-sport-soccer-fields",
+          "label": "Мини-футбольные поля",
+          "priority": 4
+        },
+        {
+          "url": "services-sport-tennis-courts",
+          "label": "Теннисные корты",
+          "priority": 5
+        },
+        {
+          "url": "services-sport-yoga-centers",
+          "label": "Йога-центры",
+          "priority": 6
+        },
+        {
+          "url": "services-sport-dancing",
+          "label": "Танцы",
+          "priority": 7
+        },
+        {
+          "url": "services-sport-ice-arenas",
+          "label": "Ледовые арены",
+          "priority": 8
+        },
+        {
+          "url": "services-sport-clubs",
+          "label": "Спортивные секции",
+          "priority": 9
+        },
+        {
+          "url": "services-sport-trainers",
+          "label": "Тренеры",
+          "priority": 10
+        },
+        {
+          "url": "services-sport-other",
+          "label": "Прочие спортивные услуги",
+          "priority": 11
+        }
+      ]
+    },
+    {
+      "url": "services-construction",
+      "label": "Строительство и ремонт",
+      "priority": 11,
+      "children": [
+        {
+          "url": "services-construction-building",
+          "label": "Строительные услуги",
+          "priority": 1
+        },
+        {
+          "url": "services-construction-renovation",
+          "label": "Отделка, ремонт",
+          "priority": 2
+        },
+        {
+          "url": "services-construction-ventilation-air-conditioning",
+          "label": "Вентиляция, кондиционирование",
+          "priority": 3
+        },
+        {
+          "url": "services-construction-design-architecture",
+          "label": "Дизайн, архитектура",
+          "priority": 4
+        },
+        {
+          "url": "services-construction-ready-constructions",
+          "label": "Готовые конструкции",
+          "priority": 5
+        },
+        {
+          "url": "services-construction-assembly-installation",
+          "label": "Монтажные работы",
+          "priority": 6
+        },
+        {
+          "url": "services-construction-windows-doors-balcony",
+          "label": "Окна, двери, балконы",
+          "priority": 7
+        },
+        {
+          "url": "services-construction-furniture-assembly-repair",
+          "label": "Сборка и ремонт мебели",
+          "priority": 8
+        },
+        {
+          "url": "services-construction-plumbing-communications",
+          "label": "Сантехника, коммуникации",
+          "priority": 9
+        },
+        {
+          "url": "services-construction-welding",
+          "label": "Сварочные работы",
+          "priority": 10
+        },
+        {
+          "url": "services-construction-carpentry",
+          "label": "Столярные работы",
+          "priority": 11
+        },
+        {
+          "url": "services-construction-electrics",
+          "label": "Электрика",
+          "priority": 12
+        },
+        {
+          "url": "services-construction-other",
+          "label": "Прочие строительные услуги",
+          "priority": 13
+        }
+      ]
+    },
+    {
+      "url": "services-realty",
+      "label": "Риэлторские услуги",
+      "priority": 12
+    },
+    {
+      "url": "services-entertainment",
+      "label": "Развлечения",
+      "priority": 13
+    },
+    {
+      "url": "services-holidays-events",
+      "label": "Праздники и мероприятия",
+      "priority": 14
+    },
+    {
+      "url": "services-catering",
+      "label": "Питание, кейтеринг",
+      "priority": 15
+    },
+    {
+      "url": "services-photo-video-shooting",
+      "label": "Фото, видео-съемки",
+      "priority": 16
+    },
+    {
+      "url": "services-rent",
+      "label": "Прокат, аренда",
+      "priority": 17,
+      "children": [
+        {
+          "url": "services-rent-bikes",
+          "label": "Велосипеды",
+          "priority": 1
+        },
+        {
+          "url": "services-rent-good-for-kids",
+          "label": "Детские товары",
+          "priority": 2
+        },
+        {
+          "url": "services-rent-game-consoles",
+          "label": "Игровые приставки",
+          "priority": 3
+        },
+        {
+          "url": "services-rent-hookahs",
+          "label": "Кальяны",
+          "priority": 4
+        },
+        {
+          "url": "services-rent-computers-office-equipment",
+          "label": "Компьютеры и оргтехника",
+          "priority": 5
+        },
+        {
+          "url": "services-rent-carnival-costumes",
+          "label": "Карнавальные костюмы",
+          "priority": 6
+        },
+        {
+          "url": "services-rent-musical-equipment",
+          "label": "Музыкальное оборудование",
+          "priority": 7
+        },
+        {
+          "url": "services-rent-dresses-costumes",
+          "label": "Платья и костюмы",
+          "priority": 8
+        },
+        {
+          "url": "services-rent-wedding-dresses-goods",
+          "label": "Свадебные платья и товары",
+          "priority": 9
+        },
+        {
+          "url": "services-rent-sport-goods",
+          "label": "Спортивные товары",
+          "priority": 10
+        },
+        {
+          "url": "services-rent-construction-equipment",
+          "label": "Строительная техника",
+          "priority": 11
+        },
+        {
+          "url": "services-rent-equipment",
+          "label": "Оборудование",
+          "priority": 12
+        },
+        {
+          "url": "services-rent-tourist-equipment",
+          "label": "Туристическое снаряжение",
+          "priority": 13
+        },
+        {
+          "url": "services-rent-goods-picnic-entertainment",
+          "label": "Товары для отдыха, пикника",
+          "priority": 14
+        },
+        {
+          "url": "services-rent-goods-for-holidays",
+          "label": "Товары для праздника",
+          "priority": 15
+        },
+        {
+          "url": "services-rent-photo-video-optics",
+          "label": "Фото-видео, оптика",
+          "priority": 16
+        },
+        {
+          "url": "services-rent-electronics",
+          "label": "Электроника",
+          "priority": 17
+        },
+        {
+          "url": "services-rent-yurts",
+          "label": "Юрты",
+          "priority": 18
+        },
+        {
+          "url": "services-rent-other",
+          "label": "Прокат прочих товаров",
+          "priority": 19
+        }
+
+      ]
+    },
+    {
+      "url": "services-auto",
+      "label": "Автоуслуги",
+      "priority": 18,
+      "children": [
+        {
+          "url": "services-auto-maintenance",
+          "label": "Техническое обслуживание",
+          "priority": 1
+        },
+        {
+          "url": "services-auto-electrics",
+          "label": "Ремонт электрики",
+          "priority": 2
+        },
+        {
+          "url": "services-auto-air-conditioning",
+          "label": "Ремонт кондиционера",
+          "priority": 3
+        },
+        {
+          "url": "services-auto-engine",
+          "label": "Ремонт двигателя",
+          "priority": 4
+        },
+        {
+          "url": "services-auto-tuning",
+          "label": "Тюнинг и допоборудование",
+          "priority": 5
+        },
+        {
+          "url": "services-auto-brake-system",
+          "label": "Ремонт тормозной системы",
+          "priority": 6
+        },
+        {
+          "url": "services-auto-glasses",
+          "label": "Автостекла",
+          "priority": 7
+        },
+        {
+          "url": "services-auto-exhaust-system",
+          "label": "Ремонт выхлопной системы",
+          "priority": 8
+        },
+        {
+          "url": "services-auto-transmission",
+          "label": "Ремонт трансмиссии",
+          "priority": 9
+        },
+        {
+          "url": "services-auto-diagnostics",
+          "label": "Диагностика",
+          "priority": 10
+        },
+        {
+          "url": "services-auto-carwash-care",
+          "label": "Мойка и уход за авто",
+          "priority": 11
+        },
+        {
+          "url": "services-auto-running-gear",
+          "label": "Ремонт ходовой части",
+          "priority": 12
+        },
+        {
+          "url": "services-auto-body-repair",
+          "label": "Кузовной ремонт",
+          "priority": 13
+        },
+        {
+          "url": "services-auto-tire-fitting",
+          "label": "Шиномонтаж",
+          "priority": 14
+        }
+      ]
+    },
+    {
+      "url": "services-transportation",
+      "label": "Транспорт, перевозки",
+      "priority": 19,
+      "children": [
+        {
+          "url": "services-transportation-car-rentals",
+          "label": "Аренда авто",
+          "priority": 1
+        },
+        {
+          "url": "services-transportation-commercial",
+          "label": "Коммерческие перевозки",
+          "priority": 2
+        },
+        {
+          "url": "services-transportation-loaders-porters",
+          "label": "Грузчики",
+          "priority": 3
+        },
+        {
+          "url": "services-transportation-movers",
+          "label": "Переезды",
+          "priority": 4
+        },
+        {
+          "url": "services-transportation-special-machinery",
+          "label": "Спецтехника",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "url": "services-security",
+      "label": "Охрана, безопасность",
+      "priority": 20
+    },
+    {
+      "url": "services-travel-visas",
+      "label": "Путешествия и визы",
+      "priority": 21
+    },
+    {
+      "url": "services-other",
+      "label": "Прочие услуги",
+      "priority": 22
+    }
+  ]
+}
+

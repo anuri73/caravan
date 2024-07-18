@@ -1,0 +1,252 @@
+{
+  "label": "Планшеты и букридеры",
+  "url": "electronics-tablets-ereaders",
+  "priority": 2,
+  "children": [
+    {
+      "url": "electronics-tablets-ereaders-tablets",
+      "label": "Планшеты",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Операционная система",
+          "name": "electronics-tablets-ereaders-tablets-operating system",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Android",
+              "priority": 1
+            },
+            {
+              "label": "Android/Windows",
+              "priority": 2
+            },
+            {
+              "label": "BlackBerry",
+              "priority": 3
+            },
+            {
+              "label": "Fire OS",
+              "priority": 4
+            },
+            {
+              "label": "iOS",
+              "priority": 5
+            },
+            {
+              "label": "Windows",
+              "priority": 6
+            },
+            {
+              "label": "Yandex.Kit",
+              "priority": 7
+            },
+            {
+              "label": "Другая",
+              "priority": 8
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожалуйста, укажите операционную систему телефона"
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-tablets-ereaders-tablets-brand",
+          "priority": 13,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {
+              "label": "Acer",
+              "priority": 1
+            },
+            {
+              "label": "Ainol",
+              "priority": 2
+            },
+            {
+              "label": "Apple",
+              "priority": 3
+            },
+            {
+              "label": "Archos",
+              "priority": 4
+            },
+            {
+              "label": "ASUS",
+              "priority": 5
+            },
+            {
+              "label": "Digma",
+              "priority": 6
+            },
+            {
+              "label": "Ginzzu",
+              "priority": 7
+            },
+            {
+              "label": "HP",
+              "priority": 8
+            },
+            {
+              "label": "Huawei",
+              "priority": 9
+            },
+            {
+              "label": "Irbis",
+              "priority": 10
+            },
+            {
+              "label": "Lenovo",
+              "priority": 11
+            },
+            {
+              "label": "Prestigio",
+              "priority": 12
+            },
+            {
+              "label": "Samsung",
+              "priority": 13
+            },
+            {
+              "label": "TwinMOS",
+              "priority": 14
+            },
+            {
+              "label": "Xiaomi",
+              "priority": 15
+            },
+            {
+              "label": "Другое",
+              "priority": 16
+            }
+          ]
+        },
+        {
+          "label": "Объем памяти",
+          "name": "electronics-tablets-ereaders-tablets-memory",
+          "priority": 15,
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 33,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Объем памяти - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Объем оперативной памяти",
+          "name": "electronics-tablets-ereaders-tablets-ram",
+          "priority": 16,
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 34,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Объем оперативной памяти - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Разрешение основной камеры",
+          "name": "electronics-tablets-ereaders-tablets-main-camera",
+          "priority": 17,
+          "post_form": "textbox",
+          "measure": "мп",
+          "search_form": "range",
+          "search_priority": 35,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Разрешение основной камеры - значение должно быть числом"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-tablets-ereaders-ereaders",
+      "label": "Электронные книги (букридеры)",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-tablets-ereaders-ereaders-brand",
+          "priority": 10,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Amazon",
+              "priority": 1
+            },
+            {
+              "label": "Barnes & Noble",
+              "priority": 2
+            },
+            {
+              "label": "BQ",
+              "priority": 3
+            },
+            {
+              "label": "Digma",
+              "priority": 4
+            },
+            {
+              "label": "Gmini",
+              "priority": 5
+            },
+            {
+              "label": "ONYX",
+              "priority": 6
+            },
+            {
+              "label": "PocketBook",
+              "priority": 7
+            },
+            {
+              "label": "Reader",
+              "priority": 8
+            },
+            {
+              "label": "Ritmix",
+              "priority": 9
+            },
+            {
+              "label": "Sony",
+              "priority": 10
+            },
+            {
+              "label": "Tesla",
+              "priority": 11
+            },
+            {
+              "label": "teXet",
+              "priority": 12
+            },
+            {
+              "label": "Другой",
+              "priority": 16
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1139 @@
+{
+  "label": "Игрушки",
+  "url": "kids-toys",
+  "priority": 2,
+  "children": [
+    {
+      "url": "kids-toys-for-babies",
+      "label": "Для малышей",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип игрушки",
+          "name": "kids-toys-for-babies-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип игрушки"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Погремушки, прорезыватели",
+              "priority": 1
+            },
+            {
+              "label": "Развивающие игрушки",
+              "priority": 2
+            },
+            {
+              "label": "Интерактивные игрушки",
+              "priority": 3
+            },
+            {
+              "label": "Деревяные игрушки",
+              "priority": 4
+            },
+            {
+              "label": "Развивающие коврики",
+              "priority": 5
+            },
+            {
+              "label": "Дуги, подвески",
+              "priority": 6
+            },
+            {
+              "label": "Мобили, каталки, качалки",
+              "priority": 7
+            },
+            {
+              "label": "Игрушки для ванной",
+              "priority": 8
+            },
+            {
+              "label": "Книжки-игрушки",
+              "priority": 9
+            },
+            {
+              "label": "Обучающие материалы и авторские методики",
+              "priority": 10
+            },
+            {
+              "label": "Другое",
+              "priority": 11
+            }
+          ]
+        },
+        {
+          "label": "Возраст ребенка",
+          "name": "kids-toys-for-babies-age",
+          "priority": 21,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите возраст"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "От 0 месяцев",
+              "priority": 1
+            },
+            {
+              "label": "От 1 месяца",
+              "priority": 2
+            },
+            {
+              "label": "От 3 месяцев",
+              "priority": 3
+            },
+            {
+              "label": "От 4 месяцев",
+              "priority": 4
+            },
+            {
+              "label": "От 5 месяцев",
+              "priority": 5
+            },
+            {
+              "label": "От 6 месяцев",
+              "priority": 6
+            },
+            {
+              "label": "От 9 месяцев",
+              "priority": 7
+            },
+            {
+              "label": "От 10 месяцев",
+              "priority": 8
+            },
+            {
+              "label": "От 11 месяцев",
+              "priority": 9
+            },
+            {
+              "label": "От 12 месяцев",
+              "priority": 10
+            },
+            {
+              "label": "От 18 месяцев",
+              "priority": 11
+            },
+            {
+              "label": "От 2 лет",
+              "priority": 12
+            },
+            {
+              "label": "От 3 лет",
+              "priority": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-toys-building",
+      "label": "Конструкторы",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Пол",
+          "name": "kids-toys-building-sex",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите пол ребенка"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Для мальчиков",
+              "priority": 1
+            },
+            {
+              "label": "Для девочек",
+              "priority": 2
+            },
+            {
+              "label": "Для мальчиков и девочек",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Возраст",
+          "name": "kids-toys-building-age",
+          "priority": 21,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите возраст"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "От 1 года",
+              "priority": 1
+            },
+            {
+              "label": "От 1,5 года",
+              "priority": 2
+            },
+            {
+              "label": "От 2 лет",
+              "priority": 3
+            },
+            {
+              "label": "От 3 лет",
+              "priority": 4
+            },
+            {
+              "label": "От 4 лет",
+              "priority": 5
+            },
+            {
+              "label": "От 5 лет",
+              "priority": 6
+            },
+            {
+              "label": "От 6 лет",
+              "priority": 7
+            },
+            {
+              "label": "От 7 лет",
+              "priority": 8
+            },
+            {
+              "label": "От 8 лет",
+              "priority": 9
+            },
+            {
+              "label": "От 9 лет",
+              "priority": 10
+            },
+            {
+              "label": "От 10 лет",
+              "priority": 11
+            },
+            {
+              "label": "От 11 лет",
+              "priority": 12
+            },
+            {
+              "label": "От 12 лет",
+              "priority": 13
+            },
+            {
+              "label": "От 13 лет",
+              "priority": 14
+            },
+            {
+              "label": "От 14 лет",
+              "priority": 15
+            },
+            {
+              "label": "От 15 лет",
+              "priority": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-toys-interactive",
+      "label": "Интерактивные игрушки",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип игрушки",
+          "name": "kids-toys-interactive-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип игрушки"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Робот",
+              "priority": 1
+            },
+            {
+              "label": "Интерактивная игрушка",
+              "priority": 2
+            },
+            {
+              "label": "Музыкальная игрушка",
+              "priority": 3
+            },
+            {
+              "label": "Электронная игрушка",
+              "priority": 4
+            },
+            {
+              "label": "Игровой коврик",
+              "priority": 5
+            },
+            {
+              "label": "Другое",
+              "priority": 6
+            }
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "kids-toys-interactive-sex",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите пол ребенка"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Для мальчиков",
+              "priority": 1
+            },
+            {
+              "label": "Для девочек",
+              "priority": 2
+            },
+            {
+              "label": "Для мальчиков и девочек",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Возраст",
+          "name": "kids-toys-interactive-age",
+          "priority": 21,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите возраст ребенка"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "От 3 лет",
+              "priority": 1
+            },
+            {
+              "label": "От 4 лет",
+              "priority": 2
+            },
+            {
+              "label": "От 5 лет",
+              "priority": 3
+            },
+            {
+              "label": "От 6 лет",
+              "priority": 4
+            },
+            {
+              "label": "От 8 лет",
+              "priority": 5
+            },
+            {
+              "label": "От 14 лет",
+              "priority": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-toys-role-playing",
+      "label": "Сюжетно-ролевые игрушки",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип игрушки",
+          "name": "kids-toys-role-playing-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип игрушки"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Юный повар и кондитер",
+              "priority": 1
+            },
+            {
+              "label": "Мастер и строитель",
+              "priority": 2
+            },
+            {
+              "label": "Маленькая хозяйка",
+              "priority": 3
+            },
+            {
+              "label": "Салон красоты",
+              "priority": 4
+            },
+            {
+              "label": "Шпионы и суперагенты",
+              "priority": 5
+            },
+            {
+              "label": "Супермаркет",
+              "priority": 6
+            },
+            {
+              "label": "Доктор и ветеринар",
+              "priority": 7
+            },
+            {
+              "label": "Юный военный и полицейский",
+              "priority": 8
+            },
+            {
+              "label": "Водитель, регулировщик",
+              "priority": 9
+            },
+            {
+              "label": "Пираты",
+              "priority": 10
+            },
+            {
+              "label": "Другое",
+              "priority": 10
+            }
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "kids-toys-role-playing-sex",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите пол ребенка"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 22,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Для мальчиков",
+              "priority": 1
+            },
+            {
+              "label": "Для девочек",
+              "priority": 2
+            },
+            {
+              "label": "Для мальчиков и девочек",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Возраст",
+          "name": "kids-toys-role-playing-age",
+          "priority": 21,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите возраст"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "От 3 лет",
+              "priority": 1
+            },
+            {
+              "label": "От 4 лет",
+              "priority": 2
+            },
+            {
+              "label": "От 5 лет",
+              "priority": 3
+            },
+            {
+              "label": "От 6 лет",
+              "priority": 4
+            },
+            {
+              "label": "От 8 лет",
+              "priority": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-toys-soft",
+      "label": "Мягкие игрушки",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Пол",
+          "name": "kids-toys-soft-sex",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите пол ребенка"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 22,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Для мальчиков",
+              "priority": 1
+            },
+            {
+              "label": "Для девочек",
+              "priority": 2
+            },
+            {
+              "label": "Для мальчиков и девочек",
+              "priority": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-toys-dolls-accessories",
+      "label": "Куклы и аксессуары",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип игрушки",
+          "name": "kids-toys-dolls-accessories-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип игрушки"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Кукла",
+              "priority": 1
+            },
+            {
+              "label": "Мини-кукла",
+              "priority": 2
+            },
+            {
+              "label": "Пупс",
+              "priority": 3
+            },
+            {
+              "label": "Игровой набор с куклой",
+              "priority": 4
+            },
+            {
+              "label": "Дом для кукол",
+              "priority": 5
+            },
+            {
+              "label": "Мягкая кукла",
+              "priority": 6
+            },
+            {
+              "label": "Мебель для кукол",
+              "priority": 7
+            },
+            {
+              "label": "Одежда для кукол",
+              "priority": 8
+            },
+            {
+              "label": "Аксессуары для кукол",
+              "priority": 9
+            },
+            {
+              "label": "Транспорт для кукол",
+              "priority": 10
+            }
+          ]
+        },
+        {
+          "label": "Возраст",
+          "name": "kids-toys-dolls-accessories-age",
+          "priority": 21,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите возраст"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "От 1 года",
+              "priority": 1
+            },
+            {
+              "label": "От 2 лет",
+              "priority": 2
+            },
+            {
+              "label": "От 3 лет",
+              "priority": 3
+            },
+            {
+              "label": "От 4 лет",
+              "priority": 4
+            },
+            {
+              "label": "От 5 лет",
+              "priority": 5
+            },
+            {
+              "label": "От 6 лет",
+              "priority": 6
+            },
+            {
+              "label": "От 7 лет",
+              "priority": 7
+            },
+            {
+              "label": "От 14 лет",
+              "priority": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-toys-radio-controlled",
+      "label": "Радиоуправляемые игрушки",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Тип игрушки",
+          "name": "kids-toys-radio-controlled-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип игрушки"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Машина",
+              "priority": 1
+            },
+            {
+              "label": "Вертолет",
+              "priority": 2
+            },
+            {
+              "label": "Квадрокоптер",
+              "priority": 3
+            },
+            {
+              "label": "Танк",
+              "priority": 4
+            },
+            {
+              "label": "Робот",
+              "priority": 5
+            },
+            {
+              "label": "Самолет",
+              "priority": 6
+            },
+            {
+              "label": "Катер",
+              "priority": 7
+            },
+            {
+              "label": "Трансформер",
+              "priority": 8
+            },
+            {
+              "label": "Мотоцикл",
+              "priority": 9
+            },
+            {
+              "label": "Другое",
+              "priority": 10
+            }
+          ]
+        },
+        {
+          "label": "Возраст",
+          "name": "kids-toys-radio-controlled-age",
+          "priority": 21,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите возраст"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_priority": true,
+          "options": [
+            {
+              "label": "От 3 лет",
+              "priority": 1
+            },
+            {
+              "label": "От 4 лет",
+              "priority": 2
+            },
+            {
+              "label": "От 5 лет",
+              "priority": 3
+            },
+            {
+              "label": "От 6 лет",
+              "priority": 4
+            },
+            {
+              "label": "От 8 лет",
+              "priority": 5
+            },
+            {
+              "label": "От 12 лет",
+              "priority": 6
+            },
+            {
+              "label": "От 14 лет",
+              "priority": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-toys-transport-cars",
+      "label": "Транспорт, машинки",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип игрушки",
+          "name": "kids-toys-transport-cars-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип игрушки"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Машины",
+              "priority": 1
+            },
+            {
+              "label": "Треки и парковки",
+              "priority": 2
+            },
+            {
+              "label": "Самолеты и вертолеты",
+              "priority": 3
+            },
+            {
+              "label": "Водный транспорт",
+              "priority": 4
+            },
+            {
+              "label": "Военная техника",
+              "priority": 5
+            },
+            {
+              "label": "Спецтехника",
+              "priority": 6
+            },
+            {
+              "label": "Космические корабли",
+              "priority": 7
+            },
+            {
+              "label": "Мотоциклы",
+              "priority": 8
+            },
+            {
+              "label": "Другое",
+              "priority": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-toys-weapons",
+      "label": "Детское оружие",
+      "priority": 9,
+      "parameters": [
+        {
+          "label": "Тип игрушки",
+          "name": "kids-toys-weapons-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип игрушки"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Автоматы, винтовки",
+              "priority": 1
+            },
+            {
+              "label": "Арбалеты и луки",
+              "priority": 2
+            },
+            {
+              "label": "Бластеры",
+              "priority": 3
+            },
+            {
+              "label": "Водяное оружие",
+              "priority": 4
+            },
+            {
+              "label": "Мечи и сабли",
+              "priority": 5
+            },
+            {
+              "label": "Пистолеты",
+              "priority": 6
+            },
+            {
+              "label": "Рогатки",
+              "priority": 7
+            },
+            {
+              "label": "Игрушечные пульки и пистоны",
+              "priority": 8
+            },
+            {
+              "label": "Другое",
+              "priority": 9
+            }
+          ]
+        },
+        {
+          "label": "Возраст",
+          "name": "kids-toys-weapons-age",
+          "priority": 21,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите возраст"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "От 3 лет",
+              "priority": 3
+            },
+            {
+              "label": "От 4 лет",
+              "priority": 4
+            },
+            {
+              "label": "От 5 лет",
+              "priority": 5
+            },
+            {
+              "label": "От 6 лет",
+              "priority": 6
+            },
+            {
+              "label": "От 7 лет",
+              "priority": 7
+            },
+            {
+              "label": "От 8 лет",
+              "priority": 8
+            },
+            {
+              "label": "От 9 лет",
+              "priority": 9
+            },
+            {
+              "label": "От 12 лет",
+              "priority": 10
+            },
+            {
+              "label": "От 14 лет",
+              "priority": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-toys-railways",
+      "label": "Железные дороги",
+      "priority": 10,
+      "parameters": [
+        {
+          "label": "Тип игрушки",
+          "name": "kids-toys-railways-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип игрушки"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Железная дорога",
+              "priority": 1
+            },
+            {
+              "label": "Паровоз",
+              "priority": 2
+            },
+            {
+              "label": "Вагон",
+              "priority": 3
+            },
+            {
+              "label": "Рельсы",
+              "priority": 4
+            },
+            {
+              "label": "Дополнительный элемент",
+              "priority": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-toys-figures",
+      "label": "Фигурки",
+      "priority": 11,
+      "parameters": [
+        {
+          "label": "Тип игрушки",
+          "name": "kids-toys-figures-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип игрушки"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Герои мультфильмов и сказок",
+              "priority": 1
+            },
+            {
+              "label": "Эльфы и феи",
+              "priority": 2
+            },
+            {
+              "label": "Дома и аксессуары для фигурок",
+              "priority": 3
+            },
+            {
+              "label": "Трансформеры",
+              "priority": 4
+            },
+            {
+              "label": "Животные",
+              "priority": 5
+            },
+            {
+              "label": "Динозавры",
+              "priority": 6
+            },
+            {
+              "label": "Персонажи игр",
+              "priority": 7
+            },
+            {
+              "label": "Солдатики",
+              "priority": 8
+            },
+            {
+              "label": "Другое",
+              "priority": 9
+            }
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "kids-toys-figures-sex",
+          "priority": 21,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите пол ребенка"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Для мальчиков",
+              "priority": 1
+            },
+            {
+              "label": "Для девочек",
+              "priority": 2
+            },
+            {
+              "label": "Для мальчиков и девочек",
+              "priority": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-toys-for-entertainment",
+      "label": "Развлекательные игрушки",
+      "priority": 12
+    },
+    {
+      "url": "kids-toys-for-outdoor",
+      "label": "Игры на открытом воздухе",
+      "priority": 13
+    },
+    {
+      "url": "kids-toys-music-instruments",
+      "label": "Музыкальные инструменты",
+      "priority": 14
+    },
+    {
+      "url": "kids-toys-board-games",
+      "label": "Настольные игры",
+      "priority": 15
+    },
+    {
+      "url": "kids-toys-for-creativity",
+      "label": "Наборы для творчества",
+      "priority": 16
+    },
+    {
+      "url": "kids-toys-educational",
+      "label": "Развивающие и обучающие",
+      "priority": 17
+    },
+    {
+      "url": "kids-toys-other",
+      "label": "Разное",
+      "priority": 18
+    }
+  ],
+  "parameters": [
+    {
+      "label": "Состояние товара",
+      "name": "kids-toys-condition",
+      "priority": 30,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите состояние товара"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 30,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}

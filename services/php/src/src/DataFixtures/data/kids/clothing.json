@@ -1,0 +1,884 @@
+{
+  "label": "Детская одежда",
+  "url": "kids-clothing",
+  "priority": 1,
+  "children": [
+    {
+      "url": "kids-clothing-girls",
+      "label": "Одежда для девочек",
+      "priority": 1,
+      "children": [
+        {
+          "url": "kids-clothing-girls-linen-socks-tights",
+          "label": "Белье, носки, колготки",
+          "priority": 1
+        },
+        {
+          "url": "kids-clothing-girls-blouses-tunics",
+          "label": "Блузки, туники",
+          "priority": 2
+        },
+        {
+          "url": "kids-clothing-girls-pants",
+          "label": "Брюки",
+          "priority": 3
+        },
+        {
+          "url": "kids-clothing-girls-turtlenecks-longslives",
+          "label": "Водолазки, лонгсливы",
+          "priority": 4
+        },
+        {
+          "url": "kids-clothing-girls-jeans",
+          "label": "Джинсы",
+          "priority": 5
+        },
+        {
+          "url": "kids-clothing-girls-fur-coats",
+          "label": "Дубленки, шубы",
+          "priority": 6
+        },
+        {
+          "url": "kids-clothing-girls-carnival-costumes",
+          "label": "Карнавальные костюмы",
+          "priority": 7
+        },
+        {
+          "url": "kids-clothing-girls-overalls",
+          "label": "Комбинезоны",
+          "priority": 8
+        },
+        {
+          "url": "kids-clothing-girls-costumes-sets",
+          "label": "Костюмы, комплекты",
+          "priority": 9
+        },
+        {
+          "url": "kids-clothing-girls-sweatshirts-jackets",
+          "label": "Кофты, жакеты",
+          "priority": 10
+        },
+        {
+          "url": "kids-clothing-girls-swimsuits",
+          "label": "Купальники",
+          "priority": 11
+        },
+        {
+          "url": "kids-clothing-girls-jackets",
+          "label": "Куртки",
+          "priority": 12
+        },
+        {
+          "url": "kids-clothing-girls-coats-capes",
+          "label": "Пальто, накидки",
+          "priority": 13
+        },
+        {
+          "url": "kids-clothing-girls-pajamas",
+          "label": "Пижамы",
+          "priority": 14
+        },
+        {
+          "url": "kids-clothing-girls-dresses",
+          "label": "Платья",
+          "priority": 15
+        },
+        {
+          "url": "kids-clothing-girls-planers-trenchcoats",
+          "label": "Плащи, тренчкоты",
+          "priority": 16
+        },
+        {
+          "url": "kids-clothing-girls-pullovers-jumpers",
+          "label": "Пуловеры, джемперы",
+          "priority": 17
+        },
+        {
+          "url": "kids-clothing-girls-down-jackets",
+          "label": "Пуховики",
+          "priority": 18
+        },
+        {
+          "url": "kids-clothing-girls-sweetshots-sweatshirts",
+          "label": "Свитшоты, толстовки",
+          "priority": 19
+        },
+        {
+          "url": "kids-clothing-girls-traksuits",
+          "label": "Спортивные костюмы",
+          "priority": 20
+        },
+        {
+          "url": "kids-clothing-girls-tops",
+          "label": "Топы",
+          "priority": 21
+        },
+        {
+          "url": "kids-clothing-girls-t-shirts",
+          "label": "Футболки",
+          "priority": 22
+        },
+        {
+          "url": "kids-clothing-girls-caps-mittens-scarves",
+          "label": "Шапки, варежки, шарфы",
+          "priority": 23
+        },
+        {
+          "url": "kids-clothing-girls-shorts-bermudas",
+          "label": "Шорты, бермуды",
+          "priority": 24
+        },
+        {
+          "url": "kids-clothing-girls-skirts",
+          "label": "Юбки",
+          "priority": 25
+        },
+        {
+          "url": "kids-clothing-girls-other",
+          "label": "другое",
+          "priority": 26
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Возраст ребенка",
+          "name": "kids-clothing-girls-age",
+          "priority": 40,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите возраст"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 40,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "1-2 года",
+              "priority": 1
+            },
+            {
+              "label": "3-4 года",
+              "priority": 2
+            },
+            {
+              "label": "5-6 лет",
+              "priority": 3
+            },
+            {
+              "label": "7-8 лет",
+              "priority": 4
+            },
+            {
+              "label": "9-10 лет",
+              "priority": 5
+            },
+            {
+              "label": "11-12 лет",
+              "priority": 6
+            },
+            {
+              "label": "13-14 лет",
+              "priority": 7
+            },
+            {
+              "label": "Больше 14 лет",
+              "priority": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-clothing-boys",
+      "label": "Одежда для мальчиков",
+      "priority": 2,
+      "children": [
+        {
+          "url": "kids-clothing-boys-underwear-pajamas",
+          "label": "Белье, пижамы",
+          "priority": 1
+        },
+        {
+          "url": "kids-clothing-boys-pants",
+          "label": "Брюки",
+          "priority": 2
+        },
+        {
+          "url": "kids-clothing-boys-turtlenecks-longsleeves",
+          "label": "Водолазки, лонгсливы",
+          "priority": 3
+        },
+        {
+          "url": "kids-clothing-boys-jeans",
+          "label": "Джинсы",
+          "priority": 4
+        },
+        {
+          "url": "kids-clothing-boys-sheepskin-coats",
+          "label": "Дубленки",
+          "priority": 5
+        },
+        {
+          "url": "kids-clothing-boys-waistcoats",
+          "label": "Жилеты",
+          "priority": 6
+        },
+        {
+          "url": "kids-clothing-boys-carnival-costumes",
+          "label": "Карнавальные костюмы",
+          "priority": 7
+        },
+        {
+          "url": "kids-clothing-boys-suits",
+          "label": "Костюмы",
+          "priority": 8
+        },
+        {
+          "url": "kids-clothing-boys-overalls",
+          "label": "Комбинезоны",
+          "priority": 9
+        },
+        {
+          "url": "kids-clothing-boys-sweaters",
+          "label": "Кофты",
+          "priority": 10
+        },
+        {
+          "url": "kids-clothing-boys-jackets",
+          "label": "Куртки",
+          "priority": 11
+        },
+        {
+          "url": "kids-clothing-boys-socks-tights",
+          "label": "Носки, колготки",
+          "priority": 12
+        },
+        {
+          "url": "kids-clothing-boys-coats",
+          "label": "Пальто",
+          "priority": 13
+        },
+        {
+          "url": "kids-clothing-boys-swim-shorts",
+          "label": "Плавки",
+          "priority": 14
+        },
+        {
+          "url": "kids-clothing-boys-pullovers-jumpers",
+          "label": "Пуловеры, джемперы",
+          "priority": 15
+        },
+        {
+          "url": "kids-clothing-boys-down-jackets",
+          "label": "Пуховики",
+          "priority": 16
+        },
+        {
+          "url": "kids-clothing-boys-shirts",
+          "label": "Рубашки",
+          "priority": 17
+        },
+        {
+          "url": "kids-clothing-boys-sweetshots-sweatshirts",
+          "label": "Свитшоты, толстовки",
+          "priority": 18
+        },
+        {
+          "url": "kids-clothing-boys-tracksuits",
+          "label": "Спортивные костюмы",
+          "priority": 19
+        },
+        {
+          "url": "kids-clothing-boys-t-shirts",
+          "label": "Футболки",
+          "priority": 20
+        },
+        {
+          "url": "kids-clothing-boys-shorts-bermudas",
+          "label": "Шорты, бермуды",
+          "priority": 21
+        },
+        {
+          "url": "kids-clothing-boys-caps-mittens-scarves",
+          "label": "Шапки, варежки, шарфы",
+          "priority": 22
+        },
+        {
+          "url": "kids-clothing-boys-other",
+          "label": "другое",
+          "priority": 23
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Возраст ребенка",
+          "name": "kids-clothing-boys-age",
+          "priority": 40,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите возраст ребенка"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 40,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "1-2 года",
+              "priority": 1
+            },
+            {
+              "label": "3-4 года",
+              "priority": 2
+            },
+            {
+              "label": "5-6 лет",
+              "priority": 3
+            },
+            {
+              "label": "7-8 лет",
+              "priority": 4
+            },
+            {
+              "label": "9-10 лет",
+              "priority": 5
+            },
+            {
+              "label": "11-12 лет",
+              "priority": 6
+            },
+            {
+              "label": "13-14 лет",
+              "priority": 7
+            },
+            {
+              "label": "Больше 14 лет",
+              "priority": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-clothing-newborn",
+      "label": "Одежда для новорожденных (до 1 года)",
+      "priority": 3,
+      "children": [
+        {
+          "url": "kids-clothing-newborn-underwear-swimsuits",
+          "label": "Белье, купальники",
+          "priority": 1
+        },
+        {
+          "url": "kids-clothing-newborn-bodies",
+          "label": "Боди, песочники",
+          "priority": 2
+        },
+        {
+          "url": "kids-clothing-newborn-pants",
+          "label": "Брюки",
+          "priority": 3
+        },
+        {
+          "url": "kids-clothing-newborn-outerwear",
+          "label": "Верхняя одежда",
+          "priority": 4
+        },
+        {
+          "url": "kids-clothing-newborn-envelopes",
+          "label": "Конверты",
+          "priority": 5
+        },
+        {
+          "url": "kids-clothing-newborn-sets",
+          "label": "Комплекты и костюмчики",
+          "priority": 6
+        },
+        {
+          "url": "kids-clothing-newborn-sweatshirts-sweaters",
+          "label": "Кофты, свитера",
+          "priority": 7
+        },
+        {
+          "url": "kids-clothing-newborn-socks-tights",
+          "label": "Носки, колготки",
+          "priority": 8
+        },
+        {
+          "url": "kids-clothing-newborn-homewear",
+          "label": "Одежда для дома",
+          "priority": 9
+        },
+        {
+          "url": "kids-clothing-newborn-dresses-skirts",
+          "label": "Платья, юбки",
+          "priority": 10
+        },
+        {
+          "url": "kids-clothing-newborn-sliders-ruffles",
+          "label": "Ползунки, распашонки",
+          "priority": 11
+        },
+        {
+          "url": "kids-clothing-newborn-diapers-blankets",
+          "label": "Пеленки, одеяла",
+          "priority": 12
+        },
+        {
+          "url": "kids-clothing-newborn-t-shirts",
+          "label": "Футболки, рубашки",
+          "priority": 13
+        },
+        {
+          "url": "kids-clothing-newborn-shorts",
+          "label": "Шорты",
+          "priority": 14
+        },
+        {
+          "url": "kids-clothing-newborn-hats-gloves-mittens",
+          "label": "Шапочки, руковички, варежки",
+          "priority": 15
+        },
+        {
+          "url": "kids-clothing-newborn-accessories",
+          "label": "Аксессуары",
+          "priority": 16
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Возраст",
+          "name": "kids-clothing-newborn-age",
+          "priority": 40,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите возраст ребенка"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 40,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "0-3 мес.",
+              "priority": 1
+            },
+            {
+              "label": "3-6 мес.",
+              "priority": 2
+            },
+            {
+              "label": "6-9 мес.",
+              "priority": 3
+            },
+            {
+              "label": "9-12 мес.",
+              "priority": 4
+            },
+            {
+              "label": "12-18 мес.",
+              "priority": 5
+            },
+            {
+              "label": "18-24 мес.",
+              "priority": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-clothing-girl-shoes",
+      "label": "Обувь для девочек",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип обуви",
+          "name": "kids-clothing-girl-shoes-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип обуви"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Балетки",
+              "priority": 1
+            },
+            {
+              "label": "Валенки, угги",
+              "priority": 2
+            },
+            {
+              "label": "Мокасины",
+              "priority": 3
+            },
+            {
+              "label": "Роликовые кроссовки",
+              "priority": 4
+            },
+            {
+              "label": "Ботинки",
+              "priority": 5
+            },
+            {
+              "label": "Кеды",
+              "priority": 6
+            },
+            {
+              "label": "Кроссовки",
+              "priority": 7
+            },
+            {
+              "label": "Босоножки, сандалии",
+              "priority": 8
+            },
+            {
+              "label": "Сапоги",
+              "priority": 9
+            },
+            {
+              "label": "Тапочки",
+              "priority": 10
+            },
+            {
+              "label": "Туфли",
+              "priority": 11
+            },
+            {
+              "label": "Шлепанцы",
+              "priority": 12
+            },
+            {
+              "label": "другое",
+              "priority": 13
+            }
+          ]
+        },
+        {
+          "label": "Размер",
+          "name": "kids-clothing-girl-shoes-size",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите размер обуви"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "меньше 20",
+              "priority": 1
+            },
+            {
+              "label": "20-21",
+              "priority": 2
+            },
+            {
+              "label": "22-22,5",
+              "priority": 3
+            },
+            {
+              "label": "23-24",
+              "priority": 4
+            },
+            {
+              "label": "25-25,5",
+              "priority": 5
+            },
+            {
+              "label": "26-27",
+              "priority": 6
+            },
+            {
+              "label": "28-28,5",
+              "priority": 7
+            },
+            {
+              "label": "29-30",
+              "priority": 8
+            },
+            {
+              "label": "31-31,5",
+              "priority": 9
+            },
+            {
+              "label": "32-33",
+              "priority": 10
+            },
+            {
+              "label": "34-34,5",
+              "priority": 11
+            },
+            {
+              "label": "35-36",
+              "priority": 12
+            },
+            {
+              "label": "больше 36",
+              "priority": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-clothing-boys-shoes",
+      "label": "Обувь для мальчиков",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип обуви",
+          "name": "kids-clothing-boys-shoes-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип обуви"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Ботинки",
+              "priority": 1
+            },
+            {
+              "label": "Валенки, угги",
+              "priority": 2
+            },
+            {
+              "label": "Мокасины",
+              "priority": 3
+            },
+            {
+              "label": "Роликовые кроссовки",
+              "priority": 4
+            },
+            {
+              "label": "Тапочки",
+              "priority": 5
+            },
+            {
+              "label": "Кеды",
+              "priority": 6
+            },
+            {
+              "label": "Кроссовки",
+              "priority": 7
+            },
+            {
+              "label": "Сандалии",
+              "priority": 8
+            },
+            {
+              "label": "Сапоги",
+              "priority": 9
+            },
+            {
+              "label": "Туфли",
+              "priority": 10
+            },
+            {
+              "label": "Шлепанцы",
+              "priority": 11
+            },
+            {
+              "label": "другое",
+              "priority": 12
+            }
+          ]
+        },
+        {
+          "label": "Размер",
+          "name": "kids-clothing-boys-shoes-size",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите размер обуви"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "меньше 20",
+              "priority": 1
+            },
+            {
+              "label": "20-21",
+              "priority": 2
+            },
+            {
+              "label": "22-22,5",
+              "priority": 3
+            },
+            {
+              "label": "23-24",
+              "priority": 4
+            },
+            {
+              "label": "25-25,5",
+              "priority": 5
+            },
+            {
+              "label": "26-27",
+              "priority": 6
+            },
+            {
+              "label": "28-28,5",
+              "priority": 7
+            },
+            {
+              "label": "29-30",
+              "priority": 8
+            },
+            {
+              "label": "31-31,5",
+              "priority": 9
+            },
+            {
+              "label": "32-33",
+              "priority": 10
+            },
+            {
+              "label": "34-34,5",
+              "priority": 11
+            },
+            {
+              "label": "35-36",
+              "priority": 12
+            },
+            {
+              "label": "больше 36",
+              "priority": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-clothing-newborn-shoes",
+      "label": "Обувь для новорожденных (до 1 года)",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип обуви",
+          "name": "kids-clothing-newborn-shoes-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип обуви"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Ботиночки",
+              "priority": 1
+            },
+            {
+              "label": "Пинетки",
+              "priority": 2
+            },
+            {
+              "label": "Сандалии",
+              "priority": 3
+            },
+            {
+              "label": "Туфельки",
+              "priority": 4
+            },
+            {
+              "label": "другое",
+              "priority": 5
+            }
+          ]
+        },
+        {
+          "label": "Размер",
+          "name": "kids-clothing-newborn-shoes-size",
+          "priority": 12,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите размер обуви"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_priority": true,
+          "options": [
+            {
+              "label": "16-17 (3-6 мес.)",
+              "priority": 1
+            },
+            {
+              "label": "18-19 (6-9 мес.)",
+              "priority": 2
+            },
+            {
+              "label": "19,5-20 (9-12 мес.)",
+              "priority": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "label": "Состояние товара",
+      "name": "kids-clothing-condition",
+      "priority": 30,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите состояние товара"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 30,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}

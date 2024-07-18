@@ -1,0 +1,509 @@
+{
+  "label": "Техника для дома",
+  "url": "appliances-home",
+  "priority": 4,
+  "children": [
+    {
+      "label": "Стиральные машины",
+      "url": "appliances-home-washing-machines",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-home-washing-machines-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Автомат", "priority": 1},
+            {"label": "Полуавтомат", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-home-washing-machines-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Artel", "priority": 1},
+            {"label": "ATLANT", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Blesk", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Candy", "priority": 1},
+            {"label": "Daewoo", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Hansa", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Indesit", "priority": 1},
+            {"label": "LG", "priority": 1},
+            {"label": "Renova", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Sharp", "priority": 1},
+            {"label": "Shivaki", "priority": 1},
+            {"label": "Siemens", "priority": 1},
+            {"label": "Snowcap", "priority": 1},
+            {"label": "Vestel", "priority": 1},
+            {"label": "Whirlpool", "priority": 1},
+            {"label": "Zanussi", "priority": 1},
+            {"label": "Zerowatt", "priority": 1},
+            {"label": "Славда", "priority": 1},
+            {"label": "Фея", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Сушка",
+          "name": "drying",
+          "priority": 22,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {"label": "С сушкой", "priority": 1},
+            {"label": "Без сушки", "priority": 1}
+          ]
+        },
+        {
+          "label": "Установка",
+          "name": "appliances-home-washing-machines-installment",
+          "priority": 23,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 33,
+          "options": [
+            {"label": "встраиваемая", "priority": 1},
+            {"label": "отдельно стоящая", "priority": 1},
+            {"label": "под раковину", "priority": 1}
+          ]
+        },
+        {
+          "label": "Загрузка белья",
+          "name": "appliances-home-washing-machines-maxload",
+          "priority": 24,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Загрузка белья - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "кг",
+          "search_form": "range",
+          "search_priority": 34
+        },
+        {
+          "label": "Скорость отжима",
+          "name": "spin speed",
+          "priority": 25,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Скорость отжима - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "об/мин",
+          "search_form": "range",
+          "search_priority": 35
+        },
+        {
+          "label": "Ширина",
+          "name": "appliances-home-washing-machines-width",
+          "priority": 26,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Ширина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 36
+        },
+        {
+          "label": "Высота",
+          "name": "appliances-home-washing-machines-height",
+          "priority": 27,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Высота - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 37
+        },
+        {
+          "label": "Глубина",
+          "name": "appliances-home-washing-machines-depth",
+          "priority": 28,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Глубина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 38
+        }
+      ]
+    },
+    {
+      "label": "Сушильные машины",
+      "url": "appliances-home-dryers",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "appliances-home-dryers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AEG", "priority": 1},
+            {"label": "Asko", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Hoover", "priority": 1},
+            {"label": "Hotpoint-Ariston", "priority": 1},
+            {"label": "Kuppersbusch", "priority": 1},
+            {"label": "LG", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Siemens", "priority": 1},
+            {"label": "Whirlpool", "priority": 1},
+            {"label": "Zanussi", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Загрузка белья",
+          "name": "appliances-home-dryers-maxload",
+          "priority": 24,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Загрузка белья - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "кг",
+          "search_form": "range",
+          "search_priority": 34
+        },
+        {
+          "label": "Ширина",
+          "name": "appliances-home-dryers-width",
+          "priority": 26,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Ширина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 36
+        },
+        {
+          "label": "Высота",
+          "name": "appliances-home-dryers-height",
+          "priority": 27,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Высота - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 37
+        },
+        {
+          "label": "Глубина",
+          "name": "appliances-home-dryers-depth",
+          "priority": 28,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Глубина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 38
+        }
+      ]
+    },
+    {
+      "label": "Пылесосы",
+      "url": "appliances-home-vacuum-cleaners",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-home-vacuum-cleaners-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "обычный", "priority": 1},
+            {"label": "ручной", "priority": 1},
+            {"label": "вертикальный + ручной", "priority": 1},
+            {"label": "робот", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-home-vacuum-cleaners-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Arnica", "priority": 1},
+            {"label": "Artel", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Black Decker", "priority": 1},
+            {"label": "Bork", "priority": 1},
+            {"label": "Bort", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "BRADEX", "priority": 1},
+            {"label": "Clever & Clean", "priority": 1},
+            {"label": "Daewoo", "priority": 1},
+            {"label": "Ecovacs", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Fakir", "priority": 1},
+            {"label": "Galaxy", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Grundig", "priority": 1},
+            {"label": "Gutrend", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Hyundai", "priority": 1},
+            {"label": "Karcher", "priority": 1},
+            {"label": "Kolner", "priority": 1},
+            {"label": "LG", "priority": 1},
+            {"label": "Maxima", "priority": 1},
+            {"label": "MIDEA", "priority": 1},
+            {"label": "Morphy Richards", "priority": 1},
+            {"label": "Mystery", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Rowenta", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "SHIVAKI", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Soteco", "priority": 1},
+            {"label": "Stihl", "priority": 1},
+            {"label": "Tefa", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Thomas", "priority": 1},
+            {"label": "Trisa", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "VR", "priority": 1},
+            {"label": "Wester", "priority": 1},
+            {"label": "Xiaomi", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Тип уборки",
+          "name": "cleaning type",
+          "priority": 22,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {"label": "Сухая", "priority": 1},
+            {"label": "Сухая и влажная", "priority": 1}
+          ]
+        },
+        {
+          "label": "Мощность всасывания",
+          "name": "suction",
+          "priority": 24,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Мощность всасывания - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "Вт",
+          "search_form": "range",
+          "search_priority": 34
+        }
+      ]
+    },
+    {
+      "label": "Утюги",
+      "url": "appliances-home-irons",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "appliances-home-irons-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Artel", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "BORK", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Braun", "priority": 1},
+            {"label": "Django", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Fakir", "priority": 1},
+            {"label": "Galaxy", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Marta", "priority": 1},
+            {"label": "MIE", "priority": 1},
+            {"label": "Maxima", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Rowenta", "priority": 1},
+            {"label": "Russell Hobbs", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "SUPRA", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "VLK", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Гладильные доски",
+      "url": "appliances-home-ironing-boards",
+      "priority": 5
+    },
+    {
+      "label": "Пароочистители и отпариватели",
+      "url": "appliances-home-steam-cleaners-steamers",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-home-steam-cleaners-steamers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "отпариватель", "priority": 1},
+            {"label": "паровая швабра", "priority": 1},
+            {"label": "пароочиститель", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-home-steam-cleaners-steamers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "BBK", "priority": 1},
+            {"label": "Black Decker", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Euroflex", "priority": 1},
+            {"label": "Galaxy", "priority": 1},
+            {"label": "Grand Master", "priority": 1},
+            {"label": "Kitfort", "priority": 1},
+            {"label": "MIE", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Rowenta", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "SUPRA", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Швейное оборудование",
+      "url": "appliances-home-sewing-equipment",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-home-sewing-equipment-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Швейные машины", "priority": 1},
+            {"label": "Аксессуары для швейного оборудования", "priority": 1},
+            {"label": "Оверлоки и распошивальные машины", "priority": 1},
+            {"label": "Вышивальные машины", "priority": 1},
+            {"label": "Вязальные машины", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Прочая техника для дома",
+      "url": "appliances-home-other",
+      "priority": 8
+    }
+  ]
+}

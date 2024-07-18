@@ -1,0 +1,4196 @@
+{
+  "name": "auto-commercial-trucks",
+  "url": "auto-commercial-trucks",
+  "priority": 2,
+  "label": "Грузовые",
+  "children": [
+    {
+      "label": "Altkam",
+      "name": "auto-commercial-trucks-altkam",
+      "url": "auto-commercial-trucks-altkam",
+      "children": [
+        {
+          "label": "5443",
+          "name": "auto-commercial-trucks-altkam-5443",
+          "url": "auto-commercial-trucks-altkam-5443"
+        },
+        {
+          "label": "6491",
+          "name": "auto-commercial-trucks-altkam-6491",
+          "url": "auto-commercial-trucks-altkam-6491"
+        },
+        {
+          "label": "6550",
+          "name": "auto-commercial-trucks-altkam-6550",
+          "url": "auto-commercial-trucks-altkam-6550"
+        }
+      ]
+    },
+    {
+      "label": "ASTRA",
+      "name": "auto-commercial-trucks-astra",
+      "url": "auto-commercial-trucks-astra",
+      "children": [
+        {
+          "label": "HD7 Serie",
+          "name": "auto-commercial-trucks-astra-hd7_serie",
+          "url": "auto-commercial-trucks-astra-hd7_serie"
+        },
+        {
+          "label": "HD8 Serie",
+          "name": "auto-commercial-trucks-astra-hd8_serie",
+          "url": "auto-commercial-trucks-astra-hd8_serie"
+        },
+        {
+          "label": "HD9 Serie",
+          "name": "auto-commercial-trucks-astra-hd9_serie",
+          "url": "auto-commercial-trucks-astra-hd9_serie"
+        }
+      ]
+    },
+    {
+      "label": "Avia",
+      "name": "auto-commercial-trucks-avia",
+      "url": "auto-commercial-trucks-avia",
+      "children": [
+        {
+          "label": "A21",
+          "name": "auto-commercial-trucks-avia-a21",
+          "url": "auto-commercial-trucks-avia-a21"
+        },
+        {
+          "label": "A31",
+          "name": "auto-commercial-trucks-avia-a31",
+          "url": "auto-commercial-trucks-avia-a31"
+        },
+        {
+          "label": "A60",
+          "name": "auto-commercial-trucks-avia-a60",
+          "url": "auto-commercial-trucks-avia-a60"
+        },
+        {
+          "label": "A65",
+          "name": "auto-commercial-trucks-avia-a65",
+          "url": "auto-commercial-trucks-avia-a65"
+        },
+        {
+          "label": "A75",
+          "name": "auto-commercial-trucks-avia-a75",
+          "url": "auto-commercial-trucks-avia-a75"
+        },
+        {
+          "label": "A80",
+          "name": "auto-commercial-trucks-avia-a80",
+          "url": "auto-commercial-trucks-avia-a80"
+        },
+        {
+          "label": "AD100",
+          "name": "auto-commercial-trucks-avia-ad100",
+          "url": "auto-commercial-trucks-avia-ad100"
+        },
+        {
+          "label": "D - Series",
+          "name": "auto-commercial-trucks-avia-d_-_series",
+          "url": "auto-commercial-trucks-avia-d_-_series"
+        }
+      ]
+    },
+    {
+      "label": "BAW",
+      "name": "auto-commercial-trucks-baw",
+      "url": "auto-commercial-trucks-baw",
+      "children": [
+        {
+          "label": "Fenix",
+          "name": "auto-commercial-trucks-baw-fenix",
+          "url": "auto-commercial-trucks-baw-fenix"
+        }
+      ]
+    },
+    {
+      "label": "Beifan",
+      "name": "auto-commercial-trucks-beifan",
+      "url": "auto-commercial-trucks-beifan",
+      "children": [
+        {
+          "label": "ND3250",
+          "name": "auto-commercial-trucks-beifan-nd3250",
+          "url": "auto-commercial-trucks-beifan-nd3250"
+        }
+      ]
+    },
+    {
+      "label": "BMC",
+      "name": "auto-commercial-trucks-bmc",
+      "url": "auto-commercial-trucks-bmc",
+      "children": [
+        {
+          "label": "Fatih",
+          "name": "auto-commercial-trucks-bmc-fatih",
+          "url": "auto-commercial-trucks-bmc-fatih"
+        },
+        {
+          "label": "Pro-518",
+          "name": "auto-commercial-trucks-bmc-pro-518",
+          "url": "auto-commercial-trucks-bmc-pro-518"
+        },
+        {
+          "label": "Pro-617",
+          "name": "auto-commercial-trucks-bmc-pro-617",
+          "url": "auto-commercial-trucks-bmc-pro-617"
+        },
+        {
+          "label": "Pro-620",
+          "name": "auto-commercial-trucks-bmc-pro-620",
+          "url": "auto-commercial-trucks-bmc-pro-620"
+        },
+        {
+          "label": "Pro-622",
+          "name": "auto-commercial-trucks-bmc-pro-622",
+          "url": "auto-commercial-trucks-bmc-pro-622"
+        },
+        {
+          "label": "Pro-625",
+          "name": "auto-commercial-trucks-bmc-pro-625",
+          "url": "auto-commercial-trucks-bmc-pro-625"
+        },
+        {
+          "label": "Pro-628",
+          "name": "auto-commercial-trucks-bmc-pro-628",
+          "url": "auto-commercial-trucks-bmc-pro-628"
+        },
+        {
+          "label": "Pro-822",
+          "name": "auto-commercial-trucks-bmc-pro-822",
+          "url": "auto-commercial-trucks-bmc-pro-822"
+        },
+        {
+          "label": "Pro-827",
+          "name": "auto-commercial-trucks-bmc-pro-827",
+          "url": "auto-commercial-trucks-bmc-pro-827"
+        },
+        {
+          "label": "Pro-832",
+          "name": "auto-commercial-trucks-bmc-pro-832",
+          "url": "auto-commercial-trucks-bmc-pro-832"
+        },
+        {
+          "label": "Pro-935",
+          "name": "auto-commercial-trucks-bmc-pro-935",
+          "url": "auto-commercial-trucks-bmc-pro-935"
+        }
+      ]
+    },
+    {
+      "label": "CAMC",
+      "name": "auto-commercial-trucks-camc",
+      "url": "auto-commercial-trucks-camc",
+      "children": [
+        {
+          "label": "HN3250P34C6M",
+          "name": "auto-commercial-trucks-camc-hn3250p34c6m",
+          "url": "auto-commercial-trucks-camc-hn3250p34c6m"
+        },
+        {
+          "label": "HN3310P38C3M",
+          "name": "auto-commercial-trucks-camc-hn3310p38c3m",
+          "url": "auto-commercial-trucks-camc-hn3310p38c3m"
+        }
+      ]
+    },
+    {
+      "label": "Chevrolet",
+      "name": "auto-commercial-trucks-chevrolet",
+      "url": "auto-commercial-trucks-chevrolet",
+      "children": [
+        {
+          "label": "Kodiak",
+          "name": "auto-commercial-trucks-chevrolet-kodiak",
+          "url": "auto-commercial-trucks-chevrolet-kodiak"
+        },
+        {
+          "label": "T-Series",
+          "name": "auto-commercial-trucks-chevrolet-t-series",
+          "url": "auto-commercial-trucks-chevrolet-t-series"
+        },
+        {
+          "label": "W-Series",
+          "name": "auto-commercial-trucks-chevrolet-w-series",
+          "url": "auto-commercial-trucks-chevrolet-w-series"
+        }
+      ]
+    },
+    {
+      "label": "Daewoo",
+      "name": "auto-commercial-trucks-daewoo",
+      "url": "auto-commercial-trucks-daewoo",
+      "children": [
+        {
+          "label": "Novus",
+          "name": "auto-commercial-trucks-daewoo-novus",
+          "url": "auto-commercial-trucks-daewoo-novus"
+        },
+        {
+          "label": "Prima",
+          "name": "auto-commercial-trucks-daewoo-prima",
+          "url": "auto-commercial-trucks-daewoo-prima"
+        },
+        {
+          "label": "Ultra Novus",
+          "name": "auto-commercial-trucks-daewoo-ultra_novus",
+          "url": "auto-commercial-trucks-daewoo-ultra_novus"
+        }
+      ]
+    },
+    {
+      "label": "DAF",
+      "name": "auto-commercial-trucks-daf",
+      "url": "auto-commercial-trucks-daf",
+      "children": [
+        {
+          "label": "CF 65",
+          "name": "auto-commercial-trucks-daf-cf_65",
+          "url": "auto-commercial-trucks-daf-cf_65"
+        },
+        {
+          "label": "CF 75",
+          "name": "auto-commercial-trucks-daf-cf_75",
+          "url": "auto-commercial-trucks-daf-cf_75"
+        },
+        {
+          "label": "CF 85",
+          "name": "auto-commercial-trucks-daf-cf_85",
+          "url": "auto-commercial-trucks-daf-cf_85"
+        },
+        {
+          "label": "F-series",
+          "name": "auto-commercial-trucks-daf-f-series",
+          "url": "auto-commercial-trucks-daf-f-series"
+        },
+        {
+          "label": "LF 45",
+          "name": "auto-commercial-trucks-daf-lf_45",
+          "url": "auto-commercial-trucks-daf-lf_45"
+        },
+        {
+          "label": "LF 55",
+          "name": "auto-commercial-trucks-daf-lf_55",
+          "url": "auto-commercial-trucks-daf-lf_55"
+        },
+        {
+          "label": "XF 105",
+          "name": "auto-commercial-trucks-daf-xf_105",
+          "url": "auto-commercial-trucks-daf-xf_105"
+        },
+        {
+          "label": "XF 95",
+          "name": "auto-commercial-trucks-daf-xf_95",
+          "url": "auto-commercial-trucks-daf-xf_95"
+        }
+      ]
+    },
+    {
+      "label": "Daihatsu",
+      "name": "auto-commercial-trucks-daihatsu",
+      "url": "auto-commercial-trucks-daihatsu",
+      "children": [
+        {
+          "label": "Delta",
+          "name": "auto-commercial-trucks-daihatsu-delta",
+          "url": "auto-commercial-trucks-daihatsu-delta"
+        }
+      ]
+    },
+    {
+      "label": "Dayun",
+      "name": "auto-commercial-trucks-dayun",
+      "url": "auto-commercial-trucks-dayun",
+      "children": [
+        {
+          "label": "CGC3251",
+          "name": "auto-commercial-trucks-dayun-cgc3251",
+          "url": "auto-commercial-trucks-dayun-cgc3251"
+        },
+        {
+          "label": "CGC3310",
+          "name": "auto-commercial-trucks-dayun-cgc3310",
+          "url": "auto-commercial-trucks-dayun-cgc3310"
+        }
+      ]
+    },
+    {
+      "label": "DongFeng",
+      "name": "auto-commercial-trucks-dongfeng",
+      "url": "auto-commercial-trucks-dongfeng",
+      "children": [
+        {
+          "label": "DFA",
+          "name": "auto-commercial-trucks-dongfeng-dfa",
+          "url": "auto-commercial-trucks-dongfeng-dfa"
+        },
+        {
+          "label": "DFL 3251A",
+          "name": "auto-commercial-trucks-dongfeng-dfl_3251a",
+          "url": "auto-commercial-trucks-dongfeng-dfl_3251a"
+        },
+        {
+          "label": "DFL 3261A",
+          "name": "auto-commercial-trucks-dongfeng-dfl_3261a",
+          "url": "auto-commercial-trucks-dongfeng-dfl_3261a"
+        },
+        {
+          "label": "DFL 3310A",
+          "name": "auto-commercial-trucks-dongfeng-dfl_3310a",
+          "url": "auto-commercial-trucks-dongfeng-dfl_3310a"
+        },
+        {
+          "label": "EQ1061",
+          "name": "auto-commercial-trucks-dongfeng-eq1061",
+          "url": "auto-commercial-trucks-dongfeng-eq1061"
+        },
+        {
+          "label": "EQ1063",
+          "name": "auto-commercial-trucks-dongfeng-eq1063",
+          "url": "auto-commercial-trucks-dongfeng-eq1063"
+        },
+        {
+          "label": "EQ3312GE2",
+          "name": "auto-commercial-trucks-dongfeng-eq3312ge2",
+          "url": "auto-commercial-trucks-dongfeng-eq3312ge2"
+        }
+      ]
+    },
+    {
+      "label": "FAW",
+      "name": "auto-commercial-trucks-faw",
+      "url": "auto-commercial-trucks-faw",
+      "children": [
+        {
+          "label": "10xx/11xx",
+          "name": "auto-commercial-trucks-faw-10xx/11xx",
+          "url": "auto-commercial-trucks-faw-10xx/11xx"
+        },
+        {
+          "label": "J5 CA3252/3253",
+          "name": "auto-commercial-trucks-faw-j5_ca3252/3253",
+          "url": "auto-commercial-trucks-faw-j5_ca3252/3253"
+        },
+        {
+          "label": "J5 CA3312",
+          "name": "auto-commercial-trucks-faw-j5_ca3312",
+          "url": "auto-commercial-trucks-faw-j5_ca3312"
+        },
+        {
+          "label": "J6 CA3250",
+          "name": "auto-commercial-trucks-faw-j6_ca3250",
+          "url": "auto-commercial-trucks-faw-j6_ca3250"
+        },
+        {
+          "label": "J6 CA3310",
+          "name": "auto-commercial-trucks-faw-j6_ca3310",
+          "url": "auto-commercial-trucks-faw-j6_ca3310"
+        }
+      ]
+    },
+    {
+      "label": "Ford",
+      "name": "auto-commercial-trucks-ford",
+      "url": "auto-commercial-trucks-ford",
+      "children": [
+        {
+          "label": "Cargo 18xx",
+          "name": "auto-commercial-trucks-ford-cargo_18xx",
+          "url": "auto-commercial-trucks-ford-cargo_18xx"
+        },
+        {
+          "label": "Cargo 25xx",
+          "name": "auto-commercial-trucks-ford-cargo_25xx",
+          "url": "auto-commercial-trucks-ford-cargo_25xx"
+        },
+        {
+          "label": "Cargo 26xx",
+          "name": "auto-commercial-trucks-ford-cargo_26xx",
+          "url": "auto-commercial-trucks-ford-cargo_26xx"
+        },
+        {
+          "label": "Cargo 32xx",
+          "name": "auto-commercial-trucks-ford-cargo_32xx",
+          "url": "auto-commercial-trucks-ford-cargo_32xx"
+        },
+        {
+          "label": "Cargo 35xx",
+          "name": "auto-commercial-trucks-ford-cargo_35xx",
+          "url": "auto-commercial-trucks-ford-cargo_35xx"
+        },
+        {
+          "label": "Cargo 39xx",
+          "name": "auto-commercial-trucks-ford-cargo_39xx",
+          "url": "auto-commercial-trucks-ford-cargo_39xx"
+        },
+        {
+          "label": "Cargo 41xx",
+          "name": "auto-commercial-trucks-ford-cargo_41xx",
+          "url": "auto-commercial-trucks-ford-cargo_41xx"
+        },
+        {
+          "label": "F-550",
+          "name": "auto-commercial-trucks-ford-f-550",
+          "url": "auto-commercial-trucks-ford-f-550"
+        },
+        {
+          "label": "F-650",
+          "name": "auto-commercial-trucks-ford-f-650",
+          "url": "auto-commercial-trucks-ford-f-650"
+        },
+        {
+          "label": "F-750",
+          "name": "auto-commercial-trucks-ford-f-750",
+          "url": "auto-commercial-trucks-ford-f-750"
+        },
+        {
+          "label": "LCF",
+          "name": "auto-commercial-trucks-ford-lcf",
+          "url": "auto-commercial-trucks-ford-lcf"
+        },
+        {
+          "label": "Transit",
+          "name": "auto-commercial-trucks-ford-transit",
+          "url": "auto-commercial-trucks-ford-transit"
+        }
+      ]
+    },
+    {
+      "label": "Foton",
+      "name": "auto-commercial-trucks-foton",
+      "url": "auto-commercial-trucks-foton",
+      "children": [
+        {
+          "label": "Auman BJ10xx",
+          "name": "auto-commercial-trucks-foton-auman_bj10xx",
+          "url": "auto-commercial-trucks-foton-auman_bj10xx"
+        },
+        {
+          "label": "Auman BJ11xx",
+          "name": "auto-commercial-trucks-foton-auman_bj11xx",
+          "url": "auto-commercial-trucks-foton-auman_bj11xx"
+        },
+        {
+          "label": "Auman BJ12xx",
+          "name": "auto-commercial-trucks-foton-auman_bj12xx",
+          "url": "auto-commercial-trucks-foton-auman_bj12xx"
+        },
+        {
+          "label": "Auman BJ3251",
+          "name": "auto-commercial-trucks-foton-auman_bj3251",
+          "url": "auto-commercial-trucks-foton-auman_bj3251"
+        },
+        {
+          "label": "Auman BJ33xx",
+          "name": "auto-commercial-trucks-foton-auman_bj33xx",
+          "url": "auto-commercial-trucks-foton-auman_bj33xx"
+        },
+        {
+          "label": "Auman BJ5122",
+          "name": "auto-commercial-trucks-foton-auman_bj5122",
+          "url": "auto-commercial-trucks-foton-auman_bj5122"
+        },
+        {
+          "label": "Aumark BJ1049",
+          "name": "auto-commercial-trucks-foton-aumark_bj1049",
+          "url": "auto-commercial-trucks-foton-aumark_bj1049"
+        },
+        {
+          "label": "Aumark BJ1051",
+          "name": "auto-commercial-trucks-foton-aumark_bj1051",
+          "url": "auto-commercial-trucks-foton-aumark_bj1051"
+        },
+        {
+          "label": "Aumark BJ1061",
+          "name": "auto-commercial-trucks-foton-aumark_bj1061",
+          "url": "auto-commercial-trucks-foton-aumark_bj1061"
+        },
+        {
+          "label": "Ollin BJ1049",
+          "name": "auto-commercial-trucks-foton-ollin_bj1049",
+          "url": "auto-commercial-trucks-foton-ollin_bj1049"
+        },
+        {
+          "label": "Ollin BJ1069",
+          "name": "auto-commercial-trucks-foton-ollin_bj1069",
+          "url": "auto-commercial-trucks-foton-ollin_bj1069"
+        },
+        {
+          "label": "Ollin BJ1089",
+          "name": "auto-commercial-trucks-foton-ollin_bj1089",
+          "url": "auto-commercial-trucks-foton-ollin_bj1089"
+        }
+      ]
+    },
+    {
+      "label": "Freightliner",
+      "name": "auto-commercial-trucks-freightliner",
+      "url": "auto-commercial-trucks-freightliner",
+      "children": [
+        {
+          "label": "FL-Series",
+          "name": "auto-commercial-trucks-freightliner-fl-series",
+          "url": "auto-commercial-trucks-freightliner-fl-series"
+        },
+        {
+          "label": "M2-Series",
+          "name": "auto-commercial-trucks-freightliner-m2-series",
+          "url": "auto-commercial-trucks-freightliner-m2-series"
+        }
+      ]
+    },
+    {
+      "label": "GMC",
+      "name": "auto-commercial-trucks-gmc",
+      "url": "auto-commercial-trucks-gmc",
+      "children": [
+        {
+          "label": "T-series",
+          "name": "auto-commercial-trucks-gmc-t-series",
+          "url": "auto-commercial-trucks-gmc-t-series"
+        },
+        {
+          "label": "TopKick C4500",
+          "name": "auto-commercial-trucks-gmc-topkick_c4500",
+          "url": "auto-commercial-trucks-gmc-topkick_c4500"
+        },
+        {
+          "label": "TopKick C5500",
+          "name": "auto-commercial-trucks-gmc-topkick_c5500",
+          "url": "auto-commercial-trucks-gmc-topkick_c5500"
+        },
+        {
+          "label": "TopKick C6500",
+          "name": "auto-commercial-trucks-gmc-topkick_c6500",
+          "url": "auto-commercial-trucks-gmc-topkick_c6500"
+        },
+        {
+          "label": "TopKick C7500",
+          "name": "auto-commercial-trucks-gmc-topkick_c7500",
+          "url": "auto-commercial-trucks-gmc-topkick_c7500"
+        },
+        {
+          "label": "TopKick C8500",
+          "name": "auto-commercial-trucks-gmc-topkick_c8500",
+          "url": "auto-commercial-trucks-gmc-topkick_c8500"
+        },
+        {
+          "label": "W-series",
+          "name": "auto-commercial-trucks-gmc-w-series",
+          "url": "auto-commercial-trucks-gmc-w-series"
+        }
+      ]
+    },
+    {
+      "label": "Hania",
+      "name": "auto-commercial-trucks-hania",
+      "url": "auto-commercial-trucks-hania",
+      "children": [
+        {
+          "label": "6x2",
+          "name": "auto-commercial-trucks-hania-6x2",
+          "url": "auto-commercial-trucks-hania-6x2"
+        },
+        {
+          "label": "6x4",
+          "name": "auto-commercial-trucks-hania-6x4",
+          "url": "auto-commercial-trucks-hania-6x4"
+        },
+        {
+          "label": "8x4",
+          "name": "auto-commercial-trucks-hania-8x4",
+          "url": "auto-commercial-trucks-hania-8x4"
+        }
+      ]
+    },
+    {
+      "label": "Hino",
+      "name": "auto-commercial-trucks-hino",
+      "url": "auto-commercial-trucks-hino",
+      "children": [
+        {
+          "label": "185",
+          "name": "auto-commercial-trucks-hino-185",
+          "url": "auto-commercial-trucks-hino-185"
+        },
+        {
+          "label": "300 (Dutro)",
+          "name": "auto-commercial-trucks-hino-300_dutro",
+          "url": "auto-commercial-trucks-hino-300_dutro"
+        },
+        {
+          "label": "500 (Ranger)",
+          "name": "auto-commercial-trucks-hino-500_ranger",
+          "url": "auto-commercial-trucks-hino-500_ranger"
+        },
+        {
+          "label": "700 (Profia)",
+          "name": "auto-commercial-trucks-hino-700_profia",
+          "url": "auto-commercial-trucks-hino-700_profia"
+        },
+        {
+          "label": "Super Dolphin",
+          "name": "auto-commercial-trucks-hino-super_dolphin",
+          "url": "auto-commercial-trucks-hino-super_dolphin"
+        }
+      ]
+    },
+    {
+      "label": "Howo",
+      "name": "auto-commercial-trucks-howo",
+      "url": "auto-commercial-trucks-howo",
+      "children": [
+        {
+          "label": "Самосвалы",
+          "name": "auto-commercial-trucks-howo-samosvaly",
+          "url": "auto-commercial-trucks-howo-samosvaly"
+        }
+      ]
+    },
+    {
+      "label": "Hyundai",
+      "name": "auto-commercial-trucks-hyundai",
+      "url": "auto-commercial-trucks-hyundai",
+      "children": [
+        {
+          "label": "HD120",
+          "name": "auto-commercial-trucks-hyundai-hd120",
+          "url": "auto-commercial-trucks-hyundai-hd120"
+        },
+        {
+          "label": "HD160",
+          "name": "auto-commercial-trucks-hyundai-hd160",
+          "url": "auto-commercial-trucks-hyundai-hd160"
+        },
+        {
+          "label": "HD170",
+          "name": "auto-commercial-trucks-hyundai-hd170",
+          "url": "auto-commercial-trucks-hyundai-hd170"
+        },
+        {
+          "label": "HD250",
+          "name": "auto-commercial-trucks-hyundai-hd250",
+          "url": "auto-commercial-trucks-hyundai-hd250"
+        },
+        {
+          "label": "HD260",
+          "name": "auto-commercial-trucks-hyundai-hd260",
+          "url": "auto-commercial-trucks-hyundai-hd260"
+        },
+        {
+          "label": "HD270",
+          "name": "auto-commercial-trucks-hyundai-hd270",
+          "url": "auto-commercial-trucks-hyundai-hd270"
+        },
+        {
+          "label": "HD310",
+          "name": "auto-commercial-trucks-hyundai-hd310",
+          "url": "auto-commercial-trucks-hyundai-hd310"
+        },
+        {
+          "label": "HD320",
+          "name": "auto-commercial-trucks-hyundai-hd320",
+          "url": "auto-commercial-trucks-hyundai-hd320"
+        },
+        {
+          "label": "HD370",
+          "name": "auto-commercial-trucks-hyundai-hd370",
+          "url": "auto-commercial-trucks-hyundai-hd370"
+        },
+        {
+          "label": "HD380",
+          "name": "auto-commercial-trucks-hyundai-hd380",
+          "url": "auto-commercial-trucks-hyundai-hd380"
+        },
+        {
+          "label": "HD65",
+          "name": "auto-commercial-trucks-hyundai-hd65",
+          "url": "auto-commercial-trucks-hyundai-hd65"
+        },
+        {
+          "label": "HD72",
+          "name": "auto-commercial-trucks-hyundai-hd72",
+          "url": "auto-commercial-trucks-hyundai-hd72"
+        },
+        {
+          "label": "HD78",
+          "name": "auto-commercial-trucks-hyundai-hd78",
+          "url": "auto-commercial-trucks-hyundai-hd78"
+        },
+        {
+          "label": "MegaTruck",
+          "name": "auto-commercial-trucks-hyundai-megatruck",
+          "url": "auto-commercial-trucks-hyundai-megatruck"
+        },
+        {
+          "label": "Mighty",
+          "name": "auto-commercial-trucks-hyundai-mighty",
+          "url": "auto-commercial-trucks-hyundai-mighty"
+        },
+        {
+          "label": "New Power Truck",
+          "name": "auto-commercial-trucks-hyundai-new_power_truck",
+          "url": "auto-commercial-trucks-hyundai-new_power_truck"
+        },
+        {
+          "label": "Trago",
+          "name": "auto-commercial-trucks-hyundai-trago",
+          "url": "auto-commercial-trucks-hyundai-trago"
+        },
+        {
+          "label": "Xcient",
+          "name": "auto-commercial-trucks-hyundai-xcient",
+          "url": "auto-commercial-trucks-hyundai-xcient"
+        }
+      ]
+    },
+    {
+      "label": "IFA",
+      "name": "auto-commercial-trucks-ifa",
+      "url": "auto-commercial-trucks-ifa",
+      "children": [
+        {
+          "label": "W 50",
+          "name": "auto-commercial-trucks-ifa-w_50",
+          "url": "auto-commercial-trucks-ifa-w_50"
+        }
+      ]
+    },
+    {
+      "label": "International",
+      "name": "auto-commercial-trucks-international",
+      "url": "auto-commercial-trucks-international",
+      "children": [
+        {
+          "label": "1000",
+          "name": "auto-commercial-trucks-international-1000",
+          "url": "auto-commercial-trucks-international-1000"
+        },
+        {
+          "label": "1600",
+          "name": "auto-commercial-trucks-international-1600",
+          "url": "auto-commercial-trucks-international-1600"
+        },
+        {
+          "label": "4300",
+          "name": "auto-commercial-trucks-international-4300",
+          "url": "auto-commercial-trucks-international-4300"
+        },
+        {
+          "label": "4400",
+          "name": "auto-commercial-trucks-international-4400",
+          "url": "auto-commercial-trucks-international-4400"
+        },
+        {
+          "label": "4900",
+          "name": "auto-commercial-trucks-international-4900",
+          "url": "auto-commercial-trucks-international-4900"
+        },
+        {
+          "label": "5000",
+          "name": "auto-commercial-trucks-international-5000",
+          "url": "auto-commercial-trucks-international-5000"
+        },
+        {
+          "label": "8200",
+          "name": "auto-commercial-trucks-international-8200",
+          "url": "auto-commercial-trucks-international-8200"
+        },
+        {
+          "label": "CF",
+          "name": "auto-commercial-trucks-international-cf",
+          "url": "auto-commercial-trucks-international-cf"
+        },
+        {
+          "label": "CXT",
+          "name": "auto-commercial-trucks-international-cxt",
+          "url": "auto-commercial-trucks-international-cxt"
+        }
+      ]
+    },
+    {
+      "label": "Iritobus",
+      "name": "auto-commercial-trucks-iritobus",
+      "url": "auto-commercial-trucks-iritobus",
+      "children": [
+        {
+          "label": "6602",
+          "name": "auto-commercial-trucks-iritobus-6602",
+          "url": "auto-commercial-trucks-iritobus-6602"
+        },
+        {
+          "label": "6605",
+          "name": "auto-commercial-trucks-iritobus-6605",
+          "url": "auto-commercial-trucks-iritobus-6605"
+        },
+        {
+          "label": "6702",
+          "name": "auto-commercial-trucks-iritobus-6702",
+          "url": "auto-commercial-trucks-iritobus-6702"
+        },
+        {
+          "label": "6742",
+          "name": "auto-commercial-trucks-iritobus-6742",
+          "url": "auto-commercial-trucks-iritobus-6742"
+        },
+        {
+          "label": "6801",
+          "name": "auto-commercial-trucks-iritobus-6801",
+          "url": "auto-commercial-trucks-iritobus-6801"
+        }
+      ]
+    },
+    {
+      "label": "Isuzu",
+      "name": "auto-commercial-trucks-isuzu",
+      "url": "auto-commercial-trucks-isuzu",
+      "children": [
+        {
+          "label": "CYZ51K",
+          "name": "auto-commercial-trucks-isuzu-cyz51k",
+          "url": "auto-commercial-trucks-isuzu-cyz51k"
+        },
+        {
+          "label": "CYZ51Q",
+          "name": "auto-commercial-trucks-isuzu-cyz51q",
+          "url": "auto-commercial-trucks-isuzu-cyz51q"
+        },
+        {
+          "label": "Elf",
+          "name": "auto-commercial-trucks-isuzu-elf",
+          "url": "auto-commercial-trucks-isuzu-elf"
+        },
+        {
+          "label": "Forward",
+          "name": "auto-commercial-trucks-isuzu-forward",
+          "url": "auto-commercial-trucks-isuzu-forward"
+        },
+        {
+          "label": "Giga",
+          "name": "auto-commercial-trucks-isuzu-giga",
+          "url": "auto-commercial-trucks-isuzu-giga"
+        },
+        {
+          "label": "N-Series",
+          "name": "auto-commercial-trucks-isuzu-n-series",
+          "url": "auto-commercial-trucks-isuzu-n-series"
+        }
+      ]
+    },
+    {
+      "label": "IVECO",
+      "name": "auto-commercial-trucks-iveco",
+      "url": "auto-commercial-trucks-iveco",
+      "children": [
+        {
+          "label": "682",
+          "name": "auto-commercial-trucks-iveco-682",
+          "url": "auto-commercial-trucks-iveco-682"
+        },
+        {
+          "label": "Daily",
+          "name": "auto-commercial-trucks-iveco-daily",
+          "url": "auto-commercial-trucks-iveco-daily"
+        },
+        {
+          "label": "EuroCargo",
+          "name": "auto-commercial-trucks-iveco-eurocargo",
+          "url": "auto-commercial-trucks-iveco-eurocargo"
+        },
+        {
+          "label": "EuroStar",
+          "name": "auto-commercial-trucks-iveco-eurostar",
+          "url": "auto-commercial-trucks-iveco-eurostar"
+        },
+        {
+          "label": "EuroTrakker",
+          "name": "auto-commercial-trucks-iveco-eurotrakker",
+          "url": "auto-commercial-trucks-iveco-eurotrakker"
+        },
+        {
+          "label": "Stralis",
+          "name": "auto-commercial-trucks-iveco-stralis",
+          "url": "auto-commercial-trucks-iveco-stralis"
+        },
+        {
+          "label": "Trakker",
+          "name": "auto-commercial-trucks-iveco-trakker",
+          "url": "auto-commercial-trucks-iveco-trakker"
+        },
+        {
+          "label": "TurboStar",
+          "name": "auto-commercial-trucks-iveco-turbostar",
+          "url": "auto-commercial-trucks-iveco-turbostar"
+        },
+        {
+          "label": "Zeta",
+          "name": "auto-commercial-trucks-iveco-zeta",
+          "url": "auto-commercial-trucks-iveco-zeta"
+        }
+      ]
+    },
+    {
+      "label": "IVECO HongYan",
+      "name": "auto-commercial-trucks-iveco_hongyan",
+      "url": "auto-commercial-trucks-iveco_hongyan",
+      "children": [
+        {
+          "label": "Hongyan 6x4 CQ3255HTG384",
+          "name": "auto-commercial-trucks-iveco_hongyan-hongyan_6x4_cq3255htg384",
+          "url": "auto-commercial-trucks-iveco_hongyan-hongyan_6x4_cq3255htg384"
+        },
+        {
+          "label": "Hongyan 8x4CQ 3304TTG306",
+          "name": "auto-commercial-trucks-iveco_hongyan-hongyan_8x4cq_3304ttg306",
+          "url": "auto-commercial-trucks-iveco_hongyan-hongyan_8x4cq_3304ttg306"
+        }
+      ]
+    },
+    {
+      "label": "IVECO-Ling Ye",
+      "name": "auto-commercial-trucks-iveco-ling_ye",
+      "url": "auto-commercial-trucks-iveco-ling_ye",
+      "children": [
+        {
+          "label": "NJ3250",
+          "name": "auto-commercial-trucks-iveco-ling_ye-nj3250",
+          "url": "auto-commercial-trucks-iveco-ling_ye-nj3250"
+        }
+      ]
+    },
+    {
+      "label": "Iveco-АМТ",
+      "name": "auto-commercial-trucks-iveco-amt",
+      "url": "auto-commercial-trucks-iveco-amt",
+      "children": [
+        {
+          "label": "5531",
+          "name": "auto-commercial-trucks-iveco-amt-5531",
+          "url": "auto-commercial-trucks-iveco-amt-5531"
+        },
+        {
+          "label": "6339",
+          "name": "auto-commercial-trucks-iveco-amt-6339",
+          "url": "auto-commercial-trucks-iveco-amt-6339"
+        },
+        {
+          "label": "6539",
+          "name": "auto-commercial-trucks-iveco-amt-6539",
+          "url": "auto-commercial-trucks-iveco-amt-6539"
+        },
+        {
+          "label": "63291",
+          "name": "auto-commercial-trucks-iveco-amt-63291",
+          "url": "auto-commercial-trucks-iveco-amt-63291"
+        },
+        {
+          "label": "632911",
+          "name": "auto-commercial-trucks-iveco-amt-632911",
+          "url": "auto-commercial-trucks-iveco-amt-632911"
+        },
+        {
+          "label": "632920",
+          "name": "auto-commercial-trucks-iveco-amt-632920",
+          "url": "auto-commercial-trucks-iveco-amt-632920"
+        },
+        {
+          "label": "Iveco 6329",
+          "name": "auto-commercial-trucks-iveco-amt-iveco_6329",
+          "url": "auto-commercial-trucks-iveco-amt-iveco_6329"
+        }
+      ]
+    },
+    {
+      "label": "JAC",
+      "name": "auto-commercial-trucks-jac",
+      "url": "auto-commercial-trucks-jac",
+      "children": [
+        {
+          "label": "HFC 1063K",
+          "name": "auto-commercial-trucks-jac-hfc_1063k",
+          "url": "auto-commercial-trucks-jac-hfc_1063k"
+        },
+        {
+          "label": "HFC 1083K",
+          "name": "auto-commercial-trucks-jac-hfc_1083k",
+          "url": "auto-commercial-trucks-jac-hfc_1083k"
+        },
+        {
+          "label": "HFC 3252",
+          "name": "auto-commercial-trucks-jac-hfc_3252",
+          "url": "auto-commercial-trucks-jac-hfc_3252"
+        },
+        {
+          "label": "N120",
+          "name": "auto-commercial-trucks-jac-n120",
+          "url": "auto-commercial-trucks-jac-n120"
+        },
+        {
+          "label": "N56",
+          "name": "auto-commercial-trucks-jac-n56",
+          "url": "auto-commercial-trucks-jac-n56"
+        },
+        {
+          "label": "N75",
+          "name": "auto-commercial-trucks-jac-n75",
+          "url": "auto-commercial-trucks-jac-n75"
+        }
+      ]
+    },
+    {
+      "label": "JBC",
+      "name": "auto-commercial-trucks-jbc",
+      "url": "auto-commercial-trucks-jbc",
+      "children": [
+        {
+          "label": "SY1060",
+          "name": "auto-commercial-trucks-jbc-sy1060",
+          "url": "auto-commercial-trucks-jbc-sy1060"
+        }
+      ]
+    },
+    {
+      "label": "JMC",
+      "name": "auto-commercial-trucks-jmc",
+      "url": "auto-commercial-trucks-jmc",
+      "children": [
+        {
+          "label": "1051",
+          "name": "auto-commercial-trucks-jmc-1051",
+          "url": "auto-commercial-trucks-jmc-1051"
+        }
+      ]
+    },
+    {
+      "label": "Kenworth",
+      "name": "auto-commercial-trucks-kenworth",
+      "url": "auto-commercial-trucks-kenworth",
+      "children": [
+        {
+          "label": "C500",
+          "name": "auto-commercial-trucks-kenworth-c500",
+          "url": "auto-commercial-trucks-kenworth-c500"
+        },
+        {
+          "label": "K100",
+          "name": "auto-commercial-trucks-kenworth-k100",
+          "url": "auto-commercial-trucks-kenworth-k100"
+        },
+        {
+          "label": "K220",
+          "name": "auto-commercial-trucks-kenworth-k220",
+          "url": "auto-commercial-trucks-kenworth-k220"
+        },
+        {
+          "label": "T2000",
+          "name": "auto-commercial-trucks-kenworth-t2000",
+          "url": "auto-commercial-trucks-kenworth-t2000"
+        },
+        {
+          "label": "T300",
+          "name": "auto-commercial-trucks-kenworth-t300",
+          "url": "auto-commercial-trucks-kenworth-t300"
+        },
+        {
+          "label": "T400",
+          "name": "auto-commercial-trucks-kenworth-t400",
+          "url": "auto-commercial-trucks-kenworth-t400"
+        },
+        {
+          "label": "T450",
+          "name": "auto-commercial-trucks-kenworth-t450",
+          "url": "auto-commercial-trucks-kenworth-t450"
+        },
+        {
+          "label": "T600",
+          "name": "auto-commercial-trucks-kenworth-t600",
+          "url": "auto-commercial-trucks-kenworth-t600"
+        },
+        {
+          "label": "T800",
+          "name": "auto-commercial-trucks-kenworth-t800",
+          "url": "auto-commercial-trucks-kenworth-t800"
+        },
+        {
+          "label": "W900",
+          "name": "auto-commercial-trucks-kenworth-w900",
+          "url": "auto-commercial-trucks-kenworth-w900"
+        },
+        {
+          "label": "W925",
+          "name": "auto-commercial-trucks-kenworth-w925",
+          "url": "auto-commercial-trucks-kenworth-w925"
+        }
+      ]
+    },
+    {
+      "label": "Kia",
+      "name": "auto-commercial-trucks-kia",
+      "url": "auto-commercial-trucks-kia",
+      "children": [
+        {
+          "label": "Bongo",
+          "name": "auto-commercial-trucks-kia-bongo",
+          "url": "auto-commercial-trucks-kia-bongo"
+        },
+        {
+          "label": "Granto",
+          "name": "auto-commercial-trucks-kia-granto",
+          "url": "auto-commercial-trucks-kia-granto"
+        },
+        {
+          "label": "Rhino",
+          "name": "auto-commercial-trucks-kia-rhino",
+          "url": "auto-commercial-trucks-kia-rhino"
+        }
+      ]
+    },
+    {
+      "label": "Mack",
+      "name": "auto-commercial-trucks-mack",
+      "url": "auto-commercial-trucks-mack",
+      "children": [
+        {
+          "label": "CH",
+          "name": "auto-commercial-trucks-mack-ch",
+          "url": "auto-commercial-trucks-mack-ch"
+        },
+        {
+          "label": "CL",
+          "name": "auto-commercial-trucks-mack-cl",
+          "url": "auto-commercial-trucks-mack-cl"
+        },
+        {
+          "label": "CS",
+          "name": "auto-commercial-trucks-mack-cs",
+          "url": "auto-commercial-trucks-mack-cs"
+        },
+        {
+          "label": "CV",
+          "name": "auto-commercial-trucks-mack-cv",
+          "url": "auto-commercial-trucks-mack-cv"
+        },
+        {
+          "label": "CX",
+          "name": "auto-commercial-trucks-mack-cx",
+          "url": "auto-commercial-trucks-mack-cx"
+        },
+        {
+          "label": "DM",
+          "name": "auto-commercial-trucks-mack-dm",
+          "url": "auto-commercial-trucks-mack-dm"
+        },
+        {
+          "label": "MS",
+          "name": "auto-commercial-trucks-mack-ms",
+          "url": "auto-commercial-trucks-mack-ms"
+        },
+        {
+          "label": "R/RS/RL/RD",
+          "name": "auto-commercial-trucks-mack-r/rs/rl/rd",
+          "url": "auto-commercial-trucks-mack-r/rs/rl/rd"
+        },
+        {
+          "label": "RW",
+          "name": "auto-commercial-trucks-mack-rw",
+          "url": "auto-commercial-trucks-mack-rw"
+        }
+      ]
+    },
+    {
+      "label": "Magirus Deutz",
+      "name": "auto-commercial-trucks-magirus_deutz",
+      "url": "auto-commercial-trucks-magirus_deutz",
+      "children": [
+        {
+          "label": "232D",
+          "name": "auto-commercial-trucks-magirus_deutz-232d",
+          "url": "auto-commercial-trucks-magirus_deutz-232d"
+        },
+        {
+          "label": "290D26К",
+          "name": "auto-commercial-trucks-magirus_deutz-290d26k",
+          "url": "auto-commercial-trucks-magirus_deutz-290d26k"
+        }
+      ]
+    },
+    {
+      "label": "MAN",
+      "name": "auto-commercial-trucks-man",
+      "url": "auto-commercial-trucks-man",
+      "children": [
+        {
+          "label": "8",
+          "name": "auto-commercial-trucks-man-8",
+          "url": "auto-commercial-trucks-man-8"
+        },
+        {
+          "label": "9",
+          "name": "auto-commercial-trucks-man-9",
+          "url": "auto-commercial-trucks-man-9"
+        },
+        {
+          "label": "10",
+          "name": "auto-commercial-trucks-man-10",
+          "url": "auto-commercial-trucks-man-10"
+        },
+        {
+          "label": "12",
+          "name": "auto-commercial-trucks-man-12",
+          "url": "auto-commercial-trucks-man-12"
+        },
+        {
+          "label": "13",
+          "name": "auto-commercial-trucks-man-13",
+          "url": "auto-commercial-trucks-man-13"
+        },
+        {
+          "label": "14",
+          "name": "auto-commercial-trucks-man-14",
+          "url": "auto-commercial-trucks-man-14"
+        },
+        {
+          "label": "16",
+          "name": "auto-commercial-trucks-man-16",
+          "url": "auto-commercial-trucks-man-16"
+        },
+        {
+          "label": "18",
+          "name": "auto-commercial-trucks-man-18",
+          "url": "auto-commercial-trucks-man-18"
+        },
+        {
+          "label": "19",
+          "name": "auto-commercial-trucks-man-19",
+          "url": "auto-commercial-trucks-man-19"
+        },
+        {
+          "label": "22",
+          "name": "auto-commercial-trucks-man-22",
+          "url": "auto-commercial-trucks-man-22"
+        },
+        {
+          "label": "24",
+          "name": "auto-commercial-trucks-man-24",
+          "url": "auto-commercial-trucks-man-24"
+        },
+        {
+          "label": "25",
+          "name": "auto-commercial-trucks-man-25",
+          "url": "auto-commercial-trucks-man-25"
+        },
+        {
+          "label": "26",
+          "name": "auto-commercial-trucks-man-26",
+          "url": "auto-commercial-trucks-man-26"
+        },
+        {
+          "label": "27",
+          "name": "auto-commercial-trucks-man-27",
+          "url": "auto-commercial-trucks-man-27"
+        },
+        {
+          "label": "32",
+          "name": "auto-commercial-trucks-man-32",
+          "url": "auto-commercial-trucks-man-32"
+        },
+        {
+          "label": "33",
+          "name": "auto-commercial-trucks-man-33",
+          "url": "auto-commercial-trucks-man-33"
+        },
+        {
+          "label": "41",
+          "name": "auto-commercial-trucks-man-41",
+          "url": "auto-commercial-trucks-man-41"
+        },
+        {
+          "label": "48",
+          "name": "auto-commercial-trucks-man-48",
+          "url": "auto-commercial-trucks-man-48"
+        },
+        {
+          "label": "F2000",
+          "name": "auto-commercial-trucks-man-f2000",
+          "url": "auto-commercial-trucks-man-f2000"
+        },
+        {
+          "label": "F90",
+          "name": "auto-commercial-trucks-man-f90",
+          "url": "auto-commercial-trucks-man-f90"
+        },
+        {
+          "label": "KAT",
+          "name": "auto-commercial-trucks-man-kat",
+          "url": "auto-commercial-trucks-man-kat"
+        },
+        {
+          "label": "L2000",
+          "name": "auto-commercial-trucks-man-l2000",
+          "url": "auto-commercial-trucks-man-l2000"
+        },
+        {
+          "label": "LE 160",
+          "name": "auto-commercial-trucks-man-le_160",
+          "url": "auto-commercial-trucks-man-le_160"
+        },
+        {
+          "label": "LE 2000",
+          "name": "auto-commercial-trucks-man-le_2000",
+          "url": "auto-commercial-trucks-man-le_2000"
+        },
+        {
+          "label": "M2000 L",
+          "name": "auto-commercial-trucks-man-m2000_l",
+          "url": "auto-commercial-trucks-man-m2000_l"
+        },
+        {
+          "label": "TGA",
+          "name": "auto-commercial-trucks-man-tga",
+          "url": "auto-commercial-trucks-man-tga"
+        },
+        {
+          "label": "TGL",
+          "name": "auto-commercial-trucks-man-tgl",
+          "url": "auto-commercial-trucks-man-tgl"
+        },
+        {
+          "label": "TGM",
+          "name": "auto-commercial-trucks-man-tgm",
+          "url": "auto-commercial-trucks-man-tgm"
+        },
+        {
+          "label": "TGS",
+          "name": "auto-commercial-trucks-man-tgs",
+          "url": "auto-commercial-trucks-man-tgs"
+        },
+        {
+          "label": "TGX",
+          "name": "auto-commercial-trucks-man-tgx",
+          "url": "auto-commercial-trucks-man-tgx"
+        },
+        {
+          "label": "Самосвалы TGA",
+          "name": "auto-commercial-trucks-man-samosvaly_tga",
+          "url": "auto-commercial-trucks-man-samosvaly_tga"
+        }
+      ]
+    },
+    {
+      "label": "Mazda",
+      "name": "auto-commercial-trucks-mazda",
+      "url": "auto-commercial-trucks-mazda",
+      "children": [
+        {
+          "label": "Titan",
+          "name": "auto-commercial-trucks-mazda-titan",
+          "url": "auto-commercial-trucks-mazda-titan"
+        }
+      ]
+    },
+    {
+      "label": "Mercedes-Benz",
+      "name": "auto-commercial-trucks-mercedes-benz",
+      "url": "auto-commercial-trucks-mercedes-benz",
+      "children": [
+        {
+          "label": "1117",
+          "name": "auto-commercial-trucks-mercedes-benz-1117",
+          "url": "auto-commercial-trucks-mercedes-benz-1117"
+        },
+        {
+          "label": "1320",
+          "name": "auto-commercial-trucks-mercedes-benz-1320",
+          "url": "auto-commercial-trucks-mercedes-benz-1320"
+        },
+        {
+          "label": "1413",
+          "name": "auto-commercial-trucks-mercedes-benz-1413",
+          "url": "auto-commercial-trucks-mercedes-benz-1413"
+        },
+        {
+          "label": "1424",
+          "name": "auto-commercial-trucks-mercedes-benz-1424",
+          "url": "auto-commercial-trucks-mercedes-benz-1424"
+        },
+        {
+          "label": "1622",
+          "name": "auto-commercial-trucks-mercedes-benz-1622",
+          "url": "auto-commercial-trucks-mercedes-benz-1622"
+        },
+        {
+          "label": "1722",
+          "name": "auto-commercial-trucks-mercedes-benz-1722",
+          "url": "auto-commercial-trucks-mercedes-benz-1722"
+        },
+        {
+          "label": "1735",
+          "name": "auto-commercial-trucks-mercedes-benz-1735",
+          "url": "auto-commercial-trucks-mercedes-benz-1735"
+        },
+        {
+          "label": "1827",
+          "name": "auto-commercial-trucks-mercedes-benz-1827",
+          "url": "auto-commercial-trucks-mercedes-benz-1827"
+        },
+        {
+          "label": "1922",
+          "name": "auto-commercial-trucks-mercedes-benz-1922",
+          "url": "auto-commercial-trucks-mercedes-benz-1922"
+        },
+        {
+          "label": "200D",
+          "name": "auto-commercial-trucks-mercedes-benz-200d",
+          "url": "auto-commercial-trucks-mercedes-benz-200d"
+        },
+        {
+          "label": "208D",
+          "name": "auto-commercial-trucks-mercedes-benz-208d",
+          "url": "auto-commercial-trucks-mercedes-benz-208d"
+        },
+        {
+          "label": "209D",
+          "name": "auto-commercial-trucks-mercedes-benz-209d",
+          "url": "auto-commercial-trucks-mercedes-benz-209d"
+        },
+        {
+          "label": "210D",
+          "name": "auto-commercial-trucks-mercedes-benz-210d",
+          "url": "auto-commercial-trucks-mercedes-benz-210d"
+        },
+        {
+          "label": "2435",
+          "name": "auto-commercial-trucks-mercedes-benz-2435",
+          "url": "auto-commercial-trucks-mercedes-benz-2435"
+        },
+        {
+          "label": "300D",
+          "name": "auto-commercial-trucks-mercedes-benz-300d",
+          "url": "auto-commercial-trucks-mercedes-benz-300d"
+        },
+        {
+          "label": "308D",
+          "name": "auto-commercial-trucks-mercedes-benz-308d",
+          "url": "auto-commercial-trucks-mercedes-benz-308d"
+        },
+        {
+          "label": "310D",
+          "name": "auto-commercial-trucks-mercedes-benz-310d",
+          "url": "auto-commercial-trucks-mercedes-benz-310d"
+        },
+        {
+          "label": "312D",
+          "name": "auto-commercial-trucks-mercedes-benz-312d",
+          "url": "auto-commercial-trucks-mercedes-benz-312d"
+        },
+        {
+          "label": "408D",
+          "name": "auto-commercial-trucks-mercedes-benz-408d",
+          "url": "auto-commercial-trucks-mercedes-benz-408d"
+        },
+        {
+          "label": "410D",
+          "name": "auto-commercial-trucks-mercedes-benz-410d",
+          "url": "auto-commercial-trucks-mercedes-benz-410d"
+        },
+        {
+          "label": "416D",
+          "name": "auto-commercial-trucks-mercedes-benz-416d",
+          "url": "auto-commercial-trucks-mercedes-benz-416d"
+        },
+        {
+          "label": "508D",
+          "name": "auto-commercial-trucks-mercedes-benz-508d",
+          "url": "auto-commercial-trucks-mercedes-benz-508d"
+        },
+        {
+          "label": "609D",
+          "name": "auto-commercial-trucks-mercedes-benz-609d",
+          "url": "auto-commercial-trucks-mercedes-benz-609d"
+        },
+        {
+          "label": "612D",
+          "name": "auto-commercial-trucks-mercedes-benz-612d",
+          "url": "auto-commercial-trucks-mercedes-benz-612d"
+        },
+        {
+          "label": "709D",
+          "name": "auto-commercial-trucks-mercedes-benz-709d",
+          "url": "auto-commercial-trucks-mercedes-benz-709d"
+        },
+        {
+          "label": "711D",
+          "name": "auto-commercial-trucks-mercedes-benz-711d",
+          "url": "auto-commercial-trucks-mercedes-benz-711d"
+        },
+        {
+          "label": "714D",
+          "name": "auto-commercial-trucks-mercedes-benz-714d",
+          "url": "auto-commercial-trucks-mercedes-benz-714d"
+        },
+        {
+          "label": "809",
+          "name": "auto-commercial-trucks-mercedes-benz-809",
+          "url": "auto-commercial-trucks-mercedes-benz-809"
+        },
+        {
+          "label": "811D",
+          "name": "auto-commercial-trucks-mercedes-benz-811d",
+          "url": "auto-commercial-trucks-mercedes-benz-811d"
+        },
+        {
+          "label": "813",
+          "name": "auto-commercial-trucks-mercedes-benz-813",
+          "url": "auto-commercial-trucks-mercedes-benz-813"
+        },
+        {
+          "label": "814",
+          "name": "auto-commercial-trucks-mercedes-benz-814",
+          "url": "auto-commercial-trucks-mercedes-benz-814"
+        },
+        {
+          "label": "817",
+          "name": "auto-commercial-trucks-mercedes-benz-817",
+          "url": "auto-commercial-trucks-mercedes-benz-817"
+        },
+        {
+          "label": "913",
+          "name": "auto-commercial-trucks-mercedes-benz-913",
+          "url": "auto-commercial-trucks-mercedes-benz-913"
+        },
+        {
+          "label": "914",
+          "name": "auto-commercial-trucks-mercedes-benz-914",
+          "url": "auto-commercial-trucks-mercedes-benz-914"
+        },
+        {
+          "label": "Actros",
+          "name": "auto-commercial-trucks-mercedes-benz-actros",
+          "url": "auto-commercial-trucks-mercedes-benz-actros"
+        },
+        {
+          "label": "Atego",
+          "name": "auto-commercial-trucks-mercedes-benz-atego",
+          "url": "auto-commercial-trucks-mercedes-benz-atego"
+        },
+        {
+          "label": "Axor",
+          "name": "auto-commercial-trucks-mercedes-benz-axor",
+          "url": "auto-commercial-trucks-mercedes-benz-axor"
+        },
+        {
+          "label": "LK",
+          "name": "auto-commercial-trucks-mercedes-benz-lk",
+          "url": "auto-commercial-trucks-mercedes-benz-lk"
+        },
+        {
+          "label": "Unimog",
+          "name": "auto-commercial-trucks-mercedes-benz-unimog",
+          "url": "auto-commercial-trucks-mercedes-benz-unimog"
+        },
+        {
+          "label": "Vario",
+          "name": "auto-commercial-trucks-mercedes-benz-vario",
+          "url": "auto-commercial-trucks-mercedes-benz-vario"
+        },
+        {
+          "label": "Zetros",
+          "name": "auto-commercial-trucks-mercedes-benz-zetros",
+          "url": "auto-commercial-trucks-mercedes-benz-zetros"
+        },
+        {
+          "label": "Бортовой (4х2)",
+          "name": "auto-commercial-trucks-mercedes-benz-bortovoj_4h2",
+          "url": "auto-commercial-trucks-mercedes-benz-bortovoj_4h2"
+        },
+        {
+          "label": "Бортовой (4х4)",
+          "name": "auto-commercial-trucks-mercedes-benz-bortovoj_4h4",
+          "url": "auto-commercial-trucks-mercedes-benz-bortovoj_4h4"
+        },
+        {
+          "label": "Бортовой (6х2)",
+          "name": "auto-commercial-trucks-mercedes-benz-bortovoj_6h2",
+          "url": "auto-commercial-trucks-mercedes-benz-bortovoj_6h2"
+        },
+        {
+          "label": "Фургон (4х2)",
+          "name": "auto-commercial-trucks-mercedes-benz-furgon_4h2",
+          "url": "auto-commercial-trucks-mercedes-benz-furgon_4h2"
+        },
+        {
+          "label": "Фургон (6х2)",
+          "name": "auto-commercial-trucks-mercedes-benz-furgon_6h2",
+          "url": "auto-commercial-trucks-mercedes-benz-furgon_6h2"
+        }
+      ]
+    },
+    {
+      "label": "Mitsubishi",
+      "name": "auto-commercial-trucks-mitsubishi",
+      "url": "auto-commercial-trucks-mitsubishi",
+      "children": [
+        {
+          "label": "Canter",
+          "name": "auto-commercial-trucks-mitsubishi-canter",
+          "url": "auto-commercial-trucks-mitsubishi-canter"
+        },
+        {
+          "label": "Delica",
+          "name": "auto-commercial-trucks-mitsubishi-delica",
+          "url": "auto-commercial-trucks-mitsubishi-delica"
+        },
+        {
+          "label": "Fuso",
+          "name": "auto-commercial-trucks-mitsubishi-fuso",
+          "url": "auto-commercial-trucks-mitsubishi-fuso"
+        }
+      ]
+    },
+    {
+      "label": "Mudan",
+      "name": "auto-commercial-trucks-mudan",
+      "url": "auto-commercial-trucks-mudan",
+      "children": [
+        {
+          "label": "MD1042",
+          "name": "auto-commercial-trucks-mudan-md1042",
+          "url": "auto-commercial-trucks-mudan-md1042"
+        },
+        {
+          "label": "MD1043",
+          "name": "auto-commercial-trucks-mudan-md1043",
+          "url": "auto-commercial-trucks-mudan-md1043"
+        },
+        {
+          "label": "MD1044",
+          "name": "auto-commercial-trucks-mudan-md1044",
+          "url": "auto-commercial-trucks-mudan-md1044"
+        },
+        {
+          "label": "MD5043",
+          "name": "auto-commercial-trucks-mudan-md5043",
+          "url": "auto-commercial-trucks-mudan-md5043"
+        }
+      ]
+    },
+    {
+      "label": "Naveco",
+      "name": "auto-commercial-trucks-naveco",
+      "url": "auto-commercial-trucks-naveco",
+      "children": [
+        {
+          "label": "C-300",
+          "name": "auto-commercial-trucks-naveco-c-300",
+          "url": "auto-commercial-trucks-naveco-c-300"
+        },
+        {
+          "label": "C500",
+          "name": "auto-commercial-trucks-naveco-c500",
+          "url": "auto-commercial-trucks-naveco-c500"
+        }
+      ]
+    },
+    {
+      "label": "Nissan",
+      "name": "auto-commercial-trucks-nissan",
+      "url": "auto-commercial-trucks-nissan",
+      "children": [
+        {
+          "label": "Atlas",
+          "name": "auto-commercial-trucks-nissan-atlas",
+          "url": "auto-commercial-trucks-nissan-atlas"
+        },
+        {
+          "label": "Atleon",
+          "name": "auto-commercial-trucks-nissan-atleon",
+          "url": "auto-commercial-trucks-nissan-atleon"
+        },
+        {
+          "label": "Cabstar",
+          "name": "auto-commercial-trucks-nissan-cabstar",
+          "url": "auto-commercial-trucks-nissan-cabstar"
+        },
+        {
+          "label": "Diesel",
+          "name": "auto-commercial-trucks-nissan-diesel",
+          "url": "auto-commercial-trucks-nissan-diesel"
+        },
+        {
+          "label": "Titan",
+          "name": "auto-commercial-trucks-nissan-titan",
+          "url": "auto-commercial-trucks-nissan-titan"
+        },
+        {
+          "label": "Urvan",
+          "name": "auto-commercial-trucks-nissan-urvan",
+          "url": "auto-commercial-trucks-nissan-urvan"
+        }
+      ]
+    },
+    {
+      "label": "Nyssa",
+      "name": "auto-commercial-trucks-nyssa",
+      "url": "auto-commercial-trucks-nyssa",
+      "children": [
+        {
+          "label": "522",
+          "name": "auto-commercial-trucks-nyssa-522",
+          "url": "auto-commercial-trucks-nyssa-522"
+        }
+      ]
+    },
+    {
+      "label": "Peterbilt",
+      "name": "auto-commercial-trucks-peterbilt",
+      "url": "auto-commercial-trucks-peterbilt",
+      "children": [
+        {
+          "label": "320",
+          "name": "auto-commercial-trucks-peterbilt-320",
+          "url": "auto-commercial-trucks-peterbilt-320"
+        },
+        {
+          "label": "330",
+          "name": "auto-commercial-trucks-peterbilt-330",
+          "url": "auto-commercial-trucks-peterbilt-330"
+        },
+        {
+          "label": "335",
+          "name": "auto-commercial-trucks-peterbilt-335",
+          "url": "auto-commercial-trucks-peterbilt-335"
+        },
+        {
+          "label": "357",
+          "name": "auto-commercial-trucks-peterbilt-357",
+          "url": "auto-commercial-trucks-peterbilt-357"
+        }
+      ]
+    },
+    {
+      "label": "Peugeot",
+      "name": "auto-commercial-trucks-peugeot",
+      "url": "auto-commercial-trucks-peugeot",
+      "children": [
+        {
+          "label": "Boxer",
+          "name": "auto-commercial-trucks-peugeot-boxer",
+          "url": "auto-commercial-trucks-peugeot-boxer"
+        }
+      ]
+    },
+    {
+      "label": "Praga",
+      "name": "auto-commercial-trucks-praga",
+      "url": "auto-commercial-trucks-praga",
+      "children": [
+        {
+          "label": "V3S",
+          "name": "auto-commercial-trucks-praga-v3s",
+          "url": "auto-commercial-trucks-praga-v3s"
+        }
+      ]
+    },
+    {
+      "label": "Renault",
+      "name": "auto-commercial-trucks-renault",
+      "url": "auto-commercial-trucks-renault",
+      "children": [
+        {
+          "label": "C-Series",
+          "name": "auto-commercial-trucks-renault-c-series",
+          "url": "auto-commercial-trucks-renault-c-series"
+        },
+        {
+          "label": "D-Series",
+          "name": "auto-commercial-trucks-renault-d-series",
+          "url": "auto-commercial-trucks-renault-d-series"
+        },
+        {
+          "label": "G200",
+          "name": "auto-commercial-trucks-renault-g200",
+          "url": "auto-commercial-trucks-renault-g200"
+        },
+        {
+          "label": "G230",
+          "name": "auto-commercial-trucks-renault-g230",
+          "url": "auto-commercial-trucks-renault-g230"
+        },
+        {
+          "label": "K-Series",
+          "name": "auto-commercial-trucks-renault-k-series",
+          "url": "auto-commercial-trucks-renault-k-series"
+        },
+        {
+          "label": "Kerax",
+          "name": "auto-commercial-trucks-renault-kerax",
+          "url": "auto-commercial-trucks-renault-kerax"
+        },
+        {
+          "label": "Magnum",
+          "name": "auto-commercial-trucks-renault-magnum",
+          "url": "auto-commercial-trucks-renault-magnum"
+        },
+        {
+          "label": "Major",
+          "name": "auto-commercial-trucks-renault-major",
+          "url": "auto-commercial-trucks-renault-major"
+        },
+        {
+          "label": "Mascott",
+          "name": "auto-commercial-trucks-renault-mascott",
+          "url": "auto-commercial-trucks-renault-mascott"
+        },
+        {
+          "label": "Master",
+          "name": "auto-commercial-trucks-renault-master",
+          "url": "auto-commercial-trucks-renault-master"
+        },
+        {
+          "label": "Midliner",
+          "name": "auto-commercial-trucks-renault-midliner",
+          "url": "auto-commercial-trucks-renault-midliner"
+        },
+        {
+          "label": "Midlum",
+          "name": "auto-commercial-trucks-renault-midlum",
+          "url": "auto-commercial-trucks-renault-midlum"
+        },
+        {
+          "label": "Premium",
+          "name": "auto-commercial-trucks-renault-premium",
+          "url": "auto-commercial-trucks-renault-premium"
+        }
+      ]
+    },
+    {
+      "label": "SAURER",
+      "name": "auto-commercial-trucks-saurer",
+      "url": "auto-commercial-trucks-saurer",
+      "children": [
+        {
+          "label": "2DM",
+          "name": "auto-commercial-trucks-saurer-2dm",
+          "url": "auto-commercial-trucks-saurer-2dm"
+        }
+      ]
+    },
+    {
+      "label": "Scania",
+      "name": "auto-commercial-trucks-scania",
+      "url": "auto-commercial-trucks-scania",
+      "children": [
+        {
+          "label": "2 - series",
+          "name": "auto-commercial-trucks-scania-2_-_series",
+          "url": "auto-commercial-trucks-scania-2_-_series"
+        },
+        {
+          "label": "93",
+          "name": "auto-commercial-trucks-scania-93",
+          "url": "auto-commercial-trucks-scania-93"
+        },
+        {
+          "label": "G",
+          "name": "auto-commercial-trucks-scania-g",
+          "url": "auto-commercial-trucks-scania-g"
+        },
+        {
+          "label": "M",
+          "name": "auto-commercial-trucks-scania-m",
+          "url": "auto-commercial-trucks-scania-m"
+        },
+        {
+          "label": "P",
+          "name": "auto-commercial-trucks-scania-p",
+          "url": "auto-commercial-trucks-scania-p"
+        },
+        {
+          "label": "R",
+          "name": "auto-commercial-trucks-scania-r",
+          "url": "auto-commercial-trucks-scania-r"
+        },
+        {
+          "label": "T",
+          "name": "auto-commercial-trucks-scania-t",
+          "url": "auto-commercial-trucks-scania-t"
+        }
+      ]
+    },
+    {
+      "label": "Shaanxi",
+      "name": "auto-commercial-trucks-shaanxi",
+      "url": "auto-commercial-trucks-shaanxi",
+      "children": [
+        {
+          "label": "SX3315",
+          "name": "auto-commercial-trucks-shaanxi-sx3315",
+          "url": "auto-commercial-trucks-shaanxi-sx3315"
+        }
+      ]
+    },
+    {
+      "label": "Shacman",
+      "name": "auto-commercial-trucks-shacman",
+      "url": "auto-commercial-trucks-shacman",
+      "children": [
+        {
+          "label": "SX3254",
+          "name": "auto-commercial-trucks-shacman-sx3254",
+          "url": "auto-commercial-trucks-shacman-sx3254"
+        },
+        {
+          "label": "SX3255",
+          "name": "auto-commercial-trucks-shacman-sx3255",
+          "url": "auto-commercial-trucks-shacman-sx3255"
+        },
+        {
+          "label": "SX3256",
+          "name": "auto-commercial-trucks-shacman-sx3256",
+          "url": "auto-commercial-trucks-shacman-sx3256"
+        },
+        {
+          "label": "SX3316",
+          "name": "auto-commercial-trucks-shacman-sx3316",
+          "url": "auto-commercial-trucks-shacman-sx3316"
+        }
+      ]
+    },
+    {
+      "label": "Shandong KAMA",
+      "name": "auto-commercial-trucks-shandong_kama",
+      "url": "auto-commercial-trucks-shandong_kama",
+      "children": [
+        {
+          "label": "KMC3071",
+          "name": "auto-commercial-trucks-shandong_kama-kmc3071",
+          "url": "auto-commercial-trucks-shandong_kama-kmc3071"
+        }
+      ]
+    },
+    {
+      "label": "Shenye",
+      "name": "auto-commercial-trucks-shenye",
+      "url": "auto-commercial-trucks-shenye",
+      "children": [
+        {
+          "label": "Самосвал 6x4",
+          "name": "auto-commercial-trucks-shenye-samosval_6x4",
+          "url": "auto-commercial-trucks-shenye-samosval_6x4"
+        }
+      ]
+    },
+    {
+      "label": "Silant",
+      "name": "auto-commercial-trucks-silant",
+      "url": "auto-commercial-trucks-silant",
+      "children": [
+        {
+          "label": "2868",
+          "name": "auto-commercial-trucks-silant-2868",
+          "url": "auto-commercial-trucks-silant-2868"
+        }
+      ]
+    },
+    {
+      "label": "Sisu",
+      "name": "auto-commercial-trucks-sisu",
+      "url": "auto-commercial-trucks-sisu",
+      "children": [
+        {
+          "label": "E11M",
+          "name": "auto-commercial-trucks-sisu-e11m",
+          "url": "auto-commercial-trucks-sisu-e11m"
+        },
+        {
+          "label": "E12",
+          "name": "auto-commercial-trucks-sisu-e12",
+          "url": "auto-commercial-trucks-sisu-e12"
+        },
+        {
+          "label": "E14M",
+          "name": "auto-commercial-trucks-sisu-e14m",
+          "url": "auto-commercial-trucks-sisu-e14m"
+        },
+        {
+          "label": "E18M",
+          "name": "auto-commercial-trucks-sisu-e18m",
+          "url": "auto-commercial-trucks-sisu-e18m"
+        },
+        {
+          "label": "SK250",
+          "name": "auto-commercial-trucks-sisu-sk250",
+          "url": "auto-commercial-trucks-sisu-sk250"
+        }
+      ]
+    },
+    {
+      "label": "Skoda LIAZ",
+      "name": "auto-commercial-trucks-skoda_liaz",
+      "url": "auto-commercial-trucks-skoda_liaz",
+      "children": [
+        {
+          "label": "300",
+          "name": "auto-commercial-trucks-skoda_liaz-300",
+          "url": "auto-commercial-trucks-skoda_liaz-300"
+        },
+        {
+          "label": "400",
+          "name": "auto-commercial-trucks-skoda_liaz-400",
+          "url": "auto-commercial-trucks-skoda_liaz-400"
+        },
+        {
+          "label": "RT",
+          "name": "auto-commercial-trucks-skoda_liaz-rt",
+          "url": "auto-commercial-trucks-skoda_liaz-rt"
+        }
+      ]
+    },
+    {
+      "label": "Sterling",
+      "name": "auto-commercial-trucks-sterling",
+      "url": "auto-commercial-trucks-sterling",
+      "children": [
+        {
+          "label": "Acterra",
+          "name": "auto-commercial-trucks-sterling-acterra",
+          "url": "auto-commercial-trucks-sterling-acterra"
+        },
+        {
+          "label": "Bullet",
+          "name": "auto-commercial-trucks-sterling-bullet",
+          "url": "auto-commercial-trucks-sterling-bullet"
+        },
+        {
+          "label": "L-line",
+          "name": "auto-commercial-trucks-sterling-l-line",
+          "url": "auto-commercial-trucks-sterling-l-line"
+        }
+      ]
+    },
+    {
+      "label": "Steyr",
+      "name": "auto-commercial-trucks-steyr",
+      "url": "auto-commercial-trucks-steyr",
+      "children": [
+        {
+          "label": "15s21",
+          "name": "auto-commercial-trucks-steyr-15s21",
+          "url": "auto-commercial-trucks-steyr-15s21"
+        }
+      ]
+    },
+    {
+      "label": "TATA",
+      "name": "auto-commercial-trucks-tata",
+      "url": "auto-commercial-trucks-tata",
+      "children": [
+        {
+          "label": "407",
+          "name": "auto-commercial-trucks-tata-407",
+          "url": "auto-commercial-trucks-tata-407"
+        },
+        {
+          "label": "613",
+          "name": "auto-commercial-trucks-tata-613",
+          "url": "auto-commercial-trucks-tata-613"
+        }
+      ]
+    },
+    {
+      "label": "Tatra",
+      "name": "auto-commercial-trucks-tatra",
+      "url": "auto-commercial-trucks-tatra",
+      "children": [
+        {
+          "label": "ARMAX",
+          "name": "auto-commercial-trucks-tatra-armax",
+          "url": "auto-commercial-trucks-tatra-armax"
+        },
+        {
+          "label": "JAMAL T 163",
+          "name": "auto-commercial-trucks-tatra-jamal_t_163",
+          "url": "auto-commercial-trucks-tatra-jamal_t_163"
+        },
+        {
+          "label": "Phoenix",
+          "name": "auto-commercial-trucks-tatra-phoenix",
+          "url": "auto-commercial-trucks-tatra-phoenix"
+        },
+        {
+          "label": "T 810",
+          "name": "auto-commercial-trucks-tatra-t_810",
+          "url": "auto-commercial-trucks-tatra-t_810"
+        },
+        {
+          "label": "T 815",
+          "name": "auto-commercial-trucks-tatra-t_815",
+          "url": "auto-commercial-trucks-tatra-t_815"
+        }
+      ]
+    },
+    {
+      "label": "Temsa",
+      "name": "auto-commercial-trucks-temsa",
+      "url": "auto-commercial-trucks-temsa",
+      "children": [
+        {
+          "label": "Diamond",
+          "name": "auto-commercial-trucks-temsa-diamond",
+          "url": "auto-commercial-trucks-temsa-diamond"
+        },
+        {
+          "label": "Opalin",
+          "name": "auto-commercial-trucks-temsa-opalin",
+          "url": "auto-commercial-trucks-temsa-opalin"
+        },
+        {
+          "label": "Safari",
+          "name": "auto-commercial-trucks-temsa-safari",
+          "url": "auto-commercial-trucks-temsa-safari"
+        }
+      ]
+    },
+    {
+      "label": "Terberg",
+      "name": "auto-commercial-trucks-terberg",
+      "url": "auto-commercial-trucks-terberg",
+      "children": [
+        {
+          "label": "FL",
+          "name": "auto-commercial-trucks-terberg-fl",
+          "url": "auto-commercial-trucks-terberg-fl"
+        },
+        {
+          "label": "FM",
+          "name": "auto-commercial-trucks-terberg-fm",
+          "url": "auto-commercial-trucks-terberg-fm"
+        }
+      ]
+    },
+    {
+      "label": "Tiema",
+      "name": "auto-commercial-trucks-tiema",
+      "url": "auto-commercial-trucks-tiema",
+      "children": [
+        {
+          "label": "XC3240",
+          "name": "auto-commercial-trucks-tiema-xc3240",
+          "url": "auto-commercial-trucks-tiema-xc3240"
+        },
+        {
+          "label": "XC3268A",
+          "name": "auto-commercial-trucks-tiema-xc3268a",
+          "url": "auto-commercial-trucks-tiema-xc3268a"
+        },
+        {
+          "label": "XC3318A",
+          "name": "auto-commercial-trucks-tiema-xc3318a",
+          "url": "auto-commercial-trucks-tiema-xc3318a"
+        }
+      ]
+    },
+    {
+      "label": "Toyota",
+      "name": "auto-commercial-trucks-toyota",
+      "url": "auto-commercial-trucks-toyota",
+      "children": [
+        {
+          "label": "Hino",
+          "name": "auto-commercial-trucks-toyota-hino",
+          "url": "auto-commercial-trucks-toyota-hino"
+        }
+      ]
+    },
+    {
+      "label": "Volkswagen",
+      "name": "auto-commercial-trucks-volkswagen",
+      "url": "auto-commercial-trucks-volkswagen",
+      "children": [
+        {
+          "label": "Constellation",
+          "name": "auto-commercial-trucks-volkswagen-constellation",
+          "url": "auto-commercial-trucks-volkswagen-constellation"
+        }
+      ]
+    },
+    {
+      "label": "Volvo",
+      "name": "auto-commercial-trucks-volvo",
+      "url": "auto-commercial-trucks-volvo",
+      "children": [
+        {
+          "label": "F",
+          "name": "auto-commercial-trucks-volvo-f",
+          "url": "auto-commercial-trucks-volvo-f"
+        },
+        {
+          "label": "FE",
+          "name": "auto-commercial-trucks-volvo-fe",
+          "url": "auto-commercial-trucks-volvo-fe"
+        },
+        {
+          "label": "FH",
+          "name": "auto-commercial-trucks-volvo-fh",
+          "url": "auto-commercial-trucks-volvo-fh"
+        },
+        {
+          "label": "FL",
+          "name": "auto-commercial-trucks-volvo-fl",
+          "url": "auto-commercial-trucks-volvo-fl"
+        },
+        {
+          "label": "FL 612",
+          "name": "auto-commercial-trucks-volvo-fl_612",
+          "url": "auto-commercial-trucks-volvo-fl_612"
+        },
+        {
+          "label": "FM",
+          "name": "auto-commercial-trucks-volvo-fm",
+          "url": "auto-commercial-trucks-volvo-fm"
+        },
+        {
+          "label": "FMX",
+          "name": "auto-commercial-trucks-volvo-fmx",
+          "url": "auto-commercial-trucks-volvo-fmx"
+        },
+        {
+          "label": "FS",
+          "name": "auto-commercial-trucks-volvo-fs",
+          "url": "auto-commercial-trucks-volvo-fs"
+        },
+        {
+          "label": "N",
+          "name": "auto-commercial-trucks-volvo-n",
+          "url": "auto-commercial-trucks-volvo-n"
+        },
+        {
+          "label": "NH",
+          "name": "auto-commercial-trucks-volvo-nh",
+          "url": "auto-commercial-trucks-volvo-nh"
+        },
+        {
+          "label": "VHD",
+          "name": "auto-commercial-trucks-volvo-vhd",
+          "url": "auto-commercial-trucks-volvo-vhd"
+        }
+      ]
+    },
+    {
+      "label": "WAW",
+      "name": "auto-commercial-trucks-waw",
+      "url": "auto-commercial-trucks-waw",
+      "children": [
+        {
+          "label": "FD1040",
+          "name": "auto-commercial-trucks-waw-fd1040",
+          "url": "auto-commercial-trucks-waw-fd1040"
+        }
+      ]
+    },
+    {
+      "label": "Western Star",
+      "name": "auto-commercial-trucks-western_star",
+      "url": "auto-commercial-trucks-western_star",
+      "children": [
+        {
+          "label": "4900",
+          "name": "auto-commercial-trucks-western_star-4900",
+          "url": "auto-commercial-trucks-western_star-4900"
+        },
+        {
+          "label": "6900",
+          "name": "auto-commercial-trucks-western_star-6900",
+          "url": "auto-commercial-trucks-western_star-6900"
+        }
+      ]
+    },
+    {
+      "label": "YoungMan",
+      "name": "auto-commercial-trucks-youngman",
+      "url": "auto-commercial-trucks-youngman",
+      "children": [
+        {
+          "label": "YTQ3250FD19J",
+          "name": "auto-commercial-trucks-youngman-ytq3250fd19j",
+          "url": "auto-commercial-trucks-youngman-ytq3250fd19j"
+        }
+      ]
+    },
+    {
+      "label": "YueJin",
+      "name": "auto-commercial-trucks-yuejin",
+      "url": "auto-commercial-trucks-yuejin",
+      "children": [
+        {
+          "label": "1080",
+          "name": "auto-commercial-trucks-yuejin-1080",
+          "url": "auto-commercial-trucks-yuejin-1080"
+        }
+      ]
+    },
+    {
+      "label": "АМУР",
+      "name": "auto-commercial-trucks-amur",
+      "url": "auto-commercial-trucks-amur",
+      "children": [
+        {
+          "label": "4331",
+          "name": "auto-commercial-trucks-amur-4331",
+          "url": "auto-commercial-trucks-amur-4331"
+        },
+        {
+          "label": "4346",
+          "name": "auto-commercial-trucks-amur-4346",
+          "url": "auto-commercial-trucks-amur-4346"
+        },
+        {
+          "label": "5312",
+          "name": "auto-commercial-trucks-amur-5312",
+          "url": "auto-commercial-trucks-amur-5312"
+        }
+      ]
+    },
+    {
+      "label": "АЦС-П",
+      "name": "auto-commercial-trucks-acs-p",
+      "url": "auto-commercial-trucks-acs-p",
+      "children": [
+        {
+          "label": "3706Е2",
+          "name": "auto-commercial-trucks-acs-p-3706e2",
+          "url": "auto-commercial-trucks-acs-p-3706e2"
+        }
+      ]
+    },
+    {
+      "label": "БЕЛАЗ",
+      "name": "auto-commercial-trucks-belaz",
+      "url": "auto-commercial-trucks-belaz",
+      "children": [
+        {
+          "label": "7540",
+          "name": "auto-commercial-trucks-belaz-7540",
+          "url": "auto-commercial-trucks-belaz-7540"
+        }
+      ]
+    },
+    {
+      "label": "БЗКТ",
+      "name": "auto-commercial-trucks-bzkt",
+      "url": "auto-commercial-trucks-bzkt",
+      "children": [
+        {
+          "label": "6306",
+          "name": "auto-commercial-trucks-bzkt-6306",
+          "url": "auto-commercial-trucks-bzkt-6306"
+        },
+        {
+          "label": "6909",
+          "name": "auto-commercial-trucks-bzkt-6909",
+          "url": "auto-commercial-trucks-bzkt-6909"
+        },
+        {
+          "label": "6910",
+          "name": "auto-commercial-trucks-bzkt-6910",
+          "url": "auto-commercial-trucks-bzkt-6910"
+        },
+        {
+          "label": "8026",
+          "name": "auto-commercial-trucks-bzkt-8026",
+          "url": "auto-commercial-trucks-bzkt-8026"
+        },
+        {
+          "label": "8027",
+          "name": "auto-commercial-trucks-bzkt-8027",
+          "url": "auto-commercial-trucks-bzkt-8027"
+        },
+        {
+          "label": "8029",
+          "name": "auto-commercial-trucks-bzkt-8029",
+          "url": "auto-commercial-trucks-bzkt-8029"
+        },
+        {
+          "label": "8973",
+          "name": "auto-commercial-trucks-bzkt-8973",
+          "url": "auto-commercial-trucks-bzkt-8973"
+        }
+      ]
+    },
+    {
+      "label": "ВМЗ",
+      "name": "auto-commercial-trucks-vmz",
+      "url": "auto-commercial-trucks-vmz",
+      "children": [
+        {
+          "label": "Г6-ОПА",
+          "name": "auto-commercial-trucks-vmz-g6-opa",
+          "url": "auto-commercial-trucks-vmz-g6-opa"
+        }
+      ]
+    },
+    {
+      "label": "ГАЗ",
+      "name": "auto-commercial-trucks-gaz",
+      "url": "auto-commercial-trucks-gaz",
+      "children": [
+        {
+          "label": "51",
+          "name": "auto-commercial-trucks-gaz-51",
+          "url": "auto-commercial-trucks-gaz-51"
+        },
+        {
+          "label": "52",
+          "name": "auto-commercial-trucks-gaz-52",
+          "url": "auto-commercial-trucks-gaz-52"
+        },
+        {
+          "label": "53",
+          "name": "auto-commercial-trucks-gaz-53",
+          "url": "auto-commercial-trucks-gaz-53"
+        },
+        {
+          "label": "2784",
+          "name": "auto-commercial-trucks-gaz-2784",
+          "url": "auto-commercial-trucks-gaz-2784"
+        },
+        {
+          "label": "3307",
+          "name": "auto-commercial-trucks-gaz-3307",
+          "url": "auto-commercial-trucks-gaz-3307"
+        },
+        {
+          "label": "3308",
+          "name": "auto-commercial-trucks-gaz-3308",
+          "url": "auto-commercial-trucks-gaz-3308"
+        },
+        {
+          "label": "3309",
+          "name": "auto-commercial-trucks-gaz-3309",
+          "url": "auto-commercial-trucks-gaz-3309"
+        },
+        {
+          "label": "3325",
+          "name": "auto-commercial-trucks-gaz-3325",
+          "url": "auto-commercial-trucks-gaz-3325"
+        },
+        {
+          "label": "4301",
+          "name": "auto-commercial-trucks-gaz-4301",
+          "url": "auto-commercial-trucks-gaz-4301"
+        },
+        {
+          "label": "4741",
+          "name": "auto-commercial-trucks-gaz-4741",
+          "url": "auto-commercial-trucks-gaz-4741"
+        },
+        {
+          "label": "Валдай",
+          "name": "auto-commercial-trucks-gaz-valdaj",
+          "url": "auto-commercial-trucks-gaz-valdaj"
+        },
+        {
+          "label": "ГАЗон Next",
+          "name": "auto-commercial-trucks-gaz-gazon_next",
+          "url": "auto-commercial-trucks-gaz-gazon_next"
+        },
+        {
+          "label": "ММ",
+          "name": "auto-commercial-trucks-gaz-mm",
+          "url": "auto-commercial-trucks-gaz-mm"
+        }
+      ]
+    },
+    {
+      "label": "ГАЗ-САЗ",
+      "name": "auto-commercial-trucks-gaz-saz",
+      "url": "auto-commercial-trucks-gaz-saz",
+      "children": [
+        {
+          "label": "2507",
+          "name": "auto-commercial-trucks-gaz-saz-2507",
+          "url": "auto-commercial-trucks-gaz-saz-2507"
+        },
+        {
+          "label": "3507",
+          "name": "auto-commercial-trucks-gaz-saz-3507",
+          "url": "auto-commercial-trucks-gaz-saz-3507"
+        }
+      ]
+    },
+    {
+      "label": "ЗИЛ",
+      "name": "auto-commercial-trucks-zil",
+      "url": "auto-commercial-trucks-zil",
+      "children": [
+        {
+          "label": "130",
+          "name": "auto-commercial-trucks-zil-130",
+          "url": "auto-commercial-trucks-zil-130"
+        },
+        {
+          "label": "133",
+          "name": "auto-commercial-trucks-zil-133",
+          "url": "auto-commercial-trucks-zil-133"
+        },
+        {
+          "label": "554",
+          "name": "auto-commercial-trucks-zil-554",
+          "url": "auto-commercial-trucks-zil-554"
+        },
+        {
+          "label": "4314",
+          "name": "auto-commercial-trucks-zil-4314",
+          "url": "auto-commercial-trucks-zil-4314"
+        },
+        {
+          "label": "4315",
+          "name": "auto-commercial-trucks-zil-4315",
+          "url": "auto-commercial-trucks-zil-4315"
+        },
+        {
+          "label": "4327",
+          "name": "auto-commercial-trucks-zil-4327",
+          "url": "auto-commercial-trucks-zil-4327"
+        },
+        {
+          "label": "4329",
+          "name": "auto-commercial-trucks-zil-4329",
+          "url": "auto-commercial-trucks-zil-4329"
+        },
+        {
+          "label": "4331",
+          "name": "auto-commercial-trucks-zil-4331",
+          "url": "auto-commercial-trucks-zil-4331"
+        },
+        {
+          "label": "4333",
+          "name": "auto-commercial-trucks-zil-4333",
+          "url": "auto-commercial-trucks-zil-4333"
+        },
+        {
+          "label": "4334",
+          "name": "auto-commercial-trucks-zil-4334",
+          "url": "auto-commercial-trucks-zil-4334"
+        },
+        {
+          "label": "4336",
+          "name": "auto-commercial-trucks-zil-4336",
+          "url": "auto-commercial-trucks-zil-4336"
+        },
+        {
+          "label": "4502 ММЗ",
+          "name": "auto-commercial-trucks-zil-4502_mmz",
+          "url": "auto-commercial-trucks-zil-4502_mmz"
+        },
+        {
+          "label": "4505",
+          "name": "auto-commercial-trucks-zil-4505",
+          "url": "auto-commercial-trucks-zil-4505"
+        },
+        {
+          "label": "4508",
+          "name": "auto-commercial-trucks-zil-4508",
+          "url": "auto-commercial-trucks-zil-4508"
+        },
+        {
+          "label": "4514",
+          "name": "auto-commercial-trucks-zil-4514",
+          "url": "auto-commercial-trucks-zil-4514"
+        },
+        {
+          "label": "4945",
+          "name": "auto-commercial-trucks-zil-4945",
+          "url": "auto-commercial-trucks-zil-4945"
+        },
+        {
+          "label": "4972",
+          "name": "auto-commercial-trucks-zil-4972",
+          "url": "auto-commercial-trucks-zil-4972"
+        },
+        {
+          "label": "5301",
+          "name": "auto-commercial-trucks-zil-5301",
+          "url": "auto-commercial-trucks-zil-5301"
+        },
+        {
+          "label": "5302",
+          "name": "auto-commercial-trucks-zil-5302",
+          "url": "auto-commercial-trucks-zil-5302"
+        },
+        {
+          "label": "5343",
+          "name": "auto-commercial-trucks-zil-5343",
+          "url": "auto-commercial-trucks-zil-5343"
+        },
+        {
+          "label": "45065",
+          "name": "auto-commercial-trucks-zil-45065",
+          "url": "auto-commercial-trucks-zil-45065"
+        },
+        {
+          "label": "550 ММЗ",
+          "name": "auto-commercial-trucks-zil-550_mmz",
+          "url": "auto-commercial-trucks-zil-550_mmz"
+        },
+        {
+          "label": "6309",
+          "name": "auto-commercial-trucks-zil-6309",
+          "url": "auto-commercial-trucks-zil-6309"
+        }
+      ]
+    },
+    {
+      "label": "КАЗ",
+      "name": "auto-commercial-trucks-kaz",
+      "url": "auto-commercial-trucks-kaz",
+      "children": [
+        {
+          "label": "608",
+          "name": "auto-commercial-trucks-kaz-608",
+          "url": "auto-commercial-trucks-kaz-608"
+        }
+      ]
+    },
+    {
+      "label": "КамАЗ",
+      "name": "auto-commercial-trucks-kamaz",
+      "url": "auto-commercial-trucks-kamaz",
+      "children": [
+        {
+          "label": "4308",
+          "name": "auto-commercial-trucks-kamaz-4308",
+          "url": "auto-commercial-trucks-kamaz-4308"
+        },
+        {
+          "label": "4310",
+          "name": "auto-commercial-trucks-kamaz-4310",
+          "url": "auto-commercial-trucks-kamaz-4310"
+        },
+        {
+          "label": "4311",
+          "name": "auto-commercial-trucks-kamaz-4311",
+          "url": "auto-commercial-trucks-kamaz-4311"
+        },
+        {
+          "label": "4325",
+          "name": "auto-commercial-trucks-kamaz-4325",
+          "url": "auto-commercial-trucks-kamaz-4325"
+        },
+        {
+          "label": "4326",
+          "name": "auto-commercial-trucks-kamaz-4326",
+          "url": "auto-commercial-trucks-kamaz-4326"
+        },
+        {
+          "label": "4350",
+          "name": "auto-commercial-trucks-kamaz-4350",
+          "url": "auto-commercial-trucks-kamaz-4350"
+        },
+        {
+          "label": "4514",
+          "name": "auto-commercial-trucks-kamaz-4514",
+          "url": "auto-commercial-trucks-kamaz-4514"
+        },
+        {
+          "label": "4528",
+          "name": "auto-commercial-trucks-kamaz-4528",
+          "url": "auto-commercial-trucks-kamaz-4528"
+        },
+        {
+          "label": "4911",
+          "name": "auto-commercial-trucks-kamaz-4911",
+          "url": "auto-commercial-trucks-kamaz-4911"
+        },
+        {
+          "label": "5308",
+          "name": "auto-commercial-trucks-kamaz-5308",
+          "url": "auto-commercial-trucks-kamaz-5308"
+        },
+        {
+          "label": "5320",
+          "name": "auto-commercial-trucks-kamaz-5320",
+          "url": "auto-commercial-trucks-kamaz-5320"
+        },
+        {
+          "label": "5321",
+          "name": "auto-commercial-trucks-kamaz-5321",
+          "url": "auto-commercial-trucks-kamaz-5321"
+        },
+        {
+          "label": "5322",
+          "name": "auto-commercial-trucks-kamaz-5322",
+          "url": "auto-commercial-trucks-kamaz-5322"
+        },
+        {
+          "label": "5350",
+          "name": "auto-commercial-trucks-kamaz-5350",
+          "url": "auto-commercial-trucks-kamaz-5350"
+        },
+        {
+          "label": "5360",
+          "name": "auto-commercial-trucks-kamaz-5360",
+          "url": "auto-commercial-trucks-kamaz-5360"
+        },
+        {
+          "label": "5410",
+          "name": "auto-commercial-trucks-kamaz-5410",
+          "url": "auto-commercial-trucks-kamaz-5410"
+        },
+        {
+          "label": "5510",
+          "name": "auto-commercial-trucks-kamaz-5510",
+          "url": "auto-commercial-trucks-kamaz-5510"
+        },
+        {
+          "label": "5511",
+          "name": "auto-commercial-trucks-kamaz-5511",
+          "url": "auto-commercial-trucks-kamaz-5511"
+        },
+        {
+          "label": "6350",
+          "name": "auto-commercial-trucks-kamaz-6350",
+          "url": "auto-commercial-trucks-kamaz-6350"
+        },
+        {
+          "label": "6360",
+          "name": "auto-commercial-trucks-kamaz-6360",
+          "url": "auto-commercial-trucks-kamaz-6360"
+        },
+        {
+          "label": "6511",
+          "name": "auto-commercial-trucks-kamaz-6511",
+          "url": "auto-commercial-trucks-kamaz-6511"
+        },
+        {
+          "label": "6520",
+          "name": "auto-commercial-trucks-kamaz-6520",
+          "url": "auto-commercial-trucks-kamaz-6520"
+        },
+        {
+          "label": "6522",
+          "name": "auto-commercial-trucks-kamaz-6522",
+          "url": "auto-commercial-trucks-kamaz-6522"
+        },
+        {
+          "label": "6540",
+          "name": "auto-commercial-trucks-kamaz-6540",
+          "url": "auto-commercial-trucks-kamaz-6540"
+        },
+        {
+          "label": "6560",
+          "name": "auto-commercial-trucks-kamaz-6560",
+          "url": "auto-commercial-trucks-kamaz-6560"
+        },
+        {
+          "label": "6580",
+          "name": "auto-commercial-trucks-kamaz-6580",
+          "url": "auto-commercial-trucks-kamaz-6580"
+        },
+        {
+          "label": "43118",
+          "name": "auto-commercial-trucks-kamaz-43118",
+          "url": "auto-commercial-trucks-kamaz-43118"
+        },
+        {
+          "label": "63505",
+          "name": "auto-commercial-trucks-kamaz-63505",
+          "url": "auto-commercial-trucks-kamaz-63505"
+        },
+        {
+          "label": "АБС",
+          "name": "auto-commercial-trucks-kamaz-abs",
+          "url": "auto-commercial-trucks-kamaz-abs"
+        },
+        {
+          "label": "АКНС",
+          "name": "auto-commercial-trucks-kamaz-akns",
+          "url": "auto-commercial-trucks-kamaz-akns"
+        },
+        {
+          "label": "АТЗ",
+          "name": "auto-commercial-trucks-kamaz-atz",
+          "url": "auto-commercial-trucks-kamaz-atz"
+        },
+        {
+          "label": "АЦ",
+          "name": "auto-commercial-trucks-kamaz-ac",
+          "url": "auto-commercial-trucks-kamaz-ac"
+        },
+        {
+          "label": "АЦН",
+          "name": "auto-commercial-trucks-kamaz-acn",
+          "url": "auto-commercial-trucks-kamaz-acn"
+        }
+      ]
+    },
+    {
+      "label": "КРАЗ",
+      "name": "auto-commercial-trucks-kraz",
+      "url": "auto-commercial-trucks-kraz",
+      "children": [
+        {
+          "label": "250",
+          "name": "auto-commercial-trucks-kraz-250",
+          "url": "auto-commercial-trucks-kraz-250"
+        },
+        {
+          "label": "255",
+          "name": "auto-commercial-trucks-kraz-255",
+          "url": "auto-commercial-trucks-kraz-255"
+        },
+        {
+          "label": "256",
+          "name": "auto-commercial-trucks-kraz-256",
+          "url": "auto-commercial-trucks-kraz-256"
+        },
+        {
+          "label": "260",
+          "name": "auto-commercial-trucks-kraz-260",
+          "url": "auto-commercial-trucks-kraz-260"
+        },
+        {
+          "label": "5133",
+          "name": "auto-commercial-trucks-kraz-5133",
+          "url": "auto-commercial-trucks-kraz-5133"
+        },
+        {
+          "label": "6125",
+          "name": "auto-commercial-trucks-kraz-6125",
+          "url": "auto-commercial-trucks-kraz-6125"
+        },
+        {
+          "label": "6130",
+          "name": "auto-commercial-trucks-kraz-6130",
+          "url": "auto-commercial-trucks-kraz-6130"
+        },
+        {
+          "label": "6133",
+          "name": "auto-commercial-trucks-kraz-6133",
+          "url": "auto-commercial-trucks-kraz-6133"
+        },
+        {
+          "label": "6135",
+          "name": "auto-commercial-trucks-kraz-6135",
+          "url": "auto-commercial-trucks-kraz-6135"
+        },
+        {
+          "label": "6230",
+          "name": "auto-commercial-trucks-kraz-6230",
+          "url": "auto-commercial-trucks-kraz-6230"
+        },
+        {
+          "label": "6322",
+          "name": "auto-commercial-trucks-kraz-6322",
+          "url": "auto-commercial-trucks-kraz-6322"
+        },
+        {
+          "label": "6503",
+          "name": "auto-commercial-trucks-kraz-6503",
+          "url": "auto-commercial-trucks-kraz-6503"
+        },
+        {
+          "label": "6505",
+          "name": "auto-commercial-trucks-kraz-6505",
+          "url": "auto-commercial-trucks-kraz-6505"
+        },
+        {
+          "label": "6510",
+          "name": "auto-commercial-trucks-kraz-6510",
+          "url": "auto-commercial-trucks-kraz-6510"
+        },
+        {
+          "label": "7133",
+          "name": "auto-commercial-trucks-kraz-7133",
+          "url": "auto-commercial-trucks-kraz-7133"
+        },
+        {
+          "label": "7140",
+          "name": "auto-commercial-trucks-kraz-7140",
+          "url": "auto-commercial-trucks-kraz-7140"
+        },
+        {
+          "label": "АТЗ",
+          "name": "auto-commercial-trucks-kraz-atz",
+          "url": "auto-commercial-trucks-kraz-atz"
+        },
+        {
+          "label": "АЦПТ",
+          "name": "auto-commercial-trucks-kraz-acpt",
+          "url": "auto-commercial-trucks-kraz-acpt"
+        }
+      ]
+    },
+    {
+      "label": "МАЗ",
+      "name": "auto-commercial-trucks-maz",
+      "url": "auto-commercial-trucks-maz",
+      "children": [
+        {
+          "label": "236",
+          "name": "auto-commercial-trucks-maz-236",
+          "url": "auto-commercial-trucks-maz-236"
+        },
+        {
+          "label": "238",
+          "name": "auto-commercial-trucks-maz-238",
+          "url": "auto-commercial-trucks-maz-238"
+        },
+        {
+          "label": "500",
+          "name": "auto-commercial-trucks-maz-500",
+          "url": "auto-commercial-trucks-maz-500"
+        },
+        {
+          "label": "509",
+          "name": "auto-commercial-trucks-maz-509",
+          "url": "auto-commercial-trucks-maz-509"
+        },
+        {
+          "label": "4370",
+          "name": "auto-commercial-trucks-maz-4370",
+          "url": "auto-commercial-trucks-maz-4370"
+        },
+        {
+          "label": "4371",
+          "name": "auto-commercial-trucks-maz-4371",
+          "url": "auto-commercial-trucks-maz-4371"
+        },
+        {
+          "label": "4570",
+          "name": "auto-commercial-trucks-maz-4570",
+          "url": "auto-commercial-trucks-maz-4570"
+        },
+        {
+          "label": "4571",
+          "name": "auto-commercial-trucks-maz-4571",
+          "url": "auto-commercial-trucks-maz-4571"
+        },
+        {
+          "label": "4581",
+          "name": "auto-commercial-trucks-maz-4581",
+          "url": "auto-commercial-trucks-maz-4581"
+        },
+        {
+          "label": "4744",
+          "name": "auto-commercial-trucks-maz-4744",
+          "url": "auto-commercial-trucks-maz-4744"
+        },
+        {
+          "label": "5309",
+          "name": "auto-commercial-trucks-maz-5309",
+          "url": "auto-commercial-trucks-maz-5309"
+        },
+        {
+          "label": "5316",
+          "name": "auto-commercial-trucks-maz-5316",
+          "url": "auto-commercial-trucks-maz-5316"
+        },
+        {
+          "label": "5334",
+          "name": "auto-commercial-trucks-maz-5334",
+          "url": "auto-commercial-trucks-maz-5334"
+        },
+        {
+          "label": "5336",
+          "name": "auto-commercial-trucks-maz-5336",
+          "url": "auto-commercial-trucks-maz-5336"
+        },
+        {
+          "label": "5337",
+          "name": "auto-commercial-trucks-maz-5337",
+          "url": "auto-commercial-trucks-maz-5337"
+        },
+        {
+          "label": "5340",
+          "name": "auto-commercial-trucks-maz-5340",
+          "url": "auto-commercial-trucks-maz-5340"
+        },
+        {
+          "label": "5434",
+          "name": "auto-commercial-trucks-maz-5434",
+          "url": "auto-commercial-trucks-maz-5434"
+        },
+        {
+          "label": "5516",
+          "name": "auto-commercial-trucks-maz-5516",
+          "url": "auto-commercial-trucks-maz-5516"
+        },
+        {
+          "label": "5549",
+          "name": "auto-commercial-trucks-maz-5549",
+          "url": "auto-commercial-trucks-maz-5549"
+        },
+        {
+          "label": "5550",
+          "name": "auto-commercial-trucks-maz-5550",
+          "url": "auto-commercial-trucks-maz-5550"
+        },
+        {
+          "label": "5551",
+          "name": "auto-commercial-trucks-maz-5551",
+          "url": "auto-commercial-trucks-maz-5551"
+        },
+        {
+          "label": "5659",
+          "name": "auto-commercial-trucks-maz-5659",
+          "url": "auto-commercial-trucks-maz-5659"
+        },
+        {
+          "label": "5743",
+          "name": "auto-commercial-trucks-maz-5743",
+          "url": "auto-commercial-trucks-maz-5743"
+        },
+        {
+          "label": "6303",
+          "name": "auto-commercial-trucks-maz-6303",
+          "url": "auto-commercial-trucks-maz-6303"
+        },
+        {
+          "label": "6310",
+          "name": "auto-commercial-trucks-maz-6310",
+          "url": "auto-commercial-trucks-maz-6310"
+        },
+        {
+          "label": "6312",
+          "name": "auto-commercial-trucks-maz-6312",
+          "url": "auto-commercial-trucks-maz-6312"
+        },
+        {
+          "label": "6317",
+          "name": "auto-commercial-trucks-maz-6317",
+          "url": "auto-commercial-trucks-maz-6317"
+        },
+        {
+          "label": "6501",
+          "name": "auto-commercial-trucks-maz-6501",
+          "url": "auto-commercial-trucks-maz-6501"
+        },
+        {
+          "label": "6514",
+          "name": "auto-commercial-trucks-maz-6514",
+          "url": "auto-commercial-trucks-maz-6514"
+        },
+        {
+          "label": "6516",
+          "name": "auto-commercial-trucks-maz-6516",
+          "url": "auto-commercial-trucks-maz-6516"
+        },
+        {
+          "label": "6517",
+          "name": "auto-commercial-trucks-maz-6517",
+          "url": "auto-commercial-trucks-maz-6517"
+        },
+        {
+          "label": "47820",
+          "name": "auto-commercial-trucks-maz-47820",
+          "url": "auto-commercial-trucks-maz-47820"
+        }
+      ]
+    },
+    {
+      "label": "МАЗ-МАН",
+      "name": "auto-commercial-trucks-maz-man",
+      "url": "auto-commercial-trucks-maz-man",
+      "children": [
+        {
+          "label": "630168",
+          "name": "auto-commercial-trucks-maz-man-630168",
+          "url": "auto-commercial-trucks-maz-man-630168"
+        },
+        {
+          "label": "630368",
+          "name": "auto-commercial-trucks-maz-man-630368",
+          "url": "auto-commercial-trucks-maz-man-630368"
+        },
+        {
+          "label": "651668",
+          "name": "auto-commercial-trucks-maz-man-651668",
+          "url": "auto-commercial-trucks-maz-man-651668"
+        },
+        {
+          "label": "730168",
+          "name": "auto-commercial-trucks-maz-man-730168",
+          "url": "auto-commercial-trucks-maz-man-730168"
+        },
+        {
+          "label": "730268",
+          "name": "auto-commercial-trucks-maz-man-730268",
+          "url": "auto-commercial-trucks-maz-man-730268"
+        },
+        {
+          "label": "750268",
+          "name": "auto-commercial-trucks-maz-man-750268",
+          "url": "auto-commercial-trucks-maz-man-750268"
+        }
+      ]
+    },
+    {
+      "label": "МЗКТ",
+      "name": "auto-commercial-trucks-mzkt",
+      "url": "auto-commercial-trucks-mzkt",
+      "children": [
+        {
+          "label": "6515",
+          "name": "auto-commercial-trucks-mzkt-6515",
+          "url": "auto-commercial-trucks-mzkt-6515"
+        },
+        {
+          "label": "6525",
+          "name": "auto-commercial-trucks-mzkt-6525",
+          "url": "auto-commercial-trucks-mzkt-6525"
+        },
+        {
+          "label": "6527",
+          "name": "auto-commercial-trucks-mzkt-6527",
+          "url": "auto-commercial-trucks-mzkt-6527"
+        },
+        {
+          "label": "6923",
+          "name": "auto-commercial-trucks-mzkt-6923",
+          "url": "auto-commercial-trucks-mzkt-6923"
+        },
+        {
+          "label": "7001",
+          "name": "auto-commercial-trucks-mzkt-7001",
+          "url": "auto-commercial-trucks-mzkt-7001"
+        },
+        {
+          "label": "7003",
+          "name": "auto-commercial-trucks-mzkt-7003",
+          "url": "auto-commercial-trucks-mzkt-7003"
+        },
+        {
+          "label": "7004",
+          "name": "auto-commercial-trucks-mzkt-7004",
+          "url": "auto-commercial-trucks-mzkt-7004"
+        },
+        {
+          "label": "7501",
+          "name": "auto-commercial-trucks-mzkt-7501",
+          "url": "auto-commercial-trucks-mzkt-7501"
+        },
+        {
+          "label": "7516",
+          "name": "auto-commercial-trucks-mzkt-7516",
+          "url": "auto-commercial-trucks-mzkt-7516"
+        },
+        {
+          "label": "7908",
+          "name": "auto-commercial-trucks-mzkt-7908",
+          "url": "auto-commercial-trucks-mzkt-7908"
+        },
+        {
+          "label": "7909",
+          "name": "auto-commercial-trucks-mzkt-7909",
+          "url": "auto-commercial-trucks-mzkt-7909"
+        },
+        {
+          "label": "7919",
+          "name": "auto-commercial-trucks-mzkt-7919",
+          "url": "auto-commercial-trucks-mzkt-7919"
+        },
+        {
+          "label": "7930",
+          "name": "auto-commercial-trucks-mzkt-7930",
+          "url": "auto-commercial-trucks-mzkt-7930"
+        },
+        {
+          "label": "8007",
+          "name": "auto-commercial-trucks-mzkt-8007",
+          "url": "auto-commercial-trucks-mzkt-8007"
+        },
+        {
+          "label": "65151",
+          "name": "auto-commercial-trucks-mzkt-65151",
+          "url": "auto-commercial-trucks-mzkt-65151"
+        },
+        {
+          "label": "65158",
+          "name": "auto-commercial-trucks-mzkt-65158",
+          "url": "auto-commercial-trucks-mzkt-65158"
+        }
+      ]
+    },
+    {
+      "label": "МоАЗ",
+      "name": "auto-commercial-trucks-moaz",
+      "url": "auto-commercial-trucks-moaz",
+      "children": [
+        {
+          "label": "750511",
+          "name": "auto-commercial-trucks-moaz-750511",
+          "url": "auto-commercial-trucks-moaz-750511"
+        }
+      ]
+    },
+    {
+      "label": "НефАЗ",
+      "name": "auto-commercial-trucks-nefaz",
+      "url": "auto-commercial-trucks-nefaz",
+      "children": [
+        {
+          "label": "Автоцистерны",
+          "name": "auto-commercial-trucks-nefaz-avtocisterny",
+          "url": "auto-commercial-trucks-nefaz-avtocisterny"
+        },
+        {
+          "label": "Топливозаправщики",
+          "name": "auto-commercial-trucks-nefaz-toplivozapravshtiki",
+          "url": "auto-commercial-trucks-nefaz-toplivozapravshtiki"
+        }
+      ]
+    },
+    {
+      "label": "Русич (КЗКТ)",
+      "name": "auto-commercial-trucks-rusich_kzkt",
+      "url": "auto-commercial-trucks-rusich_kzkt",
+      "children": [
+        {
+          "label": "6531",
+          "name": "auto-commercial-trucks-rusich_kzkt-6531",
+          "url": "auto-commercial-trucks-rusich_kzkt-6531"
+        }
+      ]
+    },
+    {
+      "label": "Старт",
+      "name": "auto-commercial-trucks-start",
+      "url": "auto-commercial-trucks-start",
+      "children": [
+        {
+          "label": "В1-ОТА-13.5",
+          "name": "auto-commercial-trucks-start-v1-ota-13_5",
+          "url": "auto-commercial-trucks-start-v1-ota-13_5"
+        }
+      ]
+    },
+    {
+      "label": "Тонар",
+      "name": "auto-commercial-trucks-tonar",
+      "url": "auto-commercial-trucks-tonar",
+      "children": [
+        {
+          "label": "6528",
+          "name": "auto-commercial-trucks-tonar-6528",
+          "url": "auto-commercial-trucks-tonar-6528"
+        }
+      ]
+    },
+    {
+      "label": "Урал",
+      "name": "auto-commercial-trucks-ural",
+      "url": "auto-commercial-trucks-ural",
+      "children": [
+        {
+          "label": "4211",
+          "name": "auto-commercial-trucks-ural-4211",
+          "url": "auto-commercial-trucks-ural-4211"
+        },
+        {
+          "label": "4320",
+          "name": "auto-commercial-trucks-ural-4320",
+          "url": "auto-commercial-trucks-ural-4320"
+        },
+        {
+          "label": "5323",
+          "name": "auto-commercial-trucks-ural-5323",
+          "url": "auto-commercial-trucks-ural-5323"
+        },
+        {
+          "label": "5557",
+          "name": "auto-commercial-trucks-ural-5557",
+          "url": "auto-commercial-trucks-ural-5557"
+        },
+        {
+          "label": "6323",
+          "name": "auto-commercial-trucks-ural-6323",
+          "url": "auto-commercial-trucks-ural-6323"
+        },
+        {
+          "label": "6362",
+          "name": "auto-commercial-trucks-ural-6362",
+          "url": "auto-commercial-trucks-ural-6362"
+        },
+        {
+          "label": "6368",
+          "name": "auto-commercial-trucks-ural-6368",
+          "url": "auto-commercial-trucks-ural-6368"
+        },
+        {
+          "label": "6370",
+          "name": "auto-commercial-trucks-ural-6370",
+          "url": "auto-commercial-trucks-ural-6370"
+        },
+        {
+          "label": "6563",
+          "name": "auto-commercial-trucks-ural-6563",
+          "url": "auto-commercial-trucks-ural-6563"
+        },
+        {
+          "label": "6902",
+          "name": "auto-commercial-trucks-ural-6902",
+          "url": "auto-commercial-trucks-ural-6902"
+        },
+        {
+          "label": "6923",
+          "name": "auto-commercial-trucks-ural-6923",
+          "url": "auto-commercial-trucks-ural-6923"
+        },
+        {
+          "label": "65515",
+          "name": "auto-commercial-trucks-ural-65515",
+          "url": "auto-commercial-trucks-ural-65515"
+        },
+        {
+          "label": "583100",
+          "name": "auto-commercial-trucks-ural-583100",
+          "url": "auto-commercial-trucks-ural-583100"
+        },
+        {
+          "label": "583109",
+          "name": "auto-commercial-trucks-ural-583109",
+          "url": "auto-commercial-trucks-ural-583109"
+        },
+        {
+          "label": "690213",
+          "name": "auto-commercial-trucks-ural-690213",
+          "url": "auto-commercial-trucks-ural-690213"
+        },
+        {
+          "label": "Next",
+          "name": "auto-commercial-trucks-ural-next",
+          "url": "auto-commercial-trucks-ural-next"
+        },
+        {
+          "label": "АДПМ",
+          "name": "auto-commercial-trucks-ural-adpm",
+          "url": "auto-commercial-trucks-ural-adpm"
+        },
+        {
+          "label": "АСП",
+          "name": "auto-commercial-trucks-ural-asp",
+          "url": "auto-commercial-trucks-ural-asp"
+        },
+        {
+          "label": "АТА",
+          "name": "auto-commercial-trucks-ural-ata",
+          "url": "auto-commercial-trucks-ural-ata"
+        },
+        {
+          "label": "АТМЗ",
+          "name": "auto-commercial-trucks-ural-atmz",
+          "url": "auto-commercial-trucks-ural-atmz"
+        },
+        {
+          "label": "АЦВ",
+          "name": "auto-commercial-trucks-ural-acv",
+          "url": "auto-commercial-trucks-ural-acv"
+        },
+        {
+          "label": "АЦК",
+          "name": "auto-commercial-trucks-ural-ack",
+          "url": "auto-commercial-trucks-ural-ack"
+        },
+        {
+          "label": "АЦНТ",
+          "name": "auto-commercial-trucks-ural-acnt",
+          "url": "auto-commercial-trucks-ural-acnt"
+        },
+        {
+          "label": "АЦПТ",
+          "name": "auto-commercial-trucks-ural-acpt",
+          "url": "auto-commercial-trucks-ural-acpt"
+        },
+        {
+          "label": "ЗМ",
+          "name": "auto-commercial-trucks-ural-zm",
+          "url": "auto-commercial-trucks-ural-zm"
+        },
+        {
+          "label": "МВ",
+          "name": "auto-commercial-trucks-ural-mv",
+          "url": "auto-commercial-trucks-ural-mv"
+        },
+        {
+          "label": "МРМ",
+          "name": "auto-commercial-trucks-ural-mrm",
+          "url": "auto-commercial-trucks-ural-mrm"
+        },
+        {
+          "label": "МРС",
+          "name": "auto-commercial-trucks-ural-mrs",
+          "url": "auto-commercial-trucks-ural-mrs"
+        }
+      ]
+    },
+    {
+      "label": "ЯРОВИТ МОТОРС",
+      "name": "auto-commercial-trucks-qrovit_motors",
+      "url": "auto-commercial-trucks-qrovit_motors",
+      "children": [
+        {
+          "label": "GLOROS",
+          "name": "auto-commercial-trucks-qrovit_motors-gloros",
+          "url": "auto-commercial-trucks-qrovit_motors-gloros"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "name": "auto-commercial-trucks-type",
+      "label": "Тип кузова",
+      "priority": 1,
+      "post_form": "dropdown",
+      "search_form": "checkbox",
+      "search_priority": 1,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Автовоз", "priority": 1
+        },
+        {
+          "label": "Автотопливозаправщик", "priority": 1
+        },
+        {
+          "label": "Автоцистерна", "priority": 1
+        },
+        {
+          "label": "Бортовой грузовик", "priority": 1
+        },
+        {
+          "label": "Вакуумная машина", "priority": 1
+        },
+        {
+          "label": "Вахтовый автобус", "priority": 1
+        },
+        {
+          "label": "Газовоз", "priority": 1
+        },
+        {
+          "label": "Для перевозки скота", "priority": 1
+        },
+        {
+          "label": "Изотермический кузов", "priority": 1
+        },
+        {
+          "label": "Контейнеровоз", "priority": 1
+        },
+        {
+          "label": "КУНГ", "priority": 1
+        },
+        {
+          "label": "Лесовоз", "priority": 1
+        },
+        {
+          "label": "Ломовоз/металловоз", "priority": 1
+        },
+        {
+          "label": "Плетевоз", "priority": 1
+        },
+        {
+          "label": "Рефрижератор", "priority": 1
+        },
+        {
+          "label": "Рыбовоз", "priority": 1
+        },
+        {
+          "label": "Самосвал", "priority": 1
+        },
+        {
+          "label": "Самосвал с 2-х разгрузкой", "priority": 1
+        },
+        {
+          "label": "Самосвал с 3-х разгрузкой", "priority": 1
+        },
+        {
+          "label": "Сортиментовоз", "priority": 1
+        },
+        {
+          "label": "Тент", "priority": 1
+        },
+        {
+          "label": "Термокузов", "priority": 1
+        },
+        {
+          "label": "Трубовоз", "priority": 1
+        },
+        {
+          "label": "Фургон", "priority": 1
+        },
+        {
+          "label": "Цементовоз", "priority": 1
+        },
+        {
+          "label": "Шасси", "priority": 1
+        },
+        {
+          "label": "Эвакуатор", "priority": 1
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип кузова"
+        }
+      ]
+    },
+    {
+      "label": "Цена",
+      "name": "auto-commercial-trucks-price",
+      "priority": 2,
+      "post_form": "textbox",
+      "measure": "сом",
+      "search_form": "range",
+      "search_priority": 2,
+      "filter_default_toggle": true,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите цену"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Год выпуска",
+      "name": "auto-commercial-trucks-year",
+      "priority": 3,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 3,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Необходимо заполнить поле \"Год выпуска\"."
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Год выпуска\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Пробег",
+      "name": "auto-commercial-trucks-odometer",
+      "priority": 4,
+      "post_form": "textbox",
+      "measure": "км",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Пробег\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Расположение руля",
+      "name": "auto-commercial-trucks-steering_wheel",
+      "priority": 5,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 5,
+      "options": [
+        {
+          "label": "Слева",
+          "priority": 1
+        },
+        {
+          "label": "Справа",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите расположение руля."
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-trucks-engine",
+      "label": "Тип двигателя",
+      "priority": 6,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 6,
+      "options": [
+        {
+          "label": "Дизель",
+          "priority": 1
+        },
+        {
+          "label": "Бензин",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип двигателя."
+        }
+      ]
+    },
+    {
+      "label": "Объем двигателя",
+      "name": "auto-commercial-trucks-volume",
+      "priority": 7,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 7,
+      "measure": "л.",
+      "hint": "пример: 3.0",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите объем двигателя."
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "\"Объем двигателя\" - значение должно быть числом."
+        }
+      ]
+    },
+    {
+      "label": "Коробка передач",
+      "name": "auto-commercial-trucks-transmission",
+      "priority": 8,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 8,
+      "options": [
+        {
+          "label": "Механика",
+          "priority": 1
+        },
+        {
+          "label": "Автомат",
+          "priority": 2
+        },
+        {
+          "label": "Полуавтомат",
+          "priority": 3
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип коробки передач"
+        }
+      ]
+    },
+    {
+      "label": "Наличие",
+      "name": "auto-commercial-trucks-availability",
+      "priority": 9,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 13,
+      "options": [
+        {
+          "label": "В наличии",
+          "priority": 1
+        },
+        {
+          "label": "На заказ",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите наличие"
+        }
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "auto-commercial-trucks-condition",
+      "priority": 10,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "Отличное",
+          "priority": 1
+        },
+        {
+          "label": "Хорошее",
+          "priority": 2
+        },
+        {
+          "label": "Среднее",
+          "priority": 3
+        },
+        {
+          "label": "Требует ремонта",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "Мощность",
+      "name": "auto-commercial-trucks-power",
+      "priority": 11,
+      "post_form": "textbox",
+      "measure": "л.с.",
+      "hint": "пример: 52 л.с.",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Мощность\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Грузоподъемность",
+      "name": "auto-commercial-trucks-capacity",
+      "priority": 12,
+      "post_form": "textbox",
+      "measure": "кг",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Грузоподъемность\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-trucks-cab_type",
+      "label": "Тип кабины",
+      "priority": 13,
+      "post_form": "dropdown",
+      "options": [
+        {
+          "label": "2-х местная без спального",
+          "priority": 1
+        },
+        {
+          "label": "2-х местная с 1 спальным",
+          "priority": 2
+        },
+        {
+          "label": "2-х местная с 2 спальными",
+          "priority": 3
+        },
+        {
+          "label": "3-х местная без спального",
+          "priority": 4
+        },
+        {
+          "label": "3-х местная с 1 спальным",
+          "priority": 5
+        },
+        {
+          "label": "6-ти местная, двухрядная",
+          "priority": 6
+        },
+        {
+          "label": "7-и местная, двухрядная",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "name": "chassis_suspension",
+      "label": "Подвеска шасси",
+      "priority": 14,
+      "post_form": "dropdown",
+      "options": [
+        {
+          "label": "рессора-рессора",
+          "priority": 1
+        },
+        {
+          "label": "рессора-пневмо",
+          "priority": 2
+        },
+        {
+          "label": "пневмо-пневмо",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-trucks-cab_suspension",
+      "label": "Подвеска кабины",
+      "priority": 15,
+      "post_form": "dropdown",
+      "options": [
+        {
+          "label": "механическая",
+          "priority": 1
+        },
+        {
+          "label": "пневматическая",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-trucks-wheel_formula",
+      "label": "Колесная формула",
+      "priority": 16,
+      "post_form": "dropdown",
+      "options": [
+        {
+          "label": "10x10",
+          "priority": 1
+        },
+        {
+          "label": "10x6",
+          "priority": 2
+        },
+        {
+          "label": "4x2",
+          "priority": 3
+        },
+        {
+          "label": "4x4",
+          "priority": 4
+        },
+        {
+          "label": "6x2",
+          "priority": 5
+        },
+        {
+          "label": "6x4",
+          "priority": 6
+        },
+        {
+          "label": "6x6",
+          "priority": 7
+        },
+        {
+          "label": "8x2",
+          "priority": 8
+        },
+        {
+          "label": "8x4",
+          "priority": 9
+        },
+        {
+          "label": "8x8",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "label": "Опции",
+      "name": "auto-commercial-trucks-options",
+      "priority": 17,
+      "post_form": "collapse",
+      "parameters": [
+        {
+          "label": "Комплектация",
+          "name": "auto-commercial-trucks-options-equipment",
+          "priority": 1,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "abs",
+              "label": "Антиблок. система (ABS)",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "aeroDeflector",
+              "label": "Аэродефлектор",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "name": "tachograph",
+              "label": "Тахограф",
+              "post_form": "checkbox",
+              "priority": 3
+            },
+            {
+              "name": "heated_mirrors",
+              "label": "Обогрев зеркал",
+              "post_form": "checkbox",
+              "priority": 4
+            },
+            {
+              "name": "interior_heater",
+              "label": "Автономный отопитель салона",
+              "post_form": "checkbox",
+              "priority": 5
+            },
+            {
+              "name": "fridge",
+              "label": "Холодильник",
+              "post_form": "checkbox",
+              "priority": 6
+            },
+            {
+              "name": "bow_thruster",
+              "label": "Подруливающая ось",
+              "post_form": "checkbox",
+              "priority": 7
+            },
+            {
+              "name": "engine_preheating",
+              "label": "Предпусковой подогрев двигателя",
+              "post_form": "checkbox",
+              "priority": 8
+            },
+            {
+              "name": "tv",
+              "label": "Телевизор",
+              "post_form": "checkbox",
+              "priority": 9
+            },
+            {
+              "name": "power_mirrors",
+              "label": "Электропривод зеркал",
+              "post_form": "checkbox",
+              "priority": 10
+            },
+            {
+              "name": "ebs",
+              "label": "Эл.тормозная система (EBS)",
+              "post_form": "checkbox",
+              "priority": 11
+            },
+            {
+              "name": "headlights_corrector",
+              "label": "Корректор фар",
+              "post_form": "checkbox",
+              "priority": 12
+            },
+            {
+              "name": "airbags",
+              "label": "Подушки безопасности",
+              "post_form": "checkbox",
+              "priority": 13
+            },
+            {
+              "name": "cruise_control",
+              "label": "Круиз-контроль",
+              "post_form": "checkbox",
+              "priority": 14
+            },
+            {
+              "name": "computer",
+              "label": "Бортовой компьютер",
+              "post_form": "checkbox",
+              "priority": 15
+            },
+            {
+              "name": "navigation",
+              "label": "Навигационная система",
+              "post_form": "checkbox",
+              "priority": 16
+            },
+            {
+              "name": "lifting_axle",
+              "label": "Подъёмная ось",
+              "post_form": "checkbox",
+              "priority": 17
+            },
+            {
+              "name": "fog_lights",
+              "label": "Противотуманные фары",
+              "post_form": "checkbox",
+              "priority": 18
+            },
+            {
+              "name": "towing_device",
+              "label": "Тягово-сцепное устройство",
+              "post_form": "checkbox",
+              "priority": 19
+            }
+          ]
+        },
+        {
+          "label": "Горный тормоз",
+          "name": "mountain_brake",
+          "priority": 2,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "intarder",
+              "label": "Интардер",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "retarder",
+              "label": "Ретардер",
+              "post_form": "checkbox",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Климат",
+          "name": "climate",
+          "priority": 3,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "conditioner",
+              "label": "Кондиционер",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "climate_control",
+              "label": "Климат-контроль",
+              "post_form": "checkbox",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Подогрев сидений",
+          "name": "heated_seats",
+          "priority": 4,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "driver_seat",
+              "label": "Водительское",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "all_seats",
+              "label": "Оба",
+              "post_form": "checkbox",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Электроподъемники",
+          "name": "electric_lifts",
+          "priority": 5,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "all_lifts",
+              "label": "Все",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "left_lift",
+              "label": "Левый",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "name": "right_lift",
+              "label": "Правый",
+              "post_form": "checkbox",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Магнитола",
+          "name": "media",
+          "priority": 6,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "cd",
+              "label": "CD",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "dvd",
+              "label": "DVD",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "name": "cassette",
+              "label": "Кассетная",
+              "post_form": "checkbox",
+              "priority": 3
+            },
+            {
+              "name": "usb",
+              "label": "USB",
+              "post_form": "checkbox",
+              "priority": 4
+            },
+            {
+              "name": "mp3",
+              "label": "MP3",
+              "post_form": "checkbox",
+              "priority": 5
+            },
+            {
+              "name": "radio",
+              "label": "Радио",
+              "post_form": "checkbox",
+              "priority": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Прочее",
+      "name": "auto-commercial-trucks-additional_information",
+      "priority": 18,
+      "post_form": "checkboxlist",
+      "parameters": [
+        {
+          "name": "newly_delivered",
+          "label": "Свежедоставлен",
+          "post_form": "checkbox",
+          "priority": 1
+        },
+        {
+          "name": "cleared",
+          "label": "Растаможен",
+          "post_form": "checkbox",
+          "priority": 2
+        },
+        {
+          "name": "investment_does_not_required",
+          "label": "Вложений не требует",
+          "post_form": "checkbox",
+          "priority": 3
+        },
+        {
+          "name": "urgent",
+          "label": "Срочно",
+          "post_form": "checkbox",
+          "priority": 4
+        },
+        {
+          "name": "inspection_passed",
+          "label": "Техосмотр пройден",
+          "post_form": "checkbox",
+          "priority": 5
+        },
+        {
+          "name": "barter",
+          "label": "Возможен обмен",
+          "post_form": "checkbox",
+          "priority": 6
+        }
+      ]
+    }
+
+  ]
+}

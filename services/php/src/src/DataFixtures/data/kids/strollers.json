@@ -1,0 +1,199 @@
+{
+  "label": "Коляски",
+  "url": "kids-strollers",
+  "priority": 3,
+  "parameters": [
+    {
+      "label": "Тип",
+      "name": "kids-strollers-type",
+      "priority": 10,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип коляски"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 10,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Люлька (для новорожденных)",
+          "priority": 1
+        },
+        {
+          "label": "Прогулочная",
+          "priority": 2
+        },
+        {
+          "label": "Трансформер",
+          "priority": 3
+        },
+        {
+          "label": "Универсальная (2 в 1)",
+          "priority": 4
+        },
+        {
+          "label": "Универсальная (3 в 1)",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "label": "Механизм складывания",
+      "name": "kids-strollers-folding",
+      "priority": 21,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите механизм складывания"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 21,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Книжка",
+          "priority": 1
+        },
+        {
+          "label": "Трость",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Вес коляски",
+      "name": "kids-strollers-weight",
+      "priority": 22,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите вес коляски"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "Вес коляски - значение должно быть числом"
+        }
+      ],
+      "post_form": "textbox",
+      "measure": "кг",
+      "search_form": "range",
+      "search_priority": 22
+    },
+    {
+      "label": "Максимальный вес ребенка",
+      "name": "kids-strollers-child weight",
+      "priority": 23,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите максимальный вес ребенка"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "Макс. вес ребенка - значение должно быть числом"
+        }
+      ],
+      "post_form": "textbox",
+      "measure": "кг",
+      "search_form": "range",
+      "search_priority": 23
+    },
+    {
+      "label": "Дополнительные опции",
+      "name": "kids-strollers-options",
+      "priority": 24,
+      "post_form": "checkboxlist",
+      "parameters": [
+        {
+          "label": "Люлька",
+          "name": "cradle",
+          "post_form": "checkbox",
+          "priority": 1
+        },
+        {
+          "label": "Автокресло",
+          "name": "carseat",
+          "post_form": "checkbox",
+          "priority": 2
+        },
+        {
+          "label": "Прогулочный блок",
+          "name": "seat unit",
+          "post_form": "checkbox",
+          "priority": 3
+        },
+        {
+          "label": "Сумка",
+          "name": "bag",
+          "post_form": "checkbox",
+          "priority": 4
+        },
+        {
+          "label": "Корзина для покупок",
+          "name": "shopping basket",
+          "post_form": "checkbox",
+          "priority": 5
+        },
+        {
+          "label": "Перекидная ручка",
+          "name": "reversible handle",
+          "post_form": "checkbox",
+          "priority": 6
+        },
+        {
+          "label": "Переноска",
+          "name": "travel system",
+          "post_form": "checkbox",
+          "priority": 7
+        },
+        {
+          "label": "Складывается одной рукой",
+          "name": "one hand folding",
+          "post_form": "checkbox",
+          "priority": 8
+        },
+        {
+          "label": "Ручной тормоз",
+          "name": "hand brake",
+          "post_form": "checkbox",
+          "priority": 9
+        },
+        {
+          "label": "Поворотные передние колеса",
+          "name": "swivel front wheels",
+          "post_form": "checkbox",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "kids-strollers-condition",
+      "priority": 25,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите состояние"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 25,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1117 @@
+{
+  "label": "Строительство и ремонт",
+  "url": "home-garden-construction-renovation",
+  "priority": 1,
+  "children": [
+    {
+      "label": "Инструменты",
+      "url": "home-garden-construction-renovation-tools",
+      "priority": 1,
+      "children": [
+        {
+          "label": "Электроинструменты",
+          "url": "home-garden-construction-renovation-tools-power-tools",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-tools-power-tools-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Дрели и миксеры","priority": 1},
+                {"label": "Аккумуляторные отвертки","priority": 1},
+                {"label": "Шуруповерты","priority": 1},
+                {"label": "Гайковерты","priority": 1},
+                {"label": "Шлифовальные машины","priority": 1},
+                {"label": "Фрезеры","priority": 1},
+                {"label": "Перфораторы","priority": 1},
+                {"label": "Электрические краскопульты","priority": 1},
+                {"label": "Лобзики","priority": 1},
+                {"label": "Отбойные молотки","priority": 1},
+                {"label": "Рубанки","priority": 1},
+                {"label": "Клеевые пистолеты","priority": 1},
+                {"label": "Скобы, гвозди и штифты","priority": 1},
+                {"label": "Штроборезы","priority": 1},
+                {"label": "Электрические ножницы","priority": 1},
+                {"label": "Строительные фены","priority": 1},
+                {"label": "Установки для алмазного бурения","priority": 1},
+                {"label": "Наборы электроинструмента","priority": 1},
+                {"label": "Малярные установки","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Электропилы и бензопилы",
+          "url": "home-garden-construction-renovation-tools-chainsaws",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-tools-chainsaws-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Дисковые пилы","priority": 1},
+                {"label": "Пилы сабельные и электроножовки","priority": 1},
+                {"label": "Ленточные пилы","priority": 1},
+                {"label": "Торцовочные пилы","priority": 1},
+                {"label": "Монтажные пилы","priority": 1},
+                {"label": "Распиловочные станки","priority": 1},
+                {"label": "Бензорезы и электрорезы","priority": 1},
+                {"label": "Электропилы и бензопилы цепные","priority": 1},
+                {"label": "Плиткорезы и камнерезы","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Бензоинструменты",
+          "url": "home-garden-construction-renovation-tools-gasoline-tools",
+          "priority": 3
+        },
+        {
+          "label": "Ручные инструменты",
+          "url": "home-garden-construction-renovation-tools-hand-tools",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-tools-hand-tools-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Наборы инструментов","priority": 1},
+                {"label": "Слесарный инструмент","priority": 1},
+                {"label": "Столярный инструмент","priority": 1},
+                {"label": "Торцевые головки и ключи","priority": 1},
+                {"label": "Паяльники и паяльные лампы","priority": 1},
+                {"label": "Отвертки","priority": 1},
+                {"label": "Клещи и бокорезы","priority": 1},
+                {"label": "Рожковые, накидные, комбинированные ключи","priority": 1},
+                {"label": "Молотки и кувалды","priority": 1},
+                {"label": "Пилы и ножовки","priority": 1},
+                {"label": "Тиски","priority": 1},
+                {"label": "Трубогибы","priority": 1},
+                {"label": "Сопутствующие товары для пайки","priority": 1},
+                {"label": "Заклепочники","priority": 1},
+                {"label": "Стеклорезы","priority": 1},
+                {"label": "Принадлежности для плиткорезов","priority": 1},
+                {"label": "Сантехнические, разводные ключи","priority": 1},
+                {"label": "Средства индивидуальной защиты","priority": 1},
+                {"label": "Отвертки для точных работ","priority": 1},
+                {"label": "Струбцины","priority": 1},
+                {"label": "Козлы для распиловки","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Пневмоинструменты",
+          "url": "home-garden-construction-renovation-tools-pneumatic-tools",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-tools-pneumatic-tools-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Аксессуары для пневмоинструмента","priority": 1},
+                {"label": "Пневмоинструмент","priority": 1},
+                {"label": "Продувочные пистолеты","priority": 1},
+                {"label": "Аэрографы, краскопульты, текстурные пистолеты","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Измерительные инструменты",
+          "url": "home-garden-construction-renovation-tools-measurement-tools",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-tools-measurement-tools-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Измерение расстояний, длин и углов наклона","priority": 1},
+                {"label": "Измерение параметров электрического тока","priority": 1},
+                {"label": "Детекторы","priority": 1},
+                {"label": "Пирометры и тепловизоры","priority": 1},
+                {"label": "Манометры","priority": 1},
+                {"label": "Металлоискатели","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Расходные материалы и оснастка",
+          "url": "home-garden-construction-renovation-tools-consumables-accessories",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-tools-consumables-accessories-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Аккумуляторы","priority": 1},
+                {"label": "Диски отрезные","priority": 1},
+                {"label": "Для дрелей, шуруповертов и гайковертов","priority": 1},
+                {"label": "Для шлифовальных машин","priority": 1},
+                {"label": "Для угловой шлифмашины (болгарки)","priority": 1},
+                {"label": "Буры, долота, пики для перфораторов","priority": 1},
+                {"label": "Для краскопультов и аэрографов","priority": 1},
+                {"label": "Для пневмоинструмента","priority": 1},
+                {"label": "Для фрезеров","priority": 1},
+                {"label": "Для цепных пил","priority": 1},
+                {"label": "Пильные диски","priority": 1},
+                {"label": "Полотна и пильные ленты для сабельных и ленточных пил","priority": 1},
+                {"label": "Пилки и наборы для электролобзиков","priority": 1},
+                {"label": "Ножи для рубанков","priority": 1},
+                {"label": "Насадки для граверов","priority": 1},
+                {"label": "Насадки для многофункционального инструмента","priority": 1},
+                {"label": "Системы пылеудаления","priority": 1},
+                {"label": "Направляющие и упоры","priority": 1},
+                {"label": "Станки и приспособления для заточки","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Прочие инструменты и аксессуары",
+          "url": "home-garden-construction-renovation-tools-other",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-tools-other-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Лестницы и стремянки","priority": 1},
+                {"label": "Валики и емкости","priority": 1},
+                {"label": "Инструмент для штукатурно-отделочных работ","priority": 1},
+                {"label": "Сумки для инструментов","priority": 1},
+                {"label": "Кисти","priority": 1},
+                {"label": "Пистолеты для пены","priority": 1},
+                {"label": "Пистолеты для клея и герметика","priority": 1},
+                {"label": "Гвоздескобозабивные пистолеты и степлеры","priority": 1},
+                {"label": "Стеллажи","priority": 1},
+                {"label": "Аксессуары для стеллажей","priority": 1},
+                {"label": "Ящики для инструментов","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Сантехника",
+      "url": "home-garden-construction-renovation-sanitary-engineering",
+      "priority": 2,
+      "children": [
+        {
+          "label": "Смесители",
+          "url": "home-garden-construction-renovation-sanitary-engineering-faucets",
+          "priority": 1
+        },
+        {
+          "label": "Кухонные мойки",
+          "url": "home-garden-construction-renovation-sanitary-engineering-kitchen-sinks",
+          "priority": 2
+        },
+        {
+          "label": "Раковины, умывальники",
+          "url": "home-garden-construction-renovation-sanitary-engineering-washbasins-sinks",
+          "priority": 3
+        },
+        {
+          "label": "Ванны",
+          "url": "home-garden-construction-renovation-sanitary-engineering-baths",
+          "priority": 4
+        },
+        {
+          "label": "Души и душевые кабины",
+          "url": "home-garden-construction-renovation-sanitary-engineering-shower-cabins",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-sanitary-engineering-shower-cabins-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Душевые кабины и уголки","priority": 1},
+                {"label": "Души, душевые панели, гарнитуры","priority": 1},
+                {"label": "Комплектующие для душевых кабин","priority": 1},
+                {"label": "Душевые поддоны","priority": 1},
+                {"label": "Душевые двери","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+
+        },
+        {
+          "label": "Унитазы, писсуары, биде",
+          "url": "home-garden-construction-renovation-sanitary-engineering-toilets-urinals-bidets",
+          "priority": 6
+        },
+        {
+          "label": "Тумбы под раковину",
+          "url": "home-garden-construction-renovation-sanitary-engineering-curbstones-under-sink",
+          "priority": 7
+        },
+        {
+          "label": "Материалы и комплектующие",
+          "url": "home-garden-construction-renovation-sanitary-engineering-materials-components",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-sanitary-engineering-materials-components-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Сифоны и трапы","priority": 1},
+                {"label": "Комплектующие для унитазов и писсуаров","priority": 1},
+                {"label": "Комплектующие для ванн","priority": 1},
+                {"label": "Материалы для сантехнических работ","priority": 1},
+                {"label": "Комплектующие для смесителей","priority": 1},
+                {"label": "Компоненты смесителей","priority": 1},
+                {"label": "Инсталляции для унитазов, писсуаров, биде","priority": 1},
+                {"label": "Арматура для сливных бачков унитазов","priority": 1},
+                {"label": "Лейки для душа","priority": 1},
+                {"label": "Шланги для душа","priority": 1},
+                {"label": "Держатели и штанги для душа","priority": 1},
+                {"label": "Бачки для унитазов","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+
+        },
+        {
+          "label": "Сушилки для рук",
+          "url": "home-garden-construction-renovation-sanitary-engineering-hand-dryers",
+          "priority": 9
+        },
+        {
+          "label": "Счетчики воды",
+          "url": "home-garden-construction-renovation-sanitary-engineering-water-meters",
+          "priority": 10
+        },
+        {
+          "label": "Трубы и водоснабжение",
+          "url": "home-garden-construction-renovation-sanitary-engineering-pipes-water-supply",
+          "priority": 11,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-sanitary-engineering-pipes-water-supply-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Баки","priority": 1},
+                {"label": "Септики","priority": 1},
+                {"label": "Водопроводные трубы","priority": 1},
+                {"label": "Канализационные трубы","priority": 1},
+                {"label": "Комплектующие","priority": 1},
+                {"label": "Расширительные баки и комплектующие","priority": 1},
+                {"label": "Оголовок для скважины","priority": 1},
+                {"label": "Теплоаккумуляторы","priority": 1},
+                {"label": "Фитинги для канализационных труб","priority": 1},
+                {"label": "Фитинги для труб","priority": 1},
+                {"label": "Коллекторы","priority": 1},
+                {"label": "Электромагнитные клапаны","priority": 1},
+                {"label": "Водоочистка и комплектующие","priority": 1},
+                {"label": "Насосные группы","priority": 1},
+                {"label": "Группы безопасности","priority": 1},
+                {"label": "Поплавковые выключатели","priority": 1},
+                {"label": "Теплоноситель","priority": 1},
+                {"label": "Коллекторные шкафы","priority": 1},
+                {"label": "Инструменты для прочистки труб","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Ревизионные люки",
+          "url": "home-garden-construction-renovation-sanitary-engineering-inspection-hatches",
+          "priority": 12
+        },
+        {
+          "label": "Насосы и комплектующие",
+          "url": "home-garden-construction-renovation-sanitary-engineering-pumps-accessories",
+          "priority": 13
+        },
+        {
+          "label": "Прочая сантехника",
+          "url": "home-garden-construction-renovation-sanitary-engineering-other",
+          "priority": 14
+        }
+      ]
+    },
+    {
+      "label": "Материалы",
+      "url": "home-garden-construction-renovation-materials",
+      "priority": 3,
+      "children": [
+        {
+          "label": "Отделочные материалы",
+          "url": "home-garden-construction-renovation-materials-finishing",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-materials-finishing-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Обои","priority": 1},
+                {"label": "Керамическая плитка","priority": 1},
+                {"label": "Плитка из керамогранита","priority": 1},
+                {"label": "Стеновые панели","priority": 1},
+                {"label": "Жидкие обои","priority": 1},
+                {"label": "Сайдинг","priority": 1},
+                {"label": "Потолки","priority": 1},
+                {"label": "Лепнина","priority": 1},
+                {"label": "Мозаика","priority": 1},
+                {"label": "Облицовочный камень","priority": 1},
+                {"label": "Клинкерная плитка","priority": 1},
+                {"label": "Фасадные панели","priority": 1},
+                {"label": "Тротуарная плитка, бордюр","priority": 1},
+                {"label": "Фактурные декоративные покрытия","priority": 1},
+                {"label": "Самоклеящаяся пленка","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Напольные покрытия",
+          "url": "home-garden-construction-renovation-materials-floor-coverings",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-materials-floor-coverings-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Ламинат","priority": 1},
+                {"label": "Линолеум","priority": 1},
+                {"label": "Паркетная доска","priority": 1},
+                {"label": "Массивная доска","priority": 1},
+                {"label": "Ковролин","priority": 1},
+                {"label": "Теплый пол","priority": 1},
+                {"label": "Пробковый пол","priority": 1},
+                {"label": "Подложка","priority": 1},
+                {"label": "Плинтусы и пороги","priority": 1},
+                {"label": "Комплектующие для плинтуса","priority": 1},
+                {"label": "Штучный паркет","priority": 1},
+                {"label": "Плитка ПВХ","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Лаки и краски",
+          "url": "home-garden-construction-renovation-materials-paints-varnishes",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-materials-paints-varnishes-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Краски","priority": 1},
+                {"label": "Лаки","priority": 1},
+                {"label": "Эмали","priority": 1},
+                {"label": "Пропитки","priority": 1},
+                {"label": "Растворители и очистители","priority": 1},
+                {"label": "Колеры","priority": 1},
+                {"label": "Аэрозольная краска","priority": 1},
+                {"label": "Масла и воск","priority": 1},
+                {"label": "Кисти и валики","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Строительные материалы",
+          "url": "home-garden-construction-renovation-materials-construction",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-materials-construction-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Строительные смеси","priority": 1},
+                {"label": "Пиломатериалы","priority": 1},
+                {"label": "Общестроительные материалы","priority": 1},
+                {"label": "Кровля и водосток","priority": 1},
+                {"label": "Изоляционные материалы","priority": 1},
+                {"label": "Металлопрокат","priority": 1},
+                {"label": "Дренажные системы","priority": 1},
+                {"label": "Материалы для сухого строительства","priority": 1},
+                {"label": "Древесно-плитные материалы","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Крепеж и фурнитура",
+          "url": "home-garden-construction-renovation-materials-fixture-fittings",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-materials-fixture-fittings-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Винты и болты","priority": 1},
+                {"label": "Шайбы и гайки","priority": 1},
+                {"label": "Шурупы и саморезы","priority": 1},
+                {"label": "Гвозди","priority": 1},
+                {"label": "Дюбели","priority": 1},
+                {"label": "Анкерные болты","priority": 1},
+                {"label": "Шпильки","priority": 1},
+                {"label": "Перфорированный крепеж","priority": 1},
+                {"label": "Такелаж","priority": 1},
+                {"label": "Заклепки","priority": 1},
+                {"label": "Фурнитура для мебели","priority": 1},
+                {"label": "Магниты","priority": 1},
+                {"label": "Кабельные стяжки","priority": 1},
+                {"label": "Уголки, кронштейны, держатели","priority": 1},
+                {"label": "Профиль для плитки","priority": 1},
+                {"label": "Прочее","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Прочие материалы",
+          "url": "home-garden-construction-renovation-materials-other",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "label": "Электрика",
+      "url": "home-garden-construction-renovation-electrics",
+      "priority": 4,
+      "children": [
+        {
+          "label": "Сварочное оборудование",
+          "url": "home-garden-construction-renovation-electrics-welding-equipment",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-electrics-welding-equipment-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Сварочные аппараты","priority": 1},
+                {"label": "Аппараты для контактной сварки","priority": 1},
+                {"label": "Аппараты для сварки пластика","priority": 1},
+                {"label": "Аксессуары и комплектующие для сварки","priority": 1},
+                {"label": "Аппараты для сварки пластиковых труб","priority": 1},
+                {"label": "Маски и очки","priority": 1},
+                {"label": "Светофильтры и стекла","priority": 1},
+                {"label": "Плазменная резка","priority": 1},
+                {"label": "Электроды, проволока, прутки","priority": 1},
+                {"label": "Прочее","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Электрогенераторы",
+          "url": "home-garden-construction-renovation-electrics-generators",
+          "priority": 2
+        },
+        {
+          "label": "Стабилизаторы напряжения",
+          "url": "home-garden-construction-renovation-electrics-voltage-stabilizers",
+          "priority": 3
+        },
+        {
+          "label": "Источники бесперебойного питания",
+          "url": "home-garden-construction-renovation-electrics-uninterrupted-power-supplies",
+          "priority": 4
+        },
+        {
+          "label": "Автотрансформаторы",
+          "url": "home-garden-construction-renovation-electrics-autotransformers",
+          "priority": 5
+        },
+        {
+          "label": "Аккумуляторные батареи",
+          "url": "home-garden-construction-renovation-electrics-batteries",
+          "priority": 6
+        },
+        {
+          "label": "Переключатели",
+          "url": "home-garden-construction-renovation-electrics-switches",
+          "priority": 7
+        },
+        {
+          "label": "Розетки, выключатели и рамки",
+          "url": "home-garden-construction-renovation-electrics-sockets-switches-frames",
+          "priority": 8
+        },
+        {
+          "label": "Трансформаторы",
+          "url": "home-garden-construction-renovation-electrics-transformers",
+          "priority": 9
+        },
+        {
+          "label": "Измерение параметров электрического тока",
+          "url": "home-garden-construction-renovation-electrics-measurement",
+          "priority": 10,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-electrics-measurement-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Мультиметры и тестеры","priority": 1},
+                {"label": "Осциллографы","priority": 1},
+                {"label": "Счетчики электроэнергии и ваттметры","priority": 1},
+                {"label": "Прочее","priority": 1}
+              ]
+            }
+          ]
+
+        },
+        {
+          "label": "Электромонтажные товары",
+          "url": "home-garden-construction-renovation-electrics-wiring-accessories",
+          "priority": 11,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-electrics-wiring-accessories-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Предохранители","priority": 1},
+                {"label": "Провода, кабели","priority": 1},
+                {"label": "Щиты и шкафы","priority": 1},
+                {"label": "Изолента","priority": 1},
+                {"label": "Счетчики электроэнергии и ваттметры","priority": 1},
+                {"label": "Гофрированные трубы","priority": 1},
+                {"label": "Кабель-каналы","priority": 1},
+                {"label": "Контакторы и реле","priority": 1},
+                {"label": "Распределительные коробки","priority": 1},
+                {"label": "Наконечники, гильзы, СИЗы, ЗПО","priority": 1},
+                {"label": "Подрозетники","priority": 1},
+                {"label": "Прочее","priority": 1}
+              ]
+            }
+          ]
+
+        },
+        {
+          "label": "Управление освещением",
+          "url": "home-garden-construction-renovation-electrics-lighting-control",
+          "priority": 12
+        },
+        {
+          "label": "Металлоискатели и детекторы проводки",
+          "url": "home-garden-construction-renovation-electrics-metal-wiring-detectors",
+          "priority": 13
+        },
+        {
+          "label": "Преобразователи частоты",
+          "url": "home-garden-construction-renovation-electrics-frequency-converters",
+          "priority": 14
+        },
+        {
+          "label": "Греющий кабель",
+          "url": "home-garden-construction-renovation-electrics-heating-cable",
+          "priority": 15
+        },
+        {
+          "label": "Автоматические выключатели, УЗО, дифавтоматы",
+          "url": "home-garden-construction-renovation-electrics-automatic-switches-rcd-difavatus",
+          "priority": 16,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-electrics-automatic-switches-rcd-difavatus-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Автоматические выключатели","priority": 1},
+                {"label": "Дифференциальные автоматы","priority": 1},
+                {"label": "Устройства защитного отключения (УЗО)","priority": 1},
+                {"label": "Прочее","priority": 1}
+              ]
+            }
+          ]
+
+        },
+        {
+          "label": "Удлинители на катушках, силовые удлинители",
+          "url": "home-garden-construction-renovation-electrics-extension-coils-power-extensions",
+          "priority": 17
+        },
+        {
+          "label": "Переходники, вилки и колодки",
+          "url": "home-garden-construction-renovation-electrics-adapters-plugs-pads",
+          "priority": 18
+        },
+        {
+          "label": "Удлинители и сетевые фильтры",
+          "url": "home-garden-construction-renovation-electrics-extension-cords-surge-protectors",
+          "priority": 19
+        },
+        {
+          "label": "Дверные звонки",
+          "url": "home-garden-construction-renovation-electrics-doorbells",
+          "priority": 20
+        },
+        {
+          "label": "Прочая электрика",
+          "url": "home-garden-construction-renovation-electrics-other",
+          "priority": 21
+        }
+      ]
+    },
+    {
+      "label": "Отопление и вентиляция",
+      "url": "home-garden-construction-renovation-heating-ventilation",
+      "priority": 5,
+      "children": [
+        {
+          "label": "Отопительные котлы",
+          "url": "home-garden-construction-renovation-heating-ventilation-boilers",
+          "priority": 1
+        },
+        {
+          "label": "Камины и печи",
+          "url": "home-garden-construction-renovation-heating-ventilation-fireplaces-stoves",
+          "priority": 2
+        },
+        {
+          "label": "Отопительные системы",
+          "url": "home-garden-construction-renovation-heating-ventilation-heating-systems",
+          "priority": 3
+        },
+        {
+          "label": "Радиаторы",
+          "url": "home-garden-construction-renovation-heating-ventilation-heating-radiators",
+          "priority": 4
+        },
+        {
+          "label": "Теплые полы",
+          "url": "home-garden-construction-renovation-heating-ventilation-heated-floors",
+          "priority": 5
+        },
+        {
+          "label": "Обогреватели",
+          "url": "home-garden-construction-renovation-heating-ventilation-heaters",
+          "priority": 6
+        },
+        {
+          "label": "Системы центрального кондиционирования",
+          "url": "home-garden-construction-renovation-heating-ventilation-central-air-conditioning-systems",
+          "priority": 7
+        },
+        {
+          "label": "Вентиляция",
+          "url": "home-garden-construction-renovation-heating-ventilation-ventilation",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-heating-ventilation-ventilation-type",
+              "priority": 11,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Вентиляционные установки","priority": 1},
+                {"label": "Воздухонагреватели и воздухоохладители","priority": 1},
+                {"label": "Воздуховоды","priority": 1},
+                {"label": "Фильтры","priority": 1},
+                {"label": "Фасонные части","priority": 1},
+                {"label": "Воздухораспределительные элементы","priority": 1},
+                {"label": "Вентиляторы вытяжные","priority": 1},
+                {"label": "Вентиляционные решетки","priority": 1},
+                {"label": "Прочее","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Тепловые пушки",
+          "url": "home-garden-construction-renovation-heating-ventilation-heat-guns",
+          "priority": 9
+        },
+        {
+          "label": "Газовые конвекторы",
+          "url": "home-garden-construction-renovation-heating-ventilation-gas-convectors",
+          "priority": 10
+        },
+        {
+          "label": "Тепловые насосы",
+          "url": "home-garden-construction-renovation-heating-ventilation-heat-pumps",
+          "priority": 11
+        },
+        {
+          "label": "Водяные тепловентиляторы",
+          "url": "home-garden-construction-renovation-heating-ventilation-water-heaters",
+          "priority": 12
+        },
+        {
+          "label": "Солнечные коллекторы",
+          "url": "home-garden-construction-renovation-heating-ventilation-solar-collectors",
+          "priority": 13
+        },
+        {
+          "label": "Тепловые завесы",
+          "url": "home-garden-construction-renovation-heating-ventilation-thermal-curtains",
+          "priority": 14
+        },
+        {
+          "label": "Терморегуляторы",
+          "url": "home-garden-construction-renovation-heating-ventilation-thermostats",
+          "priority": 15
+        },
+        {
+          "label": "Прочие товары для отопления и вентиляции",
+          "url": "home-garden-construction-renovation-heating-ventilation-other",
+          "priority": 16
+        }
+      ]
+    },
+    {
+      "label": "Двери и окна",
+      "url": "home-garden-construction-renovation-doors-windows",
+      "priority": 6,
+      "children": [
+        {
+          "label": "Межкомнатные двери",
+          "url": "home-garden-construction-renovation-doors-windows-interior-doors",
+          "priority": 1
+        },
+        {
+          "label": "Входные двери",
+          "url": "home-garden-construction-renovation-doors-windows-front-doors",
+          "priority": 2
+        },
+        {
+          "label": "Дверные коробки",
+          "url": "home-garden-construction-renovation-doors-windows-door-frames",
+          "priority": 3
+        },
+        {
+          "label": "Окна",
+          "url": "home-garden-construction-renovation-doors-windows-windows",
+          "priority": 4
+        },
+        {
+          "label": "Ворота",
+          "url": "home-garden-construction-renovation-doors-windows-gates",
+          "priority": 6
+        },
+        {
+          "label": "Аксессуары для окон и дверей",
+          "url": "home-garden-construction-renovation-doors-windows-accessories",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "home-garden-construction-renovation-doors-windows-accessories-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Защелки и завертки","priority": 1},
+                {"label": "Замки врезные","priority": 1},
+                {"label": "Петли дверные","priority": 1},
+                {"label": "Замки навесные","priority": 1},
+                {"label": "Ручки дверные","priority": 1},
+                {"label": "Замки накладные","priority": 1},
+                {"label": "Наличники и доборы","priority": 1},
+                {"label": "Прочее","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Звонки",
+          "url": "home-garden-construction-renovation-doors-windows-doorbells",
+          "priority": 8
+        },
+        {
+          "label": "Рольставни",
+          "url": "home-garden-construction-renovation-doors-windows-shutters",
+          "priority": 9
+        },
+        {
+          "label": "Прочие товары для окон и дверей",
+          "url": "home-garden-construction-renovation-doors-windows-other",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "label": "Строительная техника",
+      "url": "home-garden-construction-renovation-construction-machinery",
+      "priority": 7
+    },
+    {
+      "label": "Сауны и бани",
+      "url": "home-garden-construction-renovation-saunas-bathhouses",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-construction-renovation-saunas-bathhouses-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Инфракрасные сауны","priority": 1},
+            {"label": "Печи для бань","priority": 1},
+            {"label": "Дымоходы","priority": 1},
+            {"label": "Двери","priority": 1},
+            {"label": "Бочки и купели","priority": 1},
+            {"label": "Парогенераторы","priority": 1},
+            {"label": "Камни для печей","priority": 1},
+            {"label": "Прочее","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Бассейны и аксессуары",
+      "url": "home-garden-construction-renovation-swimming-pools-accessories",
+      "priority": 9
+    },
+    {
+      "label": "Прочее для строительства и ремонта",
+      "url": "home-garden-construction-renovation-other",
+      "priority": 10
+    }
+  ]
+}

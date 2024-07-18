@@ -1,0 +1,123 @@
+{
+  "name": "realty-parking",
+  "label": "Гаражи, парковочные места",
+  "url": "realty-parking",
+  "priority": 6,
+  "children": [
+    {
+      "name": "realty-parking-sell",
+      "label": "Продам",
+      "url": "realty-parking-sell",
+      "priority": 1
+    },
+    {
+      "name": "realty-parking-rent",
+      "label": "Сдам",
+      "url": "realty-parking-rent",
+      "priority": 2
+    }
+  ],
+  "parameters": [
+    {
+      "label": "Право собственности",
+      "name": "realty-parking-from",
+      "priority": 1,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 1,
+      "filter_default_toggle": true,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип права собствености"
+        }
+      ],
+      "options": [
+        {
+          "label": "Собственник",
+          "priority": 1
+        },
+        {
+          "label": "Посредник",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Тип",
+      "name": "realty-parking-type",
+      "priority": 2,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 2,
+      "filter_default_toggle": true,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип"
+        }
+      ],
+      "options": [
+        {
+          "label": "Гараж",
+          "priority": 1
+        },
+        {
+          "label": "Подземный паркинг",
+          "priority": 2
+        },
+        {
+          "label": "Паркинг в крытой стоянке",
+          "priority": 3
+        },
+        {
+          "label": "Паркинг в открытой стоянке",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "Местоположение",
+      "name": "realty-parking-from-microregion",
+      "priority": 3,
+      "hint": "Район, адрес или название жилого комплекса",
+      "post_form": "textbox"
+    },
+    {
+      "label": "Цена",
+      "name": "realty-parking-price",
+      "priority": 4,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 4,
+      "filter_default_toggle": true,
+      "measure": "сом",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите цену"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\"- значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Площадь",
+      "name": "realty-parking-from-microregion-area",
+      "priority": 5,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 5,
+      "measure": "м²",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "Площадь - значение должно быть числом"
+        }
+      ]
+    }
+  ]
+}

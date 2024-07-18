@@ -1,0 +1,2715 @@
+{
+  "url": "personal-beauty-health",
+  "label": "Красота и здоровье",
+  "priority": 5,
+  "children": [
+    {
+      "url": "personal-beauty-health-cosmetics-perfumes",
+      "label": "Косметика, парфюмерия и уход за телом",
+      "priority": 1,
+      "children": [
+        {
+          "url": "personal-beauty-health-cosmetics-perfumes-perfumery",
+          "label": "Парфюмерия",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-cosmetics-perfumes-perfumery-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "вуаль для волос","priority": 1},
+                {"label": "духи","priority": 1},
+                {"label": "одеколон","priority": 1},
+                {"label": "парфюмерная вода","priority": 1},
+                {"label": "туалетная вода","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-cosmetics-perfumes-makeup",
+          "label": "Макияж",
+          "priority": 2,
+          "children": [
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-makeup-for-lips",
+              "label": "Для губ",
+              "priority": 1,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-for-lips-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Палетки помад и блесков","priority": 1},
+                    {"label": "Помада","priority": 1},
+                    {"label": "Блески и тинты","priority": 1},
+                    {"label": "Контур для губ","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-makeup-sets",
+              "label": "Наборы",
+              "priority": 2
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-makeup-removal",
+              "label": "Снятие макияжа",
+              "priority": 3,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-removal-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гель","priority": 1},
+                    {"label": "гель-пенка","priority": 1},
+                    {"label": "гидрофильное масло","priority": 1},
+                    {"label": "жидкость","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "крем-гель","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "мицеллярная вода","priority": 1},
+                    {"label": "молочко","priority": 1},
+                    {"label": "мыло","priority": 1},
+                    {"label": "пенка","priority": 1},
+                    {"label": "рукавичка","priority": 1},
+                    {"label": "салфетка","priority": 1},
+                    {"label": "спонж","priority": 1},
+                    {"label": "стик","priority": 1},
+                    {"label": "сыворотка","priority": 1},
+                    {"label": "флюид","priority": 1},
+                    {"label": "щербет","priority": 1},
+                    {"label": "эмульсия","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Тип кожи",
+                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-removal-skin type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "для всех типов","priority": 1},
+                    {"label": "жирная","priority": 1},
+                    {"label": "комбинированная","priority": 1},
+                    {"label": "нормальная","priority": 1},
+                    {"label": "сухая","priority": 1},
+                    {"label": "чувствительная","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-makeup-for-eyes",
+              "label": "Для глаз",
+              "priority": 4,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-for-eyes-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Тушь","priority": 1},
+                    {"label": "Тени","priority": 1},
+                    {"label": "Контур для глаз","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-makeup-for-face",
+              "label": "Для лица",
+              "priority": 5,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-for-face-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Тональные средства","priority": 1},
+                    {"label": "Хайлайтеры и скульптурирующие средства","priority": 1},
+                    {"label": "BB, CC и DD кремы","priority": 1},
+                    {"label": "Основа и фиксаторы для макияжа","priority": 1},
+                    {"label": "Пудра","priority": 1},
+                    {"label": "Румяна и бронзеры","priority": 1},
+                    {"label": "Корректоры и консилеры","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-makeup-for-eyebrows",
+              "label": "Для бровей",
+              "priority": 6,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-for-eyebrows-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Карандаши для бровей","priority": 1},
+                    {"label": "Краска для бровей и ресниц","priority": 1},
+                    {"label": "Тушь и гель для бровей","priority": 1},
+                    {"label": "Тени и наборы для бровей","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-makeup-accessories",
+              "label": "Аксессуары",
+              "priority": 7,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-makeup-accessories-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Кисти, спонжи и аппликаторы","priority": 1},
+                    {"label": "Ресницы и клей","priority": 1},
+                    {"label": "Пинцеты для бровей","priority": 1},
+                    {"label": "Зеркала косметические","priority": 1},
+                    {"label": "Мелочи для макияжа","priority": 1},
+                    {"label": "Зажимы и расчески для ресниц","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-cosmetics-perfumes-facial-care",
+          "label": "Уход за лицом",
+          "priority": 3,
+          "children": [
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-moisturizing-nourishing",
+              "label": "Увлажнение и питание",
+              "priority": 1,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-moisturizing-nourishing-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гель","priority": 1},
+                    {"label": "концентрат","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "крем-гель","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "сыворотка","priority": 1},
+                    {"label": "флюид","priority": 1},
+                    {"label": "эмульсия","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Тип кожи",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-moisturizing-nourishing-skin type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "для всех типов","priority": 1},
+                    {"label": "жирная","priority": 1},
+                    {"label": "комбинированная","priority": 1},
+                    {"label": "нормальная","priority": 1},
+                    {"label": "сухая","priority": 1},
+                    {"label": "чувствительная","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-masks",
+              "label": "Маски",
+              "priority": 2,
+              "parameters": [
+                {
+                  "label": "Вид маски",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-masks-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "активатор","priority": 1},
+                    {"label": "гелевая","priority": 1},
+                    {"label": "глина","priority": 1},
+                    {"label": "грязевая","priority": 1},
+                    {"label": "кислородная","priority": 1},
+                    {"label": "коллагеновый лист","priority": 1},
+                    {"label": "крем-маска","priority": 1},
+                    {"label": "пластифицирующая","priority": 1},
+                    {"label": "пленка","priority": 1},
+                    {"label": "полоски для лба и подбородка","priority": 1},
+                    {"label": "полоски для носа","priority": 1},
+                    {"label": "тканевая","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Тип кожи",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-masks-skin type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "для всех типов","priority": 1},
+                    {"label": "жирная","priority": 1},
+                    {"label": "комбинированная","priority": 1},
+                    {"label": "нормальная","priority": 1},
+                    {"label": "сухая","priority": 1},
+                    {"label": "чувствительная","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Действие",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-masks-effect",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "лифтинг-эффект","priority": 1},
+                    {"label": "матирование","priority": 1},
+                    {"label": "омоложение","priority": 1},
+                    {"label": "отбеливание","priority": 1},
+                    {"label": "отшелушивание","priority": 1},
+                    {"label": "очищение","priority": 1},
+                    {"label": "питание","priority": 1},
+                    {"label": "тонизирование","priority": 1},
+                    {"label": "увлажнение","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-toning",
+              "label": "Тонизирование",
+              "priority": 3,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-toning-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гиалуроновая вода","priority": 1},
+                    {"label": "гидролат","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "лосьон-тоник","priority": 1},
+                    {"label": "мист","priority": 1},
+                    {"label": "термальная вода","priority": 1},
+                    {"label": "тоник","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Тип кожи",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-toning-skin type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "для всех типов","priority": 1},
+                    {"label": "жирная","priority": 1},
+                    {"label": "комбинированная","priority": 1},
+                    {"label": "нормальная","priority": 1},
+                    {"label": "сухая","priority": 1},
+                    {"label": "чувствительная","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-scrubs-peelings",
+              "label": "Скрабы и пилинги",
+              "priority": 4,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-scrubs-peelings-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гоммаж","priority": 1},
+                    {"label": "пилинг","priority": 1},
+                    {"label": "скраб","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Тип средства",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-scrubs-peelings-form",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гель","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "маска","priority": 1},
+                    {"label": "пенка","priority": 1},
+                    {"label": "скатка","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-for-problem-skin",
+              "label": "Для проблемной кожи",
+              "priority": 5,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-problem-skin-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гель + скраб + маска","priority": 1},
+                    {"label": "гель","priority": 1},
+                    {"label": "гель-пенка","priority": 1},
+                    {"label": "концентрат","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "крем-гель","priority": 1},
+                    {"label": "крем-мыло","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "лосьон-тоник","priority": 1},
+                    {"label": "маска","priority": 1},
+                    {"label": "маска + скраб","priority": 1},
+                    {"label": "мицеллярная вода","priority": 1},
+                    {"label": "молочко","priority": 1},
+                    {"label": "мусс","priority": 1},
+                    {"label": "мыло","priority": 1},
+                    {"label": "набор","priority": 1},
+                    {"label": "патчи","priority": 1},
+                    {"label": "пенка","priority": 1},
+                    {"label": "полоски","priority": 1},
+                    {"label": "салфетки","priority": 1},
+                    {"label": "скраб","priority": 1},
+                    {"label": "стик","priority": 1},
+                    {"label": "сыворотка","priority": 1},
+                    {"label": "термальная вода","priority": 1},
+                    {"label": "тоник","priority": 1},
+                    {"label": "флюид","priority": 1},
+                    {"label": "эмульсия","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Назначение",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-problem-skin-purpose",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "для снятия макияжа","priority": 1},
+                    {"label": "для умывания","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Тип кожи",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-problem-skin-skin type",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "для всех типов","priority": 1},
+                    {"label": "жирная","priority": 1},
+                    {"label": "комбинированная","priority": 1},
+                    {"label": "нормальная","priority": 1},
+                    {"label": "сухая","priority": 1},
+                    {"label": "чувствительная","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Эффект",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-problem-skin-effect",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 13,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "восстановление","priority": 1},
+                    {"label": "матирование","priority": 1},
+                    {"label": "очищение","priority": 1},
+                    {"label": "питание","priority": 1},
+                    {"label": "подсушивание","priority": 1},
+                    {"label": "сужение пор","priority": 1},
+                    {"label": "тонизирование","priority": 1},
+                    {"label": "увлажнение","priority": 1},
+                    {"label": "удаление черных точек","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-for-eyes",
+              "label": "Для глаз",
+              "priority": 6,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-eyes-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гель","priority": 1},
+                    {"label": "комплекс","priority": 1},
+                    {"label": "концентрат","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "крем-гель","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "маска","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "молочко","priority": 1},
+                    {"label": "мусс","priority": 1},
+                    {"label": "набор","priority": 1},
+                    {"label": "патчи","priority": 1},
+                    {"label": "пилинг","priority": 1},
+                    {"label": "стик","priority": 1},
+                    {"label": "сыворотка","priority": 1},
+                    {"label": "флюид","priority": 1},
+                    {"label": "эмульсия","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-for-lips",
+              "label": "Для губ",
+              "priority": 7,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-for-lips-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бальзам","priority": 1},
+                    {"label": "блеск","priority": 1},
+                    {"label": "гель","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "мазь","priority": 1},
+                    {"label": "маска","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "скраб","priority": 1},
+                    {"label": "сыворотка","priority": 1},
+                    {"label": "эссенция","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-makeup-removal",
+              "label": "Очищение и снятие макияжа",
+              "priority": 8,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-makeup-removal-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гель","priority": 1},
+                    {"label": "гель-пенка","priority": 1},
+                    {"label": "гидрофильное масло","priority": 1},
+                    {"label": "жидкость","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "крем-гель","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "мицеллярная вода","priority": 1},
+                    {"label": "молочко","priority": 1},
+                    {"label": "мыло","priority": 1},
+                    {"label": "пенка","priority": 1},
+                    {"label": "рукавичка","priority": 1},
+                    {"label": "салфетка","priority": 1},
+                    {"label": "спонж","priority": 1},
+                    {"label": "стик","priority": 1},
+                    {"label": "сыворотка","priority": 1},
+                    {"label": "флюид","priority": 1},
+                    {"label": "щербет","priority": 1},
+                    {"label": "эмульсия","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Тип кожи",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-makeup-removal-skin type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "для всех типов","priority": 1},
+                    {"label": "жирная","priority": 1},
+                    {"label": "комбинированная","priority": 1},
+                    {"label": "нормальная","priority": 1},
+                    {"label": "сухая","priority": 1},
+                    {"label": "чувствительная","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Эффект",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-makeup-removal-effect",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "матирование","priority": 1},
+                    {"label": "очищение","priority": 1},
+                    {"label": "питание","priority": 1},
+                    {"label": "тонизирование","priority": 1},
+                    {"label": "увлажнение","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-sunscreen",
+              "label": "Загар и защита от солнца",
+              "priority": 9,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-sunscreen-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бальзам","priority": 1},
+                    {"label": "гель","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "молочко","priority": 1},
+                    {"label": "стик","priority": 1},
+                    {"label": "флюид","priority": 1},
+                    {"label": "эмульсия","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Назначение",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-sunscreen-purpose",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "автозагар","priority": 1},
+                    {"label": "активатор загара","priority": 1},
+                    {"label": "для загара","priority": 1},
+                    {"label": "после загара","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Тип кожи",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-sunscreen-skin type",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "для всех типов","priority": 1},
+                    {"label": "жирная","priority": 1},
+                    {"label": "комбинированная","priority": 1},
+                    {"label": "нормальная","priority": 1},
+                    {"label": "сухая","priority": 1},
+                    {"label": "чувствительная","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-sets",
+              "label": "Косметические наборы",
+              "priority": 10
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-cotton-sticks-swabs",
+              "label": "Ватные палочки и диски",
+              "priority": 11,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-cotton-sticks-swab-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "ватные диски","priority": 1},
+                    {"label": "ватные палочки","priority": 1},
+                    {"label": "ватные шарики","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-facial-care-anti-aging",
+              "label": "Антивозрастная косметика",
+              "priority": 12,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-facial-care-anti-aging-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "ампулы","priority": 1},
+                    {"label": "бальзам","priority": 1},
+                    {"label": "влажные салфетки","priority": 1},
+                    {"label": "гель","priority": 1},
+                    {"label": "гидролат","priority": 1},
+                    {"label": "гидрофильное масло","priority": 1},
+                    {"label": "капсулы","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "крем-гель","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "маска","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "мицеллярная вода","priority": 1},
+                    {"label": "молочко","priority": 1},
+                    {"label": "мыло","priority": 1},
+                    {"label": "патчи","priority": 1},
+                    {"label": "пенка","priority": 1},
+                    {"label": "пилинг","priority": 1},
+                    {"label": "скраб","priority": 1},
+                    {"label": "сыворотка","priority": 1},
+                    {"label": "тонер","priority": 1},
+                    {"label": "тоник","priority": 1},
+                    {"label": "флюид","priority": 1},
+                    {"label": "эмульсия","priority": 1}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-cosmetics-perfumes-hair-care",
+          "label": "Уход за волосами",
+          "priority": 4,
+          "children": [
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-hairbrushes-brushes",
+              "label": "Расчески и щетки",
+              "priority": 1,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-hairbrushes-brushes-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гребень","priority": 1},
+                    {"label": "лазерная расческа","priority": 1},
+                    {"label": "массажная щетка","priority": 1},
+                    {"label": "набор расчесок","priority": 1},
+                    {"label": "расческа для укладки","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-shampoos",
+              "label": "Шампуни",
+              "priority": 2,
+              "parameters": [
+                {
+                  "label": "Тип волос",
+                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-shampoos-hair type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "для всех типов","priority": 1},
+                    {"label": "жирные","priority": 1},
+                    {"label": "нормальные","priority": 1},
+                    {"label": "смешанные","priority": 1},
+                    {"label": "смешанные/жирные","priority": 1},
+                    {"label": "сухие","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-dry-shampoos",
+              "label": "Сухие шампуни",
+              "priority": 3,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-dry-shampoos-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "кондиционер","priority": 1},
+                    {"label": "шампунь","priority": 1},
+                    {"label": "шампунь-кондиционер","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-masks-serums",
+              "label": "Маски и сыворотки",
+              "priority": 4,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-masks-serums-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бальзам","priority": 1},
+                    {"label": "бустер","priority": 1},
+                    {"label": "гель","priority": 1},
+                    {"label": "кондиционер","priority": 1},
+                    {"label": "концентрат","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "маска","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "молочко","priority": 1},
+                    {"label": "мусс","priority": 1},
+                    {"label": "набор","priority": 1},
+                    {"label": "пилинг","priority": 1},
+                    {"label": "сыворотка","priority": 1},
+                    {"label": "тоник","priority": 1},
+                    {"label": "филлер","priority": 1},
+                    {"label": "флюид","priority": 1},
+                    {"label": "эликсир","priority": 1},
+                    {"label": "эмульсия","priority": 1},
+                    {"label": "эссенция","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Тип волос",
+                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-masks-serums-hair type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "для всех типов","priority": 1},
+                    {"label": "жирные","priority": 1},
+                    {"label": "нормальные","priority": 1},
+                    {"label": "смешанные","priority": 1},
+                    {"label": "смешанные/жирные","priority": 1},
+                    {"label": "сухие","priority": 1},
+                    {"label": "сухие/нормальные","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-curlers",
+              "label": "Бигуди",
+              "priority": 5,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-curlers-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бигуди-бумеранги","priority": 1},
+                    {"label": "бигуди-липучки","priority": 1},
+                    {"label": "гибкие бигуди","priority": 1},
+                    {"label": "классические бигуди","priority": 1},
+                    {"label": "коклюшки","priority": 1},
+                    {"label": "мягкие бигуди","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер бигуди",
+                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-curlerssize",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "крупные","priority": 1},
+                    {"label": "мелкие","priority": 1},
+                    {"label": "очень крупные","priority": 1},
+                    {"label": "средние","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-rinsers",
+              "label": "Ополаскиватели",
+              "priority": 6,
+              "parameters": [
+                {
+                  "label": "Тип волос",
+                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-rinsers-hair type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "для всех типов","priority": 1},
+                    {"label": "жирные","priority": 1},
+                    {"label": "нормальные","priority": 1},
+                    {"label": "нормальные/сухие","priority": 1},
+                    {"label": "смешанные","priority": 1},
+                    {"label": "смешанные/жирные","priority": 1},
+                    {"label": "сухие","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-coloring",
+              "label": "Окрашивание",
+              "priority": 7,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-coloring-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Краска","priority": 1},
+                    {"label": "Окислители","priority": 1},
+                    {"label": "Оттеночные и камуфлирующие средства","priority": 1},
+                    {"label": "Кисти и аксессуары","priority": 1},
+                    {"label": "Другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-styling",
+              "label": "Для укладки",
+              "priority": 7,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-styling-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Лаки и спреи","priority": 1},
+                    {"label": "Мусс и пенка","priority": 1},
+                    {"label": "Воск и паста","priority": 1},
+                    {"label": "Гели и лосьоны","priority": 1},
+                    {"label": "Другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-waving",
+              "label": "Для химической завивки",
+              "priority": 8
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-hairpins",
+              "label": "Заколки",
+              "priority": 9,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-hair-care-hairpins-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "автоматическая","priority": 1},
+                    {"label": "зажим","priority": 1},
+                    {"label": "клик-клак","priority": 1},
+                    {"label": "краб","priority": 1},
+                    {"label": "невидимка","priority": 1},
+                    {"label": "шпильки","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-bands",
+              "label": "Резинки, ободки, повязки",
+              "priority": 10
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-hair-care-wigs-hairpieces",
+              "label": "Парики и шиньоны",
+              "priority": 11
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-cosmetics-perfumes-body-care",
+          "label": "Уход за телом и гигиена",
+          "priority": 5,
+          "children": [
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-for-shower",
+              "label": "Для душа",
+              "priority": 1,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-for-shower-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гель","priority": 1},
+                    {"label": "гель-крем","priority": 1},
+                    {"label": "гель-шампунь","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "крем-скраб","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "масло-скраб","priority": 1},
+                    {"label": "молочко","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-creams-lotions",
+              "label": "Кремы и лосьоны",
+              "priority": 2,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-creams-lotions-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бальзам","priority": 1},
+                    {"label": "гель","priority": 1},
+                    {"label": "кондиционер","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "молочко","priority": 1},
+                    {"label": "сыворотка","priority": 1},
+                    {"label": "эмульсия","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-anti-cellulite-products",
+              "label": "Антицеллюлитные средства",
+              "priority": 3,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-anti-cellulite-products-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бинты для обертывания","priority": 1},
+                    {"label": "водоросли микронизированные","priority": 1},
+                    {"label": "гель","priority": 1},
+                    {"label": "глина","priority": 1},
+                    {"label": "грязь","priority": 1},
+                    {"label": "жидкость для пропитки бинтов","priority": 1},
+                    {"label": "концентрат","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "маска","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "мыло","priority": 1},
+                    {"label": "пластырь","priority": 1},
+                    {"label": "скраб","priority": 1},
+                    {"label": "соль для ванны","priority": 1},
+                    {"label": "сыворотка","priority": 1},
+                    {"label": "эмульсия","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-deodorants",
+              "label": "Дезодоранты",
+              "priority": 4,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-deodorants-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "антиперспирант","priority": 1},
+                    {"label": "дезодорант","priority": 1},
+                    {"label": "дезодорант-антиперспирант","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Способ нанесения",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-deodorants-purpose",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "ролик","priority": 1},
+                    {"label": "спрей","priority": 1},
+                    {"label": "стик","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-hand-care",
+              "label": "Уход за руками",
+              "priority": 5,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-hand-care-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "антиперспирант","priority": 1},
+                    {"label": "дезодорант","priority": 1},
+                    {"label": "дезодорант-антиперспирантбальзам","priority": 1},
+                    {"label": "гель","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "крем-парафин","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "маска","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "молочко","priority": 1},
+                    {"label": "мусс","priority": 1},
+                    {"label": "парафин","priority": 1},
+                    {"label": "пенка","priority": 1},
+                    {"label": "сыворотка","priority": 1},
+                    {"label": "эмульсия","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-feet-care",
+              "label": "Уход за ногами",
+              "priority": 6,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-feet-care-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бальзам","priority": 1},
+                    {"label": "гель","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "лосьон","priority": 1},
+                    {"label": "маска","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "носочки","priority": 1},
+                    {"label": "пенка","priority": 1},
+                    {"label": "соль","priority": 1},
+                    {"label": "тальк","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-depilation-epilation",
+              "label": "Депиляция и эпиляция",
+              "priority": 7,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-depilation-epilation-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Бритвы и лезвия","priority": 1},
+                    {"label": "Восковая эпиляция","priority": 1},
+                    {"label": "Средства для депиляции","priority": 1},
+                    {"label": "Средства до и после депиляции","priority": 1},
+                    {"label": "Шугаринг","priority": 1},
+                    {"label": "Воскоплавы и парафиновые ванны","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-accessories",
+              "label": "Аксессуары",
+              "priority": 8,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-accessories-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "губка","priority": 1},
+                    {"label": "мезороллер","priority": 1},
+                    {"label": "мочалка","priority": 1},
+                    {"label": "шапочка для душа","priority": 1},
+                    {"label": "щетка","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-paper-products",
+              "label": "Бумажные средства гигиены",
+              "priority": 9,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-paper-products-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "платочки бумажные","priority": 1},
+                    {"label": "салфетки бумажные","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-cotton-sticks-swabs",
+              "label": "Ватные палочки и диски",
+              "priority": 10,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-cotton-sticks-swabs-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "ватные диски","priority": 1},
+                    {"label": "ватные палочки","priority": 1},
+                    {"label": "ватные шарики","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-sunscreens",
+              "label": "Загар и защита от солнца",
+              "priority": 11,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-sunscreens-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Автозагар и средства для солярия","priority": 1},
+                    {"label": "Защита от солнца","priority": 1},
+                    {"label": "Уход после загара","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-soaps",
+              "label": "Мыло",
+              "priority": 12,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-soaps-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "крем-мыло","priority": 1},
+                    {"label": "мыло","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Вид",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-soaps-form",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "жидкое","priority": 1},
+                    {"label": "кусковое","priority": 1},
+                    {"label": "мягкое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-scrubs-peelings",
+              "label": "Скрабы и пилинги",
+              "priority": 13,
+              "parameters": [
+                {
+                  "label": "Средство",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-scrubs-peelings-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гоммаж","priority": 1},
+                    {"label": "пилинг","priority": 1},
+                    {"label": "скраб","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Форма средства",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-scrubs-peelings-form",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "гель","priority": 1},
+                    {"label": "желе","priority": 1},
+                    {"label": "крем","priority": 1},
+                    {"label": "маска","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "молочко","priority": 1},
+                    {"label": "мыло","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-beauty-health-cosmetics-perfumes-body-care-foam-salt-oil-for-bath",
+              "label": "Пена, соль, масло для ванны",
+              "priority": 14,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-beauty-health-cosmetics-perfumes-body-care-foam-salt-oil-for-bath-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бальзам","priority": 1},
+                    {"label": "бомбочка","priority": 1},
+                    {"label": "концентрат","priority": 1},
+                    {"label": "масло","priority": 1},
+                    {"label": "пена","priority": 1},
+                    {"label": "соль","priority": 1}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-cosmetics-perfumes-oral-care",
+          "label": "Уход за полостью рта",
+          "priority": 6
+        },
+        {
+          "url": "personal-beauty-health-cosmetics-perfumes-nails-care",
+          "label": "Уход за ногтями",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-cosmetics-perfumes-nails-care-type",
+              "priority": 10,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Гель-лак для ногтей","priority": 1},
+                {"label": "Товары для дизайна ногтей","priority": 1},
+                {"label": "Лак для ногтей","priority": 1},
+                {"label": "Инструменты для маникюра и педикюра","priority": 1},
+                {"label": "Материалы для наращивания ногтей","priority": 1},
+                {"label": "Пилки для ногтей","priority": 1},
+                {"label": "База и верхнее покрытие для ногтей","priority": 1},
+                {"label": "Маникюрные и педикюрные принадлежности","priority": 1},
+                {"label": "Аппараты для маникюра и педикюра","priority": 1},
+                {"label": "Средства для снятия лака","priority": 1},
+                {"label": "Масло для ногтей и кутикулы","priority": 1},
+                {"label": "Средства для лечения и укрепления ногтей","priority": 1},
+                {"label": "Лампы для сушки","priority": 1},
+                {"label": "Средства для удаления кутикулы","priority": 1},
+                {"label": "Жидкости для маникюра","priority": 1},
+                {"label": "Другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-cosmetics-perfumes-for-men",
+          "label": "Мужчинам",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-cosmetics-perfumes-for-men-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Парфюмерия","priority": 1},
+                {"label": "Дезодоранты","priority": 1},
+                {"label": "Шампуни","priority": 1},
+                {"label": "Окрашивание волос","priority": 1},
+                {"label": "Воск и паста","priority": 1},
+                {"label": "Электробритвы","priority": 1},
+                {"label": "Бритвы и лезвия","priority": 1},
+                {"label": "Средства для бритья","priority": 1},
+                {"label": "Для бороды и усов","priority": 1},
+                {"label": "Уход за лицом","priority": 1},
+                {"label": "Наборы","priority": 1},
+                {"label": "Другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-cosmetics-perfumes-sets",
+          "label": "Наборы",
+          "priority": 9
+        },
+        {
+          "url": "personal-beauty-health-cosmetics-perfumes-aromatherapy",
+          "label": "Ароматерапия",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "url": "personal-beauty-health-pharmacy",
+      "label": "Аптека",
+      "priority": 2,
+      "children": [
+        {
+          "url": "personal-beauty-health-pharmacy-vitamins-minerals",
+          "label": "Витамины и БАДы",
+          "priority": 1
+        },
+        {
+          "url": "personal-beauty-health-pharmacy-medical-devices",
+          "label": "Медицинские приборы и изделия",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-pharmacy-medical-devices-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Тонометры","priority": 1},
+                {"label": "Глюкометры и анализаторы крови","priority": 1},
+                {"label": "Ингаляторы, небулайзеры","priority": 1},
+                {"label": "Алкотестеры","priority": 1},
+                {"label": "Термометры","priority": 1},
+                {"label": "Аптечки","priority": 1},
+                {"label": "Грелки","priority": 1},
+                {"label": "Стетоскопы","priority": 1},
+                {"label": "Инвалидные кресла","priority": 1},
+                {"label": "Слуховые аппараты","priority": 1},
+                {"label": "Манжеты и аксессуары для тонометров","priority": 1},
+                {"label": "Спринцовки","priority": 1},
+                {"label": "Ходунки, костыли и трости","priority": 1},
+                {"label": "Аксессуары для глюкометров","priority": 1},
+                {"label": "Аксессуары для ингаляторов","priority": 1},
+                {"label": "Физиотерапевтические аппараты","priority": 1},
+                {"label": "Другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-pharmacy-medical-herbs",
+          "label": "Лекарственные растения",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-pharmacy-medical-herbs-type",
+              "priority": 10,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Иван да Марья","priority": 1},
+                {"label": "алоэ","priority": 1},
+                {"label": "базилик","priority": 1},
+                {"label": "барбарис","priority": 1},
+                {"label": "береза","priority": 1},
+                {"label": "бессмертник","priority": 1},
+                {"label": "боровая матка","priority": 1},
+                {"label": "боярышник","priority": 1},
+                {"label": "брусника","priority": 1},
+                {"label": "бузина","priority": 1},
+                {"label": "валериана","priority": 1},
+                {"label": "василек","priority": 1},
+                {"label": "василистник","priority": 1},
+                {"label": "гинкго билоба","priority": 1},
+                {"label": "годжи","priority": 1},
+                {"label": "грушанка","priority": 1},
+                {"label": "дуб","priority": 1},
+                {"label": "ежевика","priority": 1},
+                {"label": "женьшень","priority": 1},
+                {"label": "зверобой","priority": 1},
+                {"label": "зеленый чай","priority": 1},
+                {"label": "земляника","priority": 1},
+                {"label": "золототысячник","priority": 1},
+                {"label": "зопник клубненосный","priority": 1},
+                {"label": "иван-чай","priority": 1},
+                {"label": "каланхоэ","priority": 1},
+                {"label": "календула","priority": 1},
+                {"label": "калина","priority": 1},
+                {"label": "каштан","priority": 1},
+                {"label": "кизил","priority": 1},
+                {"label": "клевер","priority": 1},
+                {"label": "корень солодки","priority": 1},
+                {"label": "крапива","priority": 1},
+                {"label": "красная щетка","priority": 1},
+                {"label": "лаванда","priority": 1},
+                {"label": "ландыш","priority": 1},
+                {"label": "лен","priority": 1},
+                {"label": "липа","priority": 1},
+                {"label": "лопух","priority": 1},
+                {"label": "малина","priority": 1},
+                {"label": "мать-и-мачеха","priority": 1},
+                {"label": "медуница","priority": 1},
+                {"label": "мелисса","priority": 1},
+                {"label": "можжевельник","priority": 1},
+                {"label": "мята","priority": 1},
+                {"label": "облепиха","priority": 1},
+                {"label": "овес","priority": 1},
+                {"label": "одуванчик","priority": 1},
+                {"label": "омела","priority": 1},
+                {"label": "очанка","priority": 1},
+                {"label": "пастушья сумка","priority": 1},
+                {"label": "первоцвет","priority": 1},
+                {"label": "пижма","priority": 1},
+                {"label": "подорожник","priority": 1},
+                {"label": "полынь","priority": 1},
+                {"label": "пустырник","priority": 1},
+                {"label": "расторопша","priority": 1},
+                {"label": "рейши","priority": 1},
+                {"label": "родиола розовая","priority": 1},
+                {"label": "розмарин","priority": 1},
+                {"label": "ромашка","priority": 1},
+                {"label": "рябина","priority": 1},
+                {"label": "сабельник","priority": 1},
+                {"label": "семена льна","priority": 1},
+                {"label": "смородина","priority": 1},
+                {"label": "софора японская","priority": 1},
+                {"label": "стальник","priority": 1},
+                {"label": "таволга","priority": 1},
+                {"label": "тмин","priority": 1},
+                {"label": "толокнянка","priority": 1},
+                {"label": "тысячелистник","priority": 1},
+                {"label": "укроп","priority": 1},
+                {"label": "фиалка","priority": 1},
+                {"label": "хвощ","priority": 1},
+                {"label": "цветки ноготков","priority": 1},
+                {"label": "цикорий","priority": 1},
+                {"label": "чабрец","priority": 1},
+                {"label": "чага","priority": 1},
+                {"label": "череда","priority": 1},
+                {"label": "черемуха","priority": 1},
+                {"label": "чистотел","priority": 1},
+                {"label": "шалфей","priority": 1},
+                {"label": "шиповник","priority": 1},
+                {"label": "эвкалипт","priority": 1},
+                {"label": "элеутерококк","priority": 1},
+                {"label": "эрвы шерстистой трава","priority": 1},
+                {"label": "ясменник","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Форма выпуска",
+              "name": "personal-beauty-health-pharmacy-medical-herbs-form",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 31,
+              "options": [
+                {"label": "капсулы, таблетки","priority": 1},
+                {"label": "корень","priority": 1},
+                {"label": "настойки, сиропы","priority": 1},
+                {"label": "сбор","priority": 1},
+                {"label": "свечи","priority": 1},
+                {"label": "фильтр-пакеты","priority": 1},
+                {"label": "чай","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-pharmacy-medical-materials",
+          "label": "Медицинские материалы",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-pharmacy-medical-materials-type",
+              "priority": 10,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Медицинские пластыри","priority": 1},
+                {"label": "Перчатки медицинские","priority": 1},
+                {"label": "Перевязочные бинты","priority": 1},
+                {"label": "Медицинские шприцы, иглы","priority": 1},
+                {"label": "Бахилы медицинские","priority": 1},
+                {"label": "Катетеры урологические","priority": 1},
+                {"label": "Инфузионные системы, катетеры внутривенные","priority": 1},
+                {"label": "Маски медицинские","priority": 1},
+                {"label": "Вата медицинская","priority": 1},
+                {"label": "Инфузионные помпы","priority": 1},
+                {"label": "Расходные материалы для анализов и инъекций","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-pharmacy-medical-disinfectants",
+          "label": "Дезинфицирующие средства",
+          "priority": 5
+        },
+        {
+          "url": "personal-beauty-health-pharmacy-medical-diagnostic-tests",
+          "label": "Диагностические тесты",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-pharmacy-medical-diagnostic-tests-type",
+              "priority": 10,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "выявление антител к вирусу иммунодефицита человека","priority": 1},
+                {"label": "выявление антител к возбудителю сифилиса","priority": 1},
+                {"label": "определение беременности","priority": 1},
+                {"label": "определение бета-гемолитического стрептококка группы А","priority": 1},
+                {"label": "определение гепатита В","priority": 1},
+                {"label": "определение глюкозы и кетоновых тел","priority": 1},
+                {"label": "определение крови в моче","priority": 1},
+                {"label": "определение менопаузы","priority": 1},
+                {"label": "определение молочницы","priority": 1},
+                {"label": "определение овуляции","priority": 1},
+                {"label": "определение подтекания околоплодных вод","priority": 1},
+                {"label": "определение содержания алкоголя","priority": 1},
+                {"label": "определение содержания наркотиков","priority": 1},
+                {"label": "определение уровня влагалищной кислотности","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-pharmacy-medical-female-contraceptives",
+          "label": "Женские контрацептивы",
+          "priority": 7
+        },
+        {
+          "url": "personal-beauty-health-pharmacy-medical-nursing",
+          "label": "Уход за больными",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-pharmacy-medical-nursing-type",
+              "priority": 10,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Приспособления для ухода за больными","priority": 1},
+                {"label": "Подгузники, пеленки, трусы для больных","priority": 1},
+                {"label": "Противопролежневые матрасы и подушки","priority": 1},
+                {"label": "Гигиенические средства для ухода за больными","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-pharmacy-medical-orthopedic-products",
+          "label": "Ортопедические изделия",
+          "priority": 9,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-pharmacy-medical-orthopedic-products-type",
+              "priority": 10,
+              "post_form": "dropdown",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Бинты эластичные","priority": 1},
+                {"label": "Компрессионный трикотаж","priority": 1},
+                {"label": "Лечебные согревающие изделия","priority": 1},
+                {"label": "Бандажи и ортезы","priority": 1},
+                {"label": "Изделия для стопы","priority": 1},
+                {"label": "Корсеты и корректоры осанки","priority": 1},
+                {"label": "Стельки","priority": 1},
+                {"label": "Обувь","priority": 1},
+                {"label": "Пояса и трикотаж для похудения","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-pharmacy-medical-other",
+          "label": "Прочие медицинские товары",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "url": "personal-beauty-health-optics",
+      "label": "Оптика",
+      "priority": 3,
+      "children": [
+        {
+          "url": "personal-beauty-health-optics-contact-lenses",
+          "label": "Контактные линзы",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-optics-contact-lenses-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "астигматические","priority": 1},
+                {"label": "карнавальные","priority": 1},
+                {"label": "мультифокальные","priority": 1},
+                {"label": "оттеночные","priority": 1},
+                {"label": "прозрачные","priority": 1},
+                {"label": "цветные","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Частота замены",
+              "name": "replacement",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "две недели","priority": 1},
+                {"label": "день","priority": 1},
+                {"label": "месяц","priority": 1},
+                {"label": "полгода","priority": 1},
+                {"label": "три месяца","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Производитель",
+              "name": "personal-beauty-health-optics-contact-lenses-brand",
+              "priority": 12,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "search_priority": 32,
+              "options": [
+                {"label": "Acuvue","priority": 1},
+                {"label": "ADRIA","priority": 1},
+                {"label": "Air Optix (Alcon)","priority": 1},
+                {"label": "Bausch & Lomb","priority": 1},
+                {"label": "Belmore","priority": 1},
+                {"label": "Bescon","priority": 1},
+                {"label": "CooperVision","priority": 1},
+                {"label": "Clearlab","priority": 1},
+                {"label": "Dailies (Alcon)","priority": 1},
+                {"label": "Dreamcon","priority": 1},
+                {"label": "EyeMed Technologies","priority": 1},
+                {"label": "FreshLook (Alcon)","priority": 1},
+                {"label": "Gelflex","priority": 1},
+                {"label": "Horien","priority": 1},
+                {"label": "Interojo","priority": 1},
+                {"label": "Maxima","priority": 1},
+                {"label": "Menicon","priority": 1},
+                {"label": "Neo Vision","priority": 1},
+                {"label": "OKVision","priority": 1},
+                {"label": "Sauflon","priority": 1},
+                {"label": "VizoTeque","priority": 1},
+                {"label": "Zeiss","priority": 1},
+                {"label": "Офтальмикс","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Оптическая сила",
+              "name": "personal-beauty-health-optics-contact-lenses-optycal-force",
+              "priority": 13,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "search_priority": 33,
+              "options": [
+                {"label": "+0,25","priority": 1},
+                {"label": "+0,5","priority": 1},
+                {"label": "+0,75","priority": 1},
+                {"label": "+1","priority": 1},
+                {"label": "+1,25","priority": 1},
+                {"label": "+1,5","priority": 1},
+                {"label": "+1,75","priority": 1},
+                {"label": "+10","priority": 1},
+                {"label": "+10,5","priority": 1},
+                {"label": "+11","priority": 1},
+                {"label": "+11,5","priority": 1},
+                {"label": "+12","priority": 1},
+                {"label": "+12,5","priority": 1},
+                {"label": "+13","priority": 1},
+                {"label": "+13,5","priority": 1},
+                {"label": "+14","priority": 1},
+                {"label": "+14,5","priority": 1},
+                {"label": "+15","priority": 1},
+                {"label": "+15,5","priority": 1},
+                {"label": "+16","priority": 1},
+                {"label": "+16,5","priority": 1},
+                {"label": "+17","priority": 1},
+                {"label": "+17,5","priority": 1},
+                {"label": "+18","priority": 1},
+                {"label": "+18,5","priority": 1},
+                {"label": "+19","priority": 1},
+                {"label": "+19,5","priority": 1},
+                {"label": "+2","priority": 1},
+                {"label": "+2,25","priority": 1},
+                {"label": "+2,5","priority": 1},
+                {"label": "+2,75","priority": 1},
+                {"label": "+20","priority": 1},
+                {"label": "+3","priority": 1},
+                {"label": "+3,25","priority": 1},
+                {"label": "+3,5","priority": 1},
+                {"label": "+3,75","priority": 1},
+                {"label": "+4","priority": 1},
+                {"label": "+4,25","priority": 1},
+                {"label": "+4,5","priority": 1},
+                {"label": "+4,75","priority": 1},
+                {"label": "+5","priority": 1},
+                {"label": "+5,25","priority": 1},
+                {"label": "+5,5","priority": 1},
+                {"label": "+5,75","priority": 1},
+                {"label": "+6","priority": 1},
+                {"label": "+6,5","priority": 1},
+                {"label": "+7","priority": 1},
+                {"label": "+7,5","priority": 1},
+                {"label": "+8","priority": 1},
+                {"label": "+8,5","priority": 1},
+                {"label": "+9","priority": 1},
+                {"label": "+9,5","priority": 1},
+                {"label": "-0,25","priority": 1},
+                {"label": "-0,5","priority": 1},
+                {"label": "-0,75","priority": 1},
+                {"label": "-1","priority": 1},
+                {"label": "-1,25","priority": 1},
+                {"label": "-1,5","priority": 1},
+                {"label": "-1,75","priority": 1},
+                {"label": "-10","priority": 1},
+                {"label": "-10,5","priority": 1},
+                {"label": "-11","priority": 1},
+                {"label": "-11,5","priority": 1},
+                {"label": "-12","priority": 1},
+                {"label": "-12,5","priority": 1},
+                {"label": "-13","priority": 1},
+                {"label": "-13,5","priority": 1},
+                {"label": "-14","priority": 1},
+                {"label": "-14,5","priority": 1},
+                {"label": "-15","priority": 1},
+                {"label": "-15,5","priority": 1},
+                {"label": "-16","priority": 1},
+                {"label": "-16,5","priority": 1},
+                {"label": "-17","priority": 1},
+                {"label": "-17,5","priority": 1},
+                {"label": "-18","priority": 1},
+                {"label": "-18,5","priority": 1},
+                {"label": "-19","priority": 1},
+                {"label": "-19,5","priority": 1},
+                {"label": "-2","priority": 1},
+                {"label": "-2,25","priority": 1},
+                {"label": "-2,5","priority": 1},
+                {"label": "-2,75","priority": 1},
+                {"label": "-20","priority": 1},
+                {"label": "-3","priority": 1},
+                {"label": "-3,25","priority": 1},
+                {"label": "-3,5","priority": 1},
+                {"label": "-3,75","priority": 1},
+                {"label": "-4","priority": 1},
+                {"label": "-4,25","priority": 1},
+                {"label": "-4,5","priority": 1},
+                {"label": "-4,75","priority": 1},
+                {"label": "-5","priority": 1},
+                {"label": "-5,25","priority": 1},
+                {"label": "-5,5","priority": 1},
+                {"label": "-5,75","priority": 1},
+                {"label": "-6","priority": 1},
+                {"label": "-6,25","priority": 1},
+                {"label": "-6,5","priority": 1},
+                {"label": "-6,75","priority": 1},
+                {"label": "-7","priority": 1},
+                {"label": "-7,25","priority": 1},
+                {"label": "-7,5","priority": 1},
+                {"label": "-7,75","priority": 1},
+                {"label": "-8","priority": 1},
+                {"label": "-8,5","priority": 1},
+                {"label": "-9","priority": 1},
+                {"label": "-9,5","priority": 1},
+                {"label": "0","priority": 1}
+              ]
+            },
+            {
+              "label": "Радиус кривизны",
+              "name": "radius",
+              "priority": 14,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "search_priority": 34,
+              "options": [
+                {"label": "8,3","priority": 1},
+                {"label": "8,4","priority": 1},
+                {"label": "8,5","priority": 1},
+                {"label": "8,6","priority": 1},
+                {"label": "8,7","priority": 1},
+                {"label": "8,8","priority": 1},
+                {"label": "8,9","priority": 1},
+                {"label": "9","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-optics-glasses-for-sight",
+          "label": "Очки для зрения",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-optics-glasses-for-sight-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "для водителей","priority": 1},
+                {"label": "для компьютера","priority": 1},
+                {"label": "корректирующие","priority": 1},
+                {"label": "тренажеры","priority": 1}
+              ]
+            },
+            {
+              "label": "Конструкция",
+              "name": "personal-beauty-health-optics-glasses-for-sight-style",
+              "priority": 13,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 13,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "безободковая","priority": 1},
+                {"label": "ободковая","priority": 1},
+                {"label": "полуободковая","priority": 1}
+              ]
+            },
+            {
+              "label": "Материал оправы",
+              "name": "personal-beauty-health-optics-glasses-for-sight-material",
+              "priority": 14,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 14,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "комбинированная","priority": 1},
+                {"label": "метал","priority": 1},
+                {"label": "пластик","priority": 1}
+              ]
+            },
+            {
+              "label": "Материал линз",
+              "name": "personal-beauty-health-optics-glasses-for-sight-material-lenses",
+              "priority": 15,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 15,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "пластик","priority": 1},
+                {"label": "стекло","priority": 1}
+              ]
+            },
+            {
+              "label": "Диоптрий",
+              "name": "personal-beauty-health-optics-glasses-for-sight-optycal-force",
+              "priority": 16,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "search_priority": 36,
+              "options": [
+                {"label": "без диоптрий","priority": 1},
+                {"label": "+0.50","priority": 1},
+                {"label": "+0.75","priority": 1},
+                {"label": "+1.00","priority": 1},
+                {"label": "+1.25","priority": 1},
+                {"label": "+1.50","priority": 1},
+                {"label": "+1.75","priority": 1},
+                {"label": "+2.00","priority": 1},
+                {"label": "+2.25","priority": 1},
+                {"label": "+2.50","priority": 1},
+                {"label": "+2.75","priority": 1},
+                {"label": "+3.00","priority": 1},
+                {"label": "+3.25","priority": 1},
+                {"label": "+3.50","priority": 1},
+                {"label": "+3.75","priority": 1},
+                {"label": "+4.00","priority": 1},
+                {"label": "+4.25","priority": 1},
+                {"label": "+4.50","priority": 1},
+                {"label": "+5.00","priority": 1},
+                {"label": "+5.50","priority": 1},
+                {"label": "+6.00","priority": 1},
+                {"label": "+6.50","priority": 1},
+                {"label": "+7.00","priority": 1},
+                {"label": "+7.50","priority": 1},
+                {"label": "+8.00","priority": 1},
+                {"label": "+8.50","priority": 1},
+                {"label": "+9.00","priority": 1},
+                {"label": "+9.50","priority": 1},
+                {"label": "-0.50","priority": 1},
+                {"label": "-0.75","priority": 1},
+                {"label": "-1.00","priority": 1},
+                {"label": "-1.25","priority": 1},
+                {"label": "-1.50","priority": 1},
+                {"label": "-1.75","priority": 1},
+                {"label": "-2.00","priority": 1},
+                {"label": "-2.25","priority": 1},
+                {"label": "-2.50","priority": 1},
+                {"label": "-2.75","priority": 1},
+                {"label": "-3.00","priority": 1},
+                {"label": "-3.25","priority": 1},
+                {"label": "-3.50","priority": 1},
+                {"label": "-3.75","priority": 1},
+                {"label": "-4.00","priority": 1},
+                {"label": "-4.50","priority": 1},
+                {"label": "-5.00","priority": 1},
+                {"label": "-5.50","priority": 1},
+                {"label": "-6.00","priority": 1},
+                {"label": "-7.00","priority": 1},
+                {"label": "-8.00","priority": 1},
+                {"label": "-9.00","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-optics-glasses-frames",
+          "label": "Оправы для очков",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Конструкция",
+              "name": "personal-beauty-health-optics-glasses-frames-style",
+              "priority": 13,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 13,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "безободковая","priority": 1},
+                {"label": "ободковая","priority": 1},
+                {"label": "полуободковая","priority": 1}
+              ]
+            },
+            {
+              "label": "Материал оправы",
+              "name": "personal-beauty-health-optics-glasses-frames-material",
+              "priority": 14,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 14,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "комбинированная","priority": 1},
+                {"label": "метал","priority": 1},
+                {"label": "пластик","priority": 1}
+              ]
+            },
+            {
+              "label": "Форма оправы",
+              "name": "personal-beauty-health-optics-glasses-frames-form",
+              "priority": 15,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 15,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "авиатор","priority": 1},
+                {"label": "бабочка","priority": 1},
+                {"label": "квадратная","priority": 1},
+                {"label": "клабмастер","priority": 1},
+                {"label": "кошачий глаз","priority": 1},
+                {"label": "круглая","priority": 1},
+                {"label": "овальная","priority": 1},
+                {"label": "прямоугольная","priority": 1},
+                {"label": "трапециевидная","priority": 1}
+              ]
+            },
+            {
+              "label": "Пол",
+              "name": "personal-beauty-health-optics-glasses-frames-sex",
+              "priority": 16,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 16,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "мужские","priority": 1},
+                {"label": "женские","priority": 1},
+                {"label": "унисекс","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-optics-glasses-lenses",
+          "label": "Линзы для очков",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-optics-glasses-lenses-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "асферические","priority": 1},
+                {"label": "бифокальные","priority": 1},
+                {"label": "прогрессивные","priority": 1},
+                {"label": "сферические","priority": 1}
+              ]
+            },
+            {
+              "label": "Материал линз",
+              "name": "personal-beauty-health-optics-glasses-lenses-material-lenses",
+              "priority": 15,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 15,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "пластик","priority": 1},
+                {"label": "стекло","priority": 1}
+              ]
+            },
+            {
+              "label": "Диоптрий",
+              "name": "personal-beauty-health-optics-glasses-lenses-optycal-force",
+              "priority": 16,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "search_priority": 36,
+              "options": [
+                {"label": "без диоптрий","priority": 1},
+                {"label": "+0.25","priority": 1},
+                {"label": "+0.50","priority": 1},
+                {"label": "+0.75","priority": 1},
+                {"label": "+1.00","priority": 1},
+                {"label": "+1.25","priority": 1},
+                {"label": "+1.50","priority": 1},
+                {"label": "+1.75","priority": 1},
+                {"label": "+2.00","priority": 1},
+                {"label": "+2.25","priority": 1},
+                {"label": "+2.50","priority": 1},
+                {"label": "+2.75","priority": 1},
+                {"label": "+3.00","priority": 1},
+                {"label": "+3.25","priority": 1},
+                {"label": "+3.50","priority": 1},
+                {"label": "+3.75","priority": 1},
+                {"label": "+4.00","priority": 1},
+                {"label": "+4.25","priority": 1},
+                {"label": "+4.50","priority": 1},
+                {"label": "+5.00","priority": 1},
+                {"label": "+5.50","priority": 1},
+                {"label": "+6.00","priority": 1},
+                {"label": "+6.50","priority": 1},
+                {"label": "+7.00","priority": 1},
+                {"label": "+7.50","priority": 1},
+                {"label": "+8.00","priority": 1},
+                {"label": "+8.50","priority": 1},
+                {"label": "+9.00","priority": 1},
+                {"label": "+9.50","priority": 1},
+                {"label": "-0.25","priority": 1},
+                {"label": "-0.50","priority": 1},
+                {"label": "-0.75","priority": 1},
+                {"label": "-1.00","priority": 1},
+                {"label": "-1.25","priority": 1},
+                {"label": "-1.50","priority": 1},
+                {"label": "-1.75","priority": 1},
+                {"label": "-2.00","priority": 1},
+                {"label": "-2.25","priority": 1},
+                {"label": "-2.50","priority": 1},
+                {"label": "-2.75","priority": 1},
+                {"label": "-3.00","priority": 1},
+                {"label": "-3.25","priority": 1},
+                {"label": "-3.50","priority": 1},
+                {"label": "-3.75","priority": 1},
+                {"label": "-4.00","priority": 1},
+                {"label": "-4.50","priority": 1},
+                {"label": "-5.00","priority": 1},
+                {"label": "-5.50","priority": 1},
+                {"label": "-6.00","priority": 1},
+                {"label": "-7.00","priority": 1},
+                {"label": "-8.00","priority": 1},
+                {"label": "-9.00","priority": 1},
+                {"label": "-9.50","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-optics-accessories",
+          "label": "Аксессуары для оптики",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-beauty-health-optics-accessories-type",
+              "priority": 10,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "влажные салфетки для очков","priority": 1},
+                {"label": "держатель для очков","priority": 1},
+                {"label": "контейнер для линз","priority": 1},
+                {"label": "набор для контактных линз","priority": 1},
+                {"label": "пинцет для линз","priority": 1},
+                {"label": "салфетка для оптики","priority": 1},
+                {"label": "спрей для чистки очков","priority": 1},
+                {"label": "шнурок для очков","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-beauty-health-optics-glasses-cases",
+          "label": "Футляры",
+          "priority": 6
+        },
+        {
+          "url": "personal-beauty-health-optics-contact-lenses-solutions",
+          "label": "Растворы для контактных линз",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "url": "personal-beauty-health-other",
+      "label": "Прочее для красоты и здоровья",
+      "priority": 4
+    }
+  ]
+}

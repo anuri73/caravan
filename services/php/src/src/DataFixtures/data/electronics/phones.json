@@ -1,0 +1,484 @@
+{
+  "label": "Телефоны и аксессуары",
+  "url": "electronics-phones",
+  "priority": 1,
+  "children": [
+    {
+      "url": "electronics-phones-cell-phones",
+      "label": "Сотовые телефоны",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-phones-cell-phones-type",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Смартфон",
+              "priority": 1
+            },
+            {
+              "label": "Телефон",
+              "priority": 2
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожалуйста, укажите тип телефона"
+            }
+          ]
+        },
+        {
+          "label": "Операционная система",
+          "name": "electronics-phones-cell-phones-operating system",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Android",
+              "priority": 1
+            },
+            {
+              "label": "iOS",
+              "priority": 2
+            },
+            {
+              "label": "Windows",
+              "priority": 3
+            },
+            {
+              "label": "Symbian",
+              "priority": 4
+            },
+            {
+              "label": "BlackBerry OS",
+              "priority": 5
+            },
+            {
+              "label": "Другая",
+              "priority": 6
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожалуйста, укажите операционную систему телефона"
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-phones-cell-phones-brand",
+          "priority": 13,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {
+              "label": "Apple (iPhone)",
+              "priority": 1
+            },
+            {
+              "label": "ASUS",
+              "priority": 2
+            },
+            {
+              "label": "BlackBerry",
+              "priority": 3
+            },
+            {
+              "label": "Beeline",
+              "priority": 4
+            },
+            {
+              "label": "Bravis",
+              "priority": 5
+            },
+            {
+              "label": "Fly",
+              "priority": 6
+            },
+            {
+              "label": "Google",
+              "priority": 7
+            },
+            {
+              "label": "Homtom",
+              "priority": 8
+            },
+            {
+              "label": "HTC",
+              "priority": 9
+            },
+            {
+              "label": "Huawei",
+              "priority": 10
+            },
+            {
+              "label": "KENEKSI",
+              "priority": 11
+            },
+            {
+              "label": "LeEco",
+              "priority": 12
+            },
+            {
+              "label": "Lenovo",
+              "priority": 13
+            },
+            {
+              "label": "LG",
+              "priority": 14
+            },
+            {
+              "label": "Meizu",
+              "priority": 15
+            },
+            {
+              "label": "Micromax",
+              "priority": 16
+            },
+            {
+              "label": "Microsoft",
+              "priority": 17
+            },
+            {
+              "label": "Motorola",
+              "priority": 18
+            },
+            {
+              "label": "Nokia",
+              "priority": 19
+            },
+            {
+              "label": "OnePlus",
+              "priority": 20
+            },
+            {
+              "label": "O!",
+              "priority": 20
+            },
+            {
+              "label": "Philips",
+              "priority": 21
+            },
+            {
+              "label": "Samsung",
+              "priority": 22
+            },
+            {
+              "label": "Sony",
+              "priority": 23
+            },
+            {
+              "label": "Xiaomi",
+              "priority": 24
+            },
+            {
+              "label": "Zopo",
+              "priority": 25
+            },
+            {
+              "label": "ZTE",
+              "priority": 26
+            },
+            {
+              "label": "Другое",
+              "priority": 27
+            }
+          ]
+        },
+        {
+          "label": "Количество сим-карт",
+          "name": "simcards amount",
+          "priority": 14,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "1 сим-карта",
+              "priority": 1
+            },
+            {
+              "label": "2 сим-карты",
+              "priority": 2
+            },
+            {
+              "label": "3 сим карты и более",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Объем памяти",
+          "name": "electronics-phones-cell-phones-memory",
+          "priority": 15,
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 33,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Объем памяти - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Объем оперативной памяти",
+          "name": "electronics-phones-cell-phones-ram",
+          "priority": 16,
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 34,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Объем оперативной памяти - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Разрешение основной камеры",
+          "name": "electronics-phones-cell-phones-main-camera",
+          "priority": 17,
+          "post_form": "textbox",
+          "measure": "мп",
+          "search_form": "range",
+          "search_priority": 35,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Разрешение основной камеры - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Разрешение фронтальной камеры",
+          "name": "front camera",
+          "priority": 18,
+          "post_form": "textbox",
+          "measure": "мп",
+          "search_form": "range",
+          "search_priority": 36,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Разрешение фронтальной камеры - значение должно быть числом"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-phones-accessories",
+      "label": "Аксессуары для телефонов",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-phones-accessories-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Зарядные устройства",
+              "priority": 1
+            },
+            {
+              "label": "Наушники для телефонов",
+              "priority": 1
+            },
+            {
+              "label": "Bluetooth гарнитуры",
+              "priority": 1
+            },
+            {
+              "label": "Чехлы",
+              "priority": 2
+            },
+            {
+              "label": "Кабели",
+              "priority": 3
+            },
+            {
+              "label": "Защитные пленки, стекла",
+              "priority": 4
+            },
+            {
+              "label": "Переходники",
+              "priority": 5
+            },
+            {
+              "label": "Держатели",
+              "priority": 6
+            },
+            {
+              "label": "Антенны",
+              "priority": 7
+            },
+            {
+              "label": "Стилусы",
+              "priority": 8
+            },
+            {
+              "label": "Объективы для мобильных устройств",
+              "priority": 9
+            },
+            {
+              "label": "Карты памяти",
+              "priority": 10
+            },
+            {
+              "label": "Внешние аккумуляторы (power bank)",
+              "priority": 11
+            },
+            {
+              "label": "Селфи-палки (моноподы)",
+              "priority": 11
+            },
+            {
+              "label": "Другое",
+              "priority": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-phones-spares",
+      "label": "Запасные части для телефонов",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-phones-spares-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Дисплеи",
+              "priority": 1
+            },
+            {
+              "label": "Корпуса и панели",
+              "priority": 2
+            },
+            {
+              "label": "Сенсорные экраны",
+              "priority": 3
+            },
+            {
+              "label": "Аккумуляторы",
+              "priority": 4
+            },
+            {
+              "label": "Шлейфы",
+              "priority": 5
+            },
+            {
+              "label": "Камеры",
+              "priority": 6
+            },
+            {
+              "label": "Микрофоны",
+              "priority": 7
+            },
+            {
+              "label": "Другое",
+              "priority": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-phones-simcards",
+      "label": "Сим-карты и номера",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Оператор",
+          "name": "electronics-phones-simcards-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Beeline",
+              "priority": 1
+            },
+            {
+              "label": "Megacom",
+              "priority": 2
+            },
+            {
+              "label": "O!",
+              "priority": 3
+            },
+            {
+              "label": "другой",
+              "priority": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-phones-corded-phones",
+      "label": "Проводные телефоны и факсы",
+      "priority": 6
+    },
+    {
+      "url": "electronics-phones-radio-phones",
+      "label": "Радиотелефоны",
+      "priority": 7
+    },
+    {
+      "url": "electronics-phones-radioset-phones",
+      "label": "Рации",
+      "priority": 8
+    },
+    {
+      "url": "electronics-phones-other-phones",
+      "label": "Прочие телефоны и аксессуары",
+      "priority": 8
+    }
+  ]
+}

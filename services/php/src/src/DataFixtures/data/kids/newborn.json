@@ -1,0 +1,445 @@
+{
+  "label": "Товары для новорожденных",
+  "url": "kids-newborn",
+  "priority": 5,
+  "children": [
+    {
+      "url": "kids-newborn-diapers",
+      "label": "Подгузники",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "kids-newborn-diapers-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Подгузники",
+              "priority": 1
+            },
+            {
+              "label": "Трусики",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Вес ребенка",
+          "name": "kids-newborn-diapers-child weight",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите вес ребенка"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 22,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "0-3 кг",
+              "priority": 1
+            },
+            {
+              "label": "0-5 кг",
+              "priority": 2
+            },
+            {
+              "label": "3-7 кг",
+              "priority": 3
+            },
+            {
+              "label": "4-9 кг",
+              "priority": 4
+            },
+            {
+              "label": "6-12 кг",
+              "priority": 5
+            },
+            {
+              "label": "8-14 кг",
+              "priority": 6
+            },
+            {
+              "label": "10-18 кг",
+              "priority": 7
+            },
+            {
+              "label": "11-22 кг",
+              "priority": 8
+            },
+            {
+              "label": "15-35 кг",
+              "priority": 9
+            },
+            {
+              "label": "25+ кг",
+              "priority": 10
+            }
+          ]
+        },
+        {
+          "label": "Пол ребенка",
+          "name": "kids-newborn-diapers-sex",
+          "priority": 23,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите пол ребенка"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 23,
+          "options": [
+            {
+              "label": "Для мальчиков",
+              "priority": 1
+            },
+            {
+              "label": "Для девочек",
+              "priority": 2
+            },
+            {
+              "label": "Для мальчиков и девочек",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Число штук в упаковке",
+          "name": "kids-newborn-diapers-amount",
+          "priority": 24,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите кол-во в упаковке"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Число штук в упаковке - значение должно быть целым числом",
+              "integerOnly": true
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "шт",
+          "search_form": "range",
+          "search_priority": 24
+        },
+        {
+          "label": "Дополнительно",
+          "name": "kids-newborn-diapers-options",
+          "priority": 25,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "label": "Большая упаковка",
+              "name": "big pack",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "label": "Многоразовые",
+              "name": "reusable",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "label": "Ночные",
+              "name": "for sleeping",
+              "post_form": "checkbox",
+              "priority": 3
+            },
+            {
+              "label": "Для плавания",
+              "name": "for swimming",
+              "post_form": "checkbox",
+              "priority": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-newborn-hygiene",
+      "label": "Детская гигиена",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "kids-newborn-hygiene-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Для купания",
+              "priority": 1
+            },
+            {
+              "label": "Для кожи малыша",
+              "priority": 2
+            },
+            {
+              "label": "Для стирки белья",
+              "priority": 3
+            },
+            {
+              "label": "Для мытья детской посуды",
+              "priority": 4
+            },
+            {
+              "label": "Влажные салфетки,сухие салфетки, платочки",
+              "priority": 5
+            },
+            {
+              "label": "Ватные (палочки, диски)",
+              "priority": 6
+            },
+            {
+              "label": "Пеленки",
+              "priority": 7
+            },
+            {
+              "label": "Горшки и ванночки",
+              "priority": 8
+            },
+            {
+              "label": "Зубные пасты, щетки",
+              "priority": 9
+            },
+            {
+              "label": "Освежители воздуха",
+              "priority": 10
+            },
+            {
+              "label": "От насекомых",
+              "priority": 11
+            },
+            {
+              "label": "Разное",
+              "priority": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "kids-newborn-food",
+      "label": "Детское питание",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "kids-newborn-food-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Каши",
+              "priority": 1
+            },
+            {
+              "label": "Молочные смеси",
+              "priority": 2
+            },
+            {
+              "label": "Пюре",
+              "priority": 3
+            },
+            {
+              "label": "Йогурты",
+              "priority": 4
+            },
+            {
+              "label": "Коктейли, десерты",
+              "priority": 5
+            },
+            {
+              "label": "Вода",
+              "priority": 6
+            },
+            {
+              "label": "Печенья, завтраки",
+              "priority": 7
+            },
+            {
+              "label": "Соки",
+              "priority": 8
+            },
+            {
+              "label": "Чай",
+              "priority": 9
+            },
+            {
+              "label": "Разное",
+              "priority": 10
+            }
+          ]
+        },
+        {
+          "label": "Возраст от",
+          "name": "kids-newborn-food-age",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите минимальный возраст ребенка"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Возраст - значение должно быть целым числом",
+              "integerOnly": true
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "месяцев",
+          "search_form": "range",
+          "search_priority": 22
+        }
+      ]
+    },
+    {
+      "url": "kids-newborn-accessories",
+      "label": "Аксессуары",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "kids-newborn-accessories-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Бутылочки",
+              "priority": 1
+            },
+            {
+              "label": "Пустышки",
+              "priority": 2
+            },
+            {
+              "label": "Соски для бутылок",
+              "priority": 3
+            },
+            {
+              "label": "Поильники",
+              "priority": 4
+            },
+            {
+              "label": "Посуда, кормление",
+              "priority": 5
+            },
+            {
+              "label": "Ершики для бутылок",
+              "priority": 6
+            },
+            {
+              "label": "Зубные кольца, прорезыватели",
+              "priority": 7
+            },
+            {
+              "label": "Прищепки для пустышки",
+              "priority": 8
+            },
+            {
+              "label": "Нагрудники, слюнявчики",
+              "priority": 9
+            },
+            {
+              "label": "Носоочистители, аспираторы",
+              "priority": 10
+            },
+            {
+              "label": "Для прогулок",
+              "priority": 11
+            },
+            {
+              "label": "Термометры",
+              "priority": 12
+            },
+            {
+              "label": "Безопасность",
+              "priority": 13
+            },
+            {
+              "label": "Для купания",
+              "priority": 14
+            },
+            {
+              "label": "Ножницы",
+              "priority": 15
+            },
+            {
+              "label": "Разное",
+              "priority": 16
+            }
+          ]
+        },
+        {
+          "label": "Возраст от",
+          "name": "kids-newborn-accessories-age",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите минимальный возраст ребенка"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Возраст от - значение должно быть целым числом",
+              "integerOnly": true
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "месяцев",
+          "search_form": "range",
+          "search_priority": 22
+        }
+      ]
+    },
+    {
+      "url": "kids-newborn-other",
+      "label": "Прочие товары для новорожденных",
+      "priority": 5
+    }
+  ]
+}

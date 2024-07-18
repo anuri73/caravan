@@ -1,0 +1,7080 @@
+{
+  "label": "Скутеры",
+  "name": "auto-moto-skutery",
+  "url": "auto-moto-skutery",
+  "priority": 3,
+  "children": [
+    {
+      "label": "ABAT",
+      "url": "auto-moto-skutery-abat",
+      "name": "abat",
+      "priority": 1,
+      "children": [
+        {
+          "label": "ZQTD-398",
+          "url": "auto-moto-skutery-abat-zqtd-398",
+          "name": "zqtd-398",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "ABM",
+      "url": "auto-moto-skutery-abm",
+      "name": "abm",
+      "priority": 2,
+      "children": [
+        {
+          "label": "Cyclone",
+          "url": "auto-moto-skutery-abm-cyclone",
+          "name": "cyclone",
+          "priority": 1
+        },
+        {
+          "label": "Delta",
+          "url": "auto-moto-skutery-abm-delta",
+          "name": "delta",
+          "priority": 2
+        },
+        {
+          "label": "Elite",
+          "url": "auto-moto-skutery-abm-elite",
+          "name": "elite",
+          "priority": 3
+        },
+        {
+          "label": "Favorit",
+          "url": "auto-moto-skutery-abm-favorit",
+          "name": "favorit",
+          "priority": 4
+        },
+        {
+          "label": "Flash",
+          "url": "auto-moto-skutery-abm-flash",
+          "name": "flash",
+          "priority": 5
+        },
+        {
+          "label": "Gust",
+          "url": "auto-moto-skutery-abm-gust",
+          "name": "gust",
+          "priority": 6
+        },
+        {
+          "label": "Sky",
+          "url": "auto-moto-skutery-abm-sky",
+          "name": "sky",
+          "priority": 7
+        },
+        {
+          "label": "Storm L",
+          "url": "auto-moto-skutery-abm-storm_l",
+          "name": "storm_l",
+          "priority": 8
+        },
+        {
+          "label": "Storm SL",
+          "url": "auto-moto-skutery-abm-storm_sl",
+          "name": "storm_sl",
+          "priority": 9
+        },
+        {
+          "label": "Storm YSL",
+          "url": "auto-moto-skutery-abm-storm_ysl",
+          "name": "storm_ysl",
+          "priority": 10
+        },
+        {
+          "label": "Street Racing",
+          "url": "auto-moto-skutery-abm-street_racing",
+          "name": "street_racing",
+          "priority": 11
+        },
+        {
+          "label": "Thunder",
+          "url": "auto-moto-skutery-abm-thunder",
+          "name": "thunder",
+          "priority": 12
+        },
+        {
+          "label": "Tornado 150",
+          "url": "auto-moto-skutery-abm-tornado_150",
+          "name": "tornado_150",
+          "priority": 13
+        },
+        {
+          "label": "Tornado 50",
+          "url": "auto-moto-skutery-abm-tornado_50",
+          "name": "tornado_50",
+          "priority": 14
+        },
+        {
+          "label": "Tornado S",
+          "url": "auto-moto-skutery-abm-tornado_s",
+          "name": "tornado_s",
+          "priority": 15
+        },
+        {
+          "label": "Volcan",
+          "url": "auto-moto-skutery-abm-volcan",
+          "name": "volcan",
+          "priority": 16
+        },
+        {
+          "label": "Wind",
+          "url": "auto-moto-skutery-abm-wind",
+          "name": "wind",
+          "priority": 17
+        },
+        {
+          "label": "ZX150S",
+          "url": "auto-moto-skutery-abm-zx150s",
+          "name": "zx150s",
+          "priority": 18
+        },
+        {
+          "label": "ZX50S",
+          "url": "auto-moto-skutery-abm-zx50s",
+          "name": "zx50s",
+          "priority": 19
+        }
+      ]
+    },
+    {
+      "label": "Adly",
+      "url": "auto-moto-skutery-adly",
+      "name": "adly",
+      "priority": 3,
+      "children": [
+        {
+          "label": "Adly Cat 100",
+          "url": "auto-moto-skutery-adly-adly_cat_100",
+          "name": "adly_cat_100",
+          "priority": 1
+        },
+        {
+          "label": "Adly Cat 125 B",
+          "url": "auto-moto-skutery-adly-adly_cat_125_b",
+          "name": "adly_cat_125_b",
+          "priority": 2
+        },
+        {
+          "label": "Adly Cat 125 D",
+          "url": "auto-moto-skutery-adly-adly_cat_125_d",
+          "name": "adly_cat_125_d",
+          "priority": 3
+        },
+        {
+          "label": "Adly Cat 50",
+          "url": "auto-moto-skutery-adly-adly_cat_50",
+          "name": "adly_cat_50",
+          "priority": 4
+        },
+        {
+          "label": "Adly Jet 100",
+          "url": "auto-moto-skutery-adly-adly_jet_100",
+          "name": "adly_jet_100",
+          "priority": 5
+        },
+        {
+          "label": "Adly Jet 50",
+          "url": "auto-moto-skutery-adly-adly_jet_50",
+          "name": "adly_jet_50",
+          "priority": 6
+        },
+        {
+          "label": "Adly Noble 100",
+          "url": "auto-moto-skutery-adly-adly_noble_100",
+          "name": "adly_noble_100",
+          "priority": 7
+        },
+        {
+          "label": "Adly Noble 125",
+          "url": "auto-moto-skutery-adly-adly_noble_125",
+          "name": "adly_noble_125",
+          "priority": 8
+        },
+        {
+          "label": "Adly Noble 50",
+          "url": "auto-moto-skutery-adly-adly_noble_50",
+          "name": "adly_noble_50",
+          "priority": 9
+        },
+        {
+          "label": "Adly Panther 100",
+          "url": "auto-moto-skutery-adly-adly_panther_100",
+          "name": "adly_panther_100",
+          "priority": 10
+        },
+        {
+          "label": "Adly Panther 50",
+          "url": "auto-moto-skutery-adly-adly_panther_50",
+          "name": "adly_panther_50",
+          "priority": 11
+        },
+        {
+          "label": "Adly Silver Fox 100",
+          "url": "auto-moto-skutery-adly-adly_silver_fox_100",
+          "name": "adly_silver_fox_100",
+          "priority": 12
+        },
+        {
+          "label": "Adly Super Sonic 100",
+          "url": "auto-moto-skutery-adly-adly_super_sonic_100",
+          "name": "adly_super_sonic_100",
+          "priority": 13
+        },
+        {
+          "label": "Adly Super Sonic 125",
+          "url": "auto-moto-skutery-adly-adly_super_sonic_125",
+          "name": "adly_super_sonic_125",
+          "priority": 14
+        },
+        {
+          "label": "Adly Super Sonic 50",
+          "url": "auto-moto-skutery-adly-adly_super_sonic_50",
+          "name": "adly_super_sonic_50",
+          "priority": 15
+        },
+        {
+          "label": "Silverfox 50",
+          "url": "auto-moto-skutery-adly-silverfox_50",
+          "name": "silverfox_50",
+          "priority": 16
+        }
+      ]
+    },
+    {
+      "label": "Aprilia",
+      "url": "auto-moto-skutery-aprilia",
+      "name": "aprilia",
+      "priority": 4,
+      "children": [
+        {
+          "label": "Area 51",
+          "url": "auto-moto-skutery-aprilia-area_51",
+          "name": "area_51",
+          "priority": 1
+        },
+        {
+          "label": "Atlantic 125/250",
+          "url": "auto-moto-skutery-aprilia-atlantic_125_250",
+          "name": "atlantic_125_250",
+          "priority": 2
+        },
+        {
+          "label": "Atlantic 400 Sprint",
+          "url": "auto-moto-skutery-aprilia-atlantic_400_sprint",
+          "name": "atlantic_400_sprint",
+          "priority": 3
+        },
+        {
+          "label": "Atlantic 500",
+          "url": "auto-moto-skutery-aprilia-atlantic_500",
+          "name": "atlantic_500",
+          "priority": 4
+        },
+        {
+          "label": "Gulliver",
+          "url": "auto-moto-skutery-aprilia-gulliver",
+          "name": "gulliver",
+          "priority": 5
+        },
+        {
+          "label": "Habana",
+          "url": "auto-moto-skutery-aprilia-habana",
+          "name": "habana",
+          "priority": 6
+        },
+        {
+          "label": "Leonardo",
+          "url": "auto-moto-skutery-aprilia-leonardo",
+          "name": "leonardo",
+          "priority": 7
+        },
+        {
+          "label": "Mojito",
+          "url": "auto-moto-skutery-aprilia-mojito",
+          "name": "mojito",
+          "priority": 8
+        },
+        {
+          "label": "Rally",
+          "url": "auto-moto-skutery-aprilia-rally",
+          "name": "rally",
+          "priority": 9
+        },
+        {
+          "label": "SR 150",
+          "url": "auto-moto-skutery-aprilia-sr_150",
+          "name": "sr_150",
+          "priority": 10
+        },
+        {
+          "label": "SR 50",
+          "url": "auto-moto-skutery-aprilia-sr_50",
+          "name": "sr_50",
+          "priority": 11
+        },
+        {
+          "label": "SR 50 R",
+          "url": "auto-moto-skutery-aprilia-sr_50_r",
+          "name": "sr_50_r",
+          "priority": 12
+        },
+        {
+          "label": "SRV850",
+          "url": "auto-moto-skutery-aprilia-srv850",
+          "name": "srv850",
+          "priority": 13
+        },
+        {
+          "label": "Scarabeo 125/250",
+          "url": "auto-moto-skutery-aprilia-scarabeo_125_250",
+          "name": "scarabeo_125_250",
+          "priority": 14
+        },
+        {
+          "label": "Scarabeo 200",
+          "url": "auto-moto-skutery-aprilia-scarabeo_200",
+          "name": "scarabeo_200",
+          "priority": 15
+        },
+        {
+          "label": "Scarabeo 400",
+          "url": "auto-moto-skutery-aprilia-scarabeo_400",
+          "name": "scarabeo_400",
+          "priority": 16
+        },
+        {
+          "label": "Scarabeo 50/100",
+          "url": "auto-moto-skutery-aprilia-scarabeo_50_100",
+          "name": "scarabeo_50_100",
+          "priority": 17
+        },
+        {
+          "label": "Scarabeo 500",
+          "url": "auto-moto-skutery-aprilia-scarabeo_500",
+          "name": "scarabeo_500",
+          "priority": 18
+        },
+        {
+          "label": "Sonic",
+          "url": "auto-moto-skutery-aprilia-sonic",
+          "name": "sonic",
+          "priority": 19
+        },
+        {
+          "label": "SportCity 125/200",
+          "url": "auto-moto-skutery-aprilia-sportcity_125_200",
+          "name": "sportcity_125_200",
+          "priority": 20
+        },
+        {
+          "label": "SportCity 250",
+          "url": "auto-moto-skutery-aprilia-sportcity_250",
+          "name": "sportcity_250",
+          "priority": 21
+        },
+        {
+          "label": "SportCity 300",
+          "url": "auto-moto-skutery-aprilia-sportcity_300",
+          "name": "sportcity_300",
+          "priority": 22
+        },
+        {
+          "label": "SportCity 50",
+          "url": "auto-moto-skutery-aprilia-sportcity_50",
+          "name": "sportcity_50",
+          "priority": 23
+        }
+      ]
+    },
+    {
+      "label": "Arex",
+      "url": "auto-moto-skutery-arex",
+      "name": "arex",
+      "priority": 5,
+      "children": [
+        {
+          "label": "QT-12E",
+          "url": "auto-moto-skutery-arex-qt-12e",
+          "name": "qt-12e",
+          "priority": 1
+        },
+        {
+          "label": "QT-9D1",
+          "url": "auto-moto-skutery-arex-qt-9d1",
+          "name": "qt-9d1",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Armada",
+      "url": "auto-moto-skutery-armada",
+      "name": "armada",
+      "priority": 6,
+      "children": [
+        {
+          "label": "50",
+          "url": "auto-moto-skutery-armada-50",
+          "name": "50",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "ASA",
+      "url": "auto-moto-skutery-asa",
+      "name": "asa",
+      "priority": 7,
+      "children": [
+        {
+          "label": "Moped",
+          "url": "auto-moto-skutery-asa-moped",
+          "name": "moped",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Atlant",
+      "url": "auto-moto-skutery-atlant",
+      "name": "atlant",
+      "priority": 8,
+      "children": [
+        {
+          "label": "125cc",
+          "name": "auto-moto-skutery-atlant-125cc",
+          "url": "auto-moto-skutery-atlant-125cc",
+          "priority": 1
+        },
+        {
+          "label": "150cc",
+          "name": "auto-moto-skutery-atlant-150cc",
+          "url": "auto-moto-skutery-atlant-150cc",
+          "priority": 2
+        },
+        {
+          "label": "50cc",
+          "name": "auto-moto-skutery-atlant-50cc",
+          "url": "auto-moto-skutery-atlant-50cc",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "label": "Ayron",
+      "url": "auto-moto-skutery-ayron",
+      "name": "ayron",
+      "priority": 9,
+      "children": [
+        {
+          "label": "150cc",
+          "name": "auto-moto-skutery-ayron-150cc",
+          "url": "auto-moto-skutery-ayron-150cc",
+          "priority": 1
+        },
+        {
+          "label": "50cc",
+          "name": "auto-moto-skutery-ayron-50cc",
+          "url": "auto-moto-skutery-ayron-50cc",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Azel",
+      "url": "auto-moto-skutery-azel",
+      "name": "azel",
+      "priority": 10,
+      "children": [
+        {
+          "label": "Aries",
+          "url": "auto-moto-skutery-azel-aries",
+          "name": "aries",
+          "priority": 1
+        },
+        {
+          "label": "Sweet",
+          "url": "auto-moto-skutery-azel-sweet",
+          "name": "sweet",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Bajaj",
+      "url": "auto-moto-skutery-bajaj",
+      "name": "bajaj",
+      "priority": 11,
+      "children": [
+        {
+          "label": "125 Classic",
+          "url": "auto-moto-skutery-bajaj-125_classic",
+          "name": "125_classic",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Baotian Scooters",
+      "url": "auto-moto-skutery-baotian_scooters",
+      "name": "baotian_scooters",
+      "priority": 12,
+      "children": [
+        {
+          "label": "BT151T-2B6",
+          "url": "auto-moto-skutery-baotian_scooters-bt151t-2b6",
+          "name": "bt151t-2b6",
+          "priority": 1
+        },
+        {
+          "label": "BT49QT-11",
+          "url": "auto-moto-skutery-baotian_scooters-bt49qt-11",
+          "name": "bt49qt-11",
+          "priority": 2
+        },
+        {
+          "label": "BT49QT-12",
+          "url": "auto-moto-skutery-baotian_scooters-bt49qt-12",
+          "name": "bt49qt-12",
+          "priority": 3
+        },
+        {
+          "label": "BT49QT-20B3",
+          "url": "auto-moto-skutery-baotian_scooters-bt49qt-20b3",
+          "name": "bt49qt-20b3",
+          "priority": 4
+        },
+        {
+          "label": "BT49QT-9",
+          "url": "auto-moto-skutery-baotian_scooters-bt49qt-9",
+          "name": "bt49qt-9",
+          "priority": 5
+        },
+        {
+          "label": "BT49QT-9F3",
+          "url": "auto-moto-skutery-baotian_scooters-bt49qt-9f3",
+          "name": "bt49qt-9f3",
+          "priority": 6
+        },
+        {
+          "label": "BТ49QT-2",
+          "url": "auto-moto-skutery-baotian_scooters-bt49qt-2",
+          "name": "bt49qt-2",
+          "priority": 7
+        },
+        {
+          "label": "BТ49QT-7D",
+          "url": "auto-moto-skutery-baotian_scooters-bt49qt-7d",
+          "name": "bt49qt-7d",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "label": "Benda",
+      "url": "auto-moto-skutery-benda",
+      "name": "benda",
+      "priority": 13,
+      "children": [
+        {
+          "label": "BD150QT",
+          "url": "auto-moto-skutery-benda-bd150qt",
+          "name": "bd150qt",
+          "priority": 1
+        },
+        {
+          "label": "BD50QT",
+          "url": "auto-moto-skutery-benda-bd50qt",
+          "name": "bd50qt",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Benelli",
+      "url": "auto-moto-skutery-benelli",
+      "name": "benelli",
+      "priority": 14,
+      "children": [
+        {
+          "label": "491 RR",
+          "url": "auto-moto-skutery-benelli-491_rr",
+          "name": "491_rr",
+          "priority": 1
+        },
+        {
+          "label": "Adiva",
+          "url": "auto-moto-skutery-benelli-adiva",
+          "name": "adiva",
+          "priority": 2
+        },
+        {
+          "label": "Caffe Nero 125",
+          "url": "auto-moto-skutery-benelli-caffe_nero_125",
+          "name": "caffe_nero_125",
+          "priority": 3
+        },
+        {
+          "label": "Caffe Nero 150",
+          "url": "auto-moto-skutery-benelli-caffe_nero_150",
+          "name": "caffe_nero_150",
+          "priority": 4
+        },
+        {
+          "label": "Caffe Nero 250",
+          "url": "auto-moto-skutery-benelli-caffe_nero_250",
+          "name": "caffe_nero_250",
+          "priority": 5
+        },
+        {
+          "label": "Pepe",
+          "url": "auto-moto-skutery-benelli-pepe",
+          "name": "pepe",
+          "priority": 6
+        },
+        {
+          "label": "QattroNove X",
+          "url": "auto-moto-skutery-benelli-qattronove_x",
+          "name": "qattronove_x",
+          "priority": 7
+        },
+        {
+          "label": "Velvet 125",
+          "url": "auto-moto-skutery-benelli-velvet_125",
+          "name": "velvet_125",
+          "priority": 8
+        },
+        {
+          "label": "Velvet 150",
+          "url": "auto-moto-skutery-benelli-velvet_150",
+          "name": "velvet_150",
+          "priority": 9
+        },
+        {
+          "label": "Velvet 250",
+          "url": "auto-moto-skutery-benelli-velvet_250",
+          "name": "velvet_250",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "label": "Benzhou",
+      "url": "auto-moto-skutery-benzhou",
+      "name": "benzhou",
+      "priority": 15,
+      "children": [
+        {
+          "label": "YY50QT-15A",
+          "url": "auto-moto-skutery-benzhou-yy50qt-15a",
+          "name": "yy50qt-15a",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Beta",
+      "url": "auto-moto-skutery-beta",
+      "name": "beta",
+      "priority": 16,
+      "children": [
+        {
+          "label": "Ark",
+          "url": "auto-moto-skutery-beta-ark",
+          "name": "ark",
+          "priority": 1
+        },
+        {
+          "label": "Eikon",
+          "url": "auto-moto-skutery-beta-eikon",
+          "name": "eikon",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Blata",
+      "url": "auto-moto-skutery-blata",
+      "name": "blata",
+      "priority": 17,
+      "children": [
+        {
+          "label": "Blatino",
+          "url": "auto-moto-skutery-blata-blatino",
+          "name": "blatino",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "BM",
+      "url": "auto-moto-skutery-bm",
+      "name": "bm",
+      "priority": 18,
+      "children": [
+        {
+          "label": "Biwis 125",
+          "url": "auto-moto-skutery-bm-biwis_125",
+          "name": "biwis_125",
+          "priority": 1
+        },
+        {
+          "label": "E-CHARM 150",
+          "url": "auto-moto-skutery-bm-e-charm_150",
+          "name": "e-charm_150",
+          "priority": 2
+        },
+        {
+          "label": "E-JEWEL 150",
+          "url": "auto-moto-skutery-bm-e-jewel_150",
+          "name": "e-jewel_150",
+          "priority": 3
+        },
+        {
+          "label": "Galactica 125",
+          "url": "auto-moto-skutery-bm-galactica_125",
+          "name": "galactica_125",
+          "priority": 4
+        },
+        {
+          "label": "Galactica 50",
+          "url": "auto-moto-skutery-bm-galactica_50",
+          "name": "galactica_50",
+          "priority": 5
+        },
+        {
+          "label": "Galaxy 125",
+          "url": "auto-moto-skutery-bm-galaxy_125",
+          "name": "galaxy_125",
+          "priority": 6
+        },
+        {
+          "label": "Hiker 125",
+          "url": "auto-moto-skutery-bm-hiker_125",
+          "name": "hiker_125",
+          "priority": 7
+        },
+        {
+          "label": "Hiker 2.0 Electro",
+          "url": "auto-moto-skutery-bm-hiker_2_0_electro",
+          "name": "hiker_2_0_electro",
+          "priority": 8
+        },
+        {
+          "label": "Hiker 50",
+          "url": "auto-moto-skutery-bm-hiker_50",
+          "name": "hiker_50",
+          "priority": 9
+        },
+        {
+          "label": "Joy 50",
+          "url": "auto-moto-skutery-bm-joy_50",
+          "name": "joy_50",
+          "priority": 10
+        },
+        {
+          "label": "Maxxy 125",
+          "url": "auto-moto-skutery-bm-maxxy_125",
+          "name": "maxxy_125",
+          "priority": 11
+        },
+        {
+          "label": "Mint 50",
+          "url": "auto-moto-skutery-bm-mint_50",
+          "name": "mint_50",
+          "priority": 12
+        },
+        {
+          "label": "Smile 50",
+          "url": "auto-moto-skutery-bm-smile_50",
+          "name": "smile_50",
+          "priority": 13
+        },
+        {
+          "label": "Style 50",
+          "url": "auto-moto-skutery-bm-style_50",
+          "name": "style_50",
+          "priority": 14
+        }
+      ]
+    },
+    {
+      "label": "BMW",
+      "url": "auto-moto-skutery-bmw",
+      "name": "bmw",
+      "priority": 19,
+      "children": [
+        {
+          "label": "C 1",
+          "url": "auto-moto-skutery-bmw-c_1",
+          "name": "c_1",
+          "priority": 1
+        },
+        {
+          "label": "C 650 GT",
+          "url": "auto-moto-skutery-bmw-c_650_gt",
+          "name": "c_650_gt",
+          "priority": 2
+        },
+        {
+          "label": "С 600 Sport",
+          "url": "auto-moto-skutery-bmw-c_600_sport",
+          "name": "c_600_sport",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "label": "Brilus",
+      "url": "auto-moto-skutery-brilus",
+      "name": "brilus",
+      "priority": 20,
+      "children": [
+        {
+          "label": "125-12E",
+          "url": "auto-moto-skutery-brilus-125-12e",
+          "name": "125-12e",
+          "priority": 1
+        },
+        {
+          "label": "50-12E",
+          "url": "auto-moto-skutery-brilus-50-12e",
+          "name": "50-12e",
+          "priority": 2
+        },
+        {
+          "label": "50-12F",
+          "url": "auto-moto-skutery-brilus-50-12f",
+          "name": "50-12f",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "label": "Cagiva",
+      "url": "auto-moto-skutery-cagiva",
+      "name": "cagiva",
+      "priority": 21,
+      "children": [
+        {
+          "label": "Cucciolo",
+          "url": "auto-moto-skutery-cagiva-cucciolo",
+          "name": "cucciolo",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "CFMoto",
+      "url": "auto-moto-skutery-cfmoto",
+      "name": "cfmoto",
+      "priority": 22,
+      "children": [
+        {
+          "label": "Jet Max (CF250T-6A)",
+          "url": "auto-moto-skutery-cfmoto-jet_max_(cf250t-6a)",
+          "name": "jet_max_(cf250t-6a)",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Corsa",
+      "url": "auto-moto-skutery-corsa",
+      "name": "corsa",
+      "priority": 23,
+      "children": [
+        {
+          "label": "Allegro",
+          "url": "auto-moto-skutery-corsa-allegro",
+          "name": "allegro",
+          "priority": 1
+        },
+        {
+          "label": "Felicita",
+          "url": "auto-moto-skutery-corsa-felicita",
+          "name": "felicita",
+          "priority": 2
+        },
+        {
+          "label": "Fratello",
+          "url": "auto-moto-skutery-corsa-fratello",
+          "name": "fratello",
+          "priority": 3
+        },
+        {
+          "label": "RAGAZZO",
+          "url": "auto-moto-skutery-corsa-ragazzo",
+          "name": "ragazzo",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "CPI",
+      "url": "auto-moto-skutery-cpi",
+      "name": "cpi",
+      "priority": 24,
+      "children": [
+        {
+          "label": "Aragon",
+          "url": "auto-moto-skutery-cpi-aragon",
+          "name": "aragon",
+          "priority": 1
+        },
+        {
+          "label": "Formula R",
+          "url": "auto-moto-skutery-cpi-formula_r",
+          "name": "formula_r",
+          "priority": 2
+        },
+        {
+          "label": "GTR 150",
+          "url": "auto-moto-skutery-cpi-gtr_150",
+          "name": "gtr_150",
+          "priority": 3
+        },
+        {
+          "label": "GTR 50",
+          "url": "auto-moto-skutery-cpi-gtr_50",
+          "name": "gtr_50",
+          "priority": 4
+        },
+        {
+          "label": "GTX 125",
+          "url": "auto-moto-skutery-cpi-gtx_125",
+          "name": "gtx_125",
+          "priority": 5
+        },
+        {
+          "label": "Hussar",
+          "url": "auto-moto-skutery-cpi-hussar",
+          "name": "hussar",
+          "priority": 6
+        },
+        {
+          "label": "Oliver",
+          "url": "auto-moto-skutery-cpi-oliver",
+          "name": "oliver",
+          "priority": 7
+        },
+        {
+          "label": "Popcorn",
+          "url": "auto-moto-skutery-cpi-popcorn",
+          "name": "popcorn",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "label": "Crosser",
+      "url": "auto-moto-skutery-crosser",
+      "name": "crosser",
+      "priority": 25,
+      "children": [
+        {
+          "label": "BS-50",
+          "url": "auto-moto-skutery-crosser-bs-50",
+          "name": "bs-50",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "CSR",
+      "url": "auto-moto-skutery-csr",
+      "name": "csr",
+      "priority": 26,
+      "children": [
+        {
+          "label": "B09 50",
+          "url": "auto-moto-skutery-csr-b09_50",
+          "name": "b09_50",
+          "priority": 1
+        },
+        {
+          "label": "Scoo 125",
+          "url": "auto-moto-skutery-csr-scoo_125",
+          "name": "scoo_125",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Daelim",
+      "url": "auto-moto-skutery-daelim",
+      "name": "daelim",
+      "priority": 27,
+      "children": [
+        {
+          "label": "A-Four",
+          "url": "auto-moto-skutery-daelim-a-four",
+          "name": "a-four",
+          "priority": 1
+        },
+        {
+          "label": "B-Bone",
+          "url": "auto-moto-skutery-daelim-b-bone",
+          "name": "b-bone",
+          "priority": 2
+        },
+        {
+          "label": "Besbi",
+          "url": "auto-moto-skutery-daelim-besbi",
+          "name": "besbi",
+          "priority": 3
+        },
+        {
+          "label": "Citi Ace 110",
+          "url": "auto-moto-skutery-daelim-citi_ace_110",
+          "name": "citi_ace_110",
+          "priority": 4
+        },
+        {
+          "label": "Cordi",
+          "url": "auto-moto-skutery-daelim-cordi",
+          "name": "cordi",
+          "priority": 5
+        },
+        {
+          "label": "Delfino",
+          "url": "auto-moto-skutery-daelim-delfino",
+          "name": "delfino",
+          "priority": 6
+        },
+        {
+          "label": "E-Five",
+          "url": "auto-moto-skutery-daelim-e-five",
+          "name": "e-five",
+          "priority": 7
+        },
+        {
+          "label": "Free Wing",
+          "url": "auto-moto-skutery-daelim-free_wing",
+          "name": "free_wing",
+          "priority": 8
+        },
+        {
+          "label": "History/Forte",
+          "url": "auto-moto-skutery-daelim-history_forte",
+          "name": "history_forte",
+          "priority": 9
+        },
+        {
+          "label": "Major S-Five",
+          "url": "auto-moto-skutery-daelim-major_s-five",
+          "name": "major_s-five",
+          "priority": 10
+        },
+        {
+          "label": "NS-125 III/Trans Up",
+          "url": "auto-moto-skutery-daelim-ns-125_iii_trans_up",
+          "name": "ns-125_iii_trans_up",
+          "priority": 11
+        },
+        {
+          "label": "SV",
+          "url": "auto-moto-skutery-daelim-sv",
+          "name": "sv",
+          "priority": 12
+        }
+      ]
+    },
+    {
+      "label": "Defiant",
+      "url": "auto-moto-skutery-defiant",
+      "name": "defiant",
+      "priority": 28,
+      "children": [
+        {
+          "label": "DT-150T",
+          "url": "auto-moto-skutery-defiant-dt-150t",
+          "name": "dt-150t",
+          "priority": 1
+        },
+        {
+          "label": "DT-50QT",
+          "url": "auto-moto-skutery-defiant-dt-50qt",
+          "name": "dt-50qt",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Derbi",
+      "url": "auto-moto-skutery-derbi",
+      "name": "derbi",
+      "priority": 29,
+      "children": [
+        {
+          "label": "Atlantis",
+          "url": "auto-moto-skutery-derbi-atlantis",
+          "name": "atlantis",
+          "priority": 1
+        },
+        {
+          "label": "Boulevard",
+          "url": "auto-moto-skutery-derbi-boulevard",
+          "name": "boulevard",
+          "priority": 2
+        },
+        {
+          "label": "GP1 125 Racing",
+          "url": "auto-moto-skutery-derbi-gp1_125_racing",
+          "name": "gp1_125_racing",
+          "priority": 3
+        },
+        {
+          "label": "GP1 250 Racing",
+          "url": "auto-moto-skutery-derbi-gp1_250_racing",
+          "name": "gp1_250_racing",
+          "priority": 4
+        },
+        {
+          "label": "GP1 50",
+          "url": "auto-moto-skutery-derbi-gp1_50",
+          "name": "gp1_50",
+          "priority": 5
+        },
+        {
+          "label": "Hunter",
+          "url": "auto-moto-skutery-derbi-hunter",
+          "name": "hunter",
+          "priority": 6
+        },
+        {
+          "label": "Predator",
+          "url": "auto-moto-skutery-derbi-predator",
+          "name": "predator",
+          "priority": 7
+        },
+        {
+          "label": "Rambla",
+          "url": "auto-moto-skutery-derbi-rambla",
+          "name": "rambla",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "label": "Di Blasi",
+      "name": "auto-moto-skutery-di_blasi",
+      "url": "auto-moto-skutery-di_blasi",
+      "priority": 30,
+      "children": [
+        {
+          "label": "Di Blasi",
+          "name": "auto-moto-skutery-di_blasi-di_blasi",
+          "url": "auto-moto-skutery-di_blasi-di_blasi",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "E-max",
+      "url": "auto-moto-skutery-e-max",
+      "name": "e-max",
+      "priority": 31,
+      "children": [
+        {
+          "label": "110S",
+          "url": "auto-moto-skutery-e-max-110s",
+          "name": "110s",
+          "priority": 1
+        },
+        {
+          "label": "90S",
+          "url": "auto-moto-skutery-e-max-90s",
+          "name": "90s",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Eurotex",
+      "url": "auto-moto-skutery-eurotex",
+      "name": "eurotex",
+      "priority": 32,
+      "children": [
+        {
+          "label": "Atom",
+          "url": "auto-moto-skutery-eurotex-atom",
+          "name": "atom",
+          "priority": 1
+        },
+        {
+          "label": "Bravo",
+          "url": "auto-moto-skutery-eurotex-bravo",
+          "name": "bravo",
+          "priority": 2
+        },
+        {
+          "label": "Corsa",
+          "name": "auto-moto-skutery-eurotex-corsa",
+          "url": "auto-moto-skutery-eurotex-corsa",
+          "priority": 3
+        },
+        {
+          "label": "Cyclone",
+          "url": "auto-moto-skutery-eurotex-cyclone",
+          "name": "cyclone",
+          "priority": 4
+        },
+        {
+          "label": "Eclipse",
+          "url": "auto-moto-skutery-eurotex-eclipse",
+          "name": "eclipse",
+          "priority": 5
+        },
+        {
+          "label": "Galleon",
+          "url": "auto-moto-skutery-eurotex-galleon",
+          "name": "galleon",
+          "priority": 6
+        },
+        {
+          "label": "Steed",
+          "url": "auto-moto-skutery-eurotex-steed",
+          "name": "steed",
+          "priority": 7
+        },
+        {
+          "label": "Stingray",
+          "url": "auto-moto-skutery-eurotex-stingray",
+          "name": "stingray",
+          "priority": 8
+        },
+        {
+          "label": "Storm",
+          "url": "auto-moto-skutery-eurotex-storm",
+          "name": "storm",
+          "priority": 9
+        },
+        {
+          "label": "Tornado",
+          "url": "auto-moto-skutery-eurotex-tornado",
+          "name": "tornado",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "label": "Forsage",
+      "url": "auto-moto-skutery-forsage",
+      "name": "forsage",
+      "priority": 33,
+      "children": [
+        {
+          "label": "Clever 50",
+          "url": "auto-moto-skutery-forsage-clever_50",
+          "name": "clever_50",
+          "priority": 1
+        },
+        {
+          "label": "Neo 50",
+          "url": "auto-moto-skutery-forsage-neo_50",
+          "name": "neo_50",
+          "priority": 2
+        },
+        {
+          "label": "Scooter Bike 50",
+          "url": "auto-moto-skutery-forsage-scooter_bike_50",
+          "name": "scooter_bike_50",
+          "priority": 3
+        },
+        {
+          "label": "Sirius 250 (ZN 250T-B)",
+          "url": "auto-moto-skutery-forsage-sirius_250_(zn_250t-b)",
+          "name": "sirius_250_(zn_250t-b)",
+          "priority": 4
+        },
+        {
+          "label": "TS 50",
+          "url": "auto-moto-skutery-forsage-ts_50",
+          "name": "ts_50",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "label": "Garelli",
+      "url": "auto-moto-skutery-garelli",
+      "name": "garelli",
+      "priority": 34,
+      "children": [
+        {
+          "label": "GSP",
+          "url": "auto-moto-skutery-garelli-gsp",
+          "name": "gsp",
+          "priority": 1
+        },
+        {
+          "label": "Queenie",
+          "url": "auto-moto-skutery-garelli-queenie",
+          "name": "queenie",
+          "priority": 2
+        },
+        {
+          "label": "Хо",
+          "url": "auto-moto-skutery-garelli-xo",
+          "name": "xo",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "label": "Geely",
+      "url": "auto-moto-skutery-geely",
+      "name": "geely",
+      "priority": 35,
+      "children": [
+        {
+          "label": "JL125T-5C",
+          "url": "auto-moto-skutery-geely-jl125t-5c",
+          "name": "jl125t-5c",
+          "priority": 1
+        },
+        {
+          "label": "JL150-3A",
+          "url": "auto-moto-skutery-geely-jl150-3a",
+          "name": "jl150-3a",
+          "priority": 2
+        },
+        {
+          "label": "JL50QT-10",
+          "url": "auto-moto-skutery-geely-jl50qt-10",
+          "name": "jl50qt-10",
+          "priority": 3
+        },
+        {
+          "label": "JL50QT-15",
+          "url": "auto-moto-skutery-geely-jl50qt-15",
+          "name": "jl50qt-15",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "Generic",
+      "url": "auto-moto-skutery-generic",
+      "name": "generic",
+      "priority": 36,
+      "children": [
+        {
+          "label": "IDEO 50",
+          "url": "auto-moto-skutery-generic-ideo_50",
+          "name": "ideo_50",
+          "priority": 1
+        },
+        {
+          "label": "Mini Trigger SM",
+          "url": "auto-moto-skutery-generic-mini_trigger_sm",
+          "name": "mini_trigger_sm",
+          "priority": 2
+        },
+        {
+          "label": "ROC 50",
+          "url": "auto-moto-skutery-generic-roc_50",
+          "name": "roc_50",
+          "priority": 3
+        },
+        {
+          "label": "SOHO",
+          "url": "auto-moto-skutery-generic-soho",
+          "name": "soho",
+          "priority": 4
+        },
+        {
+          "label": "XOR",
+          "url": "auto-moto-skutery-generic-xor",
+          "name": "xor",
+          "priority": 5
+        },
+        {
+          "label": "XOR Competition",
+          "url": "auto-moto-skutery-generic-xor_competition",
+          "name": "xor_competition",
+          "priority": 6
+        },
+        {
+          "label": "XOR Stroke",
+          "url": "auto-moto-skutery-generic-xor_stroke",
+          "name": "xor_stroke",
+          "priority": 7
+        },
+        {
+          "label": "Zion 125",
+          "url": "auto-moto-skutery-generic-zion_125",
+          "name": "zion_125",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "label": "Gilera",
+      "url": "auto-moto-skutery-gilera",
+      "name": "gilera",
+      "priority": 37,
+      "children": [
+        {
+          "label": "DNA",
+          "url": "auto-moto-skutery-gilera-dna",
+          "name": "dna",
+          "priority": 1
+        },
+        {
+          "label": "Fuoco 500ie",
+          "url": "auto-moto-skutery-gilera-fuoco_500ie",
+          "name": "fuoco_500ie",
+          "priority": 2
+        },
+        {
+          "label": "GP800",
+          "url": "auto-moto-skutery-gilera-gp800",
+          "name": "gp800",
+          "priority": 3
+        },
+        {
+          "label": "Ice",
+          "url": "auto-moto-skutery-gilera-ice",
+          "name": "ice",
+          "priority": 4
+        },
+        {
+          "label": "Nexus",
+          "url": "auto-moto-skutery-gilera-nexus",
+          "name": "nexus",
+          "priority": 5
+        },
+        {
+          "label": "Runner",
+          "url": "auto-moto-skutery-gilera-runner",
+          "name": "runner",
+          "priority": 6
+        },
+        {
+          "label": "Stalker",
+          "url": "auto-moto-skutery-gilera-stalker",
+          "name": "stalker",
+          "priority": 7
+        },
+        {
+          "label": "Storm 50",
+          "url": "auto-moto-skutery-gilera-storm_50",
+          "name": "storm_50",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "label": "GX moto",
+      "url": "auto-moto-skutery-gx_moto",
+      "name": "gx_moto",
+      "priority": 38,
+      "children": [
+        {
+          "label": "GX City",
+          "url": "auto-moto-skutery-gx_moto-gx_city",
+          "name": "gx_city",
+          "priority": 1
+        },
+        {
+          "label": "GX Corvette",
+          "url": "auto-moto-skutery-gx_moto-gx_corvette",
+          "name": "gx_corvette",
+          "priority": 2
+        },
+        {
+          "label": "GX F3",
+          "url": "auto-moto-skutery-gx_moto-gx_f3",
+          "name": "gx_f3",
+          "priority": 3
+        },
+        {
+          "label": "GX Flash",
+          "url": "auto-moto-skutery-gx_moto-gx_flash",
+          "name": "gx_flash",
+          "priority": 4
+        },
+        {
+          "label": "GX Jeans",
+          "url": "auto-moto-skutery-gx_moto-gx_jeans",
+          "name": "gx_jeans",
+          "priority": 5
+        },
+        {
+          "label": "GX Jetta",
+          "url": "auto-moto-skutery-gx_moto-gx_jetta",
+          "name": "gx_jetta",
+          "priority": 6
+        },
+        {
+          "label": "GX Matrix",
+          "url": "auto-moto-skutery-gx_moto-gx_matrix",
+          "name": "gx_matrix",
+          "priority": 7
+        },
+        {
+          "label": "GX Omega",
+          "url": "auto-moto-skutery-gx_moto-gx_omega",
+          "name": "gx_omega",
+          "priority": 8
+        },
+        {
+          "label": "GX Ranger",
+          "url": "auto-moto-skutery-gx_moto-gx_ranger",
+          "name": "gx_ranger",
+          "priority": 9
+        },
+        {
+          "label": "GX Stinger",
+          "url": "auto-moto-skutery-gx_moto-gx_stinger",
+          "name": "gx_stinger",
+          "priority": 10
+        },
+        {
+          "label": "Riga-4",
+          "url": "auto-moto-skutery-gx_moto-riga-4",
+          "name": "riga-4",
+          "priority": 11
+        },
+        {
+          "label": "Variant",
+          "url": "auto-moto-skutery-gx_moto-variant",
+          "name": "variant",
+          "priority": 12
+        }
+      ]
+    },
+    {
+      "label": "Honda",
+      "url": "auto-moto-skutery-honda",
+      "name": "honda",
+      "priority": 39,
+      "children": [
+        {
+          "label": "Airblade",
+          "url": "auto-moto-skutery-honda-airblade",
+          "name": "airblade",
+          "priority": 1
+        },
+        {
+          "label": "Benly",
+          "url": "auto-moto-skutery-honda-benly",
+          "name": "benly",
+          "priority": 2
+        },
+        {
+          "label": "Big Ruckus PS250",
+          "url": "auto-moto-skutery-honda-big_ruckus_ps250",
+          "name": "big_ruckus_ps250",
+          "priority": 3
+        },
+        {
+          "label": "Bite 50",
+          "url": "auto-moto-skutery-honda-bite_50",
+          "name": "bite_50",
+          "priority": 4
+        },
+        {
+          "label": "Broad",
+          "url": "auto-moto-skutery-honda-broad",
+          "name": "broad",
+          "priority": 5
+        },
+        {
+          "label": "CHF 50 Metropolitan",
+          "url": "auto-moto-skutery-honda-chf_50_metropolitan",
+          "name": "chf_50_metropolitan",
+          "priority": 6
+        },
+        {
+          "label": "CN 250",
+          "url": "auto-moto-skutery-honda-cn_250",
+          "name": "cn_250",
+          "priority": 7
+        },
+        {
+          "label": "Cabina",
+          "url": "auto-moto-skutery-honda-cabina",
+          "name": "cabina",
+          "priority": 8
+        },
+        {
+          "label": "Click",
+          "url": "auto-moto-skutery-honda-click",
+          "name": "click",
+          "priority": 9
+        },
+        {
+          "label": "Crea Scoopy",
+          "url": "auto-moto-skutery-honda-crea_scoopy",
+          "name": "crea_scoopy",
+          "priority": 10
+        },
+        {
+          "label": "Dax",
+          "url": "auto-moto-skutery-honda-dax",
+          "name": "dax",
+          "priority": 11
+        },
+        {
+          "label": "Dio",
+          "url": "auto-moto-skutery-honda-dio",
+          "name": "dio",
+          "priority": 12
+        },
+        {
+          "label": "Dj-1R",
+          "url": "auto-moto-skutery-honda-dj-1r",
+          "name": "dj-1r",
+          "priority": 13
+        },
+        {
+          "label": "Dylan",
+          "url": "auto-moto-skutery-honda-dylan",
+          "name": "dylan",
+          "priority": 14
+        },
+        {
+          "label": "E4-01",
+          "url": "auto-moto-skutery-honda-e4-01",
+          "name": "e4-01",
+          "priority": 15
+        },
+        {
+          "label": "EZ-9",
+          "url": "auto-moto-skutery-honda-ez-9",
+          "name": "ez-9",
+          "priority": 16
+        },
+        {
+          "label": "Eve Smile",
+          "url": "auto-moto-skutery-honda-eve_smile",
+          "name": "eve_smile",
+          "priority": 17
+        },
+        {
+          "label": "Express",
+          "url": "auto-moto-skutery-honda-express",
+          "name": "express",
+          "priority": 18
+        },
+        {
+          "label": "Faze",
+          "url": "auto-moto-skutery-honda-faze",
+          "name": "faze",
+          "priority": 19
+        },
+        {
+          "label": "Foresight",
+          "url": "auto-moto-skutery-honda-foresight",
+          "name": "foresight",
+          "priority": 20
+        },
+        {
+          "label": "Forza",
+          "url": "auto-moto-skutery-honda-forza",
+          "name": "forza",
+          "priority": 21
+        },
+        {
+          "label": "Freeway",
+          "url": "auto-moto-skutery-honda-freeway",
+          "name": "freeway",
+          "priority": 22
+        },
+        {
+          "label": "G'Dash",
+          "url": "auto-moto-skutery-honda-g_dash",
+          "name": "g_dash",
+          "priority": 23
+        },
+        {
+          "label": "Giorcub",
+          "url": "auto-moto-skutery-honda-giorcub",
+          "name": "giorcub",
+          "priority": 24
+        },
+        {
+          "label": "Giorno",
+          "url": "auto-moto-skutery-honda-giorno",
+          "name": "giorno",
+          "priority": 25
+        },
+        {
+          "label": "Giorno Crea",
+          "url": "auto-moto-skutery-honda-giorno_crea",
+          "name": "giorno_crea",
+          "priority": 26
+        },
+        {
+          "label": "Gyro",
+          "url": "auto-moto-skutery-honda-gyro",
+          "name": "gyro",
+          "priority": 27
+        },
+        {
+          "label": "Innova",
+          "url": "auto-moto-skutery-honda-innova",
+          "name": "innova",
+          "priority": 28
+        },
+        {
+          "label": "Integra",
+          "url": "auto-moto-skutery-honda-integra",
+          "name": "integra",
+          "priority": 29
+        },
+        {
+          "label": "Jazz",
+          "url": "auto-moto-skutery-honda-jazz",
+          "name": "jazz",
+          "priority": 30
+        },
+        {
+          "label": "Joker",
+          "url": "auto-moto-skutery-honda-joker",
+          "name": "joker",
+          "priority": 31
+        },
+        {
+          "label": "Julio",
+          "url": "auto-moto-skutery-honda-julio",
+          "name": "julio",
+          "priority": 32
+        },
+        {
+          "label": "Just",
+          "url": "auto-moto-skutery-honda-just",
+          "name": "just",
+          "priority": 33
+        },
+        {
+          "label": "Lead 100",
+          "url": "auto-moto-skutery-honda-lead_100",
+          "name": "lead_100",
+          "priority": 34
+        },
+        {
+          "label": "Lead 110",
+          "url": "auto-moto-skutery-honda-lead_110",
+          "name": "lead_110",
+          "priority": 35
+        },
+        {
+          "label": "Lead 125",
+          "url": "auto-moto-skutery-honda-lead_125",
+          "name": "lead_125",
+          "priority": 36
+        },
+        {
+          "label": "Lead 50",
+          "url": "auto-moto-skutery-honda-lead_50",
+          "name": "lead_50",
+          "priority": 37
+        },
+        {
+          "label": "Lead 90",
+          "url": "auto-moto-skutery-honda-lead_90",
+          "name": "lead_90",
+          "priority": 38
+        },
+        {
+          "label": "Leader",
+          "url": "auto-moto-skutery-honda-leader",
+          "name": "leader",
+          "priority": 39
+        },
+        {
+          "label": "NSC",
+          "url": "auto-moto-skutery-honda-nsc",
+          "name": "nsc",
+          "priority": 40
+        },
+        {
+          "label": "NSS 250",
+          "url": "auto-moto-skutery-honda-nss_250",
+          "name": "nss_250",
+          "priority": 41
+        },
+        {
+          "label": "PCX",
+          "url": "auto-moto-skutery-honda-pcx",
+          "name": "pcx",
+          "priority": 42
+        },
+        {
+          "label": "PS",
+          "url": "auto-moto-skutery-honda-ps",
+          "name": "ps",
+          "priority": 43
+        },
+        {
+          "label": "Pal",
+          "url": "auto-moto-skutery-honda-pal",
+          "name": "pal",
+          "priority": 44
+        },
+        {
+          "label": "Pantheon",
+          "url": "auto-moto-skutery-honda-pantheon",
+          "name": "pantheon",
+          "priority": 45
+        },
+        {
+          "label": "Pax",
+          "url": "auto-moto-skutery-honda-pax",
+          "name": "pax",
+          "priority": 46
+        },
+        {
+          "label": "S-Wing",
+          "url": "auto-moto-skutery-honda-s-wing",
+          "name": "s-wing",
+          "priority": 47
+        },
+        {
+          "label": "SFX 50",
+          "url": "auto-moto-skutery-honda-sfx_50",
+          "name": "sfx_50",
+          "priority": 48
+        },
+        {
+          "label": "SH",
+          "url": "auto-moto-skutery-honda-sh",
+          "name": "sh",
+          "priority": 49
+        },
+        {
+          "label": "Silver Wing 400",
+          "url": "auto-moto-skutery-honda-silver_wing_400",
+          "name": "silver_wing_400",
+          "priority": 50
+        },
+        {
+          "label": "Silver Wing 600",
+          "url": "auto-moto-skutery-honda-silver_wing_600",
+          "name": "silver_wing_600",
+          "priority": 51
+        },
+        {
+          "label": "Sky",
+          "url": "auto-moto-skutery-honda-sky",
+          "name": "sky",
+          "priority": 52
+        },
+        {
+          "label": "Spacy",
+          "url": "auto-moto-skutery-honda-spacy",
+          "name": "spacy",
+          "priority": 53
+        },
+        {
+          "label": "Stream",
+          "url": "auto-moto-skutery-honda-stream",
+          "name": "stream",
+          "priority": 54
+        },
+        {
+          "label": "Super Cub",
+          "url": "auto-moto-skutery-honda-super_cub",
+          "name": "super_cub",
+          "priority": 55
+        },
+        {
+          "label": "Tact",
+          "url": "auto-moto-skutery-honda-tact",
+          "name": "tact",
+          "priority": 56
+        },
+        {
+          "label": "Tacty",
+          "url": "auto-moto-skutery-honda-tacty",
+          "name": "tacty",
+          "priority": 57
+        },
+        {
+          "label": "Today",
+          "url": "auto-moto-skutery-honda-today",
+          "name": "today",
+          "priority": 58
+        },
+        {
+          "label": "Topic",
+          "url": "auto-moto-skutery-honda-topic",
+          "name": "topic",
+          "priority": 59
+        },
+        {
+          "label": "Vario",
+          "url": "auto-moto-skutery-honda-vario",
+          "name": "vario",
+          "priority": 60
+        },
+        {
+          "label": "Via",
+          "url": "auto-moto-skutery-honda-via",
+          "name": "via",
+          "priority": 61
+        },
+        {
+          "label": "Vocal",
+          "url": "auto-moto-skutery-honda-vocal",
+          "name": "vocal",
+          "priority": 62
+        },
+        {
+          "label": "Wave",
+          "url": "auto-moto-skutery-honda-wave",
+          "name": "wave",
+          "priority": 63
+        },
+        {
+          "label": "X8R-S",
+          "url": "auto-moto-skutery-honda-x8r-s",
+          "name": "x8r-s",
+          "priority": 64
+        },
+        {
+          "label": "Zook",
+          "url": "auto-moto-skutery-honda-zook",
+          "name": "zook",
+          "priority": 65
+        },
+        {
+          "label": "Zoomer",
+          "url": "auto-moto-skutery-honda-zoomer",
+          "name": "zoomer",
+          "priority": 66
+        }
+      ]
+    },
+    {
+      "label": "Honling",
+      "url": "auto-moto-skutery-honling",
+      "name": "honling",
+      "priority": 40,
+      "children": [
+        {
+          "label": "Adonis",
+          "url": "auto-moto-skutery-honling-adonis",
+          "name": "adonis",
+          "priority": 1
+        },
+        {
+          "label": "Ataka",
+          "url": "auto-moto-skutery-honling-ataka",
+          "name": "ataka",
+          "priority": 2
+        },
+        {
+          "label": "Boomerang",
+          "url": "auto-moto-skutery-honling-boomerang",
+          "name": "boomerang",
+          "priority": 3
+        },
+        {
+          "label": "Caper",
+          "url": "auto-moto-skutery-honling-caper",
+          "name": "caper",
+          "priority": 4
+        },
+        {
+          "label": "Cruiser",
+          "url": "auto-moto-skutery-honling-cruiser",
+          "name": "cruiser",
+          "priority": 5
+        },
+        {
+          "label": "F5",
+          "url": "auto-moto-skutery-honling-f5",
+          "name": "f5",
+          "priority": 6
+        },
+        {
+          "label": "Flagman",
+          "url": "auto-moto-skutery-honling-flagman",
+          "name": "flagman",
+          "priority": 7
+        },
+        {
+          "label": "Jog",
+          "url": "auto-moto-skutery-honling-jog",
+          "name": "jog",
+          "priority": 8
+        },
+        {
+          "label": "Joker",
+          "url": "auto-moto-skutery-honling-joker",
+          "name": "joker",
+          "priority": 9
+        },
+        {
+          "label": "Knight",
+          "url": "auto-moto-skutery-honling-knight",
+          "name": "knight",
+          "priority": 10
+        },
+        {
+          "label": "Master",
+          "url": "auto-moto-skutery-honling-master",
+          "name": "master",
+          "priority": 11
+        },
+        {
+          "label": "Navigator",
+          "url": "auto-moto-skutery-honling-navigator",
+          "name": "navigator",
+          "priority": 12
+        },
+        {
+          "label": "Pharaon",
+          "url": "auto-moto-skutery-honling-pharaon",
+          "name": "pharaon",
+          "priority": 13
+        },
+        {
+          "label": "Prestige",
+          "url": "auto-moto-skutery-honling-prestige",
+          "name": "prestige",
+          "priority": 14
+        },
+        {
+          "label": "Priboy",
+          "url": "auto-moto-skutery-honling-priboy",
+          "name": "priboy",
+          "priority": 15
+        },
+        {
+          "label": "RS 8",
+          "url": "auto-moto-skutery-honling-rs_8",
+          "name": "rs_8",
+          "priority": 16
+        },
+        {
+          "label": "Summer",
+          "url": "auto-moto-skutery-honling-summer",
+          "name": "summer",
+          "priority": 17
+        },
+        {
+          "label": "Titan",
+          "url": "auto-moto-skutery-honling-titan",
+          "name": "titan",
+          "priority": 18
+        },
+        {
+          "label": "Viking",
+          "url": "auto-moto-skutery-honling-viking",
+          "name": "viking",
+          "priority": 19
+        }
+      ]
+    },
+    {
+      "label": "Hyosung",
+      "url": "auto-moto-skutery-hyosung",
+      "name": "hyosung",
+      "priority": 41,
+      "children": [
+        {
+          "label": "SF 50",
+          "url": "auto-moto-skutery-hyosung-sf_50",
+          "name": "sf_50",
+          "priority": 1
+        },
+        {
+          "label": "SF R",
+          "url": "auto-moto-skutery-hyosung-sf_r",
+          "name": "sf_r",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "IRBIS",
+      "url": "auto-moto-skutery-irbis",
+      "name": "irbis",
+      "priority": 42,
+      "children": [
+        {
+          "label": "Action",
+          "url": "auto-moto-skutery-irbis-action",
+          "name": "action",
+          "priority": 1
+        },
+        {
+          "label": "Alpha",
+          "url": "auto-moto-skutery-irbis-alpha",
+          "name": "alpha",
+          "priority": 2
+        },
+        {
+          "label": "BWS",
+          "url": "auto-moto-skutery-irbis-bws",
+          "name": "bws",
+          "priority": 3
+        },
+        {
+          "label": "Centrino",
+          "url": "auto-moto-skutery-irbis-centrino",
+          "name": "centrino",
+          "priority": 4
+        },
+        {
+          "label": "Delta",
+          "url": "auto-moto-skutery-irbis-delta",
+          "name": "delta",
+          "priority": 5
+        },
+        {
+          "label": "F1",
+          "url": "auto-moto-skutery-irbis-f1",
+          "name": "f1",
+          "priority": 6
+        },
+        {
+          "label": "FR",
+          "url": "auto-moto-skutery-irbis-fr",
+          "name": "fr",
+          "priority": 7
+        },
+        {
+          "label": "Grace",
+          "url": "auto-moto-skutery-irbis-grace",
+          "name": "grace",
+          "priority": 8
+        },
+        {
+          "label": "Kaori",
+          "url": "auto-moto-skutery-irbis-kaori",
+          "name": "kaori",
+          "priority": 9
+        },
+        {
+          "label": "LX",
+          "url": "auto-moto-skutery-irbis-lx",
+          "name": "lx",
+          "priority": 10
+        },
+        {
+          "label": "Nirvana",
+          "url": "auto-moto-skutery-irbis-nirvana",
+          "name": "nirvana",
+          "priority": 11
+        },
+        {
+          "label": "Prometey",
+          "url": "auto-moto-skutery-irbis-prometey",
+          "name": "prometey",
+          "priority": 12
+        },
+        {
+          "label": "RZR",
+          "url": "auto-moto-skutery-irbis-rzr",
+          "name": "rzr",
+          "priority": 13
+        },
+        {
+          "label": "SLX",
+          "url": "auto-moto-skutery-irbis-slx",
+          "name": "slx",
+          "priority": 14
+        },
+        {
+          "label": "Skynet",
+          "url": "auto-moto-skutery-irbis-skynet",
+          "name": "skynet",
+          "priority": 15
+        },
+        {
+          "label": "Stinger",
+          "url": "auto-moto-skutery-irbis-stinger",
+          "name": "stinger",
+          "priority": 16
+        },
+        {
+          "label": "ZR",
+          "url": "auto-moto-skutery-irbis-zr",
+          "name": "zr",
+          "priority": 17
+        },
+        {
+          "label": "ZRS",
+          "url": "auto-moto-skutery-irbis-zrs",
+          "name": "zrs",
+          "priority": 18
+        },
+        {
+          "label": "ZRX",
+          "url": "auto-moto-skutery-irbis-zrx",
+          "name": "zrx",
+          "priority": 19
+        }
+      ]
+    },
+    {
+      "label": "Italjet",
+      "url": "auto-moto-skutery-italjet",
+      "name": "italjet",
+      "priority": 43,
+      "children": [
+        {
+          "label": "Dragster 180",
+          "url": "auto-moto-skutery-italjet-dragster_180",
+          "name": "dragster_180",
+          "priority": 1
+        },
+        {
+          "label": "Formula 125",
+          "url": "auto-moto-skutery-italjet-formula_125",
+          "name": "formula_125",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Jmstar",
+      "url": "auto-moto-skutery-jmstar",
+      "name": "jmstar",
+      "priority": 44,
+      "children": [
+        {
+          "label": "JSD250T-22",
+          "url": "auto-moto-skutery-jmstar-jsd250t-22",
+          "name": "jsd250t-22",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Jumbo",
+      "url": "auto-moto-skutery-jumbo",
+      "name": "jumbo",
+      "priority": 45,
+      "children": [
+        {
+          "label": "Jet 150",
+          "url": "auto-moto-skutery-jumbo-jet_150",
+          "name": "jet_150",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Kanuni",
+      "url": "auto-moto-skutery-kanuni",
+      "name": "kanuni",
+      "priority": 46,
+      "children": [
+        {
+          "label": "Glide",
+          "url": "auto-moto-skutery-kanuni-glide",
+          "name": "glide",
+          "priority": 1
+        },
+        {
+          "label": "Yak",
+          "url": "auto-moto-skutery-kanuni-yak",
+          "name": "yak",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Kawasaki",
+      "url": "auto-moto-skutery-kawasaki",
+      "name": "kawasaki",
+      "priority": 47,
+      "children": [
+        {
+          "label": "Epsilon",
+          "url": "auto-moto-skutery-kawasaki-epsilon",
+          "name": "epsilon",
+          "priority": 1
+        },
+        {
+          "label": "J300",
+          "url": "auto-moto-skutery-kawasaki-j300",
+          "name": "j300",
+          "priority": 2
+        },
+        {
+          "label": "KSR",
+          "url": "auto-moto-skutery-kawasaki-ksr",
+          "name": "ksr",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "label": "Keeway",
+      "url": "auto-moto-skutery-keeway",
+      "name": "keeway",
+      "priority": 48,
+      "children": [
+        {
+          "label": "Arn",
+          "url": "auto-moto-skutery-keeway-arn",
+          "name": "arn",
+          "priority": 1
+        },
+        {
+          "label": "F-Act",
+          "url": "auto-moto-skutery-keeway-f-act",
+          "name": "f-act",
+          "priority": 2
+        },
+        {
+          "label": "Flash",
+          "url": "auto-moto-skutery-keeway-flash",
+          "name": "flash",
+          "priority": 3
+        },
+        {
+          "label": "Focus",
+          "url": "auto-moto-skutery-keeway-focus",
+          "name": "focus",
+          "priority": 4
+        },
+        {
+          "label": "Hacker",
+          "url": "auto-moto-skutery-keeway-hacker",
+          "name": "hacker",
+          "priority": 5
+        },
+        {
+          "label": "Hurricane",
+          "url": "auto-moto-skutery-keeway-hurricane",
+          "name": "hurricane",
+          "priority": 6
+        },
+        {
+          "label": "Matrix",
+          "url": "auto-moto-skutery-keeway-matrix",
+          "name": "matrix",
+          "priority": 7
+        },
+        {
+          "label": "Outlook",
+          "url": "auto-moto-skutery-keeway-outlook",
+          "name": "outlook",
+          "priority": 8
+        },
+        {
+          "label": "Partner",
+          "url": "auto-moto-skutery-keeway-partner",
+          "name": "partner",
+          "priority": 9
+        },
+        {
+          "label": "Pixel",
+          "url": "auto-moto-skutery-keeway-pixel",
+          "name": "pixel",
+          "priority": 10
+        },
+        {
+          "label": "RY8",
+          "url": "auto-moto-skutery-keeway-ry8",
+          "name": "ry8",
+          "priority": 11
+        },
+        {
+          "label": "Silverblade",
+          "url": "auto-moto-skutery-keeway-silverblade",
+          "name": "silverblade",
+          "priority": 12
+        },
+        {
+          "label": "Viva",
+          "url": "auto-moto-skutery-keeway-viva",
+          "name": "viva",
+          "priority": 13
+        }
+      ]
+    },
+    {
+      "label": "Kreidler",
+      "url": "auto-moto-skutery-kreidler",
+      "name": "kreidler",
+      "priority": 49,
+      "children": [
+        {
+          "label": "Florett",
+          "url": "auto-moto-skutery-kreidler-florett",
+          "name": "florett",
+          "priority": 1
+        },
+        {
+          "label": "Galactica",
+          "url": "auto-moto-skutery-kreidler-galactica",
+          "name": "galactica",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Kymco",
+      "url": "auto-moto-skutery-kymco",
+      "name": "kymco",
+      "priority": 50,
+      "children": [
+        {
+          "label": "AXR",
+          "url": "auto-moto-skutery-kymco-axr",
+          "name": "axr",
+          "priority": 1
+        },
+        {
+          "label": "Activ",
+          "url": "auto-moto-skutery-kymco-activ",
+          "name": "activ",
+          "priority": 2
+        },
+        {
+          "label": "Agility",
+          "url": "auto-moto-skutery-kymco-agility",
+          "name": "agility",
+          "priority": 3
+        },
+        {
+          "label": "Bet & Win",
+          "url": "auto-moto-skutery-kymco-bet_and_win",
+          "name": "bet_and_win",
+          "priority": 4
+        },
+        {
+          "label": "Caro 100",
+          "url": "auto-moto-skutery-kymco-caro_100",
+          "name": "caro_100",
+          "priority": 5
+        },
+        {
+          "label": "Cobra",
+          "url": "auto-moto-skutery-kymco-cobra",
+          "name": "cobra",
+          "priority": 6
+        },
+        {
+          "label": "DJ Refined",
+          "url": "auto-moto-skutery-kymco-dj_refined",
+          "name": "dj_refined",
+          "priority": 7
+        },
+        {
+          "label": "Dink",
+          "url": "auto-moto-skutery-kymco-dink",
+          "name": "dink",
+          "priority": 8
+        },
+        {
+          "label": "Downtown",
+          "url": "auto-moto-skutery-kymco-downtown",
+          "name": "downtown",
+          "priority": 9
+        },
+        {
+          "label": "Filly LX",
+          "url": "auto-moto-skutery-kymco-filly_lx",
+          "name": "filly_lx",
+          "priority": 10
+        },
+        {
+          "label": "Grand Dink",
+          "url": "auto-moto-skutery-kymco-grand_dink",
+          "name": "grand_dink",
+          "priority": 11
+        },
+        {
+          "label": "Heroism",
+          "url": "auto-moto-skutery-kymco-heroism",
+          "name": "heroism",
+          "priority": 12
+        },
+        {
+          "label": "Like",
+          "url": "auto-moto-skutery-kymco-like",
+          "name": "like",
+          "priority": 13
+        },
+        {
+          "label": "Movie",
+          "url": "auto-moto-skutery-kymco-movie",
+          "name": "movie",
+          "priority": 14
+        },
+        {
+          "label": "MyRoad",
+          "url": "auto-moto-skutery-kymco-myroad",
+          "name": "myroad",
+          "priority": 15
+        },
+        {
+          "label": "Nexxon",
+          "url": "auto-moto-skutery-kymco-nexxon",
+          "name": "nexxon",
+          "priority": 16
+        },
+        {
+          "label": "People",
+          "url": "auto-moto-skutery-kymco-people",
+          "name": "people",
+          "priority": 17
+        },
+        {
+          "label": "Sooner 100",
+          "url": "auto-moto-skutery-kymco-sooner_100",
+          "name": "sooner_100",
+          "priority": 18
+        },
+        {
+          "label": "Spike",
+          "url": "auto-moto-skutery-kymco-spike",
+          "name": "spike",
+          "priority": 19
+        },
+        {
+          "label": "Straight",
+          "url": "auto-moto-skutery-kymco-straight",
+          "name": "straight",
+          "priority": 20
+        },
+        {
+          "label": "Super 8",
+          "url": "auto-moto-skutery-kymco-super_8",
+          "name": "super_8",
+          "priority": 21
+        },
+        {
+          "label": "Super 9",
+          "url": "auto-moto-skutery-kymco-super_9",
+          "name": "super_9",
+          "priority": 22
+        },
+        {
+          "label": "Super Fever",
+          "url": "auto-moto-skutery-kymco-super_fever",
+          "name": "super_fever",
+          "priority": 23
+        },
+        {
+          "label": "Top Boy",
+          "url": "auto-moto-skutery-kymco-top_boy",
+          "name": "top_boy",
+          "priority": 24
+        },
+        {
+          "label": "Visa",
+          "url": "auto-moto-skutery-kymco-visa",
+          "name": "visa",
+          "priority": 25
+        },
+        {
+          "label": "Vitality",
+          "url": "auto-moto-skutery-kymco-vitality",
+          "name": "vitality",
+          "priority": 26
+        },
+        {
+          "label": "Xciting",
+          "url": "auto-moto-skutery-kymco-xciting",
+          "name": "xciting",
+          "priority": 27
+        },
+        {
+          "label": "Yup",
+          "url": "auto-moto-skutery-kymco-yup",
+          "name": "yup",
+          "priority": 28
+        }
+      ]
+    },
+    {
+      "label": "Lambretta",
+      "url": "auto-moto-skutery-lambretta",
+      "name": "lambretta",
+      "priority": 51,
+      "children": [
+        {
+          "label": "Pato",
+          "url": "auto-moto-skutery-lambretta-pato",
+          "name": "pato",
+          "priority": 1
+        },
+        {
+          "label": "SX200",
+          "url": "auto-moto-skutery-lambretta-sx200",
+          "name": "sx200",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Leike",
+      "url": "auto-moto-skutery-leike",
+      "name": "leike",
+      "priority": 52,
+      "children": [
+        {
+          "label": "LK125T-26",
+          "url": "auto-moto-skutery-leike-lk125t-26",
+          "name": "lk125t-26",
+          "priority": 1
+        },
+        {
+          "label": "LK150T-7D",
+          "url": "auto-moto-skutery-leike-lk150t-7d",
+          "name": "lk150t-7d",
+          "priority": 2
+        },
+        {
+          "label": "LK150T-7E",
+          "url": "auto-moto-skutery-leike-lk150t-7e",
+          "name": "lk150t-7e",
+          "priority": 3
+        },
+        {
+          "label": "LK150T-7F",
+          "url": "auto-moto-skutery-leike-lk150t-7f",
+          "name": "lk150t-7f",
+          "priority": 4
+        },
+        {
+          "label": "LK150T-7G",
+          "url": "auto-moto-skutery-leike-lk150t-7g",
+          "name": "lk150t-7g",
+          "priority": 5
+        },
+        {
+          "label": "LK150T-7H",
+          "url": "auto-moto-skutery-leike-lk150t-7h",
+          "name": "lk150t-7h",
+          "priority": 6
+        },
+        {
+          "label": "LK150T-7В",
+          "url": "auto-moto-skutery-leike-lk150t-7b",
+          "name": "lk150t-7b",
+          "priority": 7
+        },
+        {
+          "label": "LK180GY-2",
+          "url": "auto-moto-skutery-leike-lk180gy-2",
+          "name": "lk180gy-2",
+          "priority": 8
+        },
+        {
+          "label": "LK50QT-14D",
+          "url": "auto-moto-skutery-leike-lk50qt-14d",
+          "name": "lk50qt-14d",
+          "priority": 9
+        },
+        {
+          "label": "LK50QT-14E",
+          "url": "auto-moto-skutery-leike-lk50qt-14e",
+          "name": "lk50qt-14e",
+          "priority": 10
+        },
+        {
+          "label": "LK50QT-15",
+          "url": "auto-moto-skutery-leike-lk50qt-15",
+          "name": "lk50qt-15",
+          "priority": 11
+        },
+        {
+          "label": "LK50QT-17E",
+          "url": "auto-moto-skutery-leike-lk50qt-17e",
+          "name": "lk50qt-17e",
+          "priority": 12
+        },
+        {
+          "label": "LK50QT-7A",
+          "url": "auto-moto-skutery-leike-lk50qt-7a",
+          "name": "lk50qt-7a",
+          "priority": 13
+        }
+      ]
+    },
+    {
+      "label": "Lifan",
+      "url": "auto-moto-skutery-lifan",
+      "name": "lifan",
+      "priority": 53,
+      "children": [
+        {
+          "label": "LF100",
+          "url": "auto-moto-skutery-lifan-lf100",
+          "name": "lf100",
+          "priority": 1
+        },
+        {
+          "label": "LF125",
+          "url": "auto-moto-skutery-lifan-lf125",
+          "name": "lf125",
+          "priority": 2
+        },
+        {
+          "label": "LF150",
+          "url": "auto-moto-skutery-lifan-lf150",
+          "name": "lf150",
+          "priority": 3
+        },
+        {
+          "label": "LF250",
+          "url": "auto-moto-skutery-lifan-lf250",
+          "name": "lf250",
+          "priority": 4
+        },
+        {
+          "label": "LF50",
+          "url": "auto-moto-skutery-lifan-lf50",
+          "name": "lf50",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "label": "Lingben",
+      "url": "auto-moto-skutery-lingben",
+      "name": "lingben",
+      "priority": 54,
+      "children": [
+        {
+          "label": "LB125T",
+          "url": "auto-moto-skutery-lingben-lb125t",
+          "name": "lb125t",
+          "priority": 1
+        },
+        {
+          "label": "LB150T",
+          "url": "auto-moto-skutery-lingben-lb150t",
+          "name": "lb150t",
+          "priority": 2
+        },
+        {
+          "label": "LB250T",
+          "url": "auto-moto-skutery-lingben-lb250t",
+          "name": "lb250t",
+          "priority": 3
+        },
+        {
+          "label": "LB50QT",
+          "url": "auto-moto-skutery-lingben-lb50qt",
+          "name": "lb50qt",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "Linhai-Yamaha",
+      "url": "auto-moto-skutery-linhai-yamaha",
+      "name": "linhai-yamaha",
+      "priority": 55,
+      "children": [
+        {
+          "label": "Main Street 260",
+          "url": "auto-moto-skutery-linhai-yamaha-main_street_260",
+          "name": "main_street_260",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Lintex",
+      "url": "auto-moto-skutery-lintex",
+      "name": "lintex",
+      "priority": 56,
+      "children": [
+        {
+          "label": "HT-50QT-41",
+          "url": "auto-moto-skutery-lintex-ht-50qt-41",
+          "name": "ht-50qt-41",
+          "priority": 1
+        },
+        {
+          "label": "HT125T-27",
+          "url": "auto-moto-skutery-lintex-ht125t-27",
+          "name": "ht125t-27",
+          "priority": 2
+        },
+        {
+          "label": "HT150T-20",
+          "url": "auto-moto-skutery-lintex-ht150t-20",
+          "name": "ht150t-20",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "label": "Lizhong",
+      "url": "auto-moto-skutery-lizhong",
+      "name": "lizhong",
+      "priority": 57,
+      "children": [
+        {
+          "label": "LZS",
+          "url": "auto-moto-skutery-lizhong-lzs",
+          "name": "lzs",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "LML",
+      "url": "auto-moto-skutery-lml",
+      "name": "lml",
+      "priority": 58,
+      "children": [
+        {
+          "label": "Star",
+          "url": "auto-moto-skutery-lml-star",
+          "name": "star",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Loncin",
+      "url": "auto-moto-skutery-loncin",
+      "name": "loncin",
+      "priority": 59,
+      "children": [
+        {
+          "label": "LX 125",
+          "url": "auto-moto-skutery-loncin-lx_125",
+          "name": "lx_125",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Luyuan",
+      "url": "auto-moto-skutery-luyuan",
+      "name": "luyuan",
+      "priority": 60,
+      "children": [
+        {
+          "label": "LEV-007",
+          "url": "auto-moto-skutery-luyuan-lev-007",
+          "name": "lev-007",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Magnetmoto",
+      "url": "auto-moto-skutery-magnetmoto",
+      "name": "magnetmoto",
+      "priority": 61,
+      "children": [
+        {
+          "label": "RTM-50QT-6C",
+          "url": "auto-moto-skutery-magnetmoto-rtm-50qt-6c",
+          "name": "rtm-50qt-6c",
+          "priority": 1
+        },
+        {
+          "label": "RTM-EM3000TX",
+          "url": "auto-moto-skutery-magnetmoto-rtm-em3000tx",
+          "name": "rtm-em3000tx",
+          "priority": 2
+        },
+        {
+          "label": "RTM-EMB09A",
+          "url": "auto-moto-skutery-magnetmoto-rtm-emb09a",
+          "name": "rtm-emb09a",
+          "priority": 3
+        },
+        {
+          "label": "RTM-EMS3000TK",
+          "url": "auto-moto-skutery-magnetmoto-rtm-ems3000tk",
+          "name": "rtm-ems3000tk",
+          "priority": 5
+        },
+        {
+          "label": "RTM-EMS3000TX",
+          "url": "auto-moto-skutery-magnetmoto-rtm-ems3000tx",
+          "name": "rtm-ems3000tx",
+          "priority": 6
+        },
+        {
+          "label": "RTM-EMZJ01C",
+          "url": "auto-moto-skutery-magnetmoto-rtm-emzj01c",
+          "name": "rtm-emzj01c",
+          "priority": 7
+        },
+        {
+          "label": "RTM-EMZJ02",
+          "url": "auto-moto-skutery-magnetmoto-rtm-emzj02",
+          "name": "rtm-emzj02",
+          "priority": 8
+        },
+        {
+          "label": "RTM-EMZJ03C",
+          "url": "auto-moto-skutery-magnetmoto-rtm-emzj03c",
+          "name": "rtm-emzj03c",
+          "priority": 9
+        },
+        {
+          "label": "RTM-EMZJ05",
+          "url": "auto-moto-skutery-magnetmoto-rtm-emzj05",
+          "name": "rtm-emzj05",
+          "priority": 10
+        },
+        {
+          "label": "RTM-EMZJ09",
+          "url": "auto-moto-skutery-magnetmoto-rtm-emzj09",
+          "name": "rtm-emzj09",
+          "priority": 11
+        },
+        {
+          "label": "RTM-EMZJ10",
+          "url": "auto-moto-skutery-magnetmoto-rtm-emzj10",
+          "name": "rtm-emzj10",
+          "priority": 12
+        },
+        {
+          "label": "RTM-EMZJ11",
+          "url": "auto-moto-skutery-magnetmoto-rtm-emzj11",
+          "name": "rtm-emzj11",
+          "priority": 13
+        },
+        {
+          "label": "RTM-EMZJ15",
+          "url": "auto-moto-skutery-magnetmoto-rtm-emzj15",
+          "name": "rtm-emzj15",
+          "priority": 14
+        }
+      ]
+    },
+    {
+      "label": "Malaguti",
+      "url": "auto-moto-skutery-malaguti",
+      "name": "malaguti",
+      "priority": 62,
+      "children": [
+        {
+          "label": "Blog",
+          "url": "auto-moto-skutery-malaguti-blog",
+          "name": "blog",
+          "priority": 1
+        },
+        {
+          "label": "Centro",
+          "url": "auto-moto-skutery-malaguti-centro",
+          "name": "centro",
+          "priority": 2
+        },
+        {
+          "label": "Ciak Master",
+          "url": "auto-moto-skutery-malaguti-ciak_master",
+          "name": "ciak_master",
+          "priority": 3
+        },
+        {
+          "label": "Crosser",
+          "url": "auto-moto-skutery-malaguti-crosser",
+          "name": "crosser",
+          "priority": 4
+        },
+        {
+          "label": "F10",
+          "url": "auto-moto-skutery-malaguti-f10",
+          "name": "f10",
+          "priority": 5
+        },
+        {
+          "label": "F15 Firefox",
+          "url": "auto-moto-skutery-malaguti-f15_firefox",
+          "name": "f15_firefox",
+          "priority": 6
+        },
+        {
+          "label": "Madison 125",
+          "url": "auto-moto-skutery-malaguti-madison_125",
+          "name": "madison_125",
+          "priority": 7
+        },
+        {
+          "label": "Madison 150",
+          "url": "auto-moto-skutery-malaguti-madison_150",
+          "name": "madison_150",
+          "priority": 8
+        },
+        {
+          "label": "Madison 250",
+          "url": "auto-moto-skutery-malaguti-madison_250",
+          "name": "madison_250",
+          "priority": 9
+        },
+        {
+          "label": "Madison K400",
+          "url": "auto-moto-skutery-malaguti-madison_k400",
+          "name": "madison_k400",
+          "priority": 10
+        },
+        {
+          "label": "Password 250",
+          "url": "auto-moto-skutery-malaguti-password_250",
+          "name": "password_250",
+          "priority": 11
+        },
+        {
+          "label": "Phantom",
+          "url": "auto-moto-skutery-malaguti-phantom",
+          "name": "phantom",
+          "priority": 12
+        },
+        {
+          "label": "Phantom Max",
+          "url": "auto-moto-skutery-malaguti-phantom_max",
+          "name": "phantom_max",
+          "priority": 13
+        },
+        {
+          "label": "Spidermax GT500",
+          "url": "auto-moto-skutery-malaguti-spidermax_gt500",
+          "name": "spidermax_gt500",
+          "priority": 14
+        },
+        {
+          "label": "Yesterday",
+          "url": "auto-moto-skutery-malaguti-yesterday",
+          "name": "yesterday",
+          "priority": 15
+        }
+      ]
+    },
+    {
+      "label": "Matador",
+      "url": "auto-moto-skutery-matador",
+      "name": "matador",
+      "priority": 63,
+      "children": [
+        {
+          "label": "Jet",
+          "url": "auto-moto-skutery-matador-jet",
+          "name": "jet",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "MBK",
+      "url": "auto-moto-skutery-mbk",
+      "name": "mbk",
+      "priority": 64,
+      "children": [
+        {
+          "label": "Flame",
+          "url": "auto-moto-skutery-mbk-flame",
+          "name": "flame",
+          "priority": 1
+        },
+        {
+          "label": "Nitro",
+          "url": "auto-moto-skutery-mbk-nitro",
+          "name": "nitro",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Meiduo",
+      "url": "auto-moto-skutery-meiduo",
+      "name": "meiduo",
+      "priority": 65,
+      "children": [
+        {
+          "label": "MD50",
+          "url": "auto-moto-skutery-meiduo-md50",
+          "name": "md50",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "MGB",
+      "url": "auto-moto-skutery-mgb",
+      "name": "mgb",
+      "priority": 66,
+      "children": [
+        {
+          "label": "Korado",
+          "url": "auto-moto-skutery-mgb-korado",
+          "name": "korado",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Minsk (Минск)",
+      "url": "auto-moto-skutery-minsk_(minsk)",
+      "name": "minsk_(minsk)",
+      "priority": 67,
+      "children": [
+        {
+          "label": "2-154",
+          "url": "auto-moto-skutery-minsk_(minsk)-2-154",
+          "name": "2-154",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Mosca",
+      "url": "auto-moto-skutery-mosca",
+      "name": "mosca",
+      "priority": 68,
+      "children": [
+        {
+          "label": "Caramella",
+          "url": "auto-moto-skutery-mosca-caramella",
+          "name": "caramella",
+          "priority": 1
+        },
+        {
+          "label": "Elegante",
+          "url": "auto-moto-skutery-mosca-elegante",
+          "name": "elegante",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "MotoFino",
+      "url": "auto-moto-skutery-motofino",
+      "name": "motofino",
+      "priority": 69,
+      "children": [
+        {
+          "label": "MF150QT-10D",
+          "url": "auto-moto-skutery-motofino-mf150qt-10d",
+          "name": "mf150qt-10d",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Motoforce",
+      "url": "auto-moto-skutery-motoforce",
+      "name": "motoforce",
+      "priority": 70,
+      "children": [
+        {
+          "label": "Cornet",
+          "url": "auto-moto-skutery-motoforce-cornet",
+          "name": "cornet",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Motoland",
+      "url": "auto-moto-skutery-motoland",
+      "name": "motoland",
+      "priority": 71,
+      "children": [
+        {
+          "label": "Active",
+          "url": "auto-moto-skutery-motoland-active",
+          "name": "active",
+          "priority": 1
+        },
+        {
+          "label": "Corsa",
+          "url": "auto-moto-skutery-motoland-corsa",
+          "name": "corsa",
+          "priority": 2
+        },
+        {
+          "label": "Discovery",
+          "url": "auto-moto-skutery-motoland-discovery",
+          "name": "discovery",
+          "priority": 3
+        },
+        {
+          "label": "F1",
+          "url": "auto-moto-skutery-motoland-f1",
+          "name": "f1",
+          "priority": 4
+        },
+        {
+          "label": "Fashion",
+          "url": "auto-moto-skutery-motoland-fashion",
+          "name": "fashion",
+          "priority": 5
+        },
+        {
+          "label": "Grace",
+          "url": "auto-moto-skutery-motoland-grace",
+          "name": "grace",
+          "priority": 6
+        },
+        {
+          "label": "Guiana",
+          "url": "auto-moto-skutery-motoland-guiana",
+          "name": "guiana",
+          "priority": 7
+        },
+        {
+          "label": "Miami",
+          "url": "auto-moto-skutery-motoland-miami",
+          "name": "miami",
+          "priority": 8
+        },
+        {
+          "label": "Orlando",
+          "url": "auto-moto-skutery-motoland-orlando",
+          "name": "orlando",
+          "priority": 9
+        },
+        {
+          "label": "Paladin",
+          "url": "auto-moto-skutery-motoland-paladin",
+          "name": "paladin",
+          "priority": 10
+        },
+        {
+          "label": "Purga",
+          "url": "auto-moto-skutery-motoland-purga",
+          "name": "purga",
+          "priority": 11
+        },
+        {
+          "label": "Sky Wing",
+          "url": "auto-moto-skutery-motoland-sky_wing",
+          "name": "sky_wing",
+          "priority": 12
+        },
+        {
+          "label": "Wave",
+          "url": "auto-moto-skutery-motoland-wave",
+          "name": "wave",
+          "priority": 13
+        }
+      ]
+    },
+    {
+      "label": "Motolife",
+      "url": "auto-moto-skutery-motolife",
+      "name": "motolife",
+      "priority": 72,
+      "children": [
+        {
+          "label": "Wangye",
+          "url": "auto-moto-skutery-motolife-wangye",
+          "name": "wangye",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "MotorBoard",
+      "url": "auto-moto-skutery-motorboard",
+      "name": "motorboard",
+      "priority": 73,
+      "children": [
+        {
+          "label": "2000XR",
+          "url": "auto-moto-skutery-motorboard-2000xr",
+          "name": "2000xr",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Motowell",
+      "url": "auto-moto-skutery-motowell",
+      "name": "motowell",
+      "priority": 74,
+      "children": [
+        {
+          "label": "Magnet RS",
+          "url": "auto-moto-skutery-motowell-magnet_rs",
+          "name": "magnet_rs",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Nexus",
+      "url": "auto-moto-skutery-nexus",
+      "name": "nexus",
+      "priority": 75,
+      "children": [
+        {
+          "label": "Alfa",
+          "url": "auto-moto-skutery-nexus-alfa",
+          "name": "alfa",
+          "priority": 1
+        },
+        {
+          "label": "BW-S",
+          "url": "auto-moto-skutery-nexus-bw-s",
+          "name": "bw-s",
+          "priority": 2
+        },
+        {
+          "label": "Batman",
+          "url": "auto-moto-skutery-nexus-batman",
+          "name": "batman",
+          "priority": 3
+        },
+        {
+          "label": "Bird",
+          "url": "auto-moto-skutery-nexus-bird",
+          "name": "bird",
+          "priority": 4
+        },
+        {
+          "label": "Blaster",
+          "url": "auto-moto-skutery-nexus-blaster",
+          "name": "blaster",
+          "priority": 5
+        },
+        {
+          "label": "Booster",
+          "url": "auto-moto-skutery-nexus-booster",
+          "name": "booster",
+          "priority": 6
+        },
+        {
+          "label": "Booster Maxi",
+          "url": "auto-moto-skutery-nexus-booster_maxi",
+          "name": "booster_maxi",
+          "priority": 7
+        },
+        {
+          "label": "Classic",
+          "url": "auto-moto-skutery-nexus-classic",
+          "name": "classic",
+          "priority": 8
+        },
+        {
+          "label": "F22",
+          "url": "auto-moto-skutery-nexus-f22",
+          "name": "f22",
+          "priority": 9
+        },
+        {
+          "label": "F35",
+          "url": "auto-moto-skutery-nexus-f35",
+          "name": "f35",
+          "priority": 10
+        },
+        {
+          "label": "Falcon",
+          "url": "auto-moto-skutery-nexus-falcon",
+          "name": "falcon",
+          "priority": 11
+        },
+        {
+          "label": "Fantom",
+          "url": "auto-moto-skutery-nexus-fantom",
+          "name": "fantom",
+          "priority": 12
+        },
+        {
+          "label": "Highway",
+          "url": "auto-moto-skutery-nexus-highway",
+          "name": "highway",
+          "priority": 13
+        },
+        {
+          "label": "Jet",
+          "url": "auto-moto-skutery-nexus-jet",
+          "name": "jet",
+          "priority": 14
+        },
+        {
+          "label": "Master",
+          "url": "auto-moto-skutery-nexus-master",
+          "name": "master",
+          "priority": 15
+        },
+        {
+          "label": "Matrix 150",
+          "url": "auto-moto-skutery-nexus-matrix_150",
+          "name": "matrix_150",
+          "priority": 16
+        },
+        {
+          "label": "Matrix 50",
+          "url": "auto-moto-skutery-nexus-matrix_50",
+          "name": "matrix_50",
+          "priority": 17
+        },
+        {
+          "label": "Roar",
+          "url": "auto-moto-skutery-nexus-roar",
+          "name": "roar",
+          "priority": 18
+        },
+        {
+          "label": "Shift",
+          "url": "auto-moto-skutery-nexus-shift",
+          "name": "shift",
+          "priority": 19
+        },
+        {
+          "label": "Splash",
+          "url": "auto-moto-skutery-nexus-splash",
+          "name": "splash",
+          "priority": 20
+        },
+        {
+          "label": "Street",
+          "url": "auto-moto-skutery-nexus-street",
+          "name": "street",
+          "priority": 21
+        },
+        {
+          "label": "Vector",
+          "url": "auto-moto-skutery-nexus-vector",
+          "name": "vector",
+          "priority": 22
+        },
+        {
+          "label": "Viper",
+          "url": "auto-moto-skutery-nexus-viper",
+          "name": "viper",
+          "priority": 23
+        },
+        {
+          "label": "Zoom",
+          "url": "auto-moto-skutery-nexus-zoom",
+          "name": "zoom",
+          "priority": 24
+        }
+      ]
+    },
+    {
+      "label": "Nipponia",
+      "url": "auto-moto-skutery-nipponia",
+      "name": "nipponia",
+      "priority": 76,
+      "children": [
+        {
+          "label": "Altiva 125",
+          "url": "auto-moto-skutery-nipponia-altiva_125",
+          "name": "altiva_125",
+          "priority": 1
+        },
+        {
+          "label": "Brio 125",
+          "url": "auto-moto-skutery-nipponia-brio_125",
+          "name": "brio_125",
+          "priority": 2
+        },
+        {
+          "label": "Evolution 110",
+          "url": "auto-moto-skutery-nipponia-evolution_110",
+          "name": "evolution_110",
+          "priority": 3
+        },
+        {
+          "label": "Ezio 50",
+          "url": "auto-moto-skutery-nipponia-ezio_50",
+          "name": "ezio_50",
+          "priority": 4
+        },
+        {
+          "label": "Mego 125S",
+          "url": "auto-moto-skutery-nipponia-mego_125s",
+          "name": "mego_125s",
+          "priority": 5
+        },
+        {
+          "label": "NC 110",
+          "url": "auto-moto-skutery-nipponia-nc_110",
+          "name": "nc_110",
+          "priority": 6
+        },
+        {
+          "label": "NC 90",
+          "url": "auto-moto-skutery-nipponia-nc_90",
+          "name": "nc_90",
+          "priority": 7
+        },
+        {
+          "label": "Sporty 125XX",
+          "url": "auto-moto-skutery-nipponia-sporty_125xx",
+          "name": "sporty_125xx",
+          "priority": 8
+        },
+        {
+          "label": "Vorrei 125",
+          "url": "auto-moto-skutery-nipponia-vorrei_125",
+          "name": "vorrei_125",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "label": "Omaks Motors",
+      "url": "auto-moto-skutery-omaks_motors",
+      "name": "omaks_motors",
+      "priority": 77,
+      "children": [
+        {
+          "label": "Falcone",
+          "url": "auto-moto-skutery-omaks_motors-falcone",
+          "name": "falcone",
+          "priority": 1
+        },
+        {
+          "label": "LK",
+          "url": "auto-moto-skutery-omaks_motors-lk",
+          "name": "lk",
+          "priority": 2
+        },
+        {
+          "label": "V1",
+          "url": "auto-moto-skutery-omaks_motors-v1",
+          "name": "v1",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "label": "Opai",
+      "url": "auto-moto-skutery-opai",
+      "name": "opai",
+      "priority": 78,
+      "children": [
+        {
+          "label": "Avatar",
+          "url": "auto-moto-skutery-opai-avatar",
+          "name": "avatar",
+          "priority": 1
+        },
+        {
+          "label": "BMWZ",
+          "url": "auto-moto-skutery-opai-bmwz",
+          "name": "bmwz",
+          "priority": 2
+        },
+        {
+          "label": "How-How",
+          "url": "auto-moto-skutery-opai-how-how",
+          "name": "how-how",
+          "priority": 3
+        },
+        {
+          "label": "OP-100",
+          "url": "auto-moto-skutery-opai-op-100",
+          "name": "op-100",
+          "priority": 4
+        },
+        {
+          "label": "OP-530",
+          "url": "auto-moto-skutery-opai-op-530",
+          "name": "op-530",
+          "priority": 5
+        },
+        {
+          "label": "OP-760",
+          "url": "auto-moto-skutery-opai-op-760",
+          "name": "op-760",
+          "priority": 6
+        },
+        {
+          "label": "Ocean Dream",
+          "url": "auto-moto-skutery-opai-ocean_dream",
+          "name": "ocean_dream",
+          "priority": 7
+        },
+        {
+          "label": "Peony Fairy",
+          "url": "auto-moto-skutery-opai-peony_fairy",
+          "name": "peony_fairy",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "label": "Patron",
+      "url": "auto-moto-skutery-patron",
+      "name": "patron",
+      "priority": 79,
+      "children": [
+        {
+          "label": "Active",
+          "url": "auto-moto-skutery-patron-active",
+          "name": "active",
+          "priority": 1
+        },
+        {
+          "label": "Avenue",
+          "url": "auto-moto-skutery-patron-avenue",
+          "name": "avenue",
+          "priority": 2
+        },
+        {
+          "label": "Clever",
+          "url": "auto-moto-skutery-patron-clever",
+          "name": "clever",
+          "priority": 3
+        },
+        {
+          "label": "Dinamit",
+          "url": "auto-moto-skutery-patron-dinamit",
+          "name": "dinamit",
+          "priority": 4
+        },
+        {
+          "label": "Folly",
+          "url": "auto-moto-skutery-patron-folly",
+          "name": "folly",
+          "priority": 5
+        },
+        {
+          "label": "Grand",
+          "url": "auto-moto-skutery-patron-grand",
+          "name": "grand",
+          "priority": 6
+        },
+        {
+          "label": "Joker",
+          "url": "auto-moto-skutery-patron-joker",
+          "name": "joker",
+          "priority": 7
+        },
+        {
+          "label": "Leo",
+          "url": "auto-moto-skutery-patron-leo",
+          "name": "leo",
+          "priority": 8
+        },
+        {
+          "label": "Major",
+          "url": "auto-moto-skutery-patron-major",
+          "name": "major",
+          "priority": 9
+        },
+        {
+          "label": "Ringer",
+          "url": "auto-moto-skutery-patron-ringer",
+          "name": "ringer",
+          "priority": 10
+        },
+        {
+          "label": "Robot",
+          "url": "auto-moto-skutery-patron-robot",
+          "name": "robot",
+          "priority": 11
+        },
+        {
+          "label": "Shark",
+          "url": "auto-moto-skutery-patron-shark",
+          "name": "shark",
+          "priority": 12
+        },
+        {
+          "label": "Sparrow",
+          "url": "auto-moto-skutery-patron-sparrow",
+          "name": "sparrow",
+          "priority": 13
+        },
+        {
+          "label": "Spine",
+          "url": "auto-moto-skutery-patron-spine",
+          "name": "spine",
+          "priority": 14
+        },
+        {
+          "label": "Traffic",
+          "url": "auto-moto-skutery-patron-traffic",
+          "name": "traffic",
+          "priority": 15
+        }
+      ]
+    },
+    {
+      "label": "Peugeot",
+      "url": "auto-moto-skutery-peugeot",
+      "name": "peugeot",
+      "priority": 80,
+      "children": [
+        {
+          "label": "Blaster",
+          "url": "auto-moto-skutery-peugeot-blaster",
+          "name": "blaster",
+          "priority": 1
+        },
+        {
+          "label": "Elystar 125",
+          "url": "auto-moto-skutery-peugeot-elystar_125",
+          "name": "elystar_125",
+          "priority": 2
+        },
+        {
+          "label": "Elystar 150",
+          "url": "auto-moto-skutery-peugeot-elystar_150",
+          "name": "elystar_150",
+          "priority": 3
+        },
+        {
+          "label": "Elystar 50",
+          "url": "auto-moto-skutery-peugeot-elystar_50",
+          "name": "elystar_50",
+          "priority": 4
+        },
+        {
+          "label": "GeoSTYLE",
+          "url": "auto-moto-skutery-peugeot-geostyle",
+          "name": "geostyle",
+          "priority": 5
+        },
+        {
+          "label": "Geopolis 125",
+          "url": "auto-moto-skutery-peugeot-geopolis_125",
+          "name": "geopolis_125",
+          "priority": 6
+        },
+        {
+          "label": "Geopolis 250",
+          "url": "auto-moto-skutery-peugeot-geopolis_250",
+          "name": "geopolis_250",
+          "priority": 7
+        },
+        {
+          "label": "Geopolis 400",
+          "url": "auto-moto-skutery-peugeot-geopolis_400",
+          "name": "geopolis_400",
+          "priority": 8
+        },
+        {
+          "label": "Geopolis 500",
+          "url": "auto-moto-skutery-peugeot-geopolis_500",
+          "name": "geopolis_500",
+          "priority": 9
+        },
+        {
+          "label": "Jet C-Tech",
+          "url": "auto-moto-skutery-peugeot-jet_c-tech",
+          "name": "jet_c-tech",
+          "priority": 10
+        },
+        {
+          "label": "LXR 125",
+          "url": "auto-moto-skutery-peugeot-lxr_125",
+          "name": "lxr_125",
+          "priority": 11
+        },
+        {
+          "label": "LXR 200",
+          "url": "auto-moto-skutery-peugeot-lxr_200",
+          "name": "lxr_200",
+          "priority": 12
+        },
+        {
+          "label": "Looxor 100",
+          "url": "auto-moto-skutery-peugeot-looxor_100",
+          "name": "looxor_100",
+          "priority": 13
+        },
+        {
+          "label": "Looxor 125",
+          "url": "auto-moto-skutery-peugeot-looxor_125",
+          "name": "looxor_125",
+          "priority": 14
+        },
+        {
+          "label": "Looxor 150",
+          "url": "auto-moto-skutery-peugeot-looxor_150",
+          "name": "looxor_150",
+          "priority": 15
+        },
+        {
+          "label": "Looxor 50",
+          "url": "auto-moto-skutery-peugeot-looxor_50",
+          "name": "looxor_50",
+          "priority": 16
+        },
+        {
+          "label": "Ludix",
+          "url": "auto-moto-skutery-peugeot-ludix",
+          "name": "ludix",
+          "priority": 17
+        },
+        {
+          "label": "Metal-x",
+          "url": "auto-moto-skutery-peugeot-metal-x",
+          "name": "metal-x",
+          "priority": 18
+        },
+        {
+          "label": "Metropolis",
+          "url": "auto-moto-skutery-peugeot-metropolis",
+          "name": "metropolis",
+          "priority": 19
+        },
+        {
+          "label": "Satelis 125",
+          "url": "auto-moto-skutery-peugeot-satelis_125",
+          "name": "satelis_125",
+          "priority": 20
+        },
+        {
+          "label": "Satelis 250",
+          "url": "auto-moto-skutery-peugeot-satelis_250",
+          "name": "satelis_250",
+          "priority": 21
+        },
+        {
+          "label": "Satelis 400",
+          "url": "auto-moto-skutery-peugeot-satelis_400",
+          "name": "satelis_400",
+          "priority": 22
+        },
+        {
+          "label": "Satelis 500",
+          "url": "auto-moto-skutery-peugeot-satelis_500",
+          "name": "satelis_500",
+          "priority": 23
+        },
+        {
+          "label": "Speedfight 100",
+          "url": "auto-moto-skutery-peugeot-speedfight_100",
+          "name": "speedfight_100",
+          "priority": 24
+        },
+        {
+          "label": "Speedfight 50",
+          "url": "auto-moto-skutery-peugeot-speedfight_50",
+          "name": "speedfight_50",
+          "priority": 25
+        },
+        {
+          "label": "Sum-up",
+          "url": "auto-moto-skutery-peugeot-sum-up",
+          "name": "sum-up",
+          "priority": 26
+        },
+        {
+          "label": "TKR",
+          "url": "auto-moto-skutery-peugeot-tkr",
+          "name": "tkr",
+          "priority": 27
+        },
+        {
+          "label": "Tweet",
+          "url": "auto-moto-skutery-peugeot-tweet",
+          "name": "tweet",
+          "priority": 28
+        },
+        {
+          "label": "V-Clic 50",
+          "url": "auto-moto-skutery-peugeot-v-clic_50",
+          "name": "v-clic_50",
+          "priority": 29
+        },
+        {
+          "label": "Vivacity 125",
+          "url": "auto-moto-skutery-peugeot-vivacity_125",
+          "name": "vivacity_125",
+          "priority": 30
+        },
+        {
+          "label": "Vivacity 50",
+          "url": "auto-moto-skutery-peugeot-vivacity_50",
+          "name": "vivacity_50",
+          "priority": 31
+        },
+        {
+          "label": "Zenit",
+          "url": "auto-moto-skutery-peugeot-zenit",
+          "name": "zenit",
+          "priority": 32
+        }
+      ]
+    },
+    {
+      "label": "PGO",
+      "url": "auto-moto-skutery-pgo",
+      "name": "pgo",
+      "priority": 81,
+      "children": [
+        {
+          "label": "Big Max",
+          "url": "auto-moto-skutery-pgo-big_max",
+          "name": "big_max",
+          "priority": 1
+        },
+        {
+          "label": "Comet",
+          "url": "auto-moto-skutery-pgo-comet",
+          "name": "comet",
+          "priority": 2
+        },
+        {
+          "label": "G-MAX",
+          "url": "auto-moto-skutery-pgo-g-max",
+          "name": "g-max",
+          "priority": 3
+        },
+        {
+          "label": "I-Charge",
+          "url": "auto-moto-skutery-pgo-i-charge",
+          "name": "i-charge",
+          "priority": 4
+        },
+        {
+          "label": "Libra 50",
+          "url": "auto-moto-skutery-pgo-libra_50",
+          "name": "libra_50",
+          "priority": 5
+        },
+        {
+          "label": "Ligero",
+          "url": "auto-moto-skutery-pgo-ligero",
+          "name": "ligero",
+          "priority": 6
+        },
+        {
+          "label": "Ligero RS",
+          "url": "auto-moto-skutery-pgo-ligero_rs",
+          "name": "ligero_rs",
+          "priority": 7
+        },
+        {
+          "label": "PMX",
+          "url": "auto-moto-skutery-pgo-pmx",
+          "name": "pmx",
+          "priority": 8
+        },
+        {
+          "label": "PMX Naked",
+          "url": "auto-moto-skutery-pgo-pmx_naked",
+          "name": "pmx_naked",
+          "priority": 9
+        },
+        {
+          "label": "PMX Sport",
+          "url": "auto-moto-skutery-pgo-pmx_sport",
+          "name": "pmx_sport",
+          "priority": 10
+        },
+        {
+          "label": "Rodoshow",
+          "url": "auto-moto-skutery-pgo-rodoshow",
+          "name": "rodoshow",
+          "priority": 11
+        },
+        {
+          "label": "T-REX",
+          "url": "auto-moto-skutery-pgo-t-rex",
+          "name": "t-rex",
+          "priority": 12
+        },
+        {
+          "label": "TR3",
+          "url": "auto-moto-skutery-pgo-tr3",
+          "name": "tr3",
+          "priority": 13
+        },
+        {
+          "label": "Tornado",
+          "url": "auto-moto-skutery-pgo-tornado",
+          "name": "tornado",
+          "priority": 14
+        },
+        {
+          "label": "X-Hot 50",
+          "url": "auto-moto-skutery-pgo-x-hot_50",
+          "name": "x-hot_50",
+          "priority": 15
+        }
+      ]
+    },
+    {
+      "label": "Piaggio",
+      "url": "auto-moto-skutery-piaggio",
+      "name": "piaggio",
+      "priority": 82,
+      "children": [
+        {
+          "label": "Beverly",
+          "url": "auto-moto-skutery-piaggio-beverly",
+          "name": "beverly",
+          "priority": 1
+        },
+        {
+          "label": "Carnaby 125",
+          "url": "auto-moto-skutery-piaggio-carnaby_125",
+          "name": "carnaby_125",
+          "priority": 2
+        },
+        {
+          "label": "Ciao",
+          "url": "auto-moto-skutery-piaggio-ciao",
+          "name": "ciao",
+          "priority": 3
+        },
+        {
+          "label": "Hexagon LX125",
+          "url": "auto-moto-skutery-piaggio-hexagon_lx125",
+          "name": "hexagon_lx125",
+          "priority": 4
+        },
+        {
+          "label": "Ice",
+          "url": "auto-moto-skutery-piaggio-ice",
+          "name": "ice",
+          "priority": 5
+        },
+        {
+          "label": "MP3",
+          "url": "auto-moto-skutery-piaggio-mp3",
+          "name": "mp3",
+          "priority": 6
+        },
+        {
+          "label": "NRG MC3 L.C.",
+          "url": "auto-moto-skutery-piaggio-nrg_mc3_l_c",
+          "name": "nrg_mc3_l_c",
+          "priority": 7
+        },
+        {
+          "label": "NRG Power",
+          "url": "auto-moto-skutery-piaggio-nrg_power",
+          "name": "nrg_power",
+          "priority": 8
+        },
+        {
+          "label": "NRG Power DD",
+          "url": "auto-moto-skutery-piaggio-nrg_power_dd",
+          "name": "nrg_power_dd",
+          "priority": 9
+        },
+        {
+          "label": "NTT",
+          "url": "auto-moto-skutery-piaggio-ntt",
+          "name": "ntt",
+          "priority": 10
+        },
+        {
+          "label": "Typhoon",
+          "url": "auto-moto-skutery-piaggio-typhoon",
+          "name": "typhoon",
+          "priority": 11
+        },
+        {
+          "label": "X10",
+          "url": "auto-moto-skutery-piaggio-x10",
+          "name": "x10",
+          "priority": 12
+        },
+        {
+          "label": "X9",
+          "url": "auto-moto-skutery-piaggio-x9",
+          "name": "x9",
+          "priority": 13
+        },
+        {
+          "label": "ZIP",
+          "url": "auto-moto-skutery-piaggio-zip",
+          "name": "zip",
+          "priority": 14
+        }
+      ]
+    },
+    {
+      "label": "Pioneer",
+      "url": "auto-moto-skutery-pioneer",
+      "name": "pioneer",
+      "priority": 83,
+      "children": [
+        {
+          "label": "Challenger",
+          "url": "auto-moto-skutery-pioneer-challenger",
+          "name": "challenger",
+          "priority": 1
+        },
+        {
+          "label": "General",
+          "url": "auto-moto-skutery-pioneer-general",
+          "name": "general",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "PUCH",
+      "url": "auto-moto-skutery-puch",
+      "name": "puch",
+      "priority": 84,
+      "children": [
+        {
+          "label": "250 SGS",
+          "url": "auto-moto-skutery-puch-250_sgs",
+          "name": "250_sgs",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Qlink",
+      "url": "auto-moto-skutery-qlink",
+      "name": "qlink",
+      "priority": 85,
+      "children": [
+        {
+          "label": "Achilles 150",
+          "url": "auto-moto-skutery-qlink-achilles_150",
+          "name": "achilles_150",
+          "priority": 1
+        },
+        {
+          "label": "Axon 50",
+          "url": "auto-moto-skutery-qlink-axon_50",
+          "name": "axon_50",
+          "priority": 2
+        },
+        {
+          "label": "Commuter 250",
+          "url": "auto-moto-skutery-qlink-commuter_250",
+          "name": "commuter_250",
+          "priority": 3
+        },
+        {
+          "label": "Pegasus 150",
+          "url": "auto-moto-skutery-qlink-pegasus_150",
+          "name": "pegasus_150",
+          "priority": 4
+        },
+        {
+          "label": "Siena 150",
+          "url": "auto-moto-skutery-qlink-siena_150",
+          "name": "siena_150",
+          "priority": 5
+        },
+        {
+          "label": "Splendor 400",
+          "url": "auto-moto-skutery-qlink-splendor_400",
+          "name": "splendor_400",
+          "priority": 6
+        },
+        {
+          "label": "Star 50",
+          "url": "auto-moto-skutery-qlink-star_50",
+          "name": "star_50",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "label": "QSMCO",
+      "url": "auto-moto-skutery-qsmco",
+      "name": "qsmco",
+      "priority": 86,
+      "children": [
+        {
+          "label": "QSMCO",
+          "url": "auto-moto-skutery-qsmco-qsmco",
+          "name": "qsmco",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Quadro",
+      "url": "auto-moto-skutery-quadro",
+      "name": "quadro",
+      "priority": 87,
+      "children": [
+        {
+          "label": "Quadro 350",
+          "url": "auto-moto-skutery-quadro-quadro_350",
+          "name": "quadro_350",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Racer",
+      "url": "auto-moto-skutery-racer",
+      "name": "racer",
+      "priority": 88,
+      "children": [
+        {
+          "label": "Arrow",
+          "url": "auto-moto-skutery-racer-arrow",
+          "name": "arrow",
+          "priority": 1
+        },
+        {
+          "label": "Corvus",
+          "url": "auto-moto-skutery-racer-corvus",
+          "name": "corvus",
+          "priority": 2
+        },
+        {
+          "label": "Dorado",
+          "url": "auto-moto-skutery-racer-dorado",
+          "name": "dorado",
+          "priority": 3
+        },
+        {
+          "label": "Dragon",
+          "url": "auto-moto-skutery-racer-dragon",
+          "name": "dragon",
+          "priority": 4
+        },
+        {
+          "label": "Flame",
+          "url": "auto-moto-skutery-racer-flame",
+          "name": "flame",
+          "priority": 5
+        },
+        {
+          "label": "Indigo",
+          "url": "auto-moto-skutery-racer-indigo",
+          "name": "indigo",
+          "priority": 6
+        },
+        {
+          "label": "Lupus",
+          "url": "auto-moto-skutery-racer-lupus",
+          "name": "lupus",
+          "priority": 7
+        },
+        {
+          "label": "Meteor",
+          "url": "auto-moto-skutery-racer-meteor",
+          "name": "meteor",
+          "priority": 8
+        },
+        {
+          "label": "Sagita",
+          "url": "auto-moto-skutery-racer-sagita",
+          "name": "sagita",
+          "priority": 9
+        },
+        {
+          "label": "Shuttle",
+          "url": "auto-moto-skutery-racer-shuttle",
+          "name": "shuttle",
+          "priority": 10
+        },
+        {
+          "label": "Sirius",
+          "url": "auto-moto-skutery-racer-sirius",
+          "name": "sirius",
+          "priority": 11
+        },
+        {
+          "label": "Stells",
+          "url": "auto-moto-skutery-racer-stells",
+          "name": "stells",
+          "priority": 12
+        },
+        {
+          "label": "Taurus",
+          "url": "auto-moto-skutery-racer-taurus",
+          "name": "taurus",
+          "priority": 13
+        },
+        {
+          "label": "Uragan",
+          "url": "auto-moto-skutery-racer-uragan",
+          "name": "uragan",
+          "priority": 14
+        },
+        {
+          "label": "Wolf",
+          "url": "auto-moto-skutery-racer-wolf",
+          "name": "wolf",
+          "priority": 15
+        }
+      ]
+    },
+    {
+      "label": "Rapira",
+      "url": "auto-moto-skutery-rapira",
+      "name": "rapira",
+      "priority": 89,
+      "children": [
+        {
+          "label": "139 QMD",
+          "url": "auto-moto-skutery-rapira-139_qmd",
+          "name": "139_qmd",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Reggy",
+      "url": "auto-moto-skutery-reggy",
+      "name": "reggy",
+      "priority": 90,
+      "children": [
+        {
+          "label": "Bison RG50S1200-1201",
+          "url": "auto-moto-skutery-reggy-bison_rg50s1200-1201",
+          "name": "bison_rg50s1200-1201",
+          "priority": 1
+        },
+        {
+          "label": "Breeze RG50M1610-1611",
+          "url": "auto-moto-skutery-reggy-breeze_rg50m1610-1611",
+          "name": "breeze_rg50m1610-1611",
+          "priority": 2
+        },
+        {
+          "label": "FALCON (RG43S2101-2109)",
+          "url": "auto-moto-skutery-reggy-falcon_(rg43s2101-2109)",
+          "name": "falcon_(rg43s2101-2109)",
+          "priority": 3
+        },
+        {
+          "label": "Fantom RG125S1250-1251",
+          "url": "auto-moto-skutery-reggy-fantom_rg125s1250-1251",
+          "name": "fantom_rg125s1250-1251",
+          "priority": 4
+        },
+        {
+          "label": "Hawk RG125S1202",
+          "url": "auto-moto-skutery-reggy-hawk_rg125s1202",
+          "name": "hawk_rg125s1202",
+          "priority": 5
+        },
+        {
+          "label": "Joker (RG50M1410-1412)",
+          "url": "auto-moto-skutery-reggy-joker_(rg50m1410-1412)",
+          "name": "joker_(rg50m1410-1412)",
+          "priority": 6
+        },
+        {
+          "label": "Odissey RG50S1300-1301",
+          "url": "auto-moto-skutery-reggy-odissey_rg50s1300-1301",
+          "name": "odissey_rg50s1300-1301",
+          "priority": 7
+        },
+        {
+          "label": "RG50S1001",
+          "url": "auto-moto-skutery-reggy-rg50s1001",
+          "name": "rg50s1001",
+          "priority": 8
+        },
+        {
+          "label": "Spider",
+          "url": "auto-moto-skutery-reggy-spider",
+          "name": "spider",
+          "priority": 9
+        },
+        {
+          "label": "СITY SL (RG50S1160-1161)",
+          "url": "auto-moto-skutery-reggy-city_sl_(rg50s1160-1161)",
+          "name": "city_sl_(rg50s1160-1161)",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "label": "Rex Moto",
+      "url": "auto-moto-skutery-rex_moto",
+      "name": "rex_moto",
+      "priority": 91,
+      "children": [
+        {
+          "label": "Torino",
+          "url": "auto-moto-skutery-rex_moto-torino",
+          "name": "torino",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "RM-X",
+      "url": "auto-moto-skutery-rm-x",
+      "name": "rm-x",
+      "priority": 92,
+      "children": [
+        {
+          "label": "125-12C",
+          "url": "auto-moto-skutery-rm-x-125-12c",
+          "name": "125-12c",
+          "priority": 1
+        },
+        {
+          "label": "50-12C",
+          "url": "auto-moto-skutery-rm-x-50-12c",
+          "name": "50-12c",
+          "priority": 2
+        },
+        {
+          "label": "50-7B1",
+          "url": "auto-moto-skutery-rm-x-50-7b1",
+          "name": "50-7b1",
+          "priority": 3
+        },
+        {
+          "label": "50-9A3",
+          "url": "auto-moto-skutery-rm-x-50-9a3",
+          "name": "50-9a3",
+          "priority": 4
+        },
+        {
+          "label": "50-9D1",
+          "url": "auto-moto-skutery-rm-x-50-9d1",
+          "name": "50-9d1",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "label": "Sachs",
+      "url": "auto-moto-skutery-sachs",
+      "name": "sachs",
+      "priority": 93,
+      "children": [
+        {
+          "label": "49er",
+          "url": "auto-moto-skutery-sachs-49er",
+          "name": "49er",
+          "priority": 1
+        },
+        {
+          "label": "Bee 125",
+          "url": "auto-moto-skutery-sachs-bee_125",
+          "name": "bee_125",
+          "priority": 2
+        },
+        {
+          "label": "Bee 50",
+          "url": "auto-moto-skutery-sachs-bee_50",
+          "name": "bee_50",
+          "priority": 3
+        },
+        {
+          "label": "Eagle 125",
+          "url": "auto-moto-skutery-sachs-eagle_125",
+          "name": "eagle_125",
+          "priority": 4
+        },
+        {
+          "label": "Eagle 50",
+          "url": "auto-moto-skutery-sachs-eagle_50",
+          "name": "eagle_50",
+          "priority": 5
+        },
+        {
+          "label": "LF 125",
+          "url": "auto-moto-skutery-sachs-lf_125",
+          "name": "lf_125",
+          "priority": 6
+        },
+        {
+          "label": "SR 125",
+          "url": "auto-moto-skutery-sachs-sr_125",
+          "name": "sr_125",
+          "priority": 7
+        },
+        {
+          "label": "Speedforce",
+          "url": "auto-moto-skutery-sachs-speedforce",
+          "name": "speedforce",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "label": "Sagitta",
+      "url": "auto-moto-skutery-sagitta",
+      "name": "sagitta",
+      "priority": 94,
+      "children": [
+        {
+          "label": "Acuto",
+          "url": "auto-moto-skutery-sagitta-acuto",
+          "name": "acuto",
+          "priority": 1
+        },
+        {
+          "label": "Comodo",
+          "url": "auto-moto-skutery-sagitta-comodo",
+          "name": "comodo",
+          "priority": 2
+        },
+        {
+          "label": "Elegante",
+          "url": "auto-moto-skutery-sagitta-elegante",
+          "name": "elegante",
+          "priority": 3
+        },
+        {
+          "label": "Esperto",
+          "url": "auto-moto-skutery-sagitta-esperto",
+          "name": "esperto",
+          "priority": 4
+        },
+        {
+          "label": "Forte",
+          "url": "auto-moto-skutery-sagitta-forte",
+          "name": "forte",
+          "priority": 5
+        },
+        {
+          "label": "Insolente",
+          "url": "auto-moto-skutery-sagitta-insolente",
+          "name": "insolente",
+          "priority": 6
+        },
+        {
+          "label": "Rapido",
+          "url": "auto-moto-skutery-sagitta-rapido",
+          "name": "rapido",
+          "priority": 7
+        },
+        {
+          "label": "Resistente",
+          "url": "auto-moto-skutery-sagitta-resistente",
+          "name": "resistente",
+          "priority": 8
+        },
+        {
+          "label": "Volare",
+          "url": "auto-moto-skutery-sagitta-volare",
+          "name": "volare",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "label": "San Yang",
+      "url": "auto-moto-skutery-san_yang",
+      "name": "san_yang",
+      "priority": 95,
+      "children": [
+        {
+          "label": "Bonus 125",
+          "url": "auto-moto-skutery-san_yang-bonus_125",
+          "name": "bonus_125",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Senke",
+      "url": "auto-moto-skutery-senke",
+      "name": "senke",
+      "priority": 96,
+      "children": [
+        {
+          "label": "SK100",
+          "url": "auto-moto-skutery-senke-sk100",
+          "name": "sk100",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Shunfeng",
+      "url": "auto-moto-skutery-shunfeng",
+      "name": "shunfeng",
+      "priority": 97,
+      "children": [
+        {
+          "label": "Recruit HN125T-9",
+          "url": "auto-moto-skutery-shunfeng-recruit_hn125t-9",
+          "name": "recruit_hn125t-9",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Simbel",
+      "url": "auto-moto-skutery-simbel",
+      "name": "simbel",
+      "priority": 98,
+      "children": [
+        {
+          "label": "RT-50",
+          "url": "auto-moto-skutery-simbel-rt-50",
+          "name": "rt-50",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Simson",
+      "url": "auto-moto-skutery-simson",
+      "name": "simson",
+      "priority": 99,
+      "children": [
+        {
+          "label": "Spatz",
+          "url": "auto-moto-skutery-simson-spatz",
+          "name": "spatz",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Skyline",
+      "url": "auto-moto-skutery-skyline",
+      "name": "skyline",
+      "priority": 100,
+      "children": [
+        {
+          "label": "015",
+          "url": "auto-moto-skutery-skyline-015",
+          "name": "015",
+          "priority": 1
+        },
+        {
+          "label": "303",
+          "url": "auto-moto-skutery-skyline-303",
+          "name": "303",
+          "priority": 2
+        },
+        {
+          "label": "409",
+          "url": "auto-moto-skutery-skyline-409",
+          "name": "409",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "label": "Skymoto",
+      "url": "auto-moto-skutery-skymoto",
+      "name": "skymoto",
+      "priority": 101,
+      "children": [
+        {
+          "label": "Phoenix",
+          "url": "auto-moto-skutery-skymoto-phoenix",
+          "name": "phoenix",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Smile",
+      "url": "auto-moto-skutery-smile",
+      "name": "smile",
+      "priority": 102,
+      "children": [
+        {
+          "label": "QM",
+          "url": "auto-moto-skutery-smile-qm",
+          "name": "qm",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Sonik",
+      "url": "auto-moto-skutery-sonik",
+      "name": "sonik",
+      "priority": 103,
+      "children": [
+        {
+          "label": "Axis",
+          "url": "auto-moto-skutery-sonik-axis",
+          "name": "axis",
+          "priority": 1
+        },
+        {
+          "label": "Eagle King",
+          "url": "auto-moto-skutery-sonik-eagle_king",
+          "name": "eagle_king",
+          "priority": 2
+        },
+        {
+          "label": "Free Wind",
+          "url": "auto-moto-skutery-sonik-free_wind",
+          "name": "free_wind",
+          "priority": 3
+        },
+        {
+          "label": "Monza",
+          "url": "auto-moto-skutery-sonik-monza",
+          "name": "monza",
+          "priority": 4
+        },
+        {
+          "label": "Strada",
+          "url": "auto-moto-skutery-sonik-strada",
+          "name": "strada",
+          "priority": 5
+        },
+        {
+          "label": "Tour",
+          "url": "auto-moto-skutery-sonik-tour",
+          "name": "tour",
+          "priority": 6
+        },
+        {
+          "label": "Vortex",
+          "url": "auto-moto-skutery-sonik-vortex",
+          "name": "vortex",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "label": "Star Quad",
+      "url": "auto-moto-skutery-star_quad",
+      "name": "star_quad",
+      "priority": 104,
+      "children": [
+        {
+          "label": "JL-50QT-5",
+          "url": "auto-moto-skutery-star_quad-jl-50qt-5",
+          "name": "jl-50qt-5",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Stels",
+      "url": "auto-moto-skutery-stels",
+      "name": "stels",
+      "priority": 105,
+      "children": [
+        {
+          "label": "Alpha",
+          "url": "auto-moto-skutery-stels-alpha",
+          "name": "alpha",
+          "priority": 1
+        },
+        {
+          "label": "Arrow",
+          "url": "auto-moto-skutery-stels-arrow",
+          "name": "arrow",
+          "priority": 2
+        },
+        {
+          "label": "Caffenero",
+          "url": "auto-moto-skutery-stels-caffenero",
+          "name": "caffenero",
+          "priority": 3
+        },
+        {
+          "label": "Leader",
+          "url": "auto-moto-skutery-stels-leader",
+          "name": "leader",
+          "priority": 4
+        },
+        {
+          "label": "Outlander",
+          "url": "auto-moto-skutery-stels-outlander",
+          "name": "outlander",
+          "priority": 5
+        },
+        {
+          "label": "Rash",
+          "url": "auto-moto-skutery-stels-rash",
+          "name": "rash",
+          "priority": 6
+        },
+        {
+          "label": "Skif",
+          "url": "auto-moto-skutery-stels-skif",
+          "name": "skif",
+          "priority": 7
+        },
+        {
+          "label": "Tactic",
+          "url": "auto-moto-skutery-stels-tactic",
+          "name": "tactic",
+          "priority": 8
+        },
+        {
+          "label": "Velvet",
+          "url": "auto-moto-skutery-stels-velvet",
+          "name": "velvet",
+          "priority": 9
+        },
+        {
+          "label": "Vortex",
+          "url": "auto-moto-skutery-stels-vortex",
+          "name": "vortex",
+          "priority": 10
+        },
+        {
+          "label": "Zion",
+          "url": "auto-moto-skutery-stels-zion",
+          "name": "zion",
+          "priority": 11
+        }
+      ]
+    },
+    {
+      "label": "Stingear",
+      "url": "auto-moto-skutery-stingear",
+      "name": "stingear",
+      "priority": 106,
+      "children": [
+        {
+          "label": "Bajo",
+          "url": "auto-moto-skutery-stingear-bajo",
+          "name": "bajo",
+          "priority": 1
+        },
+        {
+          "label": "Bajo-2",
+          "url": "auto-moto-skutery-stingear-bajo-2",
+          "name": "bajo-2",
+          "priority": 2
+        },
+        {
+          "label": "Dingo",
+          "url": "auto-moto-skutery-stingear-dingo",
+          "name": "dingo",
+          "priority": 3
+        },
+        {
+          "label": "Dream",
+          "url": "auto-moto-skutery-stingear-dream",
+          "name": "dream",
+          "priority": 4
+        },
+        {
+          "label": "Fantom",
+          "url": "auto-moto-skutery-stingear-fantom",
+          "name": "fantom",
+          "priority": 5
+        },
+        {
+          "label": "Hercules",
+          "url": "auto-moto-skutery-stingear-hercules",
+          "name": "hercules",
+          "priority": 6
+        },
+        {
+          "label": "Mirage",
+          "url": "auto-moto-skutery-stingear-mirage",
+          "name": "mirage",
+          "priority": 7
+        },
+        {
+          "label": "Mystic",
+          "url": "auto-moto-skutery-stingear-mystic",
+          "name": "mystic",
+          "priority": 8
+        },
+        {
+          "label": "Nostalgy",
+          "url": "auto-moto-skutery-stingear-nostalgy",
+          "name": "nostalgy",
+          "priority": 9
+        },
+        {
+          "label": "Razor",
+          "url": "auto-moto-skutery-stingear-razor",
+          "name": "razor",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "label": "Strom",
+      "url": "auto-moto-skutery-strom",
+      "name": "strom",
+      "priority": 107,
+      "children": [
+        {
+          "label": "Dio",
+          "url": "auto-moto-skutery-strom-dio",
+          "name": "dio",
+          "priority": 1
+        },
+        {
+          "label": "TR",
+          "url": "auto-moto-skutery-strom-tr",
+          "name": "tr",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Sundiro",
+      "url": "auto-moto-skutery-sundiro",
+      "name": "sundiro",
+      "priority": 108,
+      "children": [
+        {
+          "label": "50 CH Greiff",
+          "url": "auto-moto-skutery-sundiro-50_ch_greiff",
+          "name": "50_ch_greiff",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Suzuki",
+      "url": "auto-moto-skutery-suzuki",
+      "name": "suzuki",
+      "priority": 109,
+      "children": [
+        {
+          "label": "AN 125",
+          "url": "auto-moto-skutery-suzuki-an_125",
+          "name": "an_125",
+          "priority": 1
+        },
+        {
+          "label": "AP 50",
+          "url": "auto-moto-skutery-suzuki-ap_50",
+          "name": "ap_50",
+          "priority": 2
+        },
+        {
+          "label": "Address 100",
+          "url": "auto-moto-skutery-suzuki-address_100",
+          "name": "address_100",
+          "priority": 3
+        },
+        {
+          "label": "Address 110",
+          "url": "auto-moto-skutery-suzuki-address_110",
+          "name": "address_110",
+          "priority": 4
+        },
+        {
+          "label": "Address 125",
+          "url": "auto-moto-skutery-suzuki-address_125",
+          "name": "address_125",
+          "priority": 5
+        },
+        {
+          "label": "Address 50",
+          "url": "auto-moto-skutery-suzuki-address_50",
+          "name": "address_50",
+          "priority": 6
+        },
+        {
+          "label": "Avenis 125",
+          "url": "auto-moto-skutery-suzuki-avenis_125",
+          "name": "avenis_125",
+          "priority": 7
+        },
+        {
+          "label": "Avenis 150",
+          "url": "auto-moto-skutery-suzuki-avenis_150",
+          "name": "avenis_150",
+          "priority": 8
+        },
+        {
+          "label": "Bara",
+          "url": "auto-moto-skutery-suzuki-bara",
+          "name": "bara",
+          "priority": 9
+        },
+        {
+          "label": "Birdie 50",
+          "url": "auto-moto-skutery-suzuki-birdie_50",
+          "name": "birdie_50",
+          "priority": 10
+        },
+        {
+          "label": "Birdie 90",
+          "url": "auto-moto-skutery-suzuki-birdie_90",
+          "name": "birdie_90",
+          "priority": 11
+        },
+        {
+          "label": "Burgman AN 250",
+          "url": "auto-moto-skutery-suzuki-burgman_an_250",
+          "name": "burgman_an_250",
+          "priority": 12
+        },
+        {
+          "label": "Burgman AN 400",
+          "url": "auto-moto-skutery-suzuki-burgman_an_400",
+          "name": "burgman_an_400",
+          "priority": 13
+        },
+        {
+          "label": "Burgman AN 650",
+          "url": "auto-moto-skutery-suzuki-burgman_an_650",
+          "name": "burgman_an_650",
+          "priority": 14
+        },
+        {
+          "label": "Burgman UH 125",
+          "url": "auto-moto-skutery-suzuki-burgman_uh_125",
+          "name": "burgman_uh_125",
+          "priority": 15
+        },
+        {
+          "label": "Burgman UH 150",
+          "url": "auto-moto-skutery-suzuki-burgman_uh_150",
+          "name": "burgman_uh_150",
+          "priority": 16
+        },
+        {
+          "label": "Burgman UH 200",
+          "url": "auto-moto-skutery-suzuki-burgman_uh_200",
+          "name": "burgman_uh_200",
+          "priority": 17
+        },
+        {
+          "label": "Choinori",
+          "url": "auto-moto-skutery-suzuki-choinori",
+          "name": "choinori",
+          "priority": 18
+        },
+        {
+          "label": "FL125",
+          "url": "auto-moto-skutery-suzuki-fl125",
+          "name": "fl125",
+          "priority": 19
+        },
+        {
+          "label": "Gemma",
+          "url": "auto-moto-skutery-suzuki-gemma",
+          "name": "gemma",
+          "priority": 20
+        },
+        {
+          "label": "Hayate",
+          "url": "auto-moto-skutery-suzuki-hayate",
+          "name": "hayate",
+          "priority": 21
+        },
+        {
+          "label": "Hi-Up",
+          "url": "auto-moto-skutery-suzuki-hi-up",
+          "name": "hi-up",
+          "priority": 22
+        },
+        {
+          "label": "Katana AY50",
+          "url": "auto-moto-skutery-suzuki-katana_ay50",
+          "name": "katana_ay50",
+          "priority": 23
+        },
+        {
+          "label": "Lets 4",
+          "url": "auto-moto-skutery-suzuki-lets_4",
+          "name": "lets_4",
+          "priority": 24
+        },
+        {
+          "label": "Lets II",
+          "url": "auto-moto-skutery-suzuki-lets_ii",
+          "name": "lets_ii",
+          "priority": 25
+        },
+        {
+          "label": "Love 3",
+          "url": "auto-moto-skutery-suzuki-love_3",
+          "name": "love_3",
+          "priority": 26
+        },
+        {
+          "label": "Mollet",
+          "url": "auto-moto-skutery-suzuki-mollet",
+          "name": "mollet",
+          "priority": 27
+        },
+        {
+          "label": "SIXteen 125",
+          "url": "auto-moto-skutery-suzuki-sixteen_125",
+          "name": "sixteen_125",
+          "priority": 28
+        },
+        {
+          "label": "SIXteen 150",
+          "url": "auto-moto-skutery-suzuki-sixteen_150",
+          "name": "sixteen_150",
+          "priority": 29
+        },
+        {
+          "label": "Sepia AJ-50",
+          "url": "auto-moto-skutery-suzuki-sepia_aj-50",
+          "name": "sepia_aj-50",
+          "priority": 30
+        },
+        {
+          "label": "Sepia ZZ",
+          "url": "auto-moto-skutery-suzuki-sepia_zz",
+          "name": "sepia_zz",
+          "priority": 31
+        },
+        {
+          "label": "SkyWave 250",
+          "url": "auto-moto-skutery-suzuki-skywave_250",
+          "name": "skywave_250",
+          "priority": 32
+        },
+        {
+          "label": "SkyWave 400",
+          "url": "auto-moto-skutery-suzuki-skywave_400",
+          "name": "skywave_400",
+          "priority": 33
+        },
+        {
+          "label": "SkyWave 650",
+          "url": "auto-moto-skutery-suzuki-skywave_650",
+          "name": "skywave_650",
+          "priority": 34
+        },
+        {
+          "label": "Street Magic",
+          "url": "auto-moto-skutery-suzuki-street_magic",
+          "name": "street_magic",
+          "priority": 35
+        },
+        {
+          "label": "Vecstar 125",
+          "url": "auto-moto-skutery-suzuki-vecstar_125",
+          "name": "vecstar_125",
+          "priority": 36
+        },
+        {
+          "label": "Vecstar 150",
+          "url": "auto-moto-skutery-suzuki-vecstar_150",
+          "name": "vecstar_150",
+          "priority": 37
+        },
+        {
+          "label": "Verde",
+          "url": "auto-moto-skutery-suzuki-verde",
+          "name": "verde",
+          "priority": 38
+        },
+        {
+          "label": "ZZ",
+          "url": "auto-moto-skutery-suzuki-zz",
+          "name": "zz",
+          "priority": 39
+        }
+      ]
+    },
+    {
+      "label": "Sym",
+      "url": "auto-moto-skutery-sym",
+      "name": "sym",
+      "priority": 110,
+      "children": [
+        {
+          "label": "Allo",
+          "url": "auto-moto-skutery-sym-allo",
+          "name": "allo",
+          "priority": 1
+        },
+        {
+          "label": "Attila Elizabeth",
+          "url": "auto-moto-skutery-sym-attila_elizabeth",
+          "name": "attila_elizabeth",
+          "priority": 2
+        },
+        {
+          "label": "Attila Victoria",
+          "url": "auto-moto-skutery-sym-attila_victoria",
+          "name": "attila_victoria",
+          "priority": 3
+        },
+        {
+          "label": "Bonus",
+          "url": "auto-moto-skutery-sym-bonus",
+          "name": "bonus",
+          "priority": 4
+        },
+        {
+          "label": "Citycom",
+          "url": "auto-moto-skutery-sym-citycom",
+          "name": "citycom",
+          "priority": 5
+        },
+        {
+          "label": "DD",
+          "url": "auto-moto-skutery-sym-dd",
+          "name": "dd",
+          "priority": 6
+        },
+        {
+          "label": "Euro MX",
+          "url": "auto-moto-skutery-sym-euro_mx",
+          "name": "euro_mx",
+          "priority": 7
+        },
+        {
+          "label": "Excel",
+          "url": "auto-moto-skutery-sym-excel",
+          "name": "excel",
+          "priority": 8
+        },
+        {
+          "label": "Fiddle",
+          "url": "auto-moto-skutery-sym-fiddle",
+          "name": "fiddle",
+          "priority": 9
+        },
+        {
+          "label": "GTS 125",
+          "url": "auto-moto-skutery-sym-gts_125",
+          "name": "gts_125",
+          "priority": 10
+        },
+        {
+          "label": "GTS 200",
+          "url": "auto-moto-skutery-sym-gts_200",
+          "name": "gts_200",
+          "priority": 11
+        },
+        {
+          "label": "GTS 250",
+          "url": "auto-moto-skutery-sym-gts_250",
+          "name": "gts_250",
+          "priority": 12
+        },
+        {
+          "label": "GTS 300",
+          "url": "auto-moto-skutery-sym-gts_300",
+          "name": "gts_300",
+          "priority": 13
+        },
+        {
+          "label": "HD",
+          "url": "auto-moto-skutery-sym-hd",
+          "name": "hd",
+          "priority": 14
+        },
+        {
+          "label": "Jet 4 125",
+          "url": "auto-moto-skutery-sym-jet_4_125",
+          "name": "jet_4_125",
+          "priority": 15
+        },
+        {
+          "label": "Jet 4 50",
+          "url": "auto-moto-skutery-sym-jet_4_50",
+          "name": "jet_4_50",
+          "priority": 16
+        },
+        {
+          "label": "Jet Basix",
+          "url": "auto-moto-skutery-sym-jet_basix",
+          "name": "jet_basix",
+          "priority": 17
+        },
+        {
+          "label": "Jet Euro X",
+          "url": "auto-moto-skutery-sym-jet_euro_x",
+          "name": "jet_euro_x",
+          "priority": 18
+        },
+        {
+          "label": "Jet SportX",
+          "url": "auto-moto-skutery-sym-jet_sportx",
+          "name": "jet_sportx",
+          "priority": 19
+        },
+        {
+          "label": "Joymax 300",
+          "url": "auto-moto-skutery-sym-joymax_300",
+          "name": "joymax_300",
+          "priority": 20
+        },
+        {
+          "label": "Joyride",
+          "url": "auto-moto-skutery-sym-joyride",
+          "name": "joyride",
+          "priority": 21
+        },
+        {
+          "label": "Magic",
+          "url": "auto-moto-skutery-sym-magic",
+          "name": "magic",
+          "priority": 22
+        },
+        {
+          "label": "Mask",
+          "url": "auto-moto-skutery-sym-mask",
+          "name": "mask",
+          "priority": 23
+        },
+        {
+          "label": "Maxsym 400",
+          "url": "auto-moto-skutery-sym-maxsym_400",
+          "name": "maxsym_400",
+          "priority": 24
+        },
+        {
+          "label": "Maxsym 600",
+          "url": "auto-moto-skutery-sym-maxsym_600",
+          "name": "maxsym_600",
+          "priority": 25
+        },
+        {
+          "label": "Megalo",
+          "url": "auto-moto-skutery-sym-megalo",
+          "name": "megalo",
+          "priority": 26
+        },
+        {
+          "label": "Mio",
+          "url": "auto-moto-skutery-sym-mio",
+          "name": "mio",
+          "priority": 27
+        },
+        {
+          "label": "Orbit",
+          "url": "auto-moto-skutery-sym-orbit",
+          "name": "orbit",
+          "priority": 28
+        },
+        {
+          "label": "R1",
+          "url": "auto-moto-skutery-sym-r1",
+          "name": "r1",
+          "priority": 29
+        },
+        {
+          "label": "RS",
+          "url": "auto-moto-skutery-sym-rs",
+          "name": "rs",
+          "priority": 30
+        },
+        {
+          "label": "RV1",
+          "url": "auto-moto-skutery-sym-rv1",
+          "name": "rv1",
+          "priority": 31
+        },
+        {
+          "label": "Super Duke 125",
+          "url": "auto-moto-skutery-sym-super_duke_125",
+          "name": "super_duke_125",
+          "priority": 32
+        },
+        {
+          "label": "Symphony 125",
+          "url": "auto-moto-skutery-sym-symphony_125",
+          "name": "symphony_125",
+          "priority": 33
+        },
+        {
+          "label": "Symphony 50",
+          "url": "auto-moto-skutery-sym-symphony_50",
+          "name": "symphony_50",
+          "priority": 34
+        },
+        {
+          "label": "VS",
+          "url": "auto-moto-skutery-sym-vs",
+          "name": "vs",
+          "priority": 35
+        },
+        {
+          "label": "XPro",
+          "url": "auto-moto-skutery-sym-xpro",
+          "name": "xpro",
+          "priority": 36
+        }
+      ]
+    },
+    {
+      "label": "TaiLG",
+      "url": "auto-moto-skutery-tailg",
+      "name": "tailg",
+      "priority": 111,
+      "children": [
+        {
+          "label": "TDR 161Z",
+          "url": "auto-moto-skutery-tailg-tdr_161z",
+          "name": "tdr_161z",
+          "priority": 1
+        },
+        {
+          "label": "TDR 222Z",
+          "url": "auto-moto-skutery-tailg-tdr_222z",
+          "name": "tdr_222z",
+          "priority": 2
+        },
+        {
+          "label": "TDR 341Z",
+          "url": "auto-moto-skutery-tailg-tdr_341z",
+          "name": "tdr_341z",
+          "priority": 3
+        },
+        {
+          "label": "TDR 538Z",
+          "url": "auto-moto-skutery-tailg-tdr_538z",
+          "name": "tdr_538z",
+          "priority": 4
+        },
+        {
+          "label": "TDR 554Z",
+          "url": "auto-moto-skutery-tailg-tdr_554z",
+          "name": "tdr_554z",
+          "priority": 5
+        },
+        {
+          "label": "TDR 810Z",
+          "url": "auto-moto-skutery-tailg-tdr_810z",
+          "name": "tdr_810z",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "label": "Tank Sports",
+      "url": "auto-moto-skutery-tank_sports",
+      "name": "tank_sports",
+      "priority": 112,
+      "children": [
+        {
+          "label": "Urban 50",
+          "url": "auto-moto-skutery-tank_sports-urban_50",
+          "name": "urban_50",
+          "priority": 1
+        },
+        {
+          "label": "Urban Classic 150",
+          "url": "auto-moto-skutery-tank_sports-urban_classic_150",
+          "name": "urban_classic_150",
+          "priority": 2
+        },
+        {
+          "label": "Urban Courier 150",
+          "url": "auto-moto-skutery-tank_sports-urban_courier_150",
+          "name": "urban_courier_150",
+          "priority": 3
+        },
+        {
+          "label": "Urban Racer 150",
+          "url": "auto-moto-skutery-tank_sports-urban_racer_150",
+          "name": "urban_racer_150",
+          "priority": 4
+        },
+        {
+          "label": "Urban Sporty 150",
+          "url": "auto-moto-skutery-tank_sports-urban_sporty_150",
+          "name": "urban_sporty_150",
+          "priority": 5
+        },
+        {
+          "label": "Urban Viaggio 150",
+          "url": "auto-moto-skutery-tank_sports-urban_viaggio_150",
+          "name": "urban_viaggio_150",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "label": "TGB",
+      "url": "auto-moto-skutery-tgb",
+      "name": "tgb",
+      "priority": 113,
+      "children": [
+        {
+          "label": "101",
+          "url": "auto-moto-skutery-tgb-101",
+          "name": "101",
+          "priority": 1
+        },
+        {
+          "label": "Express 50",
+          "url": "auto-moto-skutery-tgb-express_50",
+          "name": "express_50",
+          "priority": 2
+        },
+        {
+          "label": "R50X",
+          "url": "auto-moto-skutery-tgb-r50x",
+          "name": "r50x",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "label": "Tomos",
+      "url": "auto-moto-skutery-tomos",
+      "name": "tomos",
+      "priority": 114,
+      "children": [
+        {
+          "label": "25-Luxe",
+          "url": "auto-moto-skutery-tomos-25-luxe",
+          "name": "25-luxe",
+          "priority": 1
+        },
+        {
+          "label": "APN 6",
+          "url": "auto-moto-skutery-tomos-apn_6",
+          "name": "apn_6",
+          "priority": 2
+        },
+        {
+          "label": "Arrow",
+          "url": "auto-moto-skutery-tomos-arrow",
+          "name": "arrow",
+          "priority": 3
+        },
+        {
+          "label": "Flexer",
+          "url": "auto-moto-skutery-tomos-flexer",
+          "name": "flexer",
+          "priority": 4
+        },
+        {
+          "label": "Hip-Hop",
+          "url": "auto-moto-skutery-tomos-hip-hop",
+          "name": "hip-hop",
+          "priority": 5
+        },
+        {
+          "label": "Motos",
+          "url": "auto-moto-skutery-tomos-motos",
+          "name": "motos",
+          "priority": 6
+        },
+        {
+          "label": "PackR",
+          "url": "auto-moto-skutery-tomos-packr",
+          "name": "packr",
+          "priority": 7
+        },
+        {
+          "label": "Quadro 50",
+          "url": "auto-moto-skutery-tomos-quadro_50",
+          "name": "quadro_50",
+          "priority": 8
+        },
+        {
+          "label": "Racing",
+          "url": "auto-moto-skutery-tomos-racing",
+          "name": "racing",
+          "priority": 9
+        },
+        {
+          "label": "Revival TS",
+          "url": "auto-moto-skutery-tomos-revival_ts",
+          "name": "revival_ts",
+          "priority": 10
+        },
+        {
+          "label": "ST (A35)",
+          "url": "auto-moto-skutery-tomos-st_(a35)",
+          "name": "st_(a35)",
+          "priority": 11
+        },
+        {
+          "label": "Sprint",
+          "url": "auto-moto-skutery-tomos-sprint",
+          "name": "sprint",
+          "priority": 12
+        },
+        {
+          "label": "Standard",
+          "url": "auto-moto-skutery-tomos-standard",
+          "name": "standard",
+          "priority": 13
+        },
+        {
+          "label": "Street Soul",
+          "url": "auto-moto-skutery-tomos-street_soul",
+          "name": "street_soul",
+          "priority": 14
+        },
+        {
+          "label": "Streetmate",
+          "url": "auto-moto-skutery-tomos-streetmate",
+          "name": "streetmate",
+          "priority": 15
+        },
+        {
+          "label": "Tomos LX",
+          "url": "auto-moto-skutery-tomos-tomos_lx",
+          "name": "tomos_lx",
+          "priority": 16
+        },
+        {
+          "label": "Youngstr",
+          "url": "auto-moto-skutery-tomos-youngstr",
+          "name": "youngstr",
+          "priority": 17
+        }
+      ]
+    },
+    {
+      "label": "Tornado",
+      "url": "auto-moto-skutery-tornado",
+      "name": "tornado",
+      "priority": 115,
+      "children": [
+        {
+          "label": "Tornado",
+          "url": "auto-moto-skutery-tornado-tornado",
+          "name": "tornado",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Tosheen",
+      "url": "auto-moto-skutery-tosheen",
+      "name": "tosheen",
+      "priority": 116,
+      "children": [
+        {
+          "label": "Strada Jazz",
+          "url": "auto-moto-skutery-tosheen-strada_jazz",
+          "name": "strada_jazz",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Tramp",
+      "url": "auto-moto-skutery-tramp",
+      "name": "tramp",
+      "priority": 117,
+      "children": [
+        {
+          "label": "50 QT-2",
+          "url": "auto-moto-skutery-tramp-50_qt-2",
+          "name": "50_qt-2",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "TVS",
+      "url": "auto-moto-skutery-tvs",
+      "name": "tvs",
+      "priority": 118,
+      "children": [
+        {
+          "label": "Scooty",
+          "url": "auto-moto-skutery-tvs-scooty",
+          "name": "scooty",
+          "priority": 1
+        },
+        {
+          "label": "Super XL",
+          "url": "auto-moto-skutery-tvs-super_xl",
+          "name": "super_xl",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "UM",
+      "url": "auto-moto-skutery-um",
+      "name": "um",
+      "priority": 119,
+      "children": [
+        {
+          "label": "Matrix II-150",
+          "url": "auto-moto-skutery-um-matrix_ii-150",
+          "name": "matrix_ii-150",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "UMC",
+      "url": "auto-moto-skutery-umc",
+      "name": "umc",
+      "priority": 120,
+      "children": [
+        {
+          "label": "TourS",
+          "url": "auto-moto-skutery-umc-tours",
+          "name": "tours",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Vectrix",
+      "url": "auto-moto-skutery-vectrix",
+      "name": "vectrix",
+      "priority": 121,
+      "children": [
+        {
+          "label": "Electric 3-Wheeler",
+          "url": "auto-moto-skutery-vectrix-electric_3-wheeler",
+          "name": "electric_3-wheeler",
+          "priority": 1
+        },
+        {
+          "label": "Electric Maxi-Scooter",
+          "url": "auto-moto-skutery-vectrix-electric_maxi-scooter",
+          "name": "electric_maxi-scooter",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Venta",
+      "url": "auto-moto-skutery-venta",
+      "name": "venta",
+      "priority": 122,
+      "children": [
+        {
+          "label": "FK50QT-1",
+          "url": "auto-moto-skutery-venta-fk50qt-1",
+          "name": "fk50qt-1",
+          "priority": 1
+        },
+        {
+          "label": "FK50QT-5 Lux",
+          "url": "auto-moto-skutery-venta-fk50qt-5_lux",
+          "name": "fk50qt-5_lux",
+          "priority": 2
+        },
+        {
+          "label": "FK50QT-6 Orlando",
+          "url": "auto-moto-skutery-venta-fk50qt-6_orlando",
+          "name": "fk50qt-6_orlando",
+          "priority": 3
+        },
+        {
+          "label": "JX150T-6",
+          "url": "auto-moto-skutery-venta-jx150t-6",
+          "name": "jx150t-6",
+          "priority": 4
+        },
+        {
+          "label": "JX50QT",
+          "url": "auto-moto-skutery-venta-jx50qt",
+          "name": "jx50qt",
+          "priority": 5
+        },
+        {
+          "label": "VT-50QT",
+          "url": "auto-moto-skutery-venta-vt-50qt",
+          "name": "vt-50qt",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "label": "Vento",
+      "url": "auto-moto-skutery-vento",
+      "name": "vento",
+      "priority": 123,
+      "children": [
+        {
+          "label": "Hot Rod",
+          "url": "auto-moto-skutery-vento-hot_rod",
+          "name": "hot_rod",
+          "priority": 1
+        },
+        {
+          "label": "Phantera",
+          "url": "auto-moto-skutery-vento-phantera",
+          "name": "phantera",
+          "priority": 2
+        },
+        {
+          "label": "Phantom",
+          "url": "auto-moto-skutery-vento-phantom",
+          "name": "phantom",
+          "priority": 3
+        },
+        {
+          "label": "Riva",
+          "url": "auto-moto-skutery-vento-riva",
+          "name": "riva",
+          "priority": 4
+        },
+        {
+          "label": "Sauron",
+          "url": "auto-moto-skutery-vento-sauron",
+          "name": "sauron",
+          "priority": 5
+        },
+        {
+          "label": "Triton",
+          "url": "auto-moto-skutery-vento-triton",
+          "name": "triton",
+          "priority": 6
+        },
+        {
+          "label": "Turino",
+          "url": "auto-moto-skutery-vento-turino",
+          "name": "turino",
+          "priority": 7
+        },
+        {
+          "label": "ZIP",
+          "url": "auto-moto-skutery-vento-zip",
+          "name": "zip",
+          "priority": 8
+        }
+      ]
+    },
+    {
+      "label": "Vespa",
+      "url": "auto-moto-skutery-vespa",
+      "name": "vespa",
+      "priority": 124,
+      "children": [
+        {
+          "label": "946",
+          "url": "auto-moto-skutery-vespa-946",
+          "name": "946",
+          "priority": 1
+        },
+        {
+          "label": "ET 2",
+          "url": "auto-moto-skutery-vespa-et_2",
+          "name": "et_2",
+          "priority": 2
+        },
+        {
+          "label": "ET 4",
+          "url": "auto-moto-skutery-vespa-et_4",
+          "name": "et_4",
+          "priority": 3
+        },
+        {
+          "label": "GTS 125",
+          "url": "auto-moto-skutery-vespa-gts_125",
+          "name": "gts_125",
+          "priority": 4
+        },
+        {
+          "label": "GTS 250",
+          "url": "auto-moto-skutery-vespa-gts_250",
+          "name": "gts_250",
+          "priority": 5
+        },
+        {
+          "label": "GTS 300",
+          "url": "auto-moto-skutery-vespa-gts_300",
+          "name": "gts_300",
+          "priority": 6
+        },
+        {
+          "label": "GTV",
+          "url": "auto-moto-skutery-vespa-gtv",
+          "name": "gtv",
+          "priority": 7
+        },
+        {
+          "label": "GTV 125",
+          "url": "auto-moto-skutery-vespa-gtv_125",
+          "name": "gtv_125",
+          "priority": 8
+        },
+        {
+          "label": "Granturismo",
+          "url": "auto-moto-skutery-vespa-granturismo",
+          "name": "granturismo",
+          "priority": 9
+        },
+        {
+          "label": "LX 125",
+          "url": "auto-moto-skutery-vespa-lx_125",
+          "name": "lx_125",
+          "priority": 10
+        },
+        {
+          "label": "LX 150",
+          "url": "auto-moto-skutery-vespa-lx_150",
+          "name": "lx_150",
+          "priority": 11
+        },
+        {
+          "label": "LX 50",
+          "url": "auto-moto-skutery-vespa-lx_50",
+          "name": "lx_50",
+          "priority": 12
+        },
+        {
+          "label": "LXV 125",
+          "url": "auto-moto-skutery-vespa-lxv_125",
+          "name": "lxv_125",
+          "priority": 13
+        },
+        {
+          "label": "LXV 50",
+          "url": "auto-moto-skutery-vespa-lxv_50",
+          "name": "lxv_50",
+          "priority": 14
+        },
+        {
+          "label": "PK 50",
+          "url": "auto-moto-skutery-vespa-pk_50",
+          "name": "pk_50",
+          "priority": 15
+        },
+        {
+          "label": "PX 150",
+          "url": "auto-moto-skutery-vespa-px_150",
+          "name": "px_150",
+          "priority": 16
+        },
+        {
+          "label": "PX 200",
+          "url": "auto-moto-skutery-vespa-px_200",
+          "name": "px_200",
+          "priority": 17
+        },
+        {
+          "label": "Primavera",
+          "url": "auto-moto-skutery-vespa-primavera",
+          "name": "primavera",
+          "priority": 18
+        },
+        {
+          "label": "S 100",
+          "url": "auto-moto-skutery-vespa-s_100",
+          "name": "s_100",
+          "priority": 19
+        },
+        {
+          "label": "S 125",
+          "url": "auto-moto-skutery-vespa-s_125",
+          "name": "s_125",
+          "priority": 20
+        },
+        {
+          "label": "Special 50",
+          "url": "auto-moto-skutery-vespa-special_50",
+          "name": "special_50",
+          "priority": 21
+        },
+        {
+          "label": "VBB 150",
+          "url": "auto-moto-skutery-vespa-vbb_150",
+          "name": "vbb_150",
+          "priority": 22
+        },
+        {
+          "label": "VX",
+          "url": "auto-moto-skutery-vespa-vx",
+          "name": "vx",
+          "priority": 23
+        }
+      ]
+    },
+    {
+      "label": "Vingorous",
+      "url": "auto-moto-skutery-vingorous",
+      "name": "vingorous",
+      "priority": 125,
+      "children": [
+        {
+          "label": "Piranya",
+          "url": "auto-moto-skutery-vingorous-piranya",
+          "name": "piranya",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Viper",
+      "url": "auto-moto-skutery-viper",
+      "name": "viper",
+      "priority": 126,
+      "children": [
+        {
+          "label": "Booster",
+          "url": "auto-moto-skutery-viper-booster",
+          "name": "booster",
+          "priority": 1
+        },
+        {
+          "label": "Storm",
+          "url": "auto-moto-skutery-viper-storm",
+          "name": "storm",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Volteco",
+      "url": "auto-moto-skutery-volteco",
+      "name": "volteco",
+      "priority": 127,
+      "children": [
+        {
+          "label": "Easy 350W",
+          "url": "auto-moto-skutery-volteco-easy_350w",
+          "name": "easy_350w",
+          "priority": 1
+        },
+        {
+          "label": "Stormer 3000W",
+          "url": "auto-moto-skutery-volteco-stormer_3000w",
+          "name": "stormer_3000w",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Wels",
+      "url": "auto-moto-skutery-wels",
+      "name": "wels",
+      "priority": 128,
+      "children": [
+        {
+          "label": "Action",
+          "url": "auto-moto-skutery-wels-action",
+          "name": "action",
+          "priority": 1
+        },
+        {
+          "label": "Beatles",
+          "url": "auto-moto-skutery-wels-beatles",
+          "name": "beatles",
+          "priority": 2
+        },
+        {
+          "label": "Bison",
+          "url": "auto-moto-skutery-wels-bison",
+          "name": "bison",
+          "priority": 3
+        },
+        {
+          "label": "Grace",
+          "url": "auto-moto-skutery-wels-grace",
+          "name": "grace",
+          "priority": 4
+        },
+        {
+          "label": "Kiddy",
+          "url": "auto-moto-skutery-wels-kiddy",
+          "name": "kiddy",
+          "priority": 5
+        },
+        {
+          "label": "Marne",
+          "url": "auto-moto-skutery-wels-marne",
+          "name": "marne",
+          "priority": 6
+        },
+        {
+          "label": "Paladin",
+          "url": "auto-moto-skutery-wels-paladin",
+          "name": "paladin",
+          "priority": 7
+        },
+        {
+          "label": "Storm",
+          "url": "auto-moto-skutery-wels-storm",
+          "name": "storm",
+          "priority": 8
+        },
+        {
+          "label": "Thunder",
+          "url": "auto-moto-skutery-wels-thunder",
+          "name": "thunder",
+          "priority": 9
+        },
+        {
+          "label": "Viper",
+          "url": "auto-moto-skutery-wels-viper",
+          "name": "viper",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "label": "XBmoto",
+      "url": "auto-moto-skutery-xbmoto",
+      "name": "xbmoto",
+      "priority": 129,
+      "children": [
+        {
+          "label": "XB 50T-3",
+          "url": "auto-moto-skutery-xbmoto-xb_50t-3",
+          "name": "xb_50t-3",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "XingYue",
+      "url": "auto-moto-skutery-xingyue",
+      "name": "xingyue",
+      "priority": 130,
+      "children": [
+        {
+          "label": "XY125ZK",
+          "url": "auto-moto-skutery-xingyue-xy125zk",
+          "name": "xy125zk",
+          "priority": 1
+        },
+        {
+          "label": "XY150ZK",
+          "url": "auto-moto-skutery-xingyue-xy150zk",
+          "name": "xy150zk",
+          "priority": 2
+        },
+        {
+          "label": "XY150ZK-B",
+          "url": "auto-moto-skutery-xingyue-xy150zk-b",
+          "name": "xy150zk-b",
+          "priority": 3
+        },
+        {
+          "label": "XY150ZK-C",
+          "url": "auto-moto-skutery-xingyue-xy150zk-c",
+          "name": "xy150zk-c",
+          "priority": 4
+        },
+        {
+          "label": "XY50QT-15",
+          "url": "auto-moto-skutery-xingyue-xy50qt-15",
+          "name": "xy50qt-15",
+          "priority": 5
+        },
+        {
+          "label": "XY50ZK",
+          "url": "auto-moto-skutery-xingyue-xy50zk",
+          "name": "xy50zk",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "label": "Yamaha",
+      "url": "auto-moto-skutery-yamaha",
+      "name": "yamaha",
+      "priority": 131,
+      "children": [
+        {
+          "label": "Active",
+          "url": "auto-moto-skutery-yamaha-active",
+          "name": "active",
+          "priority": 1
+        },
+        {
+          "label": "Aerox 100",
+          "url": "auto-moto-skutery-yamaha-aerox_100",
+          "name": "aerox_100",
+          "priority": 2
+        },
+        {
+          "label": "Aerox 50",
+          "url": "auto-moto-skutery-yamaha-aerox_50",
+          "name": "aerox_50",
+          "priority": 3
+        },
+        {
+          "label": "Axis",
+          "url": "auto-moto-skutery-yamaha-axis",
+          "name": "axis",
+          "priority": 4
+        },
+        {
+          "label": "BJ YL50",
+          "url": "auto-moto-skutery-yamaha-bj_yl50",
+          "name": "bj_yl50",
+          "priority": 5
+        },
+        {
+          "label": "BWS",
+          "url": "auto-moto-skutery-yamaha-bws",
+          "name": "bws",
+          "priority": 6
+        },
+        {
+          "label": "Beluga",
+          "url": "auto-moto-skutery-yamaha-beluga",
+          "name": "beluga",
+          "priority": 7
+        },
+        {
+          "label": "Champ",
+          "url": "auto-moto-skutery-yamaha-champ",
+          "name": "champ",
+          "priority": 8
+        },
+        {
+          "label": "Cygnus RS",
+          "url": "auto-moto-skutery-yamaha-cygnus_rs",
+          "name": "cygnus_rs",
+          "priority": 9
+        },
+        {
+          "label": "Cygnus X",
+          "url": "auto-moto-skutery-yamaha-cygnus_x",
+          "name": "cygnus_x",
+          "priority": 10
+        },
+        {
+          "label": "Excel",
+          "url": "auto-moto-skutery-yamaha-excel",
+          "name": "excel",
+          "priority": 11
+        },
+        {
+          "label": "Fino",
+          "url": "auto-moto-skutery-yamaha-fino",
+          "name": "fino",
+          "priority": 12
+        },
+        {
+          "label": "Gear 50",
+          "url": "auto-moto-skutery-yamaha-gear_50",
+          "name": "gear_50",
+          "priority": 13
+        },
+        {
+          "label": "Giggle",
+          "url": "auto-moto-skutery-yamaha-giggle",
+          "name": "giggle",
+          "priority": 14
+        },
+        {
+          "label": "Jog",
+          "url": "auto-moto-skutery-yamaha-jog",
+          "name": "jog",
+          "priority": 15
+        },
+        {
+          "label": "Majesty 125/150/180",
+          "url": "auto-moto-skutery-yamaha-majesty_125_150_180",
+          "name": "majesty_125_150_180",
+          "priority": 16
+        },
+        {
+          "label": "Majesty 250",
+          "url": "auto-moto-skutery-yamaha-majesty_250",
+          "name": "majesty_250",
+          "priority": 17
+        },
+        {
+          "label": "Majesty 400",
+          "url": "auto-moto-skutery-yamaha-majesty_400",
+          "name": "majesty_400",
+          "priority": 18
+        },
+        {
+          "label": "Mate",
+          "url": "auto-moto-skutery-yamaha-mate",
+          "name": "mate",
+          "priority": 19
+        },
+        {
+          "label": "Maxam CP250",
+          "url": "auto-moto-skutery-yamaha-maxam_cp250",
+          "name": "maxam_cp250",
+          "priority": 20
+        },
+        {
+          "label": "Maxter",
+          "url": "auto-moto-skutery-yamaha-maxter",
+          "name": "maxter",
+          "priority": 21
+        },
+        {
+          "label": "Mint",
+          "url": "auto-moto-skutery-yamaha-mint",
+          "name": "mint",
+          "priority": 22
+        },
+        {
+          "label": "Mio",
+          "url": "auto-moto-skutery-yamaha-mio",
+          "name": "mio",
+          "priority": 23
+        },
+        {
+          "label": "NM-X",
+          "url": "auto-moto-skutery-yamaha-nm-x",
+          "name": "nm-x",
+          "priority": 24
+        },
+        {
+          "label": "Neos",
+          "url": "auto-moto-skutery-yamaha-neos",
+          "name": "neos",
+          "priority": 25
+        },
+        {
+          "label": "Night MAX",
+          "url": "auto-moto-skutery-yamaha-night_max",
+          "name": "night_max",
+          "priority": 26
+        },
+        {
+          "label": "Nouvo",
+          "url": "auto-moto-skutery-yamaha-nouvo",
+          "name": "nouvo",
+          "priority": 27
+        },
+        {
+          "label": "Passol",
+          "url": "auto-moto-skutery-yamaha-passol",
+          "name": "passol",
+          "priority": 28
+        },
+        {
+          "label": "Salient",
+          "url": "auto-moto-skutery-yamaha-salient",
+          "name": "salient",
+          "priority": 29
+        },
+        {
+          "label": "Slider",
+          "url": "auto-moto-skutery-yamaha-slider",
+          "name": "slider",
+          "priority": 30
+        },
+        {
+          "label": "Smax",
+          "url": "auto-moto-skutery-yamaha-smax",
+          "name": "smax",
+          "priority": 31
+        },
+        {
+          "label": "T-Max",
+          "url": "auto-moto-skutery-yamaha-t-max",
+          "name": "t-max",
+          "priority": 32
+        },
+        {
+          "label": "TZR 50",
+          "url": "auto-moto-skutery-yamaha-tzr_50",
+          "name": "tzr_50",
+          "priority": 33
+        },
+        {
+          "label": "Teos",
+          "url": "auto-moto-skutery-yamaha-teos",
+          "name": "teos",
+          "priority": 34
+        },
+        {
+          "label": "Tricity",
+          "url": "auto-moto-skutery-yamaha-tricity",
+          "name": "tricity",
+          "priority": 35
+        },
+        {
+          "label": "VOX",
+          "url": "auto-moto-skutery-yamaha-vox",
+          "name": "vox",
+          "priority": 36
+        },
+        {
+          "label": "Versity XC300",
+          "url": "auto-moto-skutery-yamaha-versity_xc300",
+          "name": "versity_xc300",
+          "priority": 37
+        },
+        {
+          "label": "Vino 125",
+          "url": "auto-moto-skutery-yamaha-vino_125",
+          "name": "vino_125",
+          "priority": 38
+        },
+        {
+          "label": "Vino 50",
+          "url": "auto-moto-skutery-yamaha-vino_50",
+          "name": "vino_50",
+          "priority": 39
+        },
+        {
+          "label": "Vity",
+          "url": "auto-moto-skutery-yamaha-vity",
+          "name": "vity",
+          "priority": 40
+        },
+        {
+          "label": "Why",
+          "url": "auto-moto-skutery-yamaha-why",
+          "name": "why",
+          "priority": 41
+        },
+        {
+          "label": "X-City",
+          "url": "auto-moto-skutery-yamaha-x-city",
+          "name": "x-city",
+          "priority": 42
+        },
+        {
+          "label": "X-MAX",
+          "url": "auto-moto-skutery-yamaha-x-max",
+          "name": "x-max",
+          "priority": 43
+        },
+        {
+          "label": "Xenter",
+          "url": "auto-moto-skutery-yamaha-xenter",
+          "name": "xenter",
+          "priority": 44
+        },
+        {
+          "label": "Zuma",
+          "url": "auto-moto-skutery-yamaha-zuma",
+          "name": "zuma",
+          "priority": 45
+        }
+      ]
+    },
+    {
+      "label": "Yamasaki",
+      "url": "auto-moto-skutery-yamasaki",
+      "name": "yamasaki",
+      "priority": 132,
+      "children": [
+        {
+          "label": "YM50QT-C3 Princess",
+          "url": "auto-moto-skutery-yamasaki-ym50qt-c3_princess",
+          "name": "ym50qt-c3_princess",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Yamati",
+      "url": "auto-moto-skutery-yamati",
+      "name": "yamati",
+      "priority": 133,
+      "children": [
+        {
+          "label": "Strada RX150",
+          "url": "auto-moto-skutery-yamati-strada_rx150",
+          "name": "strada_rx150",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Yiben",
+      "url": "auto-moto-skutery-yiben",
+      "name": "yiben",
+      "priority": 134,
+      "children": [
+        {
+          "label": "YB150T",
+          "url": "auto-moto-skutery-yiben-yb150t",
+          "name": "yb150t",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Yinxiang",
+      "url": "auto-moto-skutery-yinxiang",
+      "name": "yinxiang",
+      "priority": 135,
+      "children": [
+        {
+          "label": "YX 150 T-2",
+          "url": "auto-moto-skutery-yinxiang-yx_150_t-2",
+          "name": "yx_150_t-2",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Yunlu",
+      "url": "auto-moto-skutery-yunlu",
+      "name": "yunlu",
+      "priority": 136,
+      "children": [
+        {
+          "label": "J148Q-B",
+          "url": "auto-moto-skutery-yunlu-j148q-b",
+          "name": "j148q-b",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "ZEV",
+      "url": "auto-moto-skutery-zev",
+      "name": "zev",
+      "priority": 137,
+      "children": [
+        {
+          "label": "10 LRC",
+          "url": "auto-moto-skutery-zev-10_lrc",
+          "name": "10_lrc",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "ZhiWei (Taizhou)",
+      "url": "auto-moto-skutery-zhiwei_(taizhou)",
+      "name": "zhiwei_(taizhou)",
+      "priority": 138,
+      "children": [
+        {
+          "label": "Motorcycle 100-110CC",
+          "url": "auto-moto-skutery-zhiwei_(taizhou)-motorcycle_100-110cc",
+          "name": "motorcycle_100-110cc",
+          "priority": 1
+        },
+        {
+          "label": "Motorcycle 125CC",
+          "url": "auto-moto-skutery-zhiwei_(taizhou)-motorcycle_125cc",
+          "name": "motorcycle_125cc",
+          "priority": 2
+        },
+        {
+          "label": "Motorcycle 150CC",
+          "url": "auto-moto-skutery-zhiwei_(taizhou)-motorcycle_150cc",
+          "name": "motorcycle_150cc",
+          "priority": 3
+        },
+        {
+          "label": "Motorcycle 250CC",
+          "url": "auto-moto-skutery-zhiwei_(taizhou)-motorcycle_250cc",
+          "name": "motorcycle_250cc",
+          "priority": 4
+        },
+        {
+          "label": "Motorcycle 50CC",
+          "url": "auto-moto-skutery-zhiwei_(taizhou)-motorcycle_50cc",
+          "name": "motorcycle_50cc",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "label": "Zongshen",
+      "url": "auto-moto-skutery-zongshen",
+      "name": "zongshen",
+      "priority": 139,
+      "children": [
+        {
+          "label": "LZX50Q-3",
+          "url": "auto-moto-skutery-zongshen-lzx50q-3",
+          "name": "lzx50q-3",
+          "priority": 1
+        },
+        {
+          "label": "ZS125T-2",
+          "url": "auto-moto-skutery-zongshen-zs125t-2",
+          "name": "zs125t-2",
+          "priority": 2
+        },
+        {
+          "label": "ZS125T-30",
+          "url": "auto-moto-skutery-zongshen-zs125t-30",
+          "name": "zs125t-30",
+          "priority": 3
+        },
+        {
+          "label": "ZS125T-7",
+          "url": "auto-moto-skutery-zongshen-zs125t-7",
+          "name": "zs125t-7",
+          "priority": 4
+        },
+        {
+          "label": "ZS125T-8",
+          "url": "auto-moto-skutery-zongshen-zs125t-8",
+          "name": "zs125t-8",
+          "priority": 5
+        },
+        {
+          "label": "ZS150T-3",
+          "url": "auto-moto-skutery-zongshen-zs150t-3",
+          "name": "zs150t-3",
+          "priority": 6
+        },
+        {
+          "label": "ZS150T-4",
+          "url": "auto-moto-skutery-zongshen-zs150t-4",
+          "name": "zs150t-4",
+          "priority": 7
+        },
+        {
+          "label": "ZS50QT-4",
+          "url": "auto-moto-skutery-zongshen-zs50qt-4",
+          "name": "zs50qt-4",
+          "priority": 8
+        },
+        {
+          "label": "ZSPM50QT-4A",
+          "url": "auto-moto-skutery-zongshen-zspm50qt-4a",
+          "name": "zspm50qt-4a",
+          "priority": 9
+        }
+      ]
+    },
+    {
+      "label": "Верховина",
+      "url": "auto-moto-skutery-verhovina",
+      "name": "verhovina",
+      "priority": 140,
+      "children": [
+        {
+          "label": "Верховина",
+          "url": "auto-moto-skutery-verhovina-verhovina",
+          "name": "verhovina",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "ВПМЗ (Молот)",
+      "url": "auto-moto-skutery-vpmz_(molot)",
+      "name": "vpmz_(molot)",
+      "priority": 141,
+      "children": [
+        {
+          "label": "Стриж",
+          "url": "auto-moto-skutery-vpmz_(molot)-strizh",
+          "name": "strizh",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Вятка",
+      "url": "auto-moto-skutery-vyatka",
+      "name": "vyatka",
+      "priority": 142,
+      "children": [
+        {
+          "label": "Электрон",
+          "url": "auto-moto-skutery-vyatka-electron",
+          "name": "electron",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "ЗиД",
+      "url": "auto-moto-skutery-zid",
+      "name": "zid",
+      "priority": 143,
+      "children": [
+        {
+          "label": "Аркан",
+          "url": "auto-moto-skutery-zid-arkan",
+          "name": "arkan",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Карпаты",
+      "url": "auto-moto-skutery-karpaty",
+      "name": "karpaty",
+      "priority": 144,
+      "children": [
+        {
+          "label": "Карпаты",
+          "url": "auto-moto-skutery-karpaty-karpaty",
+          "name": "karpaty",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Китай (NoName)",
+      "url": "auto-moto-skutery-kitay_(noname)",
+      "name": "kitay_(noname)",
+      "priority": 145,
+      "children": [
+        {
+          "label": "Мопеды",
+          "url": "auto-moto-skutery-kitay_(noname)-mopedy",
+          "name": "mopedy",
+          "priority": 1
+        },
+        {
+          "label": "Скутеры",
+          "url": "auto-moto-skutery-kitay_(noname)-skutery",
+          "name": "skutery",
+          "priority": 2
+        },
+        {
+          "label": "Электроскутер",
+          "url": "auto-moto-skutery-kitay_(noname)-electroskuter",
+          "name": "electroskuter",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "label": "КТ",
+      "url": "auto-moto-skutery-kt",
+      "name": "kt",
+      "priority": 146,
+      "children": [
+        {
+          "label": "Мотосамокаты",
+          "url": "auto-moto-skutery-kt-motosamokaty",
+          "name": "motosamokaty",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "Рига",
+      "url": "auto-moto-skutery-riga",
+      "name": "riga",
+      "priority": 147,
+      "children": [
+        {
+          "label": "Рига",
+          "url": "auto-moto-skutery-riga-riga",
+          "name": "riga",
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "label": "С-Мото",
+      "url": "auto-moto-skutery-s-moto",
+      "name": "s-moto",
+      "priority": 148,
+      "children": [
+        {
+          "label": "LZX50Q",
+          "url": "auto-moto-skutery-s-moto-lzx50q",
+          "name": "lzx50q",
+          "priority": 1
+        },
+        {
+          "label": "LZX50Q-2A",
+          "url": "auto-moto-skutery-s-moto-lzx50q-2a",
+          "name": "lzx50q-2a",
+          "priority": 2
+        },
+        {
+          "label": "LZX50Q-3",
+          "url": "auto-moto-skutery-s-moto-lzx50q-3",
+          "name": "lzx50q-3",
+          "priority": 3
+        },
+        {
+          "label": "LZX50QT-4B",
+          "url": "auto-moto-skutery-s-moto-lzx50qt-4b",
+          "name": "lzx50qt-4b",
+          "priority": 4
+        },
+        {
+          "label": "Пегас",
+          "url": "auto-moto-skutery-s-moto-pegas",
+          "name": "pegas",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "label": "ТМЗ (Туламашзавод)",
+      "url": "auto-moto-skutery-tmz_(tulamashzavod)",
+      "name": "tmz_(tulamashzavod)",
+      "priority": 149,
+      "children": [
+        {
+          "label": "ГТС-1",
+          "url": "auto-moto-skutery-tmz_(tulamashzavod)-gts-1",
+          "name": "gts-1",
+          "priority": 1
+        },
+        {
+          "label": "Муравей 2",
+          "url": "auto-moto-skutery-tmz_(tulamashzavod)-muravey_2",
+          "name": "muravey_2",
+          "priority": 2
+        },
+        {
+          "label": "Т200",
+          "url": "auto-moto-skutery-tmz_(tulamashzavod)-t200",
+          "name": "t200",
+          "priority": 3
+        },
+        {
+          "label": "ТГ200",
+          "url": "auto-moto-skutery-tmz_(tulamashzavod)-tg200",
+          "name": "tg200",
+          "priority": 4
+        },
+        {
+          "label": "ТГА200 (Муравей)",
+          "url": "auto-moto-skutery-tmz_(tulamashzavod)-tga200_(muravey)",
+          "name": "tga200_(muravey)",
+          "priority": 5
+        },
+        {
+          "label": "Тулица",
+          "url": "auto-moto-skutery-tmz_(tulamashzavod)-tulitsa",
+          "name": "tulitsa",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "label": "Элит",
+      "url": "auto-moto-skutery-elit",
+      "name": "elit",
+      "priority": 150,
+      "children": [
+        {
+          "label": "Комфорт",
+          "url": "auto-moto-skutery-elit-komfort",
+          "name": "komfort",
+          "priority": 1
+        },
+        {
+          "label": "Сельхоз",
+          "url": "auto-moto-skutery-elit-selhoz",
+          "name": "selhoz",
+          "priority": 2
+        },
+        {
+          "label": "Стандарт",
+          "url": "auto-moto-skutery-elit-standart",
+          "name": "standart",
+          "priority": 3
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "label": "Цена",
+      "name": "auto-moto-skutery-price",
+      "priority": 2,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 2,
+      "filter_default_toggle": true,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите цену"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Год выпуска",
+      "name": "auto-moto-skutery-year",
+      "priority": 3,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 3,
+      "filter_default_toggle": true,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите год выпуска"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Год выпуска\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Пробег",
+      "name": "auto-moto-skutery-odometer",
+      "priority": 4,
+      "post_form": "textbox",
+      "measure": "км",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Пробег\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "name": "auto-moto-skutery-engine",
+      "label": "Тип двигателя",
+      "priority": 5,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 5,
+      "options": [
+        {
+          "label": "Инжектор",
+          "priority": 1
+        },
+        {
+          "label": "Карбюратор",
+          "priority": 2
+        },
+        {
+          "label": "Ротор",
+          "priority": 3
+        },
+        {
+          "label": "Бензин турбонаддув",
+          "priority": 4
+        },
+        {
+          "label": "Электрический",
+          "priority": 5
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип двигателя"
+        }
+      ]
+    },
+    {
+      "label": "Объем двигателя",
+      "name": "auto-moto-skutery-volume",
+      "priority": 6,
+      "post_form": "textbox",
+      "measure": "л",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "\"Объем двигателя\" - значение должно быть числом."
+        }
+      ]
+    },
+    {
+      "label": "Коробка",
+      "name": "auto-moto-skutery-transmission",
+      "priority": 7,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 7,
+      "options": [
+        {"label": "2 передачи", "priority": 1},
+        {"label": "3 передачи", "priority": 2},
+        {"label": "4 передачи", "priority": 3},
+        {"label": "5 передач", "priority": 4},
+        {"label": "6 передач", "priority": 5},
+        {"label": "АКПП", "priority": 6},
+        {"label": "Вариатор", "priority": 7}
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип коробки"
+        }
+      ]
+    },
+    {
+      "label": "Мощность",
+      "name": "auto-moto-skutery-power",
+      "priority": 10,
+      "post_form": "textbox",
+      "measure": "л.с.",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Мощность\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Число тактов",
+      "name": "auto-moto-skutery-cycles_qty",
+      "priority": 12,
+      "post_form": "radio",
+      "options": [
+        {"label": "2", "priority": 1},
+        {"label": "4", "priority": 2}
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "auto-moto-skutery-condition",
+      "priority": 13,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "Отличное",
+          "priority": 1
+        },
+        {
+          "label": "Хорошее",
+          "priority": 2
+        },
+        {
+          "label": "Среднее",
+          "priority": 3
+        },
+        {
+          "label": "Требует ремонта",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "Наличие",
+      "name": "auto-moto-skutery-availability",
+      "priority": 14,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 14,
+      "options": [
+        {
+          "label": "В наличии",
+          "priority": 1
+        },
+        {
+          "label": "На заказ",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите наличие"
+        }
+      ]
+    },
+    {
+      "label": "Прочее",
+      "name": "auto-moto-skutery-additional_information",
+      "priority": 15,
+      "post_form": "checkboxlist",
+      "parameters": [
+        {
+          "name": "newly_delivered",
+          "label": "Свежедоставлен",
+          "post_form": "checkbox",
+          "priority": 1
+        },
+        {
+          "name": "cleared",
+          "label": "Растаможен",
+          "post_form": "checkbox",
+          "priority": 2
+        },
+        {
+          "name": "investment_does_not_required",
+          "label": "Вложений не требует",
+          "post_form": "checkbox",
+          "priority": 3
+        },
+        {
+          "name": "urgent",
+          "label": "Срочно",
+          "post_form": "checkbox",
+          "priority": 4
+        },
+        {
+          "name": "inspection_passed",
+          "label": "Техосмотр пройден",
+          "post_form": "checkbox",
+          "priority": 5
+        },
+        {
+          "name": "barter",
+          "label": "Возможен обмен",
+          "post_form": "checkbox",
+          "priority": 6
+        }
+      ]
+    }
+  ]
+}

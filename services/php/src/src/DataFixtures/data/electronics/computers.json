@@ -1,0 +1,1232 @@
+{
+  "label": "Компьютеры",
+  "url": "electronics-computers",
+  "priority": 3,
+  "children": [
+    {
+      "label": "Ноутбуки и нетбуки",
+      "url": "electronics-computers-laptops",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-laptops-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Ноутбук",
+              "priority": 3
+            },
+            {
+              "label": "Нетбук",
+              "priority": 4
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-computers-laptops-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {
+              "label": "3Q",
+              "priority": 1
+            },
+            {
+              "label": "Acer",
+              "priority": 1
+            },
+            {
+              "label": "Alienware",
+              "priority": 2
+            },
+            {
+              "label": "Apple",
+              "priority": 3
+            },
+            {
+              "label": "ASUS",
+              "priority": 4
+            },
+            {
+              "label": "Compaq",
+              "priority": 5
+            },
+            {
+              "label": "DELL",
+              "priority": 7
+            },
+            {
+              "label": "eMachines",
+              "priority": 7
+            },
+            {
+              "label": "Fujitsu",
+              "priority": 7
+            },
+            {
+              "label": "GIGABYTE",
+              "priority": 7
+            },
+            {
+              "label": "Google",
+              "priority": 7
+            },
+            {
+              "label": "HP",
+              "priority": 8
+            },
+            {
+              "label": "Lenovo",
+              "priority": 9
+            },
+            {
+              "label": "LG",
+              "priority": 9
+            },
+            {
+              "label": "Microsoft",
+              "priority": 10
+            },
+            {
+              "label": "MSI",
+              "priority": 10
+            },
+            {
+              "label": "Packard Bell",
+              "priority": 11
+            },
+            {
+              "label": "Samsung",
+              "priority": 12
+            },
+            {
+              "label": "Sony",
+              "priority": 13
+            },
+            {
+              "label": "Toshiba",
+              "priority": 14
+            },
+            {
+              "label": "Xiaomi",
+              "priority": 15
+            },
+            {
+              "label": "Другой",
+              "priority": 16
+            }
+          ]
+        },
+        {
+          "label": "Размера экрана",
+          "name": "electronics-computers-laptops-screen-size",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Размер экрана - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "дюймов",
+          "hint": "Пример: 15,6",
+          "search_form": "range",
+          "search_priority": 32
+        },
+        {
+          "label": "Размер оперативной памяти",
+          "name": "electronics-computers-laptops-ram",
+          "priority": 23,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Размер оперативной памяти - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 33
+        },
+        {
+          "label": "Объем жесткого диска",
+          "name": "electronics-computers-laptops-memory",
+          "priority": 24,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Объем жесткого диска - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 34
+        },
+        {
+          "label": "Тип жесткого диска",
+          "name": "electronics-computers-laptops-disk-type",
+          "priority": 25,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 35,
+          "options": [
+            {
+              "label": "HDD",
+              "priority": 1
+            },
+            {
+              "label": "SSD",
+              "priority": 2
+            },
+            {
+              "label": "SSHD",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Размер видеокарты",
+          "name": "electronics-computers-laptops-videocard",
+          "priority": 26,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Размер видеокарты - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 36
+        }
+      ]
+    },
+    {
+      "label": "Настольные компьютеры",
+      "url": "electronics-computers-desktop",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-desktop-type",
+          "priority": 21,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 21,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Домашний",
+              "priority": 1
+            },
+            {
+              "label": "Игровой",
+              "priority": 2
+            },
+            {
+              "label": "Мультимедийный",
+              "priority": 3
+            },
+            {
+              "label": "Офисный",
+              "priority": 4
+            },
+            {
+              "label": "Другое",
+              "priority": 5
+            }
+          ]
+        },
+        {
+          "label": "Размер оперативной памяти",
+          "name": "electronics-computers-desktop-ram",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Размер оперативной памяти - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 32
+        },
+        {
+          "label": "Объем жесткого диска",
+          "name": "electronics-computers-desktop-memory",
+          "priority": 23,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Объем жесткого диска - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 33
+        },
+        {
+          "label": "Тип жесткого диска",
+          "name": "electronics-computers-desktop-disk-type",
+          "priority": 24,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 34,
+          "options": [
+            {
+              "label": "HDD",
+              "priority": 1
+            },
+            {
+              "label": "SSD",
+              "priority": 2
+            },
+            {
+              "label": "SSHD",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Размер видеокарты",
+          "name": "electronics-computers-desktop-videocard",
+          "priority": 25,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Размер видеокарты - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 35
+        }
+      ]
+    },
+    {
+      "label": "Мониторы",
+      "url": "electronics-computers-monitors",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-computers-monitors-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Acer", "priority": 1},
+            {"label": "Alienware", "priority": 1},
+            {"label": "Anmite", "priority": 1},
+            {"label": "AOC", "priority": 1},
+            {"label": "ASUS", "priority": 1},
+            {"label": "BenQ", "priority": 1},
+            {"label": "Dahua", "priority": 1},
+            {"label": "DEEPCOOL", "priority": 1},
+            {"label": "Dell", "priority": 1},
+            {"label": "DEXP", "priority": 1},
+            {"label": "Doffler", "priority": 1},
+            {"label": "EIZO", "priority": 1},
+            {"label": "FUJITSU", "priority": 1},
+            {"label": "HP", "priority": 1},
+            {"label": "Iiyama", "priority": 1},
+            {"label": "Lenovo", "priority": 1},
+            {"label": "LG", "priority": 1},
+            {"label": "LTV", "priority": 1},
+            {"label": "Mitsubishi", "priority": 1},
+            {"label": "MSI", "priority": 1},
+            {"label": "NEC", "priority": 1},
+            {"label": "Neovo", "priority": 1},
+            {"label": "Newline", "priority": 1},
+            {"label": "Packard Bell", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Sharp", "priority": 1},
+            {"label": "ViewSonic", "priority": 1},
+            {"label": "Wacom", "priority": 1}
+          ]
+        },
+        {
+          "label": "Диагональ экрана",
+          "name": "electronics-computers-monitors-screen-size",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Размер экрана - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "дюймов",
+          "hint": "Пример: 18,5",
+          "search_form": "range",
+          "search_priority": 32
+        }
+      ]
+    },
+    {
+      "label": "Клавиатуры, мыши",
+      "url": "electronics-computers-keyboards-mouses",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-keyboards-mouses-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Клавиатура",
+              "priority": 1
+            },
+            {
+              "label": "Мышь",
+              "priority": 2
+            },
+            {
+              "label": "Мышь+клавиатура",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-computers-keyboards-mouses-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "A4Tech", "priority": 1},
+            {"label": "Apple", "priority": 1},
+            {"label": "Asus", "priority": 1},
+            {"label": "Canyon", "priority": 1},
+            {"label": "Corsair", "priority": 1},
+            {"label": "CROWN", "priority": 1},
+            {"label": "Defender", "priority": 1},
+            {"label": "Delux", "priority": 1},
+            {"label": "Deluxe", "priority": 1},
+            {"label": "E blue", "priority": 1},
+            {"label": "Genius", "priority": 1},
+            {"label": "GIGABYTE", "priority": 1},
+            {"label": "HyperX", "priority": 1},
+            {"label": "Intex", "priority": 1},
+            {"label": "Jeway", "priority": 1},
+            {"label": "JITE", "priority": 1},
+            {"label": "Kingston", "priority": 1},
+            {"label": "Lenovo", "priority": 1},
+            {"label": "Logitech", "priority": 1},
+            {"label": "Microsoft", "priority": 1},
+            {"label": "Oklick", "priority": 1},
+            {"label": "Promate", "priority": 1},
+            {"label": "Rapoo", "priority": 1},
+            {"label": "Razer", "priority": 1},
+            {"label": "Redragon", "priority": 1},
+            {"label": "Saitek", "priority": 1},
+            {"label": "Samurai", "priority": 1},
+            {"label": "Smartbuy", "priority": 1},
+            {"label": "Speedlink", "priority": 1},
+            {"label": "SVEN", "priority": 1},
+            {"label": "Targus", "priority": 1},
+            {"label": "Trust Yvi", "priority": 1},
+            {"label": "Trust", "priority": 1},
+            {"label": "Winstar", "priority": 1},
+            {"label": "X Game", "priority": 1},
+            {"label": "Xiaomi", "priority": 1},
+            {"label": "Другое", "priority": 1}
+          ]
+        },
+        {
+          "label": "Подключение",
+          "name": "electronics-computers-keyboards-mouses-connection-type",
+          "priority": 25,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 35,
+          "options": [
+            {
+              "label": "Беспроводные",
+              "priority": 1
+            },
+            {
+              "label": "С проводом",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Назначение",
+          "name": "electronics-computers-keyboards-mouses-purpose",
+          "priority": 26,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 36,
+          "options": [
+            {
+              "label": "Стандартная",
+              "priority": 1
+            },
+            {
+              "label": "Игровая",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Рули, джойстики, геймпады",
+      "url": "electronics-computers-joysticks",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-joysticks-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Геймпад",
+              "priority": 1
+            },
+            {
+              "label": "Джойстик",
+              "priority": 3
+            },
+            {
+              "label": "Руль",
+              "priority": 5
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-computers-joysticks-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "3Cott", "priority": 1},
+            {"label": "Canyon", "priority": 1},
+            {"label": "CBR", "priority": 1},
+            {"label": "Defender", "priority": 1},
+            {"label": "Dilong", "priority": 1},
+            {"label": "Emio", "priority": 1},
+            {"label": "Genius", "priority": 1},
+            {"label": "LiteStar", "priority": 1},
+            {"label": "Logic3", "priority": 1},
+            {"label": "Logitech", "priority": 1},
+            {"label": "Microkingdom", "priority": 1},
+            {"label": "Microsoft", "priority": 1},
+            {"label": "Nacon", "priority": 1},
+            {"label": "Nintendo", "priority": 1},
+            {"label": "Razer", "priority": 1},
+            {"label": "Redragon", "priority": 1},
+            {"label": "Saitek", "priority": 1},
+            {"label": "Sony", "priority": 1},
+            {"label": "SPEEDLINK", "priority": 1},
+            {"label": "Thrustmaster", "priority": 1},
+            {"label": "Valve", "priority": 1},
+            {"label": "Xbox", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Подключение",
+          "name": "electronics-computers-joysticks-connection-type",
+          "priority": 25,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 35,
+          "options": [
+            {
+              "label": "Беспроводные",
+              "priority": 1
+            },
+            {
+              "label": "С проводом",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Компьютерные наушники, микрофоны",
+      "url": "electronics-computers-earphones-microphones",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-earphones-microphones-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Наушники",
+              "priority": 1
+            },
+            {
+              "label": "Микрофон",
+              "priority": 3
+            },
+            {
+              "label": "Наушники с микрофоном",
+              "priority": 5
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-computers-earphones-microphones-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "A4TECH", "priority": 1},
+            {"label": "AKG", "priority": 1},
+            {"label": "Asus", "priority": 1},
+            {"label": "Audio technica", "priority": 1},
+            {"label": "Axtrom", "priority": 1},
+            {"label": "Blue", "priority": 1},
+            {"label": "CANYON", "priority": 1},
+            {"label": "Corsair", "priority": 1},
+            {"label": "Defender", "priority": 1},
+            {"label": "Dialog", "priority": 1},
+            {"label": "E blue", "priority": 1},
+            {"label": "Edifier", "priority": 1},
+            {"label": "Exeq", "priority": 1},
+            {"label": "Genius", "priority": 1},
+            {"label": "Gigabyte", "priority": 1},
+            {"label": "Global", "priority": 1},
+            {"label": "HAMA", "priority": 1},
+            {"label": "HARPER", "priority": 1},
+            {"label": "HyperX", "priority": 1},
+            {"label": "Intex", "priority": 1},
+            {"label": "Kingston", "priority": 1},
+            {"label": "Koss", "priority": 1},
+            {"label": "Logitech", "priority": 1},
+            {"label": "Microlab", "priority": 1},
+            {"label": "Oklick", "priority": 1},
+            {"label": "Olto", "priority": 1},
+            {"label": "Ovleng", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Perfeo", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Pioneer", "priority": 1},
+            {"label": "Plantronics", "priority": 1},
+            {"label": "Razer", "priority": 1},
+            {"label": "Remax", "priority": 1},
+            {"label": "Ritmix", "priority": 1},
+            {"label": "Sennheiser", "priority": 1},
+            {"label": "Samson", "priority": 1},
+            {"label": "Sharkoon", "priority": 1},
+            {"label": "Skullcandy", "priority": 1},
+            {"label": "Smartbuy", "priority": 1},
+            {"label": "SOMiC", "priority": 1},
+            {"label": "Sony", "priority": 1},
+            {"label": "Soul", "priority": 1},
+            {"label": "SteelSeries", "priority": 1},
+            {"label": "Sven", "priority": 1},
+            {"label": "TDK", "priority": 1},
+            {"label": "Tech com", "priority": 1},
+            {"label": "Technics", "priority": 1},
+            {"label": "Yamaha", "priority": 1},
+            {"label": "Zalman", "priority": 1},
+            {"label": "Zumreed", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Подключение",
+          "name": "electronics-computers-earphones-microphones-connection-type",
+          "priority": 25,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 35,
+          "options": [
+            {
+              "label": "Беспроводные",
+              "priority": 1
+            },
+            {
+              "label": "C проводом",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Компьютерные колонки",
+      "url": "electronics-computers-speakers",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-computers-speakers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "A4Tech", "priority": 1},
+            {"label": "Creative", "priority": 1},
+            {"label": "CROWN", "priority": 1},
+            {"label": "Defender", "priority": 1},
+            {"label": "Dialog", "priority": 1},
+            {"label": "Delux", "priority": 1},
+            {"label": "Divoom", "priority": 1},
+            {"label": "Edifier", "priority": 1},
+            {"label": "Genius", "priority": 1},
+            {"label": "JBL", "priority": 1},
+            {"label": "Logitech", "priority": 1},
+            {"label": "Marvo", "priority": 1},
+            {"label": "Microlab", "priority": 1},
+            {"label": "Oklick", "priority": 1},
+            {"label": "Perfeo", "priority": 1},
+            {"label": "Smartbuy", "priority": 1},
+            {"label": "Sven", "priority": 1},
+            {"label": "Tech com", "priority": 1},
+            {"label": "Yamaha", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Источники бесперебойного питания",
+      "url": "electronics-computers-upc-power-supplies",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-computers-upc-power-supplies-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "3Cott", "priority": 1},
+            {"label": "APC by Schneider Electric", "priority": 1},
+            {"label": "AEG", "priority": 1},
+            {"label": "CROWN", "priority": 1},
+            {"label": "CyberPower", "priority": 1},
+            {"label": "EATON", "priority": 1},
+            {"label": "FSP Group", "priority": 1},
+            {"label": "Frimecom", "priority": 1},
+            {"label": "Ippon", "priority": 1},
+            {"label": "Iwell", "priority": 1},
+            {"label": "Mercury", "priority": 1},
+            {"label": "Powercom", "priority": 1},
+            {"label": "Powerman", "priority": 1},
+            {"label": "Sumry", "priority": 1},
+            {"label": "SVC", "priority": 1},
+            {"label": "SVEN", "priority": 1},
+            {"label": "Tech com", "priority": 1},
+            {"label": "Tripp Lite", "priority": 1},
+            {"label": "Zypressen", "priority": 1},
+            {"label": "БАСТИОН", "priority": 1},
+            {"label": "Энергия", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Флешки и карты памяти",
+      "url": "electronics-computers-usb-flashdrives-memory-cards",
+      "priority": 9,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-usb-flashdrives-memory-cards-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "USB-флешка",
+              "priority": 1
+            },
+            {
+              "label": "Карта памяти",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-computers-usb-flashdrives-memory-cards-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "ADATA", "priority": 1},
+            {"label": "Apacer", "priority": 1},
+            {"label": "Corsair", "priority": 1},
+            {"label": "HyperX", "priority": 1},
+            {"label": "Exployd", "priority": 1},
+            {"label": "GoodRAM", "priority": 1},
+            {"label": "Kingmax", "priority": 1},
+            {"label": "Kingston", "priority": 1},
+            {"label": "Leef", "priority": 1},
+            {"label": "Mirex", "priority": 1},
+            {"label": "OltraMax", "priority": 1},
+            {"label": "Patriot", "priority": 1},
+            {"label": "Perfeo", "priority": 1},
+            {"label": "PQI", "priority": 1},
+            {"label": "Qumo", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "SanDisk", "priority": 1},
+            {"label": "Silicon Power", "priority": 1},
+            {"label": "SmartBuy", "priority": 1},
+            {"label": "Sony", "priority": 1},
+            {"label": "TeamGroup", "priority": 1},
+            {"label": "Transcend", "priority": 1},
+            {"label": "Verbatim", "priority": 1},
+            {"label": "VERICO", "priority": 1},
+            {"label": "Другое", "priority": 1}
+          ]
+        },
+        {
+          "label": "Объем памяти",
+          "name": "electronics-computers-usb-flashdrives-memory-cards-memory",
+          "priority": 24,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Объем памяти - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 34
+        }
+      ]
+    },
+    {
+      "label": "Внешние жесткие диски",
+      "url": "electronics-computers-external-hdd-ssd-hard-drives",
+      "priority": 10,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-external-hdd-ssd-hard-drives-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "HDD",
+              "priority": 1
+            },
+            {
+              "label": "SSD",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-computers-external-hdd-ssd-hard-drives-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "ADATA", "priority": 1},
+            {"label": "Apacer", "priority": 1},
+            {"label": "Lacie", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "SanDisk", "priority": 1},
+            {"label": "Seagate", "priority": 1},
+            {"label": "Silicon Power", "priority": 1},
+            {"label": "SmartBuy", "priority": 1},
+            {"label": "Toshiba", "priority": 1},
+            {"label": "Transcend", "priority": 1},
+            {"label": "Verbatim", "priority": 1},
+            {"label": "Western Digital", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Объем памяти",
+          "name": "electronics-computers-external-hdd-ssd-hard-drives-memory",
+          "priority": 24,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Объем памяти - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 34
+        }
+      ]
+    },
+    {
+      "label": "Комплектующие для ноутбуков",
+      "url": "electronics-computers-notebook-accessories",
+      "priority": 11,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-notebook-accessories-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "аккумуляторы", "priority": 1},
+            {"label": "жесткие диски", "priority": 1},
+            {"label": "блоки питания", "priority": 1},
+            {"label": "материнские платы", "priority": 1},
+            {"label": "оптические приводы", "priority": 1},
+            {"label": "видеокарты", "priority": 1},
+            {"label": "дисплеи", "priority": 1},
+            {"label": "звуковые карты", "priority": 1},
+            {"label": "клавиатуры", "priority": 1},
+            {"label": "оперативная память", "priority": 1},
+            {"label": "процессоры", "priority": 1},
+            {"label": "системы охлаждения", "priority": 1},
+            {"label": "другое", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Сумки, рюкзаки и чехлы",
+      "url": "electronics-computers-cases-bags-backpacks",
+      "priority": 12,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-cases-bags-backpacks-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "сумки", "priority": 1},
+            {"label": "рюкзаки", "priority": 1},
+            {"label": "чехлы", "priority": 1},
+            {"label": "наклейки", "priority": 1},
+            {"label": "обложки", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Комплектующие для ПК",
+      "url": "electronics-computers-accessories",
+      "priority": 13,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-accessories-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "блоки питания", "priority": 1},
+            {"label": "видеокарты", "priority": 1},
+            {"label": "жесткие диски", "priority": 1},
+            {"label": "звуковые карты", "priority": 1},
+            {"label": "корпуса", "priority": 1},
+            {"label": "материнские платы", "priority": 1},
+            {"label": "оперативная память", "priority": 1},
+            {"label": "оптические приводы", "priority": 1},
+            {"label": "переходники", "priority": 1},
+            {"label": "процессоры", "priority": 1},
+            {"label": "сетевые накопители", "priority": 1},
+            {"label": "системы охлаждения", "priority": 1},
+            {"label": "шнуры", "priority": 1},
+            {"label": "другое", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Серверное оборудование",
+      "url": "electronics-computers-servers",
+      "priority": 14,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-servers-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "серверы", "priority": 1},
+            {"label": "рэковые корпуса", "priority": 1},
+            {"label": "серверные стойки, шкафы", "priority": 1},
+            {"label": "другое", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Сетевое оборудование",
+      "url": "electronics-computers-network-equipment",
+      "priority": 15,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-computers-network-equipment-type",
+          "priority": 10,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "маршрутизаторы", "priority": 1},
+            {"label": "коммутаторы", "priority": 1},
+            {"label": "модемы", "priority": 1},
+            {"label": "сетевые карты", "priority": 1},
+            {"label": "Wi-Fi адаптеры", "priority": 1},
+            {"label": "Wi-Fi роутеры", "priority": 1},
+            {"label": "Wi-Fi точки доступа", "priority": 1},
+            {"label": "Wi-Fi мост", "priority": 1},
+            {"label": "Bluetoth оборудование", "priority": 1},
+            {"label": "VoIP-оборудование", "priority": 1},
+            {"label": "репитеры", "priority": 1},
+            {"label": "сетевые адаптеры", "priority": 1},
+            {"label": "концентраторы", "priority": 1},
+            {"label": "сетевые кабеля", "priority": 1},
+            {"label": "антенны", "priority": 1},
+            {"label": "другое", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-computers-network-equipment-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Eltex", "priority": 1},
+            {"label": "Acorp", "priority": 1},
+            {"label": "AirTies", "priority": 1},
+            {"label": "Alcatel", "priority": 1},
+            {"label": "AnyDATA", "priority": 1},
+            {"label": "Apple", "priority": 1},
+            {"label": "Archos", "priority": 1},
+            {"label": "ASUS", "priority": 1},
+            {"label": "Atrie", "priority": 1},
+            {"label": "Axesstel", "priority": 1},
+            {"label": "BandRich", "priority": 1},
+            {"label": "Billionton", "priority": 1},
+            {"label": "C-motech", "priority": 1},
+            {"label": "C-net", "priority": 1},
+            {"label": "Conel", "priority": 1},
+            {"label": "D-link", "priority": 1},
+            {"label": "Dynamix", "priority": 1},
+            {"label": "Edimax", "priority": 1},
+            {"label": "Eline", "priority": 1},
+            {"label": "Espada", "priority": 1},
+            {"label": "Gembird", "priority": 1},
+            {"label": "Genius", "priority": 1},
+            {"label": "GVC", "priority": 1},
+            {"label": "Huawei", "priority": 1},
+            {"label": "Level One", "priority": 1},
+            {"label": "LG", "priority": 1},
+            {"label": "Linksys", "priority": 1},
+            {"label": "Motorola", "priority": 1},
+            {"label": "NETGEAR", "priority": 1},
+            {"label": "Novacom Wireless", "priority": 1},
+            {"label": "Novatec", "priority": 1},
+            {"label": "Novatel Wireless", "priority": 1},
+            {"label": "Novaway", "priority": 1},
+            {"label": "NSGate", "priority": 1},
+            {"label": "ONEXT", "priority": 1},
+            {"label": "Option", "priority": 1},
+            {"label": "Pantech", "priority": 1},
+            {"label": "Planet", "priority": 1},
+            {"label": "RiLan", "priority": 1},
+            {"label": "Rovermate", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Seowon Intech", "priority": 1},
+            {"label": "Sierra", "priority": 1},
+            {"label": "Skylink", "priority": 1},
+            {"label": "Sony Ericsson", "priority": 1},
+            {"label": "TELEOFIS", "priority": 1},
+            {"label": "Teltonika", "priority": 1},
+            {"label": "Tenda", "priority": 1},
+            {"label": "Terminal Equipment", "priority": 1},
+            {"label": "TP-LINK", "priority": 1},
+            {"label": "TRENDnet", "priority": 1},
+            {"label": "U.S.Robotics", "priority": 1},
+            {"label": "Ubiquam", "priority": 1},
+            {"label": "Upvel", "priority": 1},
+            {"label": "Yota", "priority": 1},
+            {"label": "ZTE", "priority": 1},
+            {"label": "ZyXEL", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+
+      ]
+    },
+    {
+      "label": "Программное обеспечение и игры",
+      "url": "electronics-computers-software-games",
+      "priority": 16,
+      "parameters": [
+        {
+          "label": "Тематика",
+          "name": "electronics-computers-software-games-type",
+          "priority": 10,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "игры для ПК", "priority": 1},
+            {"label": "аудио- и видеоредакторы", "priority": 1},
+            {"label": "безопасность и защита информации", "priority": 1},
+            {"label": "бухгалтерия и делопроизводство", "priority": 1},
+            {"label": "верстка и дизайн", "priority": 1},
+            {"label": "интернет и локальные сети", "priority": 1},
+            {"label": "обучение и курсы", "priority": 1},
+            {"label": "операционные системы", "priority": 1},
+            {"label": "офисные программы", "priority": 1},
+            {"label": "программирование", "priority": 1},
+            {"label": "перевод текста", "priority": 1},
+            {"label": "САПР", "priority": 1},
+            {"label": "СУБД", "priority": 1},
+            {"label": "словари и энциклопедии", "priority": 1},
+            {"label": "утилиты", "priority": 1},
+            {"label": "другое", "priority": 1}
+          ]
+        },
+        {
+          "label": "Операционная система",
+          "name": "electronics-computers-software-games-operating system",
+          "priority": 21,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Windows", "priority": 1},
+            {"label": "Linux", "priority": 1},
+            {"label": "MacOS", "priority": 1},
+            {"label": "Другая", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Прочие компьютерные товары",
+      "url": "electronics-computers-other",
+      "priority": 17
+    }
+  ]
+}

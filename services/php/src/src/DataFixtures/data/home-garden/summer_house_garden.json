@@ -1,0 +1,157 @@
+{
+  "label": "Дача, сад и огород",
+  "url": "home-garden-summer-house",
+  "priority": 2,
+  "children": [
+    {
+      "label": "Садовая техника",
+      "url": "home-garden-summer-house-garden-machinery",
+      "priority": 1
+    },
+    {
+      "label": "Садовый инвентарь и инструменты",
+      "url": "home-garden-summer-house-garden-tools",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-summer-house-garden-tools-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Тележки и тачки","priority": 1},
+            {"label": "Компостеры","priority": 1},
+            {"label": "Грабли","priority": 1},
+            {"label": "Вилы","priority": 1},
+            {"label": "Косы и серпы","priority": 1},
+            {"label": "Сеялки для семян","priority": 1},
+            {"label": "Садовые пилы, ножовки и ножи","priority": 1},
+            {"label": "Ручные секаторы, высоторезы, сучкорезы","priority": 1},
+            {"label": "Ручные опрыскиватели","priority": 1},
+            {"label": "Канистры","priority": 1},
+            {"label": "Черенки и ручки","priority": 1},
+            {"label": "Катки для газонов","priority": 1},
+            {"label": "Лопаты и буры","priority": 1},
+            {"label": "Лопаты и движки для снега","priority": 1},
+            {"label": "Ледорубы и скребки","priority": 1},
+            {"label": "Инструменты для обработки почвы","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Аксессуары для полива",
+      "url": "home-garden-summer-house-garden-watering",
+      "priority": 3
+    },
+    {
+      "label": "Садовая мебель",
+      "url": "home-garden-summer-house-garden-furniture",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-summer-house-garden-furniture-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Качели","priority": 1},
+            {"label": "Лежаки и шезлонги","priority": 1},
+            {"label": "Скамейки","priority": 1},
+            {"label": "Гамаки","priority": 1},
+            {"label": "Зонты от солнца","priority": 1},
+            {"label": "Шатры","priority": 1},
+            {"label": "Подвесные кресла","priority": 1},
+            {"label": "Комплекты садовой мебели","priority": 1},
+            {"label": "Кресла, стулья, диваны","priority": 1},
+            {"label": "Столы","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Семена и саженцы",
+      "url": "home-garden-summer-house-seeds-seedlings",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-summer-house-seeds-seedlings-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Семена","priority": 1},
+            {"label": "Газоны","priority": 1},
+            {"label": "Рассада, саженцы, кустарники, деревья","priority": 1},
+            {"label": "Луковичные растения","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Удобрения и грунты",
+      "url": "home-garden-summer-house-fertilizers-soils",
+      "priority": 6
+    },
+    {
+      "label": "Защита и уход за растениями",
+      "url": "home-garden-summer-house-care-of-plants",
+      "priority": 7
+    },
+    {
+      "label": "Парники и теплицы",
+      "url": "home-garden-summer-house-greenhouses",
+      "priority": 8
+    },
+    {
+      "label": "Туалеты",
+      "url": "home-garden-summer-house-toilets",
+      "priority": 9
+    },
+    {
+      "label": "Души и умывальники",
+      "url": "home-garden-summer-house-showers-washbasins",
+      "priority": 10
+    },
+    {
+      "label": "Садовый декор",
+      "url": "home-garden-summer-house-garden-decor",
+      "priority": 11
+    },
+    {
+      "label": "Прочие товары для дачи, сада и огорода",
+      "url": "home-garden-summer-house-other",
+      "priority": 12
+    }
+  ]
+}

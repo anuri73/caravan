@@ -1,0 +1,2084 @@
+{
+  "label": "Легкие коммерческие",
+  "name": "auto-commercial-light",
+  "url": "auto-commercial-light",
+  "priority": 1,
+  "children": [
+    {
+      "label": "Alke",
+      "name": "auto-commercial-light-alke",
+      "url": "auto-commercial-light-alke",
+      "children": [
+        {
+          "label": "ATX 280E",
+          "name": "auto-commercial-light-alke-atx_280e",
+          "url": "auto-commercial-light-alke-atx_280e"
+        }
+      ]
+    },
+    {
+      "label": "Asia",
+      "name": "auto-commercial-light-asia",
+      "url": "auto-commercial-light-asia",
+      "children": [
+        {
+          "label": "Towner",
+          "name": "auto-commercial-light-asia-towner",
+          "url": "auto-commercial-light-asia-towner"
+        }
+      ]
+    },
+    {
+      "label": "BAW",
+      "name": "auto-commercial-light-baw",
+      "url": "auto-commercial-light-baw",
+      "children": [
+        {
+          "label": "Fenix 1044",
+          "name": "auto-commercial-light-baw-fenix_1044",
+          "url": "auto-commercial-light-baw-fenix_1044"
+        },
+        {
+          "label": "Fenix 1065",
+          "name": "auto-commercial-light-baw-fenix_1065",
+          "url": "auto-commercial-light-baw-fenix_1065"
+        },
+        {
+          "label": "Fenix 3346",
+          "name": "auto-commercial-light-baw-fenix_3346",
+          "url": "auto-commercial-light-baw-fenix_3346"
+        },
+        {
+          "label": "Tonik",
+          "name": "auto-commercial-light-baw-tonik",
+          "url": "auto-commercial-light-baw-tonik"
+        }
+      ]
+    },
+    {
+      "label": "Bedford",
+      "name": "auto-commercial-light-bedford",
+      "url": "auto-commercial-light-bedford",
+      "children": [
+        {
+          "label": "CF",
+          "name": "auto-commercial-light-bedford-cf",
+          "url": "auto-commercial-light-bedford-cf"
+        }
+      ]
+    },
+    {
+      "label": "BMC",
+      "name": "auto-commercial-light-bmc",
+      "url": "auto-commercial-light-bmc",
+      "children": [
+        {
+          "label": "Levend",
+          "name": "auto-commercial-light-bmc-levend",
+          "url": "auto-commercial-light-bmc-levend"
+        },
+        {
+          "label": "Megastar",
+          "name": "auto-commercial-light-bmc-megastar",
+          "url": "auto-commercial-light-bmc-megastar"
+        }
+      ]
+    },
+    {
+      "label": "Bremach",
+      "name": "auto-commercial-light-bremach",
+      "url": "auto-commercial-light-bremach",
+      "children": [
+        {
+          "label": "T-Rex",
+          "name": "auto-commercial-light-bremach-t-rex",
+          "url": "auto-commercial-light-bremach-t-rex"
+        }
+      ]
+    },
+    {
+      "label": "Chana",
+      "name": "auto-commercial-light-chana",
+      "url": "auto-commercial-light-chana",
+      "children": [
+        {
+          "label": "SC6395",
+          "name": "auto-commercial-light-chana-sc6395",
+          "url": "auto-commercial-light-chana-sc6395"
+        }
+      ]
+    },
+    {
+      "label": "Changan",
+      "name": "auto-commercial-light-changan",
+      "url": "auto-commercial-light-changan",
+      "children": [
+        {
+          "label": "SC1021",
+          "name": "auto-commercial-light-changan-sc1021",
+          "url": "auto-commercial-light-changan-sc1021"
+        },
+        {
+          "label": "SC1030",
+          "name": "auto-commercial-light-changan-sc1030",
+          "url": "auto-commercial-light-changan-sc1030"
+        }
+      ]
+    },
+    {
+      "label": "ChangFeng",
+      "name": "auto-commercial-light-changfeng",
+      "url": "auto-commercial-light-changfeng",
+      "children": [
+        {
+          "label": "Flying",
+          "name": "auto-commercial-light-changfeng-flying",
+          "url": "auto-commercial-light-changfeng-flying"
+        }
+      ]
+    },
+    {
+      "label": "Chevrolet",
+      "name": "auto-commercial-light-chevrolet",
+      "url": "auto-commercial-light-chevrolet",
+      "children": [
+        {
+          "label": "Express Van",
+          "name": "auto-commercial-light-chevrolet-express_van",
+          "url": "auto-commercial-light-chevrolet-express_van"
+        },
+        {
+          "label": "HHR Panel",
+          "name": "auto-commercial-light-chevrolet-hhr_panel",
+          "url": "auto-commercial-light-chevrolet-hhr_panel"
+        },
+        {
+          "label": "Silverado",
+          "name": "auto-commercial-light-chevrolet-silverado",
+          "url": "auto-commercial-light-chevrolet-silverado"
+        }
+      ]
+    },
+    {
+      "label": "Citroen",
+      "name": "auto-commercial-light-citroen",
+      "url": "auto-commercial-light-citroen",
+      "children": [
+        {
+          "label": "Berlingo",
+          "name": "auto-commercial-light-citroen-berlingo",
+          "url": "auto-commercial-light-citroen-berlingo"
+        },
+        {
+          "label": "C15",
+          "name": "auto-commercial-light-citroen-c15",
+          "url": "auto-commercial-light-citroen-c15"
+        },
+        {
+          "label": "Combi",
+          "name": "auto-commercial-light-citroen-combi",
+          "url": "auto-commercial-light-citroen-combi"
+        },
+        {
+          "label": "Jumper",
+          "name": "auto-commercial-light-citroen-jumper",
+          "url": "auto-commercial-light-citroen-jumper"
+        },
+        {
+          "label": "Jumpy",
+          "name": "auto-commercial-light-citroen-jumpy",
+          "url": "auto-commercial-light-citroen-jumpy"
+        },
+        {
+          "label": "Nemo",
+          "name": "auto-commercial-light-citroen-nemo",
+          "url": "auto-commercial-light-citroen-nemo"
+        }
+      ]
+    },
+    {
+      "label": "Dacia",
+      "name": "auto-commercial-light-dacia",
+      "url": "auto-commercial-light-dacia",
+      "children": [
+        {
+          "label": "Dokker",
+          "name": "auto-commercial-light-dacia-dokker",
+          "url": "auto-commercial-light-dacia-dokker"
+        },
+        {
+          "label": "Logan Van",
+          "name": "auto-commercial-light-dacia-logan_van",
+          "url": "auto-commercial-light-dacia-logan_van"
+        }
+      ]
+    },
+    {
+      "label": "Daewoo",
+      "name": "auto-commercial-light-daewoo",
+      "url": "auto-commercial-light-daewoo",
+      "children": [
+        {
+          "label": "Damas",
+          "name": "auto-commercial-light-daewoo-damas",
+          "url": "auto-commercial-light-daewoo-damas"
+        },
+        {
+          "label": "Labo",
+          "name": "auto-commercial-light-daewoo-labo",
+          "url": "auto-commercial-light-daewoo-labo"
+        }
+      ]
+    },
+    {
+      "label": "Daihatsu",
+      "name": "auto-commercial-light-daihatsu",
+      "url": "auto-commercial-light-daihatsu",
+      "children": [
+        {
+          "label": "Gran Max",
+          "name": "auto-commercial-light-daihatsu-gran_max",
+          "url": "auto-commercial-light-daihatsu-gran_max"
+        },
+        {
+          "label": "Hijet",
+          "name": "auto-commercial-light-daihatsu-hijet",
+          "url": "auto-commercial-light-daihatsu-hijet"
+        }
+      ]
+    },
+    {
+      "label": "DFSK",
+      "name": "auto-commercial-light-dfsk",
+      "url": "auto-commercial-light-dfsk",
+      "children": [
+        {
+          "label": "V21",
+          "name": "auto-commercial-light-dfsk-v21",
+          "url": "auto-commercial-light-dfsk-v21"
+        },
+        {
+          "label": "V22",
+          "name": "auto-commercial-light-dfsk-v22",
+          "url": "auto-commercial-light-dfsk-v22"
+        },
+        {
+          "label": "V25",
+          "name": "auto-commercial-light-dfsk-v25",
+          "url": "auto-commercial-light-dfsk-v25"
+        }
+      ]
+    },
+    {
+      "label": "Dodge",
+      "name": "auto-commercial-light-dodge",
+      "url": "auto-commercial-light-dodge",
+      "children": [
+        {
+          "label": "RAM",
+          "name": "auto-commercial-light-dodge-ram",
+          "url": "auto-commercial-light-dodge-ram"
+        },
+        {
+          "label": "Sprinter",
+          "name": "auto-commercial-light-dodge-sprinter",
+          "url": "auto-commercial-light-dodge-sprinter"
+        }
+      ]
+    },
+    {
+      "label": "DongFeng",
+      "name": "auto-commercial-light-dongfeng",
+      "url": "auto-commercial-light-dongfeng",
+      "children": [
+        {
+          "label": "EQ1020",
+          "name": "auto-commercial-light-dongfeng-eq1020",
+          "url": "auto-commercial-light-dongfeng-eq1020"
+        },
+        {
+          "label": "EQ1030",
+          "name": "auto-commercial-light-dongfeng-eq1030",
+          "url": "auto-commercial-light-dongfeng-eq1030"
+        },
+        {
+          "label": "EQ6380",
+          "name": "auto-commercial-light-dongfeng-eq6380",
+          "url": "auto-commercial-light-dongfeng-eq6380"
+        }
+      ]
+    },
+    {
+      "label": "Doninvest",
+      "name": "auto-commercial-light-doninvest",
+      "url": "auto-commercial-light-doninvest",
+      "children": [
+        {
+          "label": "Orion",
+          "name": "auto-commercial-light-doninvest-orion",
+          "url": "auto-commercial-light-doninvest-orion"
+        }
+      ]
+    },
+    {
+      "label": "FAW",
+      "name": "auto-commercial-light-faw",
+      "url": "auto-commercial-light-faw",
+      "children": [
+        {
+          "label": "10xx",
+          "name": "auto-commercial-light-faw-10xx",
+          "url": "auto-commercial-light-faw-10xx"
+        },
+        {
+          "label": "6350",
+          "name": "auto-commercial-light-faw-6350",
+          "url": "auto-commercial-light-faw-6350"
+        },
+        {
+          "label": "6371",
+          "name": "auto-commercial-light-faw-6371",
+          "url": "auto-commercial-light-faw-6371"
+        },
+        {
+          "label": "27731",
+          "name": "auto-commercial-light-faw-27731",
+          "url": "auto-commercial-light-faw-27731"
+        }
+      ]
+    },
+    {
+      "label": "Fiat",
+      "name": "auto-commercial-light-fiat",
+      "url": "auto-commercial-light-fiat",
+      "children": [
+        {
+          "label": "Doblo",
+          "name": "auto-commercial-light-fiat-doblo",
+          "url": "auto-commercial-light-fiat-doblo"
+        },
+        {
+          "label": "Ducato",
+          "name": "auto-commercial-light-fiat-ducato",
+          "url": "auto-commercial-light-fiat-ducato"
+        },
+        {
+          "label": "Fiorino",
+          "name": "auto-commercial-light-fiat-fiorino",
+          "url": "auto-commercial-light-fiat-fiorino"
+        },
+        {
+          "label": "Fullback",
+          "name": "auto-commercial-light-fiat-fullback",
+          "url": "auto-commercial-light-fiat-fullback"
+        },
+        {
+          "label": "Scudo",
+          "name": "auto-commercial-light-fiat-scudo",
+          "url": "auto-commercial-light-fiat-scudo"
+        },
+        {
+          "label": "Strada",
+          "name": "auto-commercial-light-fiat-strada",
+          "url": "auto-commercial-light-fiat-strada"
+        }
+      ]
+    },
+    {
+      "label": "Ford",
+      "name": "auto-commercial-light-ford",
+      "url": "auto-commercial-light-ford",
+      "children": [
+        {
+          "label": "E-series",
+          "name": "auto-commercial-light-ford-e-series",
+          "url": "auto-commercial-light-ford-e-series"
+        },
+        {
+          "label": "Escort Express",
+          "name": "auto-commercial-light-ford-escort_express",
+          "url": "auto-commercial-light-ford-escort_express"
+        },
+        {
+          "label": "F-series",
+          "name": "auto-commercial-light-ford-f-series",
+          "url": "auto-commercial-light-ford-f-series"
+        },
+        {
+          "label": "Fiesta Courier",
+          "name": "auto-commercial-light-ford-fiesta_courier",
+          "url": "auto-commercial-light-ford-fiesta_courier"
+        },
+        {
+          "label": "Freda",
+          "name": "auto-commercial-light-ford-freda",
+          "url": "auto-commercial-light-ford-freda"
+        },
+        {
+          "label": "Super Duty",
+          "name": "auto-commercial-light-ford-super_duty",
+          "url": "auto-commercial-light-ford-super_duty"
+        },
+        {
+          "label": "Tourneo",
+          "name": "auto-commercial-light-ford-tourneo",
+          "url": "auto-commercial-light-ford-tourneo"
+        },
+        {
+          "label": "Transit",
+          "name": "auto-commercial-light-ford-transit",
+          "url": "auto-commercial-light-ford-transit"
+        },
+        {
+          "label": "Transit Connect",
+          "name": "auto-commercial-light-ford-transit_connect",
+          "url": "auto-commercial-light-ford-transit_connect"
+        },
+        {
+          "label": "Transit Custom",
+          "name": "auto-commercial-light-ford-transit_custom",
+          "url": "auto-commercial-light-ford-transit_custom"
+        },
+        {
+          "label": "Transit Kombi",
+          "name": "auto-commercial-light-ford-transit_kombi",
+          "url": "auto-commercial-light-ford-transit_kombi"
+        }
+      ]
+    },
+    {
+      "label": "Foton",
+      "name": "auto-commercial-light-foton",
+      "url": "auto-commercial-light-foton",
+      "children": [
+        {
+          "label": "Aumark",
+          "name": "auto-commercial-light-foton-aumark",
+          "url": "auto-commercial-light-foton-aumark"
+        },
+        {
+          "label": "Ollin",
+          "name": "auto-commercial-light-foton-ollin",
+          "url": "auto-commercial-light-foton-ollin"
+        },
+        {
+          "label": "View",
+          "name": "auto-commercial-light-foton-view",
+          "url": "auto-commercial-light-foton-view"
+        }
+      ]
+    },
+    {
+      "label": "Freightliner",
+      "name": "auto-commercial-light-freightliner",
+      "url": "auto-commercial-light-freightliner",
+      "children": [
+        {
+          "label": "Sprinter",
+          "name": "auto-commercial-light-freightliner-sprinter",
+          "url": "auto-commercial-light-freightliner-sprinter"
+        },
+        {
+          "label": "Walk-In Van",
+          "name": "auto-commercial-light-freightliner-walk-in_van",
+          "url": "auto-commercial-light-freightliner-walk-in_van"
+        }
+      ]
+    },
+    {
+      "label": "GAC",
+      "name": "auto-commercial-light-gac",
+      "url": "auto-commercial-light-gac",
+      "children": [
+        {
+          "label": "Way M1",
+          "name": "auto-commercial-light-gac-way_m1",
+          "url": "auto-commercial-light-gac-way_m1"
+        },
+        {
+          "label": "Way M2",
+          "name": "auto-commercial-light-gac-way_m2",
+          "url": "auto-commercial-light-gac-way_m2"
+        },
+        {
+          "label": "Way V1",
+          "name": "auto-commercial-light-gac-way_v1",
+          "url": "auto-commercial-light-gac-way_v1"
+        }
+      ]
+    },
+    {
+      "label": "Geely",
+      "name": "auto-commercial-light-geely",
+      "url": "auto-commercial-light-geely",
+      "children": [
+        {
+          "label": "Delivery",
+          "name": "auto-commercial-light-geely-delivery",
+          "url": "auto-commercial-light-geely-delivery"
+        }
+      ]
+    },
+    {
+      "label": "Golden Dragon",
+      "name": "auto-commercial-light-golden_dragon",
+      "url": "auto-commercial-light-golden_dragon",
+      "children": [
+        {
+          "label": "City Line",
+          "name": "auto-commercial-light-golden_dragon-city_line",
+          "url": "auto-commercial-light-golden_dragon-city_line"
+        },
+        {
+          "label": "XML6482",
+          "name": "auto-commercial-light-golden_dragon-xml6482",
+          "url": "auto-commercial-light-golden_dragon-xml6482"
+        }
+      ]
+    },
+    {
+      "label": "Goupil",
+      "name": "auto-commercial-light-goupil",
+      "url": "auto-commercial-light-goupil",
+      "children": [
+        {
+          "label": "G3",
+          "name": "auto-commercial-light-goupil-g3",
+          "url": "auto-commercial-light-goupil-g3"
+        }
+      ]
+    },
+    {
+      "label": "Groz",
+      "name": "auto-commercial-light-groz",
+      "url": "auto-commercial-light-groz",
+      "children": [
+        {
+          "label": "Polarsun",
+          "name": "auto-commercial-light-groz-polarsun",
+          "url": "auto-commercial-light-groz-polarsun"
+        }
+      ]
+    },
+    {
+      "label": "Hyundai",
+      "name": "auto-commercial-light-hyundai",
+      "url": "auto-commercial-light-hyundai",
+      "children": [
+        {
+          "label": "H-1 Starex",
+          "name": "auto-commercial-light-hyundai-h-1_starex",
+          "url": "auto-commercial-light-hyundai-h-1_starex"
+        },
+        {
+          "label": "HD35",
+          "name": "auto-commercial-light-hyundai-hd35",
+          "url": "auto-commercial-light-hyundai-hd35"
+        },
+        {
+          "label": "Porter",
+          "name": "auto-commercial-light-hyundai-porter",
+          "url": "auto-commercial-light-hyundai-porter"
+        },
+        {
+          "label": "e-Mighty",
+          "name": "auto-commercial-light-hyundai-e-mighty",
+          "url": "auto-commercial-light-hyundai-e-mighty"
+        }
+      ]
+    },
+    {
+      "label": "IFA",
+      "name": "auto-commercial-light-ifa",
+      "url": "auto-commercial-light-ifa",
+      "children": [
+        {
+          "label": "Multicar 25",
+          "name": "auto-commercial-light-ifa-multicar_25",
+          "url": "auto-commercial-light-ifa-multicar_25"
+        }
+      ]
+    },
+    {
+      "label": "International",
+      "name": "auto-commercial-light-international",
+      "url": "auto-commercial-light-international",
+      "children": [
+        {
+          "label": "CXT",
+          "name": "auto-commercial-light-international-cxt",
+          "url": "auto-commercial-light-international-cxt"
+        },
+        {
+          "label": "MXT",
+          "name": "auto-commercial-light-international-mxt",
+          "url": "auto-commercial-light-international-mxt"
+        },
+        {
+          "label": "RXT",
+          "name": "auto-commercial-light-international-rxt",
+          "url": "auto-commercial-light-international-rxt"
+        }
+      ]
+    },
+    {
+      "label": "Intrall",
+      "name": "auto-commercial-light-intrall",
+      "url": "auto-commercial-light-intrall",
+      "children": [
+        {
+          "label": "Lublin 3",
+          "name": "auto-commercial-light-intrall-lublin_3",
+          "url": "auto-commercial-light-intrall-lublin_3"
+        }
+      ]
+    },
+    {
+      "label": "Isuzu",
+      "name": "auto-commercial-light-isuzu",
+      "url": "auto-commercial-light-isuzu",
+      "children": [
+        {
+          "label": "NKR",
+          "name": "auto-commercial-light-isuzu-nkr",
+          "url": "auto-commercial-light-isuzu-nkr"
+        },
+        {
+          "label": "NQR",
+          "name": "auto-commercial-light-isuzu-nqr",
+          "url": "auto-commercial-light-isuzu-nqr"
+        }
+      ]
+    },
+    {
+      "label": "IVECO",
+      "name": "auto-commercial-light-iveco",
+      "url": "auto-commercial-light-iveco",
+      "children": [
+        {
+          "label": "Daily",
+          "name": "auto-commercial-light-iveco-daily",
+          "url": "auto-commercial-light-iveco-daily"
+        }
+      ]
+    },
+    {
+      "label": "JAC",
+      "name": "auto-commercial-light-jac",
+      "url": "auto-commercial-light-jac",
+      "children": [
+        {
+          "label": "HFC 1020",
+          "name": "auto-commercial-light-jac-hfc_1020",
+          "url": "auto-commercial-light-jac-hfc_1020"
+        }
+      ]
+    },
+    {
+      "label": "JBC",
+      "name": "auto-commercial-light-jbc",
+      "url": "auto-commercial-light-jbc",
+      "children": [
+        {
+          "label": "SY1041",
+          "name": "auto-commercial-light-jbc-sy1041",
+          "url": "auto-commercial-light-jbc-sy1041"
+        }
+      ]
+    },
+    {
+      "label": "Jinbei",
+      "name": "auto-commercial-light-jinbei",
+      "url": "auto-commercial-light-jinbei",
+      "children": [
+        {
+          "label": "Haise",
+          "name": "auto-commercial-light-jinbei-haise",
+          "url": "auto-commercial-light-jinbei-haise"
+        }
+      ]
+    },
+    {
+      "label": "JMC",
+      "name": "auto-commercial-light-jmc",
+      "url": "auto-commercial-light-jmc",
+      "children": [
+        {
+          "label": "1032",
+          "name": "auto-commercial-light-jmc-1032",
+          "url": "auto-commercial-light-jmc-1032"
+        },
+        {
+          "label": "1043",
+          "name": "auto-commercial-light-jmc-1043",
+          "url": "auto-commercial-light-jmc-1043"
+        },
+        {
+          "label": "1051",
+          "name": "auto-commercial-light-jmc-1051",
+          "url": "auto-commercial-light-jmc-1051"
+        },
+        {
+          "label": "1052",
+          "name": "auto-commercial-light-jmc-1052",
+          "url": "auto-commercial-light-jmc-1052"
+        }
+      ]
+    },
+    {
+      "label": "Kia",
+      "name": "auto-commercial-light-kia",
+      "url": "auto-commercial-light-kia",
+      "children": [
+        {
+          "label": "Besta",
+          "name": "auto-commercial-light-kia-besta",
+          "url": "auto-commercial-light-kia-besta"
+        },
+        {
+          "label": "Bongo",
+          "name": "auto-commercial-light-kia-bongo",
+          "url": "auto-commercial-light-kia-bongo"
+        },
+        {
+          "label": "K-серия",
+          "name": "auto-commercial-light-kia-k-seriq",
+          "url": "auto-commercial-light-kia-k-seriq"
+        },
+        {
+          "label": "Pregio",
+          "name": "auto-commercial-light-kia-pregio",
+          "url": "auto-commercial-light-kia-pregio"
+        }
+      ]
+    },
+    {
+      "label": "LDV",
+      "name": "auto-commercial-light-ldv",
+      "url": "auto-commercial-light-ldv",
+      "children": [
+        {
+          "label": "Convoy",
+          "name": "auto-commercial-light-ldv-convoy",
+          "url": "auto-commercial-light-ldv-convoy"
+        },
+        {
+          "label": "Maxus",
+          "name": "auto-commercial-light-ldv-maxus",
+          "url": "auto-commercial-light-ldv-maxus"
+        }
+      ]
+    },
+    {
+      "label": "Lublin",
+      "name": "auto-commercial-light-lublin",
+      "url": "auto-commercial-light-lublin",
+      "children": [
+        {
+          "label": "3",
+          "name": "auto-commercial-light-lublin-3",
+          "url": "auto-commercial-light-lublin-3"
+        }
+      ]
+    },
+    {
+      "label": "Mazda",
+      "name": "auto-commercial-light-mazda",
+      "url": "auto-commercial-light-mazda",
+      "children": [
+        {
+          "label": "Bongo",
+          "name": "auto-commercial-light-mazda-bongo",
+          "url": "auto-commercial-light-mazda-bongo"
+        },
+        {
+          "label": "Scrum Truck",
+          "name": "auto-commercial-light-mazda-scrum_truck",
+          "url": "auto-commercial-light-mazda-scrum_truck"
+        },
+        {
+          "label": "Titan",
+          "name": "auto-commercial-light-mazda-titan",
+          "url": "auto-commercial-light-mazda-titan"
+        }
+      ]
+    },
+    {
+      "label": "Mercedes-Benz",
+      "name": "auto-commercial-light-mercedes-benz",
+      "url": "auto-commercial-light-mercedes-benz",
+      "children": [
+        {
+          "label": "Citan",
+          "name": "auto-commercial-light-mercedes-benz-citan",
+          "url": "auto-commercial-light-mercedes-benz-citan"
+        },
+        {
+          "label": "Sprinter",
+          "name": "auto-commercial-light-mercedes-benz-sprinter",
+          "url": "auto-commercial-light-mercedes-benz-sprinter"
+        },
+        {
+          "label": "Vario",
+          "name": "auto-commercial-light-mercedes-benz-vario",
+          "url": "auto-commercial-light-mercedes-benz-vario"
+        },
+        {
+          "label": "Vito",
+          "name": "auto-commercial-light-mercedes-benz-vito",
+          "url": "auto-commercial-light-mercedes-benz-vito"
+        }
+      ]
+    },
+    {
+      "label": "MG",
+      "name": "auto-commercial-light-mg",
+      "url": "auto-commercial-light-mg",
+      "children": [
+        {
+          "label": "Express",
+          "name": "auto-commercial-light-mg-express",
+          "url": "auto-commercial-light-mg-express"
+        }
+      ]
+    },
+    {
+      "label": "Mitsubishi",
+      "name": "auto-commercial-light-mitsubishi",
+      "url": "auto-commercial-light-mitsubishi",
+      "children": [
+        {
+          "label": "Delica",
+          "name": "auto-commercial-light-mitsubishi-delica",
+          "url": "auto-commercial-light-mitsubishi-delica"
+        },
+        {
+          "label": "L-серия",
+          "name": "auto-commercial-light-mitsubishi-l-seriq",
+          "url": "auto-commercial-light-mitsubishi-l-seriq"
+        },
+        {
+          "label": "Minicab",
+          "name": "auto-commercial-light-mitsubishi-minicab",
+          "url": "auto-commercial-light-mitsubishi-minicab"
+        }
+      ]
+    },
+    {
+      "label": "Mudan",
+      "name": "auto-commercial-light-mudan",
+      "url": "auto-commercial-light-mudan",
+      "children": [
+        {
+          "label": "MD4015",
+          "name": "auto-commercial-light-mudan-md4015",
+          "url": "auto-commercial-light-mudan-md4015"
+        },
+        {
+          "label": "MD5820",
+          "name": "auto-commercial-light-mudan-md5820",
+          "url": "auto-commercial-light-mudan-md5820"
+        }
+      ]
+    },
+    {
+      "label": "Multicar",
+      "name": "auto-commercial-light-multicar",
+      "url": "auto-commercial-light-multicar",
+      "children": [
+        {
+          "label": "Multicar-24",
+          "name": "auto-commercial-light-multicar-multicar-24",
+          "url": "auto-commercial-light-multicar-multicar-24"
+        },
+        {
+          "label": "Multicar-25",
+          "name": "auto-commercial-light-multicar-multicar-25",
+          "url": "auto-commercial-light-multicar-multicar-25"
+        },
+        {
+          "label": "Multicar-26",
+          "name": "auto-commercial-light-multicar-multicar-26",
+          "url": "auto-commercial-light-multicar-multicar-26"
+        }
+      ]
+    },
+    {
+      "label": "Nissan",
+      "name": "auto-commercial-light-nissan",
+      "url": "auto-commercial-light-nissan",
+      "children": [
+        {
+          "label": "Atlas",
+          "name": "auto-commercial-light-nissan-atlas",
+          "url": "auto-commercial-light-nissan-atlas"
+        },
+        {
+          "label": "Cabstar",
+          "name": "auto-commercial-light-nissan-cabstar",
+          "url": "auto-commercial-light-nissan-cabstar"
+        },
+        {
+          "label": "Condor",
+          "name": "auto-commercial-light-nissan-condor",
+          "url": "auto-commercial-light-nissan-condor"
+        },
+        {
+          "label": "Interstar",
+          "name": "auto-commercial-light-nissan-interstar",
+          "url": "auto-commercial-light-nissan-interstar"
+        },
+        {
+          "label": "Kubistar",
+          "name": "auto-commercial-light-nissan-kubistar",
+          "url": "auto-commercial-light-nissan-kubistar"
+        },
+        {
+          "label": "NV200",
+          "name": "auto-commercial-light-nissan-nv200",
+          "url": "auto-commercial-light-nissan-nv200"
+        },
+        {
+          "label": "NV400",
+          "name": "auto-commercial-light-nissan-nv400",
+          "url": "auto-commercial-light-nissan-nv400"
+        },
+        {
+          "label": "Primastar",
+          "name": "auto-commercial-light-nissan-primastar",
+          "url": "auto-commercial-light-nissan-primastar"
+        },
+        {
+          "label": "Serena",
+          "name": "auto-commercial-light-nissan-serena",
+          "url": "auto-commercial-light-nissan-serena"
+        },
+        {
+          "label": "Vanette",
+          "name": "auto-commercial-light-nissan-vanette",
+          "url": "auto-commercial-light-nissan-vanette"
+        }
+      ]
+    },
+    {
+      "label": "Nysa",
+      "name": "auto-commercial-light-nysa",
+      "url": "auto-commercial-light-nysa",
+      "children": [
+        {
+          "label": "521",
+          "name": "auto-commercial-light-nysa-521",
+          "url": "auto-commercial-light-nysa-521"
+        },
+        {
+          "label": "522",
+          "name": "auto-commercial-light-nysa-522",
+          "url": "auto-commercial-light-nysa-522"
+        }
+      ]
+    },
+    {
+      "label": "Opel",
+      "name": "auto-commercial-light-opel",
+      "url": "auto-commercial-light-opel",
+      "children": [
+        {
+          "label": "Bedford",
+          "name": "auto-commercial-light-opel-bedford",
+          "url": "auto-commercial-light-opel-bedford"
+        },
+        {
+          "label": "Combo",
+          "name": "auto-commercial-light-opel-combo",
+          "url": "auto-commercial-light-opel-combo"
+        },
+        {
+          "label": "Corsa",
+          "name": "auto-commercial-light-opel-corsa",
+          "url": "auto-commercial-light-opel-corsa"
+        },
+        {
+          "label": "Movano",
+          "name": "auto-commercial-light-opel-movano",
+          "url": "auto-commercial-light-opel-movano"
+        },
+        {
+          "label": "Vivaro",
+          "name": "auto-commercial-light-opel-vivaro",
+          "url": "auto-commercial-light-opel-vivaro"
+        }
+      ]
+    },
+    {
+      "label": "Peugeot",
+      "name": "auto-commercial-light-peugeot",
+      "url": "auto-commercial-light-peugeot",
+      "children": [
+        {
+          "label": "Bipper",
+          "name": "auto-commercial-light-peugeot-bipper",
+          "url": "auto-commercial-light-peugeot-bipper"
+        },
+        {
+          "label": "Boxer",
+          "name": "auto-commercial-light-peugeot-boxer",
+          "url": "auto-commercial-light-peugeot-boxer"
+        },
+        {
+          "label": "Expert",
+          "name": "auto-commercial-light-peugeot-expert",
+          "url": "auto-commercial-light-peugeot-expert"
+        },
+        {
+          "label": "Partner",
+          "name": "auto-commercial-light-peugeot-partner",
+          "url": "auto-commercial-light-peugeot-partner"
+        }
+      ]
+    },
+    {
+      "label": "Piaggio",
+      "name": "auto-commercial-light-piaggio",
+      "url": "auto-commercial-light-piaggio",
+      "children": [
+        {
+          "label": "APE TM",
+          "name": "auto-commercial-light-piaggio-ape_tm",
+          "url": "auto-commercial-light-piaggio-ape_tm"
+        },
+        {
+          "label": "Porter",
+          "name": "auto-commercial-light-piaggio-porter",
+          "url": "auto-commercial-light-piaggio-porter"
+        }
+      ]
+    },
+    {
+      "label": "Renault",
+      "name": "auto-commercial-light-renault",
+      "url": "auto-commercial-light-renault",
+      "children": [
+        {
+          "label": "Dokker",
+          "name": "auto-commercial-light-renault-dokker",
+          "url": "auto-commercial-light-renault-dokker"
+        },
+        {
+          "label": "Kangoo",
+          "name": "auto-commercial-light-renault-kangoo",
+          "url": "auto-commercial-light-renault-kangoo"
+        },
+        {
+          "label": "Mascott",
+          "name": "auto-commercial-light-renault-mascott",
+          "url": "auto-commercial-light-renault-mascott"
+        },
+        {
+          "label": "Master",
+          "name": "auto-commercial-light-renault-master",
+          "url": "auto-commercial-light-renault-master"
+        },
+        {
+          "label": "Maxity",
+          "name": "auto-commercial-light-renault-maxity",
+          "url": "auto-commercial-light-renault-maxity"
+        },
+        {
+          "label": "Trafic",
+          "name": "auto-commercial-light-renault-trafic",
+          "url": "auto-commercial-light-renault-trafic"
+        }
+      ]
+    },
+    {
+      "label": "SEAT",
+      "name": "auto-commercial-light-seat",
+      "url": "auto-commercial-light-seat",
+      "children": [
+        {
+          "label": "Inca",
+          "name": "auto-commercial-light-seat-inca",
+          "url": "auto-commercial-light-seat-inca"
+        }
+      ]
+    },
+    {
+      "label": "Skoda",
+      "name": "auto-commercial-light-skoda",
+      "url": "auto-commercial-light-skoda",
+      "children": [
+        {
+          "label": "Practik",
+          "name": "auto-commercial-light-skoda-practik",
+          "url": "auto-commercial-light-skoda-practik"
+        }
+      ]
+    },
+    {
+      "label": "Sokon",
+      "name": "auto-commercial-light-sokon",
+      "url": "auto-commercial-light-sokon",
+      "children": [
+        {
+          "label": "Sokon",
+          "name": "auto-commercial-light-sokon-sokon",
+          "url": "auto-commercial-light-sokon-sokon"
+        }
+      ]
+    },
+    {
+      "label": "Ssang Yong",
+      "name": "auto-commercial-light-ssang_yong",
+      "url": "auto-commercial-light-ssang_yong",
+      "children": [
+        {
+          "label": "Istana",
+          "name": "auto-commercial-light-ssang_yong-istana",
+          "url": "auto-commercial-light-ssang_yong-istana"
+        }
+      ]
+    },
+    {
+      "label": "Subaru",
+      "name": "auto-commercial-light-subaru",
+      "url": "auto-commercial-light-subaru",
+      "children": [
+        {
+          "label": "Sambar",
+          "name": "auto-commercial-light-subaru-sambar",
+          "url": "auto-commercial-light-subaru-sambar"
+        }
+      ]
+    },
+    {
+      "label": "Suzuki",
+      "name": "auto-commercial-light-suzuki",
+      "url": "auto-commercial-light-suzuki",
+      "children": [
+        {
+          "label": "APV",
+          "name": "auto-commercial-light-suzuki-apv",
+          "url": "auto-commercial-light-suzuki-apv"
+        },
+        {
+          "label": "Carry",
+          "name": "auto-commercial-light-suzuki-carry",
+          "url": "auto-commercial-light-suzuki-carry"
+        },
+        {
+          "label": "Equator",
+          "name": "auto-commercial-light-suzuki-equator",
+          "url": "auto-commercial-light-suzuki-equator"
+        }
+      ]
+    },
+    {
+      "label": "Toyota",
+      "name": "auto-commercial-light-toyota",
+      "url": "auto-commercial-light-toyota",
+      "children": [
+        {
+          "label": "Dyna",
+          "name": "auto-commercial-light-toyota-dyna",
+          "url": "auto-commercial-light-toyota-dyna"
+        },
+        {
+          "label": "Hiace",
+          "name": "auto-commercial-light-toyota-hiace",
+          "url": "auto-commercial-light-toyota-hiace"
+        },
+        {
+          "label": "Town Ace",
+          "name": "auto-commercial-light-toyota-town_ace",
+          "url": "auto-commercial-light-toyota-town_ace"
+        },
+        {
+          "label": "Toyo Ace",
+          "name": "auto-commercial-light-toyota-toyo_ace",
+          "url": "auto-commercial-light-toyota-toyo_ace"
+        }
+      ]
+    },
+    {
+      "label": "Vauxhall",
+      "name": "auto-commercial-light-vauxhall",
+      "url": "auto-commercial-light-vauxhall",
+      "children": [
+        {
+          "label": "Astravan",
+          "name": "auto-commercial-light-vauxhall-astravan",
+          "url": "auto-commercial-light-vauxhall-astravan"
+        },
+        {
+          "label": "Combo",
+          "name": "auto-commercial-light-vauxhall-combo",
+          "url": "auto-commercial-light-vauxhall-combo"
+        },
+        {
+          "label": "Corsavan",
+          "name": "auto-commercial-light-vauxhall-corsavan",
+          "url": "auto-commercial-light-vauxhall-corsavan"
+        },
+        {
+          "label": "Movano",
+          "name": "auto-commercial-light-vauxhall-movano",
+          "url": "auto-commercial-light-vauxhall-movano"
+        },
+        {
+          "label": "Vivaro Minibus",
+          "name": "auto-commercial-light-vauxhall-vivaro_minibus",
+          "url": "auto-commercial-light-vauxhall-vivaro_minibus"
+        }
+      ]
+    },
+    {
+      "label": "Volkswagen",
+      "name": "auto-commercial-light-volkswagen",
+      "url": "auto-commercial-light-volkswagen",
+      "children": [
+        {
+          "label": "Amarok",
+          "name": "auto-commercial-light-volkswagen-amarok",
+          "url": "auto-commercial-light-volkswagen-amarok"
+        },
+        {
+          "label": "Caddy",
+          "name": "auto-commercial-light-volkswagen-caddy",
+          "url": "auto-commercial-light-volkswagen-caddy"
+        },
+        {
+          "label": "Caravelle",
+          "name": "auto-commercial-light-volkswagen-caravelle",
+          "url": "auto-commercial-light-volkswagen-caravelle"
+        },
+        {
+          "label": "Crafter",
+          "name": "auto-commercial-light-volkswagen-crafter",
+          "url": "auto-commercial-light-volkswagen-crafter"
+        },
+        {
+          "label": "LT",
+          "name": "auto-commercial-light-volkswagen-lt",
+          "url": "auto-commercial-light-volkswagen-lt"
+        },
+        {
+          "label": "Multivan",
+          "name": "auto-commercial-light-volkswagen-multivan",
+          "url": "auto-commercial-light-volkswagen-multivan"
+        },
+        {
+          "label": "Transporter",
+          "name": "auto-commercial-light-volkswagen-transporter",
+          "url": "auto-commercial-light-volkswagen-transporter"
+        },
+        {
+          "label": "Type 2",
+          "name": "auto-commercial-light-volkswagen-type_2",
+          "url": "auto-commercial-light-volkswagen-type_2"
+        }
+      ]
+    },
+    {
+      "label": "YueJin",
+      "name": "auto-commercial-light-yuejin",
+      "url": "auto-commercial-light-yuejin",
+      "children": [
+        {
+          "label": "1020",
+          "name": "auto-commercial-light-yuejin-1020",
+          "url": "auto-commercial-light-yuejin-1020"
+        },
+        {
+          "label": "1041",
+          "name": "auto-commercial-light-yuejin-1041",
+          "url": "auto-commercial-light-yuejin-1041"
+        }
+      ]
+    },
+    {
+      "label": "Богдан",
+      "name": "auto-commercial-light-bogdan",
+      "url": "auto-commercial-light-bogdan",
+      "children": [
+        {
+          "label": "2310",
+          "name": "auto-commercial-light-bogdan-2310",
+          "url": "auto-commercial-light-bogdan-2310"
+        }
+      ]
+    },
+    {
+      "label": "ВАЗ",
+      "name": "auto-commercial-light-vaz",
+      "url": "auto-commercial-light-vaz",
+      "children": [
+        {
+          "label": "Largus",
+          "name": "auto-commercial-light-vaz-largus",
+          "url": "auto-commercial-light-vaz-largus"
+        }
+      ]
+    },
+    {
+      "label": "ВИС",
+      "name": "auto-commercial-light-vis",
+      "url": "auto-commercial-light-vis",
+      "children": [
+        {
+          "label": "1706",
+          "name": "auto-commercial-light-vis-1706",
+          "url": "auto-commercial-light-vis-1706"
+        },
+        {
+          "label": "2345",
+          "name": "auto-commercial-light-vis-2345",
+          "url": "auto-commercial-light-vis-2345"
+        },
+        {
+          "label": "2346",
+          "name": "auto-commercial-light-vis-2346",
+          "url": "auto-commercial-light-vis-2346"
+        },
+        {
+          "label": "2347",
+          "name": "auto-commercial-light-vis-2347",
+          "url": "auto-commercial-light-vis-2347"
+        },
+        {
+          "label": "2349",
+          "name": "auto-commercial-light-vis-2349",
+          "url": "auto-commercial-light-vis-2349"
+        }
+      ]
+    },
+    {
+      "label": "ГАЗ",
+      "name": "auto-commercial-light-gaz",
+      "url": "auto-commercial-light-gaz",
+      "children": [
+        {
+          "label": "ГАЗЕЛЬ Next",
+          "name": "auto-commercial-light-gaz-gazelx_next",
+          "url": "auto-commercial-light-gaz-gazelx_next"
+        },
+        {
+          "label": "ГАЗель (2705)",
+          "name": "auto-commercial-light-gaz-gazelx_2705",
+          "url": "auto-commercial-light-gaz-gazelx_2705"
+        },
+        {
+          "label": "ГАЗель (2705) Комби",
+          "name": "auto-commercial-light-gaz-gazelx_2705_kombi",
+          "url": "auto-commercial-light-gaz-gazelx_2705_kombi"
+        },
+        {
+          "label": "ГАЗель (3221)",
+          "name": "auto-commercial-light-gaz-gazelx_3221",
+          "url": "auto-commercial-light-gaz-gazelx_3221"
+        },
+        {
+          "label": "ГАЗель (3302)",
+          "name": "auto-commercial-light-gaz-gazelx_3302",
+          "url": "auto-commercial-light-gaz-gazelx_3302"
+        },
+        {
+          "label": "ГАЗель (3302) Фермер",
+          "name": "auto-commercial-light-gaz-gazelx_3302_fermer",
+          "url": "auto-commercial-light-gaz-gazelx_3302_fermer"
+        },
+        {
+          "label": "Соболь (2217)",
+          "name": "auto-commercial-light-gaz-sobolx_2217",
+          "url": "auto-commercial-light-gaz-sobolx_2217"
+        },
+        {
+          "label": "Соболь (2310)",
+          "name": "auto-commercial-light-gaz-sobolx_2310",
+          "url": "auto-commercial-light-gaz-sobolx_2310"
+        },
+        {
+          "label": "Соболь (2752)",
+          "name": "auto-commercial-light-gaz-sobolx_2752",
+          "url": "auto-commercial-light-gaz-sobolx_2752"
+        },
+        {
+          "label": "Соболь (2752) Комби",
+          "name": "auto-commercial-light-gaz-sobolx_2752_kombi",
+          "url": "auto-commercial-light-gaz-sobolx_2752_kombi"
+        },
+        {
+          "label": "Трофим",
+          "name": "auto-commercial-light-gaz-trofim",
+          "url": "auto-commercial-light-gaz-trofim"
+        }
+      ]
+    },
+    {
+      "label": "ГолАЗ",
+      "name": "auto-commercial-light-golaz",
+      "url": "auto-commercial-light-golaz",
+      "children": [
+        {
+          "label": "3030",
+          "name": "auto-commercial-light-golaz-3030",
+          "url": "auto-commercial-light-golaz-3030"
+        }
+      ]
+    },
+    {
+      "label": "Гуран",
+      "name": "auto-commercial-light-guran",
+      "url": "auto-commercial-light-guran",
+      "children": [
+        {
+          "label": "2318",
+          "name": "auto-commercial-light-guran-2318",
+          "url": "auto-commercial-light-guran-2318"
+        }
+      ]
+    },
+    {
+      "label": "ЗАЗ",
+      "name": "auto-commercial-light-zaz",
+      "url": "auto-commercial-light-zaz",
+      "children": [
+        {
+          "label": "Lanos-фургон",
+          "name": "auto-commercial-light-zaz-lanos-furgon",
+          "url": "auto-commercial-light-zaz-lanos-furgon"
+        }
+      ]
+    },
+    {
+      "label": "ИЖ",
+      "name": "auto-commercial-light-izh",
+      "url": "auto-commercial-light-izh",
+      "children": [
+        {
+          "label": "27175",
+          "name": "auto-commercial-light-izh-27175",
+          "url": "auto-commercial-light-izh-27175"
+        }
+      ]
+    },
+    {
+      "label": "Москвич (АЗЛК)",
+      "name": "auto-commercial-light-moskvich_azlk",
+      "url": "auto-commercial-light-moskvich_azlk",
+      "children": [
+        {
+          "label": "2335",
+          "name": "auto-commercial-light-moskvich_azlk-2335",
+          "url": "auto-commercial-light-moskvich_azlk-2335"
+        },
+        {
+          "label": "2715",
+          "name": "auto-commercial-light-moskvich_azlk-2715",
+          "url": "auto-commercial-light-moskvich_azlk-2715"
+        },
+        {
+          "label": "2901",
+          "name": "auto-commercial-light-moskvich_azlk-2901",
+          "url": "auto-commercial-light-moskvich_azlk-2901"
+        }
+      ]
+    },
+    {
+      "label": "РАФ",
+      "name": "auto-commercial-light-raf",
+      "url": "auto-commercial-light-raf",
+      "children": [
+        {
+          "label": "2203",
+          "name": "auto-commercial-light-raf-2203",
+          "url": "auto-commercial-light-raf-2203"
+        },
+        {
+          "label": "2914",
+          "name": "auto-commercial-light-raf-2914",
+          "url": "auto-commercial-light-raf-2914"
+        }
+      ]
+    },
+    {
+      "label": "Самотлор-НН",
+      "name": "auto-commercial-light-samotlor-nn",
+      "url": "auto-commercial-light-samotlor-nn",
+      "children": [
+        {
+          "label": "Ford Transit",
+          "name": "auto-commercial-light-samotlor-nn-ford_transit",
+          "url": "auto-commercial-light-samotlor-nn-ford_transit"
+        },
+        {
+          "label": "Mercedes-Benz Sprinter",
+          "name": "auto-commercial-light-samotlor-nn-mercedes-benz_sprinter",
+          "url": "auto-commercial-light-samotlor-nn-mercedes-benz_sprinter"
+        }
+      ]
+    },
+    {
+      "label": "СЕМАР",
+      "name": "auto-commercial-light-semar",
+      "url": "auto-commercial-light-semar",
+      "children": [
+        {
+          "label": "3234",
+          "name": "auto-commercial-light-semar-3234",
+          "url": "auto-commercial-light-semar-3234"
+        }
+      ]
+    },
+    {
+      "label": "ТагАЗ",
+      "name": "auto-commercial-light-tagaz",
+      "url": "auto-commercial-light-tagaz",
+      "children": [
+        {
+          "label": "Hardy",
+          "name": "auto-commercial-light-tagaz-hardy",
+          "url": "auto-commercial-light-tagaz-hardy"
+        },
+        {
+          "label": "LC100 (Master)",
+          "name": "auto-commercial-light-tagaz-lc100_master",
+          "url": "auto-commercial-light-tagaz-lc100_master"
+        }
+      ]
+    },
+    {
+      "label": "УАЗ",
+      "name": "auto-commercial-light-uaz",
+      "url": "auto-commercial-light-uaz",
+      "children": [
+        {
+          "label": "452",
+          "name": "auto-commercial-light-uaz-452",
+          "url": "auto-commercial-light-uaz-452"
+        },
+        {
+          "label": "2206",
+          "name": "auto-commercial-light-uaz-2206",
+          "url": "auto-commercial-light-uaz-2206"
+        },
+        {
+          "label": "2360",
+          "name": "auto-commercial-light-uaz-2360",
+          "url": "auto-commercial-light-uaz-2360"
+        },
+        {
+          "label": "3303",
+          "name": "auto-commercial-light-uaz-3303",
+          "url": "auto-commercial-light-uaz-3303"
+        },
+        {
+          "label": "3741",
+          "name": "auto-commercial-light-uaz-3741",
+          "url": "auto-commercial-light-uaz-3741"
+        },
+        {
+          "label": "3909",
+          "name": "auto-commercial-light-uaz-3909",
+          "url": "auto-commercial-light-uaz-3909"
+        },
+        {
+          "label": "3962",
+          "name": "auto-commercial-light-uaz-3962",
+          "url": "auto-commercial-light-uaz-3962"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "label": "Цена",
+      "name": "auto-commercial-light-price",
+      "measure": "сом",
+      "priority": 1,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 2,
+      "filter_default_toggle": true,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите цену"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-light-type",
+      "label": "Тип кузова",
+      "priority": 2,
+      "post_form": "dropdown",
+      "search_form": "checkbox",
+      "search_priority": 1,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Бортовой грузовик",
+          "priority": 1
+        },
+        {
+          "label": "Изотермический кузов",
+          "priority": 2
+        },
+        {
+          "label": "Микроавтобус",
+          "priority": 3
+        },
+        {
+          "label": "Пикап",
+          "priority": 4
+        },
+        {
+          "label": "Промтоварный фургон",
+          "priority": 5
+        },
+        {
+          "label": "Рефрижератор",
+          "priority": 6
+        },
+        {
+          "label": "Самосвал",
+          "priority": 7
+        },
+        {
+          "label": "Скорая помощь",
+          "priority": 8
+        },
+        {
+          "label": "Цельный фургон",
+          "priority": 9
+        },
+        {
+          "label": "Цистерна",
+          "priority": 10
+        },
+        {
+          "label": "Шасси",
+          "priority": 11
+        },
+        {
+          "label": "Эвакуатор",
+          "priority": 12
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип кузова"
+        }
+      ]
+    },
+    {
+      "label": "Год выпуска",
+      "name": "auto-commercial-light-year",
+      "priority": 3,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 3,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите год выпуска"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Год выпуска\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Руль",
+      "name": "auto-commercial-light-steering_wheel",
+      "priority": 4,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 4,
+      "options": [
+        {
+          "label": "Слева",
+          "priority": 1
+        },
+        {
+          "label": "Справа",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите расположение руля"
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-light-engine",
+      "label": "Тип двигателя",
+      "priority": 5,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 5,
+      "options": [
+        {
+          "label": "Дизель",
+          "priority": 1
+        },
+        {
+          "label": "Бензин",
+          "priority": 2
+        },
+        {
+          "label": "Бензин/Газ",
+          "priority": 3
+        },
+        {
+          "label": "Гибрид",
+          "priority": 4
+        },
+        {
+          "label": "Электро",
+          "priority": 5
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип двигателя"
+        }
+      ]
+    },
+    {
+      "label": "Объем двигателя",
+      "name": "auto-commercial-light-volume",
+      "priority": 6,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 6,
+      "measure": "л.",
+      "hint": "пример: 2.0",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите объем двигателя"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "\"Объем двигателя\" - значение должно быть числом"
+        }
+      ]
+    },
+    {
+      "label": "Коробка передач",
+      "name": "auto-commercial-light-transmission",
+      "priority": 7,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 7,
+      "options": [
+        {
+          "label": "Механика",
+          "priority": 1
+        },
+        {
+          "label": "Автомат",
+          "priority": 2
+        },
+        {
+          "label": "Вариатор",
+          "priority": 3
+        },
+        {
+          "label": "Робот",
+          "priority": 4
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип коробки передач"
+        }
+      ]
+    },
+    {
+      "label": "Пробег",
+      "name": "auto-commercial-light-odometer",
+      "priority": 8,
+      "post_form": "textbox",
+      "measure": "км",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Пробег\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Мощность",
+      "name": "auto-commercial-light-power",
+      "priority": 9,
+      "post_form": "textbox",
+      "measure": "л.с.",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Мощность\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Грузоподъемность",
+      "name": "auto-commercial-light-capacity",
+      "priority": 10,
+      "post_form": "textbox",
+      "measure": "кг.",
+      "hint": "пример: 990 кг.",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Грузоподъемность\" - Значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Привод",
+      "name": "auto-commercial-light-drive",
+      "priority": 11,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "Заднеприводный с подключаемым передним",
+          "priority": 1
+        },
+        {
+          "label": "Задний",
+          "priority": 2
+        },
+        {
+          "label": "Передний",
+          "priority": 3
+        },
+        {
+          "label": "Полный",
+          "priority": 4
+        },
+        {
+          "label": "Полный подключаемый",
+          "priority": 5
+        },
+        {
+          "label": "Постоянный привод на все колеса",
+          "priority": 6
+        }
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "auto-commercial-light-condition",
+      "priority": 12,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "Отличное",
+          "priority": 1
+        },
+        {
+          "label": "Хорошее",
+          "priority": 2
+        },
+        {
+          "label": "Среднее",
+          "priority": 3
+        },
+        {
+          "label": "Требует ремонта",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "Наличие",
+      "name": "auto-commercial-light-vailability",
+      "priority": 13,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 13,
+      "options": [
+        {
+          "label": "В наличии",
+          "priority": 1
+        },
+        {
+          "label": "На заказ",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите наличие"
+        }
+      ]
+    },
+    {
+      "label": "Опции",
+      "name": "auto-commercial-light-options",
+      "priority": 14,
+      "post_form": "collapse",
+      "parameters": [
+        {
+          "label": "Безопасность",
+          "name": "auto-commercial-light-options-security",
+          "priority": 2,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "abs",
+              "label": "Антиблокировочная система (ABS)",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "name": "airbags",
+              "label": "Подушки безопасности",
+              "post_form": "checkbox",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Комфорт",
+          "name": "comfort",
+          "priority": 3,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "cruise_control",
+              "label": "Круиз-контроль",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "power_steering",
+              "label": "Усилитель руля",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "name": "computer",
+              "label": "Бортовой компьютер",
+              "post_form": "checkbox",
+              "priority": 3
+            },
+            {
+              "name": "air_conditioning",
+              "label": "Кондиционер",
+              "post_form": "checkbox",
+              "priority": 4
+            },
+            {
+              "name": "steering_regulation",
+              "label": "Регулировка руля",
+              "post_form": "checkbox",
+              "priority": 5
+            }
+          ]
+        },
+        {
+          "label": "Защита от угона",
+          "name": "antitheft_protection",
+          "priority": 4,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "signaling",
+              "label": "Сигнализация",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "central_lock",
+              "label": "Центральный замок",
+              "post_form": "checkbox",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Обзор",
+          "name": "view",
+          "priority": 5,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "heated_mirrors",
+              "label": "Обогрев зеркал",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "power_mirrors",
+              "label": "Электропривод зеркал",
+              "post_form": "checkbox",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Прочее",
+      "name": "auto-commercial-light-additional_information",
+      "priority": 15,
+      "post_form": "checkboxlist",
+      "parameters": [
+        {
+          "name": "newly_delivered",
+          "label": "Свежедоставлен",
+          "post_form": "checkbox",
+          "priority": 1
+        },
+        {
+          "name": "cleared",
+          "label": "Растаможен",
+          "post_form": "checkbox",
+          "priority": 2
+        },
+        {
+          "name": "investment_does_not_required",
+          "label": "Вложений не требует",
+          "post_form": "checkbox",
+          "priority": 3
+        },
+        {
+          "name": "urgent",
+          "label": "Срочно",
+          "post_form": "checkbox",
+          "priority": 4
+        },
+        {
+          "name": "inspection_passed",
+          "label": "Техосмотр пройден",
+          "post_form": "checkbox",
+          "priority": 5
+        },
+        {
+          "name": "barter",
+          "label": "Возможен обмен",
+          "post_form": "checkbox",
+          "priority": 6
+        }
+      ]
+    }
+  ]
+}

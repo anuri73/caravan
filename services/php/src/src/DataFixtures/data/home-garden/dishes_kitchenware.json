@@ -1,0 +1,200 @@
+{
+  "label": "Посуда и кухонные принадлежности",
+  "url": "home-garden-dishes-kitchenware",
+  "priority": 6,
+  "children": [
+    {
+      "label": "Приготовление пищи",
+      "url": "home-garden-dishes-kitchenware-cooking",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-dishes-kitchenware-cooking-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Сковороды и сотейники","priority": 1},
+            {"label": "Кастрюли и ковши","priority": 1},
+            {"label": "Наборы посуды для готовки","priority": 1},
+            {"label": "Аксессуары для готовки","priority": 1},
+            {"label": "Терки и измельчители","priority": 1},
+            {"label": "Выпечка и запекание","priority": 1},
+            {"label": "Кухонная навеска","priority": 1},
+            {"label": "Разделочные доски","priority": 1},
+            {"label": "Мерные емкости и сита","priority": 1},
+            {"label": "Крышки и колпаки","priority": 1},
+            {"label": "Миски и дуршлаги","priority": 1},
+            {"label": "Наборы для фондю","priority": 1},
+            {"label": "Казаны, тажины","priority": 1},
+            {"label": "Утятницы","priority": 1},
+            {"label": "Консервные ножи и закаточные машинки","priority": 1},
+            {"label": "Кондитерские мешки, шприцы и насадки","priority": 1},
+            {"label": "Ножи кухонные","priority": 1},
+            {"label": "Подставки для ножей","priority": 1},
+            {"label": "Мусаты, точилки, точильные камни","priority": 1},
+            {"label": "Ножницы кухонные","priority": 1},
+            {"label": "Скалки","priority": 1},
+            {"label": "Пельменницы, машинки для пасты и равиоли","priority": 1},
+            {"label": "Наборы ножей","priority": 1},
+            {"label": "Овощечистки, рыбочистки","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Сервировка стола",
+      "url": "home-garden-dishes-kitchenware-table-setting",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-dishes-kitchenware-table-setting-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Сервизы","priority": 1},
+            {"label": "Столовые приборы","priority": 1},
+            {"label": "Кружки, блюдца и пары","priority": 1},
+            {"label": "Бокалы и стаканы","priority": 1},
+            {"label": "Тарелки","priority": 1},
+            {"label": "Блюда и салатники","priority": 1},
+            {"label": "Рюмки и стопки","priority": 1},
+            {"label": "Кувшины и графины","priority": 1},
+            {"label": "Подносы","priority": 1},
+            {"label": "Предметы сервировки","priority": 1},
+            {"label": "Декоративная посуда","priority": 1},
+            {"label": "Принадлежности для суши","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Приготовление напитков",
+      "url": "home-garden-dishes-kitchenware-beverage-preparation",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-dishes-kitchenware-beverage-preparation-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Чайники","priority": 1},
+            {"label": "Заварочные чайники","priority": 1},
+            {"label": "Аксессуары","priority": 1},
+            {"label": "Принадлежности для бутылок","priority": 1},
+            {"label": "Самовары","priority": 1},
+            {"label": "Фляги","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Кухонные аксессуары",
+      "url": "home-garden-dishes-kitchenware-kitchen-accessories",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-dishes-kitchenware-kitchen-accessories-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Кухонные весы","priority": 1},
+            {"label": "Термометры и таймеры","priority": 1},
+            {"label": "Рукавицы, прихватки, фартуки","priority": 1},
+            {"label": "Подставки и держатели","priority": 1},
+            {"label": "Фольга, бумага, пакеты","priority": 1},
+            {"label": "Бумажные полотенца и салфетки","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Хранение продуктов",
+      "url": "home-garden-dishes-kitchenware-food-storage",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-dishes-kitchenware-food-storage-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Контейнеры и ланч-боксы","priority": 1},
+            {"label": "Солонки, перечницы и емкости для специй","priority": 1},
+            {"label": "Хлебницы и корзины для хлеба","priority": 1},
+            {"label": "Банки для хранения","priority": 1},
+            {"label": "Бочки, кадки, жбаны","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Термосы и термокружки",
+      "url": "home-garden-dishes-kitchenware-thermoses-hot-mugs",
+      "priority": 6
+    },
+    {
+      "label": "Одноразовая посуда",
+      "url": "home-garden-dishes-kitchenware-disposable-tableware",
+      "priority": 7
+    },
+    {
+      "label": "Прочая посуда и кухонные принадлежности",
+      "url": "home-garden-dishes-kitchenware-other",
+      "priority": 8
+    }
+  ]
+}

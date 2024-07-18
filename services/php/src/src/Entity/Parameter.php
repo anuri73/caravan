@@ -4,6 +4,8 @@ namespace App\Entity;
 
 use App\Repository\ParameterRepository;
 use DateTimeImmutable;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Serializer\Attribute as Serializer;
 
@@ -19,7 +21,7 @@ class Parameter
     private ?string $name = null;
 
     #[ORM\Column(nullable: true)]
-    private ?int $priority = null;
+    private ?int $priority = 0;
 
     #[ORM\Column]
     private ?DateTimeImmutable $createdAt = null;
@@ -31,6 +33,26 @@ class Parameter
     #[ORM\JoinColumn(name: 'category_name', referencedColumnName: 'name')]
     #[Serializer\MaxDepth(1)]
     private ?Category $category = null;
+
+    /**
+     * @var Collection<int, ParameterValidation>
+     */
+    #[ORM\OneToMany(targetEntity: ParameterValidation::class, mappedBy: 'parameter', orphanRemoval: true)]
+    private Collection $validators;
+
+    #[ORM\Column(length: 255, options: ["default" => "textbox"])]
+    private ?string $post_form = null;
+
+    #[ORM\Column(length: 255, nullable: true)]
+    private ?string $search_form = null;
+
+    #[ORM\Column(nullable: true)]
+    private ?int $searchPriority = 0;
+
+    public function __construct()
+    {
+        $this->validators = new ArrayCollection();
+    }
 
     public function getName(): ?string
     {
@@ -89,6 +111,72 @@ class Parameter
     public function setCategory(?Category $category): void
     {
         $this->category = $category;
+    }
+
+    /**
+     * @return Collection<int, ParameterValidation>
+     */
+    public function getValidators(): Collection
+    {
+        return $this->validators;
+    }
+
+    public function addValidator(ParameterValidation $validator): static
+    {
+        if (!$this->validators->contains($validator)) {
+            $this->validators->add($validator);
+            $validator->setParameter($this);
+        }
+
+        return $this;
+    }
+
+    public function removeValidator(ParameterValidation $validator): static
+    {
+        if ($this->validators->removeElement($validator)) {
+            // set the owning side to null (unless already changed)
+            if ($validator->getParameter() === $this) {
+                $validator->setParameter(null);
+            }
+        }
+
+        return $this;
+    }
+
+    public function getPostForm(): ?string
+    {
+        return $this->post_form;
+    }
+
+    public function setPostForm(string $post_form): static
+    {
+        $this->post_form = $post_form;
+
+        return $this;
+    }
+
+    public function getSearchForm(): ?string
+    {
+        return $this->search_form;
+    }
+
+    public function setSearchForm(string $search_form): static
+    {
+        $this->search_form = $search_form;
+
+        return $this;
+    }
+
+    public function getSearchPriority(): ?int
+    {
+        return $this->searchPriority;
+    }
+
+    public function setSearchPriority(int $searchPriority): static
+    {
+        $this->searchPriority = $searchPriority;
+
+        return $this;
     }
 
 }

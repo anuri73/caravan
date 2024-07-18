@@ -1,0 +1,184 @@
+{
+  "label": "Автокресла",
+  "url": "kids-carseats",
+  "priority": 4,
+  "parameters": [
+    {
+      "label": "Группа",
+      "name": "kids-carseats-type",
+      "priority": 10,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите группу"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 10,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "до 10 кг",
+          "priority": 1
+        },
+        {
+          "label": "до 13 кг",
+          "priority": 2
+        },
+        {
+          "label": "до 18 кг",
+          "priority": 3
+        },
+        {
+          "label": "до 25 кг",
+          "priority": 4
+        },
+        {
+          "label": "до 36 кг",
+          "priority": 5
+        },
+        {
+          "label": "9-18 кг",
+          "priority": 6
+        },
+        {
+          "label": "9-25 кг",
+          "priority": 7
+        },
+        {
+          "label": "9-36 кг",
+          "priority": 8
+        },
+        {
+          "label": "15-36 кг",
+          "priority": 9
+        },
+        {
+          "label": "22-36 кг",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "label": "Способ установки",
+      "name": "installment type",
+      "priority": 21,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите способ установки"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 21,
+      "options": [
+        {
+          "label": "Спиной вперед",
+          "priority": 1
+        },
+        {
+          "label": "Лицом вперед",
+          "priority": 2
+        },
+        {
+          "label": "Спиной или лицом вперед",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "label": "Дополнительные опции",
+      "name": "kids-carseats-options",
+      "priority": 23,
+      "post_form": "checkboxlist",
+      "parameters": [
+        {
+          "label": "Бустер",
+          "name": "booster",
+          "post_form": "checkbox",
+          "priority": 1
+        },
+        {
+          "label": "Крепление Isofix",
+          "name": "isofix mount",
+          "post_form": "checkbox",
+          "priority": 2
+        },
+        {
+          "label": "Крепление автомобильными ремнями",
+          "name": "seatbelt mount",
+          "post_form": "checkbox",
+          "priority": 3
+        },
+        {
+          "label": "Регулировка наклона спинки",
+          "name": "backrest adjuster",
+          "post_form": "checkbox",
+          "priority": 4
+        },
+        {
+          "label": "Внутренние ремни",
+          "name": "Inner straps",
+          "post_form": "checkbox",
+          "priority": 5
+        },
+        {
+          "label": "Автокресло-переноска",
+          "name": "travel system",
+          "post_form": "checkbox",
+          "priority": 6
+        },
+        {
+          "label": "Регулировка высоты подголовника",
+          "name": "adjustable head restraint",
+          "post_form": "checkbox",
+          "priority": 7
+        },
+        {
+          "label": "Регулировка высоты внутренних ремней",
+          "name": "adjustable inner straps",
+          "post_form": "checkbox",
+          "priority": 8
+        },
+        {
+          "label": "Горизонтальное положение спинки",
+          "name": "horizontal position",
+          "post_form": "checkbox",
+          "priority": 9
+        },
+        {
+          "label": "Поворотный механизм",
+          "name": "indexing mechanism",
+          "post_form": "checkbox",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "kids-carseats-condition",
+      "priority": 24,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите состояние"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 24,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ]
+}

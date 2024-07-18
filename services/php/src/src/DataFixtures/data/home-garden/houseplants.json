@@ -1,0 +1,28 @@
+{
+  "label": "Комнатные растения",
+  "url": "home-garden-houseplants",
+  "priority": 10,
+  "parameters": [
+    {
+      "label": "Тип",
+      "name": "home-garden-houseplants-type",
+      "priority": 11,
+      "post_form": "dropdown",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип"
+        }
+      ],
+      "search_form": "checkbox",
+      "search_priority": 11,
+      "filter_default_toggle": true,
+      "options": [
+        {"label": "Горшки, подставки для цветов","priority": 1},
+        {"label": "Декоративно-лиственные растения","priority": 1},
+        {"label": "Декоративно-цветущие растения","priority": 1},
+        {"label": "Другой","priority": 1}
+      ]
+    }
+  ]
+}

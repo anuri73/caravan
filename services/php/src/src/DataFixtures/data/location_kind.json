@@ -1,0 +1,22 @@
+[
+  {
+    "name": "country",
+    "label": "Страна",
+    "children": [
+      {
+        "name": "city",
+        "label": "Город республиканского значения"
+      },
+      {
+        "name": "oblast",
+        "label": "Область",
+        "children": [
+          {
+            "name": "town",
+            "label": "Город обастного значения"
+          }
+        ]
+      }
+    ]
+  }
+]

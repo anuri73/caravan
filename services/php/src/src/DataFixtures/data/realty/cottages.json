@@ -1,0 +1,1278 @@
+{
+  "name": "realty-cottages",
+  "label": "Коттеджи, таунхаусы, дачи",
+  "url": "realty-cottages",
+  "priority": 5,
+  "children": [
+    {
+      "name": "realty-cottages-sell",
+      "label": "Продам",
+      "url": "realty-cottages-sell",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Право собственности",
+          "name": "realty-cottages-sell-from",
+          "priority": 1,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип права собствености"
+            }
+          ],
+          "options": [
+            {
+              "label": "Собственник",
+              "priority": 1
+            },
+            {
+              "label": "Посредник",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Тип",
+          "name": "realty-cottages-sell-type",
+          "priority": 2,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 2,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Дача",
+              "priority": 1
+            },
+            {
+              "label": "Коттедж",
+              "priority": 2
+            },
+            {
+              "label": "Таунхаус",
+              "priority": 3
+            }
+          ],
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите тип объекта"
+            }
+          ]
+        },
+        {
+          "label": "Количество комнат",
+          "name": "realty-cottages-sell-room-count",
+          "priority": 9,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 9,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите количество комнат"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Кол-во комнат\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Местоположение",
+          "name": "realty-cottages-sell-microregion",
+          "priority": 10,
+          "hint": "Район, адрес или название дачного массива / коттеджного городка",
+          "post_form": "textbox"
+        },
+        {
+          "label": "Цена",
+          "name": "realty-cottages-sell-price",
+          "priority": 11,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "measure": "сом",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\"- значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Материал стен",
+          "name": "realty-cottages-sell-building-type",
+          "priority": 20,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 20,
+          "options": [
+            {
+              "label": "Кирпичный",
+              "priority": 1
+            },
+            {
+              "label": "Панельный",
+              "priority": 2
+            },
+            {
+              "label": "Монолитный",
+              "priority": 3
+            },
+            {
+              "label": "Деревянный",
+              "priority": 4
+            },
+            {
+              "label": "Пеноблочный",
+              "priority": 5
+            },
+            {
+              "label": "Сэндвич-панельный",
+              "priority": 6
+            },
+            {
+              "label": "Каркасно-щитовой",
+              "priority": 7
+            },
+            {
+              "label": "Шлакоблочный",
+              "priority": 8
+            },
+            {
+              "label": "Саманный",
+              "priority": 9
+            },
+            {
+              "label": "Другой",
+              "priority": 10
+            }
+          ]
+        },
+        {
+          "label": "Площадь дома",
+          "name": "realty-cottages-sell-area",
+          "priority": 40,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 40,
+          "measure": "м²",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите площадь"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Площадь участка",
+          "name": "realty-cottages-sell-area-land",
+          "priority": 50,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 50,
+          "measure": "соток",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь участка - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "realty-cottages-sell-condition",
+          "priority": 51,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 51,
+          "options": [
+            {
+              "label": "Требуется ремонт",
+              "priority": 1
+            },
+            {
+              "label": "Среднее",
+              "priority": 2
+            },
+            {
+              "label": "Хорошее",
+              "priority": 3
+            },
+            {
+              "label": "Евроремонт",
+              "priority": 4
+            },
+            {
+              "label": "Свободная планировка",
+              "priority": 5
+            },
+            {
+              "label": "Черновая отделка",
+              "priority": 6
+            },
+            {
+              "label": "Недостроено",
+              "priority": 7
+            }
+          ]
+        },
+        {
+          "label": "Подключено",
+          "name": "realty-cottages-sell-area-land-connected",
+          "priority": 60,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "phone",
+              "post_form": "checkbox",
+              "label": "Телефон",
+              "priority": 1
+            },
+            {
+              "name": "internet",
+              "post_form": "checkbox",
+              "label": "Интернет",
+              "priority": 2
+            },
+            {
+              "name": "iptv",
+              "post_form": "checkbox",
+              "label": "Cпутниковое/Кабельное/IP ТВ",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Санузел",
+          "name": "realty-cottages-sell-lavatory",
+          "priority": 70,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Раздельный",
+              "priority": 1
+            },
+            {
+              "label": "Совмещенный",
+              "priority": 2
+            },
+            {
+              "label": "2 с/у и более",
+              "priority": 3
+            },
+            {
+              "label": "Во дворе",
+              "priority": 4
+            },
+            {
+              "label": "Нет",
+              "priority": 5
+            }
+          ]
+        },
+        {
+          "label": "Канализация",
+          "name": "realty-cottages-sell-sewerage",
+          "priority": 80,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 80,
+          "options": [
+            {
+              "label": "Центральная",
+              "priority": 1
+            },
+            {
+              "label": "Есть возможность подведения",
+              "priority": 2
+            },
+            {
+              "label": "Септик",
+              "priority": 3
+            },
+            {
+              "label": "Нет",
+              "priority": 4
+            }
+          ]
+        },
+        {
+          "label": "Вода",
+          "name": "realty-cottages-sell-water",
+          "priority": 90,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 90,
+          "options": [
+            {
+              "label": "Центральное водоснабжение",
+              "priority": 1
+            },
+            {
+              "label": "Есть возможность подведения",
+              "priority": 2
+            },
+            {
+              "label": "Скважина",
+              "priority": 3
+            },
+            {
+              "label": "Нет",
+              "priority": 4
+            }
+          ]
+        },
+        {
+          "label": "Электричество",
+          "name": "realty-cottages-sell-electricity",
+          "priority": 100,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 100,
+          "options": [
+            {
+              "label": "Есть",
+              "priority": 1
+            },
+            {
+              "label": "Есть возможность подведения",
+              "priority": 2
+            },
+            {
+              "label": "Нет",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Отопление",
+          "name": "realty-cottages-sell-heating",
+          "priority": 110,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 110,
+          "options": [
+            {
+              "label": "Центральное",
+              "priority": 1
+            },
+            {
+              "label": "3-х фазка",
+              "priority": 2
+            },
+            {
+              "label": "На газе",
+              "priority": 3
+            },
+            {
+              "label": "На твердом топливе",
+              "priority": 4
+            },
+            {
+              "label": "На жидком топливе",
+              "priority": 5
+            },
+            {
+              "label": "Смешанное",
+              "priority": 6
+            },
+            {
+              "label": "Без отопления",
+              "priority": 7
+            }
+          ]
+        },
+        {
+          "label": "Газ",
+          "name": "realty-cottages-sell-gas",
+          "priority": 120,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 120,
+          "options": [
+            {
+              "label": "Магистральный",
+              "priority": 1
+            },
+            {
+              "label": "Автономный",
+              "priority": 2
+            },
+            {
+              "label": "Есть возможность подключения",
+              "priority": 3
+            },
+            {
+              "label": "Нет",
+              "priority": 4
+            }
+          ]
+        },
+        {
+          "label": "Безопасность",
+          "name": "realty-cottages-sell-security",
+          "priority": 130,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "bars_on_the_windows",
+              "post_form": "checkbox",
+              "label": "Решетки на окнах",
+              "priority": 1
+            },
+            {
+              "name": "guard",
+              "post_form": "checkbox",
+              "label": "Охрана",
+              "priority": 2
+            },
+            {
+              "name": "intercom",
+              "post_form": "checkbox",
+              "label": "Домофон",
+              "priority": 3
+            },
+            {
+              "name": "signalling",
+              "post_form": "checkbox",
+              "label": "Сигнализация",
+              "priority": 4
+            },
+            {
+              "name": "surveillance",
+              "post_form": "checkbox",
+              "label": "Видеонаблюдение",
+              "priority": 5
+            },
+            {
+              "name": "video_intercom",
+              "post_form": "checkbox",
+              "label": "Видеодомофон",
+              "priority": 6
+            }
+          ]
+        },
+        {
+          "label": "Прочее",
+          "name": "realty-cottages-sell-other_info",
+          "priority": 131,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "plastic_window",
+              "post_form": "checkbox",
+              "label": "Пластиковые окна",
+              "priority": 1
+            },
+            {
+              "name": "canopy",
+              "post_form": "checkbox",
+              "label": "Навес",
+              "priority": 2
+            },
+            {
+              "name": "bath",
+              "post_form": "checkbox",
+              "label": "Баня",
+              "priority": 3
+            },
+            {
+              "name": "sauna",
+              "post_form": "checkbox",
+              "label": "Сауна",
+              "priority": 4
+            },
+            {
+              "name": "pool",
+              "post_form": "checkbox",
+              "label": "Бассейн",
+              "priority": 5
+            },
+            {
+              "name": "garage",
+              "post_form": "checkbox",
+              "label": "Гараж/паркинг",
+              "priority": 6
+            },
+            {
+              "name": "garden",
+              "post_form": "checkbox",
+              "label": "Сад",
+              "priority": 7
+            },
+            {
+              "name": "patch",
+              "post_form": "checkbox",
+              "label": "Времянка",
+              "priority": 8
+            },
+            {
+              "name": "veranda",
+              "post_form": "checkbox",
+              "label": "Веранда",
+              "priority": 9
+            },
+            {
+              "name": "barn",
+              "post_form": "checkbox",
+              "label": "Хозпостройки",
+              "priority": 10
+            },
+            {
+              "name": "cellar",
+              "post_form": "checkbox",
+              "label": "Погреб",
+              "priority": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "realty-cottages-rent",
+      "label": "Сдам",
+      "url": "realty-cottages-rent",
+      "priority": 2,
+      "children": [
+        {
+          "name": "realty-cottages-rent-monthly",
+          "label": "Помесячно",
+          "url": "realty-cottages-rent-monthly",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Право собственности",
+              "name": "realty-cottages-rent-monthly-from",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип права собствености"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Собственник",
+                  "priority": 1
+                },
+                {
+                  "label": "Посредник",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Тип",
+              "name": "realty-cottages-rent-monthly-type",
+              "priority": 2,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Дача",
+                  "priority": 1
+                },
+                {
+                  "label": "Коттедж",
+                  "priority": 2
+                },
+                {
+                  "label": "Таунхаус",
+                  "priority": 3
+                }
+              ],
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите тип объекта"
+                }
+              ]
+            },
+            {
+              "label": "Количество комнат",
+              "name": "realty-cottages-rent-monthly-room-count",
+              "priority": 9,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 9,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите количество комнат"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "\"Кол-во комнат\" - значение должно быть целым числом."
+                }
+              ]
+            },
+            {
+              "label": "Местоположение",
+              "name": "realty-cottages-rent-monthly-microregion",
+              "priority": 10,
+              "hint": "Район, адрес или название дачного массива / коттеджного городка",
+              "post_form": "textbox"
+            },
+            {
+              "label": "Цена",
+              "name": "realty-cottages-rent-monthly-price",
+              "priority": 11,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "measure": "сом",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите цену"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "\"Цена\"- значение должно быть целым числом."
+                }
+              ]
+            },
+            {
+              "label": "Площадь дома",
+              "name": "realty-cottages-rent-monthly-area",
+              "priority": 40,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 40,
+              "measure": "м²",
+              "hint": "Пример: 90 м²",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите площадь"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Площадь - значение должно быть числом"
+                }
+              ]
+            },
+            {
+              "label": "Площадь участка",
+              "name": "realty-cottages-rent-monthly-area-land",
+              "priority": 50,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 50,
+              "measure": "соток",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Площадь участка - значение должно быть числом"
+                }
+              ]
+            },
+            {
+              "label": "Состояние",
+              "name": "realty-cottages-rent-monthly-condition",
+              "priority": 51,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 51,
+              "options": [
+                {
+                  "label": "Требуется ремонт",
+                  "priority": 1
+                },
+                {
+                  "label": "Среднее",
+                  "priority": 2
+                },
+                {
+                  "label": "Хорошее",
+                  "priority": 3
+                },
+                {
+                  "label": "Евроремонт",
+                  "priority": 4
+                }
+              ]
+            },
+            {
+              "label": "Подключено",
+              "name": "realty-cottages-rent-monthly-area-land-connected",
+              "priority": 60,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "phone",
+                  "post_form": "checkbox",
+                  "label": "Телефон",
+                  "priority": 1
+                },
+                {
+                  "name": "internet",
+                  "post_form": "checkbox",
+                  "label": "Интернет",
+                  "priority": 2
+                },
+                {
+                  "name": "iptv",
+                  "post_form": "checkbox",
+                  "label": "Кабельное/IP ТВ",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "label": "Санузел",
+              "name": "realty-cottages-rent-monthly-lavatory",
+              "priority": 70,
+              "post_form": "radio",
+              "options": [
+                {
+                  "label": "Раздельный",
+                  "priority": 1
+                },
+                {
+                  "label": "Совмещенный",
+                  "priority": 2
+                },
+                {
+                  "label": "2 с/у и более",
+                  "priority": 3
+                },
+                {
+                  "label": "Во дворе",
+                  "priority": 4
+                },
+                {
+                  "label": "Нет",
+                  "priority": 5
+                }
+              ]
+            },
+            {
+              "label": "Мебель",
+              "name": "realty-cottages-rent-monthly-furniture",
+              "priority": 81,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 81,
+              "options": [
+                {
+                  "label": "Полностью мебелирована",
+                  "priority": 1
+                },
+                {
+                  "label": "Частично мебелирована",
+                  "priority": 2
+                },
+                {
+                  "label": "Пустая",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "label": "Техника",
+              "name": "realty-cottages-rent-monthly-equipment",
+              "priority": 82,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "tv",
+                  "post_form": "checkbox",
+                  "label": "Телевизор",
+                  "priority": 1
+                },
+                {
+                  "name": "washing_machine",
+                  "post_form": "checkbox",
+                  "label": "Стиральная машина",
+                  "priority": 2
+                },
+                {
+                  "name": "refrigerator",
+                  "post_form": "checkbox",
+                  "label": "Холодильник",
+                  "priority": 3
+                },
+                {
+                  "name": "microwave",
+                  "post_form": "checkbox",
+                  "label": "Микроволновка",
+                  "priority": 4
+                },
+                {
+                  "name": "gas-stove",
+                  "post_form": "checkbox",
+                  "label": "Газовая плита",
+                  "priority": 5
+                },
+                {
+                  "name": "conditioner",
+                  "post_form": "checkbox",
+                  "label": "Кондиционер",
+                  "priority": 6
+                },
+                {
+                  "name": "water_heater",
+                  "post_form": "checkbox",
+                  "label": "Водонагреватель",
+                  "priority": 7
+                }
+              ]
+            },
+            {
+              "label": "Безопасность",
+              "name": "realty-cottages-rent-monthly-security",
+              "priority": 130,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "bars_on_the_windows",
+                  "post_form": "checkbox",
+                  "label": "Решетки на окнах",
+                  "priority": 1
+                },
+                {
+                  "name": "guard",
+                  "post_form": "checkbox",
+                  "label": "Охрана",
+                  "priority": 2
+                },
+                {
+                  "name": "intercom",
+                  "post_form": "checkbox",
+                  "label": "Домофон",
+                  "priority": 3
+                },
+                {
+                  "name": "signalling",
+                  "post_form": "checkbox",
+                  "label": "Сигнализация",
+                  "priority": 4
+                },
+                {
+                  "name": "surveillance",
+                  "post_form": "checkbox",
+                  "label": "Видеонаблюдение",
+                  "priority": 5
+                },
+                {
+                  "name": "video_intercom",
+                  "post_form": "checkbox",
+                  "label": "Видеодомофон",
+                  "priority": 6
+                }
+              ]
+            },
+            {
+              "label": "Прочее",
+              "name": "realty-cottages-rent-monthly-other_info",
+              "priority": 131,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "plastic_window",
+                  "post_form": "checkbox",
+                  "label": "Пластиковые окна",
+                  "priority": 1
+                },
+                {
+                  "name": "canopy",
+                  "post_form": "checkbox",
+                  "label": "Навес",
+                  "priority": 2
+                },
+                {
+                  "name": "bath",
+                  "post_form": "checkbox",
+                  "label": "Баня",
+                  "priority": 3
+                },
+                {
+                  "name": "sauna",
+                  "post_form": "checkbox",
+                  "label": "Сауна",
+                  "priority": 4
+                },
+                {
+                  "name": "pool",
+                  "post_form": "checkbox",
+                  "label": "Бассейн",
+                  "priority": 5
+                },
+                {
+                  "name": "garage",
+                  "post_form": "checkbox",
+                  "label": "Гараж",
+                  "priority": 6
+                },
+                {
+                  "name": "garden",
+                  "post_form": "checkbox",
+                  "label": "Сад",
+                  "priority": 7
+                },
+                {
+                  "name": "patch",
+                  "post_form": "checkbox",
+                  "label": "Времянка",
+                  "priority": 8
+                },
+                {
+                  "name": "veranda",
+                  "post_form": "checkbox",
+                  "label": "Веранда",
+                  "priority": 9
+                },
+                {
+                  "name": "barn",
+                  "post_form": "checkbox",
+                  "label": "Хозпостройки",
+                  "priority": 10
+                },
+                {
+                  "name": "cellar",
+                  "post_form": "checkbox",
+                  "label": "Погреб",
+                  "priority": 11
+                },
+                {
+                  "name": "domestic",
+                  "post_form": "checkbox",
+                  "label": "Семейным",
+                  "priority": 16
+                },
+                {
+                  "name": "longterm",
+                  "post_form": "checkbox",
+                  "label": "На длительный срок",
+                  "priority": 17
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "realty-cottages-rent-daily",
+          "label": "Посуточно",
+          "url": "realty-cottages-rent-daily",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "realty-cottages-rent-daily-type",
+              "priority": 2,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 2,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Дача",
+                  "priority": 1
+                },
+                {
+                  "label": "Коттедж",
+                  "priority": 2
+                },
+                {
+                  "label": "Таунхаус",
+                  "priority": 3
+                }
+              ],
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите тип объекта"
+                }
+              ]
+            },
+            {
+              "label": "Количество комнат",
+              "name": "realty-cottages-rent-daily-room-count",
+              "priority": 3,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 3,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите количество комнат"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "\"Кол-во комнат\" - значение должно быть целым числом."
+                }
+              ]
+            },
+            {
+              "label": "Местоположение",
+              "name": "realty-cottages-rent-daily-microregion",
+              "priority": 10,
+              "hint": "Район, адрес или название дачного массива / коттеджного городка",
+              "post_form": "textbox"
+            },
+            {
+              "label": "Цена за сутки",
+              "name": "realty-cottages-rent-daily-price",
+              "priority": 11,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 11,
+              "measure": "сом",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите цену за сутки"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "\"Цена\"- значение должно быть целым числом."
+                }
+              ]
+            },
+            {
+              "label": "Площадь дома",
+              "name": "realty-cottages-rent-daily-area",
+              "priority": 40,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 40,
+              "measure": "м²",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Площадь - значение должно быть числом"
+                }
+              ]
+            },
+            {
+              "label": "Вместимость",
+              "name": "realty-cottages-rent-capacity",
+              "priority": 41,
+              "post_form": "textbox",
+              "measure": "человек",
+              "search_form": "range",
+              "search_priority": 41,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true
+                }
+              ]
+            },
+            {
+              "label": "Состояние",
+              "name": "realty-cottages-rent-daily-condition",
+              "priority": 51,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 51,
+              "options": [
+                {
+                  "label": "Среднее",
+                  "priority": 2
+                },
+                {
+                  "label": "Хорошее",
+                  "priority": 3
+                },
+                {
+                  "label": "Евроремонт",
+                  "priority": 4
+                }
+              ]
+            },
+            {
+              "label": "Подключено",
+              "name": "realty-cottages-rent-daily-area-connected",
+              "priority": 60,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "phone",
+                  "post_form": "checkbox",
+                  "label": "Телефон",
+                  "priority": 1
+                },
+                {
+                  "name": "internet",
+                  "post_form": "checkbox",
+                  "label": "Интернет",
+                  "priority": 2
+                },
+                {
+                  "name": "iptv",
+                  "post_form": "checkbox",
+                  "label": "Кабельное/IP ТВ",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "label": "Мебель",
+              "name": "realty-cottages-rent-daily-area-furniture",
+              "priority": 81,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 81,
+              "options": [
+                {
+                  "label": "Полностью мебелирована",
+                  "priority": 1
+                },
+                {
+                  "label": "Частично мебелирована",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Техника",
+              "name": "realty-cottages-rent-daily-area-equipment",
+              "priority": 82,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "tv",
+                  "post_form": "checkbox",
+                  "label": "Телевизор",
+                  "priority": 1
+                },
+                {
+                  "name": "washing_machine",
+                  "post_form": "checkbox",
+                  "label": "Стиральная машина",
+                  "priority": 2
+                },
+                {
+                  "name": "refrigerator",
+                  "post_form": "checkbox",
+                  "label": "Холодильник",
+                  "priority": 3
+                },
+                {
+                  "name": "microwave",
+                  "post_form": "checkbox",
+                  "label": "Микроволновка",
+                  "priority": 4
+                },
+                {
+                  "name": "gas-stove",
+                  "post_form": "checkbox",
+                  "label": "Газовая плита",
+                  "priority": 5
+                },
+                {
+                  "name": "conditioner",
+                  "post_form": "checkbox",
+                  "label": "Кондиционер",
+                  "priority": 6
+                },
+                {
+                  "name": "water_heater",
+                  "post_form": "checkbox",
+                  "label": "Водонагреватель",
+                  "priority": 7
+                }
+              ]
+            },
+            {
+              "label": "Прочее",
+              "name": "realty-cottages-rent-daily-other_info",
+              "priority": 131,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "bath",
+                  "post_form": "checkbox",
+                  "label": "Баня",
+                  "priority": 3
+                },
+                {
+                  "name": "sauna",
+                  "post_form": "checkbox",
+                  "label": "Сауна",
+                  "priority": 4
+                },
+                {
+                  "name": "pool",
+                  "post_form": "checkbox",
+                  "label": "Бассейн",
+                  "priority": 5
+                },
+                {
+                  "name": "garden",
+                  "post_form": "checkbox",
+                  "label": "Сад",
+                  "priority": 7
+                },
+                {
+                  "name": "veranda",
+                  "post_form": "checkbox",
+                  "label": "Веранда",
+                  "priority": 9
+                },
+                {
+                  "name": "clean",
+                  "post_form": "checkbox",
+                  "label": "Чисто",
+                  "priority": 2
+                },
+                {
+                  "name": "comfortable",
+                  "post_form": "checkbox",
+                  "label": "Уютно",
+                  "priority": 3
+                },
+                {
+                  "name": "receipt",
+                  "post_form": "checkbox",
+                  "label": "Выдаем квитанции",
+                  "priority": 4
+                },
+                {
+                  "name": "discount",
+                  "post_form": "checkbox",
+                  "label": "Предусмотрены скидки",
+                  "priority": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}

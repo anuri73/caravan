@@ -1,0 +1,645 @@
+{
+  "label": "Климатическая техника",
+  "url": "appliances-climatic-equipment",
+  "priority": 3,
+  "children": [
+    {
+      "label": "Вентиляторы",
+      "url": "appliances-climatic-equipment-fans",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-climatic-equipment-fans-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "канальный", "priority": 1},
+            {"label": "накладной", "priority": 1},
+            {"label": "напольный", "priority": 1},
+            {"label": "настенный", "priority": 1},
+            {"label": "настольный", "priority": 1},
+            {"label": "потолочный", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-climatic-equipment-fans-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AEG", "priority": 1},
+            {"label": "Ballu", "priority": 1},
+            {"label": "ERA", "priority": 1},
+            {"label": "First", "priority": 1},
+            {"label": "Makita", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Mystery", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Soler & Palau", "priority": 1},
+            {"label": "Stadler Form", "priority": 1},
+            {"label": "VENTS", "priority": 1},
+            {"label": "VITEK", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Водонагреватели",
+      "url": "appliances-climatic-equipment-water-heaters",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-climatic-equipment-water-heaters-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "накопительный", "priority": 1},
+            {"label": "проточный", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-climatic-equipment-water-heaters-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "ARISTON", "priority": 1},
+            {"label": "Atlantic", "priority": 1},
+            {"label": "Ballu", "priority": 1},
+            {"label": "Blesk", "priority": 1},
+            {"label": "BOSCH", "priority": 1},
+            {"label": "De Luxe", "priority": 1},
+            {"label": "Edisson", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "Etalon", "priority": 1},
+            {"label": "Garanterm", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Haier", "priority": 1},
+            {"label": "Heateq", "priority": 1},
+            {"label": "Horizont", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Hyundai", "priority": 1},
+            {"label": "Melana", "priority": 1},
+            {"label": "Metalac", "priority": 1},
+            {"label": "Neva", "priority": 1},
+            {"label": "Oasis", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Regent", "priority": 1},
+            {"label": "Stiebel Eltron", "priority": 1},
+            {"label": "Thermex", "priority": 1},
+            {"label": "Timberk", "priority": 1},
+            {"label": "Verloni", "priority": 1},
+            {"label": "Zanussi", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Объем бака",
+          "name": "appliances-climatic-equipment-water-heaters-volume",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Объем бака - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "л",
+          "search_form": "range",
+          "search_priority": 32
+        }
+      ]
+    },
+    {
+      "label": "Отопительные котлы",
+      "url": "appliances-climatic-equipment-boilers",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-climatic-equipment-boilers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "газовый", "priority": 1},
+            {"label": "электрический", "priority": 1},
+            {"label": "твердотопливный", "priority": 1},
+            {"label": "комбинированный", "priority": 1},
+            {"label": "жидкотопливный", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-climatic-equipment-boilers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Ariston", "priority": 1},
+            {"label": "Baxi", "priority": 1},
+            {"label": "Bitherm", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Buderus", "priority": 1},
+            {"label": "De Dietrich", "priority": 1},
+            {"label": "Eletrolux", "priority": 1},
+            {"label": "Kazeco", "priority": 1},
+            {"label": "Navien", "priority": 1},
+            {"label": "Protherm", "priority": 1},
+            {"label": "Siberia", "priority": 1},
+            {"label": "Tansu", "priority": 1},
+            {"label": "Vaillant", "priority": 1},
+            {"label": "Victory", "priority": 1},
+            {"label": "Viessmann", "priority": 1},
+            {"label": "ЖМЗ", "priority": 1},
+            {"label": "Лемакс", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ионизаторы воздуха",
+      "url": "appliances-climatic-equipment-air-ionizers",
+      "priority": 4
+    },
+    {
+      "label": "Кондиционеры",
+      "url": "appliances-climatic-equipment-air-conditioners",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-climatic-equipment-air-conditioners-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "сплит-система", "priority": 1},
+            {"label": "мультисплит-система", "priority": 1},
+            {"label": "моноблок", "priority": 1}
+          ]
+        },
+        {
+          "label": "Площадь помещения",
+          "name": "appliances-climatic-equipment-air-conditioners-area",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "до 20 м²", "priority": 1},
+            {"label": "21–30 м²", "priority": 1},
+            {"label": "31–54 м²", "priority": 1},
+            {"label": "55–79 м²", "priority": 1},
+            {"label": "80–120 м²", "priority": 1},
+            {"label": "более 120 м²", "priority": 1}
+
+          ]
+        },
+        {
+          "label": "Охлаждение / обогрев",
+          "name": "cooling heating",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 13,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Охлаждение", "priority": 1},
+            {"label": "Охлаждение / обогрев", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-climatic-equipment-air-conditioners-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AUX", "priority": 1},
+            {"label": "AVA", "priority": 1},
+            {"label": "Ballu", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Blesk", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Chigo", "priority": 1},
+            {"label": "Daikin", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "General Climate", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Gree", "priority": 1},
+            {"label": "Haier", "priority": 1},
+            {"label": "Hisense", "priority": 1},
+            {"label": "Kraft", "priority": 1},
+            {"label": "LG", "priority": 1},
+            {"label": "Midea", "priority": 1},
+            {"label": "Mitsubishi", "priority": 1},
+            {"label": "Neo", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Royal Clima", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Snowcap", "priority": 1},
+            {"label": "Theodoor", "priority": 1},
+            {"label": "Toshiba", "priority": 1},
+            {"label": "Zanussi", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Обогреватели",
+      "url": "appliances-climatic-equipment-heaters",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-climatic-equipment-heaters-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "инфракрасно-конвективный", "priority": 1},
+            {"label": "инфракрасный", "priority": 1},
+            {"label": "инфракрасный плёночный", "priority": 1},
+            {"label": "конвектор", "priority": 1},
+            {"label": "масляный радиатор", "priority": 1},
+            {"label": "тепловая завеса", "priority": 1},
+            {"label": "термовентилятор", "priority": 1},
+            {"label": "другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-climatic-equipment-heaters-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AIRCOOL", "priority": 1},
+            {"label": "Almac", "priority": 1},
+            {"label": "Atlantic", "priority": 1},
+            {"label": "Ballu", "priority": 1},
+            {"label": "Beko", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "Galaxy", "priority": 1},
+            {"label": "HM", "priority": 1},
+            {"label": "Leberg", "priority": 1},
+            {"label": "Magnetta", "priority": 1},
+            {"label": "NeoClima", "priority": 1},
+            {"label": "Nobo", "priority": 1},
+            {"label": "Noirot", "priority": 1},
+            {"label": "Oasis", "priority": 1},
+            {"label": "P.I.T.", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "SAKURA", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Stadler Form", "priority": 1},
+            {"label": "Timberk", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Wester", "priority": 1},
+            {"label": "Zanussi", "priority": 1},
+            {"label": "Ресанта", "priority": 1},
+            {"label": "СТН", "priority": 1},
+            {"label": "Тепломаш", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Осушители воздуха",
+      "url": "appliances-climatic-equipment-air-dehumidifiers",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-climatic-equipment-air-dehumidifiers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "напольный", "priority": 1},
+            {"label": "настенный", "priority": 1},
+            {"label": "универсальный", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-climatic-equipment-air-dehumidifiers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Ballu", "priority": 1},
+            {"label": "Calorex", "priority": 1},
+            {"label": "Dantherm", "priority": 1},
+            {"label": "DANVEX", "priority": 1},
+            {"label": "Friulair", "priority": 1},
+            {"label": "Hidros", "priority": 1},
+            {"label": "Master", "priority": 1},
+            {"label": "Mikropor", "priority": 1},
+            {"label": "NeoClima", "priority": 1},
+            {"label": "Polar Bear", "priority": 1},
+            {"label": "Remeza", "priority": 1},
+            {"label": "Trotec", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Обслуживаемая площадь",
+          "name": "appliances-climatic-equipment-air-dehumidifiers-area-range",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Обслуживаемая площадь - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "м²",
+          "search_form": "range",
+          "search_priority": 32
+        }
+      ]
+    },
+    {
+      "label": "Очистители и увлажнители воздуха",
+      "url": "appliances-climatic-equipment-air-purifiers-humidifiers",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-climatic-equipment-air-purifiers-humidifiers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "очиститель воздуха", "priority": 1},
+            {"label": "очиститель-увлажнитель воздуха", "priority": 1},
+            {"label": "увлажнитель воздуха", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-climatic-equipment-air-purifiers-humidifiers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AIC", "priority": 1},
+            {"label": "Ballu", "priority": 1},
+            {"label": "Beurer", "priority": 1},
+            {"label": "Boneco", "priority": 1},
+            {"label": "Chicco", "priority": 1},
+            {"label": "Daikin", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Leberg", "priority": 1},
+            {"label": "LG", "priority": 1},
+            {"label": "Lihom", "priority": 1},
+            {"label": "Maxima", "priority": 1},
+            {"label": "Neo", "priority": 1},
+            {"label": "Neoclima", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Philips", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Redmond", "priority": 1},
+            {"label": "Royal Clima", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sharp", "priority": 1},
+            {"label": "Symphony", "priority": 1},
+            {"label": "Tefal", "priority": 1},
+            {"label": "Timberk", "priority": 1},
+            {"label": "Venta", "priority": 1},
+            {"label": "Vitek", "priority": 1},
+            {"label": "Winia", "priority": 1},
+            {"label": "Xiaomi", "priority": 1},
+            {"label": "Zanussi", "priority": 1},
+            {"label": "Экология-Плюс", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Обслуживаемая площадь",
+          "name": "appliances-climatic-equipment-air-purifiers-humidifiers-area-range",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Обслуживаемая площадь - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "м²",
+          "search_form": "range",
+          "search_priority": 32
+        }
+      ]
+    },
+    {
+      "label": "Тепловые пушки",
+      "url": "appliances-climatic-equipment-fan-heaters",
+      "priority": 9,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-climatic-equipment-fan-heaters-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Газовая", "priority": 1},
+            {"label": "Дизельная", "priority": 1},
+            {"label": "Электрическая", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-climatic-equipment-fan-heaters-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Aurora", "priority": 1},
+            {"label": "Ballu", "priority": 1},
+            {"label": "ELITECH", "priority": 1},
+            {"label": "Master", "priority": 1},
+            {"label": "NeoClima", "priority": 1},
+            {"label": "PATRIOT", "priority": 1},
+            {"label": "Quattro Elementi", "priority": 1},
+            {"label": "Timberk", "priority": 1},
+            {"label": "ЗУБР", "priority": 1},
+            {"label": "РЕСАНТА", "priority": 1},
+            {"label": "Тепломаш", "priority": 1},
+            {"label": "Тропик", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Обслуживаемая площадь",
+          "name": "appliances-climatic-equipment-fan-heaters-area-range",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Обслуживаемая площадь - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "м²",
+          "search_form": "range",
+          "search_priority": 32
+        }
+      ]
+    },
+    {
+      "label": "Теплые полы и маты",
+      "url": "appliances-climatic-equipment-floor-heating",
+      "priority": 10,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-climatic-equipment-floor-heating-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Греющий кабель", "priority": 1},
+            {"label": "Инфракрасная пленка", "priority": 1},
+            {"label": "Нагревательный мат", "priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-climatic-equipment-floor-heating-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AURA", "priority": 1},
+            {"label": "Caleo", "priority": 1},
+            {"label": "DEVI", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "Energy", "priority": 1},
+            {"label": "REHAU", "priority": 1},
+            {"label": "REXANT", "priority": 1},
+            {"label": "Shuft", "priority": 1},
+            {"label": "Thermo", "priority": 1},
+            {"label": "Unimat", "priority": 1},
+            {"label": "Warmstad", "priority": 1},
+            {"label": "Национальный комфорт", "priority": 1},
+            {"label": "Теплолюкс", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Электрокамины",
+      "url": "appliances-climatic-equipment-electric-fireplaces",
+      "priority": 11
+    },
+    {
+      "label": "Прочая климатическая техника",
+      "url": "appliances-climatic-equipment-other",
+      "priority": 12
+    }
+  ]
+}

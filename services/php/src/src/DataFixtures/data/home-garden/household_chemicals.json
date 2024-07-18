@@ -1,0 +1,31 @@
+{
+  "label": "Бытовая химия",
+  "url": "home-garden-household-chemicals",
+  "priority": 9,
+  "parameters": [
+    {
+      "label": "Тип",
+      "name": "home-garden-household-chemicals-type",
+      "priority": 11,
+      "post_form": "dropdown",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип"
+        }
+      ],
+      "search_form": "checkbox",
+      "search_priority": 11,
+      "filter_default_toggle": true,
+      "options": [
+        {"label": "Чистящие и моющие средства","priority": 1},
+        {"label": "Средства для стирки","priority": 1},
+        {"label": "Освежители воздуха","priority": 1},
+        {"label": "Средства против насекомых","priority": 1},
+        {"label": "Для ухода за бытовой техникой","priority": 1},
+        {"label": "Средства для посуды","priority": 1},
+        {"label": "Другой","priority": 1}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1052 @@
+{
+  "label": "Аудиотехника",
+  "url": "electronics-audio",
+  "priority": 7,
+  "children": [
+    {
+      "label": "Акустические системы и колонки",
+      "url": "electronics-audio-acoustic-systems-speakers",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-audio-acoustic-systems-speakers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "комплект акустики",
+              "priority": 1
+            },
+            {
+              "label": "мониторный громкоговоритель",
+              "priority": 1
+            },
+            {
+              "label": "мониторный сабвуфер",
+              "priority": 2
+            },
+            {
+              "label": "сабвуфер",
+              "priority": 3
+            },
+            {
+              "label": "сателлит",
+              "priority": 4
+            },
+            {
+              "label": "твитер",
+              "priority": 5
+            },
+            {
+              "label": "тыловой канал",
+              "priority": 6
+            },
+            {
+              "label": "фронтальный громкоговоритель",
+              "priority": 7
+            },
+            {
+              "label": "центральный канал",
+              "priority": 8
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-audio-acoustic-systems-speakers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {
+              "label": "BEHRINGER",
+              "priority": 1
+            },
+            {
+              "label": "Bose",
+              "priority": 1
+            },
+            {
+              "label": "Bowers & Wilkins",
+              "priority": 2
+            },
+            {
+              "label": "Canton",
+              "priority": 3
+            },
+            {
+              "label": "DALI",
+              "priority": 4
+            },
+            {
+              "label": "Defender",
+              "priority": 4
+            },
+            {
+              "label": "Denon",
+              "priority": 4
+            },
+            {
+              "label": "Dynaudio",
+              "priority": 5
+            },
+            {
+              "label": "Focal",
+              "priority": 6
+            },
+            {
+              "label": "Heco",
+              "priority": 7
+            },
+            {
+              "label": "JBL",
+              "priority": 8
+            },
+            {
+              "label": "KRK",
+              "priority": 8
+            },
+            {
+              "label": "LG",
+              "priority": 9
+            },
+            {
+              "label": "KEF",
+              "priority": 10
+            },
+            {
+              "label": "Monitor Audio",
+              "priority": 11
+            },
+            {
+              "label": "Ozaki",
+              "priority": 11
+            },
+            {
+              "label": "Panasonic",
+              "priority": 12
+            },
+            {
+              "label": "Pioneer",
+              "priority": 12
+            },
+            {
+              "label": "Polk Audio",
+              "priority": 12
+            },
+            {
+              "label": "Samsung",
+              "priority": 13
+            },
+            {
+              "label": "Sharp",
+              "priority": 14
+            },
+            {
+              "label": "Sony",
+              "priority": 15
+            },
+            {
+              "label": "SVEN",
+              "priority": 15
+            },
+            {
+              "label": "Tannoy",
+              "priority": 16
+            },
+            {
+              "label": "Tech com",
+              "priority": 16
+            },
+            {
+              "label": "Vitek",
+              "priority": 17
+            },
+            {
+              "label": "Wharfedale",
+              "priority": 17
+            },
+            {
+              "label": "Yamaha",
+              "priority": 18
+            },
+            {
+              "label": "Другой",
+              "priority": 19
+            }
+          ]
+        },
+        {
+          "label": "Конструкция",
+          "name": "electronics-audio-acoustic-systems-speakers-purpose",
+          "priority": 23,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 33,
+          "options": [
+            {
+              "label": "встраиваемая",
+              "priority": 1
+            },
+            {
+              "label": "концертная",
+              "priority": 2
+            },
+            {
+              "label": "ландшафтная",
+              "priority": 3
+            },
+            {
+              "label": "напольная",
+              "priority": 4
+            },
+            {
+              "label": "подвесная",
+              "priority": 5
+            },
+            {
+              "label": "полочная",
+              "priority": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Портативные колонки",
+      "url": "electronics-audio-portable-speakers",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-audio-portable-speakers-brand",
+          "priority": 22,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "Bang & Olufsen",
+              "priority": 1
+            },
+            {
+              "label": "Bose",
+              "priority": 2
+            },
+            {
+              "label": "Defender",
+              "priority": 3
+            },
+            {
+              "label": "Ginzzu",
+              "priority": 4
+            },
+            {
+              "label": "Harmon/Kardon",
+              "priority": 5
+            },
+            {
+              "label": "JBL",
+              "priority": 8
+            },
+            {
+              "label": "Marshall",
+              "priority": 10
+            },
+            {
+              "label": "Perfeo",
+              "priority": 11
+            },
+            {
+              "label": "Samsung",
+              "priority": 12
+            },
+            {
+              "label": "Sony",
+              "priority": 15
+            },
+            {
+              "label": "SUPRA",
+              "priority": 16
+            },
+            {
+              "label": "Xiaomi",
+              "priority": 18
+            },
+            {
+              "label": "Другой",
+              "priority": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Музыкальные центры",
+      "url": "electronics-audio-stereos",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-audio-stereos-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "мидисистема",
+              "priority": 1
+            },
+            {
+              "label": "микросистема",
+              "priority": 2
+            },
+            {
+              "label": "минисистема",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-audio-stereos-brand",
+          "priority": 12,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "AEG",
+              "priority": 1
+            },
+            {
+              "label": "Denon",
+              "priority": 2
+            },
+            {
+              "label": "LG",
+              "priority": 3
+            },
+            {
+              "label": "Mystery",
+              "priority": 4
+            },
+            {
+              "label": "Onkyo",
+              "priority": 5
+            },
+            {
+              "label": "Panasonic",
+              "priority": 8
+            },
+            {
+              "label": "Philips",
+              "priority": 10
+            },
+            {
+              "label": "Pioneer",
+              "priority": 11
+            },
+            {
+              "label": "Rolsen",
+              "priority": 12
+            },
+            {
+              "label": "Samsung",
+              "priority": 13
+            },
+            {
+              "label": "Sony",
+              "priority": 15
+            },
+            {
+              "label": "Yamaha",
+              "priority": 18
+            },
+            {
+              "label": "Другой",
+              "priority": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Системы караоке",
+      "url": "electronics-audio-karaoke",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-audio-karaoke-brand",
+          "priority": 11,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {
+              "label": "Art-System",
+              "priority": 1
+            },
+            {
+              "label": "Audio-Technica",
+              "priority": 1
+            },
+            {
+              "label": "BEHRINGER",
+              "priority": 2
+            },
+            {
+              "label": "LD Systems",
+              "priority": 2
+            },
+            {
+              "label": "Madboy",
+              "priority": 3
+            },
+            {
+              "label": "Palmexx",
+              "priority": 3
+            },
+            {
+              "label": "Remax",
+              "priority": 3
+            },
+            {
+              "label": "Sony",
+              "priority": 3
+            },
+            {
+              "label": "Tesler",
+              "priority": 3
+            },
+            {
+              "label": "Другой",
+              "priority": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "CD-проигрыватели",
+      "url": "electronics-audio-cd-players",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-audio-cd-players-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "CD-проигрыватель",
+              "priority": 1
+            },
+            {
+              "label": "CD-чейнджер",
+              "priority": 2
+            },
+            {
+              "label": "CD-рекордер",
+              "priority": 3
+            },
+            {
+              "label": "MD-проигрыватель",
+              "priority": 4
+            },
+            {
+              "label": "CD-транспорт",
+              "priority": 5
+            },
+            {
+              "label": "CD-ресивер",
+              "priority": 6
+            },
+            {
+              "label": "DJ CD-проигрыватель",
+              "priority": 7
+            },
+            {
+              "label": "Другое",
+              "priority": 8
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-audio-cd-players-brand",
+          "priority": 12,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "Cambridge Audio",
+              "priority": 1
+            },
+            {
+              "label": "Denon",
+              "priority": 2
+            },
+            {
+              "label": "Exposure",
+              "priority": 3
+            },
+            {
+              "label": "Marantz",
+              "priority": 4
+            },
+            {
+              "label": "Musical Fidelity",
+              "priority": 5
+            },
+            {
+              "label": "Onkyo",
+              "priority": 8
+            },
+            {
+              "label": "Pioneer",
+              "priority": 10
+            },
+            {
+              "label": "Rotel",
+              "priority": 11
+            },
+            {
+              "label": "Sony",
+              "priority": 11
+            },
+            {
+              "label": "T+A",
+              "priority": 12
+            },
+            {
+              "label": "Tascam",
+              "priority": 15
+            },
+            {
+              "label": "Vincent",
+              "priority": 16
+            },
+            {
+              "label": "Yamaha",
+              "priority": 18
+            },
+            {
+              "label": "Другой",
+              "priority": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Наушники",
+      "url": "electronics-audio-headphones",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-audio-headphones-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "вкладыши (капельки)","priority": 1},
+            {"label": "вставные (затычки)","priority": 1},
+            {"label": "накладные","priority": 1},
+            {"label": "полноразмерные","priority": 1}
+          ]
+        },
+        {
+          "label": "Подключение",
+          "name": "electronics-audio-headphones-connection-type",
+          "priority": 12,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип подключения"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "проводные","priority": 1},
+            {"label": "беспроводные","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-audio-headphones-brand",
+          "priority": 13,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 33,
+          "options": [
+            {"label": "Apple","priority": 1},
+            {"label": "Audio-Technica","priority": 1},
+            {"label": "Beats","priority": 1},
+            {"label": "JBL","priority": 1},
+            {"label": "Marshall","priority": 1},
+            {"label": "Meizu","priority": 1},
+            {"label": "Panasonic","priority": 1},
+            {"label": "Philips","priority": 1},
+            {"label": "Samsung","priority": 1},
+            {"label": "Sennheiser","priority": 1},
+            {"label": "Sony","priority": 1},
+            {"label": "Xiaomi","priority": 1},
+            {"label": "Yamaha","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        },
+        {
+          "label": "Микрофон",
+          "name": "electronics-audio-headphones-purpose",
+          "priority": 24,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 34,
+          "options": [
+            {"label": "наушники без микрофона","priority": 1},
+            {"label": "наушники с микрофоном","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "MP3-плееры",
+      "url": "electronics-audio-mp3-players",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-audio-mp3-players-brand",
+          "priority": 13,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 33,
+          "options": [
+            {"label": "Apple","priority": 1},
+            {"label": "Astell & Kern","priority": 1},
+            {"label": "Benjie","priority": 1},
+            {"label": "Cayin","priority": 1},
+            {"label": "Cowon","priority": 1},
+            {"label": "Digma","priority": 1},
+            {"label": "Fiio","priority": 1},
+            {"label": "HiFiMAN","priority": 1},
+            {"label": "Perfeo","priority": 1},
+            {"label": "Ritmix","priority": 1},
+            {"label": "Sony","priority": 1},
+            {"label": "xDuoo","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        },
+        {
+          "label": "Объем памяти",
+          "name": "electronics-audio-mp3-players-memory",
+          "priority": 14,
+          "post_form": "textbox",
+          "measure": "Гб",
+          "search_form": "range",
+          "search_priority": 34,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Объем памяти - значение должно быть числом"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Радиоприемники",
+      "url": "electronics-audio-radio-receivers",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-audio-radio-receivers-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "карманный","priority": 1},
+            {"label": "переносной","priority": 1},
+            {"label": "стационарный","priority": 1}
+          ]
+        },
+        {
+          "label": "Сигнал",
+          "name": "electronics-audio-radio-receivers-connection-type",
+          "priority": 24,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 34,
+          "options": [
+            {"label": "аналоговый","priority": 1},
+            {"label": "цифровой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Диктофоны",
+      "url": "electronics-audio-voice-recorders",
+      "priority": 9
+    },
+    {
+      "label": "Микрофоны",
+      "url": "electronics-audio-microphones",
+      "priority": 10,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-audio-microphones-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Динамический",
+              "priority": 1
+            },
+            {
+              "label": "Конденсаторный",
+              "priority": 2
+            },
+            {
+              "label": "Ленточный",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-audio-microphones-brand",
+          "priority": 12,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "AKG",
+              "priority": 1
+            },
+            {
+              "label": "Audio-Technica",
+              "priority": 2
+            },
+            {
+              "label": "Audix",
+              "priority": 3
+            },
+            {
+              "label": "Behringer",
+              "priority": 4
+            },
+            {
+              "label": "Beyerdynamic",
+              "priority": 5
+            },
+            {
+              "label": "DPA",
+              "priority": 8
+            },
+            {
+              "label": "LEWITT",
+              "priority": 10
+            },
+            {
+              "label": "MicW",
+              "priority": 11
+            },
+            {
+              "label": "RODE",
+              "priority": 12
+            },
+            {
+              "label": "Sennheiser",
+              "priority": 15
+            },
+            {
+              "label": "Shure",
+              "priority": 16
+            },
+            {
+              "label": "Sony",
+              "priority": 18
+            },
+            {
+              "label": "Другой",
+              "priority": 19
+            }
+          ]
+        },
+        {
+          "label": "Опции",
+          "name": "electronics-audio-microphones-options",
+          "priority": 31,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "label": "Беспроводное подключение",
+              "name": "wireless",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "label": "Микрофон для вокала",
+              "name": "vocal",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "label": "Инструментальный микрофон",
+              "name": "instrumental",
+              "post_form": "checkbox",
+              "priority": 3
+            },
+            {
+              "label": "Студийный микрофон",
+              "name": "studio",
+              "post_form": "checkbox",
+              "priority": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Профессиональное аудиооборудование",
+      "url": "electronics-audio-professional-equipment",
+      "priority": 11,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-audio-professional-equipment-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "аудиомикшеры и FOH-консоли","priority": 1},
+            {"label": "активные микшерные пульты","priority": 1},
+            {"label": "радио-микрофонные системы","priority": 1},
+            {"label": "акустика концертная, студийная и туринговая","priority": 1},
+            {"label": "аудиомониторы","priority": 1},
+            {"label": "портастудии","priority": 1},
+            {"label": "профессиональное DJ оборудование","priority": 1},
+            {"label": "телефонные гибриды/системы синхроперевода","priority": 1},
+            {"label": "гитарные кабинеты, комбо, педали, процессоры эффектов","priority": 1},
+            {"label": "рекордеры","priority": 1},
+            {"label": "тюнеры","priority": 1},
+            {"label": "цифро-аналоговые преобразователи (аудио-декодеры)","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Аудиоусилители и ресиверы",
+      "url": "electronics-audio-amplifiers-receivers",
+      "priority": 12,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-audio-amplifiers-receivers-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "AV-процессор",
+              "priority": 1
+            },
+            {
+              "label": "AV-ресивер",
+              "priority": 2
+            },
+            {
+              "label": "AV-усилитель",
+              "priority": 3
+            },
+            {
+              "label": "интегральный усилитель",
+              "priority": 4
+            },
+            {
+              "label": "предварительный усилитель",
+              "priority": 5
+            },
+            {
+              "label": "ресивер",
+              "priority": 6
+            },
+            {
+              "label": "усилитель для наушников",
+              "priority": 7
+            },
+            {
+              "label": "усилитель для сабвуфера",
+              "priority": 8
+            },
+            {
+              "label": "усилитель мощности",
+              "priority": 9
+            },
+            {
+              "label": "фонокорректор",
+              "priority": 10
+            },
+            {
+              "label": "другое",
+              "priority": 11
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-audio-amplifiers-receivers-brand",
+          "priority": 12,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "Cambridge Audio",
+              "priority": 1
+            },
+            {
+              "label": "Denon",
+              "priority": 2
+            },
+            {
+              "label": "Filo",
+              "priority": 3
+            },
+            {
+              "label": "Harman/Kardon",
+              "priority": 4
+            },
+            {
+              "label": "Marantz",
+              "priority": 5
+            },
+            {
+              "label": "Onkyo",
+              "priority": 8
+            },
+            {
+              "label": "Parasound",
+              "priority": 10
+            },
+            {
+              "label": "Pioneer",
+              "priority": 11
+            },
+            {
+              "label": "Rotel",
+              "priority": 12
+            },
+            {
+              "label": "Sony",
+              "priority": 15
+            },
+            {
+              "label": "Vincent",
+              "priority": 16
+            },
+            {
+              "label": "Yamaha",
+              "priority": 18
+            },
+            {
+              "label": "Другой",
+              "priority": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Аксессуары для аудиотехники",
+      "url": "electronics-audio-accessories",
+      "priority": 13
+    },
+    {
+      "label": "Прочая аудиотехника",
+      "url": "electronics-audio-other",
+      "priority": 14
+    }
+  ]
+}

@@ -1,0 +1,1913 @@
+{
+  "name": "auto-commercial-arctic",
+  "url": "auto-commercial-arctic",
+  "priority": 3,
+  "label": "Седельные тягачи",
+  "children": [
+    {
+      "label": "CAMC",
+      "name": "auto-commercial-arctic-camc",
+      "url": "auto-commercial-arctic-camc",
+      "children": [
+        {
+          "label": "4x2",
+          "name": "auto-commercial-arctic-camc-4x2",
+          "url": "auto-commercial-arctic-camc-4x2"
+        },
+        {
+          "label": "6x4",
+          "name": "auto-commercial-arctic-camc-6x4",
+          "url": "auto-commercial-arctic-camc-6x4"
+        }
+      ]
+    },
+    {
+      "label": "Daewoo",
+      "name": "auto-commercial-arctic-daewoo",
+      "url": "auto-commercial-arctic-daewoo",
+      "children": [
+        {
+          "label": "Prima",
+          "name": "auto-commercial-arctic-daewoo-prima",
+          "url": "auto-commercial-arctic-daewoo-prima"
+        },
+        {
+          "label": "V3TSF",
+          "name": "auto-commercial-arctic-daewoo-v3tsf",
+          "url": "auto-commercial-arctic-daewoo-v3tsf"
+        }
+      ]
+    },
+    {
+      "label": "DAF",
+      "name": "auto-commercial-arctic-daf",
+      "url": "auto-commercial-arctic-daf",
+      "children": [
+        {
+          "label": "95 series",
+          "name": "auto-commercial-arctic-daf-95_series",
+          "url": "auto-commercial-arctic-daf-95_series"
+        },
+        {
+          "label": "CF-series",
+          "name": "auto-commercial-arctic-daf-cf-series",
+          "url": "auto-commercial-arctic-daf-cf-series"
+        },
+        {
+          "label": "XF105 series",
+          "name": "auto-commercial-arctic-daf-xf105_series",
+          "url": "auto-commercial-arctic-daf-xf105_series"
+        },
+        {
+          "label": "XF95 series",
+          "name": "auto-commercial-arctic-daf-xf95_series",
+          "url": "auto-commercial-arctic-daf-xf95_series"
+        }
+      ]
+    },
+    {
+      "label": "Dayun",
+      "name": "auto-commercial-arctic-dayun",
+      "url": "auto-commercial-arctic-dayun",
+      "children": [
+        {
+          "label": "CGC4253",
+          "name": "auto-commercial-arctic-dayun-cgc4253",
+          "url": "auto-commercial-arctic-dayun-cgc4253"
+        }
+      ]
+    },
+    {
+      "label": "DongFeng",
+      "name": "auto-commercial-arctic-dongfeng",
+      "url": "auto-commercial-arctic-dongfeng",
+      "children": [
+        {
+          "label": "DFL - Series",
+          "name": "auto-commercial-arctic-dongfeng-dfl_-_series",
+          "url": "auto-commercial-arctic-dongfeng-dfl_-_series"
+        },
+        {
+          "label": "EQ4252GE6",
+          "name": "auto-commercial-arctic-dongfeng-eq4252ge6",
+          "url": "auto-commercial-arctic-dongfeng-eq4252ge6"
+        }
+      ]
+    },
+    {
+      "label": "ERF (MAN Truck)",
+      "name": "auto-commercial-arctic-erf_man_truck",
+      "url": "auto-commercial-arctic-erf_man_truck",
+      "children": [
+        {
+          "label": "ECT",
+          "name": "auto-commercial-arctic-erf_man_truck-ect",
+          "url": "auto-commercial-arctic-erf_man_truck-ect"
+        }
+      ]
+    },
+    {
+      "label": "FAW",
+      "name": "auto-commercial-arctic-faw",
+      "url": "auto-commercial-arctic-faw",
+      "children": [
+        {
+          "label": "CA4250",
+          "name": "auto-commercial-arctic-faw-ca4250",
+          "url": "auto-commercial-arctic-faw-ca4250"
+        }
+      ]
+    },
+    {
+      "label": "Ford",
+      "name": "auto-commercial-arctic-ford",
+      "url": "auto-commercial-arctic-ford",
+      "children": [
+        {
+          "label": "Cargo",
+          "name": "auto-commercial-arctic-ford-cargo",
+          "url": "auto-commercial-arctic-ford-cargo"
+        }
+      ]
+    },
+    {
+      "label": "Foton",
+      "name": "auto-commercial-arctic-foton",
+      "url": "auto-commercial-arctic-foton",
+      "children": [
+        {
+          "label": "AUMAN",
+          "name": "auto-commercial-arctic-foton-auman",
+          "url": "auto-commercial-arctic-foton-auman"
+        }
+      ]
+    },
+    {
+      "label": "Freightliner",
+      "name": "auto-commercial-arctic-freightliner",
+      "url": "auto-commercial-arctic-freightliner",
+      "children": [
+        {
+          "label": "Argosy",
+          "name": "auto-commercial-arctic-freightliner-argosy",
+          "url": "auto-commercial-arctic-freightliner-argosy"
+        },
+        {
+          "label": "Cascadia",
+          "name": "auto-commercial-arctic-freightliner-cascadia",
+          "url": "auto-commercial-arctic-freightliner-cascadia"
+        },
+        {
+          "label": "Century Class S/T",
+          "name": "auto-commercial-arctic-freightliner-century_class_s/t",
+          "url": "auto-commercial-arctic-freightliner-century_class_s/t"
+        },
+        {
+          "label": "Columbia",
+          "name": "auto-commercial-arctic-freightliner-columbia",
+          "url": "auto-commercial-arctic-freightliner-columbia"
+        },
+        {
+          "label": "Coronado",
+          "name": "auto-commercial-arctic-freightliner-coronado",
+          "url": "auto-commercial-arctic-freightliner-coronado"
+        },
+        {
+          "label": "FLB",
+          "name": "auto-commercial-arctic-freightliner-flb",
+          "url": "auto-commercial-arctic-freightliner-flb"
+        },
+        {
+          "label": "FLC",
+          "name": "auto-commercial-arctic-freightliner-flc",
+          "url": "auto-commercial-arctic-freightliner-flc"
+        },
+        {
+          "label": "FLD",
+          "name": "auto-commercial-arctic-freightliner-fld",
+          "url": "auto-commercial-arctic-freightliner-fld"
+        }
+      ]
+    },
+    {
+      "label": "Hania",
+      "name": "auto-commercial-arctic-hania",
+      "url": "auto-commercial-arctic-hania",
+      "children": [
+        {
+          "label": "4x2",
+          "name": "auto-commercial-arctic-hania-4x2",
+          "url": "auto-commercial-arctic-hania-4x2"
+        },
+        {
+          "label": "6x2",
+          "name": "auto-commercial-arctic-hania-6x2",
+          "url": "auto-commercial-arctic-hania-6x2"
+        },
+        {
+          "label": "6x4",
+          "name": "auto-commercial-arctic-hania-6x4",
+          "url": "auto-commercial-arctic-hania-6x4"
+        }
+      ]
+    },
+    {
+      "label": "Hino",
+      "name": "auto-commercial-arctic-hino",
+      "url": "auto-commercial-arctic-hino",
+      "children": [
+        {
+          "label": "700",
+          "name": "auto-commercial-arctic-hino-700",
+          "url": "auto-commercial-arctic-hino-700"
+        },
+        {
+          "label": "SH",
+          "name": "auto-commercial-arctic-hino-sh",
+          "url": "auto-commercial-arctic-hino-sh"
+        }
+      ]
+    },
+    {
+      "label": "Howo",
+      "name": "auto-commercial-arctic-howo",
+      "url": "auto-commercial-arctic-howo",
+      "children": [
+        {
+          "label": "4x2",
+          "name": "auto-commercial-arctic-howo-4x2",
+          "url": "auto-commercial-arctic-howo-4x2"
+        },
+        {
+          "label": "6x4",
+          "name": "auto-commercial-arctic-howo-6x4",
+          "url": "auto-commercial-arctic-howo-6x4"
+        }
+      ]
+    },
+    {
+      "label": "Hyundai",
+      "name": "auto-commercial-arctic-hyundai",
+      "url": "auto-commercial-arctic-hyundai",
+      "children": [
+        {
+          "label": "HD1000",
+          "name": "auto-commercial-arctic-hyundai-hd1000",
+          "url": "auto-commercial-arctic-hyundai-hd1000"
+        },
+        {
+          "label": "HD450/500/700",
+          "name": "auto-commercial-arctic-hyundai-hd450/500/700",
+          "url": "auto-commercial-arctic-hyundai-hd450/500/700"
+        },
+        {
+          "label": "Xcient",
+          "name": "auto-commercial-arctic-hyundai-xcient",
+          "url": "auto-commercial-arctic-hyundai-xcient"
+        }
+      ]
+    },
+    {
+      "label": "International",
+      "name": "auto-commercial-arctic-international",
+      "url": "auto-commercial-arctic-international",
+      "children": [
+        {
+          "label": "5000 Series",
+          "name": "auto-commercial-arctic-international-5000_series",
+          "url": "auto-commercial-arctic-international-5000_series"
+        },
+        {
+          "label": "7000 Series",
+          "name": "auto-commercial-arctic-international-7000_series",
+          "url": "auto-commercial-arctic-international-7000_series"
+        },
+        {
+          "label": "8000 Series",
+          "name": "auto-commercial-arctic-international-8000_series",
+          "url": "auto-commercial-arctic-international-8000_series"
+        },
+        {
+          "label": "9000 Series",
+          "name": "auto-commercial-arctic-international-9000_series",
+          "url": "auto-commercial-arctic-international-9000_series"
+        },
+        {
+          "label": "LoneStar",
+          "name": "auto-commercial-arctic-international-lonestar",
+          "url": "auto-commercial-arctic-international-lonestar"
+        },
+        {
+          "label": "ProStar",
+          "name": "auto-commercial-arctic-international-prostar",
+          "url": "auto-commercial-arctic-international-prostar"
+        }
+      ]
+    },
+    {
+      "label": "Isuzu",
+      "name": "auto-commercial-arctic-isuzu",
+      "url": "auto-commercial-arctic-isuzu",
+      "children": [
+        {
+          "label": "EXZ51 6X4",
+          "name": "auto-commercial-arctic-isuzu-exz51_6x4",
+          "url": "auto-commercial-arctic-isuzu-exz51_6x4"
+        }
+      ]
+    },
+    {
+      "label": "IVECO",
+      "name": "auto-commercial-arctic-iveco",
+      "url": "auto-commercial-arctic-iveco",
+      "children": [
+        {
+          "label": "682",
+          "name": "auto-commercial-arctic-iveco-682",
+          "url": "auto-commercial-arctic-iveco-682"
+        },
+        {
+          "label": "Cursor",
+          "name": "auto-commercial-arctic-iveco-cursor",
+          "url": "auto-commercial-arctic-iveco-cursor"
+        },
+        {
+          "label": "EuroCargo",
+          "name": "auto-commercial-arctic-iveco-eurocargo",
+          "url": "auto-commercial-arctic-iveco-eurocargo"
+        },
+        {
+          "label": "EuroStar",
+          "name": "auto-commercial-arctic-iveco-eurostar",
+          "url": "auto-commercial-arctic-iveco-eurostar"
+        },
+        {
+          "label": "EuroTech",
+          "name": "auto-commercial-arctic-iveco-eurotech",
+          "url": "auto-commercial-arctic-iveco-eurotech"
+        },
+        {
+          "label": "EuroTrakker",
+          "name": "auto-commercial-arctic-iveco-eurotrakker",
+          "url": "auto-commercial-arctic-iveco-eurotrakker"
+        },
+        {
+          "label": "PowerStar",
+          "name": "auto-commercial-arctic-iveco-powerstar",
+          "url": "auto-commercial-arctic-iveco-powerstar"
+        },
+        {
+          "label": "Stralis",
+          "name": "auto-commercial-arctic-iveco-stralis",
+          "url": "auto-commercial-arctic-iveco-stralis"
+        },
+        {
+          "label": "Trakker",
+          "name": "auto-commercial-arctic-iveco-trakker",
+          "url": "auto-commercial-arctic-iveco-trakker"
+        },
+        {
+          "label": "TurboStar",
+          "name": "auto-commercial-arctic-iveco-turbostar",
+          "url": "auto-commercial-arctic-iveco-turbostar"
+        }
+      ]
+    },
+    {
+      "label": "IVECO-Ling Ye",
+      "name": "auto-commercial-arctic-iveco-ling_ye",
+      "url": "auto-commercial-arctic-iveco-ling_ye",
+      "children": [
+        {
+          "label": "тягач-седельный",
+          "name": "auto-commercial-arctic-iveco-ling_ye-tqgach-sedelxnyj",
+          "url": "auto-commercial-arctic-iveco-ling_ye-tqgach-sedelxnyj"
+        }
+      ]
+    },
+    {
+      "label": "Iveco-АМТ",
+      "name": "auto-commercial-arctic-iveco-amt",
+      "url": "auto-commercial-arctic-iveco-amt",
+      "children": [
+        {
+          "label": "5339",
+          "name": "auto-commercial-arctic-iveco-amt-5339",
+          "url": "auto-commercial-arctic-iveco-amt-5339"
+        },
+        {
+          "label": "6339",
+          "name": "auto-commercial-arctic-iveco-amt-6339",
+          "url": "auto-commercial-arctic-iveco-amt-6339"
+        }
+      ]
+    },
+    {
+      "label": "JAC",
+      "name": "auto-commercial-arctic-jac",
+      "url": "auto-commercial-arctic-jac",
+      "children": [
+        {
+          "label": "4x2",
+          "name": "auto-commercial-arctic-jac-4x2",
+          "url": "auto-commercial-arctic-jac-4x2"
+        }
+      ]
+    },
+    {
+      "label": "Kenworth",
+      "name": "auto-commercial-arctic-kenworth",
+      "url": "auto-commercial-arctic-kenworth",
+      "children": [
+        {
+          "label": "C500",
+          "name": "auto-commercial-arctic-kenworth-c500",
+          "url": "auto-commercial-arctic-kenworth-c500"
+        },
+        {
+          "label": "T 600",
+          "name": "auto-commercial-arctic-kenworth-t_600",
+          "url": "auto-commercial-arctic-kenworth-t_600"
+        },
+        {
+          "label": "T 660",
+          "name": "auto-commercial-arctic-kenworth-t_660",
+          "url": "auto-commercial-arctic-kenworth-t_660"
+        },
+        {
+          "label": "T 800",
+          "name": "auto-commercial-arctic-kenworth-t_800",
+          "url": "auto-commercial-arctic-kenworth-t_800"
+        },
+        {
+          "label": "T2000",
+          "name": "auto-commercial-arctic-kenworth-t2000",
+          "url": "auto-commercial-arctic-kenworth-t2000"
+        },
+        {
+          "label": "W 900",
+          "name": "auto-commercial-arctic-kenworth-w_900",
+          "url": "auto-commercial-arctic-kenworth-w_900"
+        }
+      ]
+    },
+    {
+      "label": "Mack",
+      "name": "auto-commercial-arctic-mack",
+      "url": "auto-commercial-arctic-mack",
+      "children": [
+        {
+          "label": "CH-SERIES",
+          "name": "auto-commercial-arctic-mack-ch-series",
+          "url": "auto-commercial-arctic-mack-ch-series"
+        },
+        {
+          "label": "CX-SERIES",
+          "name": "auto-commercial-arctic-mack-cx-series",
+          "url": "auto-commercial-arctic-mack-cx-series"
+        }
+      ]
+    },
+    {
+      "label": "MAN",
+      "name": "auto-commercial-arctic-man",
+      "url": "auto-commercial-arctic-man",
+      "children": [
+        {
+          "label": "14",
+          "name": "auto-commercial-arctic-man-14",
+          "url": "auto-commercial-arctic-man-14"
+        },
+        {
+          "label": "17",
+          "name": "auto-commercial-arctic-man-17",
+          "url": "auto-commercial-arctic-man-17"
+        },
+        {
+          "label": "18",
+          "name": "auto-commercial-arctic-man-18",
+          "url": "auto-commercial-arctic-man-18"
+        },
+        {
+          "label": "19",
+          "name": "auto-commercial-arctic-man-19",
+          "url": "auto-commercial-arctic-man-19"
+        },
+        {
+          "label": "22",
+          "name": "auto-commercial-arctic-man-22",
+          "url": "auto-commercial-arctic-man-22"
+        },
+        {
+          "label": "26",
+          "name": "auto-commercial-arctic-man-26",
+          "url": "auto-commercial-arctic-man-26"
+        },
+        {
+          "label": "33",
+          "name": "auto-commercial-arctic-man-33",
+          "url": "auto-commercial-arctic-man-33"
+        },
+        {
+          "label": "48",
+          "name": "auto-commercial-arctic-man-48",
+          "url": "auto-commercial-arctic-man-48"
+        },
+        {
+          "label": "FE",
+          "name": "auto-commercial-arctic-man-fe",
+          "url": "auto-commercial-arctic-man-fe"
+        },
+        {
+          "label": "KAT1",
+          "name": "auto-commercial-arctic-man-kat1",
+          "url": "auto-commercial-arctic-man-kat1"
+        },
+        {
+          "label": "TGA",
+          "name": "auto-commercial-arctic-man-tga",
+          "url": "auto-commercial-arctic-man-tga"
+        },
+        {
+          "label": "TGS",
+          "name": "auto-commercial-arctic-man-tgs",
+          "url": "auto-commercial-arctic-man-tgs"
+        },
+        {
+          "label": "TGX",
+          "name": "auto-commercial-arctic-man-tgx",
+          "url": "auto-commercial-arctic-man-tgx"
+        }
+      ]
+    },
+    {
+      "label": "Mercedes-Benz",
+      "name": "auto-commercial-arctic-mercedes-benz",
+      "url": "auto-commercial-arctic-mercedes-benz",
+      "children": [
+        {
+          "label": "Actros",
+          "name": "auto-commercial-arctic-mercedes-benz-actros",
+          "url": "auto-commercial-arctic-mercedes-benz-actros"
+        },
+        {
+          "label": "Axor",
+          "name": "auto-commercial-arctic-mercedes-benz-axor",
+          "url": "auto-commercial-arctic-mercedes-benz-axor"
+        },
+        {
+          "label": "SK",
+          "name": "auto-commercial-arctic-mercedes-benz-sk",
+          "url": "auto-commercial-arctic-mercedes-benz-sk"
+        }
+      ]
+    },
+    {
+      "label": "Mitsubishi",
+      "name": "auto-commercial-arctic-mitsubishi",
+      "url": "auto-commercial-arctic-mitsubishi",
+      "children": [
+        {
+          "label": "Fuso",
+          "name": "auto-commercial-arctic-mitsubishi-fuso",
+          "url": "auto-commercial-arctic-mitsubishi-fuso"
+        }
+      ]
+    },
+    {
+      "label": "Nissan",
+      "name": "auto-commercial-arctic-nissan",
+      "url": "auto-commercial-arctic-nissan",
+      "children": [
+        {
+          "label": "Diesel",
+          "name": "auto-commercial-arctic-nissan-diesel",
+          "url": "auto-commercial-arctic-nissan-diesel"
+        }
+      ]
+    },
+    {
+      "label": "Peterbilt",
+      "name": "auto-commercial-arctic-peterbilt",
+      "url": "auto-commercial-arctic-peterbilt",
+      "children": [
+        {
+          "label": "387",
+          "name": "auto-commercial-arctic-peterbilt-387",
+          "url": "auto-commercial-arctic-peterbilt-387"
+        },
+        {
+          "label": "579",
+          "name": "auto-commercial-arctic-peterbilt-579",
+          "url": "auto-commercial-arctic-peterbilt-579"
+        },
+        {
+          "label": "587",
+          "name": "auto-commercial-arctic-peterbilt-587",
+          "url": "auto-commercial-arctic-peterbilt-587"
+        },
+        {
+          "label": "Class 6&7",
+          "name": "auto-commercial-arctic-peterbilt-class_6_and_7",
+          "url": "auto-commercial-arctic-peterbilt-class_6_and_7"
+        },
+        {
+          "label": "Class 8",
+          "name": "auto-commercial-arctic-peterbilt-class_8",
+          "url": "auto-commercial-arctic-peterbilt-class_8"
+        }
+      ]
+    },
+    {
+      "label": "Renault",
+      "name": "auto-commercial-arctic-renault",
+      "url": "auto-commercial-arctic-renault",
+      "children": [
+        {
+          "label": "C-Series",
+          "name": "auto-commercial-arctic-renault-c-series",
+          "url": "auto-commercial-arctic-renault-c-series"
+        },
+        {
+          "label": "K-Series",
+          "name": "auto-commercial-arctic-renault-k-series",
+          "url": "auto-commercial-arctic-renault-k-series"
+        },
+        {
+          "label": "Kerax",
+          "name": "auto-commercial-arctic-renault-kerax",
+          "url": "auto-commercial-arctic-renault-kerax"
+        },
+        {
+          "label": "Magnum",
+          "name": "auto-commercial-arctic-renault-magnum",
+          "url": "auto-commercial-arctic-renault-magnum"
+        },
+        {
+          "label": "Major",
+          "name": "auto-commercial-arctic-renault-major",
+          "url": "auto-commercial-arctic-renault-major"
+        },
+        {
+          "label": "Premium",
+          "name": "auto-commercial-arctic-renault-premium",
+          "url": "auto-commercial-arctic-renault-premium"
+        },
+        {
+          "label": "Trucks T",
+          "name": "auto-commercial-arctic-renault-trucks_t",
+          "url": "auto-commercial-arctic-renault-trucks_t"
+        }
+      ]
+    },
+    {
+      "label": "Scania",
+      "name": "auto-commercial-arctic-scania",
+      "url": "auto-commercial-arctic-scania",
+      "children": [
+        {
+          "label": "2-Series",
+          "name": "auto-commercial-arctic-scania-2-series",
+          "url": "auto-commercial-arctic-scania-2-series"
+        },
+        {
+          "label": "4-Series",
+          "name": "auto-commercial-arctic-scania-4-series",
+          "url": "auto-commercial-arctic-scania-4-series"
+        },
+        {
+          "label": "G",
+          "name": "auto-commercial-arctic-scania-g",
+          "url": "auto-commercial-arctic-scania-g"
+        },
+        {
+          "label": "Griffin",
+          "name": "auto-commercial-arctic-scania-griffin",
+          "url": "auto-commercial-arctic-scania-griffin"
+        },
+        {
+          "label": "M",
+          "name": "auto-commercial-arctic-scania-m",
+          "url": "auto-commercial-arctic-scania-m"
+        },
+        {
+          "label": "P",
+          "name": "auto-commercial-arctic-scania-p",
+          "url": "auto-commercial-arctic-scania-p"
+        },
+        {
+          "label": "R",
+          "name": "auto-commercial-arctic-scania-r",
+          "url": "auto-commercial-arctic-scania-r"
+        },
+        {
+          "label": "T",
+          "name": "auto-commercial-arctic-scania-t",
+          "url": "auto-commercial-arctic-scania-t"
+        }
+      ]
+    },
+    {
+      "label": "Shacman",
+      "name": "auto-commercial-arctic-shacman",
+      "url": "auto-commercial-arctic-shacman",
+      "children": [
+        {
+          "label": "F2000/F3000",
+          "name": "auto-commercial-arctic-shacman-f2000/f3000",
+          "url": "auto-commercial-arctic-shacman-f2000/f3000"
+        }
+      ]
+    },
+    {
+      "label": "Sisu",
+      "name": "auto-commercial-arctic-sisu",
+      "url": "auto-commercial-arctic-sisu",
+      "children": [
+        {
+          "label": "E18M",
+          "name": "auto-commercial-arctic-sisu-e18m",
+          "url": "auto-commercial-arctic-sisu-e18m"
+        },
+        {
+          "label": "SM282 SA",
+          "name": "auto-commercial-arctic-sisu-sm282_sa",
+          "url": "auto-commercial-arctic-sisu-sm282_sa"
+        }
+      ]
+    },
+    {
+      "label": "Skoda LIAZ",
+      "name": "auto-commercial-arctic-skoda_liaz",
+      "url": "auto-commercial-arctic-skoda_liaz",
+      "children": [
+        {
+          "label": "100",
+          "name": "auto-commercial-arctic-skoda_liaz-100",
+          "url": "auto-commercial-arctic-skoda_liaz-100"
+        },
+        {
+          "label": "200",
+          "name": "auto-commercial-arctic-skoda_liaz-200",
+          "url": "auto-commercial-arctic-skoda_liaz-200"
+        },
+        {
+          "label": "300",
+          "name": "auto-commercial-arctic-skoda_liaz-300",
+          "url": "auto-commercial-arctic-skoda_liaz-300"
+        },
+        {
+          "label": "400",
+          "name": "auto-commercial-arctic-skoda_liaz-400",
+          "url": "auto-commercial-arctic-skoda_liaz-400"
+        }
+      ]
+    },
+    {
+      "label": "Sterling",
+      "name": "auto-commercial-arctic-sterling",
+      "url": "auto-commercial-arctic-sterling",
+      "children": [
+        {
+          "label": "A-line",
+          "name": "auto-commercial-arctic-sterling-a-line",
+          "url": "auto-commercial-arctic-sterling-a-line"
+        },
+        {
+          "label": "Acterra",
+          "name": "auto-commercial-arctic-sterling-acterra",
+          "url": "auto-commercial-arctic-sterling-acterra"
+        },
+        {
+          "label": "Cargo",
+          "name": "auto-commercial-arctic-sterling-cargo",
+          "url": "auto-commercial-arctic-sterling-cargo"
+        },
+        {
+          "label": "L-line",
+          "name": "auto-commercial-arctic-sterling-l-line",
+          "url": "auto-commercial-arctic-sterling-l-line"
+        }
+      ]
+    },
+    {
+      "label": "Steyr",
+      "name": "auto-commercial-arctic-steyr",
+      "url": "auto-commercial-arctic-steyr",
+      "children": [
+        {
+          "label": "33",
+          "name": "auto-commercial-arctic-steyr-33",
+          "url": "auto-commercial-arctic-steyr-33"
+        }
+      ]
+    },
+    {
+      "label": "Tatra",
+      "name": "auto-commercial-arctic-tatra",
+      "url": "auto-commercial-arctic-tatra",
+      "children": [
+        {
+          "label": "TERRNo1 (6x6)",
+          "name": "auto-commercial-arctic-tatra-terrno1_6x6",
+          "url": "auto-commercial-arctic-tatra-terrno1_6x6"
+        }
+      ]
+    },
+    {
+      "label": "Volkswagen",
+      "name": "auto-commercial-arctic-volkswagen",
+      "url": "auto-commercial-arctic-volkswagen",
+      "children": [
+        {
+          "label": "Tractor Titan Constellation",
+          "name": "auto-commercial-arctic-volkswagen-tractor_titan_constellation",
+          "url": "auto-commercial-arctic-volkswagen-tractor_titan_constellation"
+        }
+      ]
+    },
+    {
+      "label": "Volvo",
+      "name": "auto-commercial-arctic-volvo",
+      "url": "auto-commercial-arctic-volvo",
+      "children": [
+        {
+          "label": "F",
+          "name": "auto-commercial-arctic-volvo-f",
+          "url": "auto-commercial-arctic-volvo-f"
+        },
+        {
+          "label": "FE",
+          "name": "auto-commercial-arctic-volvo-fe",
+          "url": "auto-commercial-arctic-volvo-fe"
+        },
+        {
+          "label": "FH",
+          "name": "auto-commercial-arctic-volvo-fh",
+          "url": "auto-commercial-arctic-volvo-fh"
+        },
+        {
+          "label": "FL",
+          "name": "auto-commercial-arctic-volvo-fl",
+          "url": "auto-commercial-arctic-volvo-fl"
+        },
+        {
+          "label": "FM",
+          "name": "auto-commercial-arctic-volvo-fm",
+          "url": "auto-commercial-arctic-volvo-fm"
+        },
+        {
+          "label": "NH",
+          "name": "auto-commercial-arctic-volvo-nh",
+          "url": "auto-commercial-arctic-volvo-nh"
+        },
+        {
+          "label": "VN",
+          "name": "auto-commercial-arctic-volvo-vn",
+          "url": "auto-commercial-arctic-volvo-vn"
+        },
+        {
+          "label": "VNL",
+          "name": "auto-commercial-arctic-volvo-vnl",
+          "url": "auto-commercial-arctic-volvo-vnl"
+        },
+        {
+          "label": "VNL & VNM",
+          "name": "auto-commercial-arctic-volvo-vnl__and__vnm",
+          "url": "auto-commercial-arctic-volvo-vnl__and__vnm"
+        },
+        {
+          "label": "VT",
+          "name": "auto-commercial-arctic-volvo-vt",
+          "url": "auto-commercial-arctic-volvo-vt"
+        }
+      ]
+    },
+    {
+      "label": "Western Star",
+      "name": "auto-commercial-arctic-western_star",
+      "url": "auto-commercial-arctic-western_star",
+      "children": [
+        {
+          "label": "4900",
+          "name": "auto-commercial-arctic-western_star-4900",
+          "url": "auto-commercial-arctic-western_star-4900"
+        },
+        {
+          "label": "6900",
+          "name": "auto-commercial-arctic-western_star-6900",
+          "url": "auto-commercial-arctic-western_star-6900"
+        }
+      ]
+    },
+    {
+      "label": "БЗКТ",
+      "name": "auto-commercial-arctic-bzkt",
+      "url": "auto-commercial-arctic-bzkt",
+      "children": [
+        {
+          "label": "БАЗ-6306",
+          "name": "auto-commercial-arctic-bzkt-baz-6306",
+          "url": "auto-commercial-arctic-bzkt-baz-6306"
+        },
+        {
+          "label": "БАЗ-6402",
+          "name": "auto-commercial-arctic-bzkt-baz-6402",
+          "url": "auto-commercial-arctic-bzkt-baz-6402"
+        },
+        {
+          "label": "БАЗ-6403",
+          "name": "auto-commercial-arctic-bzkt-baz-6403",
+          "url": "auto-commercial-arctic-bzkt-baz-6403"
+        }
+      ]
+    },
+    {
+      "label": "ГАЗ",
+      "name": "auto-commercial-arctic-gaz",
+      "url": "auto-commercial-arctic-gaz",
+      "children": [
+        {
+          "label": "Валдай",
+          "name": "auto-commercial-arctic-gaz-valdaj",
+          "url": "auto-commercial-arctic-gaz-valdaj"
+        }
+      ]
+    },
+    {
+      "label": "ЗИЛ",
+      "name": "auto-commercial-arctic-zil",
+      "url": "auto-commercial-arctic-zil",
+      "children": [
+        {
+          "label": "131",
+          "name": "auto-commercial-arctic-zil-131",
+          "url": "auto-commercial-arctic-zil-131"
+        },
+        {
+          "label": "133",
+          "name": "auto-commercial-arctic-zil-133",
+          "url": "auto-commercial-arctic-zil-133"
+        },
+        {
+          "label": "4415",
+          "name": "auto-commercial-arctic-zil-4415",
+          "url": "auto-commercial-arctic-zil-4415"
+        },
+        {
+          "label": "4423",
+          "name": "auto-commercial-arctic-zil-4423",
+          "url": "auto-commercial-arctic-zil-4423"
+        },
+        {
+          "label": "5301",
+          "name": "auto-commercial-arctic-zil-5301",
+          "url": "auto-commercial-arctic-zil-5301"
+        },
+        {
+          "label": "442160",
+          "name": "auto-commercial-arctic-zil-442160",
+          "url": "auto-commercial-arctic-zil-442160"
+        }
+      ]
+    },
+    {
+      "label": "КамАЗ",
+      "name": "auto-commercial-arctic-kamaz",
+      "url": "auto-commercial-arctic-kamaz",
+      "children": [
+        {
+          "label": "4410",
+          "name": "auto-commercial-arctic-kamaz-4410",
+          "url": "auto-commercial-arctic-kamaz-4410"
+        },
+        {
+          "label": "5410",
+          "name": "auto-commercial-arctic-kamaz-5410",
+          "url": "auto-commercial-arctic-kamaz-5410"
+        },
+        {
+          "label": "5411",
+          "name": "auto-commercial-arctic-kamaz-5411",
+          "url": "auto-commercial-arctic-kamaz-5411"
+        },
+        {
+          "label": "5446",
+          "name": "auto-commercial-arctic-kamaz-5446",
+          "url": "auto-commercial-arctic-kamaz-5446"
+        },
+        {
+          "label": "5460",
+          "name": "auto-commercial-arctic-kamaz-5460",
+          "url": "auto-commercial-arctic-kamaz-5460"
+        },
+        {
+          "label": "5490",
+          "name": "auto-commercial-arctic-kamaz-5490",
+          "url": "auto-commercial-arctic-kamaz-5490"
+        },
+        {
+          "label": "6460",
+          "name": "auto-commercial-arctic-kamaz-6460",
+          "url": "auto-commercial-arctic-kamaz-6460"
+        },
+        {
+          "label": "6511",
+          "name": "auto-commercial-arctic-kamaz-6511",
+          "url": "auto-commercial-arctic-kamaz-6511"
+        },
+        {
+          "label": "6520",
+          "name": "auto-commercial-arctic-kamaz-6520",
+          "url": "auto-commercial-arctic-kamaz-6520"
+        },
+        {
+          "label": "6522",
+          "name": "auto-commercial-arctic-kamaz-6522",
+          "url": "auto-commercial-arctic-kamaz-6522"
+        },
+        {
+          "label": "53504",
+          "name": "auto-commercial-arctic-kamaz-53504",
+          "url": "auto-commercial-arctic-kamaz-53504"
+        },
+        {
+          "label": "65806",
+          "name": "auto-commercial-arctic-kamaz-65806",
+          "url": "auto-commercial-arctic-kamaz-65806"
+        }
+      ]
+    },
+    {
+      "label": "КРАЗ",
+      "name": "auto-commercial-arctic-kraz",
+      "url": "auto-commercial-arctic-kraz",
+      "children": [
+        {
+          "label": "255",
+          "name": "auto-commercial-arctic-kraz-255",
+          "url": "auto-commercial-arctic-kraz-255"
+        },
+        {
+          "label": "258",
+          "name": "auto-commercial-arctic-kraz-258",
+          "url": "auto-commercial-arctic-kraz-258"
+        },
+        {
+          "label": "260",
+          "name": "auto-commercial-arctic-kraz-260",
+          "url": "auto-commercial-arctic-kraz-260"
+        },
+        {
+          "label": "5444",
+          "name": "auto-commercial-arctic-kraz-5444",
+          "url": "auto-commercial-arctic-kraz-5444"
+        },
+        {
+          "label": "6140",
+          "name": "auto-commercial-arctic-kraz-6140",
+          "url": "auto-commercial-arctic-kraz-6140"
+        },
+        {
+          "label": "6443",
+          "name": "auto-commercial-arctic-kraz-6443",
+          "url": "auto-commercial-arctic-kraz-6443"
+        },
+        {
+          "label": "6444",
+          "name": "auto-commercial-arctic-kraz-6444",
+          "url": "auto-commercial-arctic-kraz-6444"
+        },
+        {
+          "label": "6446",
+          "name": "auto-commercial-arctic-kraz-6446",
+          "url": "auto-commercial-arctic-kraz-6446"
+        }
+      ]
+    },
+    {
+      "label": "МАЗ",
+      "name": "auto-commercial-arctic-maz",
+      "url": "auto-commercial-arctic-maz",
+      "children": [
+        {
+          "label": "504",
+          "name": "auto-commercial-arctic-maz-504",
+          "url": "auto-commercial-arctic-maz-504"
+        },
+        {
+          "label": "5334",
+          "name": "auto-commercial-arctic-maz-5334",
+          "url": "auto-commercial-arctic-maz-5334"
+        },
+        {
+          "label": "5429",
+          "name": "auto-commercial-arctic-maz-5429",
+          "url": "auto-commercial-arctic-maz-5429"
+        },
+        {
+          "label": "543/7310",
+          "name": "auto-commercial-arctic-maz-543/7310",
+          "url": "auto-commercial-arctic-maz-543/7310"
+        },
+        {
+          "label": "5432",
+          "name": "auto-commercial-arctic-maz-5432",
+          "url": "auto-commercial-arctic-maz-5432"
+        },
+        {
+          "label": "5433",
+          "name": "auto-commercial-arctic-maz-5433",
+          "url": "auto-commercial-arctic-maz-5433"
+        },
+        {
+          "label": "5440",
+          "name": "auto-commercial-arctic-maz-5440",
+          "url": "auto-commercial-arctic-maz-5440"
+        },
+        {
+          "label": "6422",
+          "name": "auto-commercial-arctic-maz-6422",
+          "url": "auto-commercial-arctic-maz-6422"
+        },
+        {
+          "label": "6425",
+          "name": "auto-commercial-arctic-maz-6425",
+          "url": "auto-commercial-arctic-maz-6425"
+        },
+        {
+          "label": "6430",
+          "name": "auto-commercial-arctic-maz-6430",
+          "url": "auto-commercial-arctic-maz-6430"
+        },
+        {
+          "label": "64220",
+          "name": "auto-commercial-arctic-maz-64220",
+          "url": "auto-commercial-arctic-maz-64220"
+        },
+        {
+          "label": "7912/7917",
+          "name": "auto-commercial-arctic-maz-7912/7917",
+          "url": "auto-commercial-arctic-maz-7912/7917"
+        }
+      ]
+    },
+    {
+      "label": "МАЗ-МАН",
+      "name": "auto-commercial-arctic-maz-man",
+      "url": "auto-commercial-arctic-maz-man",
+      "children": [
+        {
+          "label": "54326",
+          "name": "auto-commercial-arctic-maz-man-54326",
+          "url": "auto-commercial-arctic-maz-man-54326"
+        },
+        {
+          "label": "64016",
+          "name": "auto-commercial-arctic-maz-man-64016",
+          "url": "auto-commercial-arctic-maz-man-64016"
+        },
+        {
+          "label": "64226",
+          "name": "auto-commercial-arctic-maz-man-64226",
+          "url": "auto-commercial-arctic-maz-man-64226"
+        }
+      ]
+    },
+    {
+      "label": "МЗКТ",
+      "name": "auto-commercial-arctic-mzkt",
+      "url": "auto-commercial-arctic-mzkt",
+      "children": [
+        {
+          "label": "6923",
+          "name": "auto-commercial-arctic-mzkt-6923",
+          "url": "auto-commercial-arctic-mzkt-6923"
+        },
+        {
+          "label": "7401",
+          "name": "auto-commercial-arctic-mzkt-7401",
+          "url": "auto-commercial-arctic-mzkt-7401"
+        },
+        {
+          "label": "7413",
+          "name": "auto-commercial-arctic-mzkt-7413",
+          "url": "auto-commercial-arctic-mzkt-7413"
+        },
+        {
+          "label": "7416",
+          "name": "auto-commercial-arctic-mzkt-7416",
+          "url": "auto-commercial-arctic-mzkt-7416"
+        },
+        {
+          "label": "7429",
+          "name": "auto-commercial-arctic-mzkt-7429",
+          "url": "auto-commercial-arctic-mzkt-7429"
+        }
+      ]
+    },
+    {
+      "label": "Русич (КЗКТ)",
+      "name": "auto-commercial-arctic-rusich_kzkt",
+      "url": "auto-commercial-arctic-rusich_kzkt",
+      "children": [
+        {
+          "label": "7428",
+          "name": "auto-commercial-arctic-rusich_kzkt-7428",
+          "url": "auto-commercial-arctic-rusich_kzkt-7428"
+        },
+        {
+          "label": "8005",
+          "name": "auto-commercial-arctic-rusich_kzkt-8005",
+          "url": "auto-commercial-arctic-rusich_kzkt-8005"
+        },
+        {
+          "label": "8014",
+          "name": "auto-commercial-arctic-rusich_kzkt-8014",
+          "url": "auto-commercial-arctic-rusich_kzkt-8014"
+        }
+      ]
+    },
+    {
+      "label": "Тонар",
+      "name": "auto-commercial-arctic-tonar",
+      "url": "auto-commercial-arctic-tonar",
+      "children": [
+        {
+          "label": "5422",
+          "name": "auto-commercial-arctic-tonar-5422",
+          "url": "auto-commercial-arctic-tonar-5422"
+        },
+        {
+          "label": "6428",
+          "name": "auto-commercial-arctic-tonar-6428",
+          "url": "auto-commercial-arctic-tonar-6428"
+        }
+      ]
+    },
+    {
+      "label": "Урал",
+      "name": "auto-commercial-arctic-ural",
+      "url": "auto-commercial-arctic-ural",
+      "children": [
+        {
+          "label": "6367",
+          "name": "auto-commercial-arctic-ural-6367",
+          "url": "auto-commercial-arctic-ural-6367"
+        },
+        {
+          "label": "6470",
+          "name": "auto-commercial-arctic-ural-6470",
+          "url": "auto-commercial-arctic-ural-6470"
+        },
+        {
+          "label": "44202",
+          "name": "auto-commercial-arctic-ural-44202",
+          "url": "auto-commercial-arctic-ural-44202"
+        },
+        {
+          "label": "54236",
+          "name": "auto-commercial-arctic-ural-54236",
+          "url": "auto-commercial-arctic-ural-54236"
+        },
+        {
+          "label": "55571",
+          "name": "auto-commercial-arctic-ural-55571",
+          "url": "auto-commercial-arctic-ural-55571"
+        }
+      ]
+    },
+    {
+      "label": "ЯРОВИТ МОТОРС",
+      "name": "auto-commercial-arctic-qrovit_motors",
+      "url": "auto-commercial-arctic-qrovit_motors",
+      "children": [
+        {
+          "label": "Gloros",
+          "name": "auto-commercial-arctic-qrovit_motors-gloros",
+          "url": "auto-commercial-arctic-qrovit_motors-gloros"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "label": "Цена",
+      "name": "auto-commercial-arctic-price",
+      "priority": 1,
+      "post_form": "textbox",
+      "measure": "сом",
+      "search_form": "range",
+      "search_priority": 1,
+      "filter_default_toggle": true,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите цену"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Год выпуска",
+      "name": "auto-commercial-arctic-year",
+      "priority": 2,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 2,
+      "filter_default_toggle": true,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Необходимо заполнить поле \"Год выпуска\"."
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Год выпуска\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Пробег",
+      "name": "auto-commercial-arctic-odometer",
+      "priority": 3,
+      "post_form": "textbox",
+      "measure": "км",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Пробег\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Руль",
+      "name": "auto-commercial-arctic-steering_wheel",
+      "priority": 4,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 4,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Слева",
+          "priority": 1
+        },
+        {
+          "label": "Справа",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите расположение руля."
+        }
+      ]
+
+    },
+    {
+      "name": "auto-commercial-arctic-engine",
+      "label": "Тип двигателя",
+      "priority": 5,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 5,
+      "options": [
+        {
+          "label": "Дизель",
+          "priority": 1
+        },
+        {
+          "label": "Бензин",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип двигателя."
+        }
+      ]
+    },
+    {
+      "label": "Объем двигателя",
+      "name": "auto-commercial-arctic-volume",
+      "priority": 6,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 6,
+      "measure": "л.",
+      "hint": "пример: 3.0",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите объем двигателя."
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "message": "\"Объем двигателя\" - значение должно быть числом."
+        }
+      ]
+    },
+    {
+      "label": "Мощность",
+      "name": "auto-commercial-arctic-power",
+      "priority": 7,
+      "post_form": "textbox",
+      "measure": "л.с.",
+      "hint": "пример: 52 л.с.",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Мощность\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Коробка передач",
+      "name": "auto-commercial-arctic-transmission",
+      "priority": 8,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 8,
+      "options": [
+        {
+          "label": "Механика",
+          "priority": 1
+        },
+        {
+          "label": "Автомат",
+          "priority": 2
+        },
+        {
+          "label": "Полуавтомат",
+          "priority": 3
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите тип коробки передач"
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-arctic-wheel_formula",
+      "label": "Колесная формула",
+      "priority": 9,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "4x2",
+          "priority": 3
+        },
+        {
+          "label": "4x4",
+          "priority": 4
+        },
+        {
+          "label": "6x2",
+          "priority": 5
+        },
+        {
+          "label": "6x4",
+          "priority": 6
+        },
+        {
+          "label": "6x6",
+          "priority": 7
+        },
+        {
+          "label": "8x4",
+          "priority": 9
+        },
+        {
+          "label": "8x8",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-arctic-cab_type",
+      "label": "Тип кабины",
+      "priority": 10,
+      "post_form": "dropdown",
+      "options": [
+        {
+          "label": "2-х местная без спального",
+          "priority": 1
+        },
+        {
+          "label": "2-х местная с 1 спальным",
+          "priority": 2
+        },
+        {
+          "label": "2-х местная с 2 спальными",
+          "priority": 3
+        },
+        {
+          "label": "3-х местная без спального",
+          "priority": 4
+        },
+        {
+          "label": "3-х местная с 1 спальным",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "label": "Высота седельного устройства",
+      "name": "saddle_height",
+      "priority": 11,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "128",
+          "priority": 1
+        },
+        {
+          "label": "150",
+          "priority": 2
+        },
+        {
+          "label": "185",
+          "priority": 3
+        },
+        {
+          "label": "250",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "name": "auto-commercial-arctic-cab_suspension",
+      "label": "Подвеска кабины",
+      "priority": 12,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "механическая",
+          "priority": 1
+        },
+        {
+          "label": "пневматическая",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "auto-commercial-arctic-condition",
+      "priority": 13,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "Отличное",
+          "priority": 1
+        },
+        {
+          "label": "Хорошее",
+          "priority": 2
+        },
+        {
+          "label": "Среднее",
+          "priority": 3
+        },
+        {
+          "label": "Требует ремонта",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "Наличие",
+      "name": "auto-commercial-arctic-availability",
+      "priority": 14,
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 14,
+      "options": [
+        {
+          "label": "В наличии",
+          "priority": 1
+        },
+        {
+          "label": "На заказ",
+          "priority": 2
+        }
+      ],
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Выберите наличие"
+        }
+      ]
+    },
+    {
+      "label": "Опции",
+      "name": "auto-commercial-arctic-options",
+      "priority": 15,
+      "post_form": "collapse",
+      "parameters": [
+        {
+          "label": "Комплектация",
+          "name": "auto-commercial-arctic-options-equipment",
+          "priority": 1,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "abs",
+              "label": "Антиблок. система (ABS)",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "aeroDeflector",
+              "label": "Аэродефлектор",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "name": "tachograph",
+              "label": "Тахограф",
+              "post_form": "checkbox",
+              "priority": 3
+            },
+            {
+              "name": "heated_mirrors",
+              "label": "Обогрев зеркал",
+              "post_form": "checkbox",
+              "priority": 4
+            },
+            {
+              "name": "interior_heater",
+              "label": "Автономный отопитель салона",
+              "post_form": "checkbox",
+              "priority": 5
+            },
+            {
+              "name": "fridge",
+              "label": "Холодильник",
+              "post_form": "checkbox",
+              "priority": 6
+            },
+            {
+              "name": "bow_thruster",
+              "label": "Подруливающая ось",
+              "post_form": "checkbox",
+              "priority": 7
+            },
+            {
+              "name": "engine_preheating",
+              "label": "Предпусковой подогрев двигателя",
+              "post_form": "checkbox",
+              "priority": 8
+            },
+            {
+              "name": "tv",
+              "label": "Телевизор",
+              "post_form": "checkbox",
+              "priority": 9
+            },
+            {
+              "name": "power_mirrors",
+              "label": "Электропривод зеркал",
+              "post_form": "checkbox",
+              "priority": 10
+            },
+            {
+              "name": "ebs",
+              "label": "Эл.тормозная система (EBS)",
+              "post_form": "checkbox",
+              "priority": 11
+            },
+            {
+              "name": "headlights_corrector",
+              "label": "Корректор фар",
+              "post_form": "checkbox",
+              "priority": 12
+            },
+            {
+              "name": "airbags",
+              "label": "Подушки безопасности",
+              "post_form": "checkbox",
+              "priority": 13
+            },
+            {
+              "name": "cruise_control",
+              "label": "Круиз-контроль",
+              "post_form": "checkbox",
+              "priority": 14
+            },
+            {
+              "name": "computer",
+              "label": "Бортовой компьютер",
+              "post_form": "checkbox",
+              "priority": 15
+            },
+            {
+              "name": "navigation",
+              "label": "Навигационная система",
+              "post_form": "checkbox",
+              "priority": 16
+            },
+            {
+              "name": "lifting_axle",
+              "label": "Подъёмная ось",
+              "post_form": "checkbox",
+              "priority": 17
+            },
+            {
+              "name": "fog_lights",
+              "label": "Противотуманные фары",
+              "post_form": "checkbox",
+              "priority": 18
+            }
+          ]
+        },
+        {
+          "label": "Горный тормоз",
+          "name": "mountain_brake",
+          "priority": 2,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "intarder",
+              "label": "Интардер",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "retarder",
+              "label": "Ретардер",
+              "post_form": "checkbox",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Климат",
+          "name": "climate",
+          "priority": 3,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "conditioner",
+              "label": "Кондиционер",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "climate_control",
+              "label": "Климат-контроль",
+              "post_form": "checkbox",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Подогрев сидений",
+          "name": "heated_seats",
+          "priority": 4,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "driver_seat",
+              "label": "Водительское",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "all_seats",
+              "label": "Оба",
+              "post_form": "checkbox",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Электроподъемники",
+          "name": "electric_lifts",
+          "priority": 5,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "all_lifts",
+              "label": "Все",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "left_lift",
+              "label": "Левый",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "name": "right_lift",
+              "label": "Правый",
+              "post_form": "checkbox",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Магнитола",
+          "name": "media",
+          "priority": 6,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "cd",
+              "label": "CD",
+              "post_form": "checkbox",
+              "priority": 1
+            },
+            {
+              "name": "dvd",
+              "label": "DVD",
+              "post_form": "checkbox",
+              "priority": 2
+            },
+            {
+              "name": "cassette",
+              "label": "Кассетная",
+              "post_form": "checkbox",
+              "priority": 3
+            },
+            {
+              "name": "usb",
+              "label": "USB",
+              "post_form": "checkbox",
+              "priority": 4
+            },
+            {
+              "name": "mp3",
+              "label": "MP3",
+              "post_form": "checkbox",
+              "priority": 5
+            },
+            {
+              "name": "radio",
+              "label": "Радио",
+              "post_form": "checkbox",
+              "priority": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Прочее",
+      "name": "auto-commercial-arctic-additional_information",
+      "priority": 16,
+      "post_form": "checkboxlist",
+      "parameters": [
+        {
+          "name": "newly_delivered",
+          "label": "Свежедоставлен",
+          "post_form": "checkbox",
+          "priority": 1
+        },
+        {
+          "name": "cleared",
+          "label": "Растаможен",
+          "post_form": "checkbox",
+          "priority": 2
+        },
+        {
+          "name": "investment_does_not_required",
+          "label": "Вложений не требует",
+          "post_form": "checkbox",
+          "priority": 3
+        },
+        {
+          "name": "urgent",
+          "label": "Срочно",
+          "post_form": "checkbox",
+          "priority": 4
+        },
+        {
+          "name": "inspection_passed",
+          "label": "Техосмотр пройден",
+          "post_form": "checkbox",
+          "priority": 5
+        },
+        {
+          "name": "barter",
+          "label": "Возможен обмен",
+          "post_form": "checkbox",
+          "priority": 6
+        }
+      ]
+    }
+  ]
+}

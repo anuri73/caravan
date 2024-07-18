@@ -1,0 +1,40 @@
+{
+  "label": "Текстиль",
+  "url": "home-garden-textyle",
+  "priority": 8,
+  "parameters": [
+    {
+      "label": "Тип",
+      "name": "home-garden-textyle-type",
+      "priority": 11,
+      "post_form": "dropdown",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип"
+        }
+      ],
+      "search_form": "checkbox",
+      "search_priority": 11,
+      "filter_default_toggle": true,
+      "options": [
+        {"label": "Шторы","priority": 1},
+        {"label": "Римские и рулонные шторы","priority": 1},
+        {"label": "Постельное белье","priority": 1},
+        {"label": "Пледы и покрывала","priority": 1},
+        {"label": "Одеяла","priority": 1},
+        {"label": "Подушки","priority": 1},
+        {"label": "Наматрасники и чехлы для матрасов","priority": 1},
+        {"label": "Чехлы для мебели и подушек","priority": 1},
+        {"label": "Текстиль с электроподогревом","priority": 1},
+        {"label": "Полотенца","priority": 1},
+        {"label": "Скатерти и салфетки","priority": 1},
+        {"label": "Рукавицы, прихватки, фартуки","priority": 1},
+        {"label": "Декоративные подушки","priority": 1},
+        {"label": "Ткани","priority": 1},
+        {"label": "Другой","priority": 1}
+      ]
+    }
+  ]
+
+}

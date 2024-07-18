@@ -1,0 +1,842 @@
+{
+  "name": "realty-land",
+  "label": "Земельные участки",
+  "url": "realty-land",
+  "priority": 3,
+  "children": [
+    {
+      "name": "realty-land-sell",
+      "label": "Продам",
+      "url": "realty-land-sell",
+      "priority": 1,
+      "children": [
+        {
+          "name": "realty-land-sell-for_realty",
+          "label": "Участки для жилищного строительства",
+          "url": "realty-land-sell-for_realty",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Право собственности",
+              "name": "realty-land-sell-for_realty-from",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип права собствености"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Собственник",
+                  "priority": 1
+                },
+                {
+                  "label": "Посредник",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Площадь участка",
+              "name": "realty-land-sell-for_realty-area-land",
+              "priority": 100,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 100,
+              "filter_default_toggle": true,
+              "measure": "соток",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите площадь"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Площадь - значение должно быть числом"
+                }
+              ]
+            },
+            {
+              "label": "Цена",
+              "name": "realty-land-sell-for_realty-price",
+              "priority": 110,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 110,
+              "filter_default_toggle": true,
+              "measure": "сом",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите цену"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "Цена - значение должно быть целым числом"
+                }
+              ]
+            },
+            {
+              "label": "Тип местоположения",
+              "name": "realty-land-sell-for_realty-emplacement",
+              "priority": 111,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 111,
+              "options": [
+                {
+                  "label": "В городе",
+                  "priority": 1
+                },
+                {
+                  "label": "В пригороде",
+                  "priority": 2
+                },
+                {
+                  "label": "В предгорьях",
+                  "priority": 3
+                },
+                {
+                  "label": "В дачном массиве",
+                  "priority": 4
+                },
+                {
+                  "label": "В жилом массиве",
+                  "priority": 5
+                },
+                {
+                  "label": "Вдоль трассы",
+                  "priority": 6
+                },
+                {
+                  "label": "Возле водоема, реки",
+                  "priority": 7
+                }
+              ]
+            },
+            {
+              "label": "Местоположение",
+              "name": "realty-land-sell-for_realty-microregion",
+              "priority": 112,
+              "hint": "Район, адрес или название жилого массива",
+              "post_form": "textbox"
+            },
+            {
+              "label": "Документы",
+              "name": "document",
+              "priority": 113,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 113,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Красная книга",
+                  "priority": 1
+                },
+                {
+                  "label": "Зеленая книга",
+                  "priority": 2
+                },
+                {
+                  "label": "Другое",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "label": "Подключено",
+              "name": "realty-land-sell-for_realty-connected",
+              "priority": 300,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "realty-land-sell-for_realty-phone",
+                  "post_form": "checkbox",
+                  "label": "Телефон",
+                  "priority": 1
+                },
+                {
+                  "name": "realty-land-sell-for_realty-electricity",
+                  "post_form": "checkbox",
+                  "label": "Электричество",
+                  "priority": 2
+                },
+                {
+                  "name": "realty-land-sell-for_realty-water",
+                  "post_form": "checkbox",
+                  "label": "Вода",
+                  "priority": 3
+                },
+                {
+                  "name": "realty-land-sell-for_realty-gas",
+                  "post_form": "checkbox",
+                  "label": "Газ",
+                  "priority": 4
+                },
+                {
+                  "name": "realty-land-sell-for_realty-sewerage",
+                  "post_form": "checkbox",
+                  "label": "Канализация",
+                  "priority": 5
+                },
+                {
+                  "name": "realty-land-sell-for_realty-connected-heating",
+                  "post_form": "checkbox",
+                  "label": "Отопление",
+                  "priority": 6
+                }
+              ]
+            },
+            {
+              "label": "Прочее",
+              "name": "realty-land-sell-for_realty-other_info",
+              "priority": 311,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "convenient_for_business",
+                  "post_form": "checkbox",
+                  "label": "Удобно под бизнес",
+                  "priority": 1
+                },
+                {
+                  "name": "garden",
+                  "post_form": "checkbox",
+                  "label": "Сад",
+                  "priority": 2
+                },
+                {
+                  "name": "barn",
+                  "post_form": "checkbox",
+                  "label": "Хозпостройки",
+                  "priority": 3
+                },
+                {
+                  "name": "foundation",
+                  "post_form": "checkbox",
+                  "label": "Фундамент",
+                  "priority": 4
+                },
+                {
+                  "name": "smooth",
+                  "post_form": "checkbox",
+                  "label": "Ровный",
+                  "priority": 5
+                },
+                {
+                  "name": "fenced",
+                  "post_form": "checkbox",
+                  "label": "Огорожен",
+                  "priority": 6
+                },
+                {
+                  "name": "easy-entry",
+                  "post_form": "checkbox",
+                  "label": "Удобный въезд",
+                  "priority": 7
+                },
+                {
+                  "name": "all-documents",
+                  "post_form": "checkbox",
+                  "label": "Все документы",
+                  "priority": 8
+                },
+                {
+                  "name": "possible-to-rent",
+                  "post_form": "checkbox",
+                  "label": "Возможна аренда",
+                  "priority": 9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "realty-land-sell-for_farming",
+          "label": "Участки сельхозназначения",
+          "url": "realty-land-sell-for_farming",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Право собственности",
+              "name": "realty-land-sell-for_farming-from",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип права собствености"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Собственник",
+                  "priority": 1
+                },
+                {
+                  "label": "Посредник",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Площадь участка",
+              "name": "realty-land-sell-for_farming-area-hectare",
+              "priority": 100,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 100,
+              "filter_default_toggle": true,
+              "measure": "га",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите площадь"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Площадь - значение должно быть числом"
+                }
+              ]
+            },
+            {
+              "label": "Цена",
+              "name": "realty-land-sell-for_farming-price",
+              "priority": 110,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 110,
+              "filter_default_toggle": true,
+              "measure": "сом",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите цену"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "Цена - значение должно быть целым числом"
+                }
+              ]
+            },
+            {
+              "label": "Расстояние до города",
+              "name": "realty-land-sell-for_farming-distance",
+              "priority": 111,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 111,
+              "measure": "км",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Расстояние - значение должно быть числом"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "realty-land-sell-for_industry",
+          "label": "Участки промназначения",
+          "url": "realty-land-sell-for_industry",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Право собственности",
+              "name": "realty-land-sell-for_industry-from",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип права собствености"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Собственник",
+                  "priority": 1
+                },
+                {
+                  "label": "Посредник",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Площадь участка",
+              "name": "realty-land-sell-for_industry-area-land",
+              "priority": 100,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 100,
+              "filter_default_toggle": true,
+              "measure": "соток",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите площадь"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Площадь - значение должно быть числом"
+                }
+              ]
+            },
+            {
+              "label": "Цена",
+              "name": "realty-land-sell-for_industry-price",
+              "priority": 110,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 110,
+              "filter_default_toggle": true,
+              "measure": "сом",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите цену"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "Цена - значение должно быть целым числом"
+                }
+              ]
+            },
+            {
+              "label": "Расстояние до города",
+              "name": "realty-land-sell-for_industry-distance",
+              "priority": 111,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 111,
+              "measure": "км",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Расстояние - значение должно быть числом"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "realty-land-rent",
+      "label": "Сдам",
+      "url": "realty-land-rent",
+      "priority": 2,
+      "children": [
+        {
+          "name": "realty-land-rent-for_realty",
+          "label": "Участки для жилищного строительства",
+          "url": "realty-land-rent-for_realty",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Право собственности",
+              "name": "realty-land-rent-for_realty-from",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип права собствености"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Собственник",
+                  "priority": 1
+                },
+                {
+                  "label": "Посредник",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Площадь участка",
+              "name": "realty-land-rent-for_realty-area-land",
+              "priority": 100,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 100,
+              "filter_default_toggle": true,
+              "measure": "соток",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите площадь"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Площадь - значение должно быть числом"
+                }
+              ]
+            },
+            {
+              "label": "Цена",
+              "name": "realty-land-rent-for_realty-price",
+              "priority": 110,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 110,
+              "filter_default_toggle": true,
+              "measure": "сом",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите цену"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "Цена - значение должно быть целым числом"
+                }
+              ]
+            },
+            {
+              "label": "Тип местоположения",
+              "name": "realty-land-rent-for_realty-emplacement",
+              "priority": 111,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 111,
+              "options": [
+                {
+                  "label": "В городе",
+                  "priority": 1
+                },
+                {
+                  "label": "В пригороде",
+                  "priority": 2
+                },
+                {
+                  "label": "В предгорьях",
+                  "priority": 3
+                },
+                {
+                  "label": "В дачном массиве",
+                  "priority": 4
+                },
+                {
+                  "label": "В жилом массиве",
+                  "priority": 5
+                },
+                {
+                  "label": "Вдоль трассы",
+                  "priority": 6
+                },
+                {
+                  "label": "Возле водоема, реки",
+                  "priority": 7
+                }
+              ]
+            },
+            {
+              "label": "Местоположение",
+              "name": "realty-land-rent-for_realty-microregion",
+              "priority": 112,
+              "hint": "Район, адрес или название жилого массива",
+              "post_form": "textbox"
+            },
+            {
+              "label": "Подключено",
+              "name": "realty-land-rent-for_realty-connected",
+              "priority": 300,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "realty-land-rent-for_realty-phone",
+                  "post_form": "checkbox",
+                  "label": "Телефон",
+                  "priority": 1
+                },
+                {
+                  "name": "realty-land-rent-for_realty-electricity",
+                  "post_form": "checkbox",
+                  "label": "Электричество",
+                  "priority": 2
+                },
+                {
+                  "name": "realty-land-rent-for_realty-water",
+                  "post_form": "checkbox",
+                  "label": "Вода",
+                  "priority": 3
+                },
+                {
+                  "name": "realty-land-rent-for_realty-gas",
+                  "post_form": "checkbox",
+                  "label": "Газ",
+                  "priority": 4
+                },
+                {
+                  "name": "realty-land-rent-for_realty-sewerage",
+                  "post_form": "checkbox",
+                  "label": "Канализация",
+                  "priority": 5
+                },
+                {
+                  "name": "realty-land-rent-for_realty-connected-heating",
+                  "post_form": "checkbox",
+                  "label": "Отопление",
+                  "priority": 6
+                }
+              ]
+            },
+            {
+              "label": "Прочее",
+              "name": "realty-land-rent-for_realty-other_info",
+              "priority": 311,
+              "post_form": "checkboxlist",
+              "parameters": [
+                {
+                  "name": "convenient_for_business",
+                  "post_form": "checkbox",
+                  "label": "Удобно под бизнес",
+                  "priority": 1
+                },
+                {
+                  "name": "garden",
+                  "post_form": "checkbox",
+                  "label": "Сад",
+                  "priority": 2
+                },
+                {
+                  "name": "barn",
+                  "post_form": "checkbox",
+                  "label": "Хозпостройки",
+                  "priority": 3
+                },
+                {
+                  "name": "smooth",
+                  "post_form": "checkbox",
+                  "label": "Ровный",
+                  "priority": 5
+                },
+                {
+                  "name": "fenced",
+                  "post_form": "checkbox",
+                  "label": "Огорожен",
+                  "priority": 6
+                },
+                {
+                  "name": "easy-entry",
+                  "post_form": "checkbox",
+                  "label": "Удобный въезд",
+                  "priority": 7
+                },
+                {
+                  "name": "all-documents",
+                  "post_form": "checkbox",
+                  "label": "Все документы",
+                  "priority": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "realty-land-rent-for_farming",
+          "label": "Участки сельхозназначения",
+          "url": "realty-land-rent-for_farming",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Право собственности",
+              "name": "realty-land-rent-for_farming-from",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип права собствености"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Собственник",
+                  "priority": 1
+                },
+                {
+                  "label": "Посредник",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Площадь участка",
+              "name": "realty-land-rent-for_farming-area-hectare",
+              "priority": 100,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 100,
+              "filter_default_toggle": true,
+              "measure": "га",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите площадь"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Площадь - значение должно быть числом"
+                }
+              ]
+            },
+            {
+              "label": "Цена",
+              "name": "realty-land-rent-for_farming-price",
+              "priority": 110,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 110,
+              "filter_default_toggle": true,
+              "measure": "сом",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите цену"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "Цена - значение должно быть целым числом"
+                }
+              ]
+            },
+            {
+              "label": "Расстояние до города",
+              "name": "realty-land-rent-for_farming-distance",
+              "priority": 111,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 111,
+              "measure": "км",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Расстояние - значение должно быть числом"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "realty-land-rent-for_industry",
+          "label": "Участки промназначения",
+          "url": "realty-land-rent-for_industry",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Право собственности",
+              "name": "realty-land-rent-for_industry-from",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип права собствености"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Собственник",
+                  "priority": 1
+                },
+                {
+                  "label": "Посредник",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Площадь участка",
+              "name": "realty-land-rent-for_industry-area-land",
+              "priority": 100,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 100,
+              "filter_default_toggle": true,
+              "measure": "соток",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите площадь"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Площадь - значение должно быть числом"
+                }
+              ]
+            },
+            {
+              "label": "Цена",
+              "name": "realty-land-rent-for_industry-price",
+              "priority": 110,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 110,
+              "filter_default_toggle": true,
+              "measure": "сом",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Пожайлуста, укажите цену"
+                },
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "integerOnly": true,
+                  "message": "Цена - значение должно быть целым числом"
+                }
+              ]
+            },
+            {
+              "label": "Расстояние до города",
+              "name": "realty-land-rent-for_industry-distance",
+              "priority": 111,
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 111,
+              "measure": "км",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Расстояние - значение должно быть числом"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}

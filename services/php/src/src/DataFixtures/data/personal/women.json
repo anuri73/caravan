@@ -1,0 +1,3475 @@
+{
+  "label": "Женская одежда и обувь",
+  "url": "personal-women",
+  "priority": 1,
+  "children": [
+    {
+      "url": "personal-women-clothing",
+      "label": "Женская одежда",
+      "priority": 1,
+      "children": [
+        {
+          "url": "personal-women-clothing-outerwear",
+          "label": "Женская верхняя одежда",
+          "priority": 1,
+          "children": [
+            {
+              "url": "personal-women-clothing-outerwear-jackets",
+              "label": "Женские куртки",
+              "priority": 1,
+              "parameters": [
+                {
+                  "label": "Модель",
+                  "name": "personal-women-clothing-outerwear-jackets-type",
+                  "priority": 10,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Анорак","priority": 1},
+                    {"label": "Ветровка","priority": 1},
+                    {"label": "Дождевик","priority": 1},
+                    {"label": "Косуха","priority": 1},
+                    {"label": "Парка","priority": 1},
+                    {"label": "Другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Cезон",
+                  "name": "personal-women-clothing-outerwear-jackets-season",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "демисезон","priority": 1},
+                    {"label": "зима","priority": 1},
+                    {"label": "круглогодичный","priority": 1},
+                    {"label": "лето","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-outerwear-jackets-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-outerwear-coats",
+              "label": "Женские пальто",
+              "priority": 2,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-women-clothing-outerwear-coats-type",
+                  "priority": 10,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Приталенное","priority": 1},
+                    {"label": "Прямое","priority": 1},
+                    {"label": "Расклешенное","priority": 1},
+                    {"label": "Свободное","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Воротник",
+                  "name": "personal-women-clothing-outerwear-coats-collar",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "отложной","priority": 1},
+                    {"label": "стойка","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Cезон",
+                  "name": "personal-women-clothing-outerwear-coats-season",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "демисезон","priority": 1},
+                    {"label": "зима","priority": 1},
+                    {"label": "круглогодичный","priority": 1},
+                    {"label": "лето","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-outerwear-coats-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-outerwear-raincoats-trench-coats",
+              "label": "Плащи и тренчи",
+              "priority": 3,
+              "parameters": [
+                {
+                  "label": "Cезон",
+                  "name": "personal-women-clothing-outerwear-raincoats-trench-coats-season",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "демисезон","priority": 1},
+                    {"label": "зима","priority": 1},
+                    {"label": "круглогодичный","priority": 1},
+                    {"label": "лето","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-outerwear-raincoats-trench-coats-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-outerwear-down-jackets",
+              "label": "Пуховики",
+              "priority": 4,
+              "parameters": [
+                {
+                  "label": "Cезон",
+                  "name": "personal-women-clothing-outerwear-down-jackets-season",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "демисезон","priority": 1},
+                    {"label": "зима","priority": 1},
+                    {"label": "круглогодичный","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-outerwear-down-jackets-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-outerwear-fur-coats",
+              "label": "Шубы",
+              "priority": 5,
+              "parameters": [
+                {
+                  "label": "Мех",
+                  "name": "personal-women-clothing-outerwear-fur-coats-fur type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "искусственный","priority": 1},
+                    {"label": "кролик","priority": 1},
+                    {"label": "лиса","priority": 1},
+                    {"label": "мутон","priority": 1},
+                    {"label": "норка","priority": 1},
+                    {"label": "овчина","priority": 1},
+                    {"label": "песец","priority": 1},
+                    {"label": "другой","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Фасон",
+                  "name": "personal-women-clothing-outerwear-fur-coats-style",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "жакет","priority": 1},
+                    {"label": "куртка","priority": 1},
+                    {"label": "пальто","priority": 1},
+                    {"label": "полушубок","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-outerwear-fur-coats-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-outerwear-sheepskins",
+              "label": "Дубленки",
+              "priority": 6,
+              "parameters": [
+                {
+                  "label": "Модель",
+                  "name": "personal-women-clothing-outerwear-sheepskins-style",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "куртка","priority": 1},
+                    {"label": "пальто","priority": 1},
+                    {"label": "полупальто","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-outerwear-sheepskins-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-outerwear-waistcoats",
+              "label": "Жилеты",
+              "priority": 7,
+              "parameters": [
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-outerwear-waistcoats-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-outerwear-capes-ponchos",
+              "label": "Накидки и пончо",
+              "priority": 8,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-women-clothing-outerwear-capes-ponchos-type",
+                  "priority": 10,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "Накидка","priority": 1},
+                    {"label": "Пончо","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-outerwear-capes-ponchos-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-outerwear-other",
+              "label": "Прочая женская верхняя одежда",
+              "priority": 9,
+              "parameters": [
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-outerwear-other-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            }
+            ]
+        },
+        {
+          "url": "personal-women-clothing-dresses",
+          "label": "Платья",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-women-clothing-dresses-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "А-силуэт","priority": 1},
+                {"label": "ампир","priority": 1},
+                {"label": "годе","priority": 1},
+                {"label": "летучая мышь","priority": 1},
+                {"label": "рубашка","priority": 1},
+                {"label": "с баской","priority": 1},
+                {"label": "с запахом","priority": 1},
+                {"label": "сарафан","priority": 1},
+                {"label": "свитер","priority": 1},
+                {"label": "футляр","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Длина",
+              "name": "personal-women-clothing-dresses-length",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "макси","priority": 1},
+                {"label": "миди","priority": 1},
+                {"label": "мини","priority": 1}
+              ]
+            },
+            {
+              "label": "Стиль",
+              "name": "personal-women-clothing-dresses-style",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "casual","priority": 1},
+                {"label": "вечернее","priority": 1},
+                {"label": "деловое","priority": 1},
+                {"label": "коктейльное","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-dresses-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-shirts-blouses",
+          "label": "Рубашки и блузы",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-women-clothing-shirts-blouses-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "блуза","priority": 1},
+                {"label": "кофточка","priority": 1},
+                {"label": "рубашка","priority": 1},
+                {"label": "туника","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-clothing-shirts-blouses-season",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Рукав",
+              "name": "personal-women-clothing-shirts-blouses-sleeve",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "3/4","priority": 1},
+                {"label": "длинный","priority": 1},
+                {"label": "короткий","priority": 1},
+                {"label": "отсутствует","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-shirts-blouses-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-t-shirts-tops",
+          "label": "Футболки и топы",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-clothing-t-shirts-tops-type",
+              "priority": 10,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "боди","priority": 1},
+                {"label": "кофточка","priority": 1},
+                {"label": "лонгслив","priority": 1},
+                {"label": "майка","priority": 1},
+                {"label": "поло","priority": 1},
+                {"label": "топ","priority": 1},
+                {"label": "футболка","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-t-shirts-tops-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-jeans",
+          "label": "Джинсы",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-women-clothing-jeans-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "бойфренды","priority": 1},
+                {"label": "зауженные","priority": 1},
+                {"label": "клеш","priority": 1},
+                {"label": "прямые","priority": 1},
+                {"label": "скинни","priority": 1},
+                {"label": "широкие","priority": 1}
+              ]
+            },
+            {
+              "label": "Посадка",
+              "name": "personal-women-clothing-jeans-style",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "высокая","priority": 1},
+                {"label": "низкая","priority": 1},
+                {"label": "средняя","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-jeans-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-home",
+          "label": "Домашняя одежда",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-clothing-home-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "брюки","priority": 1},
+                {"label": "комплект","priority": 1},
+                {"label": "костюм","priority": 1},
+                {"label": "пижама","priority": 1},
+                {"label": "платье","priority": 1},
+                {"label": "сорочка","priority": 1},
+                {"label": "футболка","priority": 1},
+                {"label": "халат","priority": 1},
+                {"label": "шорты","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-home-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-pants",
+          "label": "Брюки",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-women-clothing-pants-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "брюки","priority": 1},
+                {"label": "джеггинсы","priority": 1},
+                {"label": "легинсы","priority": 1}
+              ]
+            },
+            {
+              "label": "Фасон",
+              "name": "personal-women-clothing-pants-style",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "узкие","priority": 1},
+                {"label": "классические","priority": 1},
+                {"label": "прямые","priority": 1},
+                {"label": "7/8","priority": 1},
+                {"label": "чиносы","priority": 1},
+                {"label": "бананы","priority": 1},
+                {"label": "галифе","priority": 1},
+                {"label": "карго","priority": 1},
+                {"label": "расклешенные","priority": 1},
+                {"label": "шаровары","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-clothing-pants-season",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-pants-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-sweaters-cardigans",
+          "label": "Свитеры и кардиганы",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-clothing-sweaters-cardigans-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "водолазка","priority": 1},
+                {"label": "джемпер","priority": 1},
+                {"label": "кардиган","priority": 1},
+                {"label": "пончо","priority": 1},
+                {"label": "пуловер","priority": 1},
+                {"label": "свитер","priority": 1},
+                {"label": "твинсет","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-sweaters-cardigans-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-jackets",
+          "label": "Жакеты",
+          "priority": 9,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-clothing-jackets-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "болеро","priority": 1},
+                {"label": "жакет","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-clothing-jackets-season",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-jackets-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-vests",
+          "label": "Жилеты",
+          "priority": 10,
+          "parameters": [
+            {
+              "label": "Материал",
+              "name": "personal-women-clothing-vests-material",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "кожа","priority": 1},
+                {"label": "мех","priority": 1},
+                {"label": "ткань","priority": 1},
+                {"label": "трикотаж","priority": 1},
+                {"label": "другой","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-clothing-vests-season",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-vests-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-capris-breeches",
+          "label": "Капри и бриджи",
+          "priority": 11,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-clothing-capris-breeches-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "бриджи","priority": 1},
+                {"label": "капри","priority": 1},
+                {"label": "кюлоты","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-clothing-capris-breeches-season",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-capris-breeches-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-overalls",
+          "label": "Комбинезоны",
+          "priority": 12,
+          "parameters": [
+            {
+              "label": "Низ",
+              "name": "personal-women-clothing-overalls-down-part",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "брюки","priority": 1},
+                {"label": "шорты","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-clothing-overalls-season",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-overalls-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-suits",
+          "label": "Костюмы",
+          "priority": 13,
+          "parameters": [
+            {
+              "label": "Верх",
+              "name": "personal-women-clothing-suits-upper-part",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "блуза","priority": 1},
+                {"label": "джемпер","priority": 1},
+                {"label": "жилет","priority": 1},
+                {"label": "пиджак","priority": 1},
+                {"label": "туника","priority": 1}
+              ]
+            },
+            {
+              "label": "Низ",
+              "name": "personal-women-clothing-suits-down-part",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "брюки","priority": 1},
+                {"label": "капри","priority": 1},
+                {"label": "юбка","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-clothing-suits-season",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-suits-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-sweatshirts",
+          "label": "Толстовки",
+          "priority": 14,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-clothing-sweatshirts-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "олипийка","priority": 1},
+                {"label": "толстовка","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-sweatshirts-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-shorts",
+          "label": "Шорты",
+          "priority": 15,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-clothing-shorts-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "шорты","priority": 1},
+                {"label": "джинсовые шорты","priority": 1},
+                {"label": "бермуды","priority": 1},
+                {"label": "джинсовые бермуды","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-shorts-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-skirts",
+          "label": "Юбки",
+          "priority": 16,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-women-clothing-skirts-model",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "А-силуэт","priority": 1},
+                {"label": "баллон","priority": 1},
+                {"label": "в складку","priority": 1},
+                {"label": "карандаш","priority": 1},
+                {"label": "клеш","priority": 1},
+                {"label": "колокол","priority": 1},
+                {"label": "солнце","priority": 1},
+                {"label": "тюльпан","priority": 1}
+              ]
+            },
+            {
+              "label": "Длина",
+              "name": "personal-women-clothing-skirts-ength",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "макси","priority": 1},
+                {"label": "миди","priority": 1},
+                {"label": "мини","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-skirts-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-sportswear",
+          "label": "Спортивная одежда",
+          "priority": 17,
+          "children": [
+            {
+              "url": "personal-women-clothing-sportswear-jackets",
+              "label": "Куртки",
+              "priority": 1,
+              "parameters": [
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-women-clothing-sportswear-jackets-sport type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "альпинизм","priority": 1},
+                    {"label": "бег","priority": 1},
+                    {"label": "беговые лыжи","priority": 1},
+                    {"label": "велоспорт","priority": 1},
+                    {"label": "волейбол","priority": 1},
+                    {"label": "горные лыжи","priority": 1},
+                    {"label": "скалолазание","priority": 1},
+                    {"label": "сноубординг","priority": 1},
+                    {"label": "фитнес","priority": 1},
+                    {"label": "другой","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Cезон",
+                  "name": "personal-women-clothing-sportswear-jackets-season",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "демисезон","priority": 1},
+                    {"label": "зима","priority": 1},
+                    {"label": "круглогодичный","priority": 1},
+                    {"label": "лето","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-sportswear-jackets-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "2XS","priority": 1},
+                    {"label": "2XS-XS","priority": 1},
+                    {"label": "XS-S","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "L-XL","priority": 1},
+                    {"label": "XL-2XL","priority": 1},
+                    {"label": "2XL-3XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-sportswear-tracksuits",
+              "label": "Спортивные костюмы",
+              "priority": 2,
+              "parameters": [
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-women-clothing-sportswear-tracksuits-sport type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "атлетика","priority": 1},
+                    {"label": "бег","priority": 1},
+                    {"label": "беговые лыжи","priority": 1},
+                    {"label": "волейбол","priority": 1},
+                    {"label": "гимнастика","priority": 1},
+                    {"label": "горные лыжи","priority": 1},
+                    {"label": "сноубординг","priority": 1},
+                    {"label": "теннис","priority": 1},
+                    {"label": "фитнес","priority": 1},
+                    {"label": "футбол","priority": 1},
+                    {"label": "другой","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-sportswear-tracksuits-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "2XS","priority": 1},
+                    {"label": "2XS-XS","priority": 1},
+                    {"label": "XS-S","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "L-XL","priority": 1},
+                    {"label": "XL-2XL","priority": 1},
+                    {"label": "2XL-3XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-sportswear-thermal-underwear",
+              "label": "Термобелье",
+              "priority": 3,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-women-clothing-sportswear-thermal-underwear-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "водолазка","priority": 1},
+                    {"label": "кальсоны","priority": 1},
+                    {"label": "комплект","priority": 1},
+                    {"label": "носки","priority": 1},
+                    {"label": "подшлемник","priority": 1},
+                    {"label": "трусы","priority": 1},
+                    {"label": "футболка","priority": 1},
+                    {"label": "шорты","priority": 1},
+                    {"label": "другой","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-sportswear-thermal-underwear-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "2XS","priority": 1},
+                    {"label": "2XS-XS","priority": 1},
+                    {"label": "XS-S","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "L-XL","priority": 1},
+                    {"label": "XL-2XL","priority": 1},
+                    {"label": "2XL-3XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-sportswear-t-shirts-tops",
+              "label": "Футболки и майки",
+              "priority": 4,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-women-clothing-sportswear-t-shirts-tops-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "майка","priority": 1},
+                    {"label": "топ","priority": 1},
+                    {"label": "футболка","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-women-clothing-sportswear-t-shirts-tops-sport type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "альпинизм","priority": 1},
+                    {"label": "атлетика","priority": 1},
+                    {"label": "баскетбол","priority": 1},
+                    {"label": "бег","priority": 1},
+                    {"label": "беговые лыжи","priority": 1},
+                    {"label": "бокс","priority": 1},
+                    {"label": "борьба","priority": 1},
+                    {"label": "велоспорт","priority": 1},
+                    {"label": "волейбол","priority": 1},
+                    {"label": "гимнастика","priority": 1},
+                    {"label": "горные лыжи","priority": 1},
+                    {"label": "плавание","priority": 1},
+                    {"label": "скалолазание","priority": 1},
+                    {"label": "теннис","priority": 1},
+                    {"label": "фитнес","priority": 1},
+                    {"label": "футбол","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-sportswear-t-shirts-tops-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "2XS","priority": 1},
+                    {"label": "2XS-XS","priority": 1},
+                    {"label": "XS-S","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "L-XL","priority": 1},
+                    {"label": "XL-2XL","priority": 1},
+                    {"label": "2XL-3XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-sportswear-pants",
+              "label": "Брюки",
+              "priority": 5,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-women-clothing-sportswear-pants-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бриджи","priority": 1},
+                    {"label": "брюки","priority": 1},
+                    {"label": "леггинсы","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-women-clothing-sportswear-pants-sport type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "альпинизм","priority": 1},
+                    {"label": "атлетика","priority": 1},
+                    {"label": "баскетбол","priority": 1},
+                    {"label": "бег","priority": 1},
+                    {"label": "беговые лыжи","priority": 1},
+                    {"label": "бокс","priority": 1},
+                    {"label": "борьба","priority": 1},
+                    {"label": "велоспорт","priority": 1},
+                    {"label": "гимнастика","priority": 1},
+                    {"label": "горные лыжи","priority": 1},
+                    {"label": "плавание","priority": 1},
+                    {"label": "скалолазание","priority": 1},
+                    {"label": "сноубординг","priority": 1},
+                    {"label": "теннис","priority": 1},
+                    {"label": "фитнес","priority": 1},
+                    {"label": "футбол","priority": 1},
+                    {"label": "хоккей","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-sportswear-pants-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "2XS","priority": 1},
+                    {"label": "2XS-XS","priority": 1},
+                    {"label": "XS-S","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "L-XL","priority": 1},
+                    {"label": "XL-2XL","priority": 1},
+                    {"label": "2XL-3XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-sportswear-accessories",
+              "label": "Аксессуары",
+              "priority": 6,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-women-clothing-sportswear-accessories-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бандана","priority": 1},
+                    {"label": "гетры","priority": 1},
+                    {"label": "гольфы","priority": 1},
+                    {"label": "носки","priority": 1},
+                    {"label": "очки","priority": 1},
+                    {"label": "перчатки","priority": 1},
+                    {"label": "повязка","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-sportswear-winter-sets",
+              "label": "Зимние комплекты",
+              "priority": 7,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-women-clothing-sportswear-winter-sets-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "комбинезон","priority": 1},
+                    {"label": "комплект","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-women-clothing-sportswear-winter-sets-sport-type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бег","priority": 1},
+                    {"label": "беговые лыжи","priority": 1},
+                    {"label": "горные лыжи","priority": 1},
+                    {"label": "сноубординг","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-sportswear-swimwear",
+              "label": "Спортивные купальники",
+              "priority": 8,
+              "parameters": [
+                {
+                  "label": "Модель",
+                  "name": "personal-women-clothing-sportswear-swimwear-model",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "закрытый","priority": 1},
+                    {"label": "раздельный","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-sportswear-swimwear-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "2XS","priority": 1},
+                    {"label": "2XS-XS","priority": 1},
+                    {"label": "XS-S","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "L-XL","priority": 1},
+                    {"label": "XL-2XL","priority": 1},
+                    {"label": "2XL-3XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-sportswear-sweatshirts",
+              "label": "Толстовки",
+              "priority": 9,
+              "parameters": [
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-sportswear-sweatshirts-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "2XS","priority": 1},
+                    {"label": "2XS-XS","priority": 1},
+                    {"label": "XS-S","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "L-XL","priority": 1},
+                    {"label": "XL-2XL","priority": 1},
+                    {"label": "2XL-3XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-sportswear-uniforms",
+              "label": "Форма",
+              "priority": 10,
+              "parameters": [
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-women-clothing-sportswear-uniforms-sport-type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "атлетика","priority": 1},
+                    {"label": "баскетбол","priority": 1},
+                    {"label": "бег","priority": 1},
+                    {"label": "бокс","priority": 1},
+                    {"label": "борьба","priority": 1},
+                    {"label": "волейбол","priority": 1},
+                    {"label": "теннис","priority": 1},
+                    {"label": "футбол","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-sportswear-uniforms-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "2XS","priority": 1},
+                    {"label": "2XS-XS","priority": 1},
+                    {"label": "XS-S","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "L-XL","priority": 1},
+                    {"label": "XL-2XL","priority": 1},
+                    {"label": "2XL-3XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-sportswear-shorts-skirts",
+              "label": "Шорты и юбки",
+              "priority": 11,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-women-clothing-sportswear-shorts-skirts-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "бермуды","priority": 1},
+                    {"label": "шорты","priority": 1},
+                    {"label": "юбка","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-women-clothing-sportswear-shorts-skirts-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "2XS","priority": 1},
+                    {"label": "2XS-XS","priority": 1},
+                    {"label": "XS-S","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "L-XL","priority": 1},
+                    {"label": "XL-2XL","priority": 1},
+                    {"label": "2XL-3XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-women-clothing-sportswear-other",
+              "label": "Прочая женская спортивная одежда",
+              "priority": 12
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-other",
+          "label": "Прочая женская одежда",
+          "priority": 21
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "personal-women-clothing-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-women-clothing-for-pregnant",
+      "label": "Одежда для беременных",
+      "priority": 2,
+      "children": [
+        {
+          "url": "personal-women-clothing-for-pregnant-shirts-blouses",
+          "label": "Рубашки и блузы",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-women-clothing-for-pregnant-shirts-blouses-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "блуза","priority": 1},
+                {"label": "рубашка","priority": 1},
+                {"label": "туника","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-clothing-for-pregnant-shirts-blouses-season",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Рукав",
+              "name": "personal-women-clothing-for-pregnant-shirts-blouses-sleeve",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "3/4","priority": 1},
+                {"label": "длинный","priority": 1},
+                {"label": "короткий","priority": 1},
+                {"label": "отсутствует","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-for-pregnant-shirts-blouses-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            },
+            {
+              "label": "Состояние",
+              "name": "personal-women-clothing-for-pregnant-shirts-blouses-condition",
+              "priority": 30,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите состояние товара"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 30,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Новый товар",
+                  "priority": 1
+                },
+                {
+                  "label": "Б/у",
+                  "priority": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-for-pregnant-pants",
+          "label": "Брюки",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-women-clothing-for-pregnant-pants-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "брюки","priority": 1},
+                {"label": "джеггинсы","priority": 1},
+                {"label": "легинсы","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-for-pregnant-pants-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            },
+            {
+              "label": "Состояние",
+              "name": "personal-women-clothing-for-pregnant-pants-condition",
+              "priority": 30,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите состояние товара"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 30,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Новый товар",
+                  "priority": 1
+                },
+                {
+                  "label": "Б/у",
+                  "priority": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-for-pregnant-outerwear",
+          "label": "Верхняя одежда",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-for-pregnant-outerwear-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            },
+            {
+              "label": "Состояние",
+              "name": "personal-women-clothing-for-pregnant-outerwear-condition",
+              "priority": 30,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите состояние товара"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 30,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Новый товар",
+                  "priority": 1
+                },
+                {
+                  "label": "Б/у",
+                  "priority": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-for-pregnant-home",
+          "label": "Домашняя одежда",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-clothing-for-pregnant-home-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "костюм","priority": 1},
+                {"label": "ночная сорочка","priority": 1},
+                {"label": "пижама","priority": 1},
+                {"label": "платье","priority": 1},
+                {"label": "халат","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-for-pregnant-home-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            },
+            {
+              "label": "Состояние",
+              "name": "personal-women-clothing-for-pregnant-home-condition",
+              "priority": 30,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите состояние товара"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 30,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Новый товар",
+                  "priority": 1
+                },
+                {
+                  "label": "Б/у",
+                  "priority": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-for-pregnant-overalls",
+          "label": "Комбинезоны",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Cезон",
+              "name": "personal-women-clothing-for-pregnant-overalls-season",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-for-pregnant-overalls-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            },
+            {
+              "label": "Состояние",
+              "name": "personal-women-clothing-for-pregnant-overalls-condition",
+              "priority": 30,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите состояние товара"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 30,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Новый товар",
+                  "priority": 1
+                },
+                {
+                  "label": "Б/у",
+                  "priority": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-for-pregnant-jackets",
+          "label": "Жакеты",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Cезон",
+              "name": "personal-women-clothing-for-pregnant-jackets-season",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-for-pregnant-jackets-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            },
+            {
+              "label": "Состояние",
+              "name": "personal-women-clothing-for-pregnant-jackets-condition",
+              "priority": 30,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите состояние товара"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 30,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Новый товар",
+                  "priority": 1
+                },
+                {
+                  "label": "Б/у",
+                  "priority": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-for-pregnant-dresses",
+          "label": "Платья",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-women-clothing-for-pregnant-dresses-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "платье","priority": 1},
+                {"label": "сарафан","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-clothing-for-pregnant-dresses-season",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-for-pregnant-dresses-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            },
+            {
+              "label": "Состояние",
+              "name": "personal-women-clothing-for-pregnant-dresses-condition",
+              "priority": 30,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите состояние товара"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 30,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Новый товар",
+                  "priority": 1
+                },
+                {
+                  "label": "Б/у",
+                  "priority": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-for-pregnant-sweaters-cardigans",
+          "label": "Свитеры и кардиганы",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-clothing-for-pregnant-sweaters-cardigans-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "водолазка","priority": 1},
+                {"label": "джемпер","priority": 1},
+                {"label": "кардиган","priority": 1},
+                {"label": "лонгслив","priority": 1},
+                {"label": "накидка","priority": 1},
+                {"label": "пончо","priority": 1},
+                {"label": "пуловер","priority": 1},
+                {"label": "свитер","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-for-pregnant-sweaters-cardigans-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            },
+            {
+              "label": "Состояние",
+              "name": "personal-women-clothing-for-pregnant-sweaters-cardigans-condition",
+              "priority": 30,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите состояние товара"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 30,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Новый товар",
+                  "priority": 1
+                },
+                {
+                  "label": "Б/у",
+                  "priority": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-for-pregnant-t-shirts-tops",
+          "label": "Футболки и топы",
+          "priority": 9,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-clothing-for-pregnant-t-shirts-tops-type",
+              "priority": 10,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "лонгслив","priority": 1},
+                {"label": "майка","priority": 1},
+                {"label": "топ","priority": 1},
+                {"label": "футболка","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-for-pregnant-t-shirts-tops-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            },
+            {
+              "label": "Состояние",
+              "name": "personal-women-clothing-for-pregnant-t-shirts-tops-condition",
+              "priority": 30,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите состояние товара"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 30,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Новый товар",
+                  "priority": 1
+                },
+                {
+                  "label": "Б/у",
+                  "priority": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-for-pregnant-shorts",
+          "label": "Шорты",
+          "priority": 10,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-women-clothing-for-pregnant-shorts-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            },
+            {
+              "label": "Состояние",
+              "name": "personal-women-clothing-for-pregnant-shorts-condition",
+              "priority": 30,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите состояние товара"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 30,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Новый товар",
+                  "priority": 1
+                },
+                {
+                  "label": "Б/у",
+                  "priority": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-for-pregnant-underwear",
+          "label": "Нижнее белье",
+          "priority": 11,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-clothing-for-pregnant-underwear-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Бюстгальтеры","priority": 1},
+                {"label": "Трусы","priority": 1},
+                {"label": "Колготки","priority": 1},
+                {"label": "Бандажи","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-clothing-for-pregnant-other",
+          "label": "Прочая одежда для беременных",
+          "priority": 12
+
+        }
+      ]
+    },
+    {
+      "url": "personal-women-underwear",
+      "label": "Белье и купальники",
+      "priority": 3,
+      "children": [
+        {
+          "url": "personal-women-underwear-bra",
+          "label": "Бюстгальтеры",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип чашки",
+              "name": "cup type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "балконет","priority": 1},
+                {"label": "мягкая чашка","priority": 1},
+                {"label": "плотная чашка","priority": 1},
+                {"label": "пуш-ап","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Чашка",
+              "name": "cup size",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "AA","priority": 1},
+                {"label": "A","priority": 1},
+                {"label": "B","priority": 1},
+                {"label": "C","priority": 1},
+                {"label": "D","priority": 1},
+                {"label": "E","priority": 1},
+                {"label": "F","priority": 1},
+                {"label": "G","priority": 1},
+                {"label": "H","priority": 1},
+                {"label": "I","priority": 1},
+                {"label": "J","priority": 1},
+                {"label": "K","priority": 1},
+                {"label": "L","priority": 1},
+                {"label": "M","priority": 1}
+              ]
+            },
+            {
+              "label": "Обхват под грудью",
+              "name": "personal-women-underwear-bra-width",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "60","priority": 1},
+                {"label": "65","priority": 1},
+                {"label": "70","priority": 1},
+                {"label": "75","priority": 1},
+                {"label": "80","priority": 1},
+                {"label": "85","priority": 1},
+                {"label": "90","priority": 1},
+                {"label": "95","priority": 1},
+                {"label": "100","priority": 1},
+                {"label": "105","priority": 1},
+                {"label": "110","priority": 1},
+                {"label": "115","priority": 1},
+                {"label": "120","priority": 1},
+                {"label": "125","priority": 1},
+                {"label": "130","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-underwear-panties",
+          "label": "Трусы",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-women-underwear-panties-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "миди","priority": 1},
+                {"label": "слипы","priority": 1},
+                {"label": "стринги","priority": 1},
+                {"label": "танга","priority": 1},
+                {"label": "тонг","priority": 1},
+                {"label": "шорты","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-underwear-panties-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-underwear-tights-stockings",
+          "label": "Колготки и чулки",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-women-underwear-tights-stockings-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "гетры","priority": 1},
+                {"label": "гольфы","priority": 1},
+                {"label": "колготки","priority": 1},
+                {"label": "носки","priority": 1},
+                {"label": "подследники","priority": 1},
+                {"label": "чулки","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-underwear-tights-stockings-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-underwear-modeling",
+          "label": "Моделирующее белье",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-women-underwear-modeling-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "боди","priority": 1},
+                {"label": "бриджи","priority": 1},
+                {"label": "брюки","priority": 1},
+                {"label": "гольфы","priority": 1},
+                {"label": "колготки","priority": 1},
+                {"label": "корсет","priority": 1},
+                {"label": "леггинсы","priority": 1},
+                {"label": "топ","priority": 1},
+                {"label": "трусы","priority": 1},
+                {"label": "шорты","priority": 1},
+                {"label": "шорты-корсет","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-underwear-modeling-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-underwear-swimsuits",
+          "label": "Купальники",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-underwear-swimsuits-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "бикини","priority": 1},
+                {"label": "закрытый","priority": 1},
+                {"label": "лиф","priority": 1},
+                {"label": "танкини","priority": 1},
+                {"label": "трикини","priority": 1}
+              ]
+            },
+            {
+              "label": "Чашка",
+              "name": "personal-women-underwear-swimsuits-сup size",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "A","priority": 1},
+                {"label": "B","priority": 1},
+                {"label": "C","priority": 1},
+                {"label": "D","priority": 1},
+                {"label": "E","priority": 1},
+                {"label": "F","priority": 1},
+                {"label": "G","priority": 1},
+                {"label": "H","priority": 1},
+                {"label": "I","priority": 1},
+                {"label": "J","priority": 1},
+                {"label": "K","priority": 1}
+              ]
+            },
+            {
+              "label": "Обхват под грудью",
+              "name": "personal-women-underwear-swimsuits-width",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "60","priority": 1},
+                {"label": "65","priority": 1},
+                {"label": "70","priority": 1},
+                {"label": "75","priority": 1},
+                {"label": "80","priority": 1},
+                {"label": "85","priority": 1},
+                {"label": "90","priority": 1},
+                {"label": "95","priority": 1},
+                {"label": "100","priority": 1},
+                {"label": "105","priority": 1},
+                {"label": "110","priority": 1},
+                {"label": "115","priority": 1},
+                {"label": "120","priority": 1},
+                {"label": "125","priority": 1},
+                {"label": "130","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-underwear-swimsuits-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-underwear-grace-corsets-body",
+          "label": "Грации, корсеты, боди",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-underwear-grace-corsets-body-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "боди","priority": 1},
+                {"label": "бюстье","priority": 1},
+                {"label": "грация","priority": 1},
+                {"label": "комбинация","priority": 1},
+                {"label": "корсаж","priority": 1},
+                {"label": "майка","priority": 1},
+                {"label": "полуграция","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-underwear-grace-corsets-body-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-underwear-sets",
+          "label": "Комплекты",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Чашка",
+              "name": "personal-women-underwear-sets-сup size",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "AA","priority": 1},
+                {"label": "A","priority": 1},
+                {"label": "B","priority": 1},
+                {"label": "C","priority": 1},
+                {"label": "D","priority": 1},
+                {"label": "E","priority": 1},
+                {"label": "F","priority": 1},
+                {"label": "G","priority": 1},
+                {"label": "H","priority": 1},
+                {"label": "I","priority": 1},
+                {"label": "J","priority": 1},
+                {"label": "K","priority": 1},
+                {"label": "L","priority": 1},
+                {"label": "M","priority": 1}
+              ]
+            },
+            {
+              "label": "Обхват под грудью",
+              "name": "personal-women-underwear-sets-width",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "60","priority": 1},
+                {"label": "65","priority": 1},
+                {"label": "70","priority": 1},
+                {"label": "75","priority": 1},
+                {"label": "80","priority": 1},
+                {"label": "85","priority": 1},
+                {"label": "90","priority": 1},
+                {"label": "95","priority": 1},
+                {"label": "100","priority": 1},
+                {"label": "105","priority": 1},
+                {"label": "110","priority": 1},
+                {"label": "115","priority": 1},
+                {"label": "120","priority": 1},
+                {"label": "125","priority": 1},
+                {"label": "130","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-underwear-sets-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-underwear-socks",
+          "label": "Носки",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-underwear-socks-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "гольфы","priority": 1},
+                {"label": "носки","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-underwear-beach-dresses-pareos",
+          "label": "Пляжные платья и парео",
+          "priority": 9,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-underwear-beach-dresses-pareos-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "парео","priority": 1},
+                {"label": "платье","priority": 1},
+                {"label": "туника","priority": 1},
+                {"label": "юбка","priority": 1}
+              ]
+            }
+          ]
+        },
+        {
+          "url": "personal-women-underwear-other",
+          "label": "Прочее женское белье",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "url": "personal-women-shoes",
+      "label": "Обувь",
+      "priority": 4,
+      "children": [
+        {
+          "url": "personal-women-shoes-shoes",
+          "label": "Туфли",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-shoes-shoes-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "Мэри Джейн","priority": 1},
+                {"label": "вечерние","priority": 1},
+                {"label": "классические","priority": 1},
+                {"label": "лодочки","priority": 1},
+                {"label": "лоферы","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-shoes-shoes-season",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-shoes-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-ballet",
+          "label": "Балетки",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-ballet-ize",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-sneakers",
+          "label": "Кроссовки и кеды",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-shoes-sneakers-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "кеды","priority": 1},
+                {"label": "кроссовки","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-shoes-sneakers-season",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-sneakers-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-rubber-boots",
+          "label": "Резиновые сапоги",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-shoes-rubber-boots-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "галоши","priority": 1},
+                {"label": "резиновые сапоги","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-rubber-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-sandals",
+          "label": "Босоножки, сандалии",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-sandals-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-boots",
+          "label": "Ботинки",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-shoes-boots-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "ботинки","priority": 1},
+                {"label": "полуботинки","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-shoes-boots-season",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-felt-boots",
+          "label": "Валенки",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-felt-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-home",
+          "label": "Домашняя обувь",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-home-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-moccasins",
+          "label": "Мокасины",
+          "priority": 9,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-shoes-moccasins-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "мокасины","priority": 1},
+                {"label": "слипоны","priority": 1},
+                {"label": "топсайдеры","priority": 1},
+                {"label": "эспадрильи","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-moccasins-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-sport",
+          "label": "Обувь для спорта",
+          "priority": 10,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-shoes-sport-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "бутсы","priority": 1},
+                {"label": "пуанты","priority": 1},
+                {"label": "сандалии","priority": 1},
+                {"label": "трекинговые ботинки","priority": 1},
+                {"label": "туфли","priority": 1},
+                {"label": "чешки","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-sport-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-half-boots",
+          "label": "Полусапоги",
+          "priority": 11,
+          "parameters": [
+            {
+              "label": "Cезон",
+              "name": "personal-women-shoes-half-boots-season",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-half-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-clogs",
+          "label": "Сабо",
+          "priority": 12,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-clogs-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-winter-boots",
+          "label": "Сапоги",
+          "priority": 13,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-women-shoes-winter-boots-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "ботфорты","priority": 1},
+                {"label": "дутики","priority": 1},
+                {"label": "классические","priority": 1},
+                {"label": "ковбойские","priority": 1},
+                {"label": "чулки","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-women-shoes-winter-boots-season",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-winter-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-ugg-boots",
+          "label": "Угги",
+          "priority": 14,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-ugg-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-unty-boots",
+          "label": "Унты",
+          "priority": 15,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-unty-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-flip-flops",
+          "label": "Шлепанцы",
+          "priority": 16,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-women-shoes-flip-flops-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-women-shoes-other",
+          "label": "Прочая женская обувь",
+          "priority": 17
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "personal-women-shoes-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "url": "personal-women-wedding-dresses",
+      "label": "Свадебные платья",
+      "priority": 19,
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "personal-women-wedding-dresses-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

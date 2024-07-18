@@ -1,0 +1,489 @@
+{
+  "name": "auto-commercial-trailers",
+  "url": "auto-commercial-trailers",
+  "priority": 5,
+  "label": "Прицепы",
+  "children": [
+    {
+      "label": "Полуприцепы",
+      "name": "auto-commercial-trailers-semitrailers",
+      "url": "auto-commercial-trailers-semitrailers",
+      "priority": 1,
+      "children": [
+        {
+          "label": "Полурицепы с закрытым кузовом",
+          "name": "auto-commercial-trailers-semitrailers-closed",
+          "url": "auto-commercial-trailers-semitrailers-closed",
+          "priority": 1,
+          "parameters": [
+            {
+              "name": "auto-commercial-trailers-semitrailers-closed-type",
+              "label": "Тип",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "изотермический", "priority": 1},
+                {"label": "рефрижератор", "priority": 1},
+                {"label": "фургон", "priority": 1},
+                {"label": "штора", "priority": 1},
+                {"label": "тентованный", "priority": 1},
+                {"label": "торговый", "priority": 1}
+              ],
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип прицепа"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Полуприцепы с открытым кузовом",
+          "name": "auto-commercial-trailers-semitrailers-open",
+          "url": "auto-commercial-trailers-semitrailers-open",
+          "priority": 2,
+          "parameters": [
+            {
+              "name": "auto-commercial-trailers-semitrailers-open-type",
+              "label": "Тип",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "бортовой", "priority": 1},
+                {"label": "контейнеровоз", "priority": 1},
+                {"label": "лесовоз", "priority": 1},
+                {"label": "платформа", "priority": 1},
+                {"label": "с донным транспортером", "priority": 1},
+                {"label": "самосвал", "priority": 1},
+                {"label": "шасси", "priority": 1},
+                {"label": "подвижный пол", "priority": 1}
+              ],
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип прицепа"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Специальные полуприцепы",
+          "name": "auto-commercial-trailers-semitrailers-special",
+          "url": "auto-commercial-trailers-semitrailers-special",
+          "priority": 3,
+          "parameters": [
+            {
+              "name": "auto-commercial-trailers-semitrailers-special-type",
+              "label": "Тип",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "низкорамная платформа", "priority": 1},
+                {"label": "автовоз", "priority": 1},
+                {"label": "бетоносмеситель", "priority": 1},
+                {"label": "зерновоз", "priority": 1},
+                {"label": "птицевоз", "priority": 1},
+                {"label": "скотовоз", "priority": 1},
+                {"label": "стекловоз", "priority": 1},
+                {"label": "самоходный модульный транспортер", "priority": 1}
+              ],
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип прицепа"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Цистерны",
+          "name": "auto-commercial-trailers-semitrailers-tanks",
+          "url": "auto-commercial-trailers-semitrailers-tanks",
+          "priority": 4,
+          "parameters": [
+            {
+              "name": "auto-commercial-trailers-semitrailers-tanks-type",
+              "label": "Тип",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "автоцистерна", "priority": 1},
+                {"label": "битумная цистерна", "priority": 1},
+                {"label": "газововя цистерн", "priority": 1},
+                {"label": "муковоз", "priority": 1},
+                {"label": "пищевая цистерна", "priority": 1},
+                {"label": "танк-контейнер", "priority": 1},
+                {"label": "химическая цистерна", "priority": 1},
+                {"label": "цементовоз", "priority": 1},
+                {"label": "цистерна гсм", "priority": 1},
+                {"label": "цистерна силос", "priority": 1}
+              ],
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип прицепа"
+                }
+              ]
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "label": "Прицепы",
+      "name": "auto-commercial-trailers-drags",
+      "url": "auto-commercial-trailers-drags",
+      "priority": 2,
+      "children": [
+        {
+          "label": "Прицепы с закрытым кузовом",
+          "name": "auto-commercial-trailers-drags-closed",
+          "url": "auto-commercial-trailers-drags-closed",
+          "priority": 1,
+          "parameters": [
+            {
+              "name": "auto-commercial-trailers-drags-closed-type",
+              "label": "Тип",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "изотермический", "priority": 1},
+                {"label": "рефрижератор", "priority": 1},
+                {"label": "фургон", "priority": 1},
+                {"label": "шторы", "priority": 1},
+                {"label": "тентованный", "priority": 1},
+                {"label": "торговый", "priority": 1}
+              ],
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип прицепа"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Прицепы с открытым кузовом",
+          "name": "auto-commercial-trailers-drags-open",
+          "url": "auto-commercial-trailers-drags-open",
+          "priority": 2,
+          "parameters": [
+            {
+              "name": "auto-commercial-trailers-drags-open-type",
+              "label": "Тип",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "бортовой", "priority": 1},
+                {"label": "легковой", "priority": 1},
+                {"label": "лодочный", "priority": 1},
+                {"label": "зерновоз", "priority": 1},
+                {"label": "контейнеровоз", "priority": 1},
+                {"label": "лесовоз", "priority": 1},
+                {"label": "платформа", "priority": 1},
+                {"label": "с донным транспортером", "priority": 1},
+                {"label": "подкатная тележка", "priority": 1},
+                {"label": "самосвал", "priority": 1},
+                {"label": "тракторный", "priority": 1},
+                {"label": "шасси", "priority": 1}
+              ],
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип прицепа"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Специальные прицепы",
+          "name": "auto-commercial-trailers-drags-special",
+          "url": "auto-commercial-trailers-drags-special",
+          "priority": 3,
+          "parameters": [
+            {
+              "name": "auto-commercial-trailers-drags-special-type",
+              "label": "Тип",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "автовоз", "priority": 1},
+                {"label": "коневоз", "priority": 1},
+                {"label": "низкорамная платформа", "priority": 1},
+                {"label": "скотовоз", "priority": 1},
+                {"label": "стекловоз", "priority": 1},
+                {"label": "самоходный модульный транспортер", "priority": 1}
+              ],
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип прицепа"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Цистерны",
+          "name": "auto-commercial-trailers-drags-tanks",
+          "url": "auto-commercial-trailers-drags-tanks",
+          "priority": 4,
+          "parameters": [
+            {
+              "name": "auto-commercial-trailers-drags-tanks-type",
+              "label": "Тип",
+              "priority": 1,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 1,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "автоцистерна", "priority": 1},
+                {"label": "битумная цистерна", "priority": 1},
+                {"label": "газововя цистерн", "priority": 1},
+                {"label": "муковоз", "priority": 1},
+                {"label": "пищевая цистерна", "priority": 1},
+                {"label": "химическая цистерна", "priority": 1},
+                {"label": "цементовоз", "priority": 1},
+                {"label": "цистерна гсм", "priority": 1},
+                {"label": "цистерна силос", "priority": 1}
+              ],
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Выберите тип прицепа"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "label": "Марка и модель",
+      "name": "make_model",
+      "priority": 2,
+      "post_form": "textbox",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": " Укажите марку и модель"
+        }
+      ]
+    },
+    {
+      "label": "Цена",
+      "name": "auto-commercial-trailers-price",
+      "priority": 3,
+      "post_form": "textbox",
+      "measure": "сом",
+      "search_form": "range",
+      "search_priority": 3,
+      "filter_default_toggle": true,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите цену"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Год выпуска",
+      "name": "auto-commercial-trailers-year",
+      "priority": 4,
+      "post_form": "textbox",
+      "search_form": "range",
+      "search_priority": 4,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите год выпуска"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Год выпуска\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Пробег",
+      "name": "auto-commercial-trailers-odometer",
+      "priority": 4,
+      "post_form": "textbox",
+      "measure": "км",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Пробег\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "name": "suspension_type",
+      "label": "Тип подвески",
+      "priority": 5,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "Рессорная",
+          "priority": 1
+        },
+        {
+          "label": "Пневмо-рессорная",
+          "priority": 2
+        },
+        {
+          "label": "Торсионная",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "name": "brake_type",
+      "label": "Тип тормозов",
+      "priority": 6,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "Барабанные",
+          "priority": 1
+        },
+        {
+          "label": "Дисковые",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "label": "Загрузка, кг",
+      "name": "auto-commercial-trailers-capacity",
+      "priority": 7,
+      "post_form": "textbox",
+      "measure": "кг",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Загрузка, кг\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Количество осей",
+      "name": "axles_qty",
+      "priority": 8,
+      "post_form": "textbox",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Количество осей\" - значение должно быть целым числом."
+        }
+      ]
+    },
+    {
+      "label": "Состояние",
+      "name": "auto-commercial-trailers-condition",
+      "priority": 9,
+      "post_form": "radio",
+      "options": [
+        {
+          "label": "Отличное",
+          "priority": 1
+        },
+        {
+          "label": "Хорошее",
+          "priority": 2
+        },
+        {
+          "label": "Среднее",
+          "priority": 3
+        },
+        {
+          "label": "Требует ремонта",
+          "priority": 4
+        }
+      ]
+    },
+    {
+      "label": "Прочее",
+      "name": "auto-commercial-trailers-additional_information",
+      "priority": 10,
+      "post_form": "checkboxlist",
+      "parameters": [
+        {
+          "name": "newly_delivered",
+          "label": "Свежедоставлен",
+          "post_form": "checkbox",
+          "priority": 1
+        },
+        {
+          "name": "cleared",
+          "label": "Растаможен",
+          "post_form": "checkbox",
+          "priority": 2
+        },
+        {
+          "name": "investment_does_not_required",
+          "label": "Вложений не требует",
+          "post_form": "checkbox",
+          "priority": 3
+        },
+        {
+          "name": "urgent",
+          "label": "Срочно",
+          "post_form": "checkbox",
+          "priority": 4
+        },
+        {
+          "name": "inspection_passed",
+          "label": "Техосмотр пройден",
+          "post_form": "checkbox",
+          "priority": 5
+        },
+        {
+          "name": "barter",
+          "label": "Возможен обмен",
+          "post_form": "checkbox",
+          "priority": 6
+        }
+      ]
+    }
+  ]
+}

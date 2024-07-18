@@ -1,0 +1,1857 @@
+{
+  "label": "Мужская одежда и обувь",
+  "url": "personal-men",
+  "priority": 2,
+  "children": [
+    {
+      "url": "personal-men-clothing",
+      "label": "Мужская одежда",
+      "priority": 1,
+      "children": [
+        {
+          "url": "personal-men-clothing-outerwear",
+          "label": "Верхняя одежда",
+          "priority": 1,
+          "children": [
+            {
+              "url": "personal-men-clothing-outerwear-jackets",
+              "label": "Куртки",
+              "priority": 1,
+              "parameters": [
+                {
+                  "label": "Модель",
+                  "name": "personal-men-clothing-outerwear-jackets-type",
+                  "priority": 10,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                      "message": "Укажите тип"
+                    }
+                  ],
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "аляска","priority": 1},
+                    {"label": "анорак","priority": 1},
+                    {"label": "бушлат","priority": 1},
+                    {"label": "ветровка","priority": 1},
+                    {"label": "дождевик","priority": 1},
+                    {"label": "косуха","priority": 1},
+                    {"label": "парка","priority": 1},
+                    {"label": "пилот","priority": 1},
+                    {"label": "Другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Cезон",
+                  "name": "personal-men-clothing-outerwear-jackets-season",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "демисезон","priority": 1},
+                    {"label": "зима","priority": 1},
+                    {"label": "круглогодичный","priority": 1},
+                    {"label": "лето","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-outerwear-jackets-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-outerwear-waistcoats",
+              "label": "Жилеты",
+              "priority": 2,
+              "parameters": [
+                {
+                  "label": "Cезон",
+                  "name": "personal-men-clothing-outerwear-waistcoats-season",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "демисезон","priority": 1},
+                    {"label": "зима","priority": 1},
+                    {"label": "круглогодичный","priority": 1},
+                    {"label": "лето","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-outerwear-waistcoats-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-outerwear-raincoats",
+              "label": "Плащи",
+              "priority": 3,
+              "parameters": [
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-outerwear-raincoats-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-outerwear-coats",
+              "label": "Пальто",
+              "priority": 4,
+              "parameters": [
+                {
+                  "label": "Cезон",
+                  "name": "personal-men-clothing-outerwear-coats-season",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "демисезон","priority": 1},
+                    {"label": "зима","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-outerwear-coats-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-outerwear-sheepskins",
+              "label": "Дубленки",
+              "priority": 5,
+              "parameters": [
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-outerwear-sheepskins-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-outerwear-down-jackets",
+              "label": "Пуховики",
+              "priority": 6,
+              "parameters": [
+                {
+                  "label": "Cезон",
+                  "name": "personal-men-clothing-outerwear-down-jackets-season",
+                  "priority": 12,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 12,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "демисезон","priority": 1},
+                    {"label": "зима","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-outerwear-down-jackets-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-outerwear-other",
+              "label": "Прочая мужская верхняя одежда",
+              "priority": 7,
+              "parameters": [
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-outerwear-other-size",
+                  "priority": 13,
+                  "regulations": [
+                    {
+                      "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                      "message": "Размер - значение должно быть числом"
+                    }
+                  ],
+                  "post_form": "textbox",
+                  "search_form": "range",
+                  "search_priority": 33
+                }
+              ]
+            }
+            ]
+        },
+        {
+          "url": "personal-men-clothing-jeans",
+          "label": "Джинсы",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Модель",
+              "name": "personal-men-clothing-jeans-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "зауженные","priority": 1},
+                {"label": "прямые","priority": 1},
+                {"label": "скинни","priority": 1},
+                {"label": "широкие","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-clothing-jeans-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-shirts",
+          "label": "Рубашки",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-clothing-shirts-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "casual","priority": 1},
+                {"label": "классический","priority": 1}
+              ]
+            },
+            {
+              "label": "Рукав",
+              "name": "personal-men-clothing-shirts-sleeve",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "длинный","priority": 1},
+                {"label": "короткий","priority": 1}
+              ]
+            },
+            {
+              "label": "Фасон",
+              "name": "personal-men-clothing-shirts-style",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "приталенный","priority": 1},
+                {"label": "прямой","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-clothing-shirts-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-sweatshirts",
+          "label": "Толстовки",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-clothing-sweatshirts-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "олипийка","priority": 1},
+                {"label": "толстовка","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-clothing-sweatshirts-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-t-shirts",
+          "label": "Футболки и майки",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-clothing-t-shirts-type",
+              "priority": 10,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "лонгслив","priority": 1},
+                {"label": "майка","priority": 1},
+                {"label": "поло","priority": 1},
+                {"label": "футболка","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-clothing-t-shirts-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-home",
+          "label": "Домашняя одежда",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-clothing-home-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "брюки","priority": 1},
+                {"label": "костюм","priority": 1},
+                {"label": "пижама","priority": 1},
+                {"label": "футболка","priority": 1},
+                {"label": "халат","priority": 1},
+                {"label": "шорты","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-clothing-home-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-pants",
+          "label": "Брюки",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-clothing-pants-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "casual","priority": 1},
+                {"label": "классика","priority": 1}
+              ]
+            },
+            {
+              "label": "Фасон",
+              "name": "personal-men-clothing-pants-style",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "галифе","priority": 1},
+                {"label": "зауженные","priority": 1},
+                {"label": "прямые","priority": 1},
+                {"label": "узкие","priority": 1},
+                {"label": "широкие","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-men-clothing-pants-season",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-clothing-pants-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-vests",
+          "label": "Жилеты",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-men-clothing-vests-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-suits",
+          "label": "Костюмы",
+          "priority": 9,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-clothing-suits-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "приталенный","priority": 1},
+                {"label": "прямой","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-clothing-suits-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-blazers",
+          "label": "Пиджаки",
+          "priority": 10,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-clothing-blazers-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "casual","priority": 1},
+                {"label": "классический","priority": 1},
+                {"label": "спортивный","priority": 1}
+              ]
+            },
+            {
+              "label": "Фасон",
+              "name": "personal-men-clothing-blazer-style",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "приталенный","priority": 1},
+                {"label": "прямой","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-clothing-blazer-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-sweaters-cardigans",
+          "label": "Свитеры и кардиганы",
+          "priority": 11,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-clothing-sweaters-cardigans-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "водолазка","priority": 1},
+                {"label": "джемпер","priority": 1},
+                {"label": "кардиган","priority": 1},
+                {"label": "пуловер","priority": 1},
+                {"label": "свитер","priority": 1},
+                {"label": "твинсет","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-clothing-sweaters-cardigans-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-shorts",
+          "label": "Шорты",
+          "priority": 12,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-clothing-shorts-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "шорты","priority": 1},
+                {"label": "бермуды","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-clothing-shorts-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-sportswear",
+          "label": "Спортивная одежда",
+          "priority": 13,
+          "children": [
+            {
+              "url": "personal-men-clothing-sportswear-jackets",
+              "label": "Куртки",
+              "priority": 1,
+              "parameters": [
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-men-clothing-sportswear-jackets-sport-type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "альпинизм","priority": 1},
+                    {"label": "атлетика","priority": 1},
+                    {"label": "баскетбол","priority": 1},
+                    {"label": "бег","priority": 1},
+                    {"label": "борьба","priority": 1},
+                    {"label": "велоспорт","priority": 1},
+                    {"label": "горнолыжный спорт","priority": 1},
+                    {"label": "лыжно-беговой спорт","priority": 1},
+                    {"label": "плавание","priority": 1},
+                    {"label": "самбо","priority": 1},
+                    {"label": "скалолазание","priority": 1},
+                    {"label": "сноубординг","priority": 1},
+                    {"label": "теннис","priority": 1},
+                    {"label": "треккинг","priority": 1},
+                    {"label": "фитнес","priority": 1},
+                    {"label": "футбол","priority": 1},
+                    {"label": "хоккей","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Cезон",
+                  "name": "personal-men-clothing-sportswear-jackets-season",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "демисезон","priority": 1},
+                    {"label": "зима","priority": 1},
+                    {"label": "круглогодичный","priority": 1},
+                    {"label": "лето","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-sportswear-jackets-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "3XS","priority": 1},
+                    {"label": "2XS","priority": 1},
+                    {"label": "XS","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "XL","priority": 1},
+                    {"label": "2XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1},
+                    {"label": "10XL","priority": 1},
+                    {"label": "11XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-sportswear-tracksuits",
+              "label": "Спортивные костюмы",
+              "priority": 2,
+              "parameters": [
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-men-clothing-sportswear-tracksuits-sport-type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "атлетика","priority": 1},
+                    {"label": "баскетбол","priority": 1},
+                    {"label": "бег","priority": 1},
+                    {"label": "бокс","priority": 1},
+                    {"label": "борьба","priority": 1},
+                    {"label": "велоспорт","priority": 1},
+                    {"label": "волейбол","priority": 1},
+                    {"label": "восточные единоборства","priority": 1},
+                    {"label": "лыжно-беговой спорт","priority": 1},
+                    {"label": "теннис","priority": 1},
+                    {"label": "фитнес","priority": 1},
+                    {"label": "футбол","priority": 1},
+                    {"label": "хоккей","priority": 1},
+                    {"label": "другой","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-sportswear-tracksuits-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "3XS","priority": 1},
+                    {"label": "2XS","priority": 1},
+                    {"label": "XS","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "XL","priority": 1},
+                    {"label": "2XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1},
+                    {"label": "10XL","priority": 1},
+                    {"label": "11XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-sportswear-thermal-underwear",
+              "label": "Термобелье",
+              "priority": 3,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-men-clothing-sportswear-thermal-underwear-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "водолазка","priority": 1},
+                    {"label": "джемпер","priority": 1},
+                    {"label": "кальсоны","priority": 1},
+                    {"label": "комплект","priority": 1},
+                    {"label": "носки","priority": 1},
+                    {"label": "подшлемник","priority": 1},
+                    {"label": "трусы","priority": 1},
+                    {"label": "футболка","priority": 1},
+                    {"label": "другой","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-sportswear-thermal-underwear-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "3XS","priority": 1},
+                    {"label": "2XS","priority": 1},
+                    {"label": "XS","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "XL","priority": 1},
+                    {"label": "2XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1},
+                    {"label": "10XL","priority": 1},
+                    {"label": "11XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-sportswear-pants",
+              "label": "Брюки",
+              "priority": 4,
+              "parameters": [
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-men-clothing-sportswear-pants-sport type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "альпинизм","priority": 1},
+                    {"label": "бег","priority": 1},
+                    {"label": "бокс","priority": 1},
+                    {"label": "борьба","priority": 1},
+                    {"label": "велоспорт","priority": 1},
+                    {"label": "волейбол","priority": 1},
+                    {"label": "восточные единоборства","priority": 1},
+                    {"label": "гимнастика","priority": 1},
+                    {"label": "горнолыжный спорт","priority": 1},
+                    {"label": "лыжно-беговой спорт","priority": 1},
+                    {"label": "плавание","priority": 1},
+                    {"label": "регби","priority": 1},
+                    {"label": "самбо","priority": 1},
+                    {"label": "скалолазание","priority": 1},
+                    {"label": "сноубординг","priority": 1},
+                    {"label": "теннис","priority": 1},
+                    {"label": "треккинг","priority": 1},
+                    {"label": "фитнес","priority": 1},
+                    {"label": "футбол","priority": 1},
+                    {"label": "хоккей","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-sportswear-pants-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "3XS","priority": 1},
+                    {"label": "2XS","priority": 1},
+                    {"label": "XS","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "XL","priority": 1},
+                    {"label": "2XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1},
+                    {"label": "10XL","priority": 1},
+                    {"label": "11XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-sportswear-accessories",
+              "label": "Аксессуары",
+              "priority": 6,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-men-clothing-sportswear-accessories-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "варежки","priority": 1},
+                    {"label": "ветрозащитная маска","priority": 1},
+                    {"label": "напульсник","priority": 1},
+                    {"label": "носки","priority": 1},
+                    {"label": "перчатки","priority": 1},
+                    {"label": "повязка","priority": 1},
+                    {"label": "подшлемник","priority": 1},
+                    {"label": "пояс","priority": 1},
+                    {"label": "шапка","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-sportswear-winter-sets",
+              "label": "Зимние комплекты",
+              "priority": 7,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-men-clothing-sportswear-winter-sets-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "комбинезон","priority": 1},
+                    {"label": "костюм","priority": 1},
+                    {"label": "полукомбинезон","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-sportswear-kimono",
+              "label": "Кимоно",
+              "priority": 8,
+              "parameters": [
+                {
+                  "label": "Вид единоборства",
+                  "name": "personal-men-clothing-sportswear-kimono-sport-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "дзюдо","priority": 1},
+                    {"label": "карате","priority": 1},
+                    {"label": "самбо","priority": 1},
+                    {"label": "таэквондо","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-sportswear-sweatshirts",
+              "label": "Толстовки",
+              "priority": 9,
+              "parameters": [
+                {
+                  "label": "Тип",
+                  "name": "personal-men-clothing-sportswear-sweatshirts-type",
+                  "priority": 10,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 10,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "олимпийка","priority": 1},
+                    {"label": "свитшот","priority": 1},
+                    {"label": "толстовка","priority": 1},
+                    {"label": "худи","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-sportswear-sweatshirts-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "3XS","priority": 1},
+                    {"label": "2XS","priority": 1},
+                    {"label": "XS","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "XL","priority": 1},
+                    {"label": "2XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1},
+                    {"label": "10XL","priority": 1},
+                    {"label": "11XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-sportswear-uniforms",
+              "label": "Форма",
+              "priority": 10,
+              "parameters": [
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-men-clothing-sportswear-uniforms-sport type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "атлетика","priority": 1},
+                    {"label": "баскетбол","priority": 1},
+                    {"label": "бег","priority": 1},
+                    {"label": "бокс","priority": 1},
+                    {"label": "борьба","priority": 1},
+                    {"label": "велоспорт","priority": 1},
+                    {"label": "волейбол","priority": 1},
+                    {"label": "восточные единоборства","priority": 1},
+                    {"label": "самбо","priority": 1},
+                    {"label": "теннис","priority": 1},
+                    {"label": "футбол","priority": 1},
+                    {"label": "хоккей","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-sportswear-uniforms-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "3XS","priority": 1},
+                    {"label": "2XS","priority": 1},
+                    {"label": "XS","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "XL","priority": 1},
+                    {"label": "2XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1},
+                    {"label": "10XL","priority": 1},
+                    {"label": "11XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-sportswear-t-shirts",
+              "label": "Футболки и майки",
+              "priority": 11,
+              "parameters": [
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-men-clothing-sportswear-t-shirts-sport type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "альпинизм","priority": 1},
+                    {"label": "атлетика","priority": 1},
+                    {"label": "баскетбол","priority": 1},
+                    {"label": "бег","priority": 1},
+                    {"label": "бокс","priority": 1},
+                    {"label": "борьба","priority": 1},
+                    {"label": "велоспорт","priority": 1},
+                    {"label": "волейбол","priority": 1},
+                    {"label": "восточные единоборства","priority": 1},
+                    {"label": "гандбол","priority": 1},
+                    {"label": "гимнастика","priority": 1},
+                    {"label": "лыжно-беговой спорт","priority": 1},
+                    {"label": "плавание","priority": 1},
+                    {"label": "регби","priority": 1},
+                    {"label": "самбо","priority": 1},
+                    {"label": "сноубординг","priority": 1},
+                    {"label": "теннис","priority": 1},
+                    {"label": "треккинг","priority": 1},
+                    {"label": "фитнес","priority": 1},
+                    {"label": "футбол","priority": 1},
+                    {"label": "хоккей","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-sportswear-t-shirts-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "3XS","priority": 1},
+                    {"label": "2XS","priority": 1},
+                    {"label": "XS","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "XL","priority": 1},
+                    {"label": "2XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1},
+                    {"label": "10XL","priority": 1},
+                    {"label": "11XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-sportswear-shorts",
+              "label": "Шорты",
+              "priority": 12,
+              "parameters": [
+                {
+                  "label": "Вид спорта",
+                  "name": "personal-men-clothing-sportswear-shorts-sport type",
+                  "priority": 11,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 11,
+                  "filter_default_toggle": true,
+                  "options": [
+                    {"label": "атлетика","priority": 1},
+                    {"label": "баскетбол","priority": 1},
+                    {"label": "бег","priority": 1},
+                    {"label": "бокс","priority": 1},
+                    {"label": "борьба","priority": 1},
+                    {"label": "велоспорт","priority": 1},
+                    {"label": "волейбол","priority": 1},
+                    {"label": "восточные единоборства","priority": 1},
+                    {"label": "гандбол","priority": 1},
+                    {"label": "гимнастика","priority": 1},
+                    {"label": "горнолыжный спорт","priority": 1},
+                    {"label": "лыжно-беговой спорт","priority": 1},
+                    {"label": "плавание","priority": 1},
+                    {"label": "регби","priority": 1},
+                    {"label": "самбо","priority": 1},
+                    {"label": "сноубординг","priority": 1},
+                    {"label": "теннис","priority": 1},
+                    {"label": "треккинг","priority": 1},
+                    {"label": "фитнес","priority": 1},
+                    {"label": "футбол","priority": 1},
+                    {"label": "хоккей","priority": 1},
+                    {"label": "другое","priority": 1}
+                  ]
+                },
+                {
+                  "label": "Размер",
+                  "name": "personal-men-clothing-sportswear-shorts-size",
+                  "priority": 13,
+                  "post_form": "radio",
+                  "search_form": "checkbox",
+                  "search_priority": 33,
+                  "options": [
+                    {"label": "3XS","priority": 1},
+                    {"label": "2XS","priority": 1},
+                    {"label": "XS","priority": 1},
+                    {"label": "S","priority": 1},
+                    {"label": "M","priority": 1},
+                    {"label": "L","priority": 1},
+                    {"label": "XL","priority": 1},
+                    {"label": "2XL","priority": 1},
+                    {"label": "3XL","priority": 1},
+                    {"label": "4XL","priority": 1},
+                    {"label": "5XL","priority": 1},
+                    {"label": "6XL","priority": 1},
+                    {"label": "7XL","priority": 1},
+                    {"label": "9XL","priority": 1},
+                    {"label": "10XL","priority": 1},
+                    {"label": "11XL","priority": 1}
+                  ]
+                }
+              ]
+            },
+            {
+              "url": "personal-men-clothing-sportswear-other",
+              "label": "Прочая мужская спортивная одежда",
+              "priority": 13
+            }
+          ]
+        },
+        {
+          "url": "personal-men-clothing-other",
+          "label": "Прочая мужская одежда",
+          "priority": 14
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "personal-men-clothing-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-men-underwear",
+      "label": "Белье и пляжная одежда",
+      "priority": 2,
+      "children": [
+        {
+          "url": "personal-men-underwear-pants",
+          "label": "Трусы",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-underwear-pants-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "боксеры","priority": 1},
+                {"label": "слипы","priority": 1},
+                {"label": "стринги","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-underwear-pants-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-underwear-swimshorts",
+          "label": "Плавки и шорты",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-underwear-swimshorts-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "плавки","priority": 1},
+                {"label": "шорты","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-underwear-swimshorts-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-underwear-socks",
+          "label": "Носки",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-underwear-socks-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "гольфы","priority": 1},
+                {"label": "носки","priority": 1}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-men-shoes",
+      "label": "Обувь",
+      "priority": 3,
+      "children": [
+        {
+          "url": "personal-men-shoes-boots",
+          "label": "Ботинки",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-shoes-boots-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "берцы","priority": 1},
+                {"label": "ботинки","priority": 1},
+                {"label": "полуботинки","priority": 1}
+              ]
+            },
+            {
+              "label": "Стиль",
+              "name": "personal-men-shoes-boots-style",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "casual","priority": 1},
+                {"label": "классические","priority": 1},
+                {"label": "спортивные","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-men-shoes-boots-season",
+              "priority": 12,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-winter-boots",
+          "label": "Сапоги",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-shoes-winter-boots-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "галоши","priority": 1},
+                {"label": "полусапоги","priority": 1},
+                {"label": "сапоги","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-men-shoes-winter-boots-season",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-winter-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-sneakers",
+          "label": "Кроссовки и кеды",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-shoes-sneakers-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "кеды","priority": 1},
+                {"label": "кроссовки","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-men-shoes-sneakers-season",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "демисезон","priority": 1},
+                {"label": "зима","priority": 1},
+                {"label": "круглогодичный","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-sneakers-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-moccasins",
+          "label": "Мокасины",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-shoes-moccasins-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "мокасины","priority": 1},
+                {"label": "слипоны","priority": 1},
+                {"label": "топсайдеры","priority": 1},
+                {"label": "эспадрильи","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-moccasins-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-sport",
+          "label": "Обувь для спорта",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-shoes-sport-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "альпинистские ботинки","priority": 1},
+                {"label": "борцовки","priority": 1},
+                {"label": "бутсы","priority": 1},
+                {"label": "самбовки","priority": 1},
+                {"label": "трекинговые ботинки","priority": 1},
+                {"label": "туфли","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-sport-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-felt-boots",
+          "label": "Валенки",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-felt-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-home",
+          "label": "Домашняя обувь",
+          "priority": 7,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-home-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-sandals",
+          "label": "Сандалии",
+          "priority": 8,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-sandals-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-shoes",
+          "label": "Туфли",
+          "priority": 9,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "personal-men-shoes-shoes-type",
+              "priority": 10,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 10,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "броги","priority": 1},
+                {"label": "дерби","priority": 1},
+                {"label": "лоферы","priority": 1},
+                {"label": "монки","priority": 1},
+                {"label": "оксфорды","priority": 1},
+                {"label": "другое","priority": 1}
+              ]
+            },
+            {
+              "label": "Cезон",
+              "name": "personal-men-shoes-shoes-season",
+              "priority": 11,
+              "post_form": "radio",
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {"label": "весна-осень","priority": 1},
+                {"label": "лето","priority": 1}
+              ]
+            },
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-shoes-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-ugg-boots",
+          "label": "Угги",
+          "priority": 10,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-ugg-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-unty-boots",
+          "label": "Унты",
+          "priority": 11,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-unty-boots-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-flip-flops",
+          "label": "Шлепанцы",
+          "priority": 12,
+          "parameters": [
+            {
+              "label": "Размер",
+              "name": "personal-men-shoes-flip-flops-size",
+              "priority": 13,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Размер - значение должно быть числом"
+                }
+              ],
+              "post_form": "textbox",
+              "search_form": "range",
+              "search_priority": 33
+            }
+          ]
+        },
+        {
+          "url": "personal-men-shoes-other",
+          "label": "Прочая мужская обувь",
+          "priority": 17
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Состояние",
+          "name": "personal-men-shoes-condition",
+          "priority": 30,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите состояние товара"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 30,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Новый товар",
+              "priority": 1
+            },
+            {
+              "label": "Б/у",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

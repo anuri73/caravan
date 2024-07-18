@@ -1,0 +1,227 @@
+{
+  "label": "Детский транспорт",
+  "url": "kids-transport",
+  "priority": 7,
+  "parameters": [
+    {
+      "label": "Состояние",
+      "name": "kids-transport-condition",
+      "priority": 30,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите состояние товара"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 30,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "label": "Детские велосипеды",
+      "url": "kids-transport-bicycles",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип велосипеда",
+          "name": "kids-transport-bicycles-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип велосипеда"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "двухколесные",
+              "priority": 1
+            },
+            {
+              "label": "трехколесные",
+              "priority": 2
+            },
+            {
+              "label": "беспедальные",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Возраст ребенка",
+          "name": "kids-transport-bicycles-age",
+          "priority": 12,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите возраст ребенка"
+            }
+          ],
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "2-4 года (рост до 105 см)",
+              "priority": 1
+            },
+            {
+              "label": "3-5 лет (рост до 115 см)",
+              "priority": 2
+            },
+            {
+              "label": "4-6 лет (рост до 125 см)",
+              "priority": 3
+            },
+            {
+              "label": "6-9 лет (рост до 135 см)",
+              "priority": 4
+            },
+            {
+              "label": "9-15 лет (рост от 135 см)",
+              "priority": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Детские электромобили",
+      "url": "kids-transport-electromobiles",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Возраст ребенка",
+          "name": "kids-transport-electromobiles-age",
+          "priority": 12,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите возраст ребенка"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "3-5 лет",
+              "priority": 1
+            },
+            {
+              "label": "5-7 лет",
+              "priority": 2
+            },
+            {
+              "label": "7-9 лет",
+              "priority": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Детские самокаты",
+      "url": "kids-transport-scooters",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Возраст ребенка",
+          "name": "kids-transport-scooters-age",
+          "priority": 12,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите возраст ребенка"
+            }
+          ],
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "2-4 года (рост до 105 см)",
+              "priority": 1
+            },
+            {
+              "label": "3-5 лет (рост до 115 см)",
+              "priority": 2
+            },
+            {
+              "label": "4-6 лет (рост до 125 см)",
+              "priority": 3
+            },
+            {
+              "label": "6-9 лет (рост до 135 см)",
+              "priority": 4
+            },
+            {
+              "label": "9-15 лет (рост от 135 см)",
+              "priority": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Детские каталки, качалки",
+      "url": "kids-transport-rollers",
+      "priority": 4
+    },
+    {
+      "label": "Детские веломобили",
+      "url": "kids-transport-recumbents",
+      "priority": 5
+    },
+    {
+      "label": "Детские скейтбоарды и лонгборды",
+      "url": "kids-transport-skateboards",
+      "priority": 6
+    },
+    {
+      "label": "Педальные машинки для детей",
+      "url": "kids-transport-pedal-cars",
+      "priority": 7
+    },
+    {
+      "label": "Детские квадроциклы",
+      "url": "kids-transport-atvs",
+      "priority": 8
+    },
+    {
+      "label": "Детские роликовые коньки",
+      "url": "kids-transport-roller-scates",
+      "priority": 9
+    },
+    {
+      "label": "Детские гироскутеры",
+      "url": "kids-transport-gyroscooters",
+      "priority": 10
+    },
+    {
+      "label": "Прочий детский транспорт",
+      "url": "kids-transport-other",
+      "priority": 11
+    }
+  ]
+}

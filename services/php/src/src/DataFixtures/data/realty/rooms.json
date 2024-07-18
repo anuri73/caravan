@@ -1,0 +1,509 @@
+{
+  "name": "realty-rooms",
+  "label": "Комнаты",
+  "url": "realty-rooms",
+  "priority": 3,
+  "children": [
+    {
+      "name": "realty-room-rent-monthly",
+      "label": "Аренда комнат помесячно",
+      "url": "realty-room-rent-monthly",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Право собственности",
+          "name": "realty-room-rent-monthly-from",
+          "priority": 1,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 1,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Выберите тип права собствености"
+            }
+          ],
+          "options": [
+            {
+              "label": "Собственник",
+              "priority": 1
+            },
+            {
+              "label": "Посредник",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Количество комнат",
+          "name": "realty-room-rent-monthly-room-count",
+          "priority": 9,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 9,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите количество комнат"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Кол-во комнат\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Местоположение",
+          "name": "realty-room-rent-monthly-microregion",
+          "priority": 10,
+          "hint": "Например: Восток-5 или Московская/Советская",
+          "post_form": "textbox"
+        },
+        {
+          "label": "Цена",
+          "name": "realty-room-rent-monthly-price",
+          "priority": 11,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "measure": "сом",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\"- значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Площадь",
+          "name": "realty-room-rent-monthly-area",
+          "priority": 30,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 30,
+          "measure": "м²",
+          "hint": "Пример: 48 м²",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите площадь"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "realty-room-rent-monthly-condition",
+          "priority": 70,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 70,
+          "options": [
+            {
+              "label": "Среднее",
+              "priority": 2
+            },
+            {
+              "label": "Хорошее",
+              "priority": 3
+            },
+            {
+              "label": "Евроремонт",
+              "priority": 4
+            }
+          ]
+        },
+        {
+          "label": "Мебель",
+          "name": "realty-room-rent-monthly-furniture",
+          "priority": 81,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Полностью мебелирована",
+              "priority": 1
+            },
+            {
+              "label": "Частично мебелирована",
+              "priority": 2
+            },
+            {
+              "label": "Пустая",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Техника",
+          "name": "realty-room-rent-monthly-equipment",
+          "priority": 82,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "tv",
+              "post_form": "checkbox",
+              "label": "Телевизор",
+              "priority": 1
+            },
+            {
+              "name": "washing_machine",
+              "post_form": "checkbox",
+              "label": "Стиральная машина",
+              "priority": 2
+            },
+            {
+              "name": "refrigerator",
+              "post_form": "checkbox",
+              "label": "Холодильник",
+              "priority": 3
+            },
+            {
+              "name": "microwave",
+              "post_form": "checkbox",
+              "label": "Микроволновка",
+              "priority": 4
+            },
+            {
+              "name": "gas-stove",
+              "post_form": "checkbox",
+              "label": "Газовая плита",
+              "priority": 5
+            },
+            {
+              "name": "conditioner",
+              "post_form": "checkbox",
+              "label": "Кондиционер",
+              "priority": 6
+            },
+            {
+              "name": "water_heater",
+              "post_form": "checkbox",
+              "label": "Водонагреватель",
+              "priority": 7
+            }
+          ]
+        },
+        {
+          "label": "Подключено",
+          "name": "realty-room-rent-monthly-connected",
+          "priority": 83,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "phone",
+              "post_form": "checkbox",
+              "label": "Телефон",
+              "priority": 1
+            },
+            {
+              "name": "internet",
+              "post_form": "checkbox",
+              "label": "Интернет",
+              "priority": 2
+            },
+            {
+              "name": "iptv",
+              "post_form": "checkbox",
+              "label": "Кабельное/IP ТВ",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Прочее",
+          "name": "realty-room-rent-monthly-other_info",
+          "priority": 121,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "plastic_window",
+              "post_form": "checkbox",
+              "label": "Пластиковые окна",
+              "priority": 1
+            },
+            {
+              "name": "not_the_corner",
+              "post_form": "checkbox",
+              "label": "Неугловая",
+              "priority": 2
+            },
+            {
+              "name": "quiet_courtyard",
+              "post_form": "checkbox",
+              "label": "Тихий двор",
+              "priority": 7
+            },
+            {
+              "name": "clean",
+              "post_form": "checkbox",
+              "label": "Чистая",
+              "priority": 8
+            },
+            {
+              "name": "comfortable",
+              "post_form": "checkbox",
+              "label": "Уютная",
+              "priority": 9
+            },
+            {
+              "name": "family",
+              "post_form": "checkbox",
+              "label": "Семейным",
+              "priority": 10
+            },
+            {
+              "name": "for_a_long_time",
+              "post_form": "checkbox",
+              "label": "На длительный срок",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "realty-room-rent-daily",
+      "label": "Аренда комнат посуточно",
+      "url": "realty-room-rent-daily",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Количество комнат",
+          "name": "realty-room-rent-daily-room-count",
+          "priority": 9,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 9,
+          "filter_default_toggle": true,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите количество комнат"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Кол-во комнат\" - значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Местоположение",
+          "name": "realty-room-rent-daily-microregion",
+          "priority": 10,
+          "hint": "Например: Восток-5 или Московская/Советская",
+          "post_form": "textbox"
+        },
+        {
+          "label": "Цена",
+          "name": "realty-room-rent-daily-price",
+          "priority": 11,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "measure": "сом",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите цену"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "integerOnly": true,
+              "message": "\"Цена\"- значение должно быть целым числом."
+            }
+          ]
+        },
+        {
+          "label": "Площадь",
+          "name": "realty-room-rent-daily-area",
+          "priority": 30,
+          "post_form": "textbox",
+          "search_form": "range",
+          "search_priority": 30,
+          "measure": "м²",
+          "hint": "Пример: 48 м²",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Пожайлуста, укажите площадь"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Площадь - значение должно быть числом"
+            }
+          ]
+        },
+        {
+          "label": "Состояние",
+          "name": "realty-room-rent-daily-condition",
+          "priority": 70,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 70,
+          "options": [
+            {
+              "label": "Среднее",
+              "priority": 2
+            },
+            {
+              "label": "Хорошее",
+              "priority": 3
+            },
+            {
+              "label": "Евроремонт",
+              "priority": 4
+            }
+          ]
+        },
+        {
+          "label": "Мебель",
+          "name": "realty-room-rent-daily-furniture",
+          "priority": 81,
+          "post_form": "radio",
+          "options": [
+            {
+              "label": "Полностью мебелирована",
+              "priority": 1
+            },
+            {
+              "label": "Частично мебелирована",
+              "priority": 2
+            },
+            {
+              "label": "Пустая",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Техника",
+          "name": "realty-room-rent-daily-equipment",
+          "priority": 82,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "tv",
+              "post_form": "checkbox",
+              "label": "Телевизор",
+              "priority": 1
+            },
+            {
+              "name": "washing_machine",
+              "post_form": "checkbox",
+              "label": "Стиральная машина",
+              "priority": 2
+            },
+            {
+              "name": "refrigerator",
+              "post_form": "checkbox",
+              "label": "Холодильник",
+              "priority": 3
+            },
+            {
+              "name": "microwave",
+              "post_form": "checkbox",
+              "label": "Микроволновка",
+              "priority": 4
+            },
+            {
+              "name": "gas-stove",
+              "post_form": "checkbox",
+              "label": "Газовая плита",
+              "priority": 5
+            },
+            {
+              "name": "conditioner",
+              "post_form": "checkbox",
+              "label": "Кондиционер",
+              "priority": 6
+            },
+            {
+              "name": "water_heater",
+              "post_form": "checkbox",
+              "label": "Водонагреватель",
+              "priority": 7
+            }
+          ]
+        },
+        {
+          "label": "Подключено",
+          "name": "realty-room-rent-daily-connected",
+          "priority": 83,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "phone",
+              "post_form": "checkbox",
+              "label": "Телефон",
+              "priority": 1
+            },
+            {
+              "name": "internet",
+              "post_form": "checkbox",
+              "label": "Интернет",
+              "priority": 2
+            },
+            {
+              "name": "iptv",
+              "post_form": "checkbox",
+              "label": "Кабельное/IP ТВ",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Прочее",
+          "name": "realty-room-rent-daily-other_info",
+          "priority": 121,
+          "post_form": "checkboxlist",
+          "parameters": [
+            {
+              "name": "quiet_courtyard",
+              "post_form": "checkbox",
+              "label": "Тихий двор",
+              "priority": 1
+            },
+            {
+              "name": "clean",
+              "post_form": "checkbox",
+              "label": "Чисто",
+              "priority": 2
+            },
+            {
+              "name": "comfortable",
+              "post_form": "checkbox",
+              "label": "Уютно",
+              "priority": 3
+            },
+            {
+              "name": "receipt",
+              "post_form": "checkbox",
+              "label": "Выдаем квитанции",
+              "priority": 4
+            },
+            {
+              "name": "discount",
+              "post_form": "checkbox",
+              "label": "Предусмотрены скидки",
+              "priority": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

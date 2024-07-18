@@ -1,0 +1,286 @@
+{
+  "label": "Техника для красоты и здоровья",
+  "url": "electronics-beauty-health",
+  "priority": 9,
+  "children": [
+    {
+      "label": "Фены и укладка",
+      "url": "electronics-beauty-health-hairdryers-styling",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-beauty-health-hairdryers-styling-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "наборы","priority": 1},
+            {"label": "выпрямители (утюжки)","priority": 1},
+            {"label": "стайлеры","priority": 1},
+            {"label": "щипцы (плойки)","priority": 1},
+            {"label": "фены","priority": 1},
+            {"label": "фены-щетки","priority": 1},
+            {"label": "электробигуди","priority": 1},
+            {"label": "приборы для плетения волос","priority": 1},
+            {"label": "насадки для фенов","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Эпиляторы",
+      "url": "electronics-beauty-health-epilators",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-beauty-health-epilators-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский триммер","priority": 1},
+            {"label": "лазерный эпилятор","priority": 1},
+            {"label": "фотоэпилятор","priority": 1},
+            {"label": "электробритва для женщин","priority": 1},
+            {"label": "эпилятор","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Электробритвы и триммеры",
+      "url": "electronics-beauty-health-electric-shavers-trimmers",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-beauty-health-electric-shavers-trimmers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "бритвы","priority": 1},
+            {"label": "триммеры","priority": 1}
+          ]
+        },
+        {
+          "label": "Назначение",
+          "name": "electronics-beauty-health-electric-shavers-trimmers-purpose",
+          "priority": 12,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите назначение"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "для носа и ушей","priority": 1},
+            {"label": "для бороды и усов","priority": 1},
+            {"label": "для тела (бодигрумеры)","priority": 1},
+            {"label": "для бикини (косметические)","priority": 1},
+            {"label": "универсальные","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Машинки для стрижки",
+      "url": "electronics-beauty-health-hair-clippers",
+      "priority": 4
+    },
+    {
+      "label": "Напольные весы",
+      "url": "electronics-beauty-health-scales",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-beauty-health-scales-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "механические","priority": 1},
+            {"label": "электронные","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Бытовые медицинские приборы",
+      "url": "electronics-beauty-health-medical-devices",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-beauty-health-medical-devices-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "тонометры","priority": 1},
+            {"label": "глюкометры","priority": 1},
+            {"label": "пульсометры","priority": 1},
+            {"label": "шагомеры","priority": 1},
+            {"label": "термометры","priority": 1},
+            {"label": "ингаляторы","priority": 1},
+            {"label": "электрогрелки","priority": 1},
+            {"label": "медицинские лампы","priority": 1},
+            {"label": "дозиметры, нитратомеры","priority": 1},
+            {"label": "экспресс-тесты","priority": 1},
+            {"label": "приборы для домашней терапии","priority": 1},
+            {"label": "слуховые аппараты","priority": 1},
+            {"label": "электрогрелки","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Электрические зубные щетки и ирригаторы",
+      "url": "electronics-beauty-health-electric-toothbrushes-irrigators",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-beauty-health-electric-toothbrushes-irrigators-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "эл.зубные щетки","priority": 1},
+            {"label": "ирригаторы","priority": 1},
+            {"label": "аксессуары","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Приборы для ухода за телом и лицом",
+      "url": "electronics-beauty-health-body-face-care-devices",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-beauty-health-body-face-care-devices-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "ИК-излучение","priority": 1},
+            {"label": "массаж","priority": 1},
+            {"label": "уход за лицом","priority": 1},
+            {"label": "уход за телом","priority": 1},
+            {"label": "эпиляция","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Массажеры",
+      "url": "electronics-beauty-health-massagers",
+      "priority": 9,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-beauty-health-massagers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "для всего тела","priority": 1},
+            {"label": "для глаз","priority": 1},
+            {"label": "для лица","priority": 1},
+            {"label": "для ног","priority": 1},
+            {"label": "для рук","priority": 1},
+            {"label": "для спины","priority": 1},
+            {"label": "для шеи","priority": 1},
+            {"label": "для головы","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Миостимуляторы",
+      "url": "electronics-beauty-health-myostimulators",
+      "priority": 10
+    },
+    {
+      "label": "Прочая техника для красоты и здоровья",
+      "url": "electronics-beauty-health-other",
+      "priority": 11
+    }
+  ]
+}

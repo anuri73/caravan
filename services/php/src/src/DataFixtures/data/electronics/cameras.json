@@ -1,0 +1,764 @@
+{
+  "label": "Фото-видео камеры и аксессуары",
+  "url": "electronics-cameras",
+  "priority": 4,
+  "children": [
+    {
+      "url": "electronics-cameras-photo-digital",
+      "label": "Цифровые фотоаппараты",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип камеры",
+          "name": "electronics-cameras-photo-digital-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Зеркальные",
+              "priority": 1
+            },
+            {
+              "label": "Беззеркальные",
+              "priority": 2
+            },
+            {
+              "label": "Компактные",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-cameras-photo-digital-brand",
+          "priority": 22,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "Canon",
+              "priority": 1
+            },
+            {
+              "label": "Fujifilm",
+              "priority": 2
+            },
+            {
+              "label": "Hasselblad",
+              "priority": 3
+            },
+            {
+              "label": "Leica",
+              "priority": 4
+            },
+            {
+              "label": "LG",
+              "priority": 5
+            },
+            {
+              "label": "Lytro",
+              "priority": 6
+            },
+            {
+              "label": "Minox",
+              "priority": 7
+            },
+            {
+              "label": "Nikon",
+              "priority": 8
+            },
+            {
+              "label": "Olympus",
+              "priority": 9
+            },
+            {
+              "label": "Panasonic",
+              "priority": 10
+            },
+            {
+              "label": "Pentax",
+              "priority": 11
+            },
+            {
+              "label": "Rekam",
+              "priority": 12
+            },
+            {
+              "label": "Ricoh",
+              "priority": 13
+            },
+            {
+              "label": "Samsung",
+              "priority": 14
+            },
+            {
+              "label": "Sealife",
+              "priority": 15
+            },
+            {
+              "label": "Sanyo",
+              "priority": 16
+            },
+            {
+              "label": "Sigma",
+              "priority": 17
+            },
+            {
+              "label": "Sony",
+              "priority": 18
+            },
+            {
+              "label": "Vitek",
+              "priority": 19
+            },
+            {
+              "label": "Другое",
+              "priority": 20
+            }
+          ]
+        },
+        {
+          "label": "Число мегапикселей",
+          "name": "electronics-cameras-photo-digital-definition",
+          "priority": 23,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите кол-во мегапикселей"
+            },
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Кол-во Мп - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "Мп",
+          "search_form": "range",
+          "search_priority": 33
+        },
+        {
+          "label": "Возможность смены объектива",
+          "name": "changeable lens",
+          "priority": 24,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 34,
+          "options": [
+            {
+              "label": "Да",
+              "priority": 1
+            },
+            {
+              "label": "Нет",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Объектив в комплекте",
+          "name": "lens included",
+          "priority": 25,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 35,
+          "options": [
+            {
+              "label": "Да",
+              "priority": 1
+            },
+            {
+              "label": "Нет",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "label": "Оптический Zoom",
+          "name": "electronics-cameras-photo-digital-optic-zoom",
+          "priority": 26,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Оптический Zoom - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "- кратный зум",
+          "search_form": "range",
+          "search_priority": 36
+        }
+      ]
+    },
+    {
+      "url": "electronics-cameras-photo-film",
+      "label": "Пленочные фотоаппараты",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-cameras-photo-film-brand",
+          "priority": 22,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "Agfaphoto",
+              "priority": 1
+            },
+            {
+              "label": "Canon",
+              "priority": 2
+            },
+            {
+              "label": "Fujifilm",
+              "priority": 3
+            },
+            {
+              "label": "Kodak",
+              "priority": 4
+            },
+            {
+              "label": "Lomography",
+              "priority": 5
+            },
+            {
+              "label": "Nikon",
+              "priority": 6
+            },
+            {
+              "label": "Polaroid",
+              "priority": 7
+            },
+            {
+              "label": "Rollei",
+              "priority": 8
+            },
+            {
+              "label": "Samsung",
+              "priority": 9
+            },
+            {
+              "label": "Зенит",
+              "priority": 10
+            },
+            {
+              "label": "Другое",
+              "priority": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-cameras-photo-instant",
+      "label": "Фотоаппараты моментальной печати",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-cameras-photo-instant-brand",
+          "priority": 22,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "Fujifilm",
+              "priority": 3
+            },
+            {
+              "label": "Lomography",
+              "priority": 5
+            },
+            {
+              "label": "Polaroid",
+              "priority": 7
+            },
+            {
+              "label": "Rekam",
+              "priority": 8
+            },
+            {
+              "label": "Другое",
+              "priority": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-cameras-video",
+      "label": "Видеокамеры и экшн-камеры",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Производитель",
+          "name": "electronics-cameras-video-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {
+              "label": "BQ",
+              "priority": 1
+            },
+            {
+              "label": "Canon",
+              "priority": 2
+            },
+            {
+              "label": "DJI",
+              "priority": 3
+            },
+            {
+              "label": "Drift Innovation",
+              "priority": 4
+            },
+            {
+              "label": "EKEN",
+              "priority": 5
+            },
+            {
+              "label": "Gembird",
+              "priority": 6
+            },
+            {
+              "label": "GoPro",
+              "priority": 7
+            },
+            {
+              "label": "JVC",
+              "priority": 8
+            },
+            {
+              "label": "Kodak",
+              "priority": 9
+            },
+            {
+              "label": "Panasonic",
+              "priority": 10
+            },
+            {
+              "label": "Polaroid",
+              "priority": 11
+            },
+            {
+              "label": "Rekam",
+              "priority": 12
+            },
+            {
+              "label": "Ricoh",
+              "priority": 13
+            },
+            {
+              "label": "SJCAM",
+              "priority": 14
+            },
+            {
+              "label": "Smarterra",
+              "priority": 15
+            },
+            {
+              "label": "Sony",
+              "priority": 16
+            },
+            {
+              "label": "SUPRA",
+              "priority": 17
+            },
+            {
+              "label": "X-TRY",
+              "priority": 18
+            },
+            {
+              "label": "Xiaomi",
+              "priority": 19
+            },
+            {
+              "label": "YI",
+              "priority": 20
+            },
+            {
+              "label": "Другое",
+              "priority": 21
+            }
+          ]
+        },
+        {
+          "label": "HD-формат",
+          "name": "hd format",
+          "priority": 22,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "Full HD 1080p",
+              "priority": 6
+            },
+            {
+              "label": "HD 720p",
+              "priority": 7
+            },
+            {
+              "label": "QHD 2.5K",
+              "priority": 8
+            },
+            {
+              "label": "UHD 4K",
+              "priority": 9
+            },
+            {
+              "label": "5.7K",
+              "priority": 10
+            }
+          ]
+        },
+        {
+          "label": "Оптический Zoom",
+          "name": "electronics-cameras-video-optic-zoom",
+          "priority": 25,
+          "post_form": "textbox",
+          "measure": "- кратный зум",
+          "search_form": "range",
+          "search_priority": 35
+        },
+        {
+          "label": "Число мегапикселей",
+          "name": "electronics-cameras-video-definition",
+          "priority": 26,
+          "post_form": "textbox",
+          "measure": "мп",
+          "search_form": "range",
+          "search_priority": 36
+        }
+      ]
+    },
+    {
+      "url": "electronics-cameras-drones-quadcopters",
+      "label": "Дроны (квадрокоптеры)",
+      "priority": 5
+    },
+    {
+      "url": "electronics-cameras-lenses",
+      "label": "Объективы",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип объектива",
+          "name": "electronics-cameras-lenses-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип объектива"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Рыбий глаз",
+              "priority": 1
+            },
+            {
+              "label": "Макрообъектив",
+              "priority": 2
+            },
+            {
+              "label": "Стандартный",
+              "priority": 3
+            },
+            {
+              "label": "Телеобъектив",
+              "priority": 4
+            },
+            {
+              "label": "Широкоугольный",
+              "priority": 5
+            },
+            {
+              "label": "Другое",
+              "priority": 6
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-cameras-lenses-brand",
+          "priority": 22,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "Canon",
+              "priority": 1
+            },
+            {
+              "label": "Fujifilm",
+              "priority": 2
+            },
+            {
+              "label": "HARPER",
+              "priority": 3
+            },
+            {
+              "label": "Nikon",
+              "priority": 8
+            },
+            {
+              "label": "Olympus",
+              "priority": 9
+            },
+            {
+              "label": "Panasonic",
+              "priority": 10
+            },
+            {
+              "label": "Samyang",
+              "priority": 11
+            },
+            {
+              "label": "Sigma",
+              "priority": 12
+            },
+            {
+              "label": "Sony",
+              "priority": 13
+            },
+            {
+              "label": "Tamron",
+              "priority": 14
+            },
+            {
+              "label": "Tokina",
+              "priority": 15
+            },
+            {
+              "label": "YongNuo",
+              "priority": 16
+            },
+            {
+              "label": "Zeiss",
+              "priority": 17
+            },
+            {
+              "label": "Зенит",
+              "priority": 18
+            },
+            {
+              "label": "Другое",
+              "priority": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-cameras-flashlights",
+      "label": "Фотовспышки",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Тип вспышки",
+          "name": "electronics-cameras-flashlights-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип вспышки"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Обычная",
+              "priority": 1
+            },
+            {
+              "label": "Двухламповая",
+              "priority": 2
+            },
+            {
+              "label": "Кольцевая",
+              "priority": 3
+            },
+            {
+              "label": "Для подводной съемки",
+              "priority": 4
+            },
+            {
+              "label": "Другое",
+              "priority": 6
+            }
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "electronics-cameras-flashlights-brand",
+          "priority": 22,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "Acmepower",
+              "priority": 1
+            },
+            {
+              "label": "Aputure",
+              "priority": 2
+            },
+            {
+              "label": "Canon",
+              "priority": 8
+            },
+            {
+              "label": "Falcon Eyes",
+              "priority": 9
+            },
+            {
+              "label": "Fujifilm",
+              "priority": 10
+            },
+            {
+              "label": "Meike",
+              "priority": 11
+            },
+            {
+              "label": "Nikon",
+              "priority": 12
+            },
+            {
+              "label": "Nissin",
+              "priority": 13
+            },
+            {
+              "label": "Olympus",
+              "priority": 14
+            },
+            {
+              "label": "Sigma",
+              "priority": 15
+            },
+            {
+              "label": "Sony",
+              "priority": 16
+            },
+            {
+              "label": "YongNuo",
+              "priority": 17
+            },
+            {
+              "label": "Другое",
+              "priority": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-cameras-tripods-monopods",
+      "label": "Штативы и моноподы",
+      "priority": 7
+    },
+    {
+      "url": "electronics-cameras-accessories",
+      "label": "Аксессуары",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "type_hidden",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {
+              "label": "Сумки и чехлы",
+              "priority": 1
+            },
+            {
+              "label": "Адаптеры и переходные кольца",
+              "priority": 2
+            },
+            {
+              "label": "Аксессуары для видеокамер",
+              "priority": 3
+            },
+            {
+              "label": "Аксессуары для фотовспышек",
+              "priority": 4
+            },
+            {
+              "label": "Аксессуары для штативов и моноподов",
+              "priority": 5
+            },
+            {
+              "label": "Батарейки и аккумуляторы",
+              "priority": 6
+            },
+            {
+              "label": "Бумага и пленка",
+              "priority": 7
+            },
+            {
+              "label": "Дистанционное управление",
+              "priority": 8
+            },
+            {
+              "label": "Источники питания, зарядные устройства",
+              "priority": 9
+            },
+            {
+              "label": "Конвертеры",
+              "priority": 10
+            },
+            {
+              "label": "Насадки и крышки на объективы",
+              "priority": 11
+            },
+            {
+              "label": "Светофильтры",
+              "priority": 12
+            },
+            {
+              "label": "Фотоматериалы и химикаты",
+              "priority": 13
+            },
+            {
+              "label": "Другое",
+              "priority": 14
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

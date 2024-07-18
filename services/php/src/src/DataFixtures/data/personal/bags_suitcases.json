@@ -1,0 +1,557 @@
+{
+  "label": "Сумки и чемоданы",
+  "url": "personal-bags-suitcases",
+  "priority": 3,
+  "parameters": [
+    {
+      "label": "Состояние",
+      "name": "personal-bags-suitcases-condition",
+      "priority": 30,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите состояние товара"
+        }
+      ],
+      "post_form": "radio",
+      "search_form": "checkbox",
+      "search_priority": 30,
+      "filter_default_toggle": true,
+      "options": [
+        {
+          "label": "Новый товар",
+          "priority": 1
+        },
+        {
+          "label": "Б/у",
+          "priority": 2
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "url": "personal-bags-suitcases-bags",
+      "label": "Сумки",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-bags-suitcases-bags-type",
+          "priority": 10,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "авоська","priority": 1},
+            {"label": "барсетка","priority": 1},
+            {"label": "клатч мужской","priority": 1},
+            {"label": "кросс-боди","priority": 1},
+            {"label": "мессенджер","priority": 1},
+            {"label": "мешок","priority": 1},
+            {"label": "планшет","priority": 1},
+            {"label": "рюкзак","priority": 1},
+            {"label": "саквояж","priority": 1},
+            {"label": "тоут","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-bags-suitcases-bags-sex",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        },
+        {
+          "label": "Способ ношения",
+          "name": "personal-bags-suitcases-bags-carry type",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {"label": "на плече","priority": 1},
+            {"label": "на поясе","priority": 1},
+            {"label": "на руке","priority": 1},
+            {"label": "через плечо","priority": 1}
+          ]
+        },
+        {
+          "label": "Назначение",
+          "name": "personal-bags-suitcases-bags-purpose",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 33,
+          "options": [
+            {"label": "деловая","priority": 1},
+            {"label": "для покупок","priority": 1},
+            {"label": "пляжная","priority": 1},
+            {"label": "повседневная","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Материал",
+          "name": "personal-bags-suitcases-bags-material",
+          "priority": 14,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 34,
+          "options": [
+            {"label": "искусственная замша","priority": 1},
+            {"label": "искусственная кожа","priority": 1},
+            {"label": "натуральная замша","priority": 1},
+            {"label": "натуральная кожа","priority": 1},
+            {"label": "пластик","priority": 1},
+            {"label": "солома","priority": 1},
+            {"label": "текстиль","priority": 1},
+            {"label": "экокожа","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-bags-suitcases-suitcases",
+      "label": "Чемоданы",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-bags-suitcases-suitcases-type",
+          "priority": 10,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "кейс-пилот","priority": 1},
+            {"label": "комплект чемоданов","priority": 1},
+            {"label": "чемодан","priority": 1},
+            {"label": "чемодан-рюкзак","priority": 1},
+            {"label": "чемодан-самокат","priority": 1},
+            {"label": "чехол для чемодана","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-bags-suitcases-suitcases-sex",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        },
+        {
+          "label": "Объем",
+          "name": "personal-bags-suitcases-suitcases-volume",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "options": [
+            {"label": "маленький (до 40 л)","priority": 1},
+            {"label": "средний (до 80 л)","priority": 1},
+            {"label": "большой (до 100 л)","priority": 1},
+            {"label": "очень большой (от 100 л)","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-bags-suitcases-travel-bags",
+      "label": "Дорожные сумки",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-bags-suitcases-travel-bags-type",
+          "priority": 10,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "портплед","priority": 1},
+            {"label": "саквояж","priority": 1},
+            {"label": "сумка дорожная","priority": 1},
+            {"label": "сумка-тележка","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-bags-suitcases-travel-bags-sex",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        },
+        {
+          "label": "Материал",
+          "name": "personal-bags-suitcases-travel-bags-material",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {"label": "искусственная замша","priority": 1},
+            {"label": "искусственная кожа","priority": 1},
+            {"label": "натуральная замша","priority": 1},
+            {"label": "натуральная кожа","priority": 1},
+            {"label": "пластик","priority": 1},
+            {"label": "текстиль","priority": 1},
+            {"label": "экокожа","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Объем",
+          "name": "personal-bags-suitcases-travel-bags-volume",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 33,
+          "options": [
+            {"label": "маленький","priority": 1},
+            {"label": "средний","priority": 1},
+            {"label": "большой)","priority": 1},
+            {"label": "очень большой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-bags-suitcases-sport-bags",
+      "label": "Спортивные сумки",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-bags-suitcases-sport-bags-type",
+          "priority": 10,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "гермомешок","priority": 1},
+            {"label": "поясная","priority": 1},
+            {"label": "спортивная","priority": 1},
+            {"label": "туристическая","priority": 1},
+            {"label": "экспедиционный мешок","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-bags-suitcases-sport-bags-sex",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-bags-suitcases-backpacks",
+      "label": "Рюкзаки",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-bags-suitcases-backpacks-type",
+          "priority": 10,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "городской","priority": 1},
+            {"label": "велорюкзак багажный","priority": 1},
+            {"label": "велорюкзак заплечный","priority": 1},
+            {"label": "для охоты и рыбалки","priority": 1},
+            {"label": "для фрирайда","priority": 1},
+            {"label": "мультиспортивный","priority": 1},
+            {"label": "стенной баул","priority": 1},
+            {"label": "тактический","priority": 1},
+            {"label": "трекинговый","priority": 1},
+            {"label": "штурмовой","priority": 1},
+            {"label": "экспедиционный","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-bags-suitcases-backpacks-sex",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        },
+        {
+          "label": "Отделение для ноутбука",
+          "name": "personal-bags-suitcases-backpacks-notebook department",
+          "priority": 14,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 34,
+          "options": [
+            {"label": "есть","priority": 1},
+            {"label": "нет","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-bags-suitcases-cases",
+      "label": "Кейсы",
+      "priority": 6
+    },
+    {
+      "url": "personal-bags-suitcases-briefcases",
+      "label": "Портфели",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-bags-suitcases-briefcases-type",
+          "priority": 10,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "папка для документов","priority": 1},
+            {"label": "портфель","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-bags-suitcases-briefcases-sex",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1},
+            {"label": "унисекс","priority": 1}
+          ]
+        },
+        {
+          "label": "Плечевой ремень",
+          "name": "personal-bags-suitcases-briefcases-shoulder strap",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {"label": "есть","priority": 1},
+            {"label": "нет","priority": 1}
+          ]
+        },
+        {
+          "label": "Материал",
+          "name": "personal-bags-suitcases-briefcases-material",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 33,
+          "options": [
+            {"label": "искусственная замша","priority": 1},
+            {"label": "искусственная кожа","priority": 1},
+            {"label": "натуральная замша","priority": 1},
+            {"label": "натуральная кожа","priority": 1},
+            {"label": "текстиль","priority": 1},
+            {"label": "экокожа","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Отделение для ноутбука",
+          "name": "personal-bags-suitcases-briefcases-notebook department",
+          "priority": 14,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 34,
+          "options": [
+            {"label": "есть","priority": 1},
+            {"label": "нет","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-bags-suitcases-beauticians-beauty-cases",
+      "label": "Косметички и бьюти-кейсы",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-bags-suitcases-beauticians-beauty-cases-type",
+          "priority": 10,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "бьюти-кейс","priority": 1},
+            {"label": "косметичка","priority": 1},
+            {"label": "несессер","priority": 1}
+          ]
+        },
+        {
+          "label": "Пол",
+          "name": "personal-bags-suitcases-beauticians-beauty-cases-sex",
+          "priority": 11,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "женский","priority": 1},
+            {"label": "мужской","priority": 1}
+          ]
+        },
+        {
+          "label": "Материал",
+          "name": "personal-bags-suitcases-beauticians-beauty-cases-material",
+          "priority": 13,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 33,
+          "options": [
+            {"label": "искусственная кожа","priority": 1},
+            {"label": "натуральная замша","priority": 1},
+            {"label": "натуральная кожа","priority": 1},
+            {"label": "текстиль","priority": 1},
+            {"label": "экокожа","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "personal-bags-suitcases-bags-backpacks-for-notebooks",
+      "label": "Сумки и рюкзаки для ноутбуков",
+      "priority": 9,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "personal-bags-suitcases-bags-backpacks-for-notebooks-type",
+          "priority": 10,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 10,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "кейс","priority": 1},
+            {"label": "портфель","priority": 1},
+            {"label": "рюкзак","priority": 1},
+            {"label": "сумка","priority": 1},
+            {"label": "трансформер","priority": 1},
+            {"label": "чехол","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        },
+        {
+          "label": "Размер ноутбука",
+          "name": "personal-bags-suitcases-bags-backpacks-for-notebooks-screen-size",
+          "priority": 13,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Размер - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "дюймов",
+          "search_form": "range",
+          "search_priority": 33
+        }
+      ]
+    }
+  ]
+}

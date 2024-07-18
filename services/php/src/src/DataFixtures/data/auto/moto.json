@@ -1,0 +1,20 @@
+{
+  "label": "Мото",
+  "name": "auto-moto",
+  "url": "auto-moto",
+  "priority": 4,
+  "children": [
+    {
+      "file": "/src/DataFixtures/data/auto/moto/motorcycle.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/auto/moto/atvs.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/auto/moto/skutery.json"
+    },
+    {
+      "file": "/src/DataFixtures/data/auto/moto/snegohody.json"
+    }
+  ]
+}

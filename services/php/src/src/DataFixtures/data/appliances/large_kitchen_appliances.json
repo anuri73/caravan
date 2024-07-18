@@ -1,0 +1,684 @@
+{
+  "label": "Крупная техника для кухни",
+  "url": "appliances-large-kitchen",
+  "priority": 1,
+  "children": [
+    {
+      "label": "Варочные панели",
+      "url": "appliances-large-kitchen-cooktops",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-large-kitchen-cooktops-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Газовая","priority": 1},
+            {"label": "Комбинированная","priority": 1},
+            {"label": "Электрическая","priority": 1}
+          ]
+        },
+        {
+          "label": "Установка",
+          "name": "appliances-large-kitchen-cooktops-installment",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Зависимая","priority": 1},
+            {"label": "Независимая","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-large-kitchen-cooktops-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AEG", "priority": 1},
+            {"label": "AVEX", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Cata", "priority": 1},
+            {"label": "Danke", "priority": 1},
+            {"label": "DARINA", "priority": 1},
+            {"label": "De Luxe", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "Electronicsdeluxe", "priority": 1},
+            {"label": "Ferre", "priority": 1},
+            {"label": "Fornelli", "priority": 1},
+            {"label": "GEFEST", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Greta", "priority": 1},
+            {"label": "Hansa", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Indesit", "priority": 1},
+            {"label": "Korting", "priority": 1},
+            {"label": "Kuppersberg", "priority": 1},
+            {"label": "LEX", "priority": 1},
+            {"label": "Maunfeld", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Simfer", "priority": 1},
+            {"label": "Whirlpool", "priority": 1},
+            {"label": "Zanussi", "priority": 1},
+            {"label": "Zigmund & Shtain", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Ширина",
+          "name": "appliances-large-kitchen-cooktops-width",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Ширина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 32
+        },
+        {
+          "label": "Глубина",
+          "name": "appliances-large-kitchen-cooktops-depth",
+          "priority": 23,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Глубина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 33
+        }
+      ]
+    },
+    {
+      "label": "Вытяжки",
+      "url": "appliances-large-kitchen-cooker-hoods",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-large-kitchen-cooker-hoods-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Встраиваемая","priority": 1},
+            {"label": "Каминная","priority": 1},
+            {"label": "Подвесная","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-large-kitchen-cooker-hoods-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AKPO", "priority": 1},
+            {"label": "Artel", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Cata", "priority": 1},
+            {"label": "Danke", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "Elica", "priority": 1},
+            {"label": "ELIKOR", "priority": 1},
+            {"label": "Faber", "priority": 1},
+            {"label": "Ferre", "priority": 1},
+            {"label": "GEFEST", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Hansa", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Indesit", "priority": 1},
+            {"label": "Jetair", "priority": 1},
+            {"label": "Kronasteel", "priority": 1},
+            {"label": "Kuppersberg", "priority": 1},
+            {"label": "LEX", "priority": 1},
+            {"label": "Maunfeld", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Shivaki", "priority": 1},
+            {"label": "Whirlpool", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Zigmund Shtain", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Ширина",
+          "name": "appliances-large-kitchen-cooker-hoods-width",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Ширина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 32
+        }
+      ]
+    },
+    {
+      "label": "Диспенсеры, кулеры для воды",
+      "url": "appliances-large-kitchen-dispensers-water-coolers",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-large-kitchen-dispensers-water-coolers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Напольный","priority": 1},
+            {"label": "Настенный","priority": 1},
+            {"label": "Настольный","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Духовки",
+      "url": "appliances-large-kitchen-ovens",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-large-kitchen-ovens-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Газовая","priority": 1},
+            {"label": "Электрическая","priority": 1}
+          ]
+        },
+        {
+          "label": "Установка",
+          "name": "appliances-large-kitchen-ovens-installment",
+          "priority": 12,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 12,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Зависимая","priority": 1},
+            {"label": "Независимая","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-large-kitchen-ovens-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AEG", "priority": 1},
+            {"label": "ARTEL", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Candy", "priority": 1},
+            {"label": "Carino", "priority": 1},
+            {"label": "CATA", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "Electronicsdeluxe", "priority": 1},
+            {"label": "Fornelli", "priority": 1},
+            {"label": "GEFEST", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Hansa", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Indesit", "priority": 1},
+            {"label": "Korting", "priority": 1},
+            {"label": "Kumtel", "priority": 1},
+            {"label": "Kuppersberg", "priority": 1},
+            {"label": "LEX", "priority": 1},
+            {"label": "Lobod", "priority": 1},
+            {"label": "Maunfeld", "priority": 1},
+            {"label": "Midea", "priority": 1},
+            {"label": "Neo", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Polaris", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "SHIVAKI", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Tessa", "priority": 1},
+            {"label": "Whirlpool", "priority": 1},
+            {"label": "Zanussi", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Zigmund Shtain", "priority": 1},
+            {"label": "Великие реки", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Ширина",
+          "name": "appliances-large-kitchen-ovens-width",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Ширина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 32
+        },
+        {
+          "label": "Высота",
+          "name": "appliances-large-kitchen-ovens-height",
+          "priority": 23,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Высота - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 33
+        },
+        {
+          "label": "Глубина",
+          "name": "appliances-large-kitchen-ovens-depth",
+          "priority": 24,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Глубина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 34
+        }
+      ]
+    },
+    {
+      "label": "Плиты",
+      "url": "appliances-large-kitchen-cookers",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-large-kitchen-cookers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Газовая","priority": 1},
+            {"label": "Электрическая","priority": 1},
+            {"label": "Комбинированная","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-large-kitchen-cookers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "Artel", "priority": 1},
+            {"label": "Ava", "priority": 1},
+            {"label": "Beko", "priority": 1},
+            {"label": "Berghoff", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "BT", "priority": 1},
+            {"label": "Danke", "priority": 1},
+            {"label": "DARINA", "priority": 1},
+            {"label": "De Luxe", "priority": 1},
+            {"label": "Endever", "priority": 1},
+            {"label": "Ferre", "priority": 1},
+            {"label": "Flama", "priority": 1},
+            {"label": "Galaxy", "priority": 1},
+            {"label": "GEFEST", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Greta", "priority": 1},
+            {"label": "Hansa", "priority": 1},
+            {"label": "Kitfort", "priority": 1},
+            {"label": "Maxwell", "priority": 1},
+            {"label": "Rika", "priority": 1},
+            {"label": "Scarlett", "priority": 1},
+            {"label": "Sencor", "priority": 1},
+            {"label": "Shivaki", "priority": 1},
+            {"label": "Simfer", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Termikel", "priority": 1},
+            {"label": "Zanussi", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Лысьва", "priority": 1},
+            {"label": "Мечта", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Ширина",
+          "name": "appliances-large-kitchen-cookers-width",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Ширина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 32
+        },
+        {
+          "label": "Высота",
+          "name": "appliances-large-kitchen-cookers-height",
+          "priority": 23,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Высота - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 33
+        },
+        {
+          "label": "Глубина",
+          "name": "appliances-large-kitchen-cookers-depth",
+          "priority": 24,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Глубина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 34
+        }
+      ]
+    },
+    {
+      "label": "Посудомоечные машины",
+      "url": "appliances-large-kitchen-dishwashers",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-large-kitchen-dishwashers-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Встраиваемая полностью","priority": 1},
+            {"label": "Встраиваемая частично","priority": 1},
+            {"label": "Отдельно стоящая","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-large-kitchen-dishwashers-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "BEKO", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Candy", "priority": 1},
+            {"label": "Daewoo", "priority": 1},
+            {"label": "Electrolux", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Hansa", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Indesit", "priority": 1},
+            {"label": "Korting", "priority": 1},
+            {"label": "Kuppersberg", "priority": 1},
+            {"label": "LG", "priority": 1},
+            {"label": "Maunfeld", "priority": 1},
+            {"label": "Midea", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Vestel", "priority": 1},
+            {"label": "Whirlpool", "priority": 1},
+            {"label": "Zelmer", "priority": 1},
+            {"label": "Zigmund Shtain", "priority": 1},
+            {"label": "ZWM", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Ширина",
+          "name": "appliances-large-kitchen-dishwashers-width",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Ширина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 32
+        },
+        {
+          "label": "Высота",
+          "name": "appliances-large-kitchen-dishwashers-height",
+          "priority": 23,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Высота - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 33
+        },
+        {
+          "label": "Глубина",
+          "name": "appliances-large-kitchen-dishwashers-depth",
+          "priority": 24,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Глубина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 34
+        }
+      ]
+    },
+    {
+      "label": "Холодильники",
+      "url": "appliances-large-kitchen-refrigerators",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "appliances-large-kitchen-refrigerators-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Однокамерный","priority": 1},
+            {"label": "Морозильная камера","priority": 1},
+            {"label": "Многокамерный","priority": 1},
+            {"label": "Двухкамерный","priority": 1},
+            {"label": "Встраиваемый","priority": 1},
+            {"label": "Витринный","priority": 1},
+            {"label": "Side-by-Side","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "appliances-large-kitchen-refrigerators-brand",
+          "priority": 21,
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 31,
+          "options": [
+            {"label": "AEG", "priority": 1},
+            {"label": "ATLANT", "priority": 1},
+            {"label": "BEKO", "priority": 1},
+            {"label": "Blesk", "priority": 1},
+            {"label": "Bosch", "priority": 1},
+            {"label": "Daewoo", "priority": 1},
+            {"label": "Gorenje", "priority": 1},
+            {"label": "Haier", "priority": 1},
+            {"label": "Hitachi", "priority": 1},
+            {"label": "Hotpoint Ariston", "priority": 1},
+            {"label": "Indesit", "priority": 1},
+            {"label": "LG", "priority": 1},
+            {"label": "Liebherr", "priority": 1},
+            {"label": "Midea", "priority": 1},
+            {"label": "Nord", "priority": 1},
+            {"label": "Osten", "priority": 1},
+            {"label": "Panasonic", "priority": 1},
+            {"label": "Pozis", "priority": 1},
+            {"label": "Samsung", "priority": 1},
+            {"label": "Sharp", "priority": 1},
+            {"label": "Sinbo", "priority": 1},
+            {"label": "Snowcap", "priority": 1},
+            {"label": "Toshiba", "priority": 1},
+            {"label": "Whirlpool", "priority": 1},
+            {"label": "Бирюса", "priority": 1},
+            {"label": "Саратов", "priority": 1},
+            {"label": "Другой", "priority": 1}
+          ]
+        },
+        {
+          "label": "Ширина",
+          "name": "appliances-large-kitchen-refrigerators-width",
+          "priority": 22,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Ширина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 32
+        },
+        {
+          "label": "Высота",
+          "name": "appliances-large-kitchen-refrigerators-height",
+          "priority": 23,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Высота - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 33
+        },
+        {
+          "label": "Глубина",
+          "name": "appliances-large-kitchen-refrigerators-depth",
+          "priority": 24,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+              "message": "Глубина - значение должно быть числом"
+            }
+          ],
+          "post_form": "textbox",
+          "measure": "см",
+          "search_form": "range",
+          "search_priority": 34
+        }
+      ]
+    },
+    {
+      "label": "Прочая крупная техника для кухни",
+      "url": "appliances-large-kitchen-other",
+      "priority": 7
+    }
+  ]
+}

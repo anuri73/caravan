@@ -1,0 +1,166 @@
+{
+  "name": "auto-parts-masla_i_avtohimiya",
+  "label": "Масла и автохимия",
+  "url": "auto-parts-masla_i_avtohimiya",
+  "priority": 9,
+  "children": [
+    {
+      "name": "auto-parts-masla_i_avtohimiya-avtohimiya",
+      "label": "Автохимия",
+      "url": "auto-parts-masla_i_avtohimiya-avtohimiya",
+      "children": [
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-antigravij",
+          "label": "Антигравий",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-antigravij"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-antikorrozijnye_sostavy",
+          "label": "Антикоррозийные составы",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-antikorrozijnye_sostavy"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-bystryj_start",
+          "label": "Быстрый старт",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-bystryj_start"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-germetik",
+          "label": "Герметик",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-germetik"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-distillirovannaya_voda",
+          "label": "Дистиллированная вода",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-distillirovannaya_voda"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-zhidkostx_dlya_stekloomyvatelya",
+          "label": "Жидкость для стеклоомывателя",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-zhidkostx_dlya_stekloomyvatelya"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-klei",
+          "label": "Клеи",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-klei"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-okrashivanie_poverhnostej",
+          "label": "Окрашивание поверхностей",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-okrashivanie_poverhnostej"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-ochistitelx",
+          "label": "Очиститель",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-ochistitelx"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-polirolx",
+          "label": "Полироль",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-polirolx"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-preobrazovatelx_rzhavchiny",
+          "label": "Преобразователь ржавчины",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-preobrazovatelx_rzhavchiny"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-prisadka",
+          "label": "Присадка",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-prisadka"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-promyvochnye_zhidkosti",
+          "label": "Промывочные жидкости",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-promyvochnye_zhidkosti"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-remont_vinila_i_kozhi",
+          "label": "Ремонт винила и кожи",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-remont_vinila_i_kozhi"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-salfetki,_gubki_dlya_uhoda",
+          "label": "Салфетки, губки для ухода",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-salfetki,_gubki_dlya_uhoda"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-smazka",
+          "label": "Смазка",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-smazka"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-suhaya_mojka",
+          "label": "Сухая мойка",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-suhaya_mojka"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-holodnaya_svarka",
+          "label": "Холодная сварка",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-holodnaya_svarka"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-avtohimiya-shampunx",
+          "label": "Шампунь",
+          "url": "auto-parts-masla_i_avtohimiya-avtohimiya-shampunx"
+        }
+      ]
+    },
+    {
+      "name": "auto-parts-masla_i_avtohimiya-antifriz",
+      "label": "Антифриз",
+      "url": "auto-parts-masla_i_avtohimiya-antifriz",
+      "children": []
+    },
+    {
+      "name": "auto-parts-masla_i_avtohimiya-zhidkostx_tormoznaya",
+      "label": "Жидкость тормозная",
+      "url": "auto-parts-masla_i_avtohimiya-zhidkostx_tormoznaya",
+      "children": []
+    },
+    {
+      "name": "auto-parts-masla_i_avtohimiya-masla",
+      "label": "Масла",
+      "url": "auto-parts-masla_i_avtohimiya-masla",
+      "children": [
+        {
+          "name": "auto-parts-masla_i_avtohimiya-masla-maslo_motornoe",
+          "label": "Масло моторное",
+          "url": "auto-parts-masla_i_avtohimiya-masla-maslo_motornoe"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-masla-maslo_promyvochnoe",
+          "label": "Масло промывочное",
+          "url": "auto-parts-masla_i_avtohimiya-masla-maslo_promyvochnoe"
+        },
+        {
+          "name": "auto-parts-masla_i_avtohimiya-masla-maslo_transmissionnoe",
+          "label": "Масло трансмиссионное",
+          "url": "auto-parts-masla_i_avtohimiya-masla-maslo_transmissionnoe"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "label": "Цена",
+      "name": "auto-parts-masla_i_avtohimiya-price",
+      "priority": 7,
+      "post_form": "textbox",
+      "measure": "сом",
+      "search_form": "range",
+      "search_priority": 7,
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите цену"
+        },
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+          "integerOnly": true,
+          "message": "\"Цена\" - значение должно быть целым числом."
+        }
+      ]
+    }
+  ]
+}

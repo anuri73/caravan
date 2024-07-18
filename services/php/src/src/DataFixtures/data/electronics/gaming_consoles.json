@@ -1,0 +1,152 @@
+{
+  "label": "Игровые приставки",
+  "url": "electronics-gaming",
+  "priority": 6,
+  "children": [
+    {
+      "url": "electronics-gaming-consoles",
+      "label": "Игровые приставки",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-gaming-consoles-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "стационарные","priority": 1},
+            {"label": "портативные","priority": 1}
+          ]
+        },
+        {
+          "label": "Производитель",
+          "name": "lectronics-gaming-consoles-brand",
+          "priority": 22,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 32,
+          "options": [
+            {
+              "label": "Microsoft",
+              "priority": 1
+            },
+            {
+              "label": "Nintendo",
+              "priority": 2
+            },
+            {
+              "label": "SEGA",
+              "priority": 3
+            },
+            {
+              "label": "Sony",
+              "priority": 4
+            },
+            {
+              "label": "Другой",
+              "priority": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-gaming-consoles-games",
+      "label": "Игры для приставок",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Платформа",
+          "name": "electronics-gaming-consoles-games-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите платформу"
+            }
+          ],
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Nintendo DS","priority": 1},
+            {"label": "Sony PlayStation Portable","priority": 1},
+            {"label": "Sony PlayStation 2","priority": 1},
+            {"label": "Sony PlayStation 3","priority": 1},
+            {"label": "Sony PlayStation 4","priority": 1},
+            {"label": "Play Station Vita","priority": 1},
+            {"label": "Nintendo Wii","priority": 1},
+            {"label": "Microsoft Xbox One","priority": 1},
+            {"label": "Microsoft Xbox 360","priority": 1},
+            {"label": "Персональный компьютер","priority": 1},
+            {"label": "Другая","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-gaming-joysticks-gamepads",
+      "label": "Рули, джойстики, геймпады",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-gaming-joysticks-gamepads-type",
+          "priority": 11,
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "post_form": "dropdown",
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "геймпады","priority": 1},
+            {"label": "джойстики","priority": 1},
+            {"label": "рули","priority": 1},
+            {"label": "панели приборов","priority": 1},
+            {"label": "контроллеры движения","priority": 1},
+            {"label": "педали","priority": 1},
+            {"label": "рычаги управления двигателем","priority": 1}
+          ]
+        },
+        {
+          "label": "Подключение",
+          "name": "electronics-gaming-joysticks-gamepad-connection-type",
+          "priority": 25,
+          "post_form": "radio",
+          "search_form": "checkbox",
+          "search_priority": 35,
+          "options": [
+            {
+              "label": "Беспроводные",
+              "priority": 1
+            },
+            {
+              "label": "C проводом",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "electronics-gaming-accessories",
+      "label": "Аксессуары для игровых приставок",
+      "priority": 4
+    }
+  ]
+}

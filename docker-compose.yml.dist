@@ -33,12 +33,16 @@ services:
     environment:
       - ENV_DOMAIN=${ENV_DOMAIN}
       - ENV_CONTAINER_PHP_FPM=${ENV_CONTAINER_PHP_FPM}
+      - PHP_IDE_CONFIG=serverName=${ENV_DOMAIN}
     env_file:
       - .env
     networks:
       - web
     volumes:
       - ./services/php/src:/var/www/src
+      - ./services/php/ini/php-caravan.ini:/usr/local/etc/php/conf.d/php-caravan.ini
+      - ./services/php/ini/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+      - ./services/php/log:/var/log/
 
   postgres:
     build:

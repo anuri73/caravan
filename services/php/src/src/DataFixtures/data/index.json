@@ -1,0 +1,326 @@
+{
+  "settings": {
+    "analysis": {
+      "filter": {
+        "my_stopwords": {
+          "type": "stop",
+          "stopwords": "а,без,более,бы,был,была,были,было,быть,в,вам,вас,весь,во,вот,все,всего,всех,вы,где,да,даже,для,до,его,ее,если,есть,еще,же,за,здесь,и,из,или,им,их,к,как,ко,когда,кто,ли,либо,мне,может,мы,на,надо,наш,не,него,нее,нет,ни,них,но,ну,о,об,однако,он,она,они,оно,от,очень,по,под,при,с,со,так,также,такой,там,те,тем,то,того,тоже,той,только,том,ты,у,уже,хотя,чего,чей,чем,что,чтобы,чье,чья,эта,эти,это,я,a,an,and,are,as,at,be,but,by,for,if,in,into,is,it,no,not,of,on,or,such,that,the,their,then,there,these,they,this,to,was,will,with"
+        }
+      },
+      "analyzer": {
+        "my_analyzer": {
+          "filter": [
+            "lowercase",
+            "russian_morphology",
+            "english_morphology",
+            "my_stopwords"
+          ],
+          "type": "custom",
+          "tokenizer": "standard"
+        }
+      }
+    }
+  },
+  "mappings": {
+    "filter": {
+      "dynamic": "strict",
+      "_all": {
+        "enabled": false,
+        "analyzer": "my_analyzer"
+      },
+      "properties": {
+        "category_id": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "filter_default_toggle": {
+          "type": "boolean"
+        },
+        "search_form": {
+          "type": "integer"
+        },
+        "search_priority": {
+          "type": "integer"
+        },
+        "hint": {
+          "type": "text"
+        },
+        "id": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "post_form": {
+          "type": "integer"
+        },
+        "label": {
+          "type": "text"
+        },
+        "measure": {
+          "type": "keyword"
+        },
+        "name": {
+          "type": "keyword"
+        },
+        "options": {
+          "type": "nested",
+          "dynamic": "strict",
+          "properties": {
+            "id": {
+              "type": "integer",
+              "include_in_all": false
+            },
+            "label": {
+              "type": "text",
+              "include_in_all": false
+            },
+            "priority": {
+              "type": "integer",
+              "include_in_all": false
+            }
+          }
+        },
+        "parent_id": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "priority": {
+          "type": "integer"
+        }
+      }
+    },
+    "category": {
+      "dynamic": "strict",
+      "_all": {
+        "enabled": false,
+        "analyzer": "my_analyzer"
+      },
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "label": {
+          "type": "text"
+        },
+        "level": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "keyword"
+        },
+        "parent_id": {
+          "type": "integer"
+        },
+        "priority": {
+          "type": "integer"
+        },
+        "url": {
+          "type": "keyword"
+        }
+      }
+    },
+    "company": {
+      "dynamic": "strict",
+      "_all": {
+        "enabled": false,
+        "analyzer": "my_analyzer"
+      },
+      "properties": {
+        "description": {
+          "type": "text"
+        },
+        "email": {
+          "type": "text"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "keyword"
+        },
+        "phone": {
+          "type": "text"
+        },
+        "slogan": {
+          "type": "text"
+        },
+        "viewed_count": {
+          "type": "integer"
+        },
+        "website": {
+          "type": "text"
+        }
+      }
+    },
+    "post": {
+      "dynamic": "strict",
+      "_all": {
+        "enabled": true,
+        "analyzer": "my_analyzer"
+      },
+      "properties": {
+        "categories": {
+          "type": "nested",
+          "dynamic": "strict",
+          "properties": {
+            "id": {
+              "type": "integer",
+              "include_in_all": false
+            },
+            "label": {
+              "type": "text",
+              "include_in_all": true
+            },
+            "level": {
+              "type": "integer",
+              "include_in_all": false
+            },
+            "name": {
+              "type": "keyword",
+              "include_in_all": true
+            },
+            "priority": {
+              "type": "integer",
+              "include_in_all": false
+            },
+            "url": {
+              "type": "keyword"
+            }
+          }
+        },
+        "company_id": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "created_at": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "created_by": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "description": {
+          "type": "text",
+          "include_in_all": true
+        },
+        "extra": {
+          "type": "text",
+          "include_in_all": true
+        },
+        "id": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "location_ids": {
+          "type": "integer",
+          "include_in_all": true
+        },
+        "parameters": {
+          "type": "nested",
+          "dynamic": "strict",
+          "properties": {
+            "post_form": {
+              "type": "integer",
+              "include_in_all": false
+            },
+            "label": {
+              "type": "text",
+              "include_in_all": true
+            },
+            "name": {
+              "type": "keyword",
+              "include_in_all": false
+            },
+            "option_id": {
+              "type": "integer",
+              "include_in_all": false
+            },
+            "value": {
+              "type": "keyword",
+              "include_in_all": true
+            },
+            "value_num": {
+              "type": "scaled_float",
+              "scaling_factor": 10,
+              "include_in_all": false
+            }
+          }
+        },
+        "phones": {
+          "type": "keyword",
+          "include_in_all": false
+        },
+        "images": {
+          "type": "keyword",
+          "include_in_all": false
+        },
+        "price": {
+          "type": "float",
+          "include_in_all": false
+        },
+        "title": {
+          "type": "text",
+          "include_in_all": true
+        },
+        "updated_at": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "upped_at": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "viewed_count": {
+          "type": "integer",
+          "include_in_all": false
+        }
+      }
+    },
+    "location": {
+      "dynamic": "strict",
+      "_all": {
+        "enabled": true,
+        "analyzer": "my_analyzer"
+      },
+      "properties": {
+        "id": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "kind_name": {
+          "type": "keyword",
+          "include_in_all": false
+        },
+        "label": {
+          "type": "text"
+        },
+        "level": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "parent_id": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "population": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "priority": {
+          "type": "integer",
+          "include_in_all": false
+        },
+        "url": {
+          "type": "keyword",
+          "include_in_all": false
+        },
+        "lat": {
+          "type": "double"
+        },
+        "lon": {
+          "type": "double"
+        }
+      }
+    }
+  }
+}

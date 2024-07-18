@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Айдаркен",
+    "url": "aydarken",
+    "priority": "26",
+    "population": "10300",
+    "lat": "39.9359306",
+    "lon": "71.3120411"
+  },
+  {
+    "name": "Ат-Башы",
+    "url": "atbashy",
+    "priority": "20",
+    "population": "15227",
+    "lat": "41.1701684",
+    "lon": "75.7759231"
+  },
+  {
+    "name": "Балыкчы",
+    "url": "balykchy",
+    "priority": "7",
+    "population": "42800",
+    "lat": "42.45388",
+    "lon": "76.1537069"
+  },
+  {
+    "name": "Баткен",
+    "url": "batken",
+    "priority": "24",
+    "population": "13900",
+    "lat": "40.057621",
+    "lon": "70.7883017"
+  },
+  {
+    "name": "Бишкек",
+    "url": "bishkek",
+    "priority": "1",
+    "population": "907000",
+    "lat": "42.8769794",
+    "lon": "74.5218204"
+  },
+  {
+    "name": "Джалал-Абад",
+    "url": "dzhalalabad",
+    "priority": "3",
+    "population": "90200",
+    "lat": "40.9379793",
+    "lon": "72.9453557"
+  },
+  {
+    "name": "Исфана",
+    "url": "isfana",
+    "priority": "18",
+    "population": "18500",
+    "lat": "39.8244768",
+    "lon": "69.5052187"
+  },
+  {
+    "name": "Кадамжай",
+    "url": "kadamzhay",
+    "priority": "30",
+    "population": "6700",
+    "lat": "40.125381",
+    "lon": "71.7052971"
+  },
+  {
+    "name": "Кант",
+    "url": "kant",
+    "priority": "13",
+    "population": "21200",
+    "lat": "42.890052",
+    "lon": "74.846392"
+  },
+  {
+    "name": "Каинды",
+    "url": "kaindi",
+    "priority": "29",
+    "population": "7500",
+    "lat": "42.830031",
+    "lon": "73.682699"
+  },
+  {
+    "name": "Кара-Балта",
+    "url": "karabalta",
+    "priority": "8",
+    "population": "38200",
+    "lat": "42.819581",
+    "lon": "73.855476"
+  },
+  {
+    "name": "Каракол",
+    "url": "karakol",
+    "priority": "4",
+    "population": "67200",
+    "lat": "42.4862391",
+    "lon": "78.3672803"
+  },
+  {
+    "name": "Кара-Куль",
+    "url": "karakul",
+    "priority": "17",
+    "population": "19100",
+    "lat": "41.632445",
+    "lon": "72.676177"
+  },
+  {
+    "name": "Кара-Суу",
+    "url": "karasuu",
+    "priority": "13",
+    "population": "21300",
+    "lat": "40.710182",
+    "lon": "72.880526"
+  },
+  {
+    "name": "Кемин",
+    "url": "kemin",
+    "priority": "28",
+    "population": "8200",
+    "lat": "42.785197",
+    "lon": "75.690279"
+  },
+  {
+    "name": "Кербен",
+    "url": "kerben",
+    "priority": "23",
+    "population": "14500",
+    "lat": "41.50035",
+    "lon": "71.751652"
+  },
+  {
+    "name": "Кочкор-Ата",
+    "url": "kochkorata",
+    "priority": "21",
+    "population": "14900",
+    "lat": "41.03819",
+    "lon": "72.483473"
+  },
+  {
+    "name": "Кызыл-Кия",
+    "url": "kyzylkiya",
+    "priority": "11",
+    "population": "32200",
+    "lat": "40.257521",
+    "lon": "72.138233"
+  },
+  {
+    "name": "Майлуу-Суу",
+    "url": "mayluusuu",
+    "priority": "14",
+    "population": "20200",
+    "lat": "41.253032",
+    "lon": "72.450657"
+  },
+  {
+    "name": "Нарын",
+    "url": "naryn",
+    "priority": "9",
+    "population": "35200",
+    "lat": "41.426511",
+    "lon": "75.994778"
+  },
+  {
+    "name": "Ноокат",
+    "url": "nookat",
+    "priority": "22",
+    "population": "14800",
+    "lat": "40.267738",
+    "lon": "72.623348"
+  },
+  {
+    "name": "Орловка",
+    "url": "orlovka",
+    "priority": "31",
+    "population": "6300",
+    "lat": "42.747012",
+    "lon": "75.587111"
+  },
+  {
+    "name": "Ош",
+    "url": "osh",
+    "priority": "2",
+    "population": "232700",
+    "lat": "40.52189",
+    "lon": "72.802563"
+  },
+  {
+    "name": "Талас",
+    "url": "talas",
+    "priority": "10",
+    "population": "34500",
+    "lat": "42.531579",
+    "lon": "72.2299"
+  },
+  {
+    "name": "Таш-Кумыр",
+    "url": "tashkumyr",
+    "priority": "16",
+    "population": "19800",
+    "lat": "41.343567",
+    "lon": "72.215824"
+  },
+  {
+    "name": "Токмок",
+    "url": "tokmok",
+    "priority": "5",
+    "population": "53700",
+    "lat": "42.827135",
+    "lon": "75.296459"
+  },
+  {
+    "name": "Токтогул",
+    "url": "toktogul",
+    "priority": "19",
+    "population": "16400",
+    "lat": "41.873907",
+    "lon": "72.945929"
+  },
+  {
+    "name": "Узген",
+    "url": "uzgen",
+    "priority": "6",
+    "population": "50100",
+    "lat": "40.768842",
+    "lon": "73.304501"
+  },
+  {
+    "name": "Чолпон-Ата",
+    "url": "cholponata",
+    "priority": "25",
+    "population": "10700",
+    "lat": "42.649617",
+    "lon": "77.082109"
+  },
+  {
+    "name": "Шопоков",
+    "url": "shopokov",
+    "priority": "27",
+    "population": "8800",
+    "lat": "42.860489",
+    "lon": "74.344625"
+  },
+  {
+    "name": "Сулюкта",
+    "url": "sulyukta",
+    "priority": "12",
+    "population": "24700",
+    "lat": "39.9327048",
+    "lon": "69.5594107"
+  }
+]

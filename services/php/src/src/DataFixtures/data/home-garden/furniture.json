@@ -1,0 +1,304 @@
+{
+  "label": "Мебель",
+  "url": "home-garden-furniture",
+  "priority": 3,
+  "children": [
+    {
+      "label": "Готовые комплекты",
+      "url": "home-garden-furniture-ready-made-kits",
+      "priority": 1,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-furniture-ready-made-kits-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Кухонные гарнитуры","priority": 1},
+            {"label": "Гостиные","priority": 1},
+            {"label": "Спальни","priority": 1},
+            {"label": "Кабинеты","priority": 1},
+            {"label": "Прихожие","priority": 1},
+            {"label": "Детские","priority": 1},
+            {"label": "Ванные комнаты","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Шкафы, комоды, полки",
+      "url": "home-garden-furniture-cabinets-chests-shelves",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-furniture-cabinets-chests-shelves-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Шкафы","priority": 1},
+            {"label": "Шкафы-купе","priority": 1},
+            {"label": "Распашные шкафы","priority": 1},
+            {"label": "Стеллажи","priority": 1},
+            {"label": "Комоды","priority": 1},
+            {"label": "Тумбы","priority": 1},
+            {"label": "Полки","priority": 1},
+            {"label": "Обувницы","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Столы и стулья",
+      "url": "home-garden-furniture-tables-chairs",
+      "priority": 3,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-furniture-tables-chairs-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Столы и столики","priority": 1},
+            {"label": "Стулья, табуретки","priority": 1},
+            {"label": "Компьютерные и письменные столы","priority": 1},
+            {"label": "Компьютерные кресла","priority": 1},
+            {"label": "Банкетки и скамьи","priority": 1},
+            {"label": "Пуфики","priority": 1},
+            {"label": "Столики для ноутбуков","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Мебель для спальни",
+      "url": "home-garden-furniture-bedroom",
+      "priority": 4,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-furniture-bedroom-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Изголовья","priority": 1},
+            {"label": "Спальные гарнитуры","priority": 1},
+            {"label": "Кровати","priority": 1},
+            {"label": "Матрасы","priority": 1},
+            {"label": "Комоды","priority": 1},
+            {"label": "Тумбы прикроватные","priority": 1},
+            {"label": "Основания для матрасов","priority": 1},
+            {"label": "Шкафы","priority": 1},
+            {"label": "Туалетные столики","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Мягкая мебель",
+      "url": "home-garden-furniture-cushioned",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-furniture-cushioned-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Диваны и кушетки","priority": 1},
+            {"label": "Кресла","priority": 1},
+            {"label": "Кресла-мешки","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Детская мебель",
+      "url": "home-garden-furniture-kids",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-furniture-kids-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Парты и столы","priority": 1},
+            {"label": "Стулья и табуреты","priority": 1},
+            {"label": "Кроватки","priority": 1},
+            {"label": "Детские комоды","priority": 1},
+            {"label": "Колыбели и люльки","priority": 1},
+            {"label": "Манежи","priority": 1},
+            {"label": "Пеленальные столики","priority": 1},
+            {"label": "Стульчики для кормления","priority": 1},
+            {"label": "Качели, шезлонги","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Мебель для кухни",
+      "url": "home-garden-furniture-kitchen",
+      "priority": 7,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-furniture-kitchen-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Кухонные гарнитуры","priority": 1},
+            {"label": "Кухонные уголки и обеденные группы","priority": 1},
+            {"label": "Столы и столики","priority": 1},
+            {"label": "Стулья, табуретки","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Надувная, плетеная и прочая мебель",
+      "url": "home-garden-furniture-inflatable-wicker-other",
+      "priority": 8,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-furniture-inflatable-wicker-other-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Раскладушки","priority": 1},
+            {"label": "Надувная мебель","priority": 1},
+            {"label": "Плетеная мебель","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Фурнитура для мебели",
+      "url": "home-garden-furniture-fittings",
+      "priority": 9
+    },
+    {
+      "label": "Комплектующие",
+      "url": "home-garden-furniture-accessories",
+      "priority": 10,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "home-garden-furniture-accessories-type",
+          "priority": 11,
+          "post_form": "dropdown",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "заглушка","priority": 1},
+            {"label": "комплект направляющих","priority": 1},
+            {"label": "крепление","priority": 1},
+            {"label": "кронштейн","priority": 1},
+            {"label": "крючок","priority": 1},
+            {"label": "мебельная опора","priority": 1},
+            {"label": "мебельная петля","priority": 1},
+            {"label": "мебельный замок","priority": 1},
+            {"label": "метабокс","priority": 1},
+            {"label": "накладка","priority": 1},
+            {"label": "направляющая","priority": 1},
+            {"label": "планка","priority": 1},
+            {"label": "полкодержатель","priority": 1},
+            {"label": "ролики","priority": 1},
+            {"label": "ручка","priority": 1},
+            {"label": "стяжки","priority": 1},
+            {"label": "уголки","priority": 1},
+            {"label": "Другой","priority": 1}
+          ]
+        }
+      ]
+    }
+  ]
+}

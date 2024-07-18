@@ -1,0 +1,38 @@
+{
+  "label": "Товары для празников",
+  "url": "home-garden-holiday-goods",
+  "priority": 11,
+  "parameters": [
+    {
+      "label": "Тип",
+      "name": "home-garden-holiday-goods-type",
+      "priority": 11,
+      "post_form": "dropdown",
+      "regulations": [
+        {
+          "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+          "message": "Укажите тип"
+        }
+      ],
+      "search_form": "checkbox",
+      "search_priority": 11,
+      "filter_default_toggle": true,
+      "options": [
+        {"label": "Фейерверки","priority": 1},
+        {"label": "Воздушные шары","priority": 1},
+        {"label": "Подарочная упаковка","priority": 1},
+        {"label": "Открытки","priority": 1},
+        {"label": "Украшения для организации праздников","priority": 1},
+        {"label": "Цветы","priority": 1},
+        {"label": "Елки искусственные","priority": 1},
+        {"label": "Елочные украшения","priority": 1},
+        {"label": "Новогодний декор","priority": 1},
+        {"label": "Новогодние фигурки и сувениры","priority": 1},
+        {"label": "Елки живые","priority": 1},
+        {"label": "Свечи","priority": 1},
+        {"label": "К праздничному столу","priority": 1},
+        {"label": "Другой","priority": 1}
+      ]
+    }
+  ]
+}

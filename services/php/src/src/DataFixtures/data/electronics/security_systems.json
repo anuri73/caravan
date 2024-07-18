@@ -1,0 +1,497 @@
+{
+  "label": "Охранные системы",
+  "url": "electronics-security-systems",
+  "priority": 8,
+  "children": [
+    {
+      "label": "Видеонаблюдение",
+      "url": "electronics-security-systems-video-surveillance",
+      "priority": 1,
+      "children": [
+        {
+          "label": "Видеокамеры",
+          "url": "electronics-security-systems-video-surveillance-videocameras",
+          "priority": 1,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "electronics-security-systems-video-surveillance-videocameras-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "IP-камеры",
+                  "priority": 1
+                },
+                {
+                  "label": "Аналоговые",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "label": "Тип корпуса",
+              "name": "shape type",
+              "priority": 12,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип корпуса"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 12,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Корпусные камеры (bullet)",
+                  "priority": 1
+                },
+                {
+                  "label": "Купольные камеры",
+                  "priority": 2
+                },
+                {
+                  "label": "Поворотные камеры",
+                  "priority": 3
+                },
+                {
+                  "label": "Стандартные камеры",
+                  "priority": 4
+                }
+              ]
+            },
+            {
+              "label": "Производитель",
+              "name": "electronics-security-systems-video-surveillance-videocameras-brand",
+              "priority": 21,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "search_priority": 31,
+              "options": [
+                {"label": "Alert","priority": 1},
+                {"label": "AVC","priority": 1},
+                {"label": "AXIS","priority": 1},
+                {"label": "BEWARD","priority": 1},
+                {"label": "BOSCH","priority": 1},
+                {"label": "D-link","priority": 1},
+                {"label": "Dahua","priority": 1},
+                {"label": "Emin","priority": 1},
+                {"label": "EZVIZ","priority": 1},
+                {"label": "Falcon Eye","priority": 1},
+                {"label": "Hikvision","priority": 1},
+                {"label": "HiWatch","priority": 1},
+                {"label": "IVUE","priority": 1},
+                {"label": "Optimus","priority": 1},
+                {"label": "Pelco","priority": 1},
+                {"label": "Proto-X","priority": 1},
+                {"label": "PROvision","priority": 1},
+                {"label": "RVi","priority": 1},
+                {"label": "Samsung","priority": 1},
+                {"label": "Sony","priority": 1},
+                {"label": "TBTec","priority": 1},
+                {"label": "Vstarcam","priority": 1},
+                {"label": "Watec","priority": 1},
+                {"label": "WIZEBOX","priority": 1},
+                {"label": "Xiaomi","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            },
+            {
+              "label": "Разрешение",
+              "name": "electronics-security-systems-video-surveillance-videocameras-definition",
+              "priority": 22,
+              "post_form": "textbox",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Разрешение - значение должно быть числом"
+                }
+              ],
+              "measure": "мп",
+              "search_form": "range",
+              "search_priority": 32
+            },
+            {
+              "label": "Объектив",
+              "name": "lens",
+              "priority": 23,
+              "post_form": "textbox",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Объектив - значение должно быть числом"
+                }
+              ],
+              "measure": "мм",
+              "search_form": "range",
+              "search_priority": 33
+            },
+            {
+              "label": "ИК-подсветка",
+              "name": "ir",
+              "priority": 24,
+              "post_form": "textbox",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "ИК-подсветка - значение должно быть числом"
+                }
+              ],
+              "measure": "м",
+              "search_form": "range",
+              "search_priority": 34
+            }
+          ]
+        },
+        {
+          "label": "Видеорегистраторы",
+          "url": "electronics-security-systems-video-surveillance-videorecorders",
+          "priority": 2,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "electronics-security-systems-video-surveillance-videorecorders-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "DVR (аналоговый)",
+                  "priority": 1
+                },
+                {
+                  "label": "HDVR (гибридный)",
+                  "priority": 2
+                },
+                {
+                  "label": "NVR (сетевой)",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "label": "Производитель",
+              "name": "electronics-security-systems-video-surveillance-videorecorders-brand",
+              "priority": 21,
+              "post_form": "dropdown",
+              "search_form": "checkbox",
+              "search_priority": 31,
+              "options": [
+                {"label": "BEWARD","priority": 1},
+                {"label": "Dahua","priority": 1},
+                {"label": "Emin","priority": 1},
+                {"label": "Falcon Eye","priority": 1},
+                {"label": "Hikvision","priority": 1},
+                {"label": "HiWatch","priority": 1},
+                {"label": "Macroscop","priority": 1},
+                {"label": "MicroDigital","priority": 1},
+                {"label": "optimus","priority": 1},
+                {"label": "RVi","priority": 1},
+                {"label": "Samsung","priority": 1},
+                {"label": "TANTOS","priority": 1},
+                {"label": "TRASSIR","priority": 1},
+                {"label": "Другой","priority": 1}
+              ]
+            },
+            {
+              "label": "Количество каналов видео",
+              "name": "channels quantity",
+              "priority": 22,
+              "post_form": "textbox",
+              "measure": "каналов",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Количество каналов видео - значение должно быть числом"
+                }
+              ],
+              "search_form": "range",
+              "search_priority": 32
+            }
+          ]
+        },
+        {
+          "label": "Специализированные жесткие диски",
+          "url": "electronics-security-systems-video-surveillance-hard-drives",
+          "priority": 3,
+          "parameters": [
+            {
+              "label": "Объем памяти",
+              "name": "electronics-security-systems-video-surveillance-hard-drives-memory",
+              "priority": 15,
+              "post_form": "textbox",
+              "measure": "Тб",
+              "search_form": "range",
+              "search_priority": 33,
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\PositiveOrZero",
+                  "message": "Объем памяти - значение должно быть числом"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Аксессуары для камер",
+          "url": "electronics-security-systems-video-surveillance-accessories-for-cameras",
+          "priority": 4,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "electronics-security-systems-video-surveillance-accessories-for-cameras-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Крепления и кронштейны",
+                  "priority": 1
+                },
+                {
+                  "label": "Кожухи",
+                  "priority": 2
+                },
+                {
+                  "label": "Пульты управления поворотными камерами",
+                  "priority": 3
+                },
+                {
+                  "label": "Оптика",
+                  "priority": 4
+                },
+                {
+                  "label": "Прочие аксессуары для камер",
+                  "priority": 5
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "label": "Кабели и шнуры",
+          "url": "electronics-security-systems-video-surveillance-cables-cords",
+          "priority": 5,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "electronics-security-systems-video-surveillance-cables-cords-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Кабели коаксиальные",
+                  "priority": 1
+                },
+                {
+                  "label": "Кабели электрические",
+                  "priority": 2
+                },
+                {
+                  "label": "Кабели UTP",
+                  "priority": 3
+                },
+                {
+                  "label": "Разъемы",
+                  "priority": 4
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "label": "Источники питания",
+          "url": "electronics-security-systems-video-surveillance-power-supplies",
+          "priority": 6,
+          "parameters": [
+            {
+              "label": "Тип",
+              "name": "electronics-security-systems-video-surveillance-power-supplies-type",
+              "priority": 11,
+              "post_form": "radio",
+              "regulations": [
+                {
+                  "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+                  "message": "Укажите тип"
+                }
+              ],
+              "search_form": "checkbox",
+              "search_priority": 11,
+              "filter_default_toggle": true,
+              "options": [
+                {
+                  "label": "Влагозащищенные блоки питания",
+                  "priority": 1
+                },
+                {
+                  "label": "Блоки питания",
+                  "priority": 2
+                },
+                {
+                  "label": "Блоки питания с распределительной коробкой",
+                  "priority": 3
+                },
+                {
+                  "label": "Источники бесперебойного питания",
+                  "priority": 4
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "label": "Прочее для видеонаблюдения",
+          "url": "electronics-security-systems-video-surveillance-other",
+          "priority": 7
+        }
+      ]
+    },
+    {
+      "label": "Домофоны",
+      "url": "electronics-security-systems-doorphones-intercoms",
+      "priority": 2,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-security-systems-doorphones-intercoms-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Аудиодомофоны","priority": 1},
+            {"label": "Видеодомофоны","priority": 1},
+            {"label": "IP видеодомофоны","priority": 1},
+            {"label": "Вызывные панели","priority": 1},
+            {"label": "Другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Сигнализации",
+      "url": "electronics-security-systems-alarms",
+      "priority": 3
+    },
+    {
+      "label": "Противопожарное оборудование",
+      "url": "electronics-security-systems-fire-fighting",
+      "priority": 4
+    },
+    {
+      "label": "Датчики, извещатели",
+      "url": "electronics-security-systems-sensors-detectors",
+      "priority": 5,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-security-systems-sensors-detectors-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "детекторы движения","priority": 1},
+            {"label": "датчики охраны периметра","priority": 1},
+            {"label": "датчики открытия окна/двери","priority": 1},
+            {"label": "датчики пожарные","priority": 1},
+            {"label": "датчики газа","priority": 1},
+            {"label": "извещатели разбития стекла","priority": 1},
+            {"label": "извещатели затопления","priority": 1},
+            {"label": "температурные извещатели","priority": 1},
+            {"label": "датчики освещенности","priority": 1},
+            {"label": "другое","priority": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Системы контроля доступа",
+      "url": "electronics-security-systems-access-control",
+      "priority": 6,
+      "parameters": [
+        {
+          "label": "Тип",
+          "name": "electronics-security-systems-access-control-type",
+          "priority": 11,
+          "post_form": "radio",
+          "regulations": [
+            {
+              "class": "Symfony\\Component\\Validator\\Constraints\\Required",
+              "message": "Укажите тип"
+            }
+          ],
+          "search_form": "checkbox",
+          "search_priority": 11,
+          "filter_default_toggle": true,
+          "options": [
+            {"label": "Системы контроля доступа","priority": 1},
+            {"label": "Брелоки и карты доступа","priority": 2},
+            {"label": "Считыватели","priority": 3},
+            {"label": "Турникеты и шлагбаумы","priority": 4},
+            {"label": "Кнопки и выключатели","priority": 5},
+            {"label": "Другое","priority": 5}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Прочие товары для охранной системы",
+      "url": "electronics-security-systems-other",
+      "priority": 7
+    }
+  ]
+}
