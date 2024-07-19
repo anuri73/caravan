@@ -17,9 +17,6 @@ class Post
     #[ORM\Column(type: Types::GUID)]
     private ?string $id = null;
 
-    #[ORM\Column(length: 1024)]
-    private ?string $title = null;
-
     #[ORM\Column]
     private ?DateTimeImmutable $createdAt = null;
 

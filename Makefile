@@ -40,6 +40,7 @@ install:
 	make build-and-up
 	make php-composer-install
 	make php-migrations-migrate
+	make php-fixtures-load
 	make php-migrations-migrate-test
 	make php-link-phpunit
 
@@ -58,6 +59,10 @@ php-composer-clear-var:
 # Clear composer vendors
 php-composer-clear-vendor:
 	@$(DC_PHP) rm -rf vendor
+
+# Load fixtures
+php-fixtures-load:
+	@$(DC_PHP_CONSOLE) bin/console doctrine:fixtures:load --no-interaction
 
 # Link phpunit
 php-link-phpunit:

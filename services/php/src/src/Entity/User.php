@@ -7,15 +7,18 @@ use DateTimeImmutable;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
+use Symfony\Component\Security\Core\User\UserInterface;
 
 #[ORM\Entity(repositoryClass: UserRepository::class)]
 #[ORM\Table(name: '`user`')]
-class User
+#[ORM\HasLifecycleCallbacks]
+class User implements UserInterface, PasswordAuthenticatedUserInterface
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
     #[ORM\Column]
-    private ?int $id = null;
+    private ?string $id = null;
 
     #[ORM\Column(length: 512)]
     private ?string $email = null;
@@ -40,7 +43,7 @@ class User
         $this->posts = new ArrayCollection();
     }
 
-    public function getId(): ?int
+    public function getId(): ?string
     {
         return $this->id;
     }
@@ -81,10 +84,12 @@ class User
         return $this->createdAt;
     }
 
-    public function setCreatedAt(DateTimeImmutable $createdAt): static
+    #[ORM\PrePersist]
+    public function initCreatedAt(): static
     {
-        $this->createdAt = $createdAt;
-
+        if ($this->createdAt === null) {
+            $this->createdAt = new DateTimeImmutable();
+        }
         return $this;
     }
 
@@ -93,10 +98,13 @@ class User
         return $this->updatedAt;
     }
 
-    public function setUpdatedAt(DateTimeImmutable $updatedAt): static
+    #[ORM\PreUpdate]
+    #[ORM\PrePersist]
+    public function initUpdatedAt(): static
     {
-        $this->updatedAt = $updatedAt;
-
+        if ($this->updatedAt === null) {
+            $this->updatedAt = new DateTimeImmutable();
+        }
         return $this;
     }
 
@@ -128,5 +136,25 @@ class User
         }
 
         return $this;
+    }
+
+    public function getPassword(): ?string
+    {
+        return $this->getPasswordHash();
+    }
+
+    public function getRoles(): array
+    {
+        return [];
+    }
+
+    public function eraseCredentials(): void
+    {
+
+    }
+
+    public function getUserIdentifier(): string
+    {
+        return $this->getId();
     }
 }

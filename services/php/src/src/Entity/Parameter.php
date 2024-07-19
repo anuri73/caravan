@@ -160,7 +160,7 @@ class Parameter
         return $this->post_form;
     }
 
-    public function setPostForm(string $post_form): static
+    public function setPostForm(?string $post_form = null): static
     {
         $this->post_form = $post_form;
 
@@ -172,7 +172,7 @@ class Parameter
         return $this->search_form;
     }
 
-    public function setSearchForm(string $search_form): static
+    public function setSearchForm(?string $search_form = null): static
     {
         $this->search_form = $search_form;
 
@@ -184,7 +184,7 @@ class Parameter
         return $this->searchPriority;
     }
 
-    public function setSearchPriority(int $searchPriority): static
+    public function setSearchPriority(?int $searchPriority = null): static
     {
         $this->searchPriority = $searchPriority;
 

@@ -16,14 +16,22 @@ services:
   App\:
     resource: '../src/'
     exclude:
+      - '../src/DataFixtures/'
+      - '../src/DataProvider/'
       - '../src/DependencyInjection/'
       - '../src/Entity/'
       - '../src/Kernel.php'
-      - '../src/DataProvider/'
       - '../src/Repository/'
 
   # add more service definitions when explicit configuration is needed
   # please note that last definitions always *replace* previous ones
+
+  App\DataFixtures\AppFixtures:
+    class: App\DataFixtures\AppFixtures
+    arguments:
+      $params: '@Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface'
+      $logger: '@logger'
+      $passwordHasher: '@security.password_hasher'
 
   App\DataProvider\CategoryDataProvider:
     class: App\DataProvider\CategoryDataProvider
