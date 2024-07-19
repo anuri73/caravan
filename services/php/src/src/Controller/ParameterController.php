@@ -3,7 +3,9 @@
 namespace App\Controller;
 
 use App\DataProvider\DataProviderInterface;
+use App\DataProvider\EntityId;
 use App\DataProvider\ParameterDataProvider;
+use App\DataProvider\ParameterId;
 use App\Form\ParameterFormType;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\HttpFoundation\Request;
@@ -29,5 +31,10 @@ class ParameterController extends CrudController
         $form->handleRequest($request);
 
         return $form;
+    }
+
+    protected function createEntityId(Request $request): EntityId
+    {
+        return new ParameterId($request->get('name'), $request->get('category'));
     }
 }

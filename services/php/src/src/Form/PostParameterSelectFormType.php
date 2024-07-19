@@ -6,38 +6,23 @@ use App\Entity\Category;
 use App\Entity\Parameter;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\Extension\Core\Type\NumberType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class ParameterFormType extends AbstractType
+class PostParameterSelectFormType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
             ->add('name', TextType::class)
-            ->add('priority', NumberType::class)
-            ->add('postForm', TextType::class)
-            ->add('searchForm', TextType::class)
-            ->add('searchPriority', NumberType::class)
-            ->add('category', EntityType::class, [
-                'class' => Category::class,
-                'choice_label' => 'name',
-                'choice_attr' => 'name',
-            ])
-            ->add('parent', EntityType::class, [
-                'class' => Parameter::class,
-                'choice_label' => 'name',
-            ]);
+            ->add('category_name', TextType::class);
     }
 
     public function configureOptions(OptionsResolver $resolver): void
     {
         $resolver->setDefaults([
-            'data_class' => Parameter::class,
             'csrf_protection' => false,
-            'allow_extra_fields' => true
         ]);
     }
 

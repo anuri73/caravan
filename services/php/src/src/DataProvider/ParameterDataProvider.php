@@ -5,6 +5,7 @@ namespace App\DataProvider;
 use App\Entity\Parameter;
 use App\Repository\ParameterRepository;
 use Doctrine\Common\Collections\Collection;
+use http\Exception\InvalidArgumentException;
 
 class ParameterDataProvider implements DataProviderInterface
 {
@@ -15,9 +16,15 @@ class ParameterDataProvider implements DataProviderInterface
         $this->parameterRepository = $parameterRepository;
     }
 
-    public function find(string $id): ?Parameter
+    public function find(EntityId $id): ?Parameter
     {
-        return $this->parameterRepository->find($id);
+        if (!($id instanceof ParameterId)) {
+            throw new InvalidArgumentException("Unable to find parameter by given identity");
+        }
+        return $this->parameterRepository->findOneBy([
+            'name' => $id->getName(),
+            'category' => $id->getCategory(),
+        ]);
     }
 
     public function next(int $offset, int $limit): Collection

@@ -6,39 +6,40 @@ use App\Repository\PostRepository;
 use DateTimeImmutable;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use Ramsey\Uuid\Doctrine\UuidGenerator;
 
 #[ORM\Entity(repositoryClass: PostRepository::class)]
+#[ORM\HasLifecycleCallbacks]
 class Post
 {
     #[ORM\Id]
-    #[ORM\GeneratedValue]
-    #[ORM\Column(type: Types::GUID)]
+    #[ORM\Column(type: 'uuid', unique: true)]
+    #[ORM\GeneratedValue(strategy: 'CUSTOM')]
+    #[ORM\CustomIdGenerator(class: UuidGenerator::class)]
     private ?string $id = null;
 
     #[ORM\Column]
-    private ?DateTimeImmutable $createdAt = null;
+    private ?DateTimeImmutable $createdAt;
 
     #[ORM\Column]
-    private ?DateTimeImmutable $updatedAt = null;
+    private ?DateTimeImmutable $updatedAt;
 
     #[ORM\ManyToOne(inversedBy: 'posts')]
-    #[ORM\JoinColumn(nullable: false)]
+    #[ORM\JoinColumn(name: 'author_id', referencedColumnName: 'id', nullable: false)]
     private ?User $author = null;
 
-    /**
-     * @var Collection<int, Parameter>
-     */
-    #[ORM\ManyToMany(targetEntity: Parameter::class)]
-    #[ORM\JoinTable(name: 'post_parameter_value')]
-    #[ORM\JoinColumn(name: 'post_id', referencedColumnName: 'id')]
-    #[ORM\InverseJoinColumn(name: 'parameter_name', referencedColumnName: 'name')]
-    #[ORM\InverseJoinColumn(name: 'parameter_category_name', referencedColumnName: 'category_name')]
+    #[ORM\ManyToOne]
+    #[ORM\JoinColumn(name: 'category_name', referencedColumnName: 'name', nullable: false)]
+    private ?Category $category = null;
+
+    #[ORM\OneToMany(targetEntity: PostParameterValue::class, mappedBy: 'id', cascade: ['persist', 'remove'], orphanRemoval: true)]
     private Collection $parameterValues;
 
     public function __construct()
     {
+        $this->createdAt = new DateTimeImmutable();
+        $this->updatedAt = new DateTimeImmutable();
         $this->parameterValues = new ArrayCollection();
     }
 
@@ -54,27 +55,17 @@ class Post
         return $this;
     }
 
-    public function getTitle(): ?string
-    {
-        return $this->title;
-    }
-
-    public function setTitle(string $title): static
-    {
-        $this->title = $title;
-
-        return $this;
-    }
-
     public function getCreatedAt(): ?DateTimeImmutable
     {
         return $this->createdAt;
     }
 
-    public function setCreatedAt(DateTimeImmutable $createdAt): static
+    #[ORM\PrePersist]
+    public function initCreatedAt(): static
     {
-        $this->createdAt = $createdAt;
-
+        if ($this->createdAt === null) {
+            $this->createdAt = new DateTimeImmutable();
+        }
         return $this;
     }
 
@@ -83,10 +74,13 @@ class Post
         return $this->updatedAt;
     }
 
-    public function setUpdatedAt(DateTimeImmutable $updatedAt): static
+    #[ORM\PreUpdate]
+    #[ORM\PrePersist]
+    public function initUpdatedAt(): static
     {
-        $this->updatedAt = $updatedAt;
-
+        if ($this->updatedAt === null) {
+            $this->updatedAt = new DateTimeImmutable();
+        }
         return $this;
     }
 
@@ -102,38 +96,44 @@ class Post
         return $this;
     }
 
+    public function getCategory(): ?Category
+    {
+        return $this->category;
+    }
+
+    public function setCategory(?Category $category): static
+    {
+        $this->category = $category;
+
+        return $this;
+    }
+
     /**
-     * @return Collection<int, Parameter>
+     * @return Collection<int, PostParameterValue>
      */
     public function getParameterValues(): Collection
     {
         return $this->parameterValues;
     }
 
-    public function addParameterValue(Parameter $parameterValue): static
+    public function addParameterValue(PostParameterValue $parameterValue): static
     {
         if (!$this->parameterValues->contains($parameterValue)) {
             $this->parameterValues->add($parameterValue);
+            $parameterValue->setPost($this);
         }
 
         return $this;
     }
 
-    public function removeParameterValue(Parameter $parameterValue): static
+    public function removeParameterValue(PostParameterValue $parameterValue): static
     {
-        $this->parameterValues->removeElement($parameterValue);
-
-        return $this;
-    }
-
-    public function getGuid(): ?string
-    {
-        return $this->guid;
-    }
-
-    public function setGuid(string $guid): static
-    {
-        $this->guid = $guid;
+        if ($this->parameterValues->removeElement($parameterValue)) {
+            // set the owning side to null (unless already changed)
+            if ($parameterValue->getPost() === $this) {
+                $parameterValue->setPost(null);
+            }
+        }
 
         return $this;
     }

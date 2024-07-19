@@ -3,6 +3,8 @@
 namespace App\Controller;
 
 use App\DataProvider\DataProviderInterface;
+use App\DataProvider\EntityId;
+use App\DataProvider\GuidId;
 use App\DataProvider\PostDataProvider;
 use App\Form\PostFormType;
 use Symfony\Component\Form\FormInterface;
@@ -29,5 +31,10 @@ class PostController extends CrudController
         $form->handleRequest($request);
 
         return $form;
+    }
+
+    protected function createEntityId(Request $request): EntityId
+    {
+        return new GuidId($request->get('id'));
     }
 }

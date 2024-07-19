@@ -4,6 +4,8 @@ namespace App\Controller;
 
 use App\DataProvider\CategoryDataProvider;
 use App\DataProvider\DataProviderInterface;
+use App\DataProvider\EntityId;
+use App\DataProvider\NameId;
 use App\Form\CategoryFormType;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\HttpFoundation\Request;
@@ -29,5 +31,10 @@ class CategoryController extends CrudController
         $form->handleRequest($request);
 
         return $form;
+    }
+
+    protected function createEntityId(Request $request): EntityId
+    {
+        return new NameId($request->get('name'));
     }
 }

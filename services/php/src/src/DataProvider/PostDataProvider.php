@@ -5,6 +5,7 @@ namespace App\DataProvider;
 use App\Entity\Post;
 use App\Repository\PostRepository;
 use Doctrine\Common\Collections\Collection;
+use http\Exception\InvalidArgumentException;
 
 class PostDataProvider implements DataProviderInterface
 {
@@ -15,8 +16,12 @@ class PostDataProvider implements DataProviderInterface
         $this->postRepository = $postRepository;
     }
 
-    public function find(string $id): ?Post
+    public function find(EntityId $id): ?Post
     {
+        if (!($id instanceof GuidId)) {
+            throw new InvalidArgumentException("Unable to find post by given identity");
+        }
+
         return $this->postRepository->find($id);
     }
 
@@ -27,6 +32,12 @@ class PostDataProvider implements DataProviderInterface
 
     public function add($entity): Post
     {
+        if (!($entity instanceof Post)) {
+            throw new InvalidArgumentException('Invalid entity provided.');
+        }
+        foreach ($entity->getParameterValues() as $parameterValue) {
+            $parameterValue->setPost($entity);
+        }
         $this->postRepository->saveEntity($entity);
         return $entity;
     }

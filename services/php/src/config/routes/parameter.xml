@@ -9,7 +9,7 @@
         <default key="_controller">App\Controller\ParameterController::index</default>
     </route>
 
-    <route id="parameter_show" path="/parameter/{id}" methods="GET">
+    <route id="parameter_show" path="/parameter/{category}/{name}" methods="GET">
         <default key="_controller">App\Controller\ParameterController::show</default>
     </route>
 
@@ -17,11 +17,11 @@
         <default key="_controller">App\Controller\ParameterController::create</default>
     </route>
 
-    <route id="parameter_update" path="/parameter/{id}" methods="PUT">
+    <route id="parameter_update" path="/parameter/{category}/{name}" methods="PUT">
         <default key="_controller">App\Controller\ParameterController::update</default>
     </route>
 
-    <route id="parameter_delete" path="/parameter/{id}" methods="DELETE">
+    <route id="parameter_delete" path="/parameter/{category}/{name}" methods="DELETE">
         <default key="_controller">App\Controller\ParameterController::delete</default>
     </route>
 </routes>

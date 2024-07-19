@@ -55,6 +55,8 @@ class Category
         $this->parents = new ArrayCollection();
         $this->children = new ArrayCollection();
         $this->parameters = new ArrayCollection();
+        $this->createdAt = new DateTimeImmutable();
+        $this->updatedAt = new DateTimeImmutable();
     }
 
     public function getName(): ?string

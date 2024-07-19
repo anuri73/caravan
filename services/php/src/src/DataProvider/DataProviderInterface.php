@@ -4,7 +4,7 @@ namespace App\DataProvider;
 
 interface DataProviderInterface
 {
-    public function find(string $id);
+    public function find(EntityId $id);
 
     public function next(int $offset, int $limit);
 

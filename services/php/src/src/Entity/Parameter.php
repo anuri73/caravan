@@ -23,10 +23,10 @@ class Parameter
     private ?int $priority = 0;
 
     #[ORM\Column]
-    private ?DateTimeImmutable $createdAt = null;
+    private ?DateTimeImmutable $createdAt;
 
     #[ORM\Column]
-    private ?DateTimeImmutable $updatedAt = null;
+    private ?DateTimeImmutable $updatedAt;
 
     #[ORM\Id]
     #[ORM\ManyToOne(targetEntity: Category::class, inversedBy: 'parameters')]
@@ -41,10 +41,10 @@ class Parameter
     private Collection $validators;
 
     #[ORM\Column(length: 255, options: ["default" => "textbox"])]
-    private ?string $post_form = null;
+    private ?string $postForm = null;
 
     #[ORM\Column(length: 255, nullable: true)]
-    private ?string $search_form = null;
+    private ?string $searchForm = null;
 
     #[ORM\Column(nullable: true)]
     private ?int $searchPriority = 0;
@@ -64,6 +64,8 @@ class Parameter
     {
         $this->validators = new ArrayCollection();
         $this->children = new ArrayCollection();
+        $this->createdAt = new DateTimeImmutable();
+        $this->updatedAt = new DateTimeImmutable();
     }
 
     public function getName(): ?string
@@ -157,24 +159,24 @@ class Parameter
 
     public function getPostForm(): ?string
     {
-        return $this->post_form;
+        return $this->postForm;
     }
 
-    public function setPostForm(?string $post_form = null): static
+    public function setPostForm(?string $postForm = null): static
     {
-        $this->post_form = $post_form;
+        $this->postForm = $postForm;
 
         return $this;
     }
 
     public function getSearchForm(): ?string
     {
-        return $this->search_form;
+        return $this->searchForm;
     }
 
-    public function setSearchForm(?string $search_form = null): static
+    public function setSearchForm(?string $searchForm = null): static
     {
-        $this->search_form = $search_form;
+        $this->searchForm = $searchForm;
 
         return $this;
     }

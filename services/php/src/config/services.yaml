@@ -65,3 +65,9 @@ services:
     arguments:
       $registry: '@doctrine'
       $entityManager: '@doctrine.orm.entity_manager'
+
+  App\Repository\UserRepository:
+    class: App\Repository\UserRepository
+    arguments:
+      $registry: '@doctrine'
+      $entityManager: '@doctrine.orm.entity_manager'

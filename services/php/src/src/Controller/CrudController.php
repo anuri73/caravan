@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\DataProvider\DataProviderInterface;
+use App\DataProvider\EntityId;
 use App\Entity\Category;
 use FOS\RestBundle\Controller\AbstractFOSRestController;
 use Symfony\Component\Form\FormInterface;
@@ -18,33 +19,35 @@ abstract class CrudController extends AbstractFOSRestController
 
     abstract protected function createFormType(Request $request): FormInterface;
 
+    abstract protected function createEntityId(Request $request): EntityId;
+
     public function index(Request $request): Response
     {
         $offset = $request->get('offset', 0);
         $limit = $request->get('limit', 10);
-        return $this->jsonCategory($this->getDataProvider()->next($offset, $limit), Response::HTTP_OK);
+        return $this->jsonData($this->getDataProvider()->next($offset, $limit), Response::HTTP_OK);
     }
 
-    public function show(string $id): JsonResponse
+    public function show(Request $request): JsonResponse
     {
-        $entity = $this->getDataProvider()->find($id);
+        $entity = $this->getDataProvider()->find($this->createEntityId($request));
 
         if ($entity === null) {
             throw new NotFoundHttpException("Entity not found");
         }
 
-        return $this->jsonCategory($entity, Response::HTTP_OK);
+        return $this->jsonData($entity, Response::HTTP_OK);
     }
 
     public function create(Request $request): JsonResponse
     {
         $form = $this->createFormType($request);
 
-        if ($form->isValid()) {
+        if ($form->isSubmitted() && $form->isValid()) {
 
             $entity = $this->getDataProvider()->add($form->getData());
 
-            return $this->jsonCategory($entity, Response::HTTP_CREATED);
+            return $this->jsonData($entity, Response::HTTP_CREATED);
         }
 
         $errors = [];
@@ -58,9 +61,9 @@ abstract class CrudController extends AbstractFOSRestController
         return $this->json(['errors' => $errors], Response::HTTP_BAD_REQUEST);
     }
 
-    public function update(string $id, Request $request): Response
+    public function update(Request $request): Response
     {
-        $entity = $this->getDataProvider()->find($id);
+        $entity = $this->getDataProvider()->find($this->createEntityId($request));
 
         if ($entity === null) {
             throw new NotFoundHttpException("Entity not found");
@@ -73,7 +76,7 @@ abstract class CrudController extends AbstractFOSRestController
 
             $entity = $this->getDataProvider()->update($form->getData());
 
-            return $this->jsonCategory($entity, Response::HTTP_OK);
+            return $this->jsonData($entity, Response::HTTP_OK);
         }
 
         $errors = [];
@@ -87,9 +90,9 @@ abstract class CrudController extends AbstractFOSRestController
         return $this->json(['errors' => $errors], Response::HTTP_BAD_REQUEST);
     }
 
-    public function delete(string $id): Response
+    public function delete(Request $request): Response
     {
-        $entity = $this->getDataProvider()->find($id);
+        $entity = $this->getDataProvider()->find($this->createEntityId($request));
 
         if ($entity === null) {
             throw new NotFoundHttpException("Entity not found");
@@ -98,16 +101,20 @@ abstract class CrudController extends AbstractFOSRestController
         return $this->json($this->getDataProvider()->delete($entity), Response::HTTP_NO_CONTENT);
     }
 
-    public function jsonCategory($entity, $httpStatus): JsonResponse
+    public function jsonData($entity, $httpStatus): JsonResponse
     {
         return $this->json($entity,
             $httpStatus,
             [],
             [
-                AbstractNormalizer::CIRCULAR_REFERENCE_HANDLER => function ($obj) {
-                    return [
-                        $obj->getName()
-                    ];
+                AbstractNormalizer::CIRCULAR_REFERENCE_HANDLER => function ($object) {
+                    if (method_exists($object, 'getId')) {
+                        return $object->getId();
+                    }
+                    if (method_exists($object, 'getName')) {
+                        return $object->getName();
+                    }
+                    return null;
                 }
             ]
         );

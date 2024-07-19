@@ -5,6 +5,7 @@ namespace App\DataProvider;
 use App\Entity\Category;
 use App\Repository\CategoryRepository;
 use Doctrine\Common\Collections\Collection;
+use http\Exception\InvalidArgumentException;
 
 class CategoryDataProvider implements DataProviderInterface
 {
@@ -15,9 +16,13 @@ class CategoryDataProvider implements DataProviderInterface
         $this->categoryRepository = $categoryRepository;
     }
 
-    public function find(string $id): ?Category
+    public function find(EntityId $id): ?Category
     {
-        return $this->categoryRepository->find($id);
+        if (!($id instanceof NameId)) {
+            throw new InvalidArgumentException("Unable to find category by given identity");
+        }
+
+        return $this->categoryRepository->find($id->getName());
     }
 
     public function next(int $offset, int $limit): Collection

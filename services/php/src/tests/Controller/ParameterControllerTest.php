@@ -25,19 +25,27 @@ class ParameterControllerTest extends WebTestCase
     private array $parameters = [
         'param1' => [
             'name' => 'param1',
+            'category' => 'cat1',
             'priority' => 1,
+            'postForm' => 'textbox'
         ],
         'param2' => [
             'name' => 'param2',
+            'category' => 'cat2',
             'priority' => 1,
+            'postForm' => 'textbox'
         ],
         'param3' => [
             'name' => 'param3',
+            'category' => 'cat1',
             'priority' => 1,
+            'postForm' => 'textbox'
         ],
         'param4' => [
             'name' => 'param4',
+            'category' => 'cat2',
             'priority' => 1,
+            'postForm' => 'textbox'
         ]
     ];
 
@@ -90,9 +98,13 @@ class ParameterControllerTest extends WebTestCase
 
     public function testIndex()
     {
-        $category = $this->categories["cat1"];
+        $cat1 = $this->categories["cat1"];
 
-        $this->createCategory($category);
+        $this->createCategory($cat1);
+
+        $cat2 = $this->categories["cat2"];
+
+        $this->createCategory($cat2);
 
         $parameter = $this->parameters['param1'];
 
@@ -135,7 +147,7 @@ class ParameterControllerTest extends WebTestCase
 
         $this->createParameter($parameter);
 
-        $this->client->request('GET', "/api/parameter/{$parameter['name']}");
+        $this->client->request('GET', "/api/parameter/{$parameter['category']}/{$parameter['name']}");
         $this->assertSame(Response::HTTP_OK, $this->client->getResponse()->getStatusCode());
         $this->assertJson($this->client->getResponse()->getContent());
         $this->assertParameter(
@@ -154,10 +166,11 @@ class ParameterControllerTest extends WebTestCase
 
         $this->createParameter($parameter);
 
-        $this->client->jsonRequest('PUT', '/api/parameter/param1', [
+        $this->client->jsonRequest('PUT', '/api/parameter/cat1/param1', [
             "name" => 'param1',
             'priority' => 2,
-            'category' => "cat1"
+            'category' => "cat1",
+            'postForm' => 'textbox'
         ]);
 
         $this->assertSame(Response::HTTP_OK, $this->client->getResponse()->getStatusCode());
@@ -167,7 +180,8 @@ class ParameterControllerTest extends WebTestCase
             [
                 "name" => 'param1',
                 'priority' => 2,
-                'category' => ["name" => "cat1"]
+                'category' => ["name" => "cat1"],
+                'postForm' => 'textbox'
             ]
         );
     }
@@ -178,7 +192,7 @@ class ParameterControllerTest extends WebTestCase
 
         $this->createParameter($this->parameters["param1"]);
 
-        $this->client->request('DELETE', '/api/parameter/param1');
+        $this->client->request('DELETE', '/api/parameter/cat1/param1');
 
         $this->assertEquals(Response::HTTP_NO_CONTENT, $this->client->getResponse()->getStatusCode());
     }

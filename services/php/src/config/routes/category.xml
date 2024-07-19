@@ -9,7 +9,7 @@
         <default key="_controller">App\Controller\CategoryController::index</default>
     </route>
 
-    <route id="category_show" path="/category/{id}" methods="GET">
+    <route id="category_show" path="/category/{name}" methods="GET">
         <default key="_controller">App\Controller\CategoryController::show</default>
     </route>
 
@@ -17,11 +17,11 @@
         <default key="_controller">App\Controller\CategoryController::create</default>
     </route>
 
-    <route id="category_update" path="/category/{id}" methods="PUT">
+    <route id="category_update" path="/category/{name}" methods="PUT">
         <default key="_controller">App\Controller\CategoryController::update</default>
     </route>
 
-    <route id="category_delete" path="/category/{id}" methods="DELETE">
+    <route id="category_delete" path="/category/{name}" methods="DELETE">
         <default key="_controller">App\Controller\CategoryController::delete</default>
     </route>
 </routes>
