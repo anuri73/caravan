@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+                  http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+    <entity name="App\Entity\ParameterValidation" table="parameter_validation">
+        <id name="id" type="integer">
+            <generator strategy="SEQUENCE"/>
+        </id>
+
+        <field name="constraintClass" length="512"/>
+
+        <many-to-one field="parameter" target-entity="App\Entity\Parameter" inversed-by="validators">
+            <join-columns>
+                <join-column name="parameter_name" referenced-column-name="name" nullable="false"/>
+                <join-column name="parameter_category_name" referenced-column-name="category_name" nullable="false"/>
+            </join-columns>
+        </many-to-one>
+
+    </entity>
+</doctrine-mapping>

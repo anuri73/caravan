@@ -2,38 +2,22 @@
 
 namespace App\Entity;
 
-use App\Repository\PostRepository;
 use DateTimeImmutable;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use Doctrine\ORM\Mapping as ORM;
-use Ramsey\Uuid\Doctrine\UuidGenerator;
 
-#[ORM\Entity(repositoryClass: PostRepository::class)]
-#[ORM\HasLifecycleCallbacks]
 class Post
 {
-    #[ORM\Id]
-    #[ORM\Column(type: 'uuid', unique: true)]
-    #[ORM\GeneratedValue(strategy: 'CUSTOM')]
-    #[ORM\CustomIdGenerator(class: UuidGenerator::class)]
     private ?string $id = null;
 
-    #[ORM\Column]
     private ?DateTimeImmutable $createdAt;
 
-    #[ORM\Column]
     private ?DateTimeImmutable $updatedAt;
 
-    #[ORM\ManyToOne(inversedBy: 'posts')]
-    #[ORM\JoinColumn(name: 'author_id', referencedColumnName: 'id', nullable: false)]
     private ?User $author = null;
 
-    #[ORM\ManyToOne]
-    #[ORM\JoinColumn(name: 'category_name', referencedColumnName: 'name', nullable: false)]
     private ?Category $category = null;
 
-    #[ORM\OneToMany(targetEntity: PostParameterValue::class, mappedBy: 'id', cascade: ['persist', 'remove'], orphanRemoval: true)]
     private Collection $parameterValues;
 
     public function __construct()
@@ -60,7 +44,6 @@ class Post
         return $this->createdAt;
     }
 
-    #[ORM\PrePersist]
     public function initCreatedAt(): static
     {
         if ($this->createdAt === null) {
@@ -74,8 +57,6 @@ class Post
         return $this->updatedAt;
     }
 
-    #[ORM\PreUpdate]
-    #[ORM\PrePersist]
     public function initUpdatedAt(): static
     {
         if ($this->updatedAt === null) {
@@ -108,9 +89,6 @@ class Post
         return $this;
     }
 
-    /**
-     * @return Collection<int, PostParameterValue>
-     */
     public function getParameterValues(): Collection
     {
         return $this->parameterValues;
@@ -128,12 +106,7 @@ class Post
 
     public function removeParameterValue(PostParameterValue $parameterValue): static
     {
-        if ($this->parameterValues->removeElement($parameterValue)) {
-            // set the owning side to null (unless already changed)
-            if ($parameterValue->getPost() === $this) {
-                $parameterValue->setPost(null);
-            }
-        }
+        $this->parameterValues->removeElement($parameterValue);
 
         return $this;
     }

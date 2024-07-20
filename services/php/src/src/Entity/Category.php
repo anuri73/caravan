@@ -2,47 +2,24 @@
 
 namespace App\Entity;
 
-use App\Repository\CategoryRepository;
 use DateTimeImmutable;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity(repositoryClass: CategoryRepository::class)]
-#[ORM\Table(name: 'category')]
-#[ORM\UniqueConstraint(name: 'idx_category_name', columns: ['name'])]
-#[ORM\HasLifecycleCallbacks]
 class Category
 {
-    #[ORM\Id]
-    #[ORM\Column(name: "name", length: 255)]
     private ?string $name = null;
 
-    #[ORM\Column(nullable: true)]
     private ?int $priority = null;
 
-    #[ORM\Column]
     private ?DateTimeImmutable $createdAt;
 
-    #[ORM\Column]
     private ?DateTimeImmutable $updatedAt;
 
-    /**
-     * @var Collection<int, self>
-     */
-    #[ORM\ManyToMany(targetEntity: self::class, inversedBy: 'children')]
-    #[ORM\JoinTable(name: 'category_parent')]
-    #[ORM\JoinColumn(name: 'category_name', referencedColumnName: 'name')]
-    #[ORM\InverseJoinColumn(name: 'parent_name', referencedColumnName: 'name')]
     private Collection $parents;
 
-    /**
-     * @var Collection<int, self>
-     */
-    #[ORM\ManyToMany(targetEntity: self::class, mappedBy: 'parents')]
     private Collection $children;
 
-    #[ORM\OneToMany(targetEntity: Parameter::class, mappedBy: 'category')]
     private Collection $parameters;
 
     public function __construct()
@@ -83,7 +60,6 @@ class Category
         return $this->createdAt;
     }
 
-    #[ORM\PrePersist]
     public function initCreatedAt(): static
     {
         if ($this->createdAt === null) {
@@ -97,8 +73,6 @@ class Category
         return $this->updatedAt;
     }
 
-    #[ORM\PreUpdate]
-    #[ORM\PrePersist]
     public function initUpdatedAt(): static
     {
         if ($this->updatedAt === null) {
@@ -107,9 +81,6 @@ class Category
         return $this;
     }
 
-    /**
-     * @return Collection<int, self>
-     */
     public function getParents(): Collection
     {
         return $this->parents;
@@ -131,9 +102,6 @@ class Category
         return $this;
     }
 
-    /**
-     * @return Collection<int, self>
-     */
     public function getChildren(): Collection
     {
         return $this->children;

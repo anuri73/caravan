@@ -2,61 +2,32 @@
 
 namespace App\Entity;
 
-use App\Repository\ParameterRepository;
 use DateTimeImmutable;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use Doctrine\ORM\Mapping as ORM;
-use Symfony\Component\Serializer\Attribute as Serializer;
 
-#[ORM\Entity(repositoryClass: ParameterRepository::class)]
-#[ORM\Table(name: 'parameter')]
-#[ORM\UniqueConstraint(name: 'idx_parameter_name', columns: ['name', 'category_name'])]
-#[ORM\HasLifecycleCallbacks]
 class Parameter
 {
-    #[ORM\Id]
-    #[ORM\Column(name: "name", length: 255)]
     private ?string $name = null;
 
-    #[ORM\Column(nullable: true)]
     private ?int $priority = 0;
 
-    #[ORM\Column]
     private ?DateTimeImmutable $createdAt;
 
-    #[ORM\Column]
     private ?DateTimeImmutable $updatedAt;
 
-    #[ORM\Id]
-    #[ORM\ManyToOne(targetEntity: Category::class, inversedBy: 'parameters')]
-    #[ORM\JoinColumn(name: 'category_name', referencedColumnName: 'name')]
     private ?Category $category = null;
 
-    /**
-     * @var Collection<int, ParameterValidation>
-     */
-    #[ORM\OneToMany(targetEntity: ParameterValidation::class, mappedBy: 'parameter', orphanRemoval: true)]
     private Collection $validators;
 
-    #[ORM\Column(length: 255, options: ["default" => "textbox"])]
     private ?string $postForm = null;
 
-    #[ORM\Column(length: 255, nullable: true)]
     private ?string $searchForm = null;
 
-    #[ORM\Column(nullable: true)]
     private ?int $searchPriority = 0;
 
-    #[ORM\ManyToOne(targetEntity: self::class, inversedBy: 'children')]
-    #[ORM\JoinColumn(name: 'parent_name', referencedColumnName: 'name')]
-    #[ORM\JoinColumn(name: 'parent_category_name', referencedColumnName: 'category_name')]
     private ?self $parent = null;
 
-    /**
-     * @var Collection<int, self>
-     */
-    #[ORM\OneToMany(targetEntity: self::class, mappedBy: 'parent')]
     private Collection $children;
 
     public function __construct()
@@ -92,7 +63,6 @@ class Parameter
         return $this->createdAt;
     }
 
-    #[ORM\PrePersist]
     public function initCreatedAt(): static
     {
         if ($this->createdAt === null) {
@@ -106,8 +76,6 @@ class Parameter
         return $this->updatedAt;
     }
 
-    #[ORM\PreUpdate]
-    #[ORM\PrePersist]
     public function initUpdatedAt(): static
     {
         if ($this->updatedAt === null) {

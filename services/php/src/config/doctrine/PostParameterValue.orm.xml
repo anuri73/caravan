@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+                  http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+    <entity name="App\Entity\PostParameterValue" table="post_parameter_value">
+        <unique-constraints>
+            <unique-constraint name="idx_parameter_value" columns="post_id,parameter_name,category_name"/>
+        </unique-constraints>
+
+        <id name="id" type="uuid">
+            <generator strategy="CUSTOM"/>
+            <custom-id-generator class="Ramsey\Uuid\Doctrine\UuidGenerator"/>
+        </id>
+
+        <field name="value" length="1024" nullable="true"/>
+
+        <many-to-one field="post" target-entity="App\Entity\Post">
+            <join-column name="post_id" nullable="false"/>
+        </many-to-one>
+
+        <many-to-one field="parameter" target-entity="App\Entity\Parameter">
+            <join-columns>
+                <join-column name="parameter_name" referenced-column-name="name" nullable="false"/>
+                <join-column name="category_name" referenced-column-name="category_name" nullable="false"/>
+            </join-columns>
+        </many-to-one>
+
+    </entity>
+</doctrine-mapping>

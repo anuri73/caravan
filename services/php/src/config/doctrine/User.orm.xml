@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+                  http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+    <entity name="App\Entity\User" table="`user`">
+        <id name="id" type="uuid">
+            <generator strategy="CUSTOM"/>
+            <custom-id-generator class="Ramsey\Uuid\Doctrine\UuidGenerator"/>
+        </id>
+
+        <lifecycle-callbacks>
+            <lifecycle-callback type="prePersist" method="initCreatedAt"/>
+            <lifecycle-callback type="preUpdate" method="initUpdatedAt"/>
+        </lifecycle-callbacks>
+
+        <field name="email" length="512"/>
+        <field name="passwordHash"/>
+        <field name="createdAt" type="datetime_immutable"/>
+        <field name="updatedAt" type="datetime_immutable"/>
+
+        <one-to-many field="posts" target-entity="App\Entity\Post" mapped-by="author"/>
+    </entity>
+</doctrine-mapping>

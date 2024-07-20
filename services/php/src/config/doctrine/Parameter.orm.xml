@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+                  http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+    <entity name="App\Entity\Parameter" table="parameter">
+        <unique-constraints>
+            <unique-constraint name="idx_parameter_name" columns="name,category_name"/>
+        </unique-constraints>
+
+        <id name="name" length="255"/>
+        <id name="category" association-key="true"/>
+
+        <field name="priority" type="integer" nullable="true"/>
+        <field name="createdAt" type="datetime_immutable"/>
+        <field name="updatedAt" type="datetime_immutable"/>
+        <field name="postForm" length="255">
+            <options>
+                <option name="default">textbox</option>
+            </options>
+        </field>
+        <field name="searchForm" length="255" nullable="true"/>
+        <field name="searchPriority" type="integer" nullable="true"/>
+
+        <many-to-one field="category" target-entity="App\Entity\Category" inversed-by="parameters">
+            <join-column name="category_name" referenced-column-name="name"/>
+        </many-to-one>
+
+        <one-to-many field="validators" target-entity="App\Entity\ParameterValidation" mapped-by="parameter"
+                     orphan-removal="true"/>
+
+        <one-to-many field="children" target-entity="App\Entity\Parameter" mapped-by="parent"/>
+
+        <many-to-one field="parent" target-entity="App\Entity\Parameter" inversed-by="children">
+            <join-columns>
+                <join-column name="parent_name" referenced-column-name="name"/>
+                <join-column name="parent_category_name" referenced-column-name="category_name"/>
+            </join-columns>
+        </many-to-one>
+    </entity>
+</doctrine-mapping>
