@@ -37,4 +37,12 @@ class PostController extends CrudController
     {
         return new GuidId($request->get('id'));
     }
+
+    protected function serializationGroups(): array
+    {
+        return [
+            'list' => 'post_list',
+            'show' => 'post_show',
+        ];
+    }
 }

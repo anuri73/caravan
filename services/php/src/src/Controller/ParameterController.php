@@ -37,4 +37,12 @@ class ParameterController extends CrudController
     {
         return new ParameterId($request->get('name'), $request->get('category'));
     }
+
+    protected function serializationGroups(): array
+    {
+        return [
+            'list' => 'parameter_list',
+            'show' => 'parameter_show',
+        ];
+    }
 }

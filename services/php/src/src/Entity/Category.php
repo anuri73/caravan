@@ -7,7 +7,6 @@ use DateTimeImmutable;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Component\Serializer\Attribute as Serializer;
 
 #[ORM\Entity(repositoryClass: CategoryRepository::class)]
 #[ORM\Table(name: 'category')]
@@ -16,7 +15,6 @@ use Symfony\Component\Serializer\Attribute as Serializer;
 class Category
 {
     #[ORM\Id]
-    #[ORM\Unique]
     #[ORM\Column(name: "name", length: 255)]
     private ?string $name = null;
 
@@ -24,10 +22,10 @@ class Category
     private ?int $priority = null;
 
     #[ORM\Column]
-    private ?DateTimeImmutable $createdAt = null;
+    private ?DateTimeImmutable $createdAt;
 
     #[ORM\Column]
-    private ?DateTimeImmutable $updatedAt = null;
+    private ?DateTimeImmutable $updatedAt;
 
     /**
      * @var Collection<int, self>
@@ -36,18 +34,15 @@ class Category
     #[ORM\JoinTable(name: 'category_parent')]
     #[ORM\JoinColumn(name: 'category_name', referencedColumnName: 'name')]
     #[ORM\InverseJoinColumn(name: 'parent_name', referencedColumnName: 'name')]
-    #[Serializer\MaxDepth(1)]
     private Collection $parents;
 
     /**
      * @var Collection<int, self>
      */
     #[ORM\ManyToMany(targetEntity: self::class, mappedBy: 'parents')]
-    #[Serializer\MaxDepth(1)]
     private Collection $children;
 
     #[ORM\OneToMany(targetEntity: Parameter::class, mappedBy: 'category')]
-    #[Serializer\MaxDepth(1)]
     private Collection $parameters;
 
     public function __construct()

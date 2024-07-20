@@ -31,7 +31,6 @@ class Parameter
     #[ORM\Id]
     #[ORM\ManyToOne(targetEntity: Category::class, inversedBy: 'parameters')]
     #[ORM\JoinColumn(name: 'category_name', referencedColumnName: 'name')]
-    #[Serializer\MaxDepth(1)]
     private ?Category $category = null;
 
     /**

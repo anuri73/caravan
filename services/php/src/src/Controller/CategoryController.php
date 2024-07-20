@@ -37,4 +37,12 @@ class CategoryController extends CrudController
     {
         return new NameId($request->get('name'));
     }
+
+    protected function serializationGroups(): array
+    {
+        return [
+            'list' => 'category_list',
+            'show' => 'category_show',
+        ];
+    }
 }

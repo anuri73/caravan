@@ -1,0 +1,17 @@
+App\Entity\Category:
+  attributes:
+    max_depth: 1
+    name:
+      groups: [ 'parameter_list', 'parameter_show' , 'category_list', 'category_show' ]
+    priority:
+      groups: [ 'parameter_show', 'category_list', 'category_show' ]
+    createdAt:
+      groups: [ 'parameter_show', 'category_list', 'category_show' ]
+    updatedAt:
+      groups: [ 'parameter_show', 'category_list', 'category_show' ]
+    children:
+      groups: [ 'category_show' ]
+      max_depth: 1
+    parameters:
+      groups: [ 'category_show' ]
+      max_depth: 1

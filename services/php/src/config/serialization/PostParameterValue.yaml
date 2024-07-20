@@ -1,0 +1,9 @@
+App\Entity\PostParameterValue:
+  attributes:
+    max_depth: 1
+    id:
+      groups: [ 'post_show' ]
+    parameter:
+      groups: [ 'post_show' ]
+    value:
+      groups: [ 'post_show' ]

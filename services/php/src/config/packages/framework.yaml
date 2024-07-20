@@ -3,6 +3,15 @@ framework:
   secret: '%env(APP_SECRET)%'
   #csrf_protection: true
 
+  serializer:
+    default_context:
+      enable_max_depth: true
+      max_depth: 1
+
+    mapping:
+      paths:
+        - '%kernel.project_dir%/config/serialization'
+
   # Note that the session will be started ONLY if you read or write from it.
   session: true
 

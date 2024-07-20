@@ -1,0 +1,19 @@
+App\Entity\Parameter:
+  attributes:
+    max_depth: 1
+    name:
+      groups: [ 'parameter_list', 'parameter_show' , 'category_show' ]
+    category:
+      groups: [ 'parameter_list', 'parameter_show' ]
+    priority:
+      groups: [ 'parameter_list', 'parameter_show', 'category_show' ]
+    postForm:
+      groups: [ 'parameter_list', 'parameter_show' , 'category_show' ]
+    searchForm:
+      groups: [ 'parameter_list', 'parameter_show' , 'category_show' ]
+    searchPriority:
+      groups: [ 'parameter_list', 'parameter_show' , 'category_show' ]
+    createdAt:
+      groups: [ 'parameter_list', 'parameter_show' ]
+    updatedAt:
+      groups: [ 'parameter_list', 'parameter_show' ]

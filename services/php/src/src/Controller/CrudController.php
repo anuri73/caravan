@@ -4,7 +4,6 @@ namespace App\Controller;
 
 use App\DataProvider\DataProviderInterface;
 use App\DataProvider\EntityId;
-use App\Entity\Category;
 use FOS\RestBundle\Controller\AbstractFOSRestController;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -12,6 +11,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
+use Symfony\Component\Serializer\Normalizer\AbstractObjectNormalizer;
 
 abstract class CrudController extends AbstractFOSRestController
 {
@@ -21,11 +21,24 @@ abstract class CrudController extends AbstractFOSRestController
 
     abstract protected function createEntityId(Request $request): EntityId;
 
+    abstract protected function serializationGroups(): array;
+
     public function index(Request $request): Response
     {
         $offset = $request->get('offset', 0);
         $limit = $request->get('limit', 10);
-        return $this->jsonData($this->getDataProvider()->next($offset, $limit), Response::HTTP_OK);
+
+        $data = $this->getDataProvider()->next($offset, $limit);
+
+        return $this->json(
+            $data,
+            Response::HTTP_OK,
+            [],
+            [
+                AbstractNormalizer::GROUPS => $this->serializationGroups()['list'],
+                AbstractObjectNormalizer::ENABLE_MAX_DEPTH => true
+            ]
+        );
     }
 
     public function show(Request $request): JsonResponse
@@ -35,8 +48,15 @@ abstract class CrudController extends AbstractFOSRestController
         if ($entity === null) {
             throw new NotFoundHttpException("Entity not found");
         }
-
-        return $this->jsonData($entity, Response::HTTP_OK);
+        return $this->json(
+            $entity,
+            Response::HTTP_OK,
+            [],
+            [
+                AbstractNormalizer::GROUPS => $this->serializationGroups()['show'],
+                AbstractObjectNormalizer::ENABLE_MAX_DEPTH => true
+            ]
+        );
     }
 
     public function create(Request $request): JsonResponse
@@ -47,7 +67,14 @@ abstract class CrudController extends AbstractFOSRestController
 
             $entity = $this->getDataProvider()->add($form->getData());
 
-            return $this->jsonData($entity, Response::HTTP_CREATED);
+            return $this->json(
+                $entity,
+                Response::HTTP_CREATED,
+                [],
+                [
+                    AbstractNormalizer::GROUPS => $this->serializationGroups()['show'],
+                ]
+            );
         }
 
         $errors = [];
@@ -76,7 +103,14 @@ abstract class CrudController extends AbstractFOSRestController
 
             $entity = $this->getDataProvider()->update($form->getData());
 
-            return $this->jsonData($entity, Response::HTTP_OK);
+            return $this->json(
+                $entity,
+                Response::HTTP_OK,
+                [],
+                [
+                    AbstractNormalizer::GROUPS => $this->serializationGroups()['show'],
+                ]
+            );
         }
 
         $errors = [];
@@ -99,24 +133,5 @@ abstract class CrudController extends AbstractFOSRestController
         }
 
         return $this->json($this->getDataProvider()->delete($entity), Response::HTTP_NO_CONTENT);
-    }
-
-    public function jsonData($entity, $httpStatus): JsonResponse
-    {
-        return $this->json($entity,
-            $httpStatus,
-            [],
-            [
-                AbstractNormalizer::CIRCULAR_REFERENCE_HANDLER => function ($object) {
-                    if (method_exists($object, 'getId')) {
-                        return $object->getId();
-                    }
-                    if (method_exists($object, 'getName')) {
-                        return $object->getName();
-                    }
-                    return null;
-                }
-            ]
-        );
     }
 }
