@@ -7,4 +7,5 @@
     <import resource="category.xml"/>
     <import resource="parameter.xml"/>
     <import resource="post.xml"/>
+    <import resource="user.xml"/>
 </routes>

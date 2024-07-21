@@ -1,0 +1,20 @@
+services:
+  App\DataProvider\CategoryDataProvider:
+    class: App\DataProvider\CategoryDataProvider
+    arguments:
+      $categoryRepository: '@App\Repository\CategoryRepository'
+
+  App\DataProvider\ParameterDataProvider:
+    class: App\DataProvider\ParameterDataProvider
+    arguments:
+      $parameterRepository: '@App\Repository\ParameterRepository'
+
+  App\DataProvider\UserDataProvider:
+    class: App\DataProvider\UserDataProvider
+    arguments:
+      $userRepository: '@App\Repository\UserRepository'
+
+  App\DataProvider\PostDataProvider:
+    class: App\DataProvider\PostDataProvider
+    arguments:
+      $postRepository: '@App\Repository\PostRepository'

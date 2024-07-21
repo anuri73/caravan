@@ -1,6 +1,10 @@
 # This file is the entry point to configure your own services.
 # Files in the packages/ subdirectory configure your dependencies.
 
+imports:
+  - { resource: services/data_providers.yaml }
+  - { resource: services/repositories.yaml }
+
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
 parameters:
@@ -32,42 +36,3 @@ services:
       $params: '@Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface'
       $logger: '@logger'
       $passwordHasher: '@security.password_hasher'
-
-  App\DataProvider\CategoryDataProvider:
-    class: App\DataProvider\CategoryDataProvider
-    arguments:
-      $categoryRepository: '@App\Repository\CategoryRepository'
-
-  App\Repository\CategoryRepository:
-    class: App\Repository\CategoryRepository
-    arguments:
-      $registry: '@doctrine'
-      $entityManager: '@doctrine.orm.entity_manager'
-
-  App\DataProvider\ParameterDataProvider:
-    class: App\DataProvider\ParameterDataProvider
-    arguments:
-      $parameterRepository: '@App\Repository\ParameterRepository'
-
-  App\Repository\ParameterRepository:
-    class: App\Repository\ParameterRepository
-    arguments:
-      $registry: '@doctrine'
-      $entityManager: '@doctrine.orm.entity_manager'
-
-  App\DataProvider\PostDataProvider:
-    class: App\DataProvider\PostDataProvider
-    arguments:
-      $postRepository: '@App\Repository\PostRepository'
-
-  App\Repository\PostRepository:
-    class: App\Repository\PostRepository
-    arguments:
-      $registry: '@doctrine'
-      $entityManager: '@doctrine.orm.entity_manager'
-
-  App\Repository\UserRepository:
-    class: App\Repository\UserRepository
-    arguments:
-      $registry: '@doctrine'
-      $entityManager: '@doctrine.orm.entity_manager'

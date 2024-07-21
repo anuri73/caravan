@@ -1,0 +1,24 @@
+services:
+  App\Repository\CategoryRepository:
+    class: App\Repository\CategoryRepository
+    arguments:
+      $registry: '@doctrine'
+      $entityManager: '@doctrine.orm.entity_manager'
+
+  App\Repository\ParameterRepository:
+    class: App\Repository\ParameterRepository
+    arguments:
+      $registry: '@doctrine'
+      $entityManager: '@doctrine.orm.entity_manager'
+
+  App\Repository\PostRepository:
+    class: App\Repository\PostRepository
+    arguments:
+      $registry: '@doctrine'
+      $entityManager: '@doctrine.orm.entity_manager'
+
+  App\Repository\UserRepository:
+    class: App\Repository\UserRepository
+    arguments:
+      $registry: '@doctrine'
+      $entityManager: '@doctrine.orm.entity_manager'

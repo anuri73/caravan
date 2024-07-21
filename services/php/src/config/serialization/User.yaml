@@ -1,0 +1,11 @@
+App\Entity\User:
+  attributes:
+    max_depth: 1
+    id:
+      groups: [ 'user_registration' ]
+    email:
+      groups: [ 'user_registration' ]
+    createdAt:
+      groups: [ 'user_registration' ]
+    updatedAt:
+      groups: [ 'user_registration' ]
