@@ -8,3 +8,4 @@ docker-compose.yml
 /services/nginx/conf.d/*
 /services/nginx/logs/*
 /services/php/log/*
+/services/php/src/.phpunit.cache
